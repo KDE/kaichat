@@ -24,6 +24,7 @@ target_link_libraries(libkaichatwidgets
     Qt::Gui
     Qt::Widgets
     KF6::XmlGui
+    KF6::TextAutogenerateText
 )
 
 set_target_properties(libkaichatwidgets

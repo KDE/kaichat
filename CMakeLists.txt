@@ -38,10 +38,16 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     Config
     I18n
     WidgetsAddons
-    Completion
     XmlGui
     IconThemes
     Crash
+)
+
+find_package(KF6TextAutogenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(KF6TextAutogenerateText PROPERTIES
+    TYPE REQUIRED
+    PURPOSE "Required for building AI plugins support"
+    DESCRIPTION "Use AI plugin"
 )
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
