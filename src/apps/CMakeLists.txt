@@ -3,9 +3,9 @@
 
 include(ECMAddAppIcon)
 
-add_executable(kaitalk main.cpp)
+add_executable(kaichat main.cpp)
 
-target_link_libraries(kaitalk
+target_link_libraries(kaichat
     KF6::Crash
     KF6::XmlGui
     KF6::IconThemes
@@ -13,11 +13,11 @@ target_link_libraries(kaitalk
 )
 if (0)
 if(USE_DBUS)
-    target_link_libraries(kaitalk KF6::DBusAddons)
+    target_link_libraries(kaichat KF6::DBusAddons)
 else()
-    target_link_libraries(kaitalk KDAB::kdsingleapplication)
+    target_link_libraries(kaichat KDAB::kdsingleapplication)
     if (NOT WIN32 AND NOT APPLE)
-        target_link_libraries(kaitalk Qt::GuiPrivate)
+        target_link_libraries(kaichat Qt::GuiPrivate)
     endif()
 endif()
 endif()
@@ -26,4 +26,4 @@ endif()
 #ecm_add_app_icon(appIcons ICONS "${RUQOLA_ICONS}")
 #target_sources(ruqola PRIVATE ${appIcons})
 
-install(TARGETS kaitalk ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS kaichat ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

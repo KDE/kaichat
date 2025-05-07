@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 {
     KIconTheme::initTheme();
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("kaitalk")));
+    app.setWindowIcon(QIcon::fromTheme(QStringLiteral("kaichat")));
 
     KStyleManager::initStyle();
     /*
@@ -44,18 +44,18 @@ int main(int argc, char *argv[])
     KDSingleApplication sapp;
 #endif
 */
-    KLocalizedString::setApplicationDomain("kaitalk"_ba);
+    KLocalizedString::setApplicationDomain("kaichat"_ba);
 
     /*
-    KAboutData aboutData(QStringLiteral("kaitalk"),
-                         i18n("KAiTalk"),
+    KAboutData aboutData(QStringLiteral("kaichat"),
+                         i18n("KAiChat"),
                          QStringLiteral(RUQOLA_VERSION),
                          i18n("Rocket Chat Client"),
                          KAboutLicense::GPL_V2,
                          i18n("Copyright © 2025 Laurent Montel"));
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), QStringLiteral("montel@kde.org"));
     aboutData.setOrganizationDomain("kde.org"_ba);
-    aboutData.setProductName("kaitalk"_ba);
+    aboutData.setProductName("kaichat"_ba);
 
     // KAboutData::setApplicationData(aboutData);
 */

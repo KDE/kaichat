@@ -1,7 +1,8 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
-project(kaitalk VERSION ${RELEASE_SERVICE_VERSION})
+set(KAICHAT_VERSION "0.1")
+project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(QT_REQUIRED_VERSION "6.9.0")
 set(KF_MIN_VERSION "6.13.0")
@@ -41,14 +42,14 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     Crash
 )
 
-add_definitions(-DTRANSLATION_DOMAIN="kaitalk")
+add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 ecm_set_disabled_deprecation_versions(QT 6.9.0
     KF 6.13.0
 )
 
-set(KAITALK_LIB_VERSION "${RELEASE_SERVICE_VERSION}")
-set(KAITALK_LIB_SOVERSION "0")
+set(KAICHAT_LIB_VERSION "${RELEASE_SERVICE_VERSION}")
+set(KAICHAT_LIB_SOVERSION "0")
 
 if(BUILD_TESTING)
     add_definitions(-DBUILD_TESTING)
