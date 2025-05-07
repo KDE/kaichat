@@ -5,10 +5,17 @@
  */
 
 #include "kaichatcentralwidget.h"
-
+#include <QVBoxLayout>
+#include <TextAutogenerateText/TextAutogenerateWidget>
+using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(QWidget *parent)
     : QWidget{parent}
+    , mTextAutogenerateWidget(new TextAutogenerateText::TextAutogenerateWidget(this))
 {
+    auto mainLayout = new QVBoxLayout(this);
+    mainLayout->setObjectName("dd"_L1);
+    mainLayout->setContentsMargins({});
+    mainLayout->addWidget(mTextAutogenerateWidget);
 }
 
 KAIChatCentralWidget::~KAIChatCentralWidget() = default;

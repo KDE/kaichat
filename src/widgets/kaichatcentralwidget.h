@@ -8,10 +8,17 @@
 
 #include "libkaichatwidgets_private_export.h"
 #include <QWidget>
+namespace TextAutogenerateText
+{
+class TextAutogenerateWidget;
+}
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
     Q_OBJECT
 public:
     explicit KAIChatCentralWidget(QWidget *parent = nullptr);
     ~KAIChatCentralWidget() override;
+
+private:
+    TextAutogenerateText::TextAutogenerateWidget *const mTextAutogenerateWidget;
 };
