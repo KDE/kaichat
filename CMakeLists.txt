@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
 set(KAICHAT_VERSION "0.1")
 project(kaichat VERSION ${KAICHAT_VERSION})
 
+set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
+
 set(QT_REQUIRED_VERSION "6.8.0")
 set(KF_MIN_VERSION "6.13.0")
 
@@ -48,7 +50,6 @@ ecm_set_disabled_deprecation_versions(QT 6.9.0
     KF 6.13.0
 )
 
-set(KAICHAT_LIB_VERSION "${RELEASE_SERVICE_VERSION}")
 set(KAICHAT_LIB_SOVERSION "0")
 
 if(BUILD_TESTING)
