@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.kaichat</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <developer id="kde.org">
+    <name translate="no">KDE</name>
+    <url>https://kde.org</url>
+  </developer>
+  <name>KAIChat</name>
+  <summary>AI Chat</summary>
+  <description>
+    <p>
+      KAIChat is an AI Chat.
+    </p>
+  </description>
+  <url type="homepage">https://apps.kde.org/kaichat</url>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kaichat</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=kaichat&amp;source=appdata</url>
+  <project_group>KDE</project_group>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">moderate</content_attribute>
+    <content_attribute id="social-audio">moderate</content_attribute>
+  </content_rating>
+  <provides>
+    <binary>kaichat</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.kaichat.desktop</launchable>
+</component>

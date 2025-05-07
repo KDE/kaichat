@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=KAIChat
+Type=Application
+Exec=kaichat -qwindowtitle %c %u
+Icon=kaichat
+GenericName=AI Chat
+StartupNotify=true
+Categories=Qt;KDE;Network;InstantMessaging;
+SingleMainWindow=true
+Version=1.5
