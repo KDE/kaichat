@@ -9,6 +9,7 @@
 #include <QApplication>
 #include <QCommandLineParser>
 
+#include "kaichatmainwindow.h"
 #include <iostream>
 
 // #include <KAboutData>
@@ -91,7 +92,9 @@ int main(int argc, char *argv[])
         return 0;
     }
 #endif
-    auto mw = new RuqolaMainWindow();
+*/
+    auto mw = new KAIChatMainWindow();
+    /*
 #if WITH_DBUS
     QObject::connect(&service, &KDBusService::activateRequested, mw, &RuqolaMainWindow::slotActivateRequested);
 #else
@@ -118,8 +121,8 @@ int main(int argc, char *argv[])
 #endif
     mw->parseCommandLine(&parser);
 
-    mw->show();
 */
+    mw->show();
     const int val = app.exec();
     return val;
 }
