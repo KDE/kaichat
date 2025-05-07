@@ -11,6 +11,7 @@ target_sources(libkaichatwidgets PRIVATE
     kaichatcentralwidget.cpp
 
     libkaichatwidgets_private_export.h
+    kaichatwidgets.qrc
 )
 
 

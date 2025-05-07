@@ -1,0 +1,12 @@
+<!--
+    SPDX-FileCopyrightText: Laurent Montel <montel@kde.org>
+    SPDX-License-Identifier: CC0-1.0
+-->
+
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/kxmlgui5/kaichat">
+        <file>kaichatui.rc</file>
+    </qresource>
+</RCC>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE gui SYSTEM "kpartgui.dtd">
+<gui name="kaichat" version="1">
+ <MenuBar>
+  <Menu name="file" >
+  </Menu>
+  <Menu name="settings" append="settings_merge">
+    <text>&amp;Settings</text>
+    <Action name="colorscheme_menu" />
+  </Menu>
+  <Menu name="help">
+   <text>&amp;Help</text>
+   <Action name="whatsnew_ruqola" />
+   <Separator/>
+   <Action name="verify_check_version" />
+   <Separator/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="mainToolBar" fullWidth="true" ><text>Main Toolbar</text>
+  <Spacer/>
+  <Action name="hamburger_menu"/>
+ </ToolBar>
+</gui>
+
