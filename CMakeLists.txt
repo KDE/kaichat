@@ -6,6 +6,14 @@ project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
 
+# add an extra space
+if(DEFINED KAICHAT_DEV_VERSION)
+    set(KAICHAT_DEV_VERSION " ${KAICHAT_DEV_VERSION}")
+endif()
+
+set(KAICHAT_VERSION_STRING "${KAICHAT_VERSION}${KAICHAT_DEV_VERSION}")
+
+
 set(QT_REQUIRED_VERSION "6.8.0")
 set(KF_MIN_VERSION "6.13.0")
 
@@ -52,6 +60,7 @@ set_package_properties(KF6TextAutogenerateText PROPERTIES
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.9.0
     KF 6.13.0
 )
@@ -61,6 +70,8 @@ set(KAICHAT_LIB_SOVERSION "0")
 if(BUILD_TESTING)
     add_definitions(-DBUILD_TESTING)
 endif()
+
+configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 
 add_subdirectory( src )
 

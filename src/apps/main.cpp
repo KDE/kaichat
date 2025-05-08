@@ -9,10 +9,11 @@
 #include <QApplication>
 #include <QCommandLineParser>
 
+#include "config-kaichat.h"
 #include "kaichatmainwindow.h"
 #include <iostream>
 
-// #include <KAboutData>
+#include <KAboutData>
 #include <QIcon>
 
 #include <KIconTheme>
@@ -47,10 +48,9 @@ int main(int argc, char *argv[])
 */
     KLocalizedString::setApplicationDomain("kaichat"_ba);
 
-    /*
     KAboutData aboutData(QStringLiteral("kaichat"),
                          i18n("KAiChat"),
-                         QStringLiteral(RUQOLA_VERSION),
+                         QStringLiteral(KAICHAT_VERSION),
                          i18n("Rocket Chat Client"),
                          KAboutLicense::GPL_V2,
                          i18n("Copyright © 2025 Laurent Montel"));
@@ -58,8 +58,7 @@ int main(int argc, char *argv[])
     aboutData.setOrganizationDomain("kde.org"_ba);
     aboutData.setProductName("kaichat"_ba);
 
-    // KAboutData::setApplicationData(aboutData);
-*/
+    KAboutData::setApplicationData(aboutData);
 
     KCrash::initialize();
     QCommandLineParser parser;

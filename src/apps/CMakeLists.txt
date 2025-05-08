@@ -10,6 +10,7 @@ target_link_libraries(kaichat
     KF6::XmlGui
     KF6::IconThemes
     KF6::I18n
+    KF6::CoreAddons
     libkaichatwidgets
 )
 if (0)
