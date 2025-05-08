@@ -63,9 +63,9 @@ int main(int argc, char *argv[])
     KCrash::initialize();
     QCommandLineParser parser;
 
-    // aboutData.setupCommandLine(&parser);
+    aboutData.setupCommandLine(&parser);
     parser.process(app);
-    // aboutData.processCommandLine(&parser);
+    aboutData.processCommandLine(&parser);
 
     /*
 #if WITH_DBUS
