@@ -6,11 +6,11 @@
 
 #include "kaichatcentralwidget.h"
 #include <QVBoxLayout>
-#include <TextAutogenerateText/TextAutogenerateWidget>
+#include <TextAutoGenerateText/TextAutoGenerateWidget>
 using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(QWidget *parent)
     : QWidget{parent}
-    , mTextAutogenerateWidget(new TextAutogenerateText::TextAutogenerateWidget(this))
+    , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("dd"_L1);

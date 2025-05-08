@@ -38,7 +38,7 @@ include(ECMCheckOutboundLicense)
 
 set(KTEXTADDONS_MIN_VERSION "1.5.4")
 # Remove it when next 1.6.0 KTEXTADDONS_MIN_VERSION
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.5.64")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.5.66")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
@@ -51,8 +51,8 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     Crash
 )
 
-find_package(KF6TextAutogenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
-set_package_properties(KF6TextAutogenerateText PROPERTIES
+find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(KF6TextAutoGenerateText PROPERTIES
     TYPE REQUIRED
     PURPOSE "Required for building AI plugins support"
     DESCRIPTION "Use AI plugin"

@@ -8,9 +8,9 @@
 
 #include "libkaichatwidgets_private_export.h"
 #include <QWidget>
-namespace TextAutogenerateText
+namespace TextAutoGenerateText
 {
-class TextAutogenerateWidget;
+class TextAutoGenerateWidget;
 }
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
@@ -20,5 +20,5 @@ public:
     ~KAIChatCentralWidget() override;
 
 private:
-    TextAutogenerateText::TextAutogenerateWidget *const mTextAutogenerateWidget;
+    TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
 };
