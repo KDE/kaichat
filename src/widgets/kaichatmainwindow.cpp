@@ -44,3 +44,5 @@ void KAIChatMainWindow::readConfig()
         resize(sizeDialog);
     }
 }
+
+#include "moc_kaichatmainwindow.cpp"

@@ -19,3 +19,5 @@ KAIChatCentralWidget::KAIChatCentralWidget(QWidget *parent)
 }
 
 KAIChatCentralWidget::~KAIChatCentralWidget() = default;
+
+#include "moc_kaichatcentralwidget.cpp"
