@@ -8,9 +8,14 @@
 
 #include "kaichatcentralwidget.h"
 
+#include <KActionCollection>
 #include <KConfigGroup>
+#include <KLocalizedString>
+#include <KMessageBox>
 #include <KSharedConfig>
-
+#include <KStandardActions>
+#include <KToolBar>
+#include <QMenuBar>
 namespace
 {
 static const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
@@ -22,7 +27,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
 {
     mMainWidget->setObjectName(QStringLiteral("mMainWidget"));
     setCentralWidget(mMainWidget);
-    // TODO setupActions();
+    setupActions();
     // TODO setupStatusBar();
     setupGUI(/*QStringLiteral(":/kxmlgui5/ruqola/ruqolaui.rc")*/);
     readConfig();
@@ -43,6 +48,52 @@ void KAIChatMainWindow::readConfig()
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
     }
+}
+
+void KAIChatMainWindow::setupActions()
+{
+    KActionCollection *ac = actionCollection();
+
+    mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
+
+    KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
+    KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
+    // KStandardActions::configureNotifications(this, &RuqolaMainWindow::slotConfigureNotifications, ac);
+}
+
+void KAIChatMainWindow::slotClose()
+{
+    mReallyClose = true;
+    close();
+}
+
+void KAIChatMainWindow::slotConfigure()
+{
+    // TODO
+}
+
+void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
+{
+    /*
+    if (menuBar()) {
+        if (mShowMenuBarAction->isChecked()) {
+            menuBar()->show();
+        } else {
+            if (!dontShowWarning && (!toolBar()->isVisible() || !toolBar()->actions().contains(mHamburgerMenu))) {
+                const QString accel = mShowMenuBarAction->shortcut().toString(QKeySequence::NativeText);
+                KMessageBox::information(this,
+                                         i18n("<qt>This will hide the menu bar completely."
+                                              " You can show it again by typing %1.</qt>",
+                                              accel),
+                                         i18nc("@title:window", "Hide menu bar"),
+                                         QStringLiteral("HideMenuBarWarning"));
+            }
+            menuBar()->hide();
+        }
+        RuqolaGlobalConfig::self()->setShowMenuBar(mShowMenuBarAction->isChecked());
+        RuqolaGlobalConfig::self()->save();
+    }
+    */
 }
 
 #include "moc_kaichatmainwindow.cpp"

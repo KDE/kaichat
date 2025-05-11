@@ -8,6 +8,7 @@
 #include "libkaichatwidgets_export.h"
 #include <KXmlGuiWindow>
 class KAIChatCentralWidget;
+class KToggleAction;
 class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
 {
     Q_OBJECT
@@ -17,5 +18,11 @@ public:
 
 private:
     LIBKAICHATWIDGETS_NO_EXPORT void readConfig();
+    LIBKAICHATWIDGETS_NO_EXPORT void setupActions();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotClose();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotConfigure();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotToggleMenubar(bool dontShowWarning);
     KAIChatCentralWidget *const mMainWidget;
+    bool mReallyClose{false};
+    KToggleAction *mShowMenuBarAction = nullptr;
 };
