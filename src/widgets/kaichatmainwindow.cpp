@@ -7,13 +7,16 @@
 #include "kaichatmainwindow.h"
 
 #include "kaichatcentralwidget.h"
+#include "kaichatglobalconfig.h"
 
 #include <KActionCollection>
 #include <KConfigGroup>
 #include <KLocalizedString>
 #include <KMessageBox>
 #include <KSharedConfig>
+#include <KStandardAction>
 #include <KStandardActions>
+#include <KToggleAction>
 #include <KToolBar>
 #include <QMenuBar>
 namespace
@@ -74,12 +77,11 @@ void KAIChatMainWindow::slotConfigure()
 
 void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
 {
-    /*
     if (menuBar()) {
         if (mShowMenuBarAction->isChecked()) {
             menuBar()->show();
         } else {
-            if (!dontShowWarning && (!toolBar()->isVisible() || !toolBar()->actions().contains(mHamburgerMenu))) {
+            if (!dontShowWarning && (!toolBar()->isVisible() /* TODO || !toolBar()->actions().contains(mHamburgerMenu)*/)) {
                 const QString accel = mShowMenuBarAction->shortcut().toString(QKeySequence::NativeText);
                 KMessageBox::information(this,
                                          i18n("<qt>This will hide the menu bar completely."
@@ -90,10 +92,9 @@ void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
             }
             menuBar()->hide();
         }
-        RuqolaGlobalConfig::self()->setShowMenuBar(mShowMenuBarAction->isChecked());
-        RuqolaGlobalConfig::self()->save();
+        KAIChatGlobalConfig::self()->setShowMenuBar(mShowMenuBarAction->isChecked());
+        KAIChatGlobalConfig::self()->save();
     }
-    */
 }
 
 #include "moc_kaichatmainwindow.cpp"

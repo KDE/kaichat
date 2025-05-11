@@ -1,7 +1,5 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
-find_package(Qt6 REQUIRED COMPONENTS Widgets)
-
 add_library(libkaichatwidgets)
 
 target_sources(libkaichatwidgets PRIVATE
@@ -13,6 +11,8 @@ target_sources(libkaichatwidgets PRIVATE
     libkaichatwidgets_private_export.h
     kaichatwidgets.qrc
 )
+
+kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
 
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)

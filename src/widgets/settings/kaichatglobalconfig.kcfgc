@@ -1,0 +1,7 @@
+File=kaichatglobalconfig.kcfg
+ClassName=KAIChatGlobalConfig
+Mutators=true
+Singleton=true
+ItemAccessors=true
+Visibility=LIBKAICHATWIDGETS_EXPORT
+IncludeFiles=libkaichatwidgets_export.h
