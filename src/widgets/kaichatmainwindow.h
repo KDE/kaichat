@@ -9,6 +9,7 @@
 #include <KXmlGuiWindow>
 class KAIChatCentralWidget;
 class KToggleAction;
+class KHamburgerMenu;
 class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
 {
     Q_OBJECT
@@ -22,7 +23,9 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotClose();
     LIBKAICHATWIDGETS_NO_EXPORT void slotConfigure();
     LIBKAICHATWIDGETS_NO_EXPORT void slotToggleMenubar(bool dontShowWarning);
+    LIBKAICHATWIDGETS_NO_EXPORT void updateHamburgerMenu();
     KAIChatCentralWidget *const mMainWidget;
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
+    KHamburgerMenu *mHamburgerMenu = nullptr;
 };

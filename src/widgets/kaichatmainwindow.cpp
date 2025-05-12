@@ -11,6 +11,7 @@
 
 #include <KActionCollection>
 #include <KConfigGroup>
+#include <KHamburgerMenu>
 #include <KLocalizedString>
 #include <KMessageBox>
 #include <KSharedConfig>
@@ -34,6 +35,8 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     // TODO setupStatusBar();
     setupGUI(/*QStringLiteral(":/kxmlgui5/ruqola/ruqolaui.rc")*/);
     readConfig();
+    mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
+    slotToggleMenubar(true);
 }
 
 KAIChatMainWindow::~KAIChatMainWindow()
@@ -62,6 +65,28 @@ void KAIChatMainWindow::setupActions()
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
     // KStandardActions::configureNotifications(this, &RuqolaMainWindow::slotConfigureNotifications, ac);
+
+    if (menuBar()) {
+        mHamburgerMenu = KStandardAction::hamburgerMenu(nullptr, nullptr, actionCollection());
+        mHamburgerMenu->setShowMenuBarAction(mShowMenuBarAction);
+        mHamburgerMenu->setMenuBar(menuBar());
+        mHamburgerMenu->hideActionsOf(toolBar());
+        connect(mHamburgerMenu, &KHamburgerMenu::aboutToShowMenu, this, [this]() {
+            updateHamburgerMenu();
+            // Immediately disconnect. We only need to run this once, but on demand.
+            // NOTE: The nullptr at the end disconnects all connections between
+            // q and mHamburgerMenu's aboutToShowMenu signal.
+            disconnect(mHamburgerMenu, &KHamburgerMenu::aboutToShowMenu, this, nullptr);
+        });
+    }
+}
+
+void KAIChatMainWindow::updateHamburgerMenu()
+{
+    delete mHamburgerMenu->menu();
+    auto menu = new QMenu(this);
+    menu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Quit)));
+    mHamburgerMenu->setMenu(menu);
 }
 
 void KAIChatMainWindow::slotClose()
@@ -81,7 +106,7 @@ void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
         if (mShowMenuBarAction->isChecked()) {
             menuBar()->show();
         } else {
-            if (!dontShowWarning && (!toolBar()->isVisible() /* TODO || !toolBar()->actions().contains(mHamburgerMenu)*/)) {
+            if (!dontShowWarning && (!toolBar()->isVisible() || !toolBar()->actions().contains(mHamburgerMenu))) {
                 const QString accel = mShowMenuBarAction->shortcut().toString(QKeySequence::NativeText);
                 KMessageBox::information(this,
                                          i18n("<qt>This will hide the menu bar completely."
