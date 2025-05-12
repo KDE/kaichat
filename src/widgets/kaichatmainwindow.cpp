@@ -64,6 +64,11 @@ void KAIChatMainWindow::setupActions()
 
     mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
 
+    mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
+
+    connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
+    ac->addAction(QStringLiteral("show_archive"), mShowArchivedAction);
+
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
     // KStandardActions::configureNotifications(this, &RuqolaMainWindow::slotConfigureNotifications, ac);
@@ -124,6 +129,11 @@ void KAIChatMainWindow::slotFullScreen(bool t)
 void KAIChatMainWindow::slotConfigure()
 {
     // TODO
+}
+
+void KAIChatMainWindow::slotShowArchive(bool checked)
+{
+    mMainWidget->showArchive(checked);
 }
 
 void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)

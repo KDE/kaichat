@@ -11,7 +11,8 @@
 using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(QWidget *parent)
     : QWidget{parent}
-    , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateWidget(new TextAutoGenerateText::TextAutoGenerateManager(this), this))
+    , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
+    , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateWidget(mManager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
@@ -20,5 +21,10 @@ KAIChatCentralWidget::KAIChatCentralWidget(QWidget *parent)
 }
 
 KAIChatCentralWidget::~KAIChatCentralWidget() = default;
+
+void KAIChatCentralWidget::showArchive(bool checked)
+{
+    mManager->setShowArchived(checked);
+}
 
 #include "moc_kaichatcentralwidget.cpp"

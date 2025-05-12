@@ -11,6 +11,7 @@
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateWidget;
+class TextAutoGenerateManager;
 }
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
@@ -19,6 +20,9 @@ public:
     explicit KAIChatCentralWidget(QWidget *parent = nullptr);
     ~KAIChatCentralWidget() override;
 
+    void showArchive(bool checked);
+
 private:
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
     TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
 };

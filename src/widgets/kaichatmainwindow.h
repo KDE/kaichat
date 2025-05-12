@@ -19,6 +19,7 @@ public:
     ~KAIChatMainWindow() override;
 
 private:
+    LIBKAICHATWIDGETS_NO_EXPORT void slotShowArchive(bool checked);
     LIBKAICHATWIDGETS_NO_EXPORT void readConfig();
     LIBKAICHATWIDGETS_NO_EXPORT void setupActions();
     LIBKAICHATWIDGETS_NO_EXPORT void slotClose();
@@ -31,4 +32,5 @@ private:
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
     KToggleFullScreenAction *mShowFullScreenAction = nullptr;
+    KToggleAction *mShowArchivedAction = nullptr;
 };
