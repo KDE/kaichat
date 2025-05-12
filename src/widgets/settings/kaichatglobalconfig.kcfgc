@@ -1,3 +1,5 @@
+#SPDX-License-Identifier: GPL-2.0-or-later
+#SPDX-FileCopyrightText: Laurent Montel <montel@kde.org>
 File=kaichatglobalconfig.kcfg
 ClassName=KAIChatGlobalConfig
 Mutators=true
