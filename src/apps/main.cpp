@@ -41,11 +41,9 @@ int main(int argc, char *argv[])
     app.setWindowIcon(QIcon::fromTheme(QStringLiteral("kaichat")));
 
     KStyleManager::initStyle();
-    /*
 #if !WITH_DBUS
     KDSingleApplication sapp;
 #endif
-*/
     KLocalizedString::setApplicationDomain("kaichat"_ba);
 
     KAboutData aboutData(QStringLiteral("kaichat"),
@@ -91,9 +89,8 @@ int main(int argc, char *argv[])
     }
 #endif
     auto mw = new KAIChatMainWindow();
-#if 0
 #if WITH_DBUS
-    QObject::connect(&service, &KDBusService::activateRequested, mw, &RuqolaMainWindow::slotActivateRequested);
+    QObject::connect(&service, &KDBusService::activateRequested, mw, &KAIChatMainWindow::slotActivateRequested);
 #else
     QApplication::connect(&sapp, &KDSingleApplication::messageReceived, &app, [mw](const QByteArray &messageData) {
         QJsonDocument doc = QJsonDocument::fromJson(messageData);
@@ -116,8 +113,8 @@ int main(int argc, char *argv[])
         mw->slotActivateRequested(arguments, message[QLatin1String("working_dir")].toString());
     });
 #endif
-    mw->parseCommandLine(&parser);
-#endif
+    // TODO mw->parseCommandLine(&parser);
+
     mw->show();
     const int val = app.exec();
     return val;
