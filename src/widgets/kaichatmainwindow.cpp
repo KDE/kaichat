@@ -10,6 +10,9 @@
 #include "kaichatglobalconfig.h"
 
 #include <KActionCollection>
+#include <KActionMenu>
+#include <KColorSchemeManager>
+#include <KColorSchemeMenu>
 #include <KConfigGroup>
 #include <KHamburgerMenu>
 #include <KLocalizedString>
@@ -67,6 +70,9 @@ void KAIChatMainWindow::setupActions()
     mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
 
     mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
+
+    auto manager = KColorSchemeManager::instance();
+    ac->addAction(QStringLiteral("colorscheme_menu"), KColorSchemeMenu::createMenu(manager, this));
 
     connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
     ac->addAction(QStringLiteral("show_archive"), mShowArchivedAction);
