@@ -18,7 +18,9 @@
 #include <KStandardAction>
 #include <KStandardActions>
 #include <KToggleAction>
+#include <KToggleFullScreenAction>
 #include <KToolBar>
+#include <QFontDatabase>
 #include <QMenuBar>
 namespace
 {
@@ -66,6 +68,10 @@ void KAIChatMainWindow::setupActions()
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
     // KStandardActions::configureNotifications(this, &RuqolaMainWindow::slotConfigureNotifications, ac);
 
+    mShowFullScreenAction = KStandardAction::fullScreen(nullptr, nullptr, this, ac);
+    ac->setDefaultShortcut(mShowFullScreenAction, Qt::Key_F11);
+    connect(mShowFullScreenAction, &QAction::toggled, this, &KAIChatMainWindow::slotFullScreen);
+
     if (menuBar()) {
         mHamburgerMenu = KStandardAction::hamburgerMenu(nullptr, nullptr, actionCollection());
         mHamburgerMenu->setShowMenuBarAction(mShowMenuBarAction);
@@ -93,6 +99,26 @@ void KAIChatMainWindow::slotClose()
 {
     mReallyClose = true;
     close();
+}
+
+void KAIChatMainWindow::slotFullScreen(bool t)
+{
+    KToggleFullScreenAction::setFullScreen(this, t);
+    QMenuBar *mb = menuBar();
+    if (t) {
+        auto b = new QToolButton(mb);
+        b->setDefaultAction(mShowFullScreenAction);
+        b->setSizePolicy(QSizePolicy(QSizePolicy::Minimum, QSizePolicy::Ignored));
+        b->setFont(QFontDatabase::systemFont(QFontDatabase::SmallestReadableFont));
+        mb->setCornerWidget(b, Qt::TopRightCorner);
+        b->setVisible(true);
+        b->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
+    } else {
+        QWidget *w = mb->cornerWidget(Qt::TopRightCorner);
+        if (w) {
+            w->deleteLater();
+        }
+    }
 }
 
 void KAIChatMainWindow::slotConfigure()
