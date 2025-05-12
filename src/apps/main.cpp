@@ -24,8 +24,10 @@
 #include <KDBusService>
 #else
 #include <KWindowSystem>
+#include <QDir>
 #include <QJsonArray>
 #include <QJsonDocument>
+#include <QJsonObject>
 #include <QWindow>
 #include <kdsingleapplication.h>
 #if !defined(Q_OS_WIN) && !defined(Q_OS_MACOS)
