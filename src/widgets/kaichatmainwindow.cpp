@@ -35,7 +35,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     setCentralWidget(mMainWidget);
     setupActions();
     // TODO setupStatusBar();
-    setupGUI(/*QStringLiteral(":/kxmlgui5/ruqola/ruqolaui.rc")*/);
+    setupGUI();
     readConfig();
     mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
     slotToggleMenubar(true);
