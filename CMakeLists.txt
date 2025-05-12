@@ -49,6 +49,7 @@ find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS
     XmlGui
     IconThemes
     Crash
+    WindowSystem
 )
 
 find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
@@ -70,6 +71,24 @@ set(KAICHAT_LIB_SOVERSION "0")
 if(BUILD_TESTING)
     add_definitions(-DBUILD_TESTING)
 endif()
+
+# shall we use DBus?
+# enabled per default on Linux & BSD systems
+set(USE_DBUS_DEFAULT OFF)
+if(UNIX AND NOT APPLE AND NOT HAIKU)
+    set(USE_DBUS_DEFAULT ON)
+endif()
+
+option(USE_DBUS "Build components using DBus" ${USE_DBUS_DEFAULT})
+if(USE_DBUS)
+   set(WITH_DBUS TRUE)
+   find_package(KF6DBusAddons ${KF_MIN_VERSION} CONFIG REQUIRED)
+endif()
+
+if (NOT USE_DBUS)
+    find_package(KDSingleApplication-qt6 CONFIG REQUIRED)
+endif()
+
 
 configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 

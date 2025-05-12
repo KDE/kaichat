@@ -5,3 +5,4 @@
 */
 
 #define KAICHAT_VERSION "${KAICHAT_VERSION_STRING}"
+#cmakedefine01 WITH_DBUS

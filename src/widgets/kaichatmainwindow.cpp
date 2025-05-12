@@ -20,6 +20,8 @@
 #include <KToggleAction>
 #include <KToggleFullScreenAction>
 #include <KToolBar>
+#include <KWindowSystem>
+#include <QCommandLineParser>
 #include <QFontDatabase>
 #include <QMenuBar>
 namespace
@@ -156,6 +158,23 @@ void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
         KAIChatGlobalConfig::self()->setShowMenuBar(mShowMenuBarAction->isChecked());
         KAIChatGlobalConfig::self()->save();
     }
+}
+
+void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, const QString &workingDirectory)
+{
+    Q_UNUSED(workingDirectory)
+    if (!arguments.isEmpty()) {
+        QCommandLineParser parser;
+        // TODO RuqolaCommandLineParser commandLineParser(&parser);
+        parser.parse(arguments);
+        // TODO parseCommandLine(&parser);
+    }
+#if !defined(Q_OS_WIN) && !defined(Q_OS_MACOS)
+    KWindowSystem::updateStartupId(windowHandle());
+    KWindowSystem::activateWindow(windowHandle());
+#else
+    activateWindow();
+#endif
 }
 
 #include "moc_kaichatmainwindow.cpp"

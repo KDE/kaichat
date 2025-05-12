@@ -13,7 +13,7 @@ target_link_libraries(kaichat
     KF6::CoreAddons
     libkaichatwidgets
 )
-if (0)
+
 if(USE_DBUS)
     target_link_libraries(kaichat KF6::DBusAddons)
 else()
@@ -21,7 +21,6 @@ else()
     if (NOT WIN32 AND NOT APPLE)
         target_link_libraries(kaichat Qt::GuiPrivate)
     endif()
-endif()
 endif()
 
 #file(GLOB_RECURSE RUQOLA_ICONS "${PROJECT_SOURCE_DIR}/src/icons/*-apps-ruqola.png")

@@ -19,7 +19,7 @@
 #include <KIconTheme>
 
 #include <KStyleManager>
-/*
+
 #if WITH_DBUS
 #include <KDBusService>
 #else
@@ -32,7 +32,7 @@
 #include <private/qtx11extras_p.h>
 #endif
 #endif
-*/
+
 using namespace Qt::Literals::StringLiterals;
 int main(int argc, char *argv[])
 {
@@ -67,7 +67,6 @@ int main(int argc, char *argv[])
     parser.process(app);
     aboutData.processCommandLine(&parser);
 
-    /*
 #if WITH_DBUS
     KDBusService service(KDBusService::Unique);
 #else
@@ -91,9 +90,8 @@ int main(int argc, char *argv[])
         return 0;
     }
 #endif
-*/
     auto mw = new KAIChatMainWindow();
-    /*
+#if 0
 #if WITH_DBUS
     QObject::connect(&service, &KDBusService::activateRequested, mw, &RuqolaMainWindow::slotActivateRequested);
 #else
@@ -119,8 +117,7 @@ int main(int argc, char *argv[])
     });
 #endif
     mw->parseCommandLine(&parser);
-
-*/
+#endif
     mw->show();
     const int val = app.exec();
     return val;

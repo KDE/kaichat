@@ -18,6 +18,8 @@ public:
     explicit KAIChatMainWindow(QWidget *parent = nullptr);
     ~KAIChatMainWindow() override;
 
+    void slotActivateRequested(const QStringList &arguments, const QString &workingDirectory);
+
 private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowArchive(bool checked);
     LIBKAICHATWIDGETS_NO_EXPORT void readConfig();
