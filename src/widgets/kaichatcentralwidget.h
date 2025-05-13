@@ -21,6 +21,7 @@ public:
     ~KAIChatCentralWidget() override;
 
     void showArchive(bool checked);
+    void searchText();
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;

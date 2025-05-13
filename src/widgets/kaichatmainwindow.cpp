@@ -71,6 +71,8 @@ void KAIChatMainWindow::setupActions()
 
     mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
 
+    KStandardAction::find(this, &KAIChatMainWindow::slotSearchText, ac);
+
     auto manager = KColorSchemeManager::instance();
     ac->addAction(QStringLiteral("colorscheme_menu"), KColorSchemeMenu::createMenu(manager, this));
 
@@ -181,6 +183,11 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, cons
 #else
     activateWindow();
 #endif
+}
+
+void KAIChatMainWindow::slotSearchText()
+{
+    mMainWidget->searchText();
 }
 
 #include "moc_kaichatmainwindow.cpp"

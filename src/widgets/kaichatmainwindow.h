@@ -29,6 +29,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotToggleMenubar(bool dontShowWarning);
     LIBKAICHATWIDGETS_NO_EXPORT void updateHamburgerMenu();
     LIBKAICHATWIDGETS_NO_EXPORT void slotFullScreen(bool t);
+    LIBKAICHATWIDGETS_NO_EXPORT void slotSearchText();
     KAIChatCentralWidget *const mMainWidget;
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;

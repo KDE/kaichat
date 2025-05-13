@@ -26,4 +26,9 @@ void KAIChatCentralWidget::showArchive(bool checked)
     mManager->setShowArchived(checked);
 }
 
+void KAIChatCentralWidget::searchText()
+{
+    mTextAutogenerateWidget->slotSearchText();
+}
+
 #include "moc_kaichatcentralwidget.cpp"
