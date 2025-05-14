@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "kaichat"
+SPDX-PackageSupplier = "Laurent Montel <montel@kde.org>"
+SPDX-PackageDownloadLocation = "https://invent.kde.org/utilities/kaichat"
+
+[[annotations]]
+path = ["REUSE.toml", "src/icons/**", "logo.png", "logo.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Laurent Montel <montel@kde.org>"
+SPDX-License-Identifier = "CC0-1.0"
