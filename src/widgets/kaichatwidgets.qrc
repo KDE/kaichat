@@ -8,5 +8,8 @@
     <qresource prefix="/kxmlgui5/kaichat">
         <file>kaichatui.rc</file>
     </qresource>
+    <qresource prefix="/icons">
+        <file alias="systray.png">icons/48-apps-kaichat.png</file>
+    </qresource>
 </RCC>
 

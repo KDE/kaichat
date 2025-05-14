@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
+add_subdirectory(icons)
 add_library(libkaichatwidgets)
 
 target_sources(libkaichatwidgets PRIVATE
@@ -7,6 +8,9 @@ target_sources(libkaichatwidgets PRIVATE
     kaichatmainwindow.cpp
     kaichatcentralwidget.h
     kaichatcentralwidget.cpp
+
+    kaichatnotificatifieritem.h
+    kaichatnotificatifieritem.cpp
 
     libkaichatwidgets_private_export.h
     kaichatwidgets.qrc
@@ -27,6 +31,7 @@ target_link_libraries(libkaichatwidgets
     KF6::I18n
     KF6::TextAutoGenerateText
     KF6::WindowSystem
+    KF6::StatusNotifierItem
 )
 
 set_target_properties(libkaichatwidgets

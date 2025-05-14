@@ -8,6 +8,7 @@
 
 #include "kaichatcentralwidget.h"
 #include "kaichatglobalconfig.h"
+#include "kaichatnotificatifieritem.h"
 
 #include <KActionCollection>
 #include <KActionMenu>
@@ -42,6 +43,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     // TODO setupStatusBar();
     setupGUI();
     readConfig();
+    createSystemTray();
     mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
     slotToggleMenubar(true);
 }
@@ -61,6 +63,34 @@ void KAIChatMainWindow::readConfig()
     if (sizeDialog.isValid()) {
         resize(sizeDialog);
     }
+}
+
+void KAIChatMainWindow::createSystemTray()
+{
+#if !defined(Q_OS_IOS)
+    /*
+    if (!RuqolaGlobalConfig::self()->enableSystemTray()) {
+        delete mNotification;
+        mNotification = nullptr;
+        return;
+    }
+    */
+    if (!mNotification) {
+        mNotification = new KAIChatNotificatifierItem(this);
+        /*
+        auto trayMenu = mNotification->contextMenu();
+
+        mContextStatusMenu = mNotification->contextMenu()->addMenu(i18nc("@item:inmenu Instant message presence status", "Status"));
+        mContextStatusMenu->menuAction()->setVisible(false);
+        trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Preferences)));
+        trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::ConfigureNotifications)));
+        // Create systray to show notifications on Desktop
+        connect(mNotification, &Notification::alert, this, [this]() {
+            QApplication::alert(this, 0);
+        });
+        */
+    }
+#endif
 }
 
 void KAIChatMainWindow::setupActions()

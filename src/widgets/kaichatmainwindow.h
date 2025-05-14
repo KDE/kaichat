@@ -11,6 +11,7 @@ class KAIChatCentralWidget;
 class KToggleAction;
 class KHamburgerMenu;
 class KToggleFullScreenAction;
+class KAIChatNotificatifierItem;
 class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
 {
     Q_OBJECT
@@ -30,10 +31,12 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void updateHamburgerMenu();
     LIBKAICHATWIDGETS_NO_EXPORT void slotFullScreen(bool t);
     LIBKAICHATWIDGETS_NO_EXPORT void slotSearchText();
+    LIBKAICHATWIDGETS_NO_EXPORT void createSystemTray();
     KAIChatCentralWidget *const mMainWidget;
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
     KToggleFullScreenAction *mShowFullScreenAction = nullptr;
     KToggleAction *mShowArchivedAction = nullptr;
+    KAIChatNotificatifierItem *mNotification = nullptr;
 };

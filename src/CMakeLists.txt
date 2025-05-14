@@ -3,7 +3,6 @@
 
 add_subdirectory(widgets)
 add_subdirectory(apps)
-add_subdirectory(icons)
 
 install(PROGRAMS data/org.kde.kaichat.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES data/org.kde.kaichat.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
