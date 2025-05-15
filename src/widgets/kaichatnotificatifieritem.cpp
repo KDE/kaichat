@@ -17,6 +17,7 @@ KAIChatNotificatifierItem::~KAIChatNotificatifierItem() = default;
 void KAIChatNotificatifierItem::createTrayIcon()
 {
     setToolTipTitle(i18n("KAIChat"));
+    setStatus(Active);
     setIconByPixmap(QIcon(QStringLiteral(":/icons/systray.png")));
     setCategory(KStatusNotifierItem::ApplicationStatus);
 }
