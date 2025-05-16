@@ -79,18 +79,10 @@ void KAIChatMainWindow::createSystemTray()
     */
     if (!mNotification) {
         mNotification = new KAIChatNotificatifierItem(this);
-        /*
         auto trayMenu = mNotification->contextMenu();
 
-        mContextStatusMenu = mNotification->contextMenu()->addMenu(i18nc("@item:inmenu Instant message presence status", "Status"));
-        mContextStatusMenu->menuAction()->setVisible(false);
         trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Preferences)));
         trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::ConfigureNotifications)));
-        // Create systray to show notifications on Desktop
-        connect(mNotification, &Notification::alert, this, [this]() {
-            QApplication::alert(this, 0);
-        });
-        */
     }
 #endif
 }
@@ -113,7 +105,6 @@ void KAIChatMainWindow::setupActions()
 
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
-    // KStandardActions::configureNotifications(this, &RuqolaMainWindow::slotConfigureNotifications, ac);
 
     mShowFullScreenAction = KStandardAction::fullScreen(nullptr, nullptr, this, ac);
     ac->setDefaultShortcut(mShowFullScreenAction, Qt::Key_F11);
