@@ -18,6 +18,9 @@ target_sources(libkaichatwidgets PRIVATE
 
     kaichatconfiguresettingsdialog.h
     kaichatconfiguresettingsdialog.cpp
+
+    kaichatconfiguregeneralwidget.h
+    kaichatconfiguregeneralwidget.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
