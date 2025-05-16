@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 add_subdirectory(icons)
+
 add_library(libkaichatwidgets)
 
 target_sources(libkaichatwidgets PRIVATE
@@ -14,6 +15,9 @@ target_sources(libkaichatwidgets PRIVATE
 
     libkaichatwidgets_private_export.h
     kaichatwidgets.qrc
+
+    kaichatconfiguresettingsdialog.h
+    kaichatconfiguresettingsdialog.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
