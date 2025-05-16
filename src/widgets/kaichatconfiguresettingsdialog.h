@@ -8,6 +8,7 @@
 #include "libkaichatwidgets_private_export.h"
 #include <KPageDialog>
 #include <QObject>
+class KAIChatConfigureGeneralWidget;
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureSettingsDialog : public KPageDialog
 {
     Q_OBJECT
@@ -20,4 +21,5 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void writeConfig();
     LIBKAICHATWIDGETS_NO_EXPORT void slotAccepted();
     LIBKAICHATWIDGETS_NO_EXPORT void load();
+    KAIChatConfigureGeneralWidget *const mConfigureGeneralWidget;
 };
