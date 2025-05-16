@@ -15,6 +15,9 @@
       <label></label>
       <whatsthis></whatsthis>
     </entry>
+    <entry name="EnableSystemTray" type="Bool">
+      <default>true</default>
+    </entry>
   </group>
 
 </kcfg>

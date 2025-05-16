@@ -70,13 +70,11 @@ void KAIChatMainWindow::readConfig()
 void KAIChatMainWindow::createSystemTray()
 {
 #if !defined(Q_OS_IOS)
-    /*
-    if (!RuqolaGlobalConfig::self()->enableSystemTray()) {
+    if (!KAIChatGlobalConfig::self()->enableSystemTray()) {
         delete mNotification;
         mNotification = nullptr;
         return;
     }
-    */
     if (!mNotification) {
         mNotification = new KAIChatNotificatifierItem(this);
         auto trayMenu = mNotification->contextMenu();
