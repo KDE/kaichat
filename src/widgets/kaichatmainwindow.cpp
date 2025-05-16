@@ -7,6 +7,7 @@
 #include "kaichatmainwindow.h"
 
 #include "kaichatcentralwidget.h"
+#include "kaichatconfiguresettingsdialog.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
 
@@ -28,6 +29,7 @@
 #include <QCommandLineParser>
 #include <QFontDatabase>
 #include <QMenuBar>
+#include <QPointer>
 namespace
 {
 static const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
@@ -168,7 +170,11 @@ void KAIChatMainWindow::slotFullScreen(bool t)
 
 void KAIChatMainWindow::slotConfigure()
 {
-    // TODO
+    QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(this);
+    if (dlg->exec()) {
+        createSystemTray();
+    }
+    delete dlg;
 }
 
 void KAIChatMainWindow::slotShowArchive(bool checked)
