@@ -17,13 +17,13 @@ class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatCentralWidget(QWidget *parent = nullptr);
+    explicit KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatCentralWidget() override;
 
     void showArchive(bool checked);
     void searchText();
 
 private:
-    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
     TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

@@ -10,6 +10,7 @@
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
 #include <KActionCollection>
 #include <KActionMenu>
@@ -37,7 +38,8 @@ static const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
 using namespace Qt::Literals::StringLiterals;
 KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     : KXmlGuiWindow(parent)
-    , mMainWidget(new KAIChatCentralWidget(this))
+    , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
+    , mMainWidget(new KAIChatCentralWidget(mManager, this))
 {
     mMainWidget->setObjectName(QStringLiteral("mMainWidget"));
     setCentralWidget(mMainWidget);
