@@ -82,7 +82,6 @@ void KAIChatMainWindow::createSystemTray()
         auto trayMenu = mNotification->contextMenu();
 
         trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Preferences)));
-        trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::ConfigureNotifications)));
     }
 #endif
 }
