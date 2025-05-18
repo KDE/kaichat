@@ -7,11 +7,17 @@
 #pragma once
 
 #include <QWidget>
-
+class QCheckBox;
 class KAIChatConfigureGeneralWidget : public QWidget
 {
     Q_OBJECT
 public:
     explicit KAIChatConfigureGeneralWidget(QWidget *parent = nullptr);
     ~KAIChatConfigureGeneralWidget() override;
+
+    void save();
+    void load();
+
+private:
+    QCheckBox *const mEnableSystemTray;
 };

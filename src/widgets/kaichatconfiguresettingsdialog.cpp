@@ -8,6 +8,7 @@
 #include <KLocalizedString>
 #include <KSharedConfig>
 #include <KWindowConfig>
+#include <QPushButton>
 #include <QWindow>
 namespace
 {
@@ -27,7 +28,10 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(QWidget *parent)
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
 
+    connect(buttonBox()->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::slotAccepted);
+    connect(buttonBox()->button(QDialogButtonBox::Cancel), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::reject);
     readConfig();
+    load();
 }
 
 KAIChatConfigureSettingsDialog::~KAIChatConfigureSettingsDialog()
@@ -48,6 +52,16 @@ void KAIChatConfigureSettingsDialog::writeConfig()
 {
     KConfigGroup group(KSharedConfig::openStateConfig(), QLatin1StringView(myConfigGroupName));
     KWindowConfig::saveWindowSize(windowHandle(), group);
+}
+
+void KAIChatConfigureSettingsDialog::slotAccepted()
+{
+    mConfigureGeneralWidget->save();
+}
+
+void KAIChatConfigureSettingsDialog::load()
+{
+    mConfigureGeneralWidget->load();
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"
