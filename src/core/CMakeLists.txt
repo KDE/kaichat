@@ -11,7 +11,7 @@ endif()
 generate_export_header(libkaichatcore BASE_NAME libkaichatcore)
 
 target_link_libraries(libkaichatcore
-	Qt::Core
+    Qt::Core
 )
 
 set_target_properties(libkaichatcore

@@ -39,6 +39,7 @@ target_link_libraries(libkaichatwidgets
     KF6::TextAutoGenerateText
     KF6::WindowSystem
     KF6::StatusNotifierItem
+    libkaichatcore
 )
 
 set_target_properties(libkaichatwidgets
