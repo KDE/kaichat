@@ -3,6 +3,8 @@
 add_library(libkaichatcore)
 
 target_sources(libkaichatcore PRIVATE
+    kaichatexportchatjob.h
+    kaichatexportchatjob.cpp
 )
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
@@ -13,7 +15,6 @@ generate_export_header(libkaichatcore BASE_NAME libkaichatcore)
 target_link_libraries(libkaichatcore
     Qt::Core
 )
-
 set_target_properties(libkaichatcore
     PROPERTIES OUTPUT_NAME kaichatcore VERSION ${KAICHAT_LIB_VERSION} SOVERSION ${KAICHAT_LIB_VERSION}
 )
