@@ -12,3 +12,5 @@ KAIChatExportChatJob::KAIChatExportChatJob(QObject *parent)
 }
 
 KAIChatExportChatJob::~KAIChatExportChatJob() = default;
+
+#include "moc_kaichatexportchatjob.cpp"
