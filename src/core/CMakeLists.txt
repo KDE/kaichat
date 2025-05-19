@@ -2,9 +2,13 @@
 # SPDX-License-Identifier: BSD-3-Clause
 add_library(libkaichatcore)
 
+ecm_qt_declare_logging_category(libkaichatcore_debug_SRCS HEADER kaichat_core_debug.h IDENTIFIER KAICHAT_CORE_LOG
+    CATEGORY_NAME org.kde.kaichat_core DESCRIPTION "kaichat (core lib)" EXPORT KAICHAT)
+
 target_sources(libkaichatcore PRIVATE
     kaichatexportchatjob.h
     kaichatexportchatjob.cpp
+    ${libkaichatcore_debug_SRCS}
 )
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)

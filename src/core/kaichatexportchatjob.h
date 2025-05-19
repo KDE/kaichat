@@ -5,13 +5,19 @@
  */
 
 #pragma once
-
+#include "libkaichatcore_export.h"
 #include <QObject>
 
-class KAIChatExportChatJob : public QObject
+class LIBKAICHATCORE_EXPORT KAIChatExportChatJob : public QObject
 {
     Q_OBJECT
 public:
     explicit KAIChatExportChatJob(QObject *parent = nullptr);
     ~KAIChatExportChatJob() override;
+    [[nodiscard]] bool canStart() const;
+    [[nodiscard]] QByteArray chatId() const;
+    void setChatId(const QByteArray &newChatId);
+
+private:
+    QByteArray mChatId;
 };
