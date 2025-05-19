@@ -1,3 +1,3 @@
 # KAIChat
 
-Apps which allows to talk with AI (as ollama)
+Apps which allows to chat with AI (as ollama)
