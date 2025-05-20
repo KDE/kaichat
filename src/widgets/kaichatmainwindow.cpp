@@ -50,6 +50,9 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     createSystemTray();
     mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
     slotToggleMenubar(true);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::showArchiveChanged, this, [this]() {
+        mShowArchivedAction->setChecked(mManager->showArchived());
+    });
 }
 
 KAIChatMainWindow::~KAIChatMainWindow()
