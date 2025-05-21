@@ -25,3 +25,7 @@ set_target_properties(libkaichatcore
 
 install(TARGETS libkaichatcore ${KDE_INSTALL_TARGETS_DEFAULT_ARGS} LIBRARY NAMELINK_SKIP)
 
+if(BUILD_TESTING)
+    add_subdirectory(autotests)
+endif()
+
