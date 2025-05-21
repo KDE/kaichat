@@ -10,6 +10,9 @@ target_sources(libkaichatcore PRIVATE
     kaichatexportchatjob.h
     kaichatexportchatjob.cpp
 
+    kaichatimportchatjob.h
+    kaichatimportchatjob.cpp
+
     ${libkaichatcore_debug_SRCS}
 )
 
