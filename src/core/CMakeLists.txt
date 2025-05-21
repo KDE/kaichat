@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
+
 add_library(libkaichatcore)
 
 ecm_qt_declare_logging_category(libkaichatcore_debug_SRCS HEADER kaichat_core_debug.h IDENTIFIER KAICHAT_CORE_LOG
@@ -8,6 +9,7 @@ ecm_qt_declare_logging_category(libkaichatcore_debug_SRCS HEADER kaichat_core_de
 target_sources(libkaichatcore PRIVATE
     kaichatexportchatjob.h
     kaichatexportchatjob.cpp
+
     ${libkaichatcore_debug_SRCS}
 )
 
