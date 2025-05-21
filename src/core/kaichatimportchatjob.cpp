@@ -21,3 +21,5 @@ void KAIChatImportChatJob::setFileName(const QString &newFileName)
 }
 
 KAIChatImportChatJob::~KAIChatImportChatJob() = default;
+
+#include "moc_kaichatimportchatjob.cpp"

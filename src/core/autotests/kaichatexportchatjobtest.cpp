@@ -20,3 +20,5 @@ void KAIChatExportChatJobTest::shouldHaveDefaultValues()
     QVERIFY(job.fileName().isEmpty());
     QVERIFY(!job.canStart());
 }
+
+#include "moc_kaichatexportchatjobtest.cpp"
