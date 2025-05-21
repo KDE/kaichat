@@ -32,4 +32,14 @@ void KAIChatExportChatJob::setChatId(const QByteArray &newChatId)
     mChatId = newChatId;
 }
 
+QString KAIChatExportChatJob::fileName() const
+{
+    return mFileName;
+}
+
+void KAIChatExportChatJob::setFileName(const QString &newFileName)
+{
+    mFileName = newFileName;
+}
+
 #include "moc_kaichatexportchatjob.cpp"

@@ -18,6 +18,10 @@ public:
     [[nodiscard]] QByteArray chatId() const;
     void setChatId(const QByteArray &newChatId);
 
+    [[nodiscard]] QString fileName() const;
+    void setFileName(const QString &newFileName);
+
 private:
     QByteArray mChatId;
+    QString mFileName;
 };
