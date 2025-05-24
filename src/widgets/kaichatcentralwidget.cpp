@@ -16,6 +16,8 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
+
+    mTextAutogenerateWidget->setObjectName("mTextAutogenerateWidget"_L1);
     mainLayout->addWidget(mTextAutogenerateWidget);
 }
 
