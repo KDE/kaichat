@@ -44,7 +44,6 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     mMainWidget->setObjectName(QStringLiteral("mMainWidget"));
     setCentralWidget(mMainWidget);
     setupActions();
-    // TODO setupStatusBar();
     setupGUI();
     readConfig();
     createSystemTray();
@@ -202,9 +201,7 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, cons
     Q_UNUSED(workingDirectory)
     if (!arguments.isEmpty()) {
         QCommandLineParser parser;
-        // TODO RuqolaCommandLineParser commandLineParser(&parser);
         parser.parse(arguments);
-        // TODO parseCommandLine(&parser);
     }
 #if !defined(Q_OS_WIN) && !defined(Q_OS_MACOS)
     KWindowSystem::updateStartupId(windowHandle());
