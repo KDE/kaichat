@@ -14,7 +14,12 @@ public:
     ~KAIChatExportMenu() override;
 
 private:
-    void slotExportAsJson();
-    void slotExportAsMarkdown();
-    void slotExportAsText();
+    enum class ConvertToType : uint8_t {
+        Unknown = 0,
+        Json,
+        Markdown,
+        Text,
+    };
+    void convertChat();
+    ConvertToType mConvertToType = ConvertToType::Unknown;
 };

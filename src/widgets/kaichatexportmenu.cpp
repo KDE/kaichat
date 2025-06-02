@@ -5,39 +5,61 @@
  */
 
 #include "kaichatexportmenu.h"
+#include "kaichat_widget_debug.h"
+#include "kaichatexportchatasjsonjob.h"
+#include "kaichatexportchatasmardownjob.h"
+#include "kaichatexportchatastextjob.h"
 #include <KLocalizedString>
+
 KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     : KActionMenu(parent)
 {
     setText(i18nc("@action:inmenu", "Export…"));
     auto act = new QAction(i18nc("@action", "Export as Json…"), this);
-    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsJson);
+    connect(act, &QAction::triggered, this, [this] {
+        mConvertToType = ConvertToType::Json;
+        convertChat();
+    });
     addAction(act);
 
     act = new QAction(i18nc("@action", "Export as Markdown…"), this);
-    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsMarkdown);
+    connect(act, &QAction::triggered, this, [this] {
+        mConvertToType = ConvertToType::Markdown;
+        convertChat();
+    });
     addAction(act);
 
     act = new QAction(i18nc("@action", "Export as Text…"), this);
-    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsText);
+    connect(act, &QAction::triggered, this, [this] {
+        mConvertToType = ConvertToType::Text;
+        convertChat();
+    });
     addAction(act);
 }
 
 KAIChatExportMenu::~KAIChatExportMenu() = default;
 
-void KAIChatExportMenu::slotExportAsJson()
+void KAIChatExportMenu::convertChat()
 {
-    // TODO
-}
-
-void KAIChatExportMenu::slotExportAsMarkdown()
-{
-    // TODO
-}
-
-void KAIChatExportMenu::slotExportAsText()
-{
-    // TODO
+    KAIChatExportChatAsBaseJob *job = nullptr;
+    switch (mConvertToType) {
+    case ConvertToType::Unknown:
+        qCWarning(KAICHAT_WIDGET_LOG) << " Invalid ConvertToType enum. It's a bug";
+        return;
+    case ConvertToType::Json:
+        job = new KAIChatExportChatAsJsonJob(this);
+        break;
+    case ConvertToType::Markdown:
+        job = new KAIChatExportChatAsMardownJob(this);
+        break;
+    case ConvertToType::Text:
+        job = new KAIChatExportChatAsTextJob(this);
+        break;
+    }
+    connect(job, &KAIChatExportChatAsBaseJob::exportDone, this, []() {
+        qDebug() << " job done";
+    });
+    job->start();
 }
 
 #include "moc_kaichatexportmenu.cpp"

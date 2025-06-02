@@ -3,6 +3,8 @@
 add_subdirectory(icons)
 
 add_library(libkaichatwidgets)
+ecm_qt_declare_logging_category(libkaichatwidgets HEADER kaichat_widget_debug.h IDENTIFIER KAICHAT_WIDGET_LOG
+    CATEGORY_NAME org.kde.kaichat_widget DESCRIPTION "kaichat (widget lib)" EXPORT KAICHAT)
 
 target_sources(libkaichatwidgets PRIVATE
     kaichatmainwindow.h
@@ -39,7 +41,6 @@ target_link_libraries(libkaichatwidgets
     Qt::Widgets
     KF6::XmlGui
     KF6::I18n
-    KF6::TextAutoGenerateText
     KF6::WindowSystem
     KF6::StatusNotifierItem
     libkaichatcore
