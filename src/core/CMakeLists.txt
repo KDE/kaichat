@@ -13,6 +13,17 @@ target_sources(libkaichatcore PRIVATE
     kaichatimportchatjob.h
     kaichatimportchatjob.cpp
 
+    kaichatexportchatasbasejob.h
+    kaichatexportchatasbasejob.cpp
+
+    kaichatexportchatasmardownjob.h
+    kaichatexportchatasmardownjob.cpp
+
+    kaichatexportchatastextjob.h
+    kaichatexportchatastextjob.cpp
+
+    kaichatexportchatasjsonjob.h
+    kaichatexportchatasjsonjob.cpp
     ${libkaichatcore_debug_SRCS}
 )
 
@@ -21,9 +32,7 @@ if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 generate_export_header(libkaichatcore BASE_NAME libkaichatcore)
 
-target_link_libraries(libkaichatcore
-    Qt::Core
-)
+target_link_libraries(libkaichatcore PRIVATE Qt6::Core)
 set_target_properties(libkaichatcore
     PROPERTIES OUTPUT_NAME kaichatcore VERSION ${KAICHAT_LIB_VERSION} SOVERSION ${KAICHAT_LIB_VERSION}
 )
