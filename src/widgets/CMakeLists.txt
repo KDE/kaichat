@@ -21,6 +21,9 @@ target_sources(libkaichatwidgets PRIVATE
 
     kaichatconfiguregeneralwidget.h
     kaichatconfiguregeneralwidget.cpp
+
+    kaichatexportmenu.h
+    kaichatexportmenu.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
