@@ -12,9 +12,10 @@ KAIChatExportChatAsMardownJob::KAIChatExportChatAsMardownJob(QObject *parent)
 
 KAIChatExportChatAsMardownJob::~KAIChatExportChatAsMardownJob() = default;
 
-void KAIChatExportChatAsMardownJob::start()
+void KAIChatExportChatAsMardownJob::exportChat()
 {
     // TODO
+    deleteLater();
 }
 
 #include "moc_kaichatexportchatasmardownjob.cpp"

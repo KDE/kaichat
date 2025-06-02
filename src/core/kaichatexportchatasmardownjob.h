@@ -14,5 +14,7 @@ class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMardownJob : public KAIChatExport
 public:
     explicit KAIChatExportChatAsMardownJob(QObject *parent = nullptr);
     ~KAIChatExportChatAsMardownJob() override;
-    void start() override;
+
+protected:
+    void exportChat() override;
 };

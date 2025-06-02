@@ -13,9 +13,10 @@ KAIChatExportChatAsTextJob::KAIChatExportChatAsTextJob(QObject *parent)
 
 KAIChatExportChatAsTextJob::~KAIChatExportChatAsTextJob() = default;
 
-void KAIChatExportChatAsTextJob::start()
+void KAIChatExportChatAsTextJob::exportChat()
 {
     // TODO
+    deleteLater();
 }
 
 #include "moc_kaichatexportchatastextjob.cpp"

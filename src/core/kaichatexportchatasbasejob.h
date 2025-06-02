@@ -7,6 +7,7 @@
 #include "libkaichatcore_export.h"
 #include <QDebug>
 #include <QObject>
+#include <TextAutoGenerateText/TextAutoGenerateMessage>
 
 class LIBKAICHATCORE_EXPORT KAIChatExportChatAsBaseJob : public QObject
 {
@@ -15,6 +16,7 @@ public:
     struct LIBKAICHATCORE_EXPORT ExportChatInfo {
         QString filename;
         QString chatTitle;
+        QList<TextAutoGenerateText::TextAutoGenerateMessage> listMessages;
         [[nodiscard]] bool isValid() const;
     };
 
@@ -25,9 +27,13 @@ public:
     void setInfo(const ExportChatInfo &newInfo);
 
     [[nodiscard]] bool canStart() const;
-    virtual void start() = 0;
+    void start();
+
+Q_SIGNALS:
+    void exportDone();
 
 protected:
+    virtual void exportChat() = 0;
     ExportChatInfo mInfo;
 };
 Q_DECLARE_TYPEINFO(KAIChatExportChatAsBaseJob::ExportChatInfo, Q_RELOCATABLE_TYPE);

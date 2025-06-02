@@ -5,6 +5,7 @@
  */
 
 #include "kaichatexportchatasbasejob.h"
+#include "kaichat_core_debug.h"
 
 KAIChatExportChatAsBaseJob::KAIChatExportChatAsBaseJob(QObject *parent)
     : QObject{parent}
@@ -28,10 +29,21 @@ bool KAIChatExportChatAsBaseJob::canStart() const
     return mInfo.isValid();
 }
 
+void KAIChatExportChatAsBaseJob::start()
+{
+    if (!canStart()) {
+        qCWarning(KAICHAT_CORE_LOG) << " Impossible to start job";
+        deleteLater();
+        return;
+    }
+    exportChat();
+}
+
 QDebug operator<<(QDebug d, const KAIChatExportChatAsBaseJob::ExportChatInfo &t)
 {
     d.space() << "filename:" << t.filename;
     d.space() << "chatTitle:" << t.chatTitle;
+    d.space() << "listMessages:" << t.listMessages;
     return d;
 }
 

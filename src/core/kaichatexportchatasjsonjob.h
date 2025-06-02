@@ -6,12 +6,14 @@
 #pragma once
 
 #include "kaichatexportchatasbasejob.h"
-
-class KAIChatExportChatAsJsonJob : public KAIChatExportChatAsBaseJob
+#include "libkaichatcore_export.h"
+class LIBKAICHATCORE_EXPORT KAIChatExportChatAsJsonJob : public KAIChatExportChatAsBaseJob
 {
     Q_OBJECT
 public:
     explicit KAIChatExportChatAsJsonJob(QObject *parent = nullptr);
     ~KAIChatExportChatAsJsonJob() override;
-    void start() override;
+
+protected:
+    void exportChat() override;
 };

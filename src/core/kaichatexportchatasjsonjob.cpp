@@ -13,9 +13,13 @@ KAIChatExportChatAsJsonJob::KAIChatExportChatAsJsonJob(QObject *parent)
 
 KAIChatExportChatAsJsonJob::~KAIChatExportChatAsJsonJob() = default;
 
-void KAIChatExportChatAsJsonJob::start()
+void KAIChatExportChatAsJsonJob::exportChat()
 {
-    // TODO
+    for (const auto &message : mInfo.listMessages) {
+        const QByteArray ba = TextAutoGenerateText::TextAutoGenerateMessage::serialize(message, false);
+        qDebug() << " ba " << ba;
+    }
+    deleteLater();
 }
 
 #include "moc_kaichatexportchatasjsonjob.cpp"
