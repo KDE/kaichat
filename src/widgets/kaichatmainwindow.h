@@ -12,6 +12,7 @@ class KToggleAction;
 class KHamburgerMenu;
 class KToggleFullScreenAction;
 class KAIChatNotificatifierItem;
+class KAIChatExportMenu;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -44,4 +45,5 @@ private:
     KAIChatNotificatifierItem *mNotification = nullptr;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
     KAIChatCentralWidget *const mMainWidget;
+    KAIChatExportMenu *mExportMenu = nullptr;
 };

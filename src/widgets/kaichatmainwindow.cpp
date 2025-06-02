@@ -8,6 +8,7 @@
 
 #include "kaichatcentralwidget.h"
 #include "kaichatconfiguresettingsdialog.h"
+#include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
@@ -95,14 +96,17 @@ void KAIChatMainWindow::setupActions()
     mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
 
     mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
+    connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
+    ac->addAction(QStringLiteral("show_archive"), mShowArchivedAction);
+
+    // TODO enable/disable it
+    mExportMenu = new KAIChatExportMenu(this);
+    ac->addAction(QStringLiteral("export_menu"), mExportMenu);
 
     KStandardAction::find(this, &KAIChatMainWindow::slotSearchText, ac);
 
     auto manager = KColorSchemeManager::instance();
     ac->addAction(QStringLiteral("colorscheme_menu"), KColorSchemeMenu::createMenu(manager, this));
-
-    connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
-    ac->addAction(QStringLiteral("show_archive"), mShowArchivedAction);
 
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);

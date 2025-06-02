@@ -3,8 +3,12 @@
   SPDX-License-Identifier: CC0-1.0
   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 -->
-<gui name="kaichat" version="4">
+<gui name="kaichat" version="5">
  <MenuBar>
+  <Menu name="file" >
+   <Action name="export_menu" />
+   <Separator/>
+  </Menu>
   <Menu name="settings" append="settings_merge">
     <text>&amp;Settings</text>
     <Action name="colorscheme_menu" />
