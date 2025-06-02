@@ -5,11 +5,39 @@
  */
 
 #include "kaichatexportmenu.h"
-
-KAIChatExportMenu::KAIChatExportMenu()
+#include <KLocalizedString>
+KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
+    : KActionMenu(parent)
 {
+    setText(i18nc("@action:inmenu", "Export…"));
+    auto act = new QAction(i18nc("@action", "Export as Json…"), this);
+    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsJson);
+    addAction(act);
+
+    act = new QAction(i18nc("@action", "Export as Markdown…"), this);
+    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsMarkdown);
+    addAction(act);
+
+    act = new QAction(i18nc("@action", "Export as Text…"), this);
+    connect(act, &QAction::triggered, this, &KAIChatExportMenu::slotExportAsText);
+    addAction(act);
 }
 
-KAIChatExportMenu::~KAIChatExportMenu()
+KAIChatExportMenu::~KAIChatExportMenu() = default;
+
+void KAIChatExportMenu::slotExportAsJson()
 {
+    // TODO
 }
+
+void KAIChatExportMenu::slotExportAsMarkdown()
+{
+    // TODO
+}
+
+void KAIChatExportMenu::slotExportAsText()
+{
+    // TODO
+}
+
+#include "moc_kaichatexportmenu.cpp"

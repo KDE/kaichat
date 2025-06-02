@@ -5,10 +5,16 @@
  */
 
 #pragma once
-
-class KAIChatExportMenu
+#include <KActionMenu>
+class KAIChatExportMenu : public KActionMenu
 {
+    Q_OBJECT
 public:
-    KAIChatExportMenu();
-    ~KAIChatExportMenu();
+    explicit KAIChatExportMenu(QObject *parent = nullptr);
+    ~KAIChatExportMenu() override;
+
+private:
+    void slotExportAsJson();
+    void slotExportAsMarkdown();
+    void slotExportAsText();
 };
