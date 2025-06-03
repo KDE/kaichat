@@ -17,7 +17,7 @@ set(KAICHAT_VERSION_STRING "${KAICHAT_VERSION}${KAICHAT_DEV_VERSION}")
 
 
 set(QT_REQUIRED_VERSION "6.8.0")
-set(KF_MIN_VERSION "6.13.0")
+set(KF_MIN_VERSION "6.14.0")
 set(CMAKE_CXX_STANDARD 20)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
@@ -66,7 +66,7 @@ add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.9.0
-    KF 6.14.0
+    KF 6.15.0
 )
 
 set(KAICHAT_LIB_SOVERSION "0")
