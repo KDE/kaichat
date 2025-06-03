@@ -5,6 +5,8 @@
  */
 
 #include "kaichatexportchatasjsonjob.h"
+#include <QJsonArray>
+#include <QJsonObject>
 
 KAIChatExportChatAsJsonJob::KAIChatExportChatAsJsonJob(QObject *parent)
     : KAIChatExportChatAsBaseJob{parent}
@@ -15,10 +17,16 @@ KAIChatExportChatAsJsonJob::~KAIChatExportChatAsJsonJob() = default;
 
 void KAIChatExportChatAsJsonJob::exportChat()
 {
+    QJsonObject obj;
+    QJsonArray messages;
     for (const auto &message : mInfo.listMessages) {
         const QByteArray ba = TextAutoGenerateText::TextAutoGenerateMessage::serialize(message, false);
+        const QJsonDocument d = QJsonDocument::fromJson(ba);
+        messages.append(d.object());
         qDebug() << " ba " << ba;
     }
+    obj[QStringLiteral("messages")] = messages;
+    qDebug() << " obj" << QJsonDocument(obj).toJson();
     deleteLater();
 }
 
