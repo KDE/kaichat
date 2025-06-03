@@ -6,6 +6,7 @@
 
 #include "kaichatcentralwidget.h"
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
 #include <TextAutoGenerateText/TextAutoGenerateWidget>
@@ -32,6 +33,11 @@ void KAIChatCentralWidget::showArchive(bool checked)
 void KAIChatCentralWidget::searchText()
 {
     mTextAutogenerateWidget->slotSearchText();
+}
+
+QString KAIChatCentralWidget::chatCurrentTitle() const
+{
+    return mManager->textAutoGenerateChatsModel()->title(mManager->currentChatId());
 }
 
 QList<TextAutoGenerateText::TextAutoGenerateMessage> KAIChatCentralWidget::messagesFromCurrentChat() const

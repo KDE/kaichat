@@ -32,7 +32,7 @@ if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
 endif()
 generate_export_header(libkaichatcore BASE_NAME libkaichatcore)
 
-target_link_libraries(libkaichatcore PUBLIC KF6::TextAutoGenerateText PRIVATE Qt6::Core)
+target_link_libraries(libkaichatcore PUBLIC KF6::TextAutoGenerateText PRIVATE Qt6::Core KF6::I18n)
 set_target_properties(libkaichatcore
     PROPERTIES OUTPUT_NAME kaichatcore VERSION ${KAICHAT_LIB_VERSION} SOVERSION ${KAICHAT_LIB_VERSION}
 )

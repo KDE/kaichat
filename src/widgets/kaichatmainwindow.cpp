@@ -228,11 +228,12 @@ void KAIChatMainWindow::slotExportInfoRequested()
     if (fileName.isEmpty()) {
         return;
     }
-    KAIChatExportChatAsBaseJob::ExportChatInfo info;
-    info.filename = fileName;
-    info.listMessages = mMainWidget->messagesFromCurrentChat();
-    mExportMenu->setExportChatInfo(info);
-    // TODO add title
+    const KAIChatExportChatAsBaseJob::ExportChatInfo info{
+        .filename = fileName,
+        .chatTitle = mMainWidget->chatCurrentTitle(),
+        .listMessages = mMainWidget->messagesFromCurrentChat(),
+    };
+    mExportMenu->setExportChatInfo(std::move(info));
 }
 
 #include "moc_kaichatmainwindow.cpp"

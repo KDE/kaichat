@@ -26,6 +26,8 @@ public:
 
     [[nodiscard]] QList<TextAutoGenerateText::TextAutoGenerateMessage> messagesFromCurrentChat() const;
 
+    [[nodiscard]] QString chatCurrentTitle() const;
+
 private:
     TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
