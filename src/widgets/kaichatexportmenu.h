@@ -5,6 +5,7 @@
  */
 
 #pragma once
+#include "kaichatexportchatasbasejob.h"
 #include <KActionMenu>
 class KAIChatExportMenu : public KActionMenu
 {
@@ -13,6 +14,10 @@ public:
     explicit KAIChatExportMenu(QObject *parent = nullptr);
     ~KAIChatExportMenu() override;
 
+    void setExportChatInfo(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo);
+Q_SIGNALS:
+    void exportInfoRequested();
+
 private:
     enum class ConvertToType : uint8_t {
         Unknown = 0,
@@ -20,6 +25,6 @@ private:
         Markdown,
         Text,
     };
-    void convertChat();
+    void convertChat(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo);
     ConvertToType mConvertToType = ConvertToType::Unknown;
 };

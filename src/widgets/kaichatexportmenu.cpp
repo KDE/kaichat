@@ -18,28 +18,33 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     auto act = new QAction(i18nc("@action", "Export as Json…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Json;
-        convertChat();
+        Q_EMIT exportInfoRequested();
     });
     addAction(act);
 
     act = new QAction(i18nc("@action", "Export as Markdown…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Markdown;
-        convertChat();
+        Q_EMIT exportInfoRequested();
     });
     addAction(act);
 
     act = new QAction(i18nc("@action", "Export as Text…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Text;
-        convertChat();
+        Q_EMIT exportInfoRequested();
     });
     addAction(act);
 }
 
 KAIChatExportMenu::~KAIChatExportMenu() = default;
 
-void KAIChatExportMenu::convertChat()
+void KAIChatExportMenu::setExportChatInfo(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo)
+{
+    convertChat(newInfo);
+}
+
+void KAIChatExportMenu::convertChat(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo)
 {
     KAIChatExportChatAsBaseJob *job = nullptr;
     switch (mConvertToType) {
@@ -59,7 +64,10 @@ void KAIChatExportMenu::convertChat()
     connect(job, &KAIChatExportChatAsBaseJob::exportDone, this, []() {
         qDebug() << " job done";
     });
+
+    job->setInfo(newInfo);
     job->start();
+    // TODO connect signal/slot
 }
 
 #include "moc_kaichatexportmenu.cpp"

@@ -102,6 +102,7 @@ void KAIChatMainWindow::setupActions()
     // TODO enable/disable it
     mExportMenu = new KAIChatExportMenu(this);
     ac->addAction(QStringLiteral("export_menu"), mExportMenu);
+    connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
 
     KStandardAction::find(this, &KAIChatMainWindow::slotSearchText, ac);
 
@@ -218,6 +219,11 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, cons
 void KAIChatMainWindow::slotSearchText()
 {
     mMainWidget->searchText();
+}
+
+void KAIChatMainWindow::slotExportInfoRequested()
+{
+    // TODO
 }
 
 #include "moc_kaichatmainwindow.cpp"
