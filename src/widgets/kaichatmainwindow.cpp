@@ -29,6 +29,7 @@
 #include <KToolBar>
 #include <KWindowSystem>
 #include <QCommandLineParser>
+#include <QFileDialog>
 #include <QFontDatabase>
 #include <QMenuBar>
 #include <QPointer>
@@ -223,7 +224,15 @@ void KAIChatMainWindow::slotSearchText()
 
 void KAIChatMainWindow::slotExportInfoRequested()
 {
-    // TODO
+    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Autocorrection File"), QDir::homePath());
+    if (fileName.isEmpty()) {
+        return;
+    }
+    KAIChatExportChatAsBaseJob::ExportChatInfo info;
+    info.filename = fileName;
+    info.listMessages = mMainWidget->messagesFromCurrentChat();
+    mExportMenu->setExportChatInfo(info);
+    // TODO add title
 }
 
 #include "moc_kaichatmainwindow.cpp"

@@ -8,6 +8,7 @@
 
 #include "libkaichatwidgets_private_export.h"
 #include <QWidget>
+#include <TextAutoGenerateText/TextAutoGenerateMessage>
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateWidget;
@@ -22,6 +23,8 @@ public:
 
     void showArchive(bool checked);
     void searchText();
+
+    [[nodiscard]] QList<TextAutoGenerateText::TextAutoGenerateMessage> messagesFromCurrentChat() const;
 
 private:
     TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
