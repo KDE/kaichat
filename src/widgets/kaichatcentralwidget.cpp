@@ -42,7 +42,11 @@ QString KAIChatCentralWidget::chatCurrentTitle() const
 
 QList<TextAutoGenerateText::TextAutoGenerateMessage> KAIChatCentralWidget::messagesFromCurrentChat() const
 {
-    return mManager->messagesModelFromChatId(mManager->currentChatId())->messages();
+    const auto messageModel = mManager->messagesModelFromChatId(mManager->currentChatId());
+    if (messageModel) {
+        return messageModel->messages();
+    }
+    return {};
 }
 
 #include "moc_kaichatcentralwidget.cpp"
