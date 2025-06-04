@@ -7,6 +7,7 @@
 #include "kaichatexportchatasjsonjob.h"
 #include <QFile>
 #include <QJsonArray>
+#include <QJsonDocument>
 #include <QJsonObject>
 
 KAIChatExportChatAsJsonJob::KAIChatExportChatAsJsonJob(QObject *parent)
