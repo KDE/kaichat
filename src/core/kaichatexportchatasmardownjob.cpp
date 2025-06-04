@@ -21,6 +21,7 @@ void KAIChatExportChatAsMardownJob::exportChat()
     txt = QStringLiteral("# %1").arg(mInfo.chatTitle);
     for (const auto &message : mInfo.listMessages) {
         txt += QLatin1Char('\n');
+        txt += QLatin1Char('\n');
         switch (message.sender()) {
         case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Unknown:
             qCWarning(KAICHAT_CORE_LOG) << "Sender invalid";
@@ -35,6 +36,8 @@ void KAIChatExportChatAsMardownJob::exportChat()
             txt += QStringLiteral("## %1").arg(i18n("System"));
             break;
         }
+        txt += QLatin1Char('\n');
+        txt += QLatin1Char('\n');
         txt += message.content();
     }
     QFile data(mInfo.filename);
