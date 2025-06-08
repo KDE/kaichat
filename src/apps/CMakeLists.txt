@@ -5,7 +5,8 @@ include(ECMAddAppIcon)
 
 add_executable(kaichat main.cpp)
 
-target_link_libraries(kaichat
+target_link_libraries(
+    kaichat
     KF6::Crash
     KF6::XmlGui
     KF6::IconThemes
@@ -18,7 +19,7 @@ if(USE_DBUS)
     target_link_libraries(kaichat KF6::DBusAddons)
 else()
     target_link_libraries(kaichat KDAB::kdsingleapplication)
-    if (NOT WIN32 AND NOT APPLE)
+    if(NOT WIN32 AND NOT APPLE)
         target_link_libraries(kaichat Qt::GuiPrivate)
     endif()
 endif()
