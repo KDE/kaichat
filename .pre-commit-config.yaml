@@ -56,7 +56,3 @@ repos:
    rev: v0.10.0.1
    hooks:
     - id: shellcheck
-#- repo: https://github.com/fsfe/reuse-tool
-#  rev: v5.0.2
-#  hooks:
-#  - id: reuse
