@@ -24,6 +24,8 @@ target_sources(
         kaichatconfiguregeneralwidget.cpp
         kaichatexportmenu.h
         kaichatexportmenu.cpp
+        kaichatconfigureinstanceswidget.h
+        kaichatconfigureinstanceswidget.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
@@ -43,7 +45,6 @@ target_link_libraries(
     KF6::StatusNotifierItem
     libkaichatcore
 )
-
 set_target_properties(
     libkaichatwidgets
     PROPERTIES

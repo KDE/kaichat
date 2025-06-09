@@ -5,6 +5,7 @@
  */
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichatconfiguregeneralwidget.h"
+#include "kaichatconfigureinstanceswidget.h"
 #include <KLocalizedString>
 #include <KSharedConfig>
 #include <KWindowConfig>
@@ -17,14 +18,20 @@ const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
 KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(QWidget *parent)
     : KPageDialog(parent)
     , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(this))
+    , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
 
-    const QString generalPageName = i18nc("@title Preferences page name", "General");
+    const QString generalPageName = i18nc("@title General page name", "General");
     auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
     // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("ruqola")));
     addPage(configureGeneralWidgetPage);
+
+    const QString instancesPageName = i18nc("@title Instances page name", "Instances");
+    auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
+    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("ruqola")));
+    addPage(configureInstancesWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
 
