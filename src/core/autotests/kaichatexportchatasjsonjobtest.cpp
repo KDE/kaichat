@@ -11,3 +11,5 @@ KAIChatExportChatAsJsonJobTest::KAIChatExportChatAsJsonJobTest(QObject *parent)
     : QObject{parent}
 {
 }
+
+#include "moc_kaichatexportchatasjsonjobtest.cpp"

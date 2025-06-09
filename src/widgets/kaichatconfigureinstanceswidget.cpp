@@ -29,3 +29,5 @@ void KAIChatConfigureInstancesWidget::load()
 {
     // TODO
 }
+
+#include "moc_kaichatconfigureinstanceswidget.cpp"
