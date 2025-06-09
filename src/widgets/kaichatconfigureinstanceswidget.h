@@ -6,7 +6,10 @@
 #pragma once
 
 #include <QWidget>
-
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateTextInstancesManagerWidget;
+}
 class KAIChatConfigureInstancesWidget : public QWidget
 {
     Q_OBJECT
@@ -15,4 +18,7 @@ public:
     ~KAIChatConfigureInstancesWidget() override;
     void save();
     void load();
+
+private:
+    TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget *const mInstancesManagerWidget;
 };
