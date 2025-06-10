@@ -10,11 +10,15 @@
 #include <QObject>
 class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureSettingsDialog : public KPageDialog
 {
     Q_OBJECT
 public:
-    explicit KAIChatConfigureSettingsDialog(QWidget *parent = nullptr);
+    explicit KAIChatConfigureSettingsDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatConfigureSettingsDialog() override;
 
 private:

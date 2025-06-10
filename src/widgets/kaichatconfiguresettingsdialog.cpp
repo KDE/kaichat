@@ -15,10 +15,10 @@ namespace
 {
 const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
 }
-KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(QWidget *parent)
+KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KPageDialog(parent)
     , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(this))
-    , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(this))
+    , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(manager, this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);

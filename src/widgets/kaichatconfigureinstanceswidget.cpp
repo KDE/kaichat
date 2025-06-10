@@ -6,9 +6,9 @@
 #include "kaichatconfigureinstanceswidget.h"
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManagerWidget>
-KAIChatConfigureInstancesWidget::KAIChatConfigureInstancesWidget(QWidget *parent)
+KAIChatConfigureInstancesWidget::KAIChatConfigureInstancesWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
-    , mInstancesManagerWidget(new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(this))
+    , mInstancesManagerWidget(new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(QStringLiteral("mainLayout"));

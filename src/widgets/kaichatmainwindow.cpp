@@ -168,7 +168,7 @@ void KAIChatMainWindow::slotFullScreen(bool t)
 
 void KAIChatMainWindow::slotConfigure()
 {
-    QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(this);
+    QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(mManager, this);
     if (dlg->exec()) {
         createSystemTray();
     }

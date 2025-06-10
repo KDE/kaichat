@@ -9,12 +9,13 @@
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateTextInstancesManagerWidget;
+class TextAutoGenerateManager;
 }
 class KAIChatConfigureInstancesWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatConfigureInstancesWidget(QWidget *parent = nullptr);
+    explicit KAIChatConfigureInstancesWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatConfigureInstancesWidget() override;
     void save();
     void load();
