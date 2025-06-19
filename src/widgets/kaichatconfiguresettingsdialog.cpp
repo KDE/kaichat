@@ -64,6 +64,7 @@ void KAIChatConfigureSettingsDialog::writeConfig()
 void KAIChatConfigureSettingsDialog::slotAccepted()
 {
     mConfigureGeneralWidget->save();
+    mInstancesManagerWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()

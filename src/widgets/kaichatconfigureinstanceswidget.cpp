@@ -22,12 +22,12 @@ KAIChatConfigureInstancesWidget::~KAIChatConfigureInstancesWidget() = default;
 
 void KAIChatConfigureInstancesWidget::save()
 {
-    // TODO
+    mInstancesManagerWidget->save();
 }
 
 void KAIChatConfigureInstancesWidget::load()
 {
-    // TODO
+    // nothing
 }
 
 #include "moc_kaichatconfigureinstanceswidget.cpp"
