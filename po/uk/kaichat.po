@@ -1,0 +1,177 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kaichat package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-06-18 00:45+0000\n"
+"PO-Revision-Date: 2025-06-18 08:42+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: apps/main.cpp:59
+#, kde-format
+msgid "KAiChat"
+msgstr "KAiChat"
+
+#: apps/main.cpp:61
+#, kde-format
+msgid "Rocket Chat Client"
+msgstr "Клієнт спілкування Rocket"
+
+#: apps/main.cpp:63
+#, kde-format
+msgid "Copyright © 2025 Laurent Montel"
+msgstr "© Laurent Montel <montel@kde.org>, 2025"
+
+#: apps/main.cpp:64
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:64
+#, kde-format
+msgid "Maintainer"
+msgstr "Супровідник"
+
+#: core/kaichatexportchatasmardownjob.cpp:30
+#: core/kaichatexportchatastextjob.cpp:30
+#, kde-format
+msgid "User"
+msgstr "Користувач"
+
+#: core/kaichatexportchatasmardownjob.cpp:33
+#: core/kaichatexportchatastextjob.cpp:33
+#, kde-format
+msgid "Assistant"
+msgstr "Помічник"
+
+#: core/kaichatexportchatasmardownjob.cpp:36
+#: core/kaichatexportchatastextjob.cpp:36
+#, kde-format
+msgid "System"
+msgstr "Система"
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:14
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Увімкнути піктограму системного лотка"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Налаштовування KAIChat"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:26
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Загальне"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:31
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Екземляри"
+
+#: widgets/kaichatexportmenu.cpp:17
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export…"
+msgstr "Експортувати…"
+
+#: widgets/kaichatexportmenu.cpp:18
+#, kde-format
+msgctxt "@action"
+msgid "Export as Json…"
+msgstr "Експортувати як JSON…"
+
+#: widgets/kaichatexportmenu.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Export as Markdown…"
+msgstr "Експортувати як Markdown…"
+
+#: widgets/kaichatexportmenu.cpp:32
+#, kde-format
+msgctxt "@action"
+msgid "Export as Text…"
+msgstr "Експортувати як текст…"
+
+#: widgets/kaichatmainwindow.cpp:99
+#, kde-format
+msgctxt "@action"
+msgid "Show Archive"
+msgstr "Показати архів"
+
+#: widgets/kaichatmainwindow.cpp:192
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+"<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
+"програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
+
+#: widgets/kaichatmainwindow.cpp:195
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr "Приховати смужку меню"
+
+#: widgets/kaichatmainwindow.cpp:227
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Autocorrection File"
+msgstr "Експортувати файл автовиправлення"
+
+#: widgets/kaichatnotificatifieritem.cpp:19
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
+
+#. i18n: ectx: Menu (settings)
+#: widgets/kaichatui.rc:13
+#, kde-format
+msgid "&Settings"
+msgstr "П&араметри"
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:17
+#, kde-format
+msgid "View"
+msgstr "Перегляд"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:21
+#, kde-format
+msgid "&Help"
+msgstr "&Довідка"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgets/kaichatui.rc:28
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Головна панель"
