@@ -1,9 +1,23 @@
 [Desktop Entry]
 Name=KAIChat
+Name[ca]=KAIChat
+Name[ca@valencia]=KAIChat
+Name[he]=KAIChat
+Name[sl]=KAIChat
+Name[tr]=KAIChat
+Name[uk]=KAIChat
+Name[x-test]=xxKAIChatxx
 Type=Application
 Exec=kaichat -qwindowtitle %c %u
 Icon=kaichat
 GenericName=AI Chat
+GenericName[ca]=Xat d'IA
+GenericName[ca@valencia]=Xat d'IA
+GenericName[he]=שיחה עם בינה מלאכותית
+GenericName[sl]=Klepet z umetno inteligenco
+GenericName[tr]=Yapay Zekâ Sohbeti
+GenericName[uk]=Спілкування з ШІ
+GenericName[x-test]=xxAI Chatxx
 StartupNotify=true
 Categories=Qt;KDE;Network;InstantMessaging;
 SingleMainWindow=true
