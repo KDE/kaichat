@@ -9,11 +9,11 @@
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
-#include <TextAutoGenerateText/TextAutoGenerateWidget>
+#include <TextAutoGenerateText/TextAutoGenerateStackWidget>
 using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
-    , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateWidget(manager, this))
+    , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateStackWidget(manager, this))
     , mManager(manager)
 {
     auto mainLayout = new QVBoxLayout(this);

@@ -11,7 +11,7 @@
 #include <TextAutoGenerateText/TextAutoGenerateMessage>
 namespace TextAutoGenerateText
 {
-class TextAutoGenerateWidget;
+class TextAutoGenerateStackWidget;
 class TextAutoGenerateManager;
 }
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
@@ -29,6 +29,6 @@ public:
     [[nodiscard]] QString chatCurrentTitle() const;
 
 private:
-    TextAutoGenerateText::TextAutoGenerateWidget *const mTextAutogenerateWidget;
+    TextAutoGenerateText::TextAutoGenerateStackWidget *const mTextAutogenerateWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
