@@ -1,151 +1,150 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025 Yaron Shahrabani <sh.yaron@gmail.com>
+# SPDX-FileCopyrightText: 2025 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-18 00:45+0000\n"
-"PO-Revision-Date: 2025-06-18 16:03+0300\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: צוות התרגום של KDE ישראל\n"
-"Language: he\n"
+"PO-Revision-Date: 2025-06-19 22:29+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 25.04.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "צוות התרגום של KDE ישראל"
+msgstr "Kisaragi Hiu"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-l10n-he@kde.org"
+msgstr "mail@kisaragi-hiu.com"
 
 #: apps/main.cpp:59
 #, kde-format
 msgid "KAiChat"
 msgstr "KAiChat"
 
+# Obviously this is not supposed to be "Rocket Chat Client".
+# --Kisaragi, 20250619T222808+0900
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr "לקוח Rocket Chat"
+msgstr "AI 聊天用戶端"
 
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr "כל הזכויות שמורות © 2025‎ ללורנט מונטל"
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "לורנט מונטל"
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr "מתחזק"
+msgstr "維護者"
 
 #: core/kaichatexportchatasmardownjob.cpp:30
 #: core/kaichatexportchatastextjob.cpp:30
 #, kde-format
 msgid "User"
-msgstr "משתמש"
+msgstr "使用者"
 
 #: core/kaichatexportchatasmardownjob.cpp:33
 #: core/kaichatexportchatastextjob.cpp:33
 #, kde-format
 msgid "Assistant"
-msgstr "עוזר"
+msgstr "助理"
 
 #: core/kaichatexportchatasmardownjob.cpp:36
 #: core/kaichatexportchatastextjob.cpp:36
 #, kde-format
 msgid "System"
-msgstr "מערכת"
+msgstr "系統"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:14
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "הפעלת סמל בשורת המערכת"
+msgstr "開啟系統匣圖示"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "הגדרת KAIChat"
+msgstr "設定 KAIChat"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:26
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "כללי"
+msgstr "一般"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "מופעים"
+msgstr "實體"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "ייצוא…"
+msgstr "匯出…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr "ייצוא כ־Json…"
+msgstr "匯出為 JSON…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "ייצוא כ־Markdown…"
+msgstr "匯出為 Markdown…"
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "ייצוא כטקסט…"
+msgstr "匯出為純文字…"
 
 #: widgets/kaichatmainwindow.cpp:99
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "הצגת ארכיון"
+msgstr "顯示封存"
 
 #: widgets/kaichatmainwindow.cpp:192
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
-msgstr ""
-"<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
-"</qt>"
+msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單列。</qt>"
 
 #: widgets/kaichatmainwindow.cpp:195
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "הסתרת סרגל תפריטים"
+msgstr "隱藏選單列"
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Autocorrection File"
-msgstr "ייצוא קובץ תיקון אוטומטי"
+msgstr "匯出自動修正檔案"
 
 #: widgets/kaichatnotificatifieritem.cpp:19
 #, kde-format
@@ -156,22 +155,22 @@ msgstr "KAIChat"
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr "ה&גדרות"
+msgstr "設定(&S)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr "תצוגה"
+msgstr "檢視"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr "ע&זרה"
+msgstr "說明(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr "סרגל כלים ראשי"
+msgstr "主工具列"
