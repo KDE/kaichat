@@ -1,130 +1,130 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# German translations for kaichat package
+# German translation for kaichat.
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Automatically generated, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-06-18 00:45+0000\n"
-"PO-Revision-Date: 2025-06-19 04:54+0200\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2025-06-18 09:22+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Temuri Doghonadze"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "temuri.doghonadze@gmail.com"
+msgstr ""
 
 #: apps/main.cpp:59
 #, kde-format
 msgid "KAiChat"
-msgstr "KAiChat"
+msgstr ""
 
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr "Rocket Chat -ის კლიენტი"
+msgstr ""
 
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr "© 2025 ლორან მონტელი, ყველა უფლება დაცულია"
+msgstr ""
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "ლორან მონტელი"
+msgstr ""
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr "წამყვანი პროგრამისტი"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:30
 #: core/kaichatexportchatastextjob.cpp:30
 #, kde-format
 msgid "User"
-msgstr "მომხმარებელი"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:33
 #: core/kaichatexportchatastextjob.cpp:33
 #, kde-format
 msgid "Assistant"
-msgstr "დამხმარე"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:36
 #: core/kaichatexportchatastextjob.cpp:36
 #, kde-format
 msgid "System"
-msgstr "სისტემა"
+msgstr ""
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:14
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "სისტემის კუთხეში ხატულის ჩართვა"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "KAIChat-ის მორგება"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:26
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "ზოგადი"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "გაშვებული ასლები"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "გატანა…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr "გატანა JSON-ში…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "გატანა მარკდაუნში…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "გატანა ტექსტის სახით…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:99
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "არქივის ჩვენება"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:192
 #, kde-format
@@ -132,46 +132,44 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
-"</qt>"
 
 #: widgets/kaichatmainwindow.cpp:195
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "მენიუს ზოლის დამალვა"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Autocorrection File"
-msgstr "ავტოკორექციის ფაილის გატანა"
+msgstr ""
 
 #: widgets/kaichatnotificatifieritem.cpp:19
 #, kde-format
 msgid "KAIChat"
-msgstr "KAIChat"
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr "მორგე&ბა"
+msgstr ""
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr "ნახვა"
+msgstr ""
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr "&დახმარება"
+msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr "ხელსაწყოთა მთავარი ზოლი"
+msgstr ""
