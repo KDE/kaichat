@@ -8,7 +8,6 @@ macro(add_kaichat_core_unittest _source)
         LINK_LIBRARIES Qt::Test libkaichatcore
     )
 endmacro()
-# add_kaichat_core_unittest(kaichatexportchatjobtest.cpp)
+add_kaichat_core_unittest(kaichatexportchatjobtest.cpp)
 add_kaichat_core_unittest(kaichatimportchatjobtest.cpp)
-add_kaichat_core_unittest(kaichatexportchatasbasejobtest.cpp)
 add_kaichat_core_unittest(kaichatexportchatasjsonjobtest.cpp)
