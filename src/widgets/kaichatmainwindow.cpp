@@ -228,7 +228,7 @@ void KAIChatMainWindow::slotExportInfoRequested()
     if (fileName.isEmpty()) {
         return;
     }
-    const KAIChatExportChatAsBaseJob::ExportChatInfo info{
+    const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo info{
         .filename = fileName,
         .chatTitle = mMainWidget->chatCurrentTitle(),
         .listMessages = mMainWidget->messagesFromCurrentChat(),

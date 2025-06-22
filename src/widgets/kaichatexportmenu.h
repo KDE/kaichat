@@ -5,8 +5,8 @@
  */
 
 #pragma once
-#include "kaichatexportchatasbasejob.h"
 #include <KActionMenu>
+#include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
 class KAIChatExportMenu : public KActionMenu
 {
     Q_OBJECT
@@ -14,7 +14,7 @@ public:
     explicit KAIChatExportMenu(QObject *parent = nullptr);
     ~KAIChatExportMenu() override;
 
-    void setExportChatInfo(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo);
+    void setExportChatInfo(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo);
 Q_SIGNALS:
     void exportInfoRequested();
 
@@ -25,6 +25,6 @@ private:
         Markdown,
         Text,
     };
-    void convertChat(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo);
+    void convertChat(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo);
     ConvertToType mConvertToType = ConvertToType::Unknown;
 };

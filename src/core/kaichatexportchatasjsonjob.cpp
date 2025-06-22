@@ -11,7 +11,7 @@
 #include <QJsonObject>
 
 KAIChatExportChatAsJsonJob::KAIChatExportChatAsJsonJob(QObject *parent)
-    : KAIChatExportChatAsBaseJob{parent}
+    : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {
 }
 

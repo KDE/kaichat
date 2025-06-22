@@ -4,11 +4,11 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #pragma once
-#include "kaichatexportchatasbasejob.h"
 #include "libkaichatcore_export.h"
 #include <QObject>
+#include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
 
-class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMardownJob : public KAIChatExportChatAsBaseJob
+class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMardownJob : public TextAutoGenerateText::TextAutoGenerateExportChatBaseJob
 {
     Q_OBJECT
 public:

@@ -39,14 +39,14 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
 
 KAIChatExportMenu::~KAIChatExportMenu() = default;
 
-void KAIChatExportMenu::setExportChatInfo(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo)
+void KAIChatExportMenu::setExportChatInfo(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo)
 {
     convertChat(newInfo);
 }
 
-void KAIChatExportMenu::convertChat(const KAIChatExportChatAsBaseJob::ExportChatInfo &newInfo)
+void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo)
 {
-    KAIChatExportChatAsBaseJob *job = nullptr;
+    TextAutoGenerateText::TextAutoGenerateExportChatBaseJob *job = nullptr;
     switch (mConvertToType) {
     case ConvertToType::Unknown:
         qCWarning(KAICHAT_WIDGET_LOG) << " Invalid ConvertToType enum. It's a bug";
@@ -61,7 +61,7 @@ void KAIChatExportMenu::convertChat(const KAIChatExportChatAsBaseJob::ExportChat
         job = new KAIChatExportChatAsTextJob(this);
         break;
     }
-    connect(job, &KAIChatExportChatAsBaseJob::exportDone, this, []() {
+    connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportDone, this, []() {
         qDebug() << " job done";
     });
 

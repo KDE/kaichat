@@ -5,9 +5,9 @@
  */
 #pragma once
 
-#include "kaichatexportchatasbasejob.h"
 #include "libkaichatcore_export.h"
-class LIBKAICHATCORE_EXPORT KAIChatExportChatAsJsonJob : public KAIChatExportChatAsBaseJob
+#include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
+class LIBKAICHATCORE_EXPORT KAIChatExportChatAsJsonJob : public TextAutoGenerateText::TextAutoGenerateExportChatBaseJob
 {
     Q_OBJECT
 public:

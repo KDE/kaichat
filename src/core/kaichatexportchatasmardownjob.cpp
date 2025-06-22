@@ -9,7 +9,7 @@
 #include <QFile>
 
 KAIChatExportChatAsMardownJob::KAIChatExportChatAsMardownJob(QObject *parent)
-    : KAIChatExportChatAsBaseJob{parent}
+    : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {
 }
 

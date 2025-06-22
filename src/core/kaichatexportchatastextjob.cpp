@@ -10,7 +10,7 @@
 #include <QFile>
 
 KAIChatExportChatAsTextJob::KAIChatExportChatAsTextJob(QObject *parent)
-    : KAIChatExportChatAsBaseJob{parent}
+    : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {
 }
 

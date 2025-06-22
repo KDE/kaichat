@@ -14,8 +14,6 @@ target_sources(
         kaichatexportchatjob.cpp
         kaichatimportchatjob.h
         kaichatimportchatjob.cpp
-        kaichatexportchatasbasejob.h
-        kaichatexportchatasbasejob.cpp
         kaichatexportchatasmardownjob.h
         kaichatexportchatasmardownjob.cpp
         kaichatexportchatastextjob.h
