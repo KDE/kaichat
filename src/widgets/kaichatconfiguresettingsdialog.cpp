@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguresettingsdialog.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "kaichatconfiguregeneralwidget.h"
 #include "kaichatconfigureinstanceswidget.h"
 #include <KLocalizedString>
@@ -25,12 +27,12 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 
     const QString generalPageName = i18nc("@title General page name", "General");
     auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
-    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("ruqola")));
+    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"ruqola"_s));
     addPage(configureGeneralWidgetPage);
 
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
     auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
-    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("ruqola")));
+    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"ruqola"_s));
     addPage(configureInstancesWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);

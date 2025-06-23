@@ -5,6 +5,8 @@
  */
 
 #include "kaichatexportchatastextjob.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QFile>
@@ -21,7 +23,7 @@ void KAIChatExportChatAsTextJob::exportChat()
     QString txt;
     txt = mInfo.chatTitle;
     for (const auto &message : mInfo.listMessages) {
-        txt += QLatin1Char('\n');
+        txt += u'\n';
         switch (message.sender()) {
         case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Unknown:
             qCWarning(KAICHAT_CORE_LOG) << "Sender invalid";
@@ -36,10 +38,10 @@ void KAIChatExportChatAsTextJob::exportChat()
             txt += i18n("System");
             break;
         }
-        txt += QStringLiteral("------------------------");
-        txt += QLatin1Char('\n');
+        txt += u"------------------------"_s;
+        txt += u'\n';
         txt += message.content();
-        txt += QLatin1Char('\n');
+        txt += u'\n';
     }
     QFile data(mInfo.filename);
     if (data.open(QFile::WriteOnly)) {

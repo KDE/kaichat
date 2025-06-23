@@ -5,6 +5,8 @@
  */
 
 #include "kaichatexportchatasjsonjob.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include <QFile>
 #include <QJsonArray>
 #include <QJsonDocument>
@@ -27,8 +29,8 @@ void KAIChatExportChatAsJsonJob::exportChat()
         messages.append(d.object());
         // qDebug() << " ba " << ba;
     }
-    obj[QStringLiteral("messages")] = messages;
-    obj[QStringLiteral("title")] = mInfo.chatTitle;
+    obj[u"messages"_s] = messages;
+    obj[u"title"_s] = mInfo.chatTitle;
     // qDebug() << " obj" << QJsonDocument(obj).toJson();
     QFile data(mInfo.filename);
     if (data.open(QFile::WriteOnly)) {

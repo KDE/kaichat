@@ -43,7 +43,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
     , mMainWidget(new KAIChatCentralWidget(mManager, this))
 {
-    mMainWidget->setObjectName(QStringLiteral("mMainWidget"));
+    mMainWidget->setObjectName(u"mMainWidget"_s);
     setCentralWidget(mMainWidget);
     setupActions();
     setupGUI();
@@ -98,17 +98,17 @@ void KAIChatMainWindow::setupActions()
 
     mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
     connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
-    ac->addAction(QStringLiteral("show_archive"), mShowArchivedAction);
+    ac->addAction(u"show_archive"_s, mShowArchivedAction);
 
     // TODO enable/disable it
     mExportMenu = new KAIChatExportMenu(this);
-    ac->addAction(QStringLiteral("export_menu"), mExportMenu);
+    ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
 
     KStandardAction::find(this, &KAIChatMainWindow::slotSearchText, ac);
 
     auto manager = KColorSchemeManager::instance();
-    ac->addAction(QStringLiteral("colorscheme_menu"), KColorSchemeMenu::createMenu(manager, this));
+    ac->addAction(u"colorscheme_menu"_s, KColorSchemeMenu::createMenu(manager, this));
 
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
@@ -193,7 +193,7 @@ void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
                                               " You can show it again by typing %1.</qt>",
                                               accel),
                                          i18nc("@title:window", "Hide menu bar"),
-                                         QStringLiteral("HideMenuBarWarning"));
+                                         u"HideMenuBarWarning"_s);
             }
             menuBar()->hide();
         }

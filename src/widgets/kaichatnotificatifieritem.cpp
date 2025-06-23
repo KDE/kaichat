@@ -5,6 +5,8 @@
  */
 
 #include "kaichatnotificatifieritem.h"
+using namespace Qt::Literals::StringLiterals;
+
 #include <KLocalizedString>
 KAIChatNotificatifierItem::KAIChatNotificatifierItem(QObject *parent)
     : KStatusNotifierItem{parent}
@@ -18,7 +20,7 @@ void KAIChatNotificatifierItem::createTrayIcon()
 {
     setToolTipTitle(i18n("KAIChat"));
     setStatus(Active);
-    setIconByPixmap(QIcon(QStringLiteral(":/icons/systray.png")));
+    setIconByPixmap(QIcon(u":/icons/systray.png"_s));
     setCategory(KStatusNotifierItem::ApplicationStatus);
 }
 
