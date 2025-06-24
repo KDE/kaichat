@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-18 00:45+0000\n"
+"POT-Creation-Date: 2025-06-24 00:45+0000\n"
 "PO-Revision-Date: 2025-06-18 08:42+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -54,43 +54,43 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: core/kaichatexportchatasmardownjob.cpp:30
-#: core/kaichatexportchatastextjob.cpp:30
+#: core/kaichatexportchatasmardownjob.cpp:32
+#: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
 msgstr "Користувач"
 
-#: core/kaichatexportchatasmardownjob.cpp:33
-#: core/kaichatexportchatastextjob.cpp:33
+#: core/kaichatexportchatasmardownjob.cpp:35
+#: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
 msgstr "Помічник"
 
-#: core/kaichatexportchatasmardownjob.cpp:36
-#: core/kaichatexportchatastextjob.cpp:36
+#: core/kaichatexportchatasmardownjob.cpp:38
+#: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
 msgstr "Система"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:14
+#: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Увімкнути піктограму системного лотка"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:23
+#: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Налаштовування KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:26
+#: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Загальне"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:31
+#: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
@@ -147,7 +147,7 @@ msgctxt "@title:window"
 msgid "Export Autocorrection File"
 msgstr "Експортувати файл автовиправлення"
 
-#: widgets/kaichatnotificatifieritem.cpp:19
+#: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"

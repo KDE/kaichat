@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-18 00:45+0000\n"
+"POT-Creation-Date: 2025-06-24 00:45+0000\n"
 "PO-Revision-Date: 2025-06-19 22:29+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -55,43 +55,43 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: core/kaichatexportchatasmardownjob.cpp:30
-#: core/kaichatexportchatastextjob.cpp:30
+#: core/kaichatexportchatasmardownjob.cpp:32
+#: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
 msgstr "使用者"
 
-#: core/kaichatexportchatasmardownjob.cpp:33
-#: core/kaichatexportchatastextjob.cpp:33
+#: core/kaichatexportchatasmardownjob.cpp:35
+#: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
 msgstr "助理"
 
-#: core/kaichatexportchatasmardownjob.cpp:36
-#: core/kaichatexportchatastextjob.cpp:36
+#: core/kaichatexportchatasmardownjob.cpp:38
+#: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
 msgstr "系統"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:14
+#: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "開啟系統匣圖示"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:23
+#: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "設定 KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:26
+#: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "一般"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:31
+#: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
@@ -146,7 +146,7 @@ msgctxt "@title:window"
 msgid "Export Autocorrection File"
 msgstr "匯出自動修正檔案"
 
-#: widgets/kaichatnotificatifieritem.cpp:19
+#: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
