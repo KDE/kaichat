@@ -171,6 +171,7 @@ void KAIChatMainWindow::slotConfigure()
     QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(mManager, this);
     if (dlg->exec()) {
         createSystemTray();
+        Q_EMIT mManager->configChanged();
     }
     delete dlg;
 }
