@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-24 00:45+0000\n"
+"POT-Creation-Date: 2025-06-26 00:45+0000\n"
 "PO-Revision-Date: 2025-06-24 21:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
@@ -128,7 +128,7 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Erakutsi artxiboa"
 
-#: widgets/kaichatmainwindow.cpp:192
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -137,13 +137,13 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:195
+#: widgets/kaichatmainwindow.cpp:196
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
-#: widgets/kaichatmainwindow.cpp:227
+#: widgets/kaichatmainwindow.cpp:228
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Autocorrection File"
