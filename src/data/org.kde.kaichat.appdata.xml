@@ -16,6 +16,7 @@
   <name xml:lang="ca-valencia">KAIChat</name>
   <name xml:lang="es">KAIChat</name>
   <name xml:lang="eu">KAIChat</name>
+  <name xml:lang="fr">KAIChat</name>
   <name xml:lang="gl">KAIChat</name>
   <name xml:lang="he">KAIChat</name>
   <name xml:lang="ka">KAIChat</name>
@@ -30,6 +31,7 @@
   <summary xml:lang="ca-valencia">Xat d'IA</summary>
   <summary xml:lang="es">Chat con IA</summary>
   <summary xml:lang="eu">AA berriketa</summary>
+  <summary xml:lang="fr">IA conversationnelle</summary>
   <summary xml:lang="gl">Conversa con IA</summary>
   <summary xml:lang="he">שיחה עם בינה מלאכותית</summary>
   <summary xml:lang="ka">ხი-სთან ჩატი</summary>
@@ -47,6 +49,7 @@
     <p xml:lang="ca-valencia">KAIChat és un xat d'IA.</p>
     <p xml:lang="es">KAIChat es un chat con IA.</p>
     <p xml:lang="eu">KAIChat AA berriketa-aplikazio bat da.</p>
+    <p xml:lang="fr">KAIChat est une IA conversationnelle.</p>
     <p xml:lang="gl">KAIChat é unha conversa con IA.</p>
     <p xml:lang="he">KAIChat משמש לשיחה עם בינה מלאכותית.</p>
     <p xml:lang="ka">KAIChat წარმოადგენს ჩატს ხი-სთან.</p>
