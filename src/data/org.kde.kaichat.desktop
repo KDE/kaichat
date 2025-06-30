@@ -35,6 +35,6 @@ GenericName[uk]=Спілкування з ШІ
 GenericName[x-test]=xxAI Chatxx
 GenericName[zh_TW]=AI 聊天
 StartupNotify=true
-Categories=Qt;KDE;Network;InstantMessaging;
+Categories=Qt;KDE;Network;
 SingleMainWindow=true
 Version=1.5
