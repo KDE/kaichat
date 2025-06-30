@@ -28,4 +28,8 @@ endif()
 #ecm_add_app_icon(appIcons ICONS "${RUQOLA_ICONS}")
 #target_sources(ruqola PRIVATE ${appIcons})
 
-install(TARGETS kaichat ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
+install(
+    TARGETS
+        kaichat
+        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+)

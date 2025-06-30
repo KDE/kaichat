@@ -31,7 +31,12 @@ target_sources(
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
-    set_target_properties(libkaichatwidgets PROPERTIES UNITY_BUILD ON)
+    set_target_properties(
+        libkaichatwidgets
+        PROPERTIES
+            UNITY_BUILD
+                ON
+    )
 endif()
 generate_export_header(libkaichatwidgets BASE_NAME libkaichatwidgets)
 
@@ -48,12 +53,18 @@ target_link_libraries(
 set_target_properties(
     libkaichatwidgets
     PROPERTIES
-        OUTPUT_NAME kaichatwidgets
-        VERSION ${KAICHAT_LIB_VERSION}
-        SOVERSION ${KAICHAT_LIB_VERSION}
+        OUTPUT_NAME
+            kaichatwidgets
+        VERSION
+            ${KAICHAT_LIB_VERSION}
+        SOVERSION
+            ${KAICHAT_LIB_VERSION}
 )
 
 install(
-    TARGETS libkaichatwidgets ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
-    LIBRARY NAMELINK_SKIP
+    TARGETS
+        libkaichatwidgets
+        ${KDE_INSTALL_TARGETS_DEFAULT_ARGS}
+    LIBRARY
+        NAMELINK_SKIP
 )

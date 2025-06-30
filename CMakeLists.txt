@@ -21,9 +21,17 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
 find_package(ECM ${ECM_VERSION} REQUIRED NO_MODULE)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH})
+set(CMAKE_MODULE_PATH
+    ${CMAKE_MODULE_PATH}
+    ${ECM_MODULE_PATH}
+)
 include(FeatureSummary)
-file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h *.c)
+file(
+    GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES
+    *.cpp
+    *.h
+    *.c
+)
 
 set(PRE_COMMIT_INSTALLED FALSE)
 if(${CMAKE_SOURCE_DIR} STREQUAL ${PROJECT_SOURCE_DIR})
@@ -72,17 +80,16 @@ find_package(
 
 find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)
 
-find_package(
-    KF6TextAutoGenerateText
-    ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION}
-    CONFIG
-)
+find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
 set_package_properties(
     KF6TextAutoGenerateText
     PROPERTIES
-        TYPE REQUIRED
-        PURPOSE "Required for building AI plugins support"
-        DESCRIPTION "Use AI plugin"
+        TYPE
+            REQUIRED
+        PURPOSE
+            "Required for building AI plugins support"
+        DESCRIPTION
+            "Use AI plugin"
 )
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")

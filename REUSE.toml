@@ -4,7 +4,7 @@ SPDX-PackageSupplier = "Laurent Montel <montel@kde.org>"
 SPDX-PackageDownloadLocation = "https://invent.kde.org/utilities/kaichat"
 
 [[annotations]]
-path = ["REUSE.toml", "src/widgets/icons/**", "logo.png", "logo.svg"]
+path = ["REUSE.toml", "src/widgets/icons/**", "logo.png", "logo.svg", ".gersemirc"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Laurent Montel <montel@kde.org>"
 SPDX-License-Identifier = "CC0-1.0"
