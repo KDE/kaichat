@@ -102,7 +102,7 @@ ecm_set_disabled_deprecation_versions(QT 6.10.0
 set(KAICHAT_LIB_SOVERSION "0")
 
 if(BUILD_TESTING)
-    find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED COMPONENTS Test)
+    find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED COMPONENTS Test)
     add_definitions(-DBUILD_TESTING)
 endif()
 
