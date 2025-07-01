@@ -6,10 +6,10 @@
 
 #include "kaichatexportmenu.h"
 #include "kaichat_widget_debug.h"
-#include "kaichatexportchatasjsonjob.h"
 #include "kaichatexportchatasmardownjob.h"
 #include "kaichatexportchatastextjob.h"
 #include <KLocalizedString>
+#include <TextAutoGenerateText/TextAutoGenerateExportChatAsJsonJob>
 
 KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     : KActionMenu(parent)
@@ -52,7 +52,7 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         qCWarning(KAICHAT_WIDGET_LOG) << " Invalid ConvertToType enum. It's a bug";
         return;
     case ConvertToType::Json:
-        job = new KAIChatExportChatAsJsonJob(this);
+        job = new TextAutoGenerateText::TextAutoGenerateExportChatAsJsonJob(this);
         break;
     case ConvertToType::Markdown:
         job = new KAIChatExportChatAsMardownJob(this);

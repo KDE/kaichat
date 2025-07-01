@@ -18,8 +18,6 @@ target_sources(
         kaichatexportchatasmardownjob.cpp
         kaichatexportchatastextjob.h
         kaichatexportchatastextjob.cpp
-        kaichatexportchatasjsonjob.h
-        kaichatexportchatasjsonjob.cpp
         ${libkaichatcore_debug_SRCS}
 )
 
