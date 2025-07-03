@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-26 00:45+0000\n"
+"POT-Creation-Date: 2025-07-03 06:59+0000\n"
 "PO-Revision-Date: 2025-06-24 21:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -144,10 +144,12 @@ msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
 #: widgets/kaichatmainwindow.cpp:228
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@title:window"
-msgid "Export Autocorrection File"
-msgstr "Esportatu zuzenketa automatikorako fitxategia"
+msgid "Export Chats"
+msgstr "Esportatu Json gisa..."
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -177,3 +179,7 @@ msgstr "&Laguntza"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Tresna-barra nagusia"
+
+#~ msgctxt "@title:window"
+#~ msgid "Export Autocorrection File"
+#~ msgstr "Esportatu zuzenketa automatikorako fitxategia"

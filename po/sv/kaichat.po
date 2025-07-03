@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-26 00:45+0000\n"
+"POT-Creation-Date: 2025-07-03 06:59+0000\n"
 "PO-Revision-Date: 2025-06-30 19:40+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -141,10 +141,12 @@ msgid "Hide menu bar"
 msgstr "Dölj menyrad"
 
 #: widgets/kaichatmainwindow.cpp:228
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@title:window"
-msgid "Export Autocorrection File"
-msgstr "Exportera automatisk korrigeringsfil"
+msgid "Export Chats"
+msgstr "Exportera som Json…"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -174,3 +176,7 @@ msgstr "&Hjälp"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Huvudverktygsrad"
+
+#~ msgctxt "@title:window"
+#~ msgid "Export Autocorrection File"
+#~ msgstr "Exportera automatisk korrigeringsfil"
