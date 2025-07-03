@@ -225,7 +225,7 @@ void KAIChatMainWindow::slotSearchText()
 
 void KAIChatMainWindow::slotExportInfoRequested()
 {
-    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Autocorrection File"), QDir::homePath());
+    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Chats"), QDir::homePath());
     if (fileName.isEmpty()) {
         return;
     }
