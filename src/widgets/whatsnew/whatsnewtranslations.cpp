@@ -34,7 +34,7 @@ QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
         }
         info.setNewFeatures(lst);
         info.setVersion(u"0.3.3"_s);
-        // info.setBugFixings({i18n("Add what's new support.")});
+        // info.setBugFixings({});
 
         listInfo.append(std::move(info));
     }
