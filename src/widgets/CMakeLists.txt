@@ -26,6 +26,20 @@ target_sources(
         kaichatexportmenu.cpp
         kaichatconfigureinstanceswidget.h
         kaichatconfigureinstanceswidget.cpp
+        whatsnew/whatsnewdialog.h
+        whatsnew/whatsnewdialog.cpp
+        whatsnew/whatsnewwidget.h
+        whatsnew/whatsnewwidget.cpp
+        whatsnew/whatsnewmessagewidget.h
+        whatsnew/whatsnewmessagewidget.cpp
+        whatsnew/whatsnewcomboboxwidget.h
+        whatsnew/whatsnewcomboboxwidget.cpp
+        whatsnew/whatsnewtranslationbase.h
+        whatsnew/whatsnewtranslationbase.cpp
+        whatsnew/whatsnewinfo.h
+        whatsnew/whatsnewinfo.cpp
+        whatsnew/whatsnewtranslations.h
+        whatsnew/whatsnewtranslations.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
@@ -68,3 +82,7 @@ install(
     LIBRARY
         NAMELINK_SKIP
 )
+
+if(BUILD_TESTING)
+    add_subdirectory(whatsnew/autotests)
+endif()

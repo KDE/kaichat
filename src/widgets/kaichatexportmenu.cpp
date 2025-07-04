@@ -67,7 +67,6 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
 
     job->setInfo(newInfo);
     job->start();
-    // TODO connect signal/slot
 }
 
 #include "moc_kaichatexportmenu.cpp"
