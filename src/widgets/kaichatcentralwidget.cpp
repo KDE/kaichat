@@ -5,6 +5,9 @@
  */
 
 #include "kaichatcentralwidget.h"
+#include "kaichatglobalconfig.h"
+#include "whatsnew/whatsnewmessagewidget.h"
+#include "whatsnew/whatsnewtranslations.h"
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
@@ -18,6 +21,21 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
+    mainLayout->setContentsMargins({});
+    mainLayout->setSpacing(0);
+
+    WhatsNewTranslations translations;
+    const QString newFeaturesMD5 = translations.newFeaturesMD5();
+    if (!newFeaturesMD5.isEmpty()) {
+        const bool hasNewFeature = (KAIChatGlobalConfig::self()->previousNewFeaturesMD5() != newFeaturesMD5);
+        if (hasNewFeature) {
+            auto whatsNewMessageWidget = new WhatsNewMessageWidget(this);
+            whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
+            mainLayout->addWidget(whatsNewMessageWidget);
+            KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
+            whatsNewMessageWidget->animatedShow();
+        }
+    }
 
     mTextAutogenerateWidget->setObjectName("mTextAutogenerateWidget"_L1);
     mainLayout->addWidget(mTextAutogenerateWidget);
