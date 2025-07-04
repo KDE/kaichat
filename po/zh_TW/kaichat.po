@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-06-19 22:29+0900\n"
+"PO-Revision-Date: 2025-07-03 23:53+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -141,12 +141,10 @@ msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
 #: widgets/kaichatmainwindow.cpp:228
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "匯出為 JSON…"
+msgstr "匯出聊天"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
