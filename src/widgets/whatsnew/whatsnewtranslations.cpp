@@ -17,6 +17,8 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
     const QList<KLazyLocalizedString> info{
         kli18n("Add what's new support."),
         kli18n("Add instance support."),
+        kli18n("Add Mardown support."),
+        kli18n("Add Highlighting support."),
     };
     return info;
 }
