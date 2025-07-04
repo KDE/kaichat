@@ -20,4 +20,9 @@
     </entry>
   </group>
 
+  <group name="General">
+    <entry name="PreviousNewFeaturesMD5" type="String">
+      <default></default>
+    </entry>
+  </group>
 </kcfg>
