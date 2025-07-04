@@ -11,6 +11,7 @@
 #include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
+#include "whatsnew/whatsnewdialog.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 
 #include <KActionCollection>
@@ -96,6 +97,10 @@ void KAIChatMainWindow::setupActions()
 
     mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
 
+    auto showWhatsNewAction = new QAction(QIcon::fromTheme(u"kaichat"_s), i18n("What's new"), this);
+    ac->addAction(u"whatsnew_kaichat"_s, showWhatsNewAction);
+    connect(showWhatsNewAction, &QAction::triggered, this, &KAIChatMainWindow::slotWhatsNew);
+
     mShowArchivedAction = new KToggleAction(i18nc("@action", "Show Archive"), this);
     connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
     ac->addAction(u"show_archive"_s, mShowArchivedAction);
@@ -130,6 +135,13 @@ void KAIChatMainWindow::setupActions()
             disconnect(mHamburgerMenu, &KHamburgerMenu::aboutToShowMenu, this, nullptr);
         });
     }
+}
+
+void KAIChatMainWindow::slotWhatsNew()
+{
+    WhatsNewDialog dlg(this);
+    dlg.updateInformations();
+    dlg.exec();
 }
 
 void KAIChatMainWindow::updateHamburgerMenu()
