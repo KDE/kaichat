@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-06-18 16:03+0300\n"
+"POT-Creation-Date: 2025-07-05 00:45+0000\n"
+"PO-Revision-Date: 2025-07-04 13:36+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -120,13 +120,18 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
-#: widgets/kaichatmainwindow.cpp:99
+#: widgets/kaichatmainwindow.cpp:100
+#, kde-format
+msgid "What's new"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
-#: widgets/kaichatmainwindow.cpp:193
+#: widgets/kaichatmainwindow.cpp:205
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -135,19 +140,17 @@ msgstr ""
 "<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:196
+#: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:228
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#: widgets/kaichatmainwindow.cpp:240
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "ייצוא כ־Json…"
+msgstr "ייצוא שיחות"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -177,6 +180,69 @@ msgstr "ע&זרה"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "סרגל כלים ראשי"
+
+#: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "What's new in %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "(Show News)"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "What's new in %2. %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add what's new support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Add instance support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Add Mardown support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
+msgid "Add Highlighting support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:46
+#, kde-format
+msgid "All Version"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:49
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:93
+#, kde-format
+msgid "Important changes since last version:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:98
+#, kde-format
+msgid "Some of the new features in this release of Ruqola include:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:103
+#, kde-format
+msgid "Some bug fixing:"
+msgstr ""
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"

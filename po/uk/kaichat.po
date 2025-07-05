@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:59+0000\n"
-"PO-Revision-Date: 2025-06-18 08:42+0300\n"
+"POT-Creation-Date: 2025-07-05 00:45+0000\n"
+"PO-Revision-Date: 2025-07-04 12:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -120,13 +120,18 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:99
+#: widgets/kaichatmainwindow.cpp:100
+#, kde-format
+msgid "What's new"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:193
+#: widgets/kaichatmainwindow.cpp:205
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -135,19 +140,17 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:196
+#: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:228
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#: widgets/kaichatmainwindow.cpp:240
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "Експортувати як JSON…"
+msgstr "Експорт даних спілкування"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -177,6 +180,69 @@ msgstr "&Довідка"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Головна панель"
+
+#: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "What's new in %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "(Show News)"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "What's new in %2. %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add what's new support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Add instance support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Add Mardown support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
+msgid "Add Highlighting support."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:46
+#, kde-format
+msgid "All Version"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:49
+#, kde-format
+msgid "Version %1"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:93
+#, kde-format
+msgid "Important changes since last version:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:98
+#, kde-format
+msgid "Some of the new features in this release of Ruqola include:"
+msgstr ""
+
+#: widgets/whatsnew/whatsnewwidget.cpp:103
+#, kde-format
+msgid "Some bug fixing:"
+msgstr ""
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"
