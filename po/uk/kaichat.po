@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-05 00:45+0000\n"
-"PO-Revision-Date: 2025-07-04 12:24+0300\n"
+"PO-Revision-Date: 2025-07-05 20:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -123,7 +123,7 @@ msgstr "Експортувати як текст…"
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "Що нового?"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
@@ -185,64 +185,64 @@ msgstr "Головна панель"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "Версія:"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Що нового у %1"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(Показати новини)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "Що нового у %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr ""
+msgstr "Додано підтримку показу новин щодо програми."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr ""
+msgstr "Додано підтримку екземплярів програми."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr ""
+msgstr "Додано підтримку Markdown."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "Додано підтримку підсвічування."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Version"
-msgstr ""
+msgstr "Усі версії"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "Версія %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "Важливі зміни з часу випуску попередньої версії:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of Ruqola include:"
-msgstr ""
+msgstr "Серед нових можливостей у цьому випуску Ruqola:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "Виправлення деяких вад:"
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"
