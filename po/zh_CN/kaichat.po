@@ -20,223 +20,223 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "KDE 中国, Eric Zhao"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com"
 
 #: apps/main.cpp:59
 #, kde-format
 msgid "KAiChat"
-msgstr ""
+msgstr "KAiChat"
 
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr ""
+msgstr "Rocket Chat 客户端"
 
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr ""
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "维护人员"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr ""
+msgstr "助理"
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr ""
+msgstr "启用系统托盘图标"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr ""
+msgstr "配置 KAIChat"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr ""
+msgstr "实例"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr ""
+msgstr "导出..."
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr ""
+msgstr "导出为 Json..."
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr ""
+msgstr "导出为 Markdown..."
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr ""
+msgstr "导出为文本..."
 
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "新增功能"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr ""
+msgstr "显示归档"
 
 #: widgets/kaichatmainwindow.cpp:205
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
-msgstr ""
+msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
 #: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr ""
+msgstr "隐藏菜单栏"
 
 #: widgets/kaichatmainwindow.cpp:240
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr ""
+msgstr "导出聊天"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr ""
+msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "设置(&S)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "帮助(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "主工具栏"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "版本："
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "%1 的新功能"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(显示新闻)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "%2. %1 的新功能"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr ""
+msgstr "添加“新增功能”支持。"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr ""
+msgstr "添加实例支持。"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr ""
+msgstr "添加 Markdown 支持。"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "添加高亮支持。"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Version"
-msgstr ""
+msgstr "所有版本"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "版本 %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "上个版本以来的重要变化："
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of Ruqola include:"
-msgstr ""
+msgstr "此版本 Ruqola 所包含的的部分新特性包括："
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "修复了一些问题："
