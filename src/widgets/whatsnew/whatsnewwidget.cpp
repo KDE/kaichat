@@ -95,7 +95,7 @@ QString WhatsNewWidget::importantChangeStr() const
 
 QString WhatsNewWidget::featuresChangeStr() const
 {
-    return u"<b>"_s + i18n("Some of the new features in this release of Ruqola include:") + u"</b>"_s;
+    return u"<b>"_s + i18n("Some of the new features in this release of Kaichat include:") + u"</b>"_s;
 }
 
 QString WhatsNewWidget::bugFixingChangeStr() const
