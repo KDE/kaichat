@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 00:45+0000\n"
+"POT-Creation-Date: 2025-07-21 00:45+0000\n"
 "PO-Revision-Date: 2025-07-06 09:14+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -219,8 +219,9 @@ msgid "Add Highlighting support."
 msgstr "Aggiunge il supporto per l'evidenziazione."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, kde-format
-msgid "All Version"
+#, fuzzy, kde-format
+#| msgid "All Version"
+msgid "All Versions"
 msgstr "Tutte le versioni"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
@@ -234,8 +235,9 @@ msgid "Important changes since last version:"
 msgstr "Modifiche importanti dalla versione precedente:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
-msgid "Some of the new features in this release of Ruqola include:"
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Ruqola include:"
+msgid "Some of the new features in this release of Kaichat include:"
 msgstr ""
 "Alcune delle nuove funzionalità di questa versione di Ruqola includono:"
 

@@ -1,135 +1,134 @@
-# German translations for kaichat package
-# German translation for kaichat.
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# Automatically generated, 2025.
+# SPDX-FileCopyrightText: 2025 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-06-18 09:22+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: de\n"
+"PO-Revision-Date: 2025-07-21 00:46+0200\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde-kr@kde.org>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 24.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "박신조"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "kde@peremen.name"
 
 #: apps/main.cpp:59
 #, kde-format
 msgid "KAiChat"
-msgstr ""
+msgstr "KAIChat"
 
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr ""
+msgstr "Rocket Chat 클라이언트"
 
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr ""
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "관리자"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr ""
+msgstr "사용자"
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr ""
+msgstr "도우미"
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr ""
+msgstr "시스템"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr ""
+msgstr "시스템 트레이 아이콘 사용"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr ""
+msgstr "KAIChat 설정"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr ""
+msgstr "일반"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr ""
+msgstr "인스턴스"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr ""
+msgstr "내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr ""
+msgstr "JSON으로 내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr ""
+msgstr "Markdown으로 내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr ""
+msgstr "텍스트로 내보내기…"
 
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "새로운 기능"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr ""
+msgstr "과거 기록 표시"
 
 #: widgets/kaichatmainwindow.cpp:205
 #, kde-format
@@ -137,107 +136,110 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
+"<qt>메뉴 표시줄을 완전히 숨깁니다. %1 키를 눌러서 다시 볼 수 있습니다.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr ""
+msgstr "메뉴 표시줄 숨기기"
 
 #: widgets/kaichatmainwindow.cpp:240
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr ""
+msgstr "대화 내보내기"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr ""
+msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "설정(&S)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "도움말(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "주 도구 모음"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "버전:"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "%1의 새로운 기능"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(뉴스 표시)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "%2의 새로운 기능. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr ""
+msgstr "새로운 기능 지원을 추가했습니다."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr ""
+msgstr "인스턴스 지원을 추가했습니다."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr ""
+msgstr "Markdown 지원을 추가했습니다."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "구문 강조 지원을 추가했습니다."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "All Version"
 msgid "All Versions"
-msgstr ""
+msgstr "모든 버전"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "버전 %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "마지막 버전 이후 중요 변경 사항:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Ruqola include:"
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr ""
+msgstr "이 Ruqola 릴리스에 추가된 주요 기능:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "일부 버그 수정:"

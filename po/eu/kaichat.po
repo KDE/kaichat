@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-05 00:45+0000\n"
+"POT-Creation-Date: 2025-07-21 00:45+0000\n"
 "PO-Revision-Date: 2025-06-24 21:17+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
-msgid "All Version"
+msgid "All Versions"
 msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
@@ -240,7 +240,7 @@ msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
-msgid "Some of the new features in this release of Ruqola include:"
+msgid "Some of the new features in this release of Kaichat include:"
 msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
