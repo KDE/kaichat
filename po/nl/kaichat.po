@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-07-05 19:35+0200\n"
+"PO-Revision-Date: 2025-07-21 09:27+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -219,8 +219,7 @@ msgid "Add Highlighting support."
 msgstr "Ondersteuning voor accentuering."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
 msgstr "Alle versies"
 
@@ -235,10 +234,9 @@ msgid "Important changes since last version:"
 msgstr "Belangrijke wijzigingen sinds de laatste versie:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "Enige van de nieuwe functies in deze uitgave van Ruqola omvatten:"
+msgstr "Enige van de nieuwe functies in deze uitgave van Kaichat omvatten:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

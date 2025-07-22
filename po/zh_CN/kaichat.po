@@ -217,10 +217,9 @@ msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
-msgstr "所有版本"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
@@ -233,10 +232,9 @@ msgid "Important changes since last version:"
 msgstr "上个版本以来的重要变化："
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "此版本 Ruqola 所包含的的部分新特性包括："
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

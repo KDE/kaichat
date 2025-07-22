@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-07-05 04:32+0200\n"
+"PO-Revision-Date: 2025-07-21 03:47+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -220,8 +220,7 @@ msgid "Add Highlighting support."
 msgstr "დაემატა გამოკვეთის მხარდაჭერა."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
 msgstr "ყველა ვერსია"
 
@@ -236,10 +235,9 @@ msgid "Important changes since last version:"
 msgstr "მნიშვნელოვანი ცვლილებები ბოლო ვერსიის შემდეგ:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "Ruqola-ის ახალ ფუნქციებში შედის:"
+msgstr "Kaichat-ის ახალ ფუნქციებში შედის:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-07-05 06:34+0200\n"
+"PO-Revision-Date: 2025-07-21 06:31+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -220,10 +220,9 @@ msgid "Add Highlighting support."
 msgstr "Dodaj podporo za osvetljevanje."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
-msgstr "Vsaka različica"
+msgstr "Vse različice"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
@@ -236,10 +235,9 @@ msgid "Important changes since last version:"
 msgstr "Pomembne spremembe od zadnje različice:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "Nekaj novih zmožnosti v tej izdaji Ruqole vsebujejo:"
+msgstr "Nekaj novih zmožnosti v tej izdaji Kaichata vsebuje:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

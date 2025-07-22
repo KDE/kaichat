@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-06-23 14:36+0200\n"
+"PO-Revision-Date: 2025-07-16 10:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.07.80\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -27,105 +27,105 @@ msgstr "xavier.besnard@neuf.fr"
 #: apps/main.cpp:59
 #, kde-format
 msgid "KAiChat"
-msgstr ""
+msgstr "KAiChat"
 
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr ""
+msgstr "Client pour Rocket Chat"
 
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr ""
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mainteneur"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr ""
+msgstr "Assistant"
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr ""
+msgstr "Système"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr ""
+msgstr "Activer l'icône de la boîte à miniatures"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr ""
+msgstr "Configurer KAIChat"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr ""
+msgstr "Instances"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr ""
+msgstr "Exporter…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr ""
+msgstr "Exporter au format « JSON »..."
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr ""
+msgstr "Exporter au format « Markdown »..."
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr ""
+msgstr "Exporter au format « Texte »..."
 
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "Quoi de neuf"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr ""
+msgstr "Afficher l'archive"
 
 #: widgets/kaichatmainwindow.cpp:205
 #, kde-format
@@ -133,85 +133,87 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
+"<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
+"nouveau en appuyant sur %1.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr ""
+msgstr "Masquer la barre de menus"
 
 #: widgets/kaichatmainwindow.cpp:240
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr ""
+msgstr "Exporter les salons"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr ""
+msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "&Configuration"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "Affichage"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "&Aide"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barre principale d'outils"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "Version :"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Quoi de neuf dans %1 ?"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(Afficher les nouvelles) "
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "Quoi de neuf dans %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr ""
+msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr ""
+msgstr "Ajouter la prise en charge d'instances."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr ""
+msgstr "Ajouter la prise en charge du format « Markdown »."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "Ajouter la prise en charge de la surbrillance"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -221,12 +223,12 @@ msgstr ""
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "Version %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "Modifications importantes depuis la dernière version :"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
@@ -236,4 +238,4 @@ msgstr ""
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "Quelques corrections de bogues :"
