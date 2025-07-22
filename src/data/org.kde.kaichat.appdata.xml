@@ -22,6 +22,7 @@
   <name xml:lang="he">KAIChat</name>
   <name xml:lang="it">KAIChat</name>
   <name xml:lang="ka">KAIChat</name>
+  <name xml:lang="ko">KAIChat</name>
   <name xml:lang="nl">KAIChat</name>
   <name xml:lang="sl">KAIChat</name>
   <name xml:lang="sv">KAIChat</name>
@@ -41,6 +42,7 @@
   <summary xml:lang="he">שיחה עם בינה מלאכותית</summary>
   <summary xml:lang="it">Chat IA</summary>
   <summary xml:lang="ka">ხი-სთან ჩატი</summary>
+  <summary xml:lang="ko">AI 채팅</summary>
   <summary xml:lang="nl">AI-chat</summary>
   <summary xml:lang="sl">Klepet z umetno inteligenco</summary>
   <summary xml:lang="sv">AI-chatt</summary>
@@ -63,6 +65,7 @@
     <p xml:lang="he">KAIChat משמש לשיחה עם בינה מלאכותית.</p>
     <p xml:lang="it">KAIChat è una chat IA.</p>
     <p xml:lang="ka">KAIChat წარმოადგენს ჩატს ხი-სთან.</p>
+    <p xml:lang="ko">KAIChat은 AI 채팅입니다.</p>
     <p xml:lang="nl">KAIChat is een AI-chat.</p>
     <p xml:lang="sl">KAIChat je klepet z umetno inteligenco.</p>
     <p xml:lang="sv">KAIChat är en AI-chatt.</p>
