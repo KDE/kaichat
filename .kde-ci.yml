@@ -28,7 +28,8 @@ Dependencies:
 
 Options:
  require-passing-tests-on: ['Linux', 'FreeBSD', 'Windows']
- cppcheck-arguments: '--enable=warning,style,performance --inline-suppr --suppress=passedByValue --suppress=nullPointer'
+ cppcheck-arguments: '--enable=warning,style,performance --inline-suppr --suppress=passedByValue --suppress=nullPointer --suppress-xml=cppcheck-suppressions.xml'
+ require-cppcheck-clean: True
  tests-run-in-parallel: True
  cmake-options: '-DWARNINGS_AS_ERRORS=ON'
  enable-lsan: True
