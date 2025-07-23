@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-07-05 11:13+0300\n"
+"PO-Revision-Date: 2025-07-22 21:31+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -219,8 +219,7 @@ msgid "Add Highlighting support."
 msgstr "Vurgu desteği ekle"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
 msgstr "Tüm Sürümler"
 
@@ -235,8 +234,7 @@ msgid "Important changes since last version:"
 msgstr "Son sürümden bu yana olan önemli değişiklikler:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
 msgstr "KAIChat’in bu sürümündeki önemli özelliklerden bazıları:"
 

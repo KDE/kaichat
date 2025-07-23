@@ -1,7 +1,7 @@
 # Translation for kaichat.po to Euskara/Basque (eu).
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>.
+# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-21 00:45+0000\n"
-"PO-Revision-Date: 2025-06-24 21:17+0200\n"
+"PO-Revision-Date: 2025-07-22 21:11+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.04.2\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -102,30 +102,30 @@ msgstr "Instantziak"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "Esportatu..."
+msgstr "Esportatu…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr "Esportatu Json gisa..."
+msgstr "Esportatu Json gisa…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "Esportatu Markdown gisa..."
+msgstr "Esportatu Markdown gisa…"
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "Esportatu testu gisa..."
+msgstr "Esportatu testu gisa…"
 
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "Zer berri"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
@@ -149,12 +149,10 @@ msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
 #: widgets/kaichatmainwindow.cpp:240
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "Esportatu Json gisa..."
+msgstr "Esportatu berriketak"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -189,64 +187,64 @@ msgstr "Tresna-barra nagusia"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "Bertsioa:"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Zer berri %1(e)(a)n"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(Berriak erakutsi)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "Zer berri %2(a)n. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr ""
+msgstr "Zer berri-ren euskarria gehitzen du."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr ""
+msgstr "Instantzien euskarria gehitzen du."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr ""
+msgstr "Markdown-en euskarria gehitzen du."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "Nabarmentzeko euskarria gehitzen du."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Versions"
-msgstr ""
+msgstr "Bertsio guztiak"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "%1 bertsioa"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "Azken bertsiotik dauden aldaketa garrantzitsuak:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr ""
+msgstr "Argitalpen berri honetako ezaugarri berrien artean daude:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "Akatsak konponketa batzuk:"
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"
