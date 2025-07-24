@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-21 00:45+0000\n"
+"POT-Creation-Date: 2025-07-24 00:45+0000\n"
 "PO-Revision-Date: 2025-07-06 10:44+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -218,6 +218,11 @@ msgstr "הוספת תמיכה ב־Markdown."
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
 msgstr "הוספת תמיכה בהדגשה."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, fuzzy, kde-format
