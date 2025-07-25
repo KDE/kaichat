@@ -37,6 +37,9 @@ void KAIChatExportChatAsMardownJob::exportChat()
         case TextAutoGenerateText::TextAutoGenerateMessage::Sender::System:
             txt += u"## %1"_s.arg(i18n("System"));
             break;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Tool:
+            txt += u"## %1"_s.arg(i18n("Tool"));
+            break;
         }
         txt += u'\n';
         txt += u'\n';

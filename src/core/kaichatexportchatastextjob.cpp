@@ -37,6 +37,9 @@ void KAIChatExportChatAsTextJob::exportChat()
         case TextAutoGenerateText::TextAutoGenerateMessage::Sender::System:
             txt += i18n("System");
             break;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Tool:
+            txt += i18n("Tool");
+            break;
         }
         txt += u"------------------------"_s;
         txt += u'\n';
