@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-24 00:45+0000\n"
-"PO-Revision-Date: 2025-07-21 09:27+0200\n"
+"PO-Revision-Date: 2025-07-24 13:12+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -221,7 +221,7 @@ msgstr "Ondersteuning voor accentuering."
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Toestaan chat te verwijderen repareren. Bug %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

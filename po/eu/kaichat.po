@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-24 00:45+0000\n"
-"PO-Revision-Date: 2025-07-22 21:11+0200\n"
+"PO-Revision-Date: 2025-07-24 16:51+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -207,24 +207,24 @@ msgstr "Zer berri %2(a)n. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
-msgstr "Zer berri-ren euskarria gehitzen du."
+msgstr "Zer berri-ren euskarria gehitzu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
-msgstr "Instantzien euskarria gehitzen du."
+msgstr "Instantzien euskarria gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
-msgstr "Markdown-en euskarria gehitzen du."
+msgstr "Markdown-en euskarria gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
-msgstr "Nabarmentzeko euskarria gehitzen du."
+msgstr "Nabarmentzeko euskarria gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

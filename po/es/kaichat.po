@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-24 00:45+0000\n"
-"PO-Revision-Date: 2025-07-21 11:34+0100\n"
+"PO-Revision-Date: 2025-07-24 20:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -37,7 +37,7 @@ msgstr "KAiChat"
 #: apps/main.cpp:61
 #, kde-format
 msgid "Rocket Chat Client"
-msgstr "Cliente de charla Rocket"
+msgstr "Cliente de conversación de Rocket"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -151,7 +151,7 @@ msgstr "Ocultar la barra de menú"
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "Exportar charla"
+msgstr "Exportar conversaciones"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -223,7 +223,7 @@ msgstr "Se ha añadido la implementación de resaltado."
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Se ha corregido la posibilidad de borrar la conversación. Fallo %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
