@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-24 00:45+0000\n"
+"POT-Creation-Date: 2025-07-26 00:45+0000\n"
 "PO-Revision-Date: 2025-07-24 20:08+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -72,6 +72,12 @@ msgstr "Asistente"
 #, kde-format
 msgid "System"
 msgstr "Sistema"
+
+#: core/kaichatexportchatasmardownjob.cpp:41
+#: core/kaichatexportchatastextjob.cpp:41
+#, kde-format
+msgid "Tool"
+msgstr ""
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
