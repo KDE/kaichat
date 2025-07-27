@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-26 00:45+0000\n"
-"PO-Revision-Date: 2025-07-24 13:12+0200\n"
+"PO-Revision-Date: 2025-07-26 10:03+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -75,7 +75,7 @@ msgstr "Systeem"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Hulpmiddel"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format

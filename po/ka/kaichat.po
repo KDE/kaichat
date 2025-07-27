@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-26 00:45+0000\n"
-"PO-Revision-Date: 2025-07-24 03:58+0200\n"
+"PO-Revision-Date: 2025-07-26 03:33+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -76,7 +76,7 @@ msgstr "სისტემა"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "ხელსაწყო"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format

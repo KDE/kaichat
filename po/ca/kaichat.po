@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-26 00:45+0000\n"
-"PO-Revision-Date: 2025-07-24 09:54+0200\n"
+"PO-Revision-Date: 2025-07-26 11:04+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -77,7 +77,7 @@ msgstr "Sistema"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Eina"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format

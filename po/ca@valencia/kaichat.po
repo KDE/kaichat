@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-26 00:45+0000\n"
-"PO-Revision-Date: 2025-07-21 10:02+0200\n"
+"PO-Revision-Date: 2025-07-26 11:04+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -77,7 +77,7 @@ msgstr "Sistema"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Eina"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -229,7 +229,7 @@ msgstr "Afig la implementació del ressaltat."
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Corregix permetre la supressió de xat. Error %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -250,7 +250,7 @@ msgstr "Canvis importants des de l'última versió:"
 #, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
 msgstr ""
-"Algunes de les característiques noves d'esta versió del Kaichat inclouen:"
+"Algunes de les característiques noves d'esta versió de KAIChat inclouen:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
