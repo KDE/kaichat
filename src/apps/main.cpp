@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     KLocalizedString::setApplicationDomain("kaichat"_ba);
 
     KAboutData aboutData(u"kaichat"_s,
-                         i18n("KAiChat"),
+                         i18n("KAIChat"),
                          QStringLiteral(KAICHAT_VERSION),
                          i18n("AI Chat"),
                          KAboutLicense::GPL_V2,

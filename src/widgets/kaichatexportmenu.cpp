@@ -15,7 +15,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     : KActionMenu(parent)
 {
     setText(i18nc("@action:inmenu", "Export…"));
-    auto act = new QAction(i18nc("@action", "Export as Json…"), this);
+    auto act = new QAction(i18nc("@action", "Export as JSON…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Json;
         Q_EMIT exportInfoRequested();
