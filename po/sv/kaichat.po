@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-07-28 00:44+0000\n"
-"PO-Revision-Date: 2025-07-03 15:58+0200\n"
+"PO-Revision-Date: 2025-07-28 18:06+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -75,7 +75,7 @@ msgstr "System"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Verktyg"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -128,7 +128,7 @@ msgstr "Exportera som text…"
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "Vad är nytt"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
@@ -190,73 +190,73 @@ msgstr "Huvudverktygsrad"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr ""
+msgstr "Version:"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr ""
+msgstr "Vad är nytt i %1"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr ""
+msgstr "(Visa nyheter)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr ""
+msgstr "Vad är nytt i %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add what's new support."
-msgstr ""
+msgstr "Lägg till stöd för Vad är nytt."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add instance support."
-msgstr ""
+msgstr "Lägg till instansstöd."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add Mardown support."
-msgstr ""
+msgstr "lägg till stöd för Markdown"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Highlighting support."
-msgstr ""
+msgstr "Lägg till stöd för syntaxfärgläggning."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Rätta tillåt borttagning av chatt. Fel %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Versions"
-msgstr ""
+msgstr "Alla versioner"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr ""
+msgstr "Version %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr ""
+msgstr "Viktiga ändringar sedan föregående version:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr ""
+msgstr "Vissa av de nya funktionerna i den här utgåvan av Kaichat omfattar:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr ""
+msgstr "En del felrättning:"
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"
