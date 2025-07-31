@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-28 00:44+0000\n"
+"POT-Creation-Date: 2025-07-31 02:35+0000\n"
 "PO-Revision-Date: 2025-07-28 18:06+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -208,27 +208,23 @@ msgstr "(Visa nyheter)"
 msgid "What's new in %2. %1"
 msgstr "Vad är nytt i %2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
-#, kde-format
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add what's new support."
 msgstr "Lägg till stöd för Vad är nytt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
-#, kde-format
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Add instance support."
 msgstr "Lägg till instansstöd."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
-#, kde-format
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Add Mardown support."
 msgstr "lägg till stöd för Markdown"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
-#, kde-format
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add Highlighting support."
 msgstr "Lägg till stöd för syntaxfärgläggning."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Rätta tillåt borttagning av chatt. Fel %1"
