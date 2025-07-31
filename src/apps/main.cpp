@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
     KAboutData aboutData(u"kaichat"_s,
                          i18n("KAiChat"),
                          QStringLiteral(KAICHAT_VERSION),
-                         i18n("Rocket Chat Client"),
+                         i18n("AI Chat"),
                          KAboutLicense::GPL_V2,
                          i18n("Copyright © 2025 Laurent Montel"));
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
