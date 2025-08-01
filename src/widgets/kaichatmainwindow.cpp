@@ -14,6 +14,7 @@
 #include "whatsnew/whatsnewdialog.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
+#include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>
 
 #include <KActionCollection>
 #include <KActionMenu>
@@ -56,6 +57,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::showArchiveChanged, this, [this]() {
         mShowArchivedAction->setChecked(mManager->showArchived());
     });
+    updateActions();
 }
 
 KAIChatMainWindow::~KAIChatMainWindow()
@@ -198,6 +200,7 @@ void KAIChatMainWindow::slotConfigure()
     if (dlg->exec()) {
         createSystemTray();
         Q_EMIT mManager->configChanged();
+        updateActions();
     }
     delete dlg;
 }
@@ -265,7 +268,12 @@ void KAIChatMainWindow::slotExportInfoRequested()
 
 void KAIChatMainWindow::updateActions()
 {
-    // TODO
+    // TODO reactivate it.
+#if 0
+    const bool isEnabled = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
+    mShowQuickAskAction->setEnabled(isEnabled);
+    mExportMenu->setEnabled(isEnabled);
+#endif
 }
 
 #include "moc_kaichatmainwindow.cpp"
