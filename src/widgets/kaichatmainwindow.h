@@ -39,6 +39,8 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void createSystemTray();
     LIBKAICHATWIDGETS_NO_EXPORT void slotExportInfoRequested();
     LIBKAICHATWIDGETS_NO_EXPORT void slotWhatsNew();
+    LIBKAICHATWIDGETS_NO_EXPORT void updateActions();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotQuickAsk();
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
@@ -48,4 +50,5 @@ private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
     KAIChatCentralWidget *const mMainWidget;
     KAIChatExportMenu *mExportMenu = nullptr;
+    QAction *mShowQuickAskAction = nullptr;
 };

@@ -3,7 +3,7 @@
   SPDX-License-Identifier: CC0-1.0
   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 -->
-<gui name="kaichat" version="5">
+<gui name="kaichat" version="6">
  <MenuBar>
   <Menu name="file" >
    <Action name="export_menu" />
@@ -16,6 +16,10 @@
   <Menu name="view" >
    <text>View</text>
    <Action name="show_archive" />
+  </Menu>
+  <Menu name="Tools" >
+   <text>Tools</text>
+   <Action name="show_quick_ask" />
   </Menu>
   <Menu name="help">
    <text>&amp;Help</text>

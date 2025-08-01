@@ -13,6 +13,7 @@
 #include "kaichatnotificatifieritem.h"
 #include "whatsnew/whatsnewdialog.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 
 #include <KActionCollection>
 #include <KActionMenu>
@@ -135,6 +136,19 @@ void KAIChatMainWindow::setupActions()
             disconnect(mHamburgerMenu, &KHamburgerMenu::aboutToShowMenu, this, nullptr);
         });
     }
+
+    mShowQuickAskAction = new QAction(i18n("Open Quick Ask..."), this);
+    ac->addAction(u"show_quick_ask"_s, mShowQuickAskAction);
+    connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
+}
+
+void KAIChatMainWindow::slotQuickAsk()
+{
+    auto *manager = new TextAutoGenerateText::TextAutoGenerateManager;
+    auto quickAskdialog = new TextAutoGenerateText::TextAutoGenerateQuickAskDialog(manager, this);
+    manager->setParent(quickAskdialog);
+    quickAskdialog->exec();
+    delete quickAskdialog;
 }
 
 void KAIChatMainWindow::slotWhatsNew()
@@ -247,6 +261,11 @@ void KAIChatMainWindow::slotExportInfoRequested()
         .listMessages = mMainWidget->messagesFromCurrentChat(),
     };
     mExportMenu->setExportChatInfo(std::move(info));
+}
+
+void KAIChatMainWindow::updateActions()
+{
+    // TODO
 }
 
 #include "moc_kaichatmainwindow.cpp"
