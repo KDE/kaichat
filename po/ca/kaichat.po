@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-31 02:35+0000\n"
+"POT-Creation-Date: 2025-08-01 02:46+0000\n"
 "PO-Revision-Date: 2025-07-26 11:04+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -35,9 +35,10 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, kde-format
-msgid "Rocket Chat Client"
-msgstr "Client de xat del Rocket"
+#, fuzzy, kde-format
+#| msgid "KAIChat"
+msgid "AI Chat"
+msgstr "KAIChat"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -256,3 +257,6 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Correcció d'errors:"
+
+#~ msgid "Rocket Chat Client"
+#~ msgstr "Client de xat del Rocket"

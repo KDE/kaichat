@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-31 02:35+0000\n"
+"POT-Creation-Date: 2025-08-01 02:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -33,9 +33,10 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, kde-format
-msgid "Rocket Chat Client"
-msgstr "Rocket Chat 客户端"
+#, fuzzy, kde-format
+#| msgid "KAIChat"
+msgid "AI Chat"
+msgstr "KAIChat"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -251,3 +252,6 @@ msgstr "此版本 Kaichat 所包含的的部分新特性包括："
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "修复了一些问题："
+
+#~ msgid "Rocket Chat Client"
+#~ msgstr "Rocket Chat 客户端"
