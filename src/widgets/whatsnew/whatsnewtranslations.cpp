@@ -14,7 +14,9 @@ WhatsNewTranslations::~WhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{};
+    const QList<KLazyLocalizedString> info{
+        kli18n("Add Quick Ask Dialog."),
+    };
     return info;
 }
 
@@ -24,7 +26,6 @@ QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
     {
         WhatsNewInfo info;
         info.setNewFeatures({
-
             i18n("Add what's new support."),
             i18n("Add instance support."),
             i18n("Add Mardown support."),
