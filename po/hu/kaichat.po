@@ -1,32 +1,31 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# SPDX-FileCopyrightText: 2025 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-01 00:47+0000\n"
-"PO-Revision-Date: 2025-07-26 03:33+0200\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
-"Language: ka\n"
+"PO-Revision-Date: 2025-07-31 21:57+0200\n"
+"Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Temuri Doghonadze"
+msgstr "Kiszel Kristóf"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "temuri.doghonadze@gmail.com"
+msgstr "ulysses@fsf.hu"
 
 #: apps/main.cpp:59
 #, kde-format
@@ -42,101 +41,101 @@ msgstr "KAIChat"
 #: apps/main.cpp:63
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr "© 2025 ლორან მონტელი, ყველა უფლება დაცულია"
+msgstr "Copyright © Laurent Montel, 2025."
 
 #: apps/main.cpp:64
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "ლორან მონტელი"
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:64
 #, kde-format
 msgid "Maintainer"
-msgstr "წამყვანი პროგრამისტი"
+msgstr "Karbantartó"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr "მომხმარებელი"
+msgstr "Felhasználó"
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr "დამხმარე"
+msgstr "Asszisztens"
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr "სისტემა"
+msgstr "Rendszer"
 
 #: core/kaichatexportchatasmardownjob.cpp:41
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr "ხელსაწყო"
+msgstr "Eszköz"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "სისტემის კუთხეში ხატულის ჩართვა"
+msgstr "Ikon megjelenítése a paneltálcán"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "KAIChat-ის მორგება"
+msgstr "A KAIChat beállítása"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:28
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "ზოგადი"
+msgstr "Általános"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:33
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "გაშვებული ასლები"
+msgstr "Példányok"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "გატანა…"
+msgstr "Exportálás…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as Json…"
-msgstr "გატანა JSON-ში…"
+msgstr "Exportálás JSON-ként…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "გატანა მარკდაუნში…"
+msgstr "Exportálás Markdownként…"
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "გატანა ტექსტის სახით…"
+msgstr "Exportálás szövegként…"
 
 #: widgets/kaichatmainwindow.cpp:100
 #, kde-format
 msgid "What's new"
-msgstr "რა არის ახალი"
+msgstr "Újdonságok"
 
 #: widgets/kaichatmainwindow.cpp:104
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "არქივის ჩვენება"
+msgstr "Archívum megjelenítése"
 
 #: widgets/kaichatmainwindow.cpp:205
 #, kde-format
@@ -144,20 +143,20 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
-"</qt>"
+"<qt>Teljesen elrejti a menüsávot. Ezzel a paranccsal állítható vissza: %1.</"
+"qt>"
 
 #: widgets/kaichatmainwindow.cpp:208
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "მენიუს ზოლის დამალვა"
+msgstr "Menüsáv elrejtése"
 
 #: widgets/kaichatmainwindow.cpp:240
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "ჩატების გატანა"
+msgstr "Csevegések exportálása"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -168,101 +167,97 @@ msgstr "KAIChat"
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr "მორგე&ბა"
+msgstr "&Beállítások"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr "ნახვა"
+msgstr "Nézet"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "&Help"
-msgstr "&დახმარება"
+msgstr "&Súgó"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:28
 #, kde-format
 msgid "Main Toolbar"
-msgstr "ხელსაწყოთა მთავარი ზოლი"
+msgstr "Alap eszköztár"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr "ვერსია:"
+msgstr "Verzió:"
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr "რა არის ახალი %1-ში"
+msgstr "A(z) %1 újdonságai"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr "(სიახლეების ჩვენება)"
+msgstr "(Hírek megjelenítése)"
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr "რა არის ახალი %2-ში. %1"
+msgstr "A(z) %2 újdonságai. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add what's new support."
-msgstr "დაემატა მენიუ 'რა არის ახალი'."
+msgstr "Újdonságok megjelenítése."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add instance support."
-msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
+msgstr "Példányok támogatása."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add Mardown support."
-msgstr "დაემატა მარკდაუნის მხარდაჭერა."
+msgstr "Markdown támogatás."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Highlighting support."
-msgstr "დაემატა გამოკვეთის მხარდაჭერა."
+msgstr "Kiemelés támogatás."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
+msgstr "Csevegések törölhetővé tétele. Hiba: %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Versions"
-msgstr "ყველა ვერსია"
+msgstr "Minden verzió"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr "ვერსია %1"
+msgstr "Verzió: %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr "მნიშვნელოვანი ცვლილებები ბოლო ვერსიის შემდეგ:"
+msgstr "Fontos változtatások a legutóbbi verzióhoz képest:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "Kaichat-ის ახალ ფუნქციებში შედის:"
+msgstr "Néhány új funkció, amelyet a Kaichat ezen kiadása tartalmaz:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr "გამოსწორდა ზოგიერთი შეცდომა:"
+msgstr "Néhány hibajavítás:"
 
 #~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket Chat -ის კლიენტი"
-
-#~ msgctxt "@title:window"
-#~ msgid "Export Autocorrection File"
-#~ msgstr "ავტოკორექციის ფაილის გატანა"
+#~ msgstr "Rocket.Chat kliens"
