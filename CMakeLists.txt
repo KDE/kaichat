@@ -96,7 +96,7 @@ add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.10.0
-    KF 6.16.0
+    KF 6.17.0
 )
 
 set(KAICHAT_LIB_SOVERSION "0")
