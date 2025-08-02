@@ -33,10 +33,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr ""
 
 #: apps/main.cpp:63
 #, kde-format
@@ -252,6 +251,3 @@ msgstr "此版本 Kaichat 所包含的的部分新特性包括："
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "修复了一些问题："
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket Chat 客户端"
