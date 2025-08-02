@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-01 00:47+0000\n"
+"POT-Creation-Date: 2025-08-02 00:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -33,10 +33,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr ""
 
 #: apps/main.cpp:63
 #, kde-format
@@ -126,31 +125,36 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "导出为文本..."
 
-#: widgets/kaichatmainwindow.cpp:100
+#: widgets/kaichatmainwindow.cpp:107
 #, kde-format
 msgid "What's new"
 msgstr "新增功能"
 
-#: widgets/kaichatmainwindow.cpp:104
+#: widgets/kaichatmainwindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "显示归档"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:146
+#, kde-format
+msgid "Open Quick Ask..."
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:208
+#: widgets/kaichatmainwindow.cpp:230
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
-#: widgets/kaichatmainwindow.cpp:240
+#: widgets/kaichatmainwindow.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -173,14 +177,20 @@ msgstr "设置(&S)"
 msgid "View"
 msgstr "查看"
 
-#. i18n: ectx: Menu (help)
+#. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
+#, kde-format
+msgid "Tools"
+msgstr ""
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:25
 #, kde-format
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:28
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具栏"
@@ -207,27 +217,31 @@ msgstr "(显示新闻)"
 msgid "What's new in %2. %1"
 msgstr "%2. %1 的新功能"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add Quick Ask Dialog."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add what's new support."
 msgstr "添加“新增功能”支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add instance support."
 msgstr "添加实例支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Mardown support."
 msgstr "添加 Markdown 支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr ""
@@ -256,6 +270,3 @@ msgstr "此版本 Kaichat 所包含的的部分新特性包括："
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "修复了一些问题："
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket Chat 客户端"

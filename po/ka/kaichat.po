@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-01 00:47+0000\n"
-"PO-Revision-Date: 2025-07-26 03:33+0200\n"
+"POT-Creation-Date: 2025-08-02 00:46+0000\n"
+"PO-Revision-Date: 2025-08-01 06:40+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -34,10 +34,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "ხი-სთან ჩატი"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -127,18 +126,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
-#: widgets/kaichatmainwindow.cpp:100
+#: widgets/kaichatmainwindow.cpp:107
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:104
+#: widgets/kaichatmainwindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:146
+#, kde-format
+msgid "Open Quick Ask..."
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -147,13 +151,13 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:208
+#: widgets/kaichatmainwindow.cpp:230
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:240
+#: widgets/kaichatmainwindow.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -176,14 +180,21 @@ msgstr "მორგე&ბა"
 msgid "View"
 msgstr "ნახვა"
 
-#. i18n: ectx: Menu (help)
+#. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
+#, fuzzy, kde-format
+#| msgid "Tool"
+msgid "Tools"
+msgstr "ხელსაწყო"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:25
 #, kde-format
 msgid "&Help"
 msgstr "&დახმარება"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:28
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Main Toolbar"
 msgstr "ხელსაწყოთა მთავარი ზოლი"
@@ -210,27 +221,31 @@ msgstr "(სიახლეების ჩვენება)"
 msgid "What's new in %2. %1"
 msgstr "რა არის ახალი %2-ში. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add Quick Ask Dialog."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add what's new support."
 msgstr "დაემატა მენიუ 'რა არის ახალი'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add instance support."
 msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Mardown support."
 msgstr "დაემატა მარკდაუნის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "დაემატა გამოკვეთის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"

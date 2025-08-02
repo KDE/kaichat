@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-01 00:47+0000\n"
-"PO-Revision-Date: 2025-07-26 11:04+0200\n"
+"POT-Creation-Date: 2025-08-02 00:46+0000\n"
+"PO-Revision-Date: 2025-08-01 11:47+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -35,10 +35,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "Xat d'IA"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -128,18 +127,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
-#: widgets/kaichatmainwindow.cpp:100
+#: widgets/kaichatmainwindow.cpp:107
 #, kde-format
 msgid "What's new"
 msgstr "Què hi ha de nou"
 
-#: widgets/kaichatmainwindow.cpp:104
+#: widgets/kaichatmainwindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:146
+#, kde-format
+msgid "Open Quick Ask..."
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -148,13 +152,13 @@ msgstr ""
 "<qt>Ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:208
+#: widgets/kaichatmainwindow.cpp:230
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:240
+#: widgets/kaichatmainwindow.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -177,14 +181,21 @@ msgstr "Con&figuració"
 msgid "View"
 msgstr "Visualitza"
 
-#. i18n: ectx: Menu (help)
+#. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
+#, fuzzy, kde-format
+#| msgid "Tool"
+msgid "Tools"
+msgstr "Eina"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:25
 #, kde-format
 msgid "&Help"
 msgstr "A&juda"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:28
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra d'eines principal"
@@ -211,27 +222,31 @@ msgstr "(Mostra les novetats)"
 msgid "What's new in %2. %1"
 msgstr "Què hi ha de nou en %2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add Quick Ask Dialog."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add what's new support."
 msgstr "Afig la implementació de Què hi ha de nou."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add instance support."
 msgstr "Afig la implementació d'instàncies."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Afig la implementació de Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Afig la implementació del ressaltat."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corregix permetre la supressió de xat. Error %1"
@@ -261,6 +276,3 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Esmena d'errors:"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Client de xat de Rocket"

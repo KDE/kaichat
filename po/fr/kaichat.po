@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-01 00:47+0000\n"
+"POT-Creation-Date: 2025-08-02 00:46+0000\n"
 "PO-Revision-Date: 2025-07-16 10:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -123,18 +123,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
-#: widgets/kaichatmainwindow.cpp:100
+#: widgets/kaichatmainwindow.cpp:107
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:104
+#: widgets/kaichatmainwindow.cpp:111
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:146
+#, kde-format
+msgid "Open Quick Ask..."
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:227
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -143,13 +148,13 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:208
+#: widgets/kaichatmainwindow.cpp:230
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:240
+#: widgets/kaichatmainwindow.cpp:262
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -172,14 +177,20 @@ msgstr "&Configuration"
 msgid "View"
 msgstr "Affichage"
 
-#. i18n: ectx: Menu (help)
+#. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
+#, kde-format
+msgid "Tools"
+msgstr ""
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:25
 #, kde-format
 msgid "&Help"
 msgstr "&Aide"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:28
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barre principale d'outils"
@@ -206,27 +217,31 @@ msgstr "(Afficher les nouvelles) "
 msgid "What's new in %2. %1"
 msgstr "Quoi de neuf dans %2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add Quick Ask Dialog."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add instance support."
 msgstr "Ajouter la prise en charge d'instances."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ajouter la prise en charge du format « Markdown »."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ajouter la prise en charge de la surbrillance"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr ""
