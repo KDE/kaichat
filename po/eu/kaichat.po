@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 00:46+0000\n"
-"PO-Revision-Date: 2025-08-01 11:59+0200\n"
+"PO-Revision-Date: 2025-08-03 00:19+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -142,7 +142,7 @@ msgstr "Erakutsi artxiboa"
 #: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "Ireki Galdera azkarra..."
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
@@ -184,10 +184,9 @@ msgstr "Ikuspegia"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "Tresna"
+msgstr "Tresnak"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -225,7 +224,7 @@ msgstr "Zer berri %2(a)n. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "Gehitu Galdera azkarra elkarrizketa-koadroa."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format

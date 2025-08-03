@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 00:46+0000\n"
-"PO-Revision-Date: 2025-07-26 09:37+0300\n"
+"PO-Revision-Date: 2025-08-02 19:28+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -34,10 +34,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "שיחה עם בינה מלאכותית"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -141,7 +140,7 @@ msgstr "הצגת ארכיון"
 #: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "פתיחת שאלה מהירה…"
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
@@ -183,10 +182,9 @@ msgstr "תצוגה"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "כלי"
+msgstr "כלים"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -224,7 +222,7 @@ msgstr "מה חדש ב־%2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "הוספת חלונית שאלה מהירה."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format

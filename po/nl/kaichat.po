@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 00:46+0000\n"
-"PO-Revision-Date: 2025-08-01 12:42+0200\n"
+"PO-Revision-Date: 2025-08-02 10:39+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -139,7 +139,7 @@ msgstr "Archief tonen"
 #: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "Snel vragen openen..."
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
@@ -181,10 +181,9 @@ msgstr "Beeld"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "Hulpmiddel"
+msgstr "Hulpmiddelen"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -222,7 +221,7 @@ msgstr "Wat is er nieuw in %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "Dialoog van Snel vragen toevoegen."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format

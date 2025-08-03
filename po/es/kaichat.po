@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 00:46+0000\n"
-"PO-Revision-Date: 2025-08-01 12:51+0100\n"
+"PO-Revision-Date: 2025-08-02 11:38+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -141,7 +141,7 @@ msgstr "Mostrar el archivo"
 #: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "Abrir pregunta rápida…"
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
@@ -183,10 +183,9 @@ msgstr "Ver"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "Herramienta"
+msgstr "Herramientas"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -224,7 +223,7 @@ msgstr "Novedades de %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "Añadir diálogo de pregunta rápida."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format

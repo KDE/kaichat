@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-02 00:46+0000\n"
-"PO-Revision-Date: 2025-08-01 06:40+0200\n"
+"PO-Revision-Date: 2025-08-02 05:18+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -140,7 +140,7 @@ msgstr "არქივის ჩვენება"
 #: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "სწრაფი კითხვის გახსნა..."
 
 #: widgets/kaichatmainwindow.cpp:227
 #, kde-format
@@ -182,10 +182,9 @@ msgstr "ნახვა"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:21
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "ხელსაწყო"
+msgstr "ხელსაწყოები"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -223,7 +222,7 @@ msgstr "რა არის ახალი %2-ში. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "სწრაფი კითხვის დიალოგის დამატება."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
