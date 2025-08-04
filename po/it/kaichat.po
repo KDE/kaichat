@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-01 02:46+0000\n"
-"PO-Revision-Date: 2025-07-22 14:49+0200\n"
+"PO-Revision-Date: 2025-08-03 07:57+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -33,10 +33,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "Chat IA"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -76,7 +75,7 @@ msgstr "Sistema"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Strumento"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -228,7 +227,7 @@ msgstr "Aggiunge il supporto per l'evidenziazione."
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Correzione del bug %1 che consente di eliminare la chat"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
