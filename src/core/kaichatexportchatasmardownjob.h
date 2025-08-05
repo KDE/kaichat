@@ -5,7 +5,6 @@
  */
 #pragma once
 #include "libkaichatcore_export.h"
-#include <QObject>
 #include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
 
 class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMardownJob : public TextAutoGenerateText::TextAutoGenerateExportChatBaseJob
