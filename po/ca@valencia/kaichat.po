@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-02 00:46+0000\n"
+"POT-Creation-Date: 2025-08-05 00:46+0000\n"
 "PO-Revision-Date: 2025-08-02 10:57+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -29,10 +29,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: apps/main.cpp:59
+#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
-msgid "KAiChat"
-msgstr "KAiChat"
+msgid "KAIChat"
+msgstr "KAIChat"
 
 #: apps/main.cpp:61
 #, kde-format
@@ -110,9 +110,11 @@ msgid "Export…"
 msgstr "Exporta…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@action"
-msgid "Export as Json…"
+msgid "Export as JSON…"
 msgstr "Exporta com a Json…"
 
 #: widgets/kaichatexportmenu.cpp:25
@@ -163,11 +165,6 @@ msgstr "Ocultació de la barra de menús"
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporta xats"
-
-#: widgets/kaichatnotificatifieritem.cpp:21
-#, kde-format
-msgid "KAIChat"
-msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -266,8 +263,9 @@ msgid "Important changes since last version:"
 msgstr "Canvis importants des de l'última versió:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
-msgid "Some of the new features in this release of Kaichat include:"
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Kaichat include:"
+msgid "Some of the new features in this release of KAIchat include:"
 msgstr ""
 "Algunes de les característiques noves d'esta versió de KAIChat inclouen:"
 
@@ -275,3 +273,6 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Esmena d'errors:"
+
+#~ msgid "KAiChat"
+#~ msgstr "KAiChat"

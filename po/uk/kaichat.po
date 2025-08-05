@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-02 00:46+0000\n"
+"POT-Creation-Date: 2025-08-05 00:46+0000\n"
 "PO-Revision-Date: 2025-08-02 17:04+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -28,10 +28,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:59
+#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
-msgid "KAiChat"
-msgstr "KAiChat"
+msgid "KAIChat"
+msgstr "KAIChat"
 
 #: apps/main.cpp:61
 #, kde-format
@@ -109,9 +109,11 @@ msgid "Export…"
 msgstr "Експортувати…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@action"
-msgid "Export as Json…"
+msgid "Export as JSON…"
 msgstr "Експортувати як JSON…"
 
 #: widgets/kaichatexportmenu.cpp:25
@@ -162,11 +164,6 @@ msgstr "Приховати смужку меню"
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
-
-#: widgets/kaichatnotificatifieritem.cpp:21
-#, kde-format
-msgid "KAIChat"
-msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -265,14 +262,18 @@ msgid "Important changes since last version:"
 msgstr "Важливі зміни з часу випуску попередньої версії:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
-msgid "Some of the new features in this release of Kaichat include:"
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Kaichat include:"
+msgid "Some of the new features in this release of KAIchat include:"
 msgstr "Серед нових можливостей у цьому випуску Kaichat:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Виправлення деяких вад:"
+
+#~ msgid "KAiChat"
+#~ msgstr "KAiChat"
 
 #~ msgid "Rocket Chat Client"
 #~ msgstr "Клієнт спілкування Rocket"

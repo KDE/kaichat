@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-02 00:46+0000\n"
+"POT-Creation-Date: 2025-08-05 00:46+0000\n"
 "PO-Revision-Date: 2025-08-02 10:39+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,10 +27,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: apps/main.cpp:59
+#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
-msgid "KAiChat"
-msgstr "KAiChat"
+msgid "KAIChat"
+msgstr "KAIChat"
 
 #: apps/main.cpp:61
 #, kde-format
@@ -108,9 +108,11 @@ msgid "Export…"
 msgstr "Exporteren…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@action"
-msgid "Export as Json…"
+msgid "Export as JSON…"
 msgstr "Als Json exporteren…"
 
 #: widgets/kaichatexportmenu.cpp:25
@@ -161,11 +163,6 @@ msgstr "Menubalk verbergen"
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Chats exporteren"
-
-#: widgets/kaichatnotificatifieritem.cpp:21
-#, kde-format
-msgid "KAIChat"
-msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -264,14 +261,18 @@ msgid "Important changes since last version:"
 msgstr "Belangrijke wijzigingen sinds de laatste versie:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
-msgid "Some of the new features in this release of Kaichat include:"
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Kaichat include:"
+msgid "Some of the new features in this release of KAIchat include:"
 msgstr "Enige van de nieuwe functies in deze uitgave van Kaichat omvatten:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Enig repareren van bugs:"
+
+#~ msgid "KAiChat"
+#~ msgstr "KAiChat"
 
 #~ msgid "Rocket Chat Client"
 #~ msgstr "Client van Rocket Chat"
