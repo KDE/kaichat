@@ -10,7 +10,7 @@ WhatsNewInfo::WhatsNewInfo() = default;
 
 WhatsNewInfo::~WhatsNewInfo() = default;
 
-QStringList WhatsNewInfo::changes() const
+const QStringList &WhatsNewInfo::changes() const
 {
     return mChanges;
 }
@@ -20,7 +20,7 @@ void WhatsNewInfo::setChanges(const QStringList &newChanges)
     mChanges = newChanges;
 }
 
-QStringList WhatsNewInfo::newFeatures() const
+const QStringList &WhatsNewInfo::newFeatures() const
 {
     return mNewFeatures;
 }
@@ -30,7 +30,7 @@ void WhatsNewInfo::setNewFeatures(const QStringList &newNewFeatures)
     mNewFeatures = newNewFeatures;
 }
 
-QStringList WhatsNewInfo::bugFixings() const
+const QStringList &WhatsNewInfo::bugFixings() const
 {
     return mBugFixings;
 }
@@ -40,7 +40,7 @@ void WhatsNewInfo::setBugFixings(const QStringList &newBugFixings)
     mBugFixings = newBugFixings;
 }
 
-QString WhatsNewInfo::version() const
+const QString &WhatsNewInfo::version() const
 {
     return mVersion;
 }

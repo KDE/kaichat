@@ -22,7 +22,7 @@ bool KAIChatExportChatJob::canStart() const
     return true;
 }
 
-QByteArray KAIChatExportChatJob::chatId() const
+const QByteArray &KAIChatExportChatJob::chatId() const
 {
     return mChatId;
 }
@@ -32,7 +32,7 @@ void KAIChatExportChatJob::setChatId(const QByteArray &newChatId)
     mChatId = newChatId;
 }
 
-QString KAIChatExportChatJob::fileName() const
+const QString &KAIChatExportChatJob::fileName() const
 {
     return mFileName;
 }

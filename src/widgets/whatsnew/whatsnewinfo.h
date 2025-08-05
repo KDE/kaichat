@@ -13,16 +13,16 @@ public:
     WhatsNewInfo();
     ~WhatsNewInfo();
 
-    [[nodiscard]] QStringList changes() const;
+    [[nodiscard]] const QStringList &changes() const;
     void setChanges(const QStringList &newChanges);
 
-    [[nodiscard]] QStringList newFeatures() const;
+    [[nodiscard]] const QStringList &newFeatures() const;
     void setNewFeatures(const QStringList &newNewFeatures);
 
-    [[nodiscard]] QStringList bugFixings() const;
+    [[nodiscard]] const QStringList &bugFixings() const;
     void setBugFixings(const QStringList &newBugFixings);
 
-    [[nodiscard]] QString version() const;
+    [[nodiscard]] const QString &version() const;
     void setVersion(const QString &newVersion);
 
 private:

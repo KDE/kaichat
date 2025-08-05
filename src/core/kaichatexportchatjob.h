@@ -15,10 +15,10 @@ public:
     explicit KAIChatExportChatJob(QObject *parent = nullptr);
     ~KAIChatExportChatJob() override;
     [[nodiscard]] bool canStart() const;
-    [[nodiscard]] QByteArray chatId() const;
+    [[nodiscard]] const QByteArray &chatId() const;
     void setChatId(const QByteArray &newChatId);
 
-    [[nodiscard]] QString fileName() const;
+    [[nodiscard]] const QString &fileName() const;
     void setFileName(const QString &newFileName);
 
 private:
