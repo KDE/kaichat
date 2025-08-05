@@ -16,6 +16,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
 {
     const QList<KLazyLocalizedString> info{
         kli18n("Add Quick Ask Dialog."),
+        kli18n("Allow to download Ollama on Windows/MacOs."),
     };
     return info;
 }
