@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-05 00:46+0000\n"
-"PO-Revision-Date: 2025-08-02 09:27+0200\n"
+"POT-Creation-Date: 2025-08-06 00:47+0000\n"
+"PO-Revision-Date: 2025-08-05 09:07+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -108,12 +108,10 @@ msgid "Export…"
 msgstr "Exportera…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "Exportera som Json…"
+msgstr "Exportera som JSON…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
@@ -220,27 +218,35 @@ msgstr "Vad är nytt i %2. %1"
 msgid "Add Quick Ask Dialog."
 msgstr "Lägg till snabbfrågedialogruta."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Allow to download Ollama on Windows/MacOs."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Use prompt during chating."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add what's new support."
 msgstr "Lägg till stöd för Vad är nytt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add instance support."
 msgstr "Lägg till instansstöd."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Mardown support."
 msgstr "lägg till stöd för Markdown"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Lägg till stöd för syntaxfärgläggning."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Rätta tillåt borttagning av chatt. Fel %1"
@@ -261,10 +267,9 @@ msgid "Important changes since last version:"
 msgstr "Viktiga ändringar sedan föregående version:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Kaichat include:"
+#, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
-msgstr "Vissa av de nya funktionerna i den här utgåvan av Kaichat omfattar:"
+msgstr "Vissa av de nya funktionerna i den här utgåvan av KAIChat omfattar:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

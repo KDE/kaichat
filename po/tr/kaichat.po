@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-05 00:46+0000\n"
+"POT-Creation-Date: 2025-08-06 00:47+0000\n"
 "PO-Revision-Date: 2025-08-02 17:56+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -220,27 +220,35 @@ msgstr "%2 içinde neler yeni. %1"
 msgid "Add Quick Ask Dialog."
 msgstr "Tez soru iletişim kutusu eklendi"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Allow to download Ollama on Windows/MacOs."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Use prompt during chating."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add what's new support."
 msgstr "Neler Yeni desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add instance support."
 msgstr "Örnek desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Vurgu desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Sohbeti silmeyi düzelt (hata %1)"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-05 00:46+0000\n"
+"POT-Creation-Date: 2025-08-06 00:47+0000\n"
 "PO-Revision-Date: 2025-08-03 07:57+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -220,27 +220,35 @@ msgstr "Cosa c'è di nuovo in %2. %1"
 msgid "Add Quick Ask Dialog."
 msgstr "Aggiunge finestra Domanda rapida."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Allow to download Ollama on Windows/MacOs."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Use prompt during chating."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add what's new support."
 msgstr "Aggiungi il supporto per le novità."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add instance support."
 msgstr "Aggiunge il supporto delle istanze."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Aggiunge il supporto Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Aggiunge il supporto per l'evidenziazione."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Correzione del bug %1 che consente di eliminare la chat"
