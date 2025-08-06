@@ -19,7 +19,7 @@ const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
 }
 KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KPageDialog(parent)
-    , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(this))
+    , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(manager, this))
     , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(manager, this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));

@@ -9,13 +9,15 @@
 #include <KLocalizedString>
 #include <QCheckBox>
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateTextConfigurePromptWidget>
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatConfigureGeneralWidget::KAIChatConfigureGeneralWidget(QWidget *parent)
+KAIChatConfigureGeneralWidget::KAIChatConfigureGeneralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mEnableSystemTray(new QCheckBox(i18nc("@option:check", "Enable system tray icon"), this))
     , mConfigurePromptWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePromptWidget(this))
+    , mManager(manager)
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
@@ -33,11 +35,13 @@ KAIChatConfigureGeneralWidget::~KAIChatConfigureGeneralWidget() = default;
 void KAIChatConfigureGeneralWidget::save()
 {
     KAIChatGlobalConfig::self()->setEnableSystemTray(mEnableSystemTray->isChecked());
+    mManager->setSystemPrompt(mConfigurePromptWidget->systemPrompt());
 }
 
 void KAIChatConfigureGeneralWidget::load()
 {
     mEnableSystemTray->setChecked(KAIChatGlobalConfig::self()->enableSystemTray());
+    mConfigurePromptWidget->setSystemPrompt(mManager->systemPrompt());
 }
 
 #include "moc_kaichatconfiguregeneralwidget.cpp"

@@ -11,12 +11,13 @@ class QCheckBox;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateTextConfigurePromptWidget;
+class TextAutoGenerateManager;
 }
 class KAIChatConfigureGeneralWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatConfigureGeneralWidget(QWidget *parent = nullptr);
+    explicit KAIChatConfigureGeneralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatConfigureGeneralWidget() override;
 
     void save();
@@ -25,4 +26,5 @@ public:
 private:
     QCheckBox *const mEnableSystemTray;
     TextAutoGenerateText::TextAutoGenerateTextConfigurePromptWidget *const mConfigurePromptWidget;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
