@@ -4,21 +4,27 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguregeneralwidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "kaichatglobalconfig.h"
 #include <KLocalizedString>
 #include <QCheckBox>
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateTextConfigurePromptWidget>
 
+using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureGeneralWidget::KAIChatConfigureGeneralWidget(QWidget *parent)
     : QWidget{parent}
     , mEnableSystemTray(new QCheckBox(i18nc("@option:check", "Enable system tray icon"), this))
+    , mConfigurePromptWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePromptWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
     mEnableSystemTray->setObjectName(u"mEnableSystemTray"_s);
     mainLayout->addWidget(mEnableSystemTray);
+
+    mConfigurePromptWidget->setObjectName(u"mConfigurePromptWidget"_s);
+    mainLayout->addWidget(mConfigurePromptWidget);
+
     mainLayout->addStretch(1);
 }
 

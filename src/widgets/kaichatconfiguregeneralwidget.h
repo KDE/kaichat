@@ -8,6 +8,10 @@
 
 #include <QWidget>
 class QCheckBox;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateTextConfigurePromptWidget;
+}
 class KAIChatConfigureGeneralWidget : public QWidget
 {
     Q_OBJECT
@@ -20,4 +24,5 @@ public:
 
 private:
     QCheckBox *const mEnableSystemTray;
+    TextAutoGenerateText::TextAutoGenerateTextConfigurePromptWidget *const mConfigurePromptWidget;
 };
