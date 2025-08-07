@@ -18,6 +18,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Quick Ask Dialog."),
         kli18n("Allow to download Ollama on Windows/MacOs."),
         kli18n("Use prompt during chating."),
+        kli18n("Add shared text and webshorcut plugin."),
     };
     return info;
 }
