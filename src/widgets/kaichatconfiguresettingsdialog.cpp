@@ -37,6 +37,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 
     const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
     auto configurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
+    configurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
     addPage(configurePluginsWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
