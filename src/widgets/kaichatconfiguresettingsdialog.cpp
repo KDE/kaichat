@@ -27,12 +27,12 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 
     const QString generalPageName = i18nc("@title General page name", "General");
     auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
-    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"ruqola"_s));
+    configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"kaichat"_s));
     addPage(configureGeneralWidgetPage);
 
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
     auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
-    // configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"ruqola"_s));
+    configureInstancesWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
     addPage(configureInstancesWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
