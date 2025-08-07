@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-07 00:46+0000\n"
+"POT-Creation-Date: 2025-08-07 18:32+0000\n"
 "PO-Revision-Date: 2025-08-06 22:47+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -103,23 +103,29 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Sistem tepsisi simgesini etkinleştir"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:25
+#: widgets/kaichatconfiguresettingsdialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "KAIChat’i Yapılandır"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:28
+#: widgets/kaichatconfiguresettingsdialog.cpp:30
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Genel"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:33
+#: widgets/kaichatconfiguresettingsdialog.cpp:35
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Örnekler"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:40
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -246,27 +252,35 @@ msgstr "Windows ve macOS üzerinde Ollama’yı indirmeye olanak tanı"
 msgid "Use prompt during chating."
 msgstr "Sohbet sırasında istem kullan"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
+msgid "Add shared text and webshorcut plugin."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:22
+msgid "Allow to configure plugins."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add what's new support."
 msgstr "Neler Yeni desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add instance support."
 msgstr "Örnek desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Vurgu desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Sohbeti silmeyi düzelt (hata %1)"

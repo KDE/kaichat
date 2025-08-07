@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-07 00:46+0000\n"
-"PO-Revision-Date: 2025-08-06 09:11+0200\n"
+"POT-Creation-Date: 2025-08-07 18:32+0000\n"
+"PO-Revision-Date: 2025-08-07 09:15+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -80,22 +80,23 @@ msgstr "Hulpmiddel"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr ""
+msgstr "Tekst delen…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "Er was een probleem bij het delen van het document: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "Bestand was gedeeld."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
+"<qt>Het nieuwe verzoek kunt u vinden op:<br /><a href='%1'>%1</a> </qt>"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -103,23 +104,29 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Systeemvakpictogram inschakelen"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:25
+#: widgets/kaichatconfiguresettingsdialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "KAIChat configureren"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:28
+#: widgets/kaichatconfiguresettingsdialog.cpp:30
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Algemeen"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:33
+#: widgets/kaichatconfiguresettingsdialog.cpp:35
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Exemplaren"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:40
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -246,27 +253,35 @@ msgstr "Toestaan Ollama te downloaden op Windows/MacOs."
 msgid "Use prompt during chating."
 msgstr "Gebruik prompt tijdens chating."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
+msgid "Add shared text and webshorcut plugin."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:22
+msgid "Allow to configure plugins."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ondersteuning voor Wat is nieuw toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add instance support."
 msgstr "Ondersteuning voor exemplaar toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ondersteuning voor Markdown toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ondersteuning voor accentuering."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Toestaan chat te verwijderen repareren. Bug %1"
