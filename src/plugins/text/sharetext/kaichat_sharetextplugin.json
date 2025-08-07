@@ -1,8 +1,18 @@
 {
     "KPlugin": {
         "Description": "This plugin allows you sharing text.",
+        "Description[es]": "Este complemento le permite compartir texto.",
+        "Description[he]": "התוסף הזה מאפשר לך לשתף טקסט.",
+        "Description[nl]": "Deze plug-in biedt u het delen van tekst.",
+        "Description[sl]": "Ta vtičnik dovoljuje deljenje besedila.",
+        "Description[x-test]": "xxThis plugin allows you sharing text.xx",
         "EnabledByDefault": true,
         "Name": "Share Text",
+        "Name[es]": "Compartir texto",
+        "Name[he]": "שיתוף טקסט",
+        "Name[nl]": "Gedeelde tekst",
+        "Name[sl]": "Deli besedilo",
+        "Name[x-test]": "xxShare Textxx",
         "Version": "1.0"
     }
 }
