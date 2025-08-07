@@ -1,5 +1,5 @@
 /*
-   SPDX-FileCopyrightText: 2020-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
@@ -8,16 +8,16 @@
 #include "webshortcuttextinterface.h"
 #include <KPluginFactory>
 
-K_PLUGIN_CLASS_WITH_JSON(WebShortcutTextPlugin, "ruqola_webshortcuttextplugin.json")
+K_PLUGIN_CLASS_WITH_JSON(WebShortcutTextPlugin, "kaichat_webshortcuttextplugin.json")
 
 WebShortcutTextPlugin::WebShortcutTextPlugin(QObject *parent, const QVariantList &)
-    : PluginText(parent)
+    : TextAutoGenerateText::TextAutoGeneratePluginText(parent)
 {
 }
 
 WebShortcutTextPlugin::~WebShortcutTextPlugin() = default;
 
-PluginTextInterface *WebShortcutTextPlugin::createInterface(QObject *parent)
+TextAutoGenerateText::TextAutoGeneratePluginTextInterface *WebShortcutTextPlugin::createInterface(QObject *parent)
 {
     return new WebShortcutTextInterface(parent);
 }

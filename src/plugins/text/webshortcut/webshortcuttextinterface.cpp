@@ -1,5 +1,5 @@
 /*
-   SPDX-FileCopyrightText: 2020-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
@@ -11,7 +11,7 @@
 #include <QMenu>
 
 WebShortcutTextInterface::WebShortcutTextInterface(QObject *parent)
-    : PluginTextInterface(parent)
+    : TextAutoGenerateText::TextAutoGeneratePluginTextInterface(parent)
     , mWebShortcutMenuManager(new KIO::KUriFilterSearchProviderActions(this))
 {
 }

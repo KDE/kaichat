@@ -1,25 +1,25 @@
 /*
-   SPDX-FileCopyrightText: 2020-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
 #include "sharetextplugin.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "sharetextinterface.h"
 #include <KPluginFactory>
 
-K_PLUGIN_CLASS_WITH_JSON(ShareTextPlugin, "ruqola_sharetextplugin.json")
+K_PLUGIN_CLASS_WITH_JSON(ShareTextPlugin, "kaichat_sharetextplugin.json")
 
+using namespace Qt::Literals::StringLiterals;
 ShareTextPlugin::ShareTextPlugin(QObject *parent, const QVariantList &)
-    : PluginText(parent)
+    : TextAutoGenerateText::TextAutoGeneratePluginText(parent)
 {
 }
 
 ShareTextPlugin::~ShareTextPlugin() = default;
 
-PluginTextInterface *ShareTextPlugin::createInterface(QObject *parent)
+TextAutoGenerateText::TextAutoGeneratePluginTextInterface *ShareTextPlugin::createInterface(QObject *parent)
 {
     auto shareTextInterface = new ShareTextInterface(parent);
     connect(shareTextInterface, &ShareTextInterface::errorMessage, this, &ShareTextPlugin::errorMessage);

@@ -1,17 +1,17 @@
 /*
-   SPDX-FileCopyrightText: 2020-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
 #pragma once
+#include <TextAutoGenerateText/TextAutoGeneratePluginTextInterface>
 
-#include "room/plugins/plugintextinterface.h"
 namespace KIO
 {
 class KUriFilterSearchProviderActions;
 }
-class WebShortcutTextInterface : public PluginTextInterface
+class WebShortcutTextInterface : public TextAutoGenerateText::TextAutoGeneratePluginTextInterface
 {
     Q_OBJECT
 public:

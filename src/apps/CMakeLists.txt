@@ -24,9 +24,9 @@ else()
     endif()
 endif()
 
-#file(GLOB_RECURSE RUQOLA_ICONS "${PROJECT_SOURCE_DIR}/src/icons/*-apps-ruqola.png")
-#ecm_add_app_icon(appIcons ICONS "${RUQOLA_ICONS}")
-#target_sources(ruqola PRIVATE ${appIcons})
+#file(GLOB_RECURSE KAICHAT_ICONS "${PROJECT_SOURCE_DIR}/src/icons/*-apps-kaichat.png")
+#ecm_add_app_icon(appIcons ICONS "${KAICHAT_ICONS}")
+#target_sources(kaichat PRIVATE ${appIcons})
 
 install(
     TARGETS

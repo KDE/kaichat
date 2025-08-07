@@ -1,14 +1,19 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 
-kcoreaddons_add_plugin(ruqola_webshortcuttextplugin INSTALL_NAMESPACE ruqolaplugins/textplugins)
+kcoreaddons_add_plugin(kaichat_webshortcuttextplugin INSTALL_NAMESPACE autogeneratetext/textplugins)
 
 target_sources(
-    ruqola_webshortcuttextplugin
+    kaichat_webshortcuttextplugin
     PRIVATE
         webshortcuttextinterface.cpp
         webshortcuttextplugin.cpp
         webshortcuttextinterface.h
         webshortcuttextplugin.h
 )
-target_link_libraries(ruqola_webshortcuttextplugin libruqolawidgets)
+target_link_libraries(
+    kaichat_webshortcuttextplugin
+    libkaichatwidgets
+    KF6::CoreAddons
+    KF6::KIOWidgets
+)

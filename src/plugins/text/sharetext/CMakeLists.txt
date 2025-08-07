@@ -1,10 +1,10 @@
 # SPDX-FileCopyrightText: 2022-2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 
-kcoreaddons_add_plugin(ruqola_sharetextplugin INSTALL_NAMESPACE ruqolaplugins/textplugins)
+kcoreaddons_add_plugin(kaichat_sharetextplugin INSTALL_NAMESPACE autogeneratetext/textplugins)
 
 target_sources(
-    ruqola_sharetextplugin
+    kaichat_sharetextplugin
     PRIVATE
         sharetextinterface.cpp
         sharetextplugin.cpp
@@ -14,8 +14,8 @@ target_sources(
         purposemenuwidget.h
 )
 target_link_libraries(
-    ruqola_sharetextplugin
-    libruqolawidgets
+    kaichat_sharetextplugin
+    libkaichatwidgets
     KF6::Purpose
     KF6::PurposeWidgets
 )

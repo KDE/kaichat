@@ -1,14 +1,13 @@
 /*
-   SPDX-FileCopyrightText: 2020-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
 #pragma once
-
-#include "room/plugins/plugintextinterface.h"
+#include <TextAutoGenerateText/TextAutoGeneratePluginTextInterface>
 class PurposeMenuWidget;
-class ShareTextInterface : public PluginTextInterface
+class ShareTextInterface : public TextAutoGenerateText::TextAutoGeneratePluginTextInterface
 {
     Q_OBJECT
 public:

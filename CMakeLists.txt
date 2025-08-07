@@ -77,8 +77,11 @@ find_package(
         Crash
         WindowSystem
 )
-
+find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)
+if(NOT APPLE)
+    find_package(KF6Purpose ${KF_MIN_VERSION} CONFIG)
+endif()
 
 find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
 set_package_properties(

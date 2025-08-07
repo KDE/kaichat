@@ -3,9 +3,23 @@
         "Description": "This plugin allows you asking on web.",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
-        "ServiceTypes": [
-            "Ruqola/TextPlugin"
-        ],
+        "Name[ar]": "اختصار وبّ",
+        "Name[ca@valencia]": "Drecera web",
+        "Name[ca]": "Drecera web",
+        "Name[es]": "Acceso rápido a web",
+        "Name[eu]": "Web lasterbideak",
+        "Name[fi]": "WWW-pikavalinta",
+        "Name[fr]": "Raccourci Internet",
+        "Name[gl]": "Atallo web",
+        "Name[he]": "קיצור לאתר",
+        "Name[it]": "Scorciatoia web",
+        "Name[ka]": "ვების მალსახმობი",
+        "Name[nl]": "Websneltoets",
+        "Name[sl]": "Spletna bližnjica",
+        "Name[sv]": "Webbgenvägar",
+        "Name[tr]": "Web Kısayolu",
+        "Name[uk]": "Вебскорочення",
+        "Name[x-test]": "xxWeb Shortcutxx",
         "Version": "1.0"
     }
 }
