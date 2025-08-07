@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-06 00:47+0000\n"
-"PO-Revision-Date: 2025-07-31 21:57+0200\n"
+"POT-Creation-Date: 2025-08-07 00:46+0000\n"
+"PO-Revision-Date: 2025-08-06 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
@@ -33,10 +33,9 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "AI csevegő"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -78,7 +77,27 @@ msgstr "Rendszer"
 msgid "Tool"
 msgstr "Eszköz"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:16
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#, kde-format
+msgid "File was shared."
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"

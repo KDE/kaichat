@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-06 00:47+0000\n"
-"PO-Revision-Date: 2025-08-05 07:15+0200\n"
+"POT-Creation-Date: 2025-08-07 00:46+0000\n"
+"PO-Revision-Date: 2025-08-06 07:16+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -78,7 +78,27 @@ msgstr "Sistem"
 msgid "Tool"
 msgstr "Orodje"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:16
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#, kde-format
+msgid "File was shared."
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
@@ -221,11 +241,11 @@ msgstr "Dodaj pogovorno okno za hitro vprašanje."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr ""
+msgstr "Dovoli prenos Ollame na Windows/MacOs."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr ""
+msgstr "Uporabi poziv med klepetom."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format

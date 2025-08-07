@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-06 00:47+0000\n"
-"PO-Revision-Date: 2025-08-05 13:24+0200\n"
+"POT-Creation-Date: 2025-08-07 00:46+0000\n"
+"PO-Revision-Date: 2025-08-06 09:36+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -80,7 +80,27 @@ msgstr "Sistema"
 msgid "Tool"
 msgstr "Tresna"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:16
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#, kde-format
+msgid "File was shared."
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
@@ -223,11 +243,11 @@ msgstr "Gehitu Galdera azkarra elkarrizketa-koadroa."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr ""
+msgstr "Ollama Windows/MacOs-en zama-jaistea baimendu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr ""
+msgstr "Berriketan gonbita erabiltzea."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format

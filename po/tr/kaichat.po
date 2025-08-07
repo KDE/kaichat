@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-06 00:47+0000\n"
-"PO-Revision-Date: 2025-08-02 17:56+0300\n"
+"POT-Creation-Date: 2025-08-07 00:46+0000\n"
+"PO-Revision-Date: 2025-08-06 22:47+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -77,7 +77,27 @@ msgstr "Sistem"
 msgid "Tool"
 msgstr "Araç"
 
-#: widgets/kaichatconfiguregeneralwidget.cpp:16
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#, kde-format
+msgid "File was shared."
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
@@ -108,9 +128,7 @@ msgid "Export…"
 msgstr "Dışa Aktar…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
 msgstr "JSON Olarak Dışa Aktar…"
@@ -222,11 +240,11 @@ msgstr "Tez soru iletişim kutusu eklendi"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr ""
+msgstr "Windows ve macOS üzerinde Ollama’yı indirmeye olanak tanı"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr ""
+msgstr "Sohbet sırasında istem kullan"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 #, kde-format
@@ -269,8 +287,7 @@ msgid "Important changes since last version:"
 msgstr "Son sürümden bu yana olan önemli değişiklikler:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Kaichat include:"
+#, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "KAIChat’in bu sürümündeki önemli özelliklerden bazıları:"
 
