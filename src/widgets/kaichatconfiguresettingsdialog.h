@@ -13,6 +13,7 @@ class KAIChatConfigureInstancesWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
+class TextAutoGenerateTextConfigurePluginsWidget;
 }
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureSettingsDialog : public KPageDialog
 {
@@ -28,4 +29,5 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void load();
     KAIChatConfigureGeneralWidget *const mConfigureGeneralWidget;
     KAIChatConfigureInstancesWidget *const mInstancesManagerWidget;
+    TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
 };

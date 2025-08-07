@@ -13,6 +13,7 @@ using namespace Qt::Literals::StringLiterals;
 #include <KWindowConfig>
 #include <QPushButton>
 #include <QWindow>
+#include <TextAutoGenerateText/TextAutoGenerateTextConfigurePluginsWidget>
 namespace
 {
 const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
@@ -21,6 +22,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     : KPageDialog(parent)
     , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(manager, this))
     , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(manager, this))
+    , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -32,6 +34,10 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
     auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
     addPage(configureInstancesWidgetPage);
+
+    const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
+    auto configurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
+    addPage(configurePluginsWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
 
@@ -65,11 +71,13 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
 {
     mConfigureGeneralWidget->save();
     mInstancesManagerWidget->save();
+    mConfigurePluginsWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()
 {
     mConfigureGeneralWidget->load();
+    mConfigurePluginsWidget->load();
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"
