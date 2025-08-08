@@ -39,7 +39,7 @@ repos:
    rev: v2.4.1
    hooks:
     - id: codespell
-      exclude: (.json|org.kde.kaichat.appdata.xml)
+      exclude: (.json|.appdata.xml)
  - repo: https://github.com/BlankSpruce/gersemi
    rev: 0.19.3
    hooks:
