@@ -2,6 +2,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org> 
 
-$EXTRACTRC `find . -name "*.ui" -o -name "*.rc"` >> rc.cpp
+$EXTRACTRC `find . -name "*.rc"` >> rc.cpp
 $XGETTEXT `find . -name "*.cpp" -o -name "*.h" | grep -v '/cmark-rc/'` -o $podir/kaichat.pot
 rm -f rc.cpp
