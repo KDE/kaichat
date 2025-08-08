@@ -60,6 +60,16 @@ include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
 
+find_package(KF6DocTools ${KF_MIN_VERSION})
+set_package_properties(
+    KF6DocTools
+    PROPERTIES
+        DESCRIPTION
+            "Tools to generate documentation"
+        TYPE
+            OPTIONAL
+)
+
 set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.7.48")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
@@ -131,6 +141,10 @@ configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 add_subdirectory(src)
 
 ki18n_install(po)
+if(KF6DocTools_FOUND)
+    kdoctools_install(po)
+    add_subdirectory(doc)
+endif()
 file(
     GLOB_RECURSE ALL_SOURCE_FILES
     src/apps/*.h
