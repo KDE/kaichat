@@ -5,6 +5,7 @@
         "Description[he]": "התוסף הזה מאפשר לך לשתף טקסט.",
         "Description[nl]": "Deze plug-in biedt u het delen van tekst.",
         "Description[sl]": "Ta vtičnik dovoljuje deljenje besedila.",
+        "Description[tr]": "Bu eklenti, metin paylaşmanıza olanak tanır.",
         "Description[x-test]": "xxThis plugin allows you sharing text.xx",
         "EnabledByDefault": true,
         "Name": "Share Text",
@@ -12,6 +13,7 @@
         "Name[he]": "שיתוף טקסט",
         "Name[nl]": "Gedeelde tekst",
         "Name[sl]": "Deli besedilo",
+        "Name[tr]": "Metni Paylaş",
         "Name[x-test]": "xxShare Textxx",
         "Version": "1.0"
     }

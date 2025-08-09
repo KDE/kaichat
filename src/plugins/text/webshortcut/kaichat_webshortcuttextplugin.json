@@ -5,6 +5,7 @@
         "Description[he]": "התוסף הזה מאפשר לך לשאול באינטרנט.",
         "Description[nl]": "Deze plug-in biedt u het vragen op het web.",
         "Description[sl]": "Ta vtičnik vam dovoljuje spraševanje na spletu.",
+        "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
         "Description[x-test]": "xxThis plugin allows you asking on web.xx",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
@@ -12,6 +13,7 @@
         "Name[he]": "קיצור לאתר",
         "Name[nl]": "Web-snelkoppeling",
         "Name[sl]": "Spletna bližnjica",
+        "Name[tr]": "Web Kısayolu",
         "Name[x-test]": "xxWeb Shortcutxx",
         "Version": "1.0"
     }
