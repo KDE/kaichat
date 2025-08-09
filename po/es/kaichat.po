@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-07 18:32+0000\n"
-"PO-Revision-Date: 2025-08-07 12:30+0100\n"
+"PO-Revision-Date: 2025-08-08 00:34+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -128,7 +128,7 @@ msgstr "Instancias"
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Complementos"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -257,11 +257,11 @@ msgstr "Usar instrucciones durante la conversación."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "Añadir el complemento de texto compartido y atajo web."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "Permitir la configuración de complementos."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format

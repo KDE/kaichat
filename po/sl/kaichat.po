@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-07 18:32+0000\n"
-"PO-Revision-Date: 2025-08-07 07:03+0200\n"
+"PO-Revision-Date: 2025-08-08 06:44+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -126,7 +126,7 @@ msgstr "Pojavki"
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Vtičniki"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -255,11 +255,11 @@ msgstr "Uporabi poziv med klepetom."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "Dodaj vtičnik za deljeno besedilo in spletno bližnjico."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "Dovoli konfiguriranje vtičnikov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-07 18:32+0000\n"
-"PO-Revision-Date: 2025-08-07 09:15+0200\n"
+"PO-Revision-Date: 2025-08-08 13:36+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -126,7 +126,7 @@ msgstr "Exemplaren"
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Plug-ins"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -255,11 +255,11 @@ msgstr "Gebruik prompt tijdens chating."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "Plug-in voor gedeelde tekst en websneltoets toevoegen."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "Sta configureren van plug-ins toe."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
