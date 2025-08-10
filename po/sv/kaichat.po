@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-07 18:32+0000\n"
-"PO-Revision-Date: 2025-08-06 12:56+0200\n"
+"PO-Revision-Date: 2025-08-09 22:25+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -80,22 +80,22 @@ msgstr "Verktyg"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr ""
+msgstr "Dela text…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "Ett problem uppstod när dokumentet skulle delas: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "Filen delades."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr ""
+msgstr "<qt>Den nya begäran finns på:<br /><a href='%1'>%1</a> </qt>"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -125,7 +125,7 @@ msgstr "Instanser"
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Insticksprogram"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -254,11 +254,11 @@ msgstr "Använd prompt under chatt."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "Lägg till insticksprogram för delad text och webbgenvägar."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "Tillåt att anpassa insticksprogram."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
