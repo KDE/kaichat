@@ -45,6 +45,9 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     : KXmlGuiWindow(parent)
     , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
     , mMainWidget(new KAIChatCentralWidget(mManager, this))
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+    , mVerifyNewVersionWidgetAction(new VerifyNewVersionWidgetAction(this))
+#endif
 {
     mMainWidget->setObjectName(u"mMainWidget"_s);
     setCentralWidget(mMainWidget);
@@ -146,6 +149,11 @@ void KAIChatMainWindow::setupActions()
     mShowQuickAskAction = new QAction(i18n("Open Quick Ask..."), this);
     ac->addAction(u"show_quick_ask"_s, mShowQuickAskAction);
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
+
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+    auto verifyNewVersionAction = mVerifyNewVersionWidgetAction->verifyNewVersionAction();
+    ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
+#endif
 }
 
 void KAIChatMainWindow::slotQuickAsk()

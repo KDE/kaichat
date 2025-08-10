@@ -13,6 +13,9 @@ class KHamburgerMenu;
 class KToggleFullScreenAction;
 class KAIChatNotificatifierItem;
 class KAIChatExportMenu;
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+class VerifyNewVersionWidgetAction;
+#endif
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -51,4 +54,7 @@ private:
     KAIChatCentralWidget *const mMainWidget;
     KAIChatExportMenu *mExportMenu = nullptr;
     QAction *mShowQuickAskAction = nullptr;
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+    VerifyNewVersionWidgetAction *const mVerifyNewVersionWidgetAction;
+#endif
 };
