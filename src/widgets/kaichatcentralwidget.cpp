@@ -5,7 +5,9 @@
  */
 
 #include "kaichatcentralwidget.h"
+#include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
+#include "needupdateversion/needupdateversionwidget.h"
 #include "whatsnew/whatsnewmessagewidget.h"
 #include "whatsnew/whatsnewtranslations.h"
 #include <QVBoxLayout>
@@ -39,6 +41,16 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
 
     mTextAutogenerateWidget->setObjectName("mTextAutogenerateWidget"_L1);
     mainLayout->addWidget(mTextAutogenerateWidget);
+
+    if (NeedUpdateVersionUtils::checkVersion()) {
+        const auto status = NeedUpdateVersionUtils::obsoleteVersionStatus(QLatin1StringView(KAICHAT_RELEASE_VERSION), QDate::currentDate());
+        if (status != NeedUpdateVersionUtils::ObsoleteVersion::NotObsoleteYet) {
+            auto needUpdateVersionWidget = new NeedUpdateVersionWidget(this);
+            needUpdateVersionWidget->setObjectName(u"needUpdateVersionWidget"_s);
+            mainLayout->insertWidget(0, needUpdateVersionWidget);
+            needUpdateVersionWidget->setObsoleteVersion(status);
+        }
+    }
 }
 
 KAIChatCentralWidget::~KAIChatCentralWidget() = default;
