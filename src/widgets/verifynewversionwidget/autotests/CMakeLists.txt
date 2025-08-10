@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 
-macro(add_ruqola_verifynewversionwidget_test _source)
+macro(add_kaichat_verifynewversionwidget_test _source)
     set(_test ${_source})
     get_filename_component(_name ${_source} NAME_WE)
     add_executable(
@@ -14,7 +14,7 @@ macro(add_ruqola_verifynewversionwidget_test _source)
     target_link_libraries(
         ${_name}
         Qt::Test
-        libruqolawidgets
+        libkaichatwidgets
     )
     set_target_properties(
         ${_name}
@@ -24,4 +24,4 @@ macro(add_ruqola_verifynewversionwidget_test _source)
     )
 endmacro()
 
-add_ruqola_verifynewversionwidget_test(verifynewversionwidgettest.cpp)
+add_kaichat_verifynewversionwidget_test(verifynewversionwidgettest.cpp)

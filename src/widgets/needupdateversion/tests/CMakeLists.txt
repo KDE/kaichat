@@ -6,4 +6,4 @@ add_executable(
     needupdateversionmainwidget.h
     needupdateversionmainwidget.cpp
 )
-target_link_libraries(needupdateversionwidget_gui libruqolawidgets)
+target_link_libraries(needupdateversionwidget_gui libkaichatwidgets)

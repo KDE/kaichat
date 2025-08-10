@@ -100,4 +100,7 @@ install(
 
 if(BUILD_TESTING)
     add_subdirectory(whatsnew/autotests)
+    add_subdirectory(needupdateversion/autotests)
+    add_subdirectory(needupdateversion/tests)
+    add_subdirectory(verifynewversionwidget/autotests)
 endif()

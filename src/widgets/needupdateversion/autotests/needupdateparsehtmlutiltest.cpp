@@ -22,7 +22,7 @@ void NeedUpdateParseHtmlUtilTest::shouldExtraDate()
     QFETCH(QString, name);
     QFETCH(QString, dateStr);
 
-    const QString originalJsonFile = QLatin1StringView(RUQOLA_DATA_NEEDUPDATEDIR) + u"/"_s + name + u".html"_s;
+    const QString originalJsonFile = QLatin1StringView(KAICHAT_DATA_NEEDUPDATEDIR) + u"/"_s + name + u".html"_s;
 
     QFile f(originalJsonFile);
     [&]() {
