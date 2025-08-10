@@ -6,6 +6,12 @@ project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
 
+# TODO: update it in each release version
+set(KAICHAT_RELEASE_VERSION "25.08.30") # yy.MM.dd
+
+# Use true if stable version => we will check specific version
+set(KAICHAT_STABLE_VERSION false)
+
 # Do NOT add quote
 set(KAICHAT_DEV_VERSION alpha)
 # add an extra space

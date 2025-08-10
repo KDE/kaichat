@@ -40,6 +40,20 @@ target_sources(
         whatsnew/whatsnewinfo.cpp
         whatsnew/whatsnewtranslations.h
         whatsnew/whatsnewtranslations.cpp
+        verifynewversionwidget/verifynewversionwidget.h
+        verifynewversionwidget/verifynewversionwidget.cpp
+        verifynewversionwidget/verifynewversiondialog.h
+        verifynewversionwidget/verifynewversiondialog.cpp
+        needupdateversion/needupdateversionwidget.h
+        needupdateversion/needupdateversionwidget.cpp
+        needupdateversion/needupdateversionutils.h
+        needupdateversion/needupdateversionutils.cpp
+        needupdateversion/needupdateparsehtmljob.h
+        needupdateversion/needupdateparsehtmljob.cpp
+        needupdateversion/needupdateparsehtmlutil.h
+        needupdateversion/needupdateparsehtmlutil.cpp
+        needupdateversion/needupdatecheckexistingnewversionjob.h
+        needupdateversion/needupdatecheckexistingnewversionjob.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
@@ -62,6 +76,7 @@ target_link_libraries(
     KF6::I18n
     KF6::WindowSystem
     KF6::StatusNotifierItem
+    KF6::KIOCore
     libkaichatcore
 )
 set_target_properties(

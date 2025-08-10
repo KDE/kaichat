@@ -4,5 +4,9 @@
   SPDX-License-Identifier: GPL-2.0-or-later
 */
 
+#define KAICHAT_RELEASE_VERSION "${KAICHAT_RELEASE_VERSION}"
+
+
 #define KAICHAT_VERSION "${KAICHAT_VERSION_STRING}"
 #cmakedefine01 WITH_DBUS
+#cmakedefine01 KAICHAT_STABLE_VERSION
