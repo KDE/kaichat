@@ -1,19 +1,23 @@
 {
     "KPlugin": {
         "Description": "This plugin allows you asking on web.",
+        "Description[ca]": "Aquest connector permet preguntar a la web.",
         "Description[es]": "Este complemento le permite hacer preguntas en la web.",
         "Description[he]": "התוסף הזה מאפשר לך לשאול באינטרנט.",
         "Description[nl]": "Deze plug-in biedt u het vragen op het web.",
         "Description[sl]": "Ta vtičnik vam dovoljuje spraševanje na spletu.",
         "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
+        "Description[uk]": "За допомогою цього додатка ви можете надсилати пошукові записи до інтернету.",
         "Description[x-test]": "xxThis plugin allows you asking on web.xx",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
+        "Name[ca]": "Drecera web",
         "Name[es]": "Atajo web",
         "Name[he]": "קיצור לאתר",
         "Name[nl]": "Web-snelkoppeling",
         "Name[sl]": "Spletna bližnjica",
         "Name[tr]": "Web Kısayolu",
+        "Name[uk]": "Вебскорочення",
         "Name[x-test]": "xxWeb Shortcutxx",
         "Version": "1.0"
     }
