@@ -6,7 +6,7 @@
 */
 
 #include "needupdateversionutils.h"
-// #include "config-kaichat.h"
+#include "config-kaichat.h"
 
 #include <KConfigGroup>
 #include <KSharedConfig>
