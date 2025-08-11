@@ -12,6 +12,10 @@
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
 #include "whatsnew/whatsnewdialog.h"
+#if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+#include "verifynewversionwidget/verifynewversionwidgetaction.h"
+#endif
+
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>

@@ -44,6 +44,8 @@ target_sources(
         verifynewversionwidget/verifynewversionwidget.cpp
         verifynewversionwidget/verifynewversiondialog.h
         verifynewversionwidget/verifynewversiondialog.cpp
+        verifynewversionwidget/verifynewversionwidgetaction.cpp
+        verifynewversionwidget/verifynewversionwidgetaction.h
         needupdateversion/needupdateversionwidget.h
         needupdateversion/needupdateversionwidget.cpp
         needupdateversion/needupdateversionutils.h
