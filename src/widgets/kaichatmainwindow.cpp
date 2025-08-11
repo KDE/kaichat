@@ -42,7 +42,7 @@
 #include <QPointer>
 namespace
 {
-static const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
+const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
 }
 using namespace Qt::Literals::StringLiterals;
 KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
