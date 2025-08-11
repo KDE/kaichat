@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-07 18:32+0000\n"
+"POT-Creation-Date: 2025-08-11 00:45+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -75,7 +75,7 @@ msgstr "系统"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "工具"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -137,7 +137,7 @@ msgstr "导出..."
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr ""
+msgstr "以 JSON 形式导出..."
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
@@ -151,36 +151,36 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "导出为文本..."
 
-#: widgets/kaichatmainwindow.cpp:107
+#: widgets/kaichatmainwindow.cpp:110
 #, kde-format
 msgid "What's new"
 msgstr "新增功能"
 
-#: widgets/kaichatmainwindow.cpp:111
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "显示归档"
 
-#: widgets/kaichatmainwindow.cpp:146
+#: widgets/kaichatmainwindow.cpp:149
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "打开 Quick Ask..."
 
-#: widgets/kaichatmainwindow.cpp:227
+#: widgets/kaichatmainwindow.cpp:235
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:230
+#: widgets/kaichatmainwindow.cpp:238
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
-#: widgets/kaichatmainwindow.cpp:262
+#: widgets/kaichatmainwindow.cpp:270
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -202,7 +202,7 @@ msgstr "查看"
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:25
@@ -215,6 +215,45 @@ msgstr "帮助(&H)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具栏"
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Disable version check"
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:26
+#, kde-format
+msgctxt "@action"
+msgid "Check new Version"
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:42
+#, kde-format
+msgid "Your version is older than 6 months, we encourage you to upgrade."
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:47
+#, kde-format
+msgid ""
+"Your version is older than 1 year, we strongly encourage you to upgrade."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Check New Version"
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
+#, kde-format
+msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
+#, kde-format
+msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -240,7 +279,7 @@ msgstr "%2. %1 的新功能"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "添加 Quick Ask 对话框"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
@@ -258,30 +297,34 @@ msgstr ""
 msgid "Allow to configure plugins."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:23
+msgid "Add new update widget."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add what's new support."
 msgstr "添加“新增功能”支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add instance support."
 msgstr "添加实例支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Mardown support."
 msgstr "添加 Markdown 支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "修复了允许删除聊天的问题。Bug %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -301,7 +344,7 @@ msgstr "上个版本以来的重要变化："
 #: widgets/whatsnew/whatsnewwidget.cpp:98
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
-msgstr ""
+msgstr "此版本 KAIchat 所包含的的部分新特性包括："
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

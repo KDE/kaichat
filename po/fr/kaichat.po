@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-07 18:32+0000\n"
+"POT-Creation-Date: 2025-08-11 00:45+0000\n"
 "PO-Revision-Date: 2025-07-16 10:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -151,23 +151,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
-#: widgets/kaichatmainwindow.cpp:107
+#: widgets/kaichatmainwindow.cpp:110
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:111
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:146
+#: widgets/kaichatmainwindow.cpp:149
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:227
+#: widgets/kaichatmainwindow.cpp:235
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -176,13 +176,13 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:230
+#: widgets/kaichatmainwindow.cpp:238
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:262
+#: widgets/kaichatmainwindow.cpp:270
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -217,6 +217,45 @@ msgstr "&Aide"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barre principale d'outils"
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Disable version check"
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:26
+#, kde-format
+msgctxt "@action"
+msgid "Check new Version"
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:42
+#, kde-format
+msgid "Your version is older than 6 months, we encourage you to upgrade."
+msgstr ""
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:47
+#, kde-format
+msgid ""
+"Your version is older than 1 year, we strongly encourage you to upgrade."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Check New Version"
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
+#, kde-format
+msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
+#, kde-format
+msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -260,27 +299,31 @@ msgstr ""
 msgid "Allow to configure plugins."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:23
+msgid "Add new update widget."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add instance support."
 msgstr "Ajouter la prise en charge d'instances."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ajouter la prise en charge du format « Markdown »."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ajouter la prise en charge de la surbrillance"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr ""
