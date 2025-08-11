@@ -75,7 +75,7 @@ msgstr "系统"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "工具"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -225,7 +225,7 @@ msgstr "添加高亮支持。"
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "修复了允许删除聊天的问题。Bug %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
