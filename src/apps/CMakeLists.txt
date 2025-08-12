@@ -3,7 +3,11 @@
 
 include(ECMAddAppIcon)
 
-add_executable(kaichat main.cpp)
+add_executable(
+    kaichat
+    main.cpp
+    kaichat.qrc
+)
 
 target_link_libraries(
     kaichat

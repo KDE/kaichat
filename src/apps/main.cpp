@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 {
     KIconTheme::initTheme();
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon::fromTheme(u"kaichat"_s));
+    app.setWindowIcon(QIcon(u":/kaichat/kaichat.svg"_s));
 
     KStyleManager::initStyle();
 #if !WITH_DBUS
@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
     aboutData.setOrganizationDomain("kde.org"_ba);
     aboutData.setProductName("kaichat"_ba);
+    aboutData.setProgramLogo(QIcon(u":/kaichat/kaichat.svg"_s));
 
     KAboutData::setApplicationData(aboutData);
 
