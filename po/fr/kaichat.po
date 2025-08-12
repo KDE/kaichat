@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-11 00:45+0000\n"
+"POT-Creation-Date: 2025-08-12 00:46+0000\n"
 "PO-Revision-Date: 2025-07-16 10:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -151,23 +151,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
-#: widgets/kaichatmainwindow.cpp:110
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:149
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:235
+#: widgets/kaichatmainwindow.cpp:239
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -176,13 +176,13 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:238
+#: widgets/kaichatmainwindow.cpp:242
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:270
+#: widgets/kaichatmainwindow.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -255,6 +255,11 @@ msgstr ""
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#, kde-format
+msgid "Check New Version"
 msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29

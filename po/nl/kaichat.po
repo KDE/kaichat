@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-11 00:45+0000\n"
-"PO-Revision-Date: 2025-08-08 13:36+0200\n"
+"POT-Creation-Date: 2025-08-12 00:46+0000\n"
+"PO-Revision-Date: 2025-08-11 22:55+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -152,23 +152,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Als tekst exporteren…"
 
-#: widgets/kaichatmainwindow.cpp:110
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgid "What's new"
 msgstr "Wat is nieuw"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archief tonen"
 
-#: widgets/kaichatmainwindow.cpp:149
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Snel vragen openen..."
 
-#: widgets/kaichatmainwindow.cpp:235
+#: widgets/kaichatmainwindow.cpp:239
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -177,13 +177,13 @@ msgstr ""
 "<qt>Hierdoor wordt de menubalk geheel verborgen. U kunt die weer zichtbaar "
 "maken door %1 te typen.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:238
+#: widgets/kaichatmainwindow.cpp:242
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
-#: widgets/kaichatmainwindow.cpp:270
+#: widgets/kaichatmainwindow.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -223,40 +223,52 @@ msgstr "Hoofdwerkbalk"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "Controleren op versie uitschakelen"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "Op nieuwe versie controleren"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
 msgstr ""
+"Uw versie is ouder dan 6 maanden, we moedigen u aan om op te waarderen."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
+"Uw versie is ouder dan 1 jaar, we moedigen u sterk aan om op te waarderen."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "Op nieuwe versie controleren"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
+"Een nieuwe versie gevonden. Klik <a href=\"%1\">hier</a> om het te "
+"downloaden."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
+"Geen nieuwe versie gevonden. Bouwen is <a href=\"%1\">hier</a> te vinden."
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Check New Version"
+msgid "Check New Version"
+msgstr "Op nieuwe versie controleren"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -302,7 +314,7 @@ msgstr "Sta configureren van plug-ins toe."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "Nieuw widget voor bijwerken toevoegen."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format

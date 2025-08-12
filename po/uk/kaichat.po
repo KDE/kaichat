@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-11 00:45+0000\n"
-"PO-Revision-Date: 2025-08-08 21:43+0300\n"
+"POT-Creation-Date: 2025-08-12 00:46+0000\n"
+"PO-Revision-Date: 2025-08-11 16:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -152,23 +152,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:110
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:149
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Відкрити швидке питання..."
 
-#: widgets/kaichatmainwindow.cpp:235
+#: widgets/kaichatmainwindow.cpp:239
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -177,13 +177,13 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:238
+#: widgets/kaichatmainwindow.cpp:242
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:270
+#: widgets/kaichatmainwindow.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -223,40 +223,49 @@ msgstr "Головна панель"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "Вимкнути перевірку версій"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "Шукати нову версію"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
-msgstr ""
+msgstr "Ваша версія застаріла на понад 6 місяців. Ми рекомендуємо її оновити."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
+"Ваша версія застаріла на понад 1 рік. Ми наполегливо рекомендуємо її оновити."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "Виконати пошук нової версії"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
+"Виявлено нову версію. Натисніть <a href=\"%1\">тут</a>, щоб її отримати."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-msgstr ""
+msgstr "Не знайдено нової версії. Зібране можна знайти <a href=\"%1\">тут</a>."
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Check New Version"
+msgid "Check New Version"
+msgstr "Виконати пошук нової версії"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -302,7 +311,7 @@ msgstr "Уможливлено налаштовування додатків."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "Додано новий віджет оновлення."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format

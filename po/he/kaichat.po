@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-11 00:45+0000\n"
+"POT-Creation-Date: 2025-08-12 00:46+0000\n"
 "PO-Revision-Date: 2025-08-10 09:31+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -152,23 +152,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
-#: widgets/kaichatmainwindow.cpp:110
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgid "What's new"
 msgstr "מה חדש"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
-#: widgets/kaichatmainwindow.cpp:149
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "פתיחת שאלה מהירה…"
 
-#: widgets/kaichatmainwindow.cpp:235
+#: widgets/kaichatmainwindow.cpp:239
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -177,13 +177,13 @@ msgstr ""
 "<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:238
+#: widgets/kaichatmainwindow.cpp:242
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:270
+#: widgets/kaichatmainwindow.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -256,6 +256,11 @@ msgstr ""
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
+msgstr ""
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#, kde-format
+msgid "Check New Version"
 msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29

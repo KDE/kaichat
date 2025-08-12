@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-11 00:45+0000\n"
-"PO-Revision-Date: 2025-08-08 08:45+0200\n"
+"POT-Creation-Date: 2025-08-12 00:46+0000\n"
+"PO-Revision-Date: 2025-08-11 18:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -153,23 +153,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
-#: widgets/kaichatmainwindow.cpp:110
+#: widgets/kaichatmainwindow.cpp:114
 #, kde-format
 msgid "What's new"
 msgstr "Què hi ha de nou"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:149
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Obre la resposta ràpida..."
 
-#: widgets/kaichatmainwindow.cpp:235
+#: widgets/kaichatmainwindow.cpp:239
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -178,13 +178,13 @@ msgstr ""
 "<qt>Això ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:238
+#: widgets/kaichatmainwindow.cpp:242
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:270
+#: widgets/kaichatmainwindow.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -224,40 +224,54 @@ msgstr "Barra d'eines principal"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "Desactiva la comprovació de la versió"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "Comprova si hi ha una versió nova"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
 msgstr ""
+"Aquesta versió té més de 6 mesos d'antiguitat, us animem que l'actualitzeu."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
+"Aquesta versió té més d'un any d'antiguitat, us animem completament que "
+"l'actualitzeu."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "Comprovació de versió nova"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
+"S'ha trobat una versió nova. Feu clic <a href=\"%1\">aquí</a> per a baixar-"
+"la."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
+"No s'ha trobat cap versió nova. La construcció es pot trobar <a href="
+"\"%1\">aquí</a>."
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Check New Version"
+msgid "Check New Version"
+msgstr "Comprovació de versió nova"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -303,7 +317,7 @@ msgstr "Permet configurar connectors."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "Afegeix un giny nou d'actualització."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format
