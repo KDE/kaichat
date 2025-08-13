@@ -15,7 +15,7 @@ public:
     explicit KAIChatImportChatJob(QObject *parent = nullptr);
     ~KAIChatImportChatJob() override;
 
-    [[nodiscard]] QString fileName() const;
+    [[nodiscard]] const QString &fileName() const;
     void setFileName(const QString &newFileName);
 
 private:

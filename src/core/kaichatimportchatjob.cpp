@@ -10,7 +10,7 @@ KAIChatImportChatJob::KAIChatImportChatJob(QObject *parent)
 {
 }
 
-QString KAIChatImportChatJob::fileName() const
+const QString &KAIChatImportChatJob::fileName() const
 {
     return mFileName;
 }
