@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-12 00:46+0000\n"
-"PO-Revision-Date: 2025-08-11 12:47+0300\n"
+"PO-Revision-Date: 2025-08-12 14:50+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -259,9 +259,7 @@ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr "Bulunan yeni sürüm yok. Yapı, <a href=\"%1\">burada</a> bulunabilir."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Check New Version"
+#, kde-format
 msgid "Check New Version"
 msgstr "Yeni Sürümü Denetle"
 

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-12 00:46+0000\n"
-"PO-Revision-Date: 2025-08-10 09:31+0300\n"
+"PO-Revision-Date: 2025-08-12 14:38+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -223,45 +223,45 @@ msgstr "סרגל כלים ראשי"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "השבתת בדיקת גרסה"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "בדיקה לאיתור גרסה חדשה"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
-msgstr ""
+msgstr "הגרסה שלך בת יותר מחצי שנה, מומלץ בחום לשדרג."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
-msgstr ""
+msgstr "הגרסה שלך בת יותר משנה, מומלץ בחום לשדרג."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "בדיקה לאיתור גרסה חדשה"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-msgstr ""
+msgstr "נמצאה גרסה חדשה. לחיצה <a href=\"%1\">כאן</a> תוריד אותה."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-msgstr ""
+msgstr "לא נמצאו גרסאות חדשות. <a href=\"%1\">כאן</a> אפשר למצוא את הבנייה."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
 #, kde-format
 msgid "Check New Version"
-msgstr ""
+msgstr "בדיקה לאיתור גרסה חדשה"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -307,7 +307,7 @@ msgstr "לאפשר להגדיר תוספים."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "הוספת וידג׳ט עדכון חדש."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 #, kde-format

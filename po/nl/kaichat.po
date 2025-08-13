@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-12 00:46+0000\n"
-"PO-Revision-Date: 2025-08-11 22:55+0200\n"
+"PO-Revision-Date: 2025-08-12 11:21+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -264,9 +264,7 @@ msgstr ""
 "Geen nieuwe versie gevonden. Bouwen is <a href=\"%1\">hier</a> te vinden."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Check New Version"
+#, kde-format
 msgid "Check New Version"
 msgstr "Op nieuwe versie controleren"
 

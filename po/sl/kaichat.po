@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-12 00:46+0000\n"
-"PO-Revision-Date: 2025-08-11 08:21+0200\n"
+"PO-Revision-Date: 2025-08-12 07:20+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -263,11 +263,9 @@ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr "Ni najdene nove različice. Gradnjo najdete <a href=\"%1\">tukaj</a>."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Check New Version"
+#, kde-format
 msgid "Check New Version"
-msgstr "Preveri novo različico"
+msgstr "Preveri za novo različico"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
