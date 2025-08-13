@@ -21,6 +21,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Add shared text and webshorcut plugin."),
         kli18n("Allow to configure plugins."),
         kli18n("Add new update widget."),
+        kli18n("Add progress indicator in chats list."),
     };
     return info;
 }
