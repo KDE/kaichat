@@ -88,7 +88,7 @@ QUrl NeedUpdateVersionUtils::generateNewVersionUrl([[maybe_unused]] const QStrin
 {
     // TODO add support for AppImage linux too
 #if defined(Q_OS_MACOS) || defined(Q_OS_WIN)
-    const QString baseUrl = "https://cdn.kde.org/ci-builds/network/ruqola/"_L1;
+    const QString baseUrl = "https://cdn.kde.org/ci-builds/utilities/kaichat/"_L1;
 #if KAICHAT_STABLE_VERSION
     QString url = baseUrl + currentStableVersion + "/%1/"_L1;
 #else
