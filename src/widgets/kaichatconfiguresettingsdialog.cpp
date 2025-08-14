@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguresettingsdialog.h"
+#include "kaichatconfigurefontwidget.h"
 using namespace Qt::Literals::StringLiterals;
 
 #include "kaichatconfiguregeneralwidget.h"
@@ -23,6 +24,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(manager, this))
     , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(manager, this))
     , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
+    , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -31,6 +33,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
     configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"kaichat"_s));
     addPage(configureGeneralWidgetPage);
+
+    const QString fontPageName = i18nc("@title General page name", "Font");
+    auto configureFontWidgetPage = new KPageWidgetItem(mConfigureFontWidget, fontPageName);
+    configureFontWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-font"_s));
+    addPage(configureFontWidgetPage);
 
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
     auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
@@ -75,12 +82,14 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
     mConfigureGeneralWidget->save();
     mInstancesManagerWidget->save();
     mConfigurePluginsWidget->save();
+    mConfigureFontWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()
 {
     mConfigureGeneralWidget->load();
     mConfigurePluginsWidget->load();
+    mConfigureFontWidget->load();
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"

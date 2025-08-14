@@ -10,6 +10,7 @@
 #include <QObject>
 class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
+class KAIChatConfigureFontWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -30,4 +31,5 @@ private:
     KAIChatConfigureGeneralWidget *const mConfigureGeneralWidget;
     KAIChatConfigureInstancesWidget *const mInstancesManagerWidget;
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
+    KAIChatConfigureFontWidget *const mConfigureFontWidget;
 };

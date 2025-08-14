@@ -24,6 +24,8 @@ target_sources(
         kaichatconfiguresettingsdialog.cpp
         kaichatconfiguregeneralwidget.h
         kaichatconfiguregeneralwidget.cpp
+        kaichatconfigurefontwidget.cpp
+        kaichatconfigurefontwidget.h
         kaichatexportmenu.h
         kaichatexportmenu.cpp
         kaichatconfigureinstanceswidget.h
