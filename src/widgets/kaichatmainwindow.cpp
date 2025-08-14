@@ -140,8 +140,8 @@ void KAIChatMainWindow::setupActions()
 
     mChangeFontSizeAction = new KAIChatChangeFontSizeMenu(this);
     ac->addAction(u"change_font_size"_s, mChangeFontSizeAction);
-    connect(mChangeFontSizeAction, &KAIChatChangeFontSizeMenu::fontChanged, this, [] {
-        // TODO Q_EMIT ColorsAndMessageViewStyle::self().needUpdateFontSize();
+    connect(mChangeFontSizeAction, &KAIChatChangeFontSizeMenu::fontChanged, this, [this]() {
+        Q_EMIT mManager->fontSizeChanged();
     });
 
     if (menuBar()) {
@@ -227,8 +227,8 @@ void KAIChatMainWindow::slotConfigure()
         } else {
             qApp->setFont(QFontDatabase::systemFont(QFontDatabase::GeneralFont));
         }
-
         createSystemTray();
+        Q_EMIT mManager->fontSizeChanged();
         Q_EMIT mManager->configChanged();
         const bool isEnabled = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
         updateActions(isEnabled);
