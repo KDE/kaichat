@@ -13,6 +13,7 @@ class KHamburgerMenu;
 class KToggleFullScreenAction;
 class KAIChatNotificatifierItem;
 class KAIChatExportMenu;
+class KAIChatChangeFontSizeMenu;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 class VerifyNewVersionWidgetAction;
 #endif
@@ -54,6 +55,7 @@ private:
     KAIChatCentralWidget *const mMainWidget;
     KAIChatExportMenu *mExportMenu = nullptr;
     QAction *mShowQuickAskAction = nullptr;
+    KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     VerifyNewVersionWidgetAction *const mVerifyNewVersionWidgetAction;
 #endif

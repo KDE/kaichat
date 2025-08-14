@@ -10,6 +10,7 @@
 #include <QCommandLineParser>
 
 #include "config-kaichat.h"
+#include "kaichatglobalconfig.h"
 #include "kaichatmainwindow.h"
 #include <iostream>
 
@@ -74,6 +75,10 @@ int main(int argc, char *argv[])
     aboutData.setupCommandLine(&parser);
     parser.process(app);
     aboutData.processCommandLine(&parser);
+
+    if (KAIChatGlobalConfig::self()->useCustomFont()) {
+        qApp->setFont(KAIChatGlobalConfig::self()->generalFont());
+    }
 
 #if WITH_DBUS
     KDBusService service(KDBusService::Unique);

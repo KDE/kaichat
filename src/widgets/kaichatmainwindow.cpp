@@ -7,6 +7,7 @@
 #include "kaichatmainwindow.h"
 
 #include "kaichatcentralwidget.h"
+#include "kaichatchangefontsizemenu.h"
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
@@ -35,6 +36,7 @@
 #include <KToggleFullScreenAction>
 #include <KToolBar>
 #include <KWindowSystem>
+#include <QApplication>
 #include <QCommandLineParser>
 #include <QFileDialog>
 #include <QFontDatabase>
@@ -136,6 +138,12 @@ void KAIChatMainWindow::setupActions()
     ac->setDefaultShortcut(mShowFullScreenAction, Qt::Key_F11);
     connect(mShowFullScreenAction, &QAction::toggled, this, &KAIChatMainWindow::slotFullScreen);
 
+    mChangeFontSizeAction = new KAIChatChangeFontSizeMenu(this);
+    ac->addAction(u"change_font_size"_s, mChangeFontSizeAction);
+    connect(mChangeFontSizeAction, &KAIChatChangeFontSizeMenu::fontChanged, this, [] {
+        // TODO Q_EMIT ColorsAndMessageViewStyle::self().needUpdateFontSize();
+    });
+
     if (menuBar()) {
         mHamburgerMenu = KStandardAction::hamburgerMenu(nullptr, nullptr, actionCollection());
         mHamburgerMenu->setShowMenuBarAction(mShowMenuBarAction);
@@ -214,6 +222,12 @@ void KAIChatMainWindow::slotConfigure()
 {
     QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(mManager, this);
     if (dlg->exec()) {
+        if (KAIChatGlobalConfig::self()->useCustomFont()) {
+            qApp->setFont(KAIChatGlobalConfig::self()->generalFont());
+        } else {
+            qApp->setFont(QFontDatabase::systemFont(QFontDatabase::GeneralFont));
+        }
+
         createSystemTray();
         Q_EMIT mManager->configChanged();
         const bool isEnabled = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
