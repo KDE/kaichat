@@ -16,6 +16,8 @@ target_sources(
         kaichatcentralwidget.cpp
         kaichatnotificatifieritem.h
         kaichatnotificatifieritem.cpp
+        kaichatchangefontsizemenu.h
+        kaichatchangefontsizemenu.cpp
         libkaichatwidgets_private_export.h
         kaichatwidgets.qrc
         kaichatconfiguresettingsdialog.h
