@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-14 00:45+0000\n"
-"PO-Revision-Date: 2025-08-10 11:28-0300\n"
+"POT-Creation-Date: 2025-08-15 00:49+0000\n"
+"PO-Revision-Date: 2025-08-14 08:17-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -27,28 +27,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "marcus.gama@gmail.com"
 
-#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:61
+#: apps/main.cpp:62
 #, kde-format
 msgid "AI Chat"
 msgstr "Chat de IA"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenedor"
@@ -98,31 +98,60 @@ msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
 "<qt>Você pode encontrar a nova solicitação em:<br /><a href='%1'>%1</a> </qt>"
 
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr ""
+
+#: widgets/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr ""
+
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Habilitar ícone na área de notificação"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:27
+#: widgets/kaichatconfiguresettingsdialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configurar o KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:30
+#: widgets/kaichatconfiguresettingsdialog.cpp:32
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Geral"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:35
+#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instâncias"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:40
+#: widgets/kaichatconfiguresettingsdialog.cpp:47
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -152,23 +181,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportar como texto…"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "O que há de novo"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar arquivo"
 
-#: widgets/kaichatmainwindow.cpp:153
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Abrir pergunta rápida..."
 
-#: widgets/kaichatmainwindow.cpp:239
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -177,13 +206,13 @@ msgstr ""
 "<qt>Isso ocultará a barra de menu completamente. Você pode exibi-la "
 "novamente digitando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:242
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
-#: widgets/kaichatmainwindow.cpp:274
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -202,19 +231,19 @@ msgid "View"
 msgstr "Ver"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:21
+#: widgets/kaichatui.rc:23
 #, kde-format
 msgid "Tools"
 msgstr "Ferramentas"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:25
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "&Help"
 msgstr "Aj&uda"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:32
+#: widgets/kaichatui.rc:34
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra de ferramentas principal"
@@ -223,45 +252,49 @@ msgstr "Barra de ferramentas principal"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "Desativar verificação de versão"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "Verificar nova versão"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
-msgstr ""
+msgstr "Sua versão tem mais de 6 meses, recomendamos que você atualize."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
+"Sua versão tem mais de 1 ano, recomendamos fortemente que você atualize."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "Verificar nova versão"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
+"Uma nova versão encontrada. Clique <a href=\"%1\">aqui</a> para baixá-la."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
+"Nenhuma nova versão encontrada. A compilação pode ser encontrada <a href="
+"\"%1\">aqui</a>."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
 #, kde-format
 msgid "Check New Version"
-msgstr ""
+msgstr "Verificar nova versão"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -307,33 +340,39 @@ msgstr "Permite configurar plugins."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "Adiciona novo widget atualizado."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr ""
+msgstr "Adiciona indicador de progresso na lista de bate-papos."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#, fuzzy
+#| msgid "Allow to configure plugins."
+msgid "Allow to change font size."
+msgstr "Permite configurar plugins."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add what's new support."
 msgstr "Adiciona suporte a 'O que há de novo'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add instance support."
 msgstr "Adiciona suporte à instância."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Adiciona suporte ao Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Adiciona suporte ao realce."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corrige permissão para excluir bate-papo. Bug %1"

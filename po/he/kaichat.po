@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-14 00:45+0000\n"
-"PO-Revision-Date: 2025-08-12 14:38+0300\n"
+"POT-Creation-Date: 2025-08-15 00:49+0000\n"
+"PO-Revision-Date: 2025-08-14 06:34+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -28,28 +28,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-he@kde.org"
 
-#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:61
+#: apps/main.cpp:62
 #, kde-format
 msgid "AI Chat"
 msgstr "שיחה עם בינה מלאכותית"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "כל הזכויות שמורות © 2025‎ ללורנט מונטל"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "לורנט מונטל"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Maintainer"
 msgstr "מתחזק"
@@ -98,31 +98,60 @@ msgstr "הקובץ שותף."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>אפשר למצוא את הבקשה החדשה תחת:<br /><a href='%1'>%1</a> </qt>"
 
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr ""
+
+#: widgets/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr ""
+
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "הפעלת סמל בשורת המערכת"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:27
+#: widgets/kaichatconfiguresettingsdialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "הגדרת KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:30
+#: widgets/kaichatconfiguresettingsdialog.cpp:32
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "כללי"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:35
+#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "מופעים"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:40
+#: widgets/kaichatconfiguresettingsdialog.cpp:47
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -152,23 +181,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "מה חדש"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
-#: widgets/kaichatmainwindow.cpp:153
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "פתיחת שאלה מהירה…"
 
-#: widgets/kaichatmainwindow.cpp:239
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -177,13 +206,13 @@ msgstr ""
 "<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:242
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:274
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -202,19 +231,19 @@ msgid "View"
 msgstr "תצוגה"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:21
+#: widgets/kaichatui.rc:23
 #, kde-format
 msgid "Tools"
 msgstr "כלים"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:25
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "&Help"
 msgstr "ע&זרה"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:32
+#: widgets/kaichatui.rc:34
 #, kde-format
 msgid "Main Toolbar"
 msgstr "סרגל כלים ראשי"
@@ -311,29 +340,35 @@ msgstr "הוספת וידג׳ט עדכון חדש."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr ""
+msgstr "הוספת מחוון התקדמות ברשימת השיחות."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#, fuzzy
+#| msgid "Allow to configure plugins."
+msgid "Allow to change font size."
+msgstr "לאפשר להגדיר תוספים."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add what's new support."
 msgstr "הוספת תמיכה ב„מה חדש”."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add instance support."
 msgstr "הוספת תמיכה במופעים."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add Mardown support."
 msgstr "הוספת תמיכה ב־Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "הוספת תמיכה בהדגשה."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "תוקנה האפשרות למחוק שיחה. תקלה %1"

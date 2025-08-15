@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-14 00:45+0000\n"
+"POT-Creation-Date: 2025-08-15 00:49+0000\n"
 "PO-Revision-Date: 2025-08-12 07:09+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -27,28 +27,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "stefan.asserhall@gmail.com"
 
-#: apps/main.cpp:59 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:61
+#: apps/main.cpp:62
 #, kde-format
 msgid "AI Chat"
 msgstr "AI-chatt"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Maintainer"
 msgstr "Underhåll"
@@ -97,31 +97,60 @@ msgstr "Filen delades."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Den nya begäran finns på:<br /><a href='%1'>%1</a> </qt>"
 
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr ""
+
+#: widgets/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr ""
+
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Aktivera ikon i systembrickan"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:27
+#: widgets/kaichatconfiguresettingsdialog.cpp:29
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Anpassa KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:30
+#: widgets/kaichatconfiguresettingsdialog.cpp:32
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Allmänt"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:35
+#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instanser"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:40
+#: widgets/kaichatconfiguresettingsdialog.cpp:47
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -151,23 +180,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportera som text…"
 
-#: widgets/kaichatmainwindow.cpp:114
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "Vad är nytt"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Visa arkiv"
 
-#: widgets/kaichatmainwindow.cpp:153
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Öppna snabbfråga..."
 
-#: widgets/kaichatmainwindow.cpp:239
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -176,13 +205,13 @@ msgstr ""
 "<qt>Det här döljer menyraden fullständigt. Du kan visa den igen genom att "
 "skriva %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:242
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Dölj menyrad"
 
-#: widgets/kaichatmainwindow.cpp:274
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -201,19 +230,19 @@ msgid "View"
 msgstr "Visa"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:21
+#: widgets/kaichatui.rc:23
 #, kde-format
 msgid "Tools"
 msgstr "Verktyg"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:25
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "&Help"
 msgstr "&Hjälp"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:32
+#: widgets/kaichatui.rc:34
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Huvudverktygsrad"
@@ -315,27 +344,33 @@ msgstr "Lägg till ny grafisk uppdateringskomponent."
 msgid "Add progress indicator in chats list."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#, fuzzy
+#| msgid "Allow to configure plugins."
+msgid "Allow to change font size."
+msgstr "Tillåt att anpassa insticksprogram."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add what's new support."
 msgstr "Lägg till stöd för Vad är nytt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add instance support."
 msgstr "Lägg till instansstöd."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add Mardown support."
 msgstr "lägg till stöd för Markdown"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Lägg till stöd för syntaxfärgläggning."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Rätta tillåt borttagning av chatt. Fel %1"
