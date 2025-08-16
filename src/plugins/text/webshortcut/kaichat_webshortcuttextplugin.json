@@ -6,6 +6,7 @@
         "Description[es]": "Este complemento le permite hacer preguntas en la web.",
         "Description[eu]": "Plugin honek testua webean galdetzeko aukera ematen dizu.",
         "Description[he]": "התוסף הזה מאפשר לך לשאול באינטרנט.",
+        "Description[it]": "Questa estensione ti consente di fare domande sul web.",
         "Description[ka]": "ეს დამატება ვებისთვის კითხვის საშუალებას გაძლევთ.",
         "Description[nl]": "Deze plug-in biedt u het vragen op het web.",
         "Description[pt_BR]": "Este plugin permite que você faça perguntas na web.",
@@ -14,6 +15,7 @@
         "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
         "Description[uk]": "За допомогою цього додатка ви можете надсилати пошукові записи до інтернету.",
         "Description[x-test]": "xxThis plugin allows you asking on web.xx",
+        "Description[zh_CN]": "此插件允许您在网页上提问。",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
         "Name[ca@valencia]": "Drecera web",
@@ -21,6 +23,7 @@
         "Name[es]": "Atajo web",
         "Name[eu]": "Web lasterbidea",
         "Name[he]": "קיצור לאתר",
+        "Name[it]": "Scorciatoia web",
         "Name[ka]": "ვების მალსახმობი",
         "Name[nl]": "Web-snelkoppeling",
         "Name[pt_BR]": "Atalho Web",
@@ -29,6 +32,7 @@
         "Name[tr]": "Web Kısayolu",
         "Name[uk]": "Вебскорочення",
         "Name[x-test]": "xxWeb Shortcutxx",
+        "Name[zh_CN]": "网页快捷方式",
         "Version": "1.0"
     }
 }
