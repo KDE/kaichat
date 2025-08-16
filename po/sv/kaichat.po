@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-15 00:49+0000\n"
-"PO-Revision-Date: 2025-08-12 07:09+0200\n"
+"PO-Revision-Date: 2025-08-15 07:20+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -100,25 +100,25 @@ msgstr "<qt>Den nya begäran finns på:<br /><a href='%1'>%1</a> </qt>"
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Teckenstorlek"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Öka teckenstorlek"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Minska teckenstorlek"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "An&vänd egna teckensnitt"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -142,7 +142,7 @@ msgstr "Allmänt"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Teckensnitt"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
@@ -342,13 +342,11 @@ msgstr "Lägg till ny grafisk uppdateringskomponent."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr ""
+msgstr "Lägg till förloppsindikering i chattlistan."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to change font size."
-msgstr "Tillåt att anpassa insticksprogram."
+msgstr "Tillåt att ändra teckenstorlek."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format

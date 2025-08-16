@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-15 00:49+0000\n"
-"PO-Revision-Date: 2025-08-14 07:21+0200\n"
+"PO-Revision-Date: 2025-08-15 08:32+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -101,25 +101,25 @@ msgstr "<qt>Novo zahtevo najdete na:<br /><a href='%1'>%1</a> </qt>"
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Velikost pisave"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Povečaj pisavo"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Zmanjšaj pisavo"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "Uporabi pisavo po meri"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -143,7 +143,7 @@ msgstr "Splošno"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Pisava"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
@@ -347,10 +347,8 @@ msgid "Add progress indicator in chats list."
 msgstr "Dodaj kazalnik napredka na seznam klepetov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to change font size."
-msgstr "Dovoli konfiguriranje vtičnikov."
+msgstr "Dovoli spremembo velikosti pisave."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
