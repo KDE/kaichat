@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-15 00:49+0000\n"
-"PO-Revision-Date: 2025-08-14 11:36+0200\n"
+"PO-Revision-Date: 2025-08-15 12:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -102,25 +102,25 @@ msgstr "<qt>Trobareu la sol·licitud nova a:<br /><a href='%1'>%1</a></qt>"
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Mida de la lletra"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Augmenta la mida de la lletra"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Disminuïx la mida de la lletra"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "&Utilitza lletres personalitzades"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -144,7 +144,7 @@ msgstr "General"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Lletra"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
@@ -350,10 +350,8 @@ msgid "Add progress indicator in chats list."
 msgstr "Afig un indicador de progrés a la llista de xats."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to change font size."
-msgstr "Permet configurar connectors."
+msgstr "Permet canviar la mida de la lletra."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
