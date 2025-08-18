@@ -51,6 +51,7 @@ QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
         }
         info.setNewFeatures(lst);
         info.setVersion(u"0.5.0"_s);
+        info.setBugFixings({i18n("Fix icon on windows.")});
 
         listInfo.append(std::move(info));
     }
