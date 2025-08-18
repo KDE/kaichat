@@ -113,7 +113,7 @@ void KAIChatMainWindow::setupActions()
 
     mShowMenuBarAction = KStandardAction::showMenubar(this, &KAIChatMainWindow::slotToggleMenubar, ac);
 
-    auto showWhatsNewAction = new QAction(QIcon::fromTheme(u"kaichat"_s), i18n("What's new"), this);
+    auto showWhatsNewAction = new QAction(QIcon(u":/kaichat/kaichat.svg"_s), i18n("What's new"), this);
     ac->addAction(u"whatsnew_kaichat"_s, showWhatsNewAction);
     connect(showWhatsNewAction, &QAction::triggered, this, &KAIChatMainWindow::slotWhatsNew);
 
@@ -121,7 +121,6 @@ void KAIChatMainWindow::setupActions()
     connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
     ac->addAction(u"show_archive"_s, mShowArchivedAction);
 
-    // TODO enable/disable it
     mExportMenu = new KAIChatExportMenu(this);
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
