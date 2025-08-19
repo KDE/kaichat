@@ -23,6 +23,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Add new update widget."),
         kli18n("Add progress indicator in chats list."),
         kli18n("Allow to change font size."),
+        kli18n("Add command line for adding new chat room, displaying list of instances."),
     };
     return info;
 }
