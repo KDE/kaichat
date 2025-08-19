@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-15 00:49+0000\n"
+"POT-Creation-Date: 2025-08-19 00:45+0000\n"
 "PO-Revision-Date: 2025-08-15 12:15+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -29,31 +29,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:62
+#: apps/main.cpp:63
 #, kde-format
 msgid "AI Chat"
 msgstr "Xat d'IA"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenidor"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -193,12 +199,12 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Obri la resposta ràpida…"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -207,13 +213,13 @@ msgstr ""
 "<qt>Ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -377,6 +383,11 @@ msgstr "Afig la implementació del ressaltat."
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corregix permetre la supressió de xat. Error %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
+msgid "Fix icon on windows."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-15 00:49+0000\n"
-"PO-Revision-Date: 2025-08-14 21:16+0200\n"
+"POT-Creation-Date: 2025-08-19 00:45+0000\n"
+"PO-Revision-Date: 2025-08-16 08:49+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -27,31 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "smart2128vr@gmail.com"
 
-#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:62
+#: apps/main.cpp:63
 #, kde-format
 msgid "AI Chat"
 msgstr "Chat IA"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Maintainer"
 msgstr "Responsabile"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -101,25 +107,25 @@ msgstr ""
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Dimensione carattere"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Aumenta il carattere"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Riduci il carattere"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "&Utilizza caratteri personalizzati"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -143,7 +149,7 @@ msgstr "Generale"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Carattere"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
@@ -192,12 +198,12 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra archivio"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Apri Domanda rapida..."
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -206,13 +212,13 @@ msgstr ""
 "<qt>Questo nasconderà completamente la barra dei menu. Potrai mostrarla "
 "nuovamente digitando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Nascondi la barra dei menu"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -351,10 +357,8 @@ msgid "Add progress indicator in chats list."
 msgstr "Aggiunge un indicatore di avanzamento nell'elenco delle chat."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to change font size."
-msgstr "Consente di configurare le estensioni."
+msgstr "Consente di configurare la dimensione del carattere."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:36
 #, kde-format
@@ -380,6 +384,11 @@ msgstr "Aggiunge il supporto per l'evidenziazione."
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Correzione del bug %1 che consente di eliminare la chat"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
+msgid "Fix icon on windows."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

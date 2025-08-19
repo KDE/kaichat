@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-15 00:49+0000\n"
+"POT-Creation-Date: 2025-08-19 00:45+0000\n"
 "PO-Revision-Date: 2025-08-15 08:32+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,31 +28,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:62
+#: apps/main.cpp:63
 #, kde-format
 msgid "AI Chat"
 msgstr "AI Chat"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Maintainer"
 msgstr "Vzdrževalec"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -192,12 +198,12 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Prikaži arhiv"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Odpri hitro vprašanje..."
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -206,13 +212,13 @@ msgstr ""
 "<qt>To bo popolnoma skrilo menijsko vrstico. Ponovno jo lahko prikažete "
 "tako, da vtipkate %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skrij menijsko vrstico"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -374,6 +380,11 @@ msgstr "Dodaj podporo za osvetljevanje."
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
+msgid "Fix icon on windows."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

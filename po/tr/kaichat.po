@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-15 00:49+0000\n"
+"POT-Creation-Date: 2025-08-19 00:45+0000\n"
 "PO-Revision-Date: 2025-08-15 20:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -27,31 +27,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
-#: apps/main.cpp:60 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:62
+#: apps/main.cpp:63
 #, kde-format
 msgid "AI Chat"
 msgstr "Yapay Zekâ Sohbeti"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© 2025 Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Maintainer"
 msgstr "Bakımcı"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -191,12 +197,12 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Arşivi Göster"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Tez Soruyu Aç…"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -205,13 +211,13 @@ msgstr ""
 "<qt>Bu, menü çubuğunu tümüyle gizleyecektir. %1 yazarak onu yeniden "
 "gösterebilirsiniz.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -370,6 +376,11 @@ msgstr "Vurgu desteği ekle"
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Sohbeti silmeyi düzelt (hata %1)"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
+msgid "Fix icon on windows."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
