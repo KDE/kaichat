@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
         mw->slotActivateRequested(arguments, message[QLatin1String("working_dir")].toString());
     });
 #endif
-    // TODO mw->parseCommandLine(&parser);
+    mw->parseCommandLine(&parser);
 
 #ifdef Q_OS_UNIX
     /**

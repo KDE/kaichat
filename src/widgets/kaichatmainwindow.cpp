@@ -8,6 +8,7 @@
 
 #include "kaichatcentralwidget.h"
 #include "kaichatchangefontsizemenu.h"
+#include "kaichatcommandlineparser.h"
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
@@ -268,6 +269,9 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, cons
     if (!arguments.isEmpty()) {
         QCommandLineParser parser;
         parser.parse(arguments);
+        KAIChatCommandLineParser commandLineParser(&parser);
+        parser.parse(arguments);
+        parseCommandLine(&parser);
     }
 #if !defined(Q_OS_WIN) && !defined(Q_OS_MACOS)
     KWindowSystem::updateStartupId(windowHandle());
@@ -301,6 +305,22 @@ void KAIChatMainWindow::updateActions(bool status)
     qDebug() << " void KAIChatMainWindow::updateActions()";
     mShowQuickAskAction->setEnabled(status);
     mExportMenu->setEnabled(status);
+}
+
+void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
+{
+    qDebug() << " PARSER****";
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
+        qDebug() << " INSTANACE ***************";
+        // TODO
+    }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat))) {
+        const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
+        mManager->createNewChat(newChatName);
+    }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
+        slotQuickAsk();
+    }
 }
 
 #include "moc_kaichatmainwindow.cpp"

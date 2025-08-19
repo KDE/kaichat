@@ -13,10 +13,14 @@ class LIBKAICHATCORE_EXPORT KAIChatCommandLineParser
 public:
     enum class OptionParser : uint8_t {
         ListInstances = 0,
+        Instance,
+        NewChat,
+        QuickAsk,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();
-    [[nodiscard]] QString optionParserFromEnum(OptionParser e);
+
+    [[nodiscard]] static QString optionParserFromEnum(OptionParser e);
 
 private:
     void initializeCommandLine(QCommandLineParser *parser);

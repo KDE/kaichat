@@ -14,6 +14,7 @@ class KToggleFullScreenAction;
 class KAIChatNotificatifierItem;
 class KAIChatExportMenu;
 class KAIChatChangeFontSizeMenu;
+class QCommandLineParser;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 class VerifyNewVersionWidgetAction;
 #endif
@@ -29,6 +30,8 @@ public:
     ~KAIChatMainWindow() override;
 
     void slotActivateRequested(const QStringList &arguments, const QString &workingDirectory);
+
+    void parseCommandLine(QCommandLineParser *parser);
 
 private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowArchive(bool checked);
