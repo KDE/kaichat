@@ -4,15 +4,16 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 
-#include <KCrash>
-#include <KLocalizedString>
-#include <QApplication>
-#include <QCommandLineParser>
-
 #include "config-kaichat.h"
 #include "kaichatcommandlineparser.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatmainwindow.h"
+#include <KConfigGroup>
+#include <KCrash>
+#include <KLocalizedString>
+#include <QApplication>
+#include <QCommandLineParser>
+#include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 #include <iostream>
 
 #include <KAboutData>
@@ -80,21 +81,13 @@ int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
-        // TODO
-        /*
-        const QString configPath = ManagerDataPaths::self()->path(ManagerDataPaths::Config, QString());
-        QDirIterator it(configPath,
-                        QStringList() << u"ruqola.conf"_s,
-                        QDir::AllEntries | QDir::NoSymLinks | QDir::NoDotAndDotDot,
-                        QDirIterator::Subdirectories);
-        std::cout << qPrintable(i18n("The following accounts are available:")) << '\n';
-        while (it.hasNext()) {
-            QString result = it.next();
-            result.remove(configPath + u'/');
-            result.remove(u"/ruqola.conf"_s);
-            std::cout << "   " << result.toLocal8Bit().data() << '\n';
+        KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
+        const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(&config);
+        for (const QString &instanceName : lst) {
+            const KConfigGroup grp = config.group(instanceName);
+            const QString name = grp.readEntry("Name");
+            std::cout << "   " << name.toLocal8Bit().data() << '\n';
         }
-        */
         return 0;
     }
 
