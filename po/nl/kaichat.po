@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-19 00:45+0000\n"
-"PO-Revision-Date: 2025-08-16 23:47+0200\n"
+"POT-Creation-Date: 2025-08-20 00:46+0000\n"
+"PO-Revision-Date: 2025-08-19 11:18+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -27,28 +27,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "AI Chat"
 msgstr "AI-chat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Maintainer"
 msgstr "Onderhouder"
@@ -57,7 +57,28 @@ msgstr "Onderhouder"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
+msgstr "Lijsten met exemplaren teruggeven"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Start with specific instance"
+msgstr "Lijsten met exemplaren teruggeven"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
 msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:27
+#, fuzzy, kde-format
+#| msgid "Open Quick Ask..."
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "Snel vragen openen..."
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -187,23 +208,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Als tekst exporteren…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:117
 #, kde-format
 msgid "What's new"
 msgstr "Wat is nieuw"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:121
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archief tonen"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Snel vragen openen..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -212,13 +233,13 @@ msgstr ""
 "<qt>Hierdoor wordt de menubalk geheel verborgen. U kunt die weer zichtbaar "
 "maken door %1 te typen.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
-#: widgets/kaichatmainwindow.cpp:287
+#: widgets/kaichatmainwindow.cpp:291
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -357,35 +378,40 @@ msgstr "Voortgangsindicatie in chatlijst toevoegen."
 msgid "Allow to change font size."
 msgstr "Sta wijzigen van tekengrootte toe."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:26
+msgid ""
+"Add command line for adding new chat room, displaying list of instances."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ondersteuning voor Wat is nieuw toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add instance support."
 msgstr "Ondersteuning voor exemplaar toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ondersteuning voor Markdown toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ondersteuning voor accentuering."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Toestaan chat te verwijderen repareren. Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Pictogram op vensters repareren"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

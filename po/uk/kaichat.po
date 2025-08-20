@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-19 00:45+0000\n"
-"PO-Revision-Date: 2025-08-15 09:09+0300\n"
+"POT-Creation-Date: 2025-08-20 00:46+0000\n"
+"PO-Revision-Date: 2025-08-19 18:06+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -28,28 +28,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "AI Chat"
 msgstr "Спілкування з ШІ"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© Laurent Montel <montel@kde.org>, 2025"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
@@ -58,7 +58,28 @@ msgstr "Супровідник"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
+msgstr "Повернути списки екземплярів"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Start with specific instance"
+msgstr "Повернути списки екземплярів"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
 msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:27
+#, fuzzy, kde-format
+#| msgid "Open Quick Ask..."
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "Відкрити швидке питання..."
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -187,23 +208,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:117
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:121
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Відкрити швидке питання..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -212,13 +233,13 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:287
+#: widgets/kaichatmainwindow.cpp:291
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -354,35 +375,40 @@ msgstr "У списки спілкувань додано індикатор п�
 msgid "Allow to change font size."
 msgstr "Уможливлено зміну розміру шрифту."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:26
+msgid ""
+"Add command line for adding new chat room, displaying list of instances."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add what's new support."
 msgstr "Додано підтримку показу новин щодо програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add instance support."
 msgstr "Додано підтримку екземплярів програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Додано підтримку Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Додано підтримку підсвічування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Виправлено піктограму у Windows"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

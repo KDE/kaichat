@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-19 00:45+0000\n"
+"POT-Creation-Date: 2025-08-20 00:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,28 +27,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com"
 
-#: apps/main.cpp:61 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:63
+#: apps/main.cpp:64
 #, kde-format
 msgid "AI Chat"
 msgstr ""
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Maintainer"
 msgstr "维护人员"
@@ -58,6 +58,25 @@ msgstr "维护人员"
 msgctxt "@info:shell"
 msgid "Return lists of instances"
 msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start with specific instance"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:27
+#, fuzzy, kde-format
+#| msgid "Open Quick Ask..."
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "打开 Quick Ask..."
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -186,36 +205,36 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "导出为文本..."
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:117
 #, kde-format
 msgid "What's new"
 msgstr "新增功能"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:121
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "显示归档"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "打开 Quick Ask..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:256
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
-#: widgets/kaichatmainwindow.cpp:287
+#: widgets/kaichatmainwindow.cpp:291
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -349,32 +368,37 @@ msgstr "在聊天列表中添加进度指示器。"
 msgid "Allow to change font size."
 msgstr "允许更改字体大小。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:36
+#: widgets/whatsnew/whatsnewtranslations.cpp:26
+msgid ""
+"Add command line for adding new chat room, displaying list of instances."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add what's new support."
 msgstr "添加“新增功能”支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add instance support."
 msgstr "添加实例支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Mardown support."
 msgstr "添加 Markdown 支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "修复了允许删除聊天的问题。Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
 #, kde-format
 msgid "Fix icon on windows."
 msgstr ""
