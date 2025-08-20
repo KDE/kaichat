@@ -46,8 +46,9 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void createSystemTray();
     LIBKAICHATWIDGETS_NO_EXPORT void slotExportInfoRequested();
     LIBKAICHATWIDGETS_NO_EXPORT void slotWhatsNew();
-    LIBKAICHATWIDGETS_NO_EXPORT void updateActions(bool enabled);
+    LIBKAICHATWIDGETS_NO_EXPORT void updateActions();
     LIBKAICHATWIDGETS_NO_EXPORT void slotQuickAsk();
+    LIBKAICHATWIDGETS_NO_EXPORT void disableActions();
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;

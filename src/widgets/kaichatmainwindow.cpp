@@ -67,11 +67,9 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::showArchiveChanged, this, [this]() {
         mShowArchivedAction->setChecked(mManager->showArchived());
     });
-    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::loadEngineDone, this, [this]() {
-        const bool isEnabled = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
-        updateActions(isEnabled);
-    });
-    updateActions(false);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::loadEngineDone, this, &KAIChatMainWindow::updateActions);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::currentChatIdChanged, this, &KAIChatMainWindow::updateActions);
+    disableActions();
 }
 
 KAIChatMainWindow::~KAIChatMainWindow()
@@ -230,8 +228,7 @@ void KAIChatMainWindow::slotConfigure()
         createSystemTray();
         Q_EMIT mManager->fontSizeChanged();
         Q_EMIT mManager->configChanged();
-        const bool isEnabled = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
-        updateActions(isEnabled);
+        updateActions();
     }
     delete dlg;
 }
@@ -300,11 +297,18 @@ void KAIChatMainWindow::slotExportInfoRequested()
     mExportMenu->setExportChatInfo(std::move(info));
 }
 
-void KAIChatMainWindow::updateActions(bool status)
+void KAIChatMainWindow::disableActions()
 {
+    mShowQuickAskAction->setEnabled(false);
+    mExportMenu->setEnabled(false);
+}
+
+void KAIChatMainWindow::updateActions()
+{
+    const bool status = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
     qDebug() << " void KAIChatMainWindow::updateActions()";
     mShowQuickAskAction->setEnabled(status);
-    mExportMenu->setEnabled(status);
+    mExportMenu->setEnabled(status && !mManager->currentChatId().isEmpty());
 }
 
 void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
