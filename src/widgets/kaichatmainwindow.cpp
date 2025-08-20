@@ -309,7 +309,6 @@ void KAIChatMainWindow::updateActions(bool status)
 
 void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
 {
-    qDebug() << " PARSER****";
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
         qDebug() << " INSTANACE ***************";
         // TODO
