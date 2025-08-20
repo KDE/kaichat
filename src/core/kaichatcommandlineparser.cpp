@@ -25,6 +25,8 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          u"instancename"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::NewChat), i18nc("@info:shell", "Create new chat"), u"New Chat"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::QuickAsk), i18nc("@info:shell", "Open Quick Ask")));
+    parser->addOption(
+        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::SwitchToChat), i18nc("@info:shell", "Switch to Chat"), u"<chat name>"_s));
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -38,6 +40,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"new-chat"_s;
     case OptionParser::QuickAsk:
         return u"quick-ask"_s;
+    case OptionParser::SwitchToChat:
+        return u"switch-to-chat"_s;
     }
     return {};
 }

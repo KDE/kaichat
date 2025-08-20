@@ -16,6 +16,7 @@ public:
         Instance,
         NewChat,
         QuickAsk,
+        SwitchToChat,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();
