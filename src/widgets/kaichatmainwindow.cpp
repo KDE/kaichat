@@ -309,6 +309,13 @@ void KAIChatMainWindow::updateActions(bool status)
 
 void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
 {
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat))) {
+        const QString chatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat));
+        qDebug() << " Chat name  ***************" << chatName;
+        if (!chatName.isEmpty()) {
+            // TODO
+        }
+    }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
         qDebug() << " INSTANACE ***************";
         // TODO
