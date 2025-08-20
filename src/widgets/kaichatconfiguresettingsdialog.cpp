@@ -31,7 +31,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 
     const QString generalPageName = i18nc("@title General page name", "General");
     auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
-    configureGeneralWidgetPage->setIcon(QIcon::fromTheme(u"kaichat"_s));
+    configureGeneralWidgetPage->setIcon(QIcon(u":/kaichat/kaichat.svg"_s));
     addPage(configureGeneralWidgetPage);
 
     const QString fontPageName = i18nc("@title General page name", "Font");
