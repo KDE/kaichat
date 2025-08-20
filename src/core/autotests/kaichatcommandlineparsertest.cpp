@@ -5,12 +5,22 @@
  */
 
 #include "kaichatcommandlineparsertest.h"
+#include "kaichatcommandlineparser.h"
 #include <QTest>
 QTEST_GUILESS_MAIN(KAIChatCommandLineParserTest)
-
+using namespace Qt::Literals::StringLiterals;
 KAIChatCommandLineParserTest::KAIChatCommandLineParserTest(QObject *parent)
     : QObject{parent}
 {
+}
+
+void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
+{
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances), u"list-instances"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance), u"instance"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat), u"new-chat"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk), u"quick-ask"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat), u"switch-to-chat"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"

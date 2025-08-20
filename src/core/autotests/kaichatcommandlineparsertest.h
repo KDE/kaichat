@@ -13,4 +13,7 @@ class KAIChatCommandLineParserTest : public QObject
 public:
     explicit KAIChatCommandLineParserTest(QObject *parent = nullptr);
     ~KAIChatCommandLineParserTest() override = default;
+
+private Q_SLOTS:
+    void shouldVerifyOptionParserFromEnumValues();
 };
