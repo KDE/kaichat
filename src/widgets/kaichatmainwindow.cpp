@@ -314,8 +314,7 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString chatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat));
         qDebug() << " Chat name  ***************" << chatName;
         if (!chatName.isEmpty()) {
-            // mManager->switch
-            // TODO
+            mManager->switchToChat(chatName);
         }
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
