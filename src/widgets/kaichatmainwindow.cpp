@@ -266,7 +266,7 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, cons
     if (!arguments.isEmpty()) {
         QCommandLineParser parser;
         parser.parse(arguments);
-        KAIChatCommandLineParser commandLineParser(&parser);
+        const KAIChatCommandLineParser commandLineParser(&parser);
         parser.parse(arguments);
         parseCommandLine(&parser);
     }
