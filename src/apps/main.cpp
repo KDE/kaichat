@@ -83,6 +83,7 @@ int main(int argc, char *argv[])
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
         KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
         const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(&config);
+        std::cout << qPrintable(i18n("The following instances are available:")) << '\n';
         for (const QString &instanceName : lst) {
             const KConfigGroup grp = config.group(instanceName);
             const QString name = grp.readEntry("Name");
