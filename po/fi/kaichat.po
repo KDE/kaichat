@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:46+0000\n"
+"POT-Creation-Date: 2025-08-21 00:46+0000\n"
 "PO-Revision-Date: 2025-07-10 22:51+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -76,6 +76,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
@@ -207,23 +213,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Vie tekstiksi…"
 
-#: widgets/kaichatmainwindow.cpp:117
+#: widgets/kaichatmainwindow.cpp:115
 #, kde-format
 msgid "What's new"
 msgstr "Mitä uutta"
 
-#: widgets/kaichatmainwindow.cpp:121
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Näytä arkisto"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -232,13 +238,13 @@ msgstr ""
 "<qt>Tämä piilottaa valikkorivin kokonaan. Saat sen uudelleen näkyviin "
 "painamalla %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
 
-#: widgets/kaichatmainwindow.cpp:291
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"

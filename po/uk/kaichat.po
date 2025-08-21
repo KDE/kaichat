@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:46+0000\n"
-"PO-Revision-Date: 2025-08-19 18:06+0300\n"
+"POT-Creation-Date: 2025-08-21 00:46+0000\n"
+"PO-Revision-Date: 2025-08-20 11:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -61,25 +61,28 @@ msgid "Return lists of instances"
 msgstr "Повернути списки екземплярів"
 
 #: core/kaichatcommandlineparser.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Повернути списки екземплярів"
+msgstr "Почати з певного екземпляра"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Створити обговорення"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Відкрити швидке питання..."
+msgstr "Відкрити швидке питання"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -208,23 +211,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:117
+#: widgets/kaichatmainwindow.cpp:115
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:121
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Відкрити швидке питання..."
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -233,13 +236,13 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:291
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -379,6 +382,8 @@ msgstr "Уможливлено зміну розміру шрифту."
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Додано параметр командного рядка для додавання нової кімнати спілкування, "
+"показу списку екземплярів."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format

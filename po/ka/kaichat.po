@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:46+0000\n"
-"PO-Revision-Date: 2025-08-19 10:31+0200\n"
+"POT-Creation-Date: 2025-08-21 00:46+0000\n"
+"PO-Revision-Date: 2025-08-20 08:02+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -61,25 +61,28 @@ msgid "Return lists of instances"
 msgstr "აბრუნებს გაშვებული ასლების სიას"
 
 #: core/kaichatcommandlineparser.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "აბრუნებს გაშვებული ასლების სიას"
+msgstr "დაწყება მითითებული გაშვებული ასლით"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "ახალი ჩატის შექმნა"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "სწრაფი კითხვის გახსნა..."
+msgstr "სწრაფი კითხვის გახსნა"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -210,23 +213,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
-#: widgets/kaichatmainwindow.cpp:117
+#: widgets/kaichatmainwindow.cpp:115
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:121
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "სწრაფი კითხვის გახსნა..."
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -235,13 +238,13 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:291
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -381,6 +384,8 @@ msgstr "ფონტის ზომის შეცვლის დაშვე
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და გაშვებული "
+"ასლების სიის გამოსატანად."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format

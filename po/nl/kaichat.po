@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:46+0000\n"
-"PO-Revision-Date: 2025-08-19 11:18+0200\n"
+"POT-Creation-Date: 2025-08-21 00:46+0000\n"
+"PO-Revision-Date: 2025-08-20 11:51+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -60,25 +60,28 @@ msgid "Return lists of instances"
 msgstr "Lijsten met exemplaren teruggeven"
 
 #: core/kaichatcommandlineparser.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Lijsten met exemplaren teruggeven"
+msgstr "Start met specifiek exemplaar"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Nieuwe chat aanmaken"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Snel vragen openen..."
+msgstr "Snel vragen openen"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -208,23 +211,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Als tekst exporteren…"
 
-#: widgets/kaichatmainwindow.cpp:117
+#: widgets/kaichatmainwindow.cpp:115
 #, kde-format
 msgid "What's new"
 msgstr "Wat is nieuw"
 
-#: widgets/kaichatmainwindow.cpp:121
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archief tonen"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Snel vragen openen..."
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -233,13 +236,13 @@ msgstr ""
 "<qt>Hierdoor wordt de menubalk geheel verborgen. U kunt die weer zichtbaar "
 "maken door %1 te typen.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
-#: widgets/kaichatmainwindow.cpp:291
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -382,6 +385,8 @@ msgstr "Sta wijzigen van tekengrootte toe."
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Opdrachtregel toevoegen voor toevoegen van nieuwe chatroom, die lijst met "
+"exemplaren toont."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format

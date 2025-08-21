@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-20 00:46+0000\n"
-"PO-Revision-Date: 2025-08-19 12:40+0100\n"
+"POT-Creation-Date: 2025-08-21 00:46+0000\n"
+"PO-Revision-Date: 2025-08-20 12:21+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -62,25 +62,28 @@ msgid "Return lists of instances"
 msgstr "Devolver listas de instancias"
 
 #: core/kaichatcommandlineparser.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Devolver listas de instancias"
+msgstr "Iniciar con una instancia específica"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Crear nueva conversación"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Abrir pregunta rápida…"
+msgstr "Abrir pregunta rápida"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -210,23 +213,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportar como texto…"
 
-#: widgets/kaichatmainwindow.cpp:117
+#: widgets/kaichatmainwindow.cpp:115
 #, kde-format
 msgid "What's new"
 msgstr "Novedades"
 
-#: widgets/kaichatmainwindow.cpp:121
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:159
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Abrir pregunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -235,13 +238,13 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:256
+#: widgets/kaichatmainwindow.cpp:253
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar la barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:291
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -384,6 +387,8 @@ msgstr "Permitir el cambio del tamaño del texto."
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Añadir línea de órdenes para añadir nueva sala de charla, mostrando la lista "
+"de instancias."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
