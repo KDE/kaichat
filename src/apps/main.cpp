@@ -8,6 +8,7 @@
 #include "kaichatcommandlineparser.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatmainwindow.h"
+#include "kaichatutils.h"
 #include <KConfigGroup>
 #include <KCrash>
 #include <KLocalizedString>
@@ -89,6 +90,11 @@ int main(int argc, char *argv[])
             const QString name = grp.readEntry("Name");
             std::cout << "   " << name.toLocal8Bit().data() << '\n';
         }
+        return 0;
+    }
+
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
+        KAIChatUtils::createQuickAsk();
         return 0;
     }
 

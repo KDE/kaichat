@@ -30,6 +30,8 @@ target_sources(
         kaichatexportmenu.cpp
         kaichatconfigureinstanceswidget.h
         kaichatconfigureinstanceswidget.cpp
+        kaichatutils.h
+        kaichatutils.cpp
         whatsnew/whatsnewdialog.h
         whatsnew/whatsnewdialog.cpp
         whatsnew/whatsnewwidget.h

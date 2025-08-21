@@ -13,6 +13,7 @@
 #include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
+#include "kaichatutils.h"
 #include "whatsnew/whatsnewdialog.h"
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 #include "verifynewversionwidget/verifynewversionwidgetaction.h"
@@ -168,11 +169,7 @@ void KAIChatMainWindow::setupActions()
 
 void KAIChatMainWindow::slotQuickAsk()
 {
-    auto *manager = new TextAutoGenerateText::TextAutoGenerateManager;
-    auto quickAskdialog = new TextAutoGenerateText::TextAutoGenerateQuickAskDialog(manager, this);
-    manager->setParent(quickAskdialog);
-    quickAskdialog->exec();
-    delete quickAskdialog;
+    KAIChatUtils::createQuickAsk(this);
 }
 
 void KAIChatMainWindow::slotWhatsNew()
@@ -327,9 +324,6 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat))) {
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
         mManager->createNewChat(newChatName);
-    }
-    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
-        slotQuickAsk();
     }
 }
 
