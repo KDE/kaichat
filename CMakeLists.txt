@@ -95,6 +95,7 @@ find_package(
         WindowSystem
 )
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
+find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)
 if(NOT APPLE)
     find_package(KF6Purpose ${KF_MIN_VERSION} CONFIG)

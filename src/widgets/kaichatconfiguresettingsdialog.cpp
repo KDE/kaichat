@@ -5,10 +5,10 @@
  */
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichatconfigurefontwidget.h"
-using namespace Qt::Literals::StringLiterals;
-
 #include "kaichatconfiguregeneralwidget.h"
 #include "kaichatconfigureinstanceswidget.h"
+#include "kaichatconfigurespellcheckingwidget.h"
+
 #include <KLocalizedString>
 #include <KSharedConfig>
 #include <KWindowConfig>
@@ -19,12 +19,14 @@ namespace
 {
 const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
 }
+using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KPageDialog(parent)
     , mConfigureGeneralWidget(new KAIChatConfigureGeneralWidget(manager, this))
     , mInstancesManagerWidget(new KAIChatConfigureInstancesWidget(manager, this))
     , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
+    , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -41,8 +43,13 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
     auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
-    configureInstancesWidgetPage->setIcon(QIcon::fromTheme(QStringLiteral("preferences-desktop-theme")));
+    configureInstancesWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-theme"_s));
     addPage(configureInstancesWidgetPage);
+
+    const QString spellCheckPageName = i18nc("@title Preferences page name", "Spell Checking");
+    auto configureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
+    configureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
+    addPage(configureSpellCheckWidgetPage);
 
     const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
     auto configurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
@@ -83,6 +90,7 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
     mInstancesManagerWidget->save();
     mConfigurePluginsWidget->save();
     mConfigureFontWidget->save();
+    mConfigureSpellCheckingWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()
@@ -90,6 +98,7 @@ void KAIChatConfigureSettingsDialog::load()
     mConfigureGeneralWidget->load();
     mConfigurePluginsWidget->load();
     mConfigureFontWidget->load();
+    mConfigureSpellCheckingWidget->load();
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"

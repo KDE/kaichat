@@ -18,6 +18,7 @@ Dependencies:
     'frameworks/kdoctools': '@latest-kf6'
     'frameworks/kio': '@latest-kf6'
     'frameworks/kstatusnotifieritem': '@latest-kf6'
+    'frameworks/sonnet': '@latest-kf6'
 
  - 'on': ['Linux', 'FreeBSD']
    'require':

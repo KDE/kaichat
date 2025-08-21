@@ -11,6 +11,7 @@
 class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
 class KAIChatConfigureFontWidget;
+class KAIChatConfigureSpellCheckingWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -32,4 +33,5 @@ private:
     KAIChatConfigureInstancesWidget *const mInstancesManagerWidget;
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
     KAIChatConfigureFontWidget *const mConfigureFontWidget;
+    KAIChatConfigureSpellCheckingWidget *const mConfigureSpellCheckingWidget;
 };

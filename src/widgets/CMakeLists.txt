@@ -25,7 +25,9 @@ target_sources(
         kaichatconfiguregeneralwidget.h
         kaichatconfiguregeneralwidget.cpp
         kaichatconfigurefontwidget.cpp
+        kaichatconfigurespellcheckingwidget.cpp
         kaichatconfigurefontwidget.h
+        kaichatconfigurespellcheckingwidget.h
         kaichatexportmenu.h
         kaichatexportmenu.cpp
         kaichatconfigureinstanceswidget.h
@@ -85,6 +87,7 @@ target_link_libraries(
     KF6::WindowSystem
     KF6::StatusNotifierItem
     KF6::KIOCore
+    KF6::SonnetUi
     libkaichatcore
 )
 set_target_properties(
