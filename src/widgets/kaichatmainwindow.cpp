@@ -312,7 +312,6 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
 {
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat))) {
         const QString chatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat));
-        qDebug() << " Chat name  ***************" << chatName;
         if (!chatName.isEmpty()) {
             mManager->switchToChat(chatName);
         }
@@ -324,6 +323,10 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat))) {
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
         mManager->createNewChat(newChatName);
+    }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage))) {
+        const QString message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
+        mManager->ask(message);
     }
 }
 
