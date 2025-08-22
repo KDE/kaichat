@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-21 00:46+0000\n"
-"PO-Revision-Date: 2025-08-20 08:02+0200\n"
+"POT-Creation-Date: 2025-08-22 00:45+0000\n"
+"PO-Revision-Date: 2025-08-21 06:43+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -28,31 +28,36 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "temuri.doghonadze@gmail.com"
 
-#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "AI Chat"
 msgstr "ხი-სთან ჩატი"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© 2025 ლორან მონტელი, ყველა უფლება დაცულია"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "ლორან მონტელი"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Maintainer"
 msgstr "წამყვანი პროგრამისტი"
+
+#: apps/main.cpp:87
+#, kde-format
+msgid "The following instances are available:"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -82,7 +87,7 @@ msgstr "სწრაფი კითხვის გახსნა"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "ჩატიზე გადართვა"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -159,31 +164,37 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "სისტემის კუთხეში ხატულის ჩართვა"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:29
+#: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "KAIChat-ის მორგება"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:32
+#: widgets/kaichatconfiguresettingsdialog.cpp:34
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "ზოგადი"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr "ფონტი"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:42
+#: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "გაშვებული ასლები"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:49
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -213,23 +224,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
-#: widgets/kaichatmainwindow.cpp:115
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "სწრაფი კითხვის გახსნა..."
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:247
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -238,13 +249,13 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:285
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -387,32 +398,38 @@ msgstr ""
 "დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და გაშვებული "
 "ასლების სიის გამოსატანად."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
+msgid "Add spell checking support."
+msgstr "დაემატა გამოკვეთის მხარდაჭერა."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add what's new support."
 msgstr "დაემატა მენიუ 'რა არის ახალი'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add instance support."
 msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Mardown support."
 msgstr "დაემატა მარკდაუნის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "დაემატა გამოკვეთის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "გასწორდა ხატულა ფანჯრებზე."

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-21 00:46+0000\n"
-"PO-Revision-Date: 2025-08-20 11:25+0300\n"
+"POT-Creation-Date: 2025-08-22 00:45+0000\n"
+"PO-Revision-Date: 2025-08-21 08:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -28,31 +28,36 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, kde-format
 msgid "AI Chat"
 msgstr "Спілкування з ШІ"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© Laurent Montel <montel@kde.org>, 2025"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
+
+#: apps/main.cpp:87
+#, kde-format
+msgid "The following instances are available:"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -82,7 +87,7 @@ msgstr "Відкрити швидке питання"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "Перемкнутися на спілкування"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -157,31 +162,37 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Увімкнути піктограму системного лотка"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:29
+#: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Налаштовування KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:32
+#: widgets/kaichatconfiguresettingsdialog.cpp:34
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Загальне"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr "Шрифт"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:42
+#: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Екземляри"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:49
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -211,23 +222,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:115
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Відкрити швидке питання..."
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:247
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -236,13 +247,13 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:285
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -385,32 +396,38 @@ msgstr ""
 "Додано параметр командного рядка для додавання нової кімнати спілкування, "
 "показу списку екземплярів."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
+msgid "Add spell checking support."
+msgstr "Додано підтримку підсвічування."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add what's new support."
 msgstr "Додано підтримку показу новин щодо програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add instance support."
 msgstr "Додано підтримку екземплярів програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Додано підтримку Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Додано підтримку підсвічування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Виправлено піктограму у Windows"

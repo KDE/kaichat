@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-21 00:46+0000\n"
+"POT-Creation-Date: 2025-08-22 00:45+0000\n"
 "PO-Revision-Date: 2025-07-16 10:22+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
@@ -24,32 +24,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xavier.besnard@neuf.fr"
 
-#: apps/main.cpp:62 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:64
+#: apps/main.cpp:65
 #, fuzzy, kde-format
 #| msgid "KAIChat"
 msgid "AI Chat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Maintainer"
 msgstr "Mainteneur"
+
+#: apps/main.cpp:87
+#, kde-format
+msgid "The following instances are available:"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -154,31 +159,37 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Activer l'icône de la boîte à miniatures"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:29
+#: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configurer KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:32
+#: widgets/kaichatconfiguresettingsdialog.cpp:34
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Général"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr ""
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:42
+#: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instances"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:49
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -210,23 +221,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
-#: widgets/kaichatmainwindow.cpp:115
+#: widgets/kaichatmainwindow.cpp:116
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:120
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:247
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -235,13 +246,13 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:253
+#: widgets/kaichatmainwindow.cpp:250
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:285
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
@@ -380,32 +391,38 @@ msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:37
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
+msgid "Add spell checking support."
+msgstr "Ajouter la prise en charge de la surbrillance"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add instance support."
 msgstr "Ajouter la prise en charge d'instances."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ajouter la prise en charge du format « Markdown »."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ajouter la prise en charge de la surbrillance"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
 #, kde-format
 msgid "Fix icon on windows."
 msgstr ""
