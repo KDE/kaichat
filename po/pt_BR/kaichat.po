@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
-"PO-Revision-Date: 2025-08-14 08:17-0300\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"PO-Revision-Date: 2025-08-22 12:34-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -56,37 +56,42 @@ msgstr "Mantenedor"
 #: apps/main.cpp:87
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "As seguintes instâncias estão disponíveis:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr ""
+msgstr "Retornar listas de instâncias"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr ""
+msgstr "Iniciar com instância específica"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Criar novo bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Abrir pergunta rápida..."
+msgstr "Abrir pergunta rápida"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
+msgstr "Mudar para o bate-papo"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
@@ -137,25 +142,25 @@ msgstr ""
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Tamanho da fonte"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Aumentar tamanho da fonte"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Diminuir tamanho da fonte"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "&Usar fontes personalizadas"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -179,7 +184,7 @@ msgstr "Geral"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Fonte"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
@@ -191,7 +196,7 @@ msgstr "Instâncias"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Verificação ortográfica"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -389,21 +394,19 @@ msgid "Add progress indicator in chats list."
 msgstr "Adiciona indicador de progresso na lista de bate-papos."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to change font size."
-msgstr "Permite configurar plugins."
+msgstr "Permite alterar o tamanho da fonte."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:26
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Adiciona item de linha de comando para adicionar nova sala de bate-papo, "
+"exibindo lista de instâncias."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Adiciona suporte ao realce."
+msgstr "Adiciona suporte à verificação ortográfica."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
@@ -433,7 +436,7 @@ msgstr "Corrige permissão para excluir bate-papo. Bug %1"
 #: widgets/whatsnew/whatsnewtranslations.cpp:56
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Correção do ícone no Windows."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format

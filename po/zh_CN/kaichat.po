@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -86,6 +86,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
@@ -390,10 +396,8 @@ msgid ""
 msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "添加高亮支持。"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
 "PO-Revision-Date: 2025-08-21 08:13+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -88,6 +88,12 @@ msgstr "פתיחת שאלה מהירה"
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "העברה לשיחה"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32

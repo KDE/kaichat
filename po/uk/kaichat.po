@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
-"PO-Revision-Date: 2025-08-21 08:09+0300\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"PO-Revision-Date: 2025-08-22 22:00+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -57,7 +57,7 @@ msgstr "Супровідник"
 #: apps/main.cpp:87
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "Доступні такі екземпляри:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -88,6 +88,12 @@ msgstr "Відкрити швидке питання"
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Перемкнутися на спілкування"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -190,7 +196,7 @@ msgstr "Екземляри"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Перевірка правопису"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -397,10 +403,8 @@ msgstr ""
 "показу списку екземплярів."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Додано підтримку підсвічування."
+msgstr "Додано підтримку перевірки правопису."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format

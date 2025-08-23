@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
-"PO-Revision-Date: 2025-08-21 06:43+0200\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"PO-Revision-Date: 2025-08-22 05:45+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,7 +57,7 @@ msgstr "წამყვანი პროგრამისტი"
 #: apps/main.cpp:87
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "ხელმისაწვდომია შემდეგი გაშვებული ასლები:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -88,6 +88,12 @@ msgstr "სწრაფი კითხვის გახსნა"
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "ჩატიზე გადართვა"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -192,7 +198,7 @@ msgstr "გაშვებული ასლები"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "მართლწერის შემოწმება"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -399,10 +405,8 @@ msgstr ""
 "ასლების სიის გამოსატანად."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "დაემატა გამოკვეთის მხარდაჭერა."
+msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format

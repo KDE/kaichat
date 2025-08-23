@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-22 00:45+0000\n"
-"PO-Revision-Date: 2025-08-21 09:30+0200\n"
+"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"PO-Revision-Date: 2025-08-22 09:34+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -58,7 +58,7 @@ msgstr "Mantenidor"
 #: apps/main.cpp:87
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "Hi ha disponibles les instàncies següents:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -89,6 +89,12 @@ msgstr "Obre la resposta ràpida"
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Canvia a xat"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -191,7 +197,7 @@ msgstr "Instàncies"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Verificació ortogràfica"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -403,10 +409,8 @@ msgstr ""
 "llista d'instàncies."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Afegeix la implementació del ressaltat."
+msgstr "Afegeix la implementació de la verificació ortogràfica."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
