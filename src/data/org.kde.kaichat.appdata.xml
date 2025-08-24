@@ -88,6 +88,7 @@
   <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kaichat</url>
   <url type="donation">https://www.kde.org/community/donations/?app=kaichat&amp;source=appdata</url>
   <url type="contact">https://go.kde.org/matrix/#/#kaichat:kde.org</url>
+  <url type="vcs-browser">https://invent.kde.org/utilities/kaichat</url>
   <project_group>KDE</project_group>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">moderate</content_attribute>
