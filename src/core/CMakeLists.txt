@@ -49,7 +49,7 @@ set_target_properties(
         VERSION
             ${KAICHAT_LIB_VERSION}
         SOVERSION
-            ${KAICHAT_LIB_VERSION}
+            ${KAICHAT_LIB_SOVERSION}
 )
 
 install(
