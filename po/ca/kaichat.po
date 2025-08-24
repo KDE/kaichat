@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-23 00:46+0000\n"
-"PO-Revision-Date: 2025-08-22 09:34+0200\n"
+"PO-Revision-Date: 2025-08-23 10:38+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -82,7 +82,7 @@ msgstr "Crea un xat nou"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Obre la resposta ràpida"
+msgstr "Obre una pregunta ràpida"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
@@ -94,7 +94,7 @@ msgstr "Canvia a xat"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr ""
+msgstr "Pregunta un missatge"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -243,7 +243,7 @@ msgstr "Mostra l'arxiu"
 #: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr "Obre la resposta ràpida..."
+msgstr "Obre una pregunta ràpida..."
 
 #: widgets/kaichatmainwindow.cpp:247
 #, kde-format
@@ -371,7 +371,7 @@ msgstr "Què hi ha de nou al %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr "Afegeix el diàleg de resposta ràpida."
+msgstr "Afegeix el diàleg de pregunta ràpida."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
