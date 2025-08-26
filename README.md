@@ -22,8 +22,8 @@ You can get kaichat from:
 ## Requirements
 
 `cmake`, `cmake-extra-tools`,
-`kwidgetaddons`, `ki18n`, `kcrash`, `kcoreaddons`, `syntaxhighlighting`, `sonnet`,
-`textwidgets`, `kio`, `iconthemes`, `xmlgui`, `ktextaddons`, `qtkeychain`
+`kwidgetaddons`, `ki18n`, `kcrash`, `kcoreaddons`,
+`iconthemes`, `xmlgui`, `ktextaddons`
 
 ## How to build ruqola
 
