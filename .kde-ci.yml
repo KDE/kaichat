@@ -9,8 +9,6 @@ Dependencies:
     'frameworks/ki18n': '@latest-kf6'
     'frameworks/extra-cmake-modules': '@latest-kf6'
     'frameworks/kwidgetsaddons': '@latest-kf6'
-    'frameworks/kcompletion': '@latest-kf6'
-    'frameworks/kitemviews': '@latest-kf6'
     'frameworks/kxmlgui': '@latest-kf6'
     'frameworks/kiconthemes': '@latest-kf6'
     'frameworks/kcrash': '@latest-kf6'
