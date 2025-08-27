@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-01 02:46+0000\n"
-"PO-Revision-Date: 2025-07-16 10:22+0200\n"
+"PO-Revision-Date: 2025-08-24 15:21+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.07.80\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -30,10 +30,9 @@ msgid "KAiChat"
 msgstr "KAiChat"
 
 #: apps/main.cpp:61
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "Discussion avec une IA"
 
 #: apps/main.cpp:63
 #, kde-format
@@ -73,7 +72,7 @@ msgstr "Système"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Outil"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -225,12 +224,12 @@ msgstr "Ajouter la prise en charge de la surbrillance"
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Correction de l'autorisation de supprimer un salon. Bogue %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Versions"
-msgstr ""
+msgstr "Toutes les versions"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
@@ -246,6 +245,8 @@ msgstr "Modifications importantes depuis la dernière version :"
 #, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
 msgstr ""
+"Certaines des nouvelles fonctionnalités de cette version de Kaichat "
+"comprennent :"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
