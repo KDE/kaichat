@@ -9,6 +9,15 @@ add_executable(
     kaichat.qrc
 )
 
+if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
+    set_target_properties(
+        kaichat
+        PROPERTIES
+            UNITY_BUILD
+                ON
+    )
+endif()
+
 target_link_libraries(
     kaichat
     KF6::Crash

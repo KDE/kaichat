@@ -146,6 +146,13 @@ endif()
 
 configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 
+option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
+
+set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
+if(USE_UNITY_CMAKE_SUPPORT)
+    set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
+endif()
+
 add_subdirectory(src)
 
 ki18n_install(po)
