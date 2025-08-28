@@ -25,7 +25,7 @@ You can get kaichat from:
 `kwidgetaddons`, `ki18n`, `kcrash`, `kcoreaddons`,
 `iconthemes`, `xmlgui`, `ktextaddons`
 
-## How to build ruqola
+## How to build KAIChat
 
 ````bash
 mkdir build
@@ -39,6 +39,10 @@ or using CMakePresets support (need cmake > 3.20)
 
 ````bash
 cmake --preset dev && cmake --build --preset dev
+
+or (using mold linker)
+
+cmake --preset dev-mokd && cmake --build --preset dev-mold
 ````
 
 ## ASAN
