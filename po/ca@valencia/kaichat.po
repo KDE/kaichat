@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-23 00:46+0000\n"
-"PO-Revision-Date: 2025-08-15 12:15+0200\n"
+"PO-Revision-Date: 2025-08-23 10:38+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.3\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -58,44 +58,43 @@ msgstr "Mantenidor"
 #: apps/main.cpp:87
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "Hi ha disponibles les instàncies següents:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr ""
+msgstr "Retorna la llista d'instàncies"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr ""
+msgstr "Comença amb una instància específica"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Crea un xat nou"
 
 #: core/kaichatcommandlineparser.cpp:27
-#, fuzzy, kde-format
-#| msgid "Open Quick Ask..."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Obri la resposta ràpida…"
+msgstr "Obri una pregunta ràpida"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "Canvia a xat"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr ""
+msgstr "Pregunta un missatge"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -198,7 +197,7 @@ msgstr "Instàncies"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Verificació ortogràfica"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -244,7 +243,7 @@ msgstr "Mostra l'arxiu"
 #: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr "Obri la resposta ràpida…"
+msgstr "Obri una pregunta ràpida…"
 
 #: widgets/kaichatmainwindow.cpp:247
 #, kde-format
@@ -371,7 +370,7 @@ msgstr "Què hi ha de nou en %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr "Afig el diàleg de resposta ràpida."
+msgstr "Afig el diàleg de pregunta ràpida."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
@@ -405,12 +404,12 @@ msgstr "Permet canviar la mida de la lletra."
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Afig una línia d'ordres per a afegir una sala de xat nova, mostrant la "
+"llista d'instàncies."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Afig la implementació del ressaltat."
+msgstr "Afig la implementació de la verificació ortogràfica."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:38
 #, kde-format
@@ -440,7 +439,7 @@ msgstr "Corregix permetre la supressió de xat. Error %1"
 #: widgets/whatsnew/whatsnewtranslations.cpp:56
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Corregix una icona en Windows."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
