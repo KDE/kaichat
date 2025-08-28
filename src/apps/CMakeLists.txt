@@ -28,9 +28,9 @@ else()
     endif()
 endif()
 
-file(GLOB_RECURSE KAICHAT_ICONS "${PROJECT_SOURCE_DIR}/src/widgets/icons/*-apps-kaichat.png")
-ecm_add_app_icon(appIcons ICONS "${KAICHAT_ICONS}")
-target_sources(kaichat PRIVATE ${appIcons})
+#file(GLOB_RECURSE KAICHAT_ICONS "${PROJECT_SOURCE_DIR}/src/widgets/icons/*-apps-kaichat.png")
+#ecm_add_app_icon(appIcons ICONS "${KAICHAT_ICONS}")
+#target_sources(kaichat PRIVATE ${appIcons})
 
 install(
     TARGETS
