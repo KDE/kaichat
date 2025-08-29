@@ -58,6 +58,17 @@ KAIChat can build with cmake unity support
 cmake --preset unity && cmake --build --preset unity
 ````
 
+## Contributing
+
+Contributions are welcome. We use [https://invent.kde.org/](https://invent.kde.org/)
+
+The [KDE Community Code of Conduct](https://kde.org/code-of-conduct) is applied.
+
+## License
+
+This project is licensed under the GPL-2.0-or-later.
+More information can be found in the `LICENSES` folder.
+
 ## Maintainer
 
 - Laurent Montel <montel@kde.org>
