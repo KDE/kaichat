@@ -76,12 +76,12 @@ QDate NeedUpdateVersionUtils::compileDate()
 QUrl NeedUpdateVersionUtils::nextVersionUrl()
 {
     // For stable version we need to look at if we have next stable version.
-    return generateNewVersionUrl("2.7"_L1);
+    return generateNewVersionUrl("0.5"_L1);
 }
 
 QUrl NeedUpdateVersionUtils::newVersionUrl()
 {
-    return generateNewVersionUrl("2.6"_L1);
+    return generateNewVersionUrl("0.4"_L1);
 }
 
 QUrl NeedUpdateVersionUtils::generateNewVersionUrl([[maybe_unused]] const QString &currentStableVersion)
