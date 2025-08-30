@@ -25,6 +25,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Allow to change font size."),
         kli18n("Add command line for adding new chat room, displaying list of instances."),
         kli18n("Add spell checking support."),
+        kli18n("Add Notification popup when model download done."),
     };
     return info;
 }
