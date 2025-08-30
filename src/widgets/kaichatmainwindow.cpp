@@ -32,6 +32,7 @@
 #include <KLocalizedString>
 #include <KMessageBox>
 #include <KNotification>
+#include <KNotifyConfigWidget>
 #include <KSharedConfig>
 #include <KStandardAction>
 #include <KStandardActions>
@@ -134,6 +135,8 @@ void KAIChatMainWindow::setupActions()
 
     KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
+
+    KStandardActions::configureNotifications(this, &KAIChatMainWindow::slotConfigureNotifications, ac);
 
     mShowFullScreenAction = KStandardAction::fullScreen(nullptr, nullptr, this, ac);
     ac->setDefaultShortcut(mShowFullScreenAction, Qt::Key_F11);
@@ -338,6 +341,11 @@ void KAIChatMainWindow::slotDownloadModelFinished(const QString &modelName)
     notification->setTitle(i18n("Model Download Done"));
     notification->setText(i18n("Model %1 was download.", modelName));
     notification->sendEvent();
+}
+
+void KAIChatMainWindow::slotConfigureNotifications()
+{
+    KNotifyConfigWidget::configure(this);
 }
 
 #include "moc_kaichatmainwindow.cpp"

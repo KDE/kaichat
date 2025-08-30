@@ -93,6 +93,7 @@ find_package(
         IconThemes
         Crash
         WindowSystem
+        NotifyConfig
 )
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
