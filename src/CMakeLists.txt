@@ -29,3 +29,4 @@ endif()
 
 install(PROGRAMS data/org.kde.kaichat.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES data/org.kde.kaichat.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES data/kaichat.notifyrc DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})
