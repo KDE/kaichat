@@ -31,6 +31,7 @@
 #include <KHamburgerMenu>
 #include <KLocalizedString>
 #include <KMessageBox>
+#include <KNotification>
 #include <KSharedConfig>
 #include <KStandardAction>
 #include <KStandardActions>
@@ -70,6 +71,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     });
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::loadEngineDone, this, &KAIChatMainWindow::updateActions);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::currentChatIdChanged, this, &KAIChatMainWindow::updateActions);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::downloadModelFinished, this, &KAIChatMainWindow::slotDownloadModelFinished);
     disableActions();
 }
 
@@ -328,6 +330,14 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
         mManager->ask(message);
     }
+}
+
+void KAIChatMainWindow::slotDownloadModelFinished(const QString &modelName)
+{
+    auto notification = new KNotification(u"download-done"_s, KNotification::CloseOnTimeout);
+    notification->setTitle(i18n("Model Download Done"));
+    notification->setText(i18n("Model %1 was download.", modelName));
+    notification->sendEvent();
 }
 
 #include "moc_kaichatmainwindow.cpp"

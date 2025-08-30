@@ -88,6 +88,7 @@ target_link_libraries(
     KF6::StatusNotifierItem
     KF6::KIOCore
     KF6::SonnetUi
+    KF6::Notifications
     libkaichatcore
 )
 set_target_properties(

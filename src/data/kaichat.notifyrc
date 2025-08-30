@@ -3,8 +3,8 @@ IconName=kaichat
 DesktopEntry=org.kde.kaichat
 Comment=KAIChat
 
-[Event/ollama-download-done]
-Name=Ollama download done
-Comment=Ollama download done
+[Event/download-done]
+Name=Model download done
+Comment=Model download done
 Action=Popup
 Urgency=Normal
