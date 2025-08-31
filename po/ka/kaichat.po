@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"POT-Creation-Date: 2025-08-31 00:45+0000\n"
 "PO-Revision-Date: 2025-08-24 04:03+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -230,23 +230,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:165
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "სწრაფი კითხვის გახსნა..."
 
-#: widgets/kaichatmainwindow.cpp:247
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -255,17 +255,27 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ჩატების გატანა"
+
+#: widgets/kaichatmainwindow.cpp:341
+#, kde-format
+msgid "Model Download Done"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:342
+#, kde-format
+msgid "Model %1 was download."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -408,32 +418,36 @@ msgstr ""
 msgid "Add spell checking support."
 msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+msgid "Add Notification popup when model download done."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add what's new support."
 msgstr "დაემატა მენიუ 'რა არის ახალი'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add instance support."
 msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Mardown support."
 msgstr "დაემატა მარკდაუნის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "დაემატა გამოკვეთის მხარდაჭერა."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "გასწორდა ხატულა ფანჯრებზე."

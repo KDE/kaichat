@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"POT-Creation-Date: 2025-08-31 00:45+0000\n"
 "PO-Revision-Date: 2025-08-23 07:13+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -228,23 +228,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Izvozi kot besedilo…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgid "What's new"
 msgstr "Kaj je novega"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Prikaži arhiv"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:165
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Odpri hitro vprašanje..."
 
-#: widgets/kaichatmainwindow.cpp:247
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -253,17 +253,27 @@ msgstr ""
 "<qt>To bo popolnoma skrilo menijsko vrstico. Ponovno jo lahko prikažete "
 "tako, da vtipkate %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skrij menijsko vrstico"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
+
+#: widgets/kaichatmainwindow.cpp:341
+#, kde-format
+msgid "Model Download Done"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:342
+#, kde-format
+msgid "Model %1 was download."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -408,32 +418,36 @@ msgstr ""
 msgid "Add spell checking support."
 msgstr "Dodaj podporo za črkovalnik."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+msgid "Add Notification popup when model download done."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add what's new support."
 msgstr "Dodaj podporo kaj je novega."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add instance support."
 msgstr "Dodaj podporo pojavka."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Dodaj podporo za Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Dodaj podporo za osvetljevanje."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Fiksiraj ikono na oknih."

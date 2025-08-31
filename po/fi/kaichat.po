@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-23 00:46+0000\n"
-"PO-Revision-Date: 2025-07-10 22:51+0300\n"
+"POT-Creation-Date: 2025-08-31 00:45+0000\n"
+"PO-Revision-Date: 2025-07-31 09:28+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -117,7 +117,7 @@ msgstr "Järjestelmä"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Työkalu"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -230,23 +230,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Vie tekstiksi…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgid "What's new"
 msgstr "Mitä uutta"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Näytä arkisto"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:165
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:247
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -255,17 +255,27 @@ msgstr ""
 "<qt>Tämä piilottaa valikkorivin kokonaan. Saat sen uudelleen näkyviin "
 "painamalla %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Vie keskusteluja"
+
+#: widgets/kaichatmainwindow.cpp:341
+#, kde-format
+msgid "Model Download Done"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:342
+#, kde-format
+msgid "Model %1 was download."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -406,39 +416,42 @@ msgstr ""
 msgid "Add spell checking support."
 msgstr "Lisää korostustuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+msgid "Add Notification popup when model download done."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add what's new support."
 msgstr "Lisää mitä uutta -tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add instance support."
 msgstr "Lisää ilmentymätuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Lisää Markdown-tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Lisää korostustuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
 #, kde-format
 msgid "Fix icon on windows."
 msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
 msgstr "Kaikki versiot"
 

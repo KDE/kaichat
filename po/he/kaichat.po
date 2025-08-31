@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-23 00:46+0000\n"
+"POT-Creation-Date: 2025-08-31 00:45+0000\n"
 "PO-Revision-Date: 2025-08-26 11:20+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -228,23 +228,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
-#: widgets/kaichatmainwindow.cpp:116
+#: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgid "What's new"
 msgstr "מה חדש"
 
-#: widgets/kaichatmainwindow.cpp:120
+#: widgets/kaichatmainwindow.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:165
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "פתיחת שאלה מהירה…"
 
-#: widgets/kaichatmainwindow.cpp:247
+#: widgets/kaichatmainwindow.cpp:252
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -253,17 +253,27 @@ msgstr ""
 "<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:250
+#: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ייצוא שיחות"
+
+#: widgets/kaichatmainwindow.cpp:341
+#, kde-format
+msgid "Model Download Done"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:342
+#, kde-format
+msgid "Model %1 was download."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -402,32 +412,36 @@ msgstr "נוספה פקודה לשורת הפקודות להוספת חדר שי
 msgid "Add spell checking support."
 msgstr "הוספת תמיכה בבדיקת איות."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:38
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+msgid "Add Notification popup when model download done."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add what's new support."
 msgstr "הוספת תמיכה ב„מה חדש”."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add instance support."
 msgstr "הוספת תמיכה במופעים."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Mardown support."
 msgstr "הוספת תמיכה ב־Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "הוספת תמיכה בהדגשה."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "תוקנה האפשרות למחוק שיחה. תקלה %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "תוקן הסמל ב־Windows."
