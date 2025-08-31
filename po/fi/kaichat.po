@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-01 02:46+0000\n"
-"PO-Revision-Date: 2025-07-10 22:51+0300\n"
+"PO-Revision-Date: 2025-07-31 09:28+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -76,7 +76,7 @@ msgstr "Järjestelmä"
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Työkalu"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:16
 #, kde-format
@@ -228,11 +228,10 @@ msgstr "Lisää korostustuki."
 #: widgets/whatsnew/whatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
-#, fuzzy, kde-format
-#| msgid "All Version"
+#, kde-format
 msgid "All Versions"
 msgstr "Kaikki versiot"
 
@@ -247,10 +246,9 @@ msgid "Important changes since last version:"
 msgstr "Tärkeitä muutoksia sitten viime version:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of Kaichat include:"
-msgstr "Joitakin tämän Ruqola-julkaisun uusia ominaisuuksia ovat:"
+msgstr "Joitakin tämän Kaichat-julkaisun uusia ominaisuuksia ovat:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
