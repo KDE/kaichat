@@ -262,9 +262,8 @@ void KAIChatMainWindow::slotToggleMenubar(bool dontShowWarning)
     }
 }
 
-void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, const QString &workingDirectory)
+void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, [[maybe_unused]] const QString &workingDirectory)
 {
-    Q_UNUSED(workingDirectory)
     if (!arguments.isEmpty()) {
         QCommandLineParser parser;
         parser.parse(arguments);

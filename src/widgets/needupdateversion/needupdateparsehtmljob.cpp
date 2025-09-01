@@ -45,9 +45,8 @@ void NeedUpdateParseHtmlJob::start()
     }
 }
 
-void NeedUpdateParseHtmlJob::slotHttpDataFile(KIO::Job *job, const QByteArray &data)
+void NeedUpdateParseHtmlJob::slotHttpDataFile([[maybe_unused]] KIO::Job *job, const QByteArray &data)
 {
-    Q_UNUSED(job);
     if (data.isEmpty()) {
         Q_EMIT downLoadDone(mData);
         deleteLater();
