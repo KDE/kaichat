@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-31 00:45+0000\n"
-"PO-Revision-Date: 2025-08-23 07:13+0200\n"
+"PO-Revision-Date: 2025-08-31 08:46+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -268,12 +268,12 @@ msgstr "Izvozi klepete"
 #: widgets/kaichatmainwindow.cpp:341
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "Prenos modela končan"
 
 #: widgets/kaichatmainwindow.cpp:342
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "Model %1 je bil prenesen."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -420,7 +420,7 @@ msgstr "Dodaj podporo za črkovalnik."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
-msgstr ""
+msgstr "Dodaj pojavno okno z obvestili, ko je prenos modela končan."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format

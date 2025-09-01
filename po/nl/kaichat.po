@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-31 00:45+0000\n"
-"PO-Revision-Date: 2025-08-23 10:31+0200\n"
+"PO-Revision-Date: 2025-08-31 21:14+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -268,12 +268,12 @@ msgstr "Chats exporteren"
 #: widgets/kaichatmainwindow.cpp:341
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "Downloaden van model gedaan"
 
 #: widgets/kaichatmainwindow.cpp:342
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "Model %1 was gedownload."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -421,7 +421,7 @@ msgstr "Ondersteuning voor spellingcontrole toevoegen."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
-msgstr ""
+msgstr "Voeg opkomende melding toe wanneer downloaden van het model is gedaan."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format

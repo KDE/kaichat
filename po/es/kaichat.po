@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-08-31 00:45+0000\n"
-"PO-Revision-Date: 2025-08-23 22:51+0100\n"
+"PO-Revision-Date: 2025-08-31 04:17+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -270,12 +270,12 @@ msgstr "Exportar conversaciones"
 #: widgets/kaichatmainwindow.cpp:341
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "Descarga de modelo terminada"
 
 #: widgets/kaichatmainwindow.cpp:342
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "Se ha descargado el modelo %1."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -424,6 +424,8 @@ msgstr "Añadir Corrección ortográfica."
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
 msgstr ""
+"Añadir ventana emergente de notificación cuando termine la descarga del "
+"modelo."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
