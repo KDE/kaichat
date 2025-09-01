@@ -2,10 +2,43 @@
 IconName=kaichat
 DesktopEntry=org.kde.kaichat
 Comment=KAIChat
+Comment[ca]=KAIChat
+Comment[es]=KAIChat
+Comment[eu]=KAIChat
+Comment[he]=KAIChat
+Comment[ka]=KAIChat
+Comment[nl]=KAIChat
+Comment[pt_BR]=KAIChat
+Comment[sl]=KAIChat
+Comment[tr]=Büyük dil modelleri ile sohbet uygulaması
+Comment[uk]=KAIChat
+Comment[x-test]=xxKAIChatxx
 
 [Event/download-done]
 Name=Model download done
+Name[ca]=S'ha efectuat la baixada del model
+Name[es]=Descarga de modelo terminada
+Name[eu]=Eredua zama-jaistea burutu da
+Name[he]=הורדת המודל הסתיימה
+Name[ka]=მოდელის გადმოწერა დასრულდა
+Name[nl]=Downloaden van model gedaan
+Name[pt_BR]=Download do modelo concluído
+Name[sl]=Prenos modela končan
+Name[tr]=Model İndirildi
+Name[uk]=Отримання моделі завершено
+Name[x-test]=xxModel download donexx
 Comment=Model download done
+Comment[ca]=S'ha efectuat la baixada del model
+Comment[es]=Descarga de modelo terminada
+Comment[eu]=Eredua zama-jaistea burutu da
+Comment[he]=הורדת המודל הסתיימה
+Comment[ka]=მოდელის გადმოწერა დასრულდა
+Comment[nl]=Downloaden van model gedaan
+Comment[pt_BR]=Download do modelo concluído
+Comment[sl]=Prenos modela končan
+Comment[tr]=Model indirmesi tamamlandı
+Comment[uk]=Отримання моделі завершено
+Comment[x-test]=xxModel download donexx
 Action=Popup
 Urgency=Normal
 
