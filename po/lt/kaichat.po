@@ -1,58 +1,58 @@
+# Lithuanian translations for kaichat package.
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Tommi Nieminen <translator@legisign.org>
+# Automatically generated, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-02 00:46+0000\n"
-"PO-Revision-Date: 2025-07-31 09:28+0300\n"
-"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
-"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
-"Language: fi\n"
+"PO-Revision-Date: 2025-08-31 00:45+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 23.08.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Tommi Nieminen"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "translator@legisign.org"
+msgstr ""
 
 #: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr "KAIChat"
+msgstr ""
 
 #: apps/main.cpp:65
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr ""
 
 #: apps/main.cpp:67
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
-msgstr "Tekijänoikeudet © 2025 Laurent Montel"
+msgstr ""
 
 #: apps/main.cpp:68
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr ""
 
 #: apps/main.cpp:68
 #, kde-format
 msgid "Maintainer"
-msgstr "Ylläpitäjä"
+msgstr ""
 
 #: apps/main.cpp:87
 #, kde-format
@@ -99,25 +99,25 @@ msgstr ""
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr "Käyttäjä"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr "Avustaja"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr "Järjestelmä"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:41
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr "Työkalu"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -166,19 +166,19 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "Käytä ilmoitusaluekuvaketta"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "KAIChatin asetukset"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:34
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "Perusasetukset"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
@@ -190,7 +190,7 @@ msgstr ""
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "Ilmentymät"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:49
 #, kde-format
@@ -208,38 +208,36 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "Vie…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "Vie JSONiksi…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "Vie Markdowniksi…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "Vie tekstiksi…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:119
 #, kde-format
 msgid "What's new"
-msgstr "Mitä uutta"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:123
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "Näytä arkisto"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:165
 #, kde-format
@@ -252,20 +250,18 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>Tämä piilottaa valikkorivin kokonaan. Saat sen uudelleen näkyviin "
-"painamalla %1.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:255
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "Piilota valikkorivi"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:289
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "Vie keskusteluja"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:340
 #, kde-format
@@ -281,13 +277,13 @@ msgstr ""
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr "A&setukset"
+msgstr ""
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "View"
-msgstr "Näkymä"
+msgstr ""
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:23
@@ -299,13 +295,13 @@ msgstr ""
 #: widgets/kaichatui.rc:27
 #, kde-format
 msgid "&Help"
-msgstr "&Ohje"
+msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:34
 #, kde-format
 msgid "Main Toolbar"
-msgstr "Päätyökalurivi"
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:22
 #, kde-format
@@ -355,23 +351,23 @@ msgstr ""
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Version:"
-msgstr "Versio:"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewdialog.cpp:28
 #, kde-format
 msgctxt "@title:window"
 msgid "What's new in %1"
-msgstr "%1 – mitä uutta"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "(Show News)"
-msgstr "(Näytä uutiset)"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewmessagewidget.cpp:21
 #, kde-format
 msgid "What's new in %2. %1"
-msgstr "%2 – mitä uutta. %1"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
@@ -411,10 +407,8 @@ msgid ""
 msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Lisää korostustuki."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
@@ -423,27 +417,27 @@ msgstr ""
 #: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add what's new support."
-msgstr "Lisää mitä uutta -tuki."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add instance support."
-msgstr "Lisää ilmentymätuki."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Mardown support."
-msgstr "Lisää Markdown-tuki."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Highlighting support."
-msgstr "Lisää korostustuki."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:57
 #, kde-format
@@ -453,31 +447,24 @@ msgstr ""
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
 msgid "All Versions"
-msgstr "Kaikki versiot"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:49
 #, kde-format
 msgid "Version %1"
-msgstr "Versio %1"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:93
 #, kde-format
 msgid "Important changes since last version:"
-msgstr "Tärkeitä muutoksia sitten viime version:"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Ruqola include:"
+#, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
-msgstr "Joitakin tämän Ruqola-julkaisun uusia ominaisuuksia ovat:"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
 msgid "Some bug fixing:"
-msgstr "Joitakin vikoja on korjattu:"
-
-#~ msgid "KAiChat"
-#~ msgstr "KAiChat"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket-keskusteluasiakas"
+msgstr ""

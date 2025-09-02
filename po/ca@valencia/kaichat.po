@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-31 00:45+0000\n"
-"PO-Revision-Date: 2025-08-23 10:38+0200\n"
+"POT-Creation-Date: 2025-09-02 00:46+0000\n"
+"PO-Revision-Date: 2025-08-31 12:02+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -260,21 +260,21 @@ msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:290
+#: widgets/kaichatmainwindow.cpp:289
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporta xats"
 
-#: widgets/kaichatmainwindow.cpp:341
+#: widgets/kaichatmainwindow.cpp:340
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "S'ha efectuat la baixada del model"
 
-#: widgets/kaichatmainwindow.cpp:342
+#: widgets/kaichatmainwindow.cpp:341
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "S'ha baixat el model %1."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -424,6 +424,8 @@ msgstr "Afig la implementació de la verificació ortogràfica."
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
 msgstr ""
+"Afig una finestra emergent de notificació quan s'ha efectuat la baixada del "
+"model."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:39
 #, kde-format
