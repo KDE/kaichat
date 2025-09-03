@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-02 00:46+0000\n"
+"POT-Creation-Date: 2025-09-03 00:46+0000\n"
 "PO-Revision-Date: 2025-07-28 17:44+0200\n"
 "Last-Translator: oneway <onewayme001@posteo.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -422,32 +422,36 @@ msgstr "Unterstützung von Hervorhebungen hinzugefügt."
 msgid "Add Notification popup when model download done."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+msgid "Allow to save and restore text and scrollbar position."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add what's new support."
 msgstr "Unterstützung für die Anzeige von Neuigkeiten hinzugefügt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add instance support."
 msgstr "Unterstützung von Instanzen hinzugefügt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown-Unterstützung hinzugefügt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Unterstützung von Hervorhebungen hinzugefügt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#: widgets/whatsnew/whatsnewtranslations.cpp:58
 #, kde-format
 msgid "Fix icon on windows."
 msgstr ""

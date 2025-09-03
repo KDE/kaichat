@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-02 00:46+0000\n"
+"POT-Creation-Date: 2025-09-03 00:46+0000\n"
 "PO-Revision-Date: 2025-08-31 12:21+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -430,32 +430,36 @@ msgstr ""
 "Gehitu jakinarazpenaren mezu gainerakorra eredua zama-jaitsiera burutu "
 "denean."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:39
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+msgid "Allow to save and restore text and scrollbar position."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add what's new support."
 msgstr "Zer berri-ren euskarria gehitzu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add instance support."
 msgstr "Instantzien euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown-en euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Nabarmentzeko euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#: widgets/whatsnew/whatsnewtranslations.cpp:58
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows-en ikonoa konpontzea."
