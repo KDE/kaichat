@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-04 00:45+0000\n"
-"PO-Revision-Date: 2025-09-03 04:44+0200\n"
+"PO-Revision-Date: 2025-09-04 06:44+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -427,10 +427,8 @@ msgid "Allow to save and restore text and scrollbar position."
 msgstr "ტექსტის და ჩოჩიის მდებარეობის შენახვის და აღდგენის ჩართვა."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
-#, fuzzy
-#| msgid "Allow to save and restore text and scrollbar position."
 msgid "Allow to save and restore current chat."
-msgstr "ტექსტის და ჩოჩიის მდებარეობის შენახვის და აღდგენის ჩართვა."
+msgstr "მიმდინარე ჩატის შენახვის და აღდგენის დაშვება."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format

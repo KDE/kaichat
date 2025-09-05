@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-04 00:45+0000\n"
-"PO-Revision-Date: 2025-09-03 07:31-0300\n"
+"PO-Revision-Date: 2025-09-04 05:08-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -428,10 +428,8 @@ msgid "Allow to save and restore text and scrollbar position."
 msgstr "Permite salvar e restaurar texto e posição da barra de rolagem."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
-#, fuzzy
-#| msgid "Allow to save and restore text and scrollbar position."
 msgid "Allow to save and restore current chat."
-msgstr "Permite salvar e restaurar texto e posição da barra de rolagem."
+msgstr "Permite salvar e restaurar o bate-papo atual."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:41
 #, kde-format
