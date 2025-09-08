@@ -14,6 +14,7 @@
 #include <KLocalizedString>
 #include <QApplication>
 #include <QCommandLineParser>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 #include <iostream>
 
@@ -94,7 +95,12 @@ int main(int argc, char *argv[])
     }
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats))) {
-        // TODO
+        TextAutoGenerateText::TextAutoGenerateManager manager;
+        const QStringList lst = manager.chatsList();
+        std::cout << qPrintable(i18n("List of Chats:")) << '\n';
+        for (const QString &chatTitle : lst) {
+            std::cout << "   " << chatTitle.toLocal8Bit().data() << '\n';
+        }
         return 0;
     }
 
