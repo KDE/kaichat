@@ -29,13 +29,18 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     WhatsNewTranslations translations;
     const QString newFeaturesMD5 = translations.newFeaturesMD5();
     if (!newFeaturesMD5.isEmpty()) {
-        const bool hasNewFeature = (KAIChatGlobalConfig::self()->previousNewFeaturesMD5() != newFeaturesMD5);
-        if (hasNewFeature) {
-            auto whatsNewMessageWidget = new WhatsNewMessageWidget(this);
-            whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
-            mainLayout->addWidget(whatsNewMessageWidget);
+        const QString previousNewFeaturesMD5 = KAIChatGlobalConfig::self()->previousNewFeaturesMD5();
+        if (!previousNewFeaturesMD5.isEmpty()) {
+            const bool hasNewFeature = (previousNewFeaturesMD5 != newFeaturesMD5);
+            if (hasNewFeature) {
+                auto whatsNewMessageWidget = new WhatsNewMessageWidget(this);
+                whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
+                mainLayout->addWidget(whatsNewMessageWidget);
+                KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
+                whatsNewMessageWidget->animatedShow();
+            }
+        } else {
             KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
-            whatsNewMessageWidget->animatedShow();
         }
     }
 
