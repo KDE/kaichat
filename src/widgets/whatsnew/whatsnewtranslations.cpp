@@ -28,6 +28,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Notification popup when model download done."),
         kli18n("Allow to save and restore text and scrollbar position."),
         kli18n("Allow to save and restore current chat."),
+        kli18n("Add option for showing list of title chats."),
     };
     return info;
 }
