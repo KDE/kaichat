@@ -18,6 +18,7 @@ public:
         QuickAsk,
         SwitchToChat,
         AskMessage,
+        ListChats,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

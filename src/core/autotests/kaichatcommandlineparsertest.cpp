@@ -22,6 +22,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk), u"quick-ask"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat), u"switch-to-chat"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage), u"ask-message"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats), u"list-chats"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"

@@ -93,6 +93,11 @@ int main(int argc, char *argv[])
         return 0;
     }
 
+    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats))) {
+        // TODO
+        return 0;
+    }
+
     if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
         KAIChatUtils::createQuickAsk();
         return 0;
