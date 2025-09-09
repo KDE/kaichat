@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-04 00:45+0000\n"
+"POT-Creation-Date: 2025-09-09 01:05+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,35 +27,40 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com"
 
-#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "AI Chat"
 msgstr ""
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Maintainer"
 msgstr "维护人员"
 
-#: apps/main.cpp:87
+#: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
+msgstr ""
+
+#: apps/main.cpp:100
+#, kde-format
+msgid "List of Chats:"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
@@ -92,6 +97,12 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:31
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
@@ -421,32 +432,36 @@ msgstr ""
 msgid "Allow to save and restore current chat."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "添加“新增功能”支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "添加实例支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "添加 Markdown 支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "修复了允许删除聊天的问题。Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr ""

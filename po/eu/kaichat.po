@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-04 00:45+0000\n"
+"POT-Creation-Date: 2025-09-09 01:05+0000\n"
 "PO-Revision-Date: 2025-09-04 21:25+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -30,36 +30,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "xalba@ni.eus"
 
-#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "AI Chat"
 msgstr "AA berriketa"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantentzailea"
 
-#: apps/main.cpp:87
+#: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Ondoko instantziak erabilgarri daude:"
+
+#: apps/main.cpp:100
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgid "List of Chats:"
+msgstr "Aldatu berriketara"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -96,6 +103,14 @@ msgstr "Aldatu berriketara"
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Galdera mezua"
+
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Itzuli instantzia-zerrendak"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -440,32 +455,36 @@ msgstr ""
 msgid "Allow to save and restore current chat."
 msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "Zer berri-ren euskarria gehitzu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "Instantzien euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown-en euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Nabarmentzeko euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows-en ikonoa konpontzea."

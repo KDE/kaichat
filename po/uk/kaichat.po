@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-04 00:45+0000\n"
+"POT-Creation-Date: 2025-09-09 01:05+0000\n"
 "PO-Revision-Date: 2025-09-04 08:18+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -28,36 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "AI Chat"
 msgstr "Спілкування з ШІ"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© Laurent Montel <montel@kde.org>, 2025"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: apps/main.cpp:87
+#: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Доступні такі екземпляри:"
+
+#: apps/main.cpp:100
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgid "List of Chats:"
+msgstr "Перемкнутися на спілкування"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -94,6 +101,14 @@ msgstr "Перемкнутися на спілкування"
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Повідомлення запиту"
+
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Повернути списки екземплярів"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -429,32 +444,36 @@ msgstr ""
 msgid "Allow to save and restore current chat."
 msgstr "Дозволити збереження і відновлення поточного спілкування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "Додано підтримку показу новин щодо програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "Додано підтримку екземплярів програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Додано підтримку Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Додано підтримку підсвічування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Виправлено піктограму у Windows"

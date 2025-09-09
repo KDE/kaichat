@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-04 00:45+0000\n"
+"POT-Creation-Date: 2025-09-09 01:05+0000\n"
 "PO-Revision-Date: 2025-09-04 07:00+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -28,36 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "AI Chat"
 msgstr "AI Chat"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Maintainer"
 msgstr "Vzdrževalec"
 
-#: apps/main.cpp:87
+#: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Na voljo so naslednji pojavki:"
+
+#: apps/main.cpp:100
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgid "List of Chats:"
+msgstr "Preklopi na klepet"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -94,6 +101,14 @@ msgstr "Preklopi na klepet"
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Vprašaj sporočilo"
+
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Vrni sezname pojavkov"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -430,32 +445,36 @@ msgstr "Dovoli shranjevanje in obnovo besedila in položaja drsnika."
 msgid "Allow to save and restore current chat."
 msgstr "Dovoli shranjevanje in obnovo trenutnega klepeta."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "Dodaj podporo kaj je novega."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "Dodaj podporo pojavka."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Dodaj podporo za Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Dodaj podporo za osvetljevanje."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Fiksiraj ikono na oknih."

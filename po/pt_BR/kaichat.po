@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-04 00:45+0000\n"
+"POT-Creation-Date: 2025-09-09 01:05+0000\n"
 "PO-Revision-Date: 2025-09-04 05:08-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -27,36 +27,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "marcus.gama@gmail.com"
 
-#: apps/main.cpp:63 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:65
+#: apps/main.cpp:66
 #, kde-format
 msgid "AI Chat"
 msgstr "Chat de IA"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:68
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenedor"
 
-#: apps/main.cpp:87
+#: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
 msgstr "As seguintes instâncias estão disponíveis:"
+
+#: apps/main.cpp:100
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgid "List of Chats:"
+msgstr "Mudar para o bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -93,6 +100,14 @@ msgstr "Mudar para o bate-papo"
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Pedir mensagem"
+
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of instances"
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Retornar listas de instâncias"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -431,32 +446,36 @@ msgstr "Permite salvar e restaurar texto e posição da barra de rolagem."
 msgid "Allow to save and restore current chat."
 msgstr "Permite salvar e restaurar o bate-papo atual."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "Adiciona suporte a 'O que há de novo'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "Adiciona suporte à instância."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Adiciona suporte ao Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Adiciona suporte ao realce."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corrige permissão para excluir bate-papo. Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:59
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Correção do ícone no Windows."
