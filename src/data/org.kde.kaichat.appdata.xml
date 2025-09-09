@@ -31,7 +31,6 @@
   <name xml:lang="sv">KAIChat</name>
   <name xml:lang="tr">KAIChat</name>
   <name xml:lang="uk">KAIChat</name>
-  <name xml:lang="x-test">xxKAIChatxx</name>
   <name xml:lang="zh-CN">KAIChat</name>
   <name xml:lang="zh-TW">KAIChat</name>
   <summary>AI Chat</summary>
@@ -54,7 +53,6 @@
   <summary xml:lang="sv">AI-chatt</summary>
   <summary xml:lang="tr">Yapay Zekâ Sohbeti</summary>
   <summary xml:lang="uk">Спілкування з ШІ</summary>
-  <summary xml:lang="x-test">xxAI Chatxx</summary>
   <summary xml:lang="zh-CN">AI 对话</summary>
   <summary xml:lang="zh-TW">AI 聊天</summary>
   <description>
@@ -80,7 +78,6 @@
     <p xml:lang="sv">KAIChat är en AI-chatt.</p>
     <p xml:lang="tr">KAIChat, bir yapay zekâ ile sohbet istemcisidir.</p>
     <p xml:lang="uk">KAIChat — програма для спілкування зі штучним інтелектом.</p>
-    <p xml:lang="x-test">xxKAIChat is an AI Chat.xx</p>
     <p xml:lang="zh-CN">KAIChat 是一个 AI 对话工具。</p>
     <p xml:lang="zh-TW">KAIChat 是一個 AI 聊天應用程式。</p>
   </description>
