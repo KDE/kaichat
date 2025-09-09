@@ -15,7 +15,6 @@
         "Description[sv]": "Insticksprogrammet låter dig fråga på webben.",
         "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
         "Description[uk]": "За допомогою цього додатка ви можете надсилати пошукові записи до інтернету.",
-        "Description[x-test]": "xxThis plugin allows you asking on web.xx",
         "Description[zh_CN]": "此插件允许您在网页上提问。",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
@@ -33,7 +32,6 @@
         "Name[sv]": "Webbgenvägar",
         "Name[tr]": "Web Kısayolu",
         "Name[uk]": "Вебскорочення",
-        "Name[x-test]": "xxWeb Shortcutxx",
         "Name[zh_CN]": "网页快捷方式",
         "Version": "1.0"
     }
