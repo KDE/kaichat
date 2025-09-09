@@ -22,7 +22,7 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListInstances), i18nc("@info:shell", "Return lists of instances")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Instance),
                                          i18nc("@info:shell", "Start with specific instance"),
-                                         u"instancename"_s));
+                                         u"Instance Name"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::NewChat), i18nc("@info:shell", "Create new chat"), u"New Chat"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::QuickAsk), i18nc("@info:shell", "Open Quick Ask")));
     parser->addOption(
