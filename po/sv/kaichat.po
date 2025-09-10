@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-08 18:14+0200\n"
+"PO-Revision-Date: 2025-09-09 15:55+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -59,11 +59,9 @@ msgid "The following instances are available:"
 msgstr "Följande instanser är tillgängliga:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Byt till chatt"
+msgstr "Chattlista:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -102,12 +100,10 @@ msgid "Ask Message"
 msgstr "Fråga efter meddelande"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Returnera lista över instanser"
+msgstr "Returnera chattlista"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -445,7 +441,7 @@ msgstr "Tillåt att spara och återställa aktuell chatt."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Lägg till alternativ för att visa lista över chattitlar."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

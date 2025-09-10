@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 07:00+0200\n"
+"PO-Revision-Date: 2025-09-09 07:43+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -60,11 +60,9 @@ msgid "The following instances are available:"
 msgstr "Na voljo so naslednji pojavki:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Preklopi na klepet"
+msgstr "Seznam klepetov:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -103,12 +101,10 @@ msgid "Ask Message"
 msgstr "Vprašaj sporočilo"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Vrni sezname pojavkov"
+msgstr "Vrni sezname klepetov"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -447,7 +443,7 @@ msgstr "Dovoli shranjevanje in obnovo trenutnega klepeta."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Dodaj možnost za prikaz seznama naslovov klepetov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

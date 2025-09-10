@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 09:57+0200\n"
+"PO-Revision-Date: 2025-09-09 09:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 25.08.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -61,11 +61,9 @@ msgid "The following instances are available:"
 msgstr "Hi ha disponibles les instàncies següents:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Canvia a xat"
+msgstr "Llista de xats:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -104,12 +102,10 @@ msgid "Ask Message"
 msgstr "Pregunta un missatge"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Retorna la llista d'instàncies"
+msgstr "Retorna la llista de xats"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -454,7 +450,7 @@ msgstr "Permet desar i restaurar el xat actual."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Afegeix una opció per a mostrar la llista dels títols dels xats."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 16:57+0200\n"
+"PO-Revision-Date: 2025-09-09 09:40+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -59,11 +59,9 @@ msgid "The following instances are available:"
 msgstr "De volgende exemplaren zijn beschikbaar:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Omschakelen naar Chat"
+msgstr "Lijst met chats:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -102,12 +100,10 @@ msgid "Ask Message"
 msgstr "Vraagbericht"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Lijsten met exemplaren teruggeven"
+msgstr "Lijsten met chats teruggeven"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -448,7 +444,7 @@ msgstr "Sta het opslaan en herstellen van huidige chat toe."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Optie toevoegen voor het tonen van de lijst met titels van chats."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

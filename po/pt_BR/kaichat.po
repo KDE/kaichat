@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 05:08-0300\n"
+"PO-Revision-Date: 2025-09-09 08:23-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -59,11 +59,9 @@ msgid "The following instances are available:"
 msgstr "As seguintes instâncias estão disponíveis:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Mudar para o bate-papo"
+msgstr "Lista de bate-papos:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -102,12 +100,10 @@ msgid "Ask Message"
 msgstr "Pedir mensagem"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Retornar listas de instâncias"
+msgstr "Retorna listas de bate-papos"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -448,7 +444,7 @@ msgstr "Permite salvar e restaurar o bate-papo atual."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Adicionar opção para mostrar lista de títulos de bate-papos."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

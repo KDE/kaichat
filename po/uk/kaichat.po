@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 08:18+0300\n"
+"PO-Revision-Date: 2025-09-09 15:22+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -60,11 +60,9 @@ msgid "The following instances are available:"
 msgstr "Доступні такі екземпляри:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Перемкнутися на спілкування"
+msgstr "Список спілкувань:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -103,12 +101,10 @@ msgid "Ask Message"
 msgstr "Повідомлення запиту"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Повернути списки екземплярів"
+msgstr "Повернути списки спілкувань"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -446,7 +442,7 @@ msgstr "Дозволити збереження і відновлення пот
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Додано пункт для показу списку спілкувань із заголовками."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

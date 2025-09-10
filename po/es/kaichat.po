@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 18:35+0100\n"
+"PO-Revision-Date: 2025-09-09 22:16+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -61,11 +61,9 @@ msgid "The following instances are available:"
 msgstr "Las siguientes instancias están disponibles:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Cambiar a conversación"
+msgstr "Lista de conversaciones:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -104,12 +102,10 @@ msgid "Ask Message"
 msgstr "Mensaje de la pregunta"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Devolver listas de instancias"
+msgstr "Devolver listas de conversaciones"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -453,7 +449,7 @@ msgstr "Permitir guardar y restaurar la conversación actual."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Añadir opción para mostrar la lista de títulos de conversaciones."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

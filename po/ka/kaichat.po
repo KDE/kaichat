@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 06:44+0200\n"
+"PO-Revision-Date: 2025-09-09 04:46+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -60,11 +60,9 @@ msgid "The following instances are available:"
 msgstr "ხელმისაწვდომია შემდეგი გაშვებული ასლები:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "ჩატიზე გადართვა"
+msgstr "ჩატების სია:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -94,7 +92,7 @@ msgstr "სწრაფი კითხვის გახსნა"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "ჩატიზე გადართვა"
+msgstr "ჩატზე გადართვა"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
@@ -103,12 +101,10 @@ msgid "Ask Message"
 msgstr "შეტყობინების კითხვა"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "აბრუნებს გაშვებული ასლების სიას"
+msgstr "აბრუნებს ჩატების სიას"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -447,7 +443,7 @@ msgstr "მიმდინარე ჩატის შენახვის დ
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

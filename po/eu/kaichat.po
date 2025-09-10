@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 21:25+0200\n"
+"PO-Revision-Date: 2025-09-09 23:46+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -62,11 +62,9 @@ msgid "The following instances are available:"
 msgstr "Ondoko instantziak erabilgarri daude:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Aldatu berriketara"
+msgstr "Berriketa-zerrenda:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -105,12 +103,10 @@ msgid "Ask Message"
 msgstr "Galdera mezua"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Itzuli instantzia-zerrendak"
+msgstr "Itzuli berriketa-zerrendak"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -457,7 +453,7 @@ msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Izenburudun berriketak erakusteko aukera gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
