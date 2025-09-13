@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-04 15:06+0300\n"
+"PO-Revision-Date: 2025-09-12 10:10+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -59,11 +59,9 @@ msgid "The following instances are available:"
 msgstr "Aşağıdaki örnekler kullanılabilir:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Sohbete geç"
+msgstr "Sohbet listeleri:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -102,12 +100,10 @@ msgid "Ask Message"
 msgstr "Soru sor"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Örneklerin listesini döndür"
+msgstr "Sohbetlerin listesini döndür"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -443,7 +439,7 @@ msgstr "Geçerli sohbeti kaydetmeye ve geri yüklemeye izin ver"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Sohbet başlıkları listesini gösterme seçeneği ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format

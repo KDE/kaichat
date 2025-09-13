@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-09 01:05+0000\n"
-"PO-Revision-Date: 2025-09-01 08:28+0200\n"
+"PO-Revision-Date: 2025-09-10 12:15+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -56,11 +56,9 @@ msgid "The following instances are available:"
 msgstr "Les instances suivantes sont disponibles :"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "Basculer en mode de discussions"
+msgstr "Liste des salons de discussions :"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -99,12 +97,10 @@ msgid "Ask Message"
 msgstr "Demander un message"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Retourner les listes des instances"
+msgstr "Retourner les listes des salons de discussions"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -444,14 +440,18 @@ msgstr ""
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
+"Permet d'enregistrer et de restaurer le texte et la position de la barre de "
+"défilement."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 msgid "Allow to save and restore current chat."
-msgstr ""
+msgstr "Permet d'enregistrer et de restaurer la discussion courante."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
 msgstr ""
+"Ajouter une option pour l'affichage de la liste des salons de discussions "
+"avec titre."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:42
 #, kde-format
