@@ -29,6 +29,7 @@ QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
         kli18n("Allow to save and restore text and scrollbar position."),
         kli18n("Allow to save and restore current chat."),
         kli18n("Add option for showing list of title chats."),
+        kli18n("Add tools support."),
     };
     return info;
 }
