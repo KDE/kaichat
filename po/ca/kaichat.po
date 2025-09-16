@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-09 01:05+0000\n"
+"POT-Creation-Date: 2025-09-16 00:44+0000\n"
 "PO-Revision-Date: 2025-09-09 09:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -452,32 +452,38 @@ msgstr "Permet desar i restaurar el xat actual."
 msgid "Add option for showing list of title chats."
 msgstr "Afegeix una opció per a mostrar la llista dels títols dels xats."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#, fuzzy
+#| msgid "Add Mardown support."
+msgid "Add tools support."
+msgstr "Afegeix la implementació del Markdown."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add what's new support."
 msgstr "Afegeix la implementació de Què hi ha de nou."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add instance support."
 msgstr "Afegeix la implementació d'instàncies."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Afegeix la implementació del Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Afegeix la implementació del ressaltat."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corregeix permetre la supressió de xat. Error %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:60
+#: widgets/whatsnew/whatsnewtranslations.cpp:61
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregeix una icona al Windows."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-09 01:05+0000\n"
+"POT-Creation-Date: 2025-09-16 00:44+0000\n"
 "PO-Revision-Date: 2025-09-09 22:16+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -451,32 +451,38 @@ msgstr "Permitir guardar y restaurar la conversación actual."
 msgid "Add option for showing list of title chats."
 msgstr "Añadir opción para mostrar la lista de títulos de conversaciones."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#, fuzzy
+#| msgid "Add Mardown support."
+msgid "Add tools support."
+msgstr "Se ha añadido compatibilidad con Markdown."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add what's new support."
 msgstr "Se ha añadido la implementación de novedades."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add instance support."
 msgstr "Se ha añadido la implementación de instancias."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Se ha añadido compatibilidad con Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Se ha añadido la implementación de resaltado."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Se ha corregido la posibilidad de borrar la conversación. Fallo %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:60
+#: widgets/whatsnew/whatsnewtranslations.cpp:61
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregir icono de Windows."

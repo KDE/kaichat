@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-09 01:05+0000\n"
+"POT-Creation-Date: 2025-09-16 00:44+0000\n"
 "PO-Revision-Date: 2025-09-04 10:39+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -440,32 +440,38 @@ msgstr ""
 msgid "Add option for showing list of title chats."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#, fuzzy
+#| msgid "Add Mardown support."
+msgid "Add tools support."
+msgstr "Lisää Markdown-tuki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add what's new support."
 msgstr "Lisää mitä uutta -tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add instance support."
 msgstr "Lisää ilmentymätuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Lisää Markdown-tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Lisää korostustuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:60
+#: widgets/whatsnew/whatsnewtranslations.cpp:61
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Korjaa ikkunoiden kuvake."
