@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-16 00:44+0000\n"
-"PO-Revision-Date: 2025-09-09 23:46+0200\n"
+"PO-Revision-Date: 2025-09-16 23:22+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -456,10 +456,8 @@ msgid "Add option for showing list of title chats."
 msgstr "Izenburudun berriketak erakusteko aukera gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Markdown-en euskarria gehitu."
+msgstr "Tresnen euskarria gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format

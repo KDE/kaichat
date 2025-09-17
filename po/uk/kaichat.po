@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-16 00:44+0000\n"
-"PO-Revision-Date: 2025-09-09 15:22+0300\n"
+"PO-Revision-Date: 2025-09-16 10:27+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -445,10 +445,8 @@ msgid "Add option for showing list of title chats."
 msgstr "Додано пункт для показу списку спілкувань із заголовками."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Додано підтримку Markdown."
+msgstr "Додано підтримку інструментів."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
