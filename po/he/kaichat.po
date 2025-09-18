@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-16 00:44+0000\n"
-"PO-Revision-Date: 2025-09-04 09:44+0300\n"
+"PO-Revision-Date: 2025-09-17 11:36+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -60,11 +60,9 @@ msgid "The following instances are available:"
 msgstr "המופעים הבאים זמינים:"
 
 #: apps/main.cpp:100
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgid "List of Chats:"
-msgstr "העברה לשיחה"
+msgstr "רשימת שיחות:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -103,12 +101,10 @@ msgid "Ask Message"
 msgstr "לשאול שאלה"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of instances"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "החזרת רשימות מופעים"
+msgstr "חזרה לרשימת השיחות"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -441,13 +437,11 @@ msgstr "נוספה אפשרות לשמור ולשחזר את השיחה הנוכ
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "נוספה אפשרות להצגת רשימת כותרות של שיחות."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "הוספת תמיכה ב־Markdown."
+msgstr "נוספה תמיכה בכלים."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:43
 #, kde-format
