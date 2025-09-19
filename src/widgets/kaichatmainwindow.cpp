@@ -320,6 +320,13 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
             mManager->switchToChat(chatName);
         }
     }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChatFromId))) {
+        const QString chatIdentifier =
+            parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChatFromId));
+        if (!chatIdentifier.isEmpty()) {
+            mManager->switchToChat(chatIdentifier); // TODO use new API
+        }
+    }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
         qDebug() << " INSTANCE ***************";
         // TODO
