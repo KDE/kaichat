@@ -324,7 +324,7 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString chatIdentifier =
             parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChatFromId));
         if (!chatIdentifier.isEmpty()) {
-            mManager->switchToChat(chatIdentifier); // TODO use new API
+            mManager->switchToChatId(chatIdentifier.toLatin1());
         }
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
