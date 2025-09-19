@@ -17,6 +17,7 @@ public:
         NewChat,
         QuickAsk,
         SwitchToChat,
+        SwitchToChatFromId,
         AskMessage,
         ListChats,
     };
