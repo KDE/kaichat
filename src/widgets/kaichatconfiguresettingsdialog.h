@@ -7,7 +7,6 @@
 #pragma once
 #include "libkaichatwidgets_private_export.h"
 #include <KPageDialog>
-#include <QObject>
 class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
 class KAIChatConfigureFontWidget;

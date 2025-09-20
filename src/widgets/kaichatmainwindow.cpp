@@ -24,7 +24,6 @@
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>
 
 #include <KActionCollection>
-#include <KActionMenu>
 #include <KColorSchemeManager>
 #include <KColorSchemeMenu>
 #include <KConfigGroup>
