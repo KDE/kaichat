@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-16 00:44+0000\n"
-"PO-Revision-Date: 2025-09-10 12:15+0200\n"
+"POT-Creation-Date: 2025-09-20 00:45+0000\n"
+"PO-Revision-Date: 2025-09-17 08:43+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -90,13 +90,21 @@ msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Basculer en mode de discussions"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Basculer en mode de discussions"
+
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Demander un message"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
@@ -274,12 +282,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporter les salons"
 
-#: widgets/kaichatmainwindow.cpp:340
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model Download Done"
 msgstr "Téléchargement du modèle terminé"
 
-#: widgets/kaichatmainwindow.cpp:341
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Le modèle %1 a été téléchargé."
@@ -454,37 +462,41 @@ msgstr ""
 "avec titre."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Ajouter la prise en charge du format « Markdown »."
+msgstr "Ajouter la prise en charge des outils."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, fuzzy
+#| msgid "Allow to change font size."
+msgid "Allow to switch from chat identifier."
+msgstr "Autoriser le changement de taille de police."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add instance support."
 msgstr "Ajouter la prise en charge d'instances."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ajouter la prise en charge du format « Markdown »."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ajouter la prise en charge de la surbrillance"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Correction de l'autorisation de supprimer un salon. Bogue %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:61
+#: widgets/whatsnew/whatsnewtranslations.cpp:62
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Correction de l'icône sur les fenêtres."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-16 00:44+0000\n"
+"POT-Creation-Date: 2025-09-20 00:45+0000\n"
 "PO-Revision-Date: 2025-09-16 09:27-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -93,13 +93,21 @@ msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Mudar para o bate-papo"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Mudar para o bate-papo"
+
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Pedir mensagem"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
@@ -276,12 +284,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar bate-papo"
 
-#: widgets/kaichatmainwindow.cpp:340
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model Download Done"
 msgstr "Download do modelo concluído"
 
-#: widgets/kaichatmainwindow.cpp:341
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgid "Model %1 was download."
 msgstr "O modelo %1 foi baixado."
@@ -450,32 +458,38 @@ msgstr "Adicionar opção para mostrar lista de títulos de bate-papos."
 msgid "Add tools support."
 msgstr "Adiciona suporte à ferramentas."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, fuzzy
+#| msgid "Allow to change font size."
+msgid "Allow to switch from chat identifier."
+msgstr "Permite alterar o tamanho da fonte."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add what's new support."
 msgstr "Adiciona suporte a 'O que há de novo'."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add instance support."
 msgstr "Adiciona suporte à instância."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Adiciona suporte ao Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Adiciona suporte ao realce."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corrige permissão para excluir bate-papo. Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:61
+#: widgets/whatsnew/whatsnewtranslations.cpp:62
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Correção do ícone no Windows."

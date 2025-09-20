@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-16 00:44+0000\n"
+"POT-Creation-Date: 2025-09-20 00:45+0000\n"
 "PO-Revision-Date: 2025-09-16 10:27+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -94,13 +94,21 @@ msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Перемкнутися на спілкування"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Перемкнутися на спілкування"
+
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Повідомлення запиту"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
@@ -276,12 +284,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:340
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:341
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Модель %1 отримано."
@@ -448,32 +456,38 @@ msgstr "Додано пункт для показу списку спілкув�
 msgid "Add tools support."
 msgstr "Додано підтримку інструментів."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, fuzzy
+#| msgid "Allow to change font size."
+msgid "Allow to switch from chat identifier."
+msgstr "Уможливлено зміну розміру шрифту."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add what's new support."
 msgstr "Додано підтримку показу новин щодо програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add instance support."
 msgstr "Додано підтримку екземплярів програми."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Додано підтримку Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Додано підтримку підсвічування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:61
+#: widgets/whatsnew/whatsnewtranslations.cpp:62
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Виправлено піктограму у Windows"
