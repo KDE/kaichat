@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 00:45+0000\n"
-"PO-Revision-Date: 2025-09-16 10:27+0300\n"
+"POT-Creation-Date: 2025-09-21 00:45+0000\n"
+"PO-Revision-Date: 2025-09-20 15:23+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -95,12 +95,10 @@ msgid "Switch to Chat"
 msgstr "Перемкнутися на спілкування"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Перемкнутися на спілкування"
+msgstr "Перемкнутися на спілкування з ідентифікатора"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -247,23 +245,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:123
+#: widgets/kaichatmainwindow.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:165
+#: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Відкрити швидке питання..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:251
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -272,24 +270,24 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:289
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Модель %1 отримано."
@@ -365,7 +363,7 @@ msgstr ""
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr "Не знайдено нової версії. Зібране можна знайти <a href=\"%1\">тут</a>."
 
-#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
 msgstr "Виконати пошук нової версії"
@@ -457,10 +455,8 @@ msgid "Add tools support."
 msgstr "Додано підтримку інструментів."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Уможливлено зміну розміру шрифту."
+msgstr "Уможливлено перемикання з ідентифікатора спілкування."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 00:45+0000\n"
+"POT-Creation-Date: 2025-09-21 00:45+0000\n"
 "PO-Revision-Date: 2025-07-28 17:44+0200\n"
 "Last-Translator: oneway <onewayme001@posteo.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -249,23 +249,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Als Text exportieren …"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgid "What's new"
 msgstr "Neuigkeiten"
 
-#: widgets/kaichatmainwindow.cpp:123
+#: widgets/kaichatmainwindow.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archiv anzeigen"
 
-#: widgets/kaichatmainwindow.cpp:165
+#: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:251
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -274,24 +274,24 @@ msgstr ""
 "<qt>Dies blendet die Menüleiste komplett aus. Sie können sie durch Drücken "
 "von %1 wieder einblenden.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menüleiste ausblenden"
 
-#: widgets/kaichatmainwindow.cpp:289
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Unterhaltungen exportieren"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model %1 was download."
 msgstr ""
@@ -365,7 +365,7 @@ msgstr ""
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
 
-#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
 msgstr ""

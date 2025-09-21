@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 00:45+0000\n"
-"PO-Revision-Date: 2025-09-17 16:58+0200\n"
+"POT-Creation-Date: 2025-09-21 00:45+0000\n"
+"PO-Revision-Date: 2025-09-20 09:57+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -94,12 +94,10 @@ msgid "Switch to Chat"
 msgstr "Byt till chatt"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Byt till chatt"
+msgstr "Byt till chatt från identifierare"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -246,23 +244,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportera som text…"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgid "What's new"
 msgstr "Vad är nytt"
 
-#: widgets/kaichatmainwindow.cpp:123
+#: widgets/kaichatmainwindow.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Visa arkiv"
 
-#: widgets/kaichatmainwindow.cpp:165
+#: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Öppna snabbfråga..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:251
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -271,24 +269,24 @@ msgstr ""
 "<qt>Det här döljer menyraden fullständigt. Du kan visa den igen genom att "
 "skriva %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Dölj menyrad"
 
-#: widgets/kaichatmainwindow.cpp:289
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportera chatter"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgid "Model Download Done"
 msgstr "Modellnerladdning klar"
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Model %1 har laddats ner."
@@ -365,7 +363,7 @@ msgstr ""
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr "Ingen ny version hittades. Bygge finns <a href=\"%1\">här</a>."
 
-#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
 msgstr "Kontrollera ny version"
@@ -456,10 +454,8 @@ msgid "Add tools support."
 msgstr "Lägg till verktygsstöd."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Tillåt att ändra teckenstorlek."
+msgstr "Tillåt att byta från chattidentifierare."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format

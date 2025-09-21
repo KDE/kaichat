@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 00:45+0000\n"
-"PO-Revision-Date: 2025-09-16 14:54+0100\n"
+"POT-Creation-Date: 2025-09-21 00:45+0000\n"
+"PO-Revision-Date: 2025-09-20 15:09+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -96,12 +96,10 @@ msgid "Switch to Chat"
 msgstr "Cambiar a conversación"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Cambiar a conversación"
+msgstr "Cambiar a la conversación del identificador"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -249,23 +247,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportar como texto…"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgid "What's new"
 msgstr "Novedades"
 
-#: widgets/kaichatmainwindow.cpp:123
+#: widgets/kaichatmainwindow.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:165
+#: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Abrir pregunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:251
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -274,24 +272,24 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar la barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:289
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar conversaciones"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgid "Model Download Done"
 msgstr "Descarga de modelo terminada"
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Se ha descargado el modelo %1."
@@ -370,7 +368,7 @@ msgstr ""
 "No hay ninguna versión nueva. Puede encontrar la compilación <a href="
 "\"%1\">aquí</a>."
 
-#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
 msgstr "Comprobar nueva versión"
@@ -464,10 +462,8 @@ msgid "Add tools support."
 msgstr "Añadir uso de herramientas."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Permitir el cambio del tamaño del texto."
+msgstr "Permitir cambiar a identificador de conversación."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format

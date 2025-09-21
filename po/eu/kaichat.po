@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-20 00:45+0000\n"
-"PO-Revision-Date: 2025-09-16 23:22+0200\n"
+"POT-Creation-Date: 2025-09-21 00:45+0000\n"
+"PO-Revision-Date: 2025-09-21 02:26+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -97,12 +97,10 @@ msgid "Switch to Chat"
 msgstr "Aldatu berriketara"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Aldatu berriketara"
+msgstr "Aldatu berriketara identifikatzailetik"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -249,23 +247,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Esportatu testu gisa…"
 
-#: widgets/kaichatmainwindow.cpp:119
+#: widgets/kaichatmainwindow.cpp:118
 #, kde-format
 msgid "What's new"
 msgstr "Zer berri"
 
-#: widgets/kaichatmainwindow.cpp:123
+#: widgets/kaichatmainwindow.cpp:122
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Erakutsi artxiboa"
 
-#: widgets/kaichatmainwindow.cpp:165
+#: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Ireki Galdera azkarra..."
 
-#: widgets/kaichatmainwindow.cpp:252
+#: widgets/kaichatmainwindow.cpp:251
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -274,24 +272,24 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:255
+#: widgets/kaichatmainwindow.cpp:254
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
-#: widgets/kaichatmainwindow.cpp:289
+#: widgets/kaichatmainwindow.cpp:288
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esportatu berriketak"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgid "Model Download Done"
 msgstr "Eredua zama-jaistea burutu da"
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgid "Model %1 was download."
 msgstr "%1 eredua zama-jaitsi da."
@@ -373,7 +371,7 @@ msgstr ""
 "Ez da bertsio berririk aurkitu. Eraikina <a href=\"%1\">hemen</a> aurki "
 "daiteke."
 
-#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:31
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
 msgstr "Egiaztatu bertsio berririk dagoen"
@@ -468,10 +466,8 @@ msgid "Add tools support."
 msgstr "Tresnen euskarria gehitu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Letra-tipoa aldatzea baimendu."
+msgstr "Berriketa identifikatzailetik aldatzea baimendu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
