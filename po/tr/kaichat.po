@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-21 00:45+0000\n"
-"PO-Revision-Date: 2025-09-16 17:37+0300\n"
+"PO-Revision-Date: 2025-09-21 19:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -94,12 +94,10 @@ msgid "Switch to Chat"
 msgstr "Sohbete geç"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Sohbete geç"
+msgstr "Tanımlayıcı ile sohbete geç"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -454,10 +452,8 @@ msgid "Add tools support."
 msgstr "Araçlar desteği ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Yazıtipini puntosunu değiştirmeye izin ver"
+msgstr "Sohbet tanımlayıcısından geçiş yapmaya olanak tanı"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
