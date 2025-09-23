@@ -168,6 +168,10 @@ file(
     src/apps/*.cpp
     src/widgets/*.cpp
     src/widgets/*.h
+    src/core/*.cpp
+    src/core/*.h
+    src/plugins/*.h
+    src/plugins/*.cpp
 )
 ecm_check_outbound_license(LICENSES GPL-2.0-only  FILES ${ALL_SOURCE_FILES})
 
