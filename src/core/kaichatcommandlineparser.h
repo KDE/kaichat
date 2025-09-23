@@ -27,5 +27,5 @@ public:
     [[nodiscard]] static QString optionParserFromEnum(OptionParser e);
 
 private:
-    void initializeCommandLine(QCommandLineParser *parser);
+    LIBKAICHATCORE_NO_EXPORT void initializeCommandLine(QCommandLineParser *parser);
 };
