@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
-set(KAICHAT_VERSION "0.4.44")
+set(KAICHAT_VERSION "0.4.45")
 project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
@@ -77,7 +77,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.7.80")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.7.81")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 find_package(
