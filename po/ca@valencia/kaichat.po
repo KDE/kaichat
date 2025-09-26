@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-09-21 00:45+0000\n"
-"PO-Revision-Date: 2025-09-09 09:26+0200\n"
+"PO-Revision-Date: 2025-09-20 12:35+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -96,12 +96,10 @@ msgid "Switch to Chat"
 msgstr "Canvia a xat"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Canvia a xat"
+msgstr "Canvia a un xat a partir de l'identificador"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -460,16 +458,12 @@ msgid "Add option for showing list of title chats."
 msgstr "Afig una opció per a mostrar la llista dels títols dels xats."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Afig la implementació de Markdown."
+msgstr "Afig la implementació d'eines."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
-msgstr "Permet canviar la mida de la lletra."
+msgstr "Permet canviar a partir d'un identificador de xat."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:44
 #, kde-format
