@@ -1,0 +1,8 @@
+{
+    "KPlugin": {
+        "Description": "This tool plugin allows to get current date time.",
+        "EnabledByDefault": true,
+        "Name": "Current Date Time",
+        "Version": "1.0"
+    }
+}
