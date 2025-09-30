@@ -21,6 +21,7 @@ CurrentDateTimeToolPlugin::CurrentDateTimeToolPlugin(QObject *parent, const QVar
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The Current Date Time"));
         prop.setName(u"currentdatetime"_s);
+        prop.setTypeElements({u"date"_s, u"time"_s, u"date and time"_s});
         mProperties.append(prop);
     }
 }
