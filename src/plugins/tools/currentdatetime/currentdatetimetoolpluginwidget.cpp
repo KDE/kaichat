@@ -3,11 +3,11 @@
 
   SPDX-License-Identifier: GPL-2.0-or-later
 */
-#include "exampletexttoolpluginwidget.h"
+#include "currentdatetimetoolpluginwidget.h"
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateToolPluginConfigureWidget>
 using namespace Qt::Literals::StringLiterals;
-ExampleTextToolPluginWidget::ExampleTextToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
+CurrentDateTimeToolPluginWidget::CurrentDateTimeToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
     : QWidget{parent}
     , mConfigureWidget(new TextAutoGenerateText::TextAutoGenerateToolPluginConfigureWidget(plugin, this))
 {
@@ -20,6 +20,6 @@ ExampleTextToolPluginWidget::ExampleTextToolPluginWidget(TextAutoGenerateText::T
     mainLayout->addStretch(1);
 }
 
-ExampleTextToolPluginWidget::~ExampleTextToolPluginWidget() = default;
+CurrentDateTimeToolPluginWidget::~CurrentDateTimeToolPluginWidget() = default;
 
-#include "moc_exampletexttoolpluginwidget.cpp"
+#include "moc_currentdatetimetoolpluginwidget.cpp"

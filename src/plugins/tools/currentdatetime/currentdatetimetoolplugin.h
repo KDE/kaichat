@@ -6,16 +6,15 @@
 
 #pragma once
 
-#include "core/tools/textautogeneratetexttoolplugin.h"
 #include <QVariant>
-class ExampleTextToolPlugin : public TextAutoGenerateText::TextAutoGenerateTextToolPlugin
+#include <TextAutoGenerateText/TextAutoGenerateTextToolPlugin>
+class CurrentDateTimeToolPlugin : public TextAutoGenerateText::TextAutoGenerateTextToolPlugin
 {
     Q_OBJECT
 public:
-    explicit ExampleTextToolPlugin(QObject *parent = nullptr, const QVariantList & = {});
-    ~ExampleTextToolPlugin() override;
+    explicit CurrentDateTimeToolPlugin(QObject *parent = nullptr, const QVariantList & = {});
+    ~CurrentDateTimeToolPlugin() override;
 
-    void executeTool() override;
     [[nodiscard]] QString displayName() const override;
     [[nodiscard]] QString description() const override;
 

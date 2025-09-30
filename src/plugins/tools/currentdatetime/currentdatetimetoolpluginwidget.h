@@ -10,12 +10,12 @@ namespace TextAutoGenerateText
 class TextAutoGenerateToolPluginConfigureWidget;
 class TextAutoGenerateTextToolPlugin;
 }
-class ExampleTextToolPluginWidget : public QWidget
+class CurrentDateTimeToolPluginWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit ExampleTextToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent = nullptr);
-    ~ExampleTextToolPluginWidget() override;
+    explicit CurrentDateTimeToolPluginWidget(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent = nullptr);
+    ~CurrentDateTimeToolPluginWidget() override;
 
 private:
     TextAutoGenerateText::TextAutoGenerateToolPluginConfigureWidget *const mConfigureWidget;

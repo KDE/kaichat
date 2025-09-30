@@ -4,21 +4,21 @@
   SPDX-License-Identifier: GPL-2.0-or-later
 */
 
-#include "exampletexttoolpluginjob.h"
+#include "currentdatetimetoolpluginjob.h"
 #include <QDebug>
 using namespace Qt::Literals::StringLiterals;
-ExampleTextToolPluginJob::ExampleTextToolPluginJob(QObject *parent)
+CurrentDateTimeToolPluginJob::CurrentDateTimeToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
 {
 }
 
-ExampleTextToolPluginJob::~ExampleTextToolPluginJob() = default;
+CurrentDateTimeToolPluginJob::~CurrentDateTimeToolPluginJob() = default;
 
-void ExampleTextToolPluginJob::start()
+void CurrentDateTimeToolPluginJob::start()
 {
-    qDebug() << " void ExampleTextToolPluginJob::start() ";
+    qDebug() << " void CurrentDateTimeToolPluginJob::start() ";
     if (!canStart()) {
-        qWarning() << " Impossible to start ExampleTextToolPluginJob" << *this;
+        qWarning() << " Impossible to start CurrentDateTimeToolPluginJob" << *this;
         deleteLater();
         return;
     }
@@ -27,4 +27,4 @@ void ExampleTextToolPluginJob::start()
     deleteLater();
 }
 
-#include "moc_exampletexttoolpluginjob.cpp"
+#include "moc_currentdatetimetoolpluginjob.cpp"

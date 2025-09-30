@@ -1,0 +1,33 @@
+/*
+  SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
+
+  SPDX-License-Identifier: GPL-2.0-or-later
+*/
+#include "currentdatetimetoolplugindialog.h"
+#include "currentdatetimetoolpluginwidget.h"
+#include <QDialogButtonBox>
+#include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateTextToolPlugin>
+using namespace Qt::Literals::StringLiterals;
+CurrentDateTimeToolPluginDialog::CurrentDateTimeToolPluginDialog(TextAutoGenerateText::TextAutoGenerateTextToolPlugin *plugin, QWidget *parent)
+    : QDialog(parent)
+    , mCurrentDateTimeToolPluginWidget(new CurrentDateTimeToolPluginWidget(plugin, this))
+{
+    // don't translate here.
+    setWindowTitle(plugin ? plugin->displayName() : u"Example Text Tool"_s);
+
+    auto mainLayout = new QVBoxLayout(this);
+    mainLayout->setObjectName(u"mainLayout"_s);
+
+    mCurrentDateTimeToolPluginWidget->setObjectName(u"mExampleTextToolPluginWidget"_s);
+    mainLayout->addWidget(mCurrentDateTimeToolPluginWidget);
+
+    auto button = new QDialogButtonBox(QDialogButtonBox::Close, this);
+    button->setObjectName(u"button"_s);
+    mainLayout->addWidget(button);
+    connect(button, &QDialogButtonBox::rejected, this, &CurrentDateTimeToolPluginDialog::reject);
+}
+
+CurrentDateTimeToolPluginDialog::~CurrentDateTimeToolPluginDialog() = default;
+
+#include "moc_currentdatetimetoolplugindialog.cpp"

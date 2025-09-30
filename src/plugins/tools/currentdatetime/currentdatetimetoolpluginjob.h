@@ -6,12 +6,12 @@
 #pragma once
 #include <QObject>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPluginJob>
-class ExampleTextToolPluginJob : public TextAutoGenerateText::TextAutoGenerateTextToolPluginJob
+class CurrentDateTimeToolPluginJob : public TextAutoGenerateText::TextAutoGenerateTextToolPluginJob
 {
     Q_OBJECT
 public:
-    explicit ExampleTextToolPluginJob(QObject *parent = nullptr);
-    ~ExampleTextToolPluginJob() override;
+    explicit CurrentDateTimeToolPluginJob(QObject *parent = nullptr);
+    ~CurrentDateTimeToolPluginJob() override;
 
     void start() override;
 };
