@@ -17,5 +17,7 @@ target_sources(
         currentdatetimetoolpluginwidget.cpp
         currentdatetimetoolpluginjob.h
         currentdatetimetoolpluginjob.cpp
+        currentdatetimetoolpluginutils.h
+        currentdatetimetoolpluginutils.cpp
 )
 target_link_libraries(textautogeneratetext_currentdatetimeplugin KF6::TextAutoGenerateText)

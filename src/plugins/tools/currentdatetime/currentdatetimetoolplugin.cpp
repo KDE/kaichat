@@ -7,6 +7,7 @@
 #include "currentdatetimetoolplugin.h"
 #include "currentdatetimetoolplugindialog.h"
 #include "currentdatetimetoolpluginjob.h"
+#include "currentdatetimetoolpluginutils.h"
 #include <KLocalizedString>
 #include <KPluginFactory>
 #include <QPointer>
@@ -21,7 +22,9 @@ CurrentDateTimeToolPlugin::CurrentDateTimeToolPlugin(QObject *parent, const QVar
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The Current Date Time"));
         prop.setName(u"currentdatetime"_s);
-        prop.setTypeElements({convertDateTimeEnumToString(Date), convertDateTimeEnumToString(Time), convertDateTimeEnumToString(DateTime)});
+        prop.setTypeElements({CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::Date),
+                              CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::Time),
+                              CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::DateTime)});
         mProperties.append(prop);
     }
 }
@@ -63,20 +66,6 @@ void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
                 });
         job->start();
     }
-}
-
-QString CurrentDateTimeToolPlugin::convertDateTimeEnumToString(DateTimeEnum type) const
-{
-    switch (type) {
-    case Time:
-        return u"time"_s;
-    case Date:
-        return u"date"_s;
-    case DateTime:
-        return u"date and time"_s;
-    }
-    Q_UNREACHABLE();
-    return {};
 }
 
 #include "currentdatetimetoolplugin.moc"

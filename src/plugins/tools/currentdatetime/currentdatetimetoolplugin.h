@@ -12,12 +12,6 @@ class CurrentDateTimeToolPlugin : public TextAutoGenerateText::TextAutoGenerateT
 {
     Q_OBJECT
 public:
-    enum DateTimeEnum : int8_t {
-        Time = 0,
-        Date,
-        DateTime,
-    };
-
     explicit CurrentDateTimeToolPlugin(QObject *parent = nullptr, const QVariantList & = {});
     ~CurrentDateTimeToolPlugin() override;
 
@@ -28,7 +22,4 @@ public:
 
     void
     callTools(const QByteArray &chatId, const QByteArray &uuid, const QList<TextAutoGenerateText::TextAutoGenerateReply::ToolCallArgumentInfo> &info) override;
-
-private:
-    [[nodiscard]] QString convertDateTimeEnumToString(CurrentDateTimeToolPlugin::DateTimeEnum type) const;
 };
