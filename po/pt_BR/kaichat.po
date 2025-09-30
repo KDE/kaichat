@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-21 00:45+0000\n"
+"POT-Creation-Date: 2025-09-30 00:46+0000\n"
 "PO-Revision-Date: 2025-09-20 06:48-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -155,6 +155,10 @@ msgstr "O arquivo foi compartilhado."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
 "<qt>Você pode encontrar a nova solicitação em:<br /><a href='%1'>%1</a> </qt>"
+
+#: plugins/tools/currentdatetime/exampletexttoolplugin.cpp:21
+msgid "The name of the city"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
