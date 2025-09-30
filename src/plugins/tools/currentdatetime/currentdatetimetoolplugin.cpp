@@ -34,8 +34,7 @@ QString CurrentDateTimeToolPlugin::displayName() const
 
 QString CurrentDateTimeToolPlugin::description() const
 {
-    // Don't translate it
-    return u"Use this tools, only on meteo. Get the current weather for a city"_s;
+    return i18n("Use this tools to get current date time");
 }
 
 void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
