@@ -25,6 +25,7 @@ void CurrentDateTimeToolPluginJob::start()
         deleteLater();
         return;
     }
+    qDebug() << " toolArguments " << toolArguments();
     Q_EMIT finished(i18n("Current Date Time is %1", QLocale().toString(QDateTime::currentDateTime())), mMessageUuid, mChatId, mToolIdentifier);
     deleteLater();
 }
