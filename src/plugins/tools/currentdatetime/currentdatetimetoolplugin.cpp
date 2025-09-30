@@ -16,11 +16,11 @@ using namespace Qt::Literals::StringLiterals;
 CurrentDateTimeToolPlugin::CurrentDateTimeToolPlugin(QObject *parent, const QVariantList &)
     : TextAutoGenerateTextToolPlugin{parent}
 {
-    mToolNameId = "example_tool"_ba;
+    mToolNameId = "current_date_time_tool"_ba;
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
-        prop.setDescription(kli18n("The name of the city"));
-        prop.setName(u"city"_s);
+        prop.setDescription(kli18n("The Current Date Time"));
+        prop.setName(u"currentdatetime"_s);
         mProperties.append(prop);
     }
 }
@@ -40,11 +40,8 @@ QString CurrentDateTimeToolPlugin::description() const
 
 void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
 {
-    QPointer<CurrentDateTimeToolPluginDialog> dlg = new CurrentDateTimeToolPluginDialog(this, parent);
-    if (dlg->exec()) {
-        // Nothing => just display info
-    }
-    delete dlg;
+    auto dlg = CurrentDateTimeToolPluginDialog(this, parent);
+    dlg.exec();
 }
 
 void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
