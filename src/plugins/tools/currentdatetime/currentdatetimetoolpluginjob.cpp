@@ -6,6 +6,9 @@
 
 #include "currentdatetimetoolpluginjob.h"
 #include "kaichat_currentdatetimeplugin_debug.h"
+#include <KLocalizedString>
+#include <QDateTime>
+#include <QLocale>
 
 using namespace Qt::Literals::StringLiterals;
 CurrentDateTimeToolPluginJob::CurrentDateTimeToolPluginJob(QObject *parent)
@@ -17,14 +20,12 @@ CurrentDateTimeToolPluginJob::~CurrentDateTimeToolPluginJob() = default;
 
 void CurrentDateTimeToolPluginJob::start()
 {
-    qDebug() << " void CurrentDateTimeToolPluginJob::start() ";
     if (!canStart()) {
         qCWarning(KAICHAT_CURRENTDATETIME_LOG) << " Impossible to start CurrentDateTimeToolPluginJob" << *this;
         deleteLater();
         return;
     }
-    // TODO Need to implement job
-    Q_EMIT finished(u"Temperature is 35°"_s, mMessageUuid, mChatId, mToolIdentifier);
+    Q_EMIT finished(i18n("Current Date Time is %1", QLocale().toString(QDateTime::currentDateTime())), mMessageUuid, mChatId, mToolIdentifier);
     deleteLater();
 }
 
