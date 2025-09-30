@@ -8,9 +8,11 @@
 namespace CurrentDateTimeToolPluginUtils
 {
 enum DateTimeEnum : int8_t {
-    Time = 0,
+    Unknown = 0,
+    Time,
     Date,
     DateTime,
 };
 [[nodiscard]] QString convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::DateTimeEnum type);
+[[nodiscard]] CurrentDateTimeToolPluginUtils::DateTimeEnum convertStringToDateTimeEnum(const QString &str);
 };

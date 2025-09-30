@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 kcoreaddons_add_plugin(textautogeneratetext_currentdatetimeplugin INSTALL_NAMESPACE autogeneratetext/toolplugins)
+
 ecm_qt_declare_logging_category(textautogeneratetext_currentdatetimeplugin HEADER kaichat_currentdatetimeplugin_debug.h IDENTIFIER KAICHAT_CURRENTDATETIME_LOG
     CATEGORY_NAME org.kde.kaichat_currentdatetimeplugin DESCRIPTION "kaichat (currentdatetimeplugin)" EXPORT KAICHAT
 )

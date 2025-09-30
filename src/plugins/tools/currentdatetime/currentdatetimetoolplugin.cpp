@@ -53,17 +53,7 @@ void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
 {
     for (const auto &i : info) {
         auto job = new CurrentDateTimeToolPluginJob(this);
-        job->setToolArguments(i.toolCallArgument);
-        job->setChatId(chatId);
-        job->setMessageUuid(uuid);
-        job->setToolIdentifier(i.toolName);
-        connect(job,
-                &CurrentDateTimeToolPluginJob::finished,
-                this,
-                [this](const QString &str, const QByteArray &messageUuid, const QByteArray &chatId, const QByteArray &toolIdentifier) {
-                    Q_EMIT finished(str, messageUuid, chatId, toolIdentifier);
-                    // qDebug() << " CurrentDateTimeToolPluginJob::finished: " << str;
-                });
+        initializeJob(job, chatId, uuid, i);
         job->start();
     }
 }
