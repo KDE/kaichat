@@ -5,7 +5,8 @@
 */
 
 #include "currentdatetimetoolpluginjob.h"
-#include <QDebug>
+#include "kaichat_currentdatetimeplugin_debug.h"
+
 using namespace Qt::Literals::StringLiterals;
 CurrentDateTimeToolPluginJob::CurrentDateTimeToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
@@ -18,7 +19,7 @@ void CurrentDateTimeToolPluginJob::start()
 {
     qDebug() << " void CurrentDateTimeToolPluginJob::start() ";
     if (!canStart()) {
-        qWarning() << " Impossible to start CurrentDateTimeToolPluginJob" << *this;
+        qCWarning(KAICHAT_CURRENTDATETIME_LOG) << " Impossible to start CurrentDateTimeToolPluginJob" << *this;
         deleteLater();
         return;
     }

@@ -62,7 +62,7 @@ void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
                 this,
                 [this](const QString &str, const QByteArray &messageUuid, const QByteArray &chatId, const QByteArray &toolIdentifier) {
                     Q_EMIT finished(str, messageUuid, chatId, toolIdentifier);
-                    qDebug() << " CurrentDateTimeToolPluginJob::finished: " << str;
+                    // qDebug() << " CurrentDateTimeToolPluginJob::finished: " << str;
                 });
         job->start();
     }
