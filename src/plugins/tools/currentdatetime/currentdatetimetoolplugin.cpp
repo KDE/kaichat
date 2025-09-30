@@ -52,7 +52,7 @@ void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
                                           const QList<TextAutoGenerateText::TextAutoGenerateReply::ToolCallArgumentInfo> &info)
 {
     for (const auto &i : info) {
-        CurrentDateTimeToolPluginJob *job = new CurrentDateTimeToolPluginJob(this);
+        auto job = new CurrentDateTimeToolPluginJob(this);
         job->setToolArguments(i.toolCallArgument);
         job->setChatId(chatId);
         job->setMessageUuid(uuid);
