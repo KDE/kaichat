@@ -13,13 +13,12 @@ CurrentDateTimeToolPluginDialog::CurrentDateTimeToolPluginDialog(TextAutoGenerat
     : QDialog(parent)
     , mCurrentDateTimeToolPluginWidget(new CurrentDateTimeToolPluginWidget(plugin, this))
 {
-    // don't translate here.
-    setWindowTitle(plugin ? plugin->displayName() : u"Example Text Tool"_s);
+    setWindowTitle(plugin ? plugin->displayName() : i18n("Configure Date Time Tool"));
 
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
 
-    mCurrentDateTimeToolPluginWidget->setObjectName(u"mExampleTextToolPluginWidget"_s);
+    mCurrentDateTimeToolPluginWidget->setObjectName(u"mCurrentDateTimeToolPluginWidget"_s);
     mainLayout->addWidget(mCurrentDateTimeToolPluginWidget);
 
     auto button = new QDialogButtonBox(QDialogButtonBox::Close, this);
