@@ -1,8 +1,26 @@
 {
     "KPlugin": {
         "Description": "This tool plugin allows to get current date time.",
+        "Description[ca@valencia]": "Esta eina permet veure la data i l'hora actuals.",
+        "Description[ca]": "Aquesta eina permet veure la data i l'hora actuals.",
+        "Description[es]": "Este complemento le permite obtener la fecha y la hora actuales.",
+        "Description[ka]": "ეს დამატება მიმდინარე დროისა და თარიღის მიღების საშუალებას გაძლევთ.",
+        "Description[nl]": "Deze hulpmiddel plug-in biedt u het verkrijgen van de datum tijd.",
+        "Description[pt_BR]": "Este plugin permite que você obtenha a data e hora atual.",
+        "Description[sl]": "Ta vtičnik omogoča pridobitev trenutnega datuma in časa.",
+        "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо поточної дати і часу.",
+        "Description[zh_TW]": "這個外掛程式讓您取得目前日期與時間。",
         "EnabledByDefault": true,
         "Name": "Current Date Time",
+        "Name[ca@valencia]": "Data i hora actual",
+        "Name[ca]": "Data i hora actual",
+        "Name[es]": "Fecha y hora actual",
+        "Name[ka]": "მიმდინარე დრო და თარიღი",
+        "Name[nl]": "Huidige datum tijd",
+        "Name[pt_BR]": "Data e hora atual",
+        "Name[sl]": "Trenutni datum in čas",
+        "Name[uk]": "Поточна дата і час",
+        "Name[zh_TW]": "目前日期與時間",
         "Version": "1.0"
     }
 }
