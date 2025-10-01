@@ -38,7 +38,7 @@ QString CurrentDateTimeToolPlugin::displayName() const
 
 QString CurrentDateTimeToolPlugin::description() const
 {
-    return i18n("Use this tools to get current date time");
+    return i18n("Use this tool to get current date time");
 }
 
 void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
