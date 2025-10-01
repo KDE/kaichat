@@ -15,6 +15,7 @@
 #include "kaichatnotificatifieritem.h"
 #include "kaichatutils.h"
 #include "whatsnew/whatsnewdialog.h"
+#include <QLabel>
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 #include "verifynewversionwidget/verifynewversionwidgetaction.h"
 #endif
@@ -45,6 +46,7 @@
 #include <QFontDatabase>
 #include <QMenuBar>
 #include <QPointer>
+#include <QStatusBar>
 namespace
 {
 const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
@@ -64,6 +66,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     setupGUI();
     readConfig();
     createSystemTray();
+    setupStatusBar();
     mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
     slotToggleMenubar(true);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::showArchiveChanged, this, [this]() {
@@ -72,6 +75,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::loadEngineDone, this, &KAIChatMainWindow::updateActions);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::currentChatIdChanged, this, &KAIChatMainWindow::updateActions);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::downloadModelFinished, this, &KAIChatMainWindow::slotDownloadModelFinished);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::toolInProgress, this, &KAIChatMainWindow::slotToolProgressInfoChanged);
     disableActions();
 }
 
@@ -80,6 +84,19 @@ KAIChatMainWindow::~KAIChatMainWindow()
     KSharedConfig::Ptr config = KSharedConfig::openConfig();
     KConfigGroup group = config->group(QLatin1StringView(myKAIChatMainWindowGroupName));
     group.writeEntry("Size", size());
+}
+
+void KAIChatMainWindow::setupStatusBar()
+{
+    mToolProgressInfo = new QLabel(this);
+    mToolProgressInfo->setTextFormat(Qt::RichText);
+    mToolProgressInfo->setObjectName(u"mToolProgressInfo"_s);
+    statusBar()->addPermanentWidget(mToolProgressInfo, 1);
+}
+
+void KAIChatMainWindow::slotToolProgressInfoChanged(const QString &str)
+{
+    mToolProgressInfo->setText(str);
 }
 
 void KAIChatMainWindow::readConfig()

@@ -15,6 +15,7 @@ class KAIChatNotificatifierItem;
 class KAIChatExportMenu;
 class KAIChatChangeFontSizeMenu;
 class QCommandLineParser;
+class QLabel;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 class VerifyNewVersionWidgetAction;
 #endif
@@ -51,6 +52,8 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void disableActions();
     LIBKAICHATWIDGETS_NO_EXPORT void slotDownloadModelFinished(const QString &modelName);
     LIBKAICHATWIDGETS_NO_EXPORT void slotConfigureNotifications();
+    LIBKAICHATWIDGETS_NO_EXPORT void setupStatusBar();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotToolProgressInfoChanged(const QString &str);
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
@@ -62,6 +65,7 @@ private:
     KAIChatExportMenu *mExportMenu = nullptr;
     QAction *mShowQuickAskAction = nullptr;
     KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
+    QLabel *mToolProgressInfo = nullptr;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     VerifyNewVersionWidgetAction *const mVerifyNewVersionWidgetAction;
 #endif
