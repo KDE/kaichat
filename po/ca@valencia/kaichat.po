@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-30 00:46+0000\n"
-"PO-Revision-Date: 2025-09-20 12:35+0200\n"
+"POT-Creation-Date: 2025-10-01 00:49+0000\n"
+"PO-Revision-Date: 2025-09-30 11:48+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -157,8 +157,38 @@ msgstr "S'ha compartit el fitxer."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Trobareu la sol·licitud nova a:<br /><a href='%1'>%1</a></qt>"
 
-#: plugins/tools/currentdatetime/exampletexttoolplugin.cpp:21
-msgid "The name of the city"
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+msgid "The Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tools to get current date time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#, kde-format
+msgid "Current time is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#, kde-format
+msgid "Current date is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#, kde-format
+msgid "Current date time is %1"
 msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
@@ -469,32 +499,36 @@ msgstr "Afig la implementació d'eines."
 msgid "Allow to switch from chat identifier."
 msgstr "Permet canviar a partir d'un identificador de xat."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
+msgid "Add Current Date Time tool."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add what's new support."
 msgstr "Afig la implementació de Què hi ha de nou."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add instance support."
 msgstr "Afig la implementació d'instàncies."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Afig la implementació de Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Afig la implementació del ressaltat."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corregix permetre la supressió de xat. Error %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:62
+#: widgets/whatsnew/whatsnewtranslations.cpp:63
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregix una icona en Windows."
@@ -524,3 +558,6 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Esmena d'errors:"
+
+#~ msgid "The name of the city"
+#~ msgstr "El nom de la ciutat"

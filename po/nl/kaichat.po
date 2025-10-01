@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-30 00:46+0000\n"
-"PO-Revision-Date: 2025-09-20 11:59+0200\n"
+"POT-Creation-Date: 2025-10-01 00:49+0000\n"
+"PO-Revision-Date: 2025-10-01 00:19+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -156,8 +156,38 @@ msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
 "<qt>Het nieuwe verzoek kunt u vinden op:<br /><a href='%1'>%1</a> </qt>"
 
-#: plugins/tools/currentdatetime/exampletexttoolplugin.cpp:21
-msgid "The name of the city"
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+msgid "The Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tools to get current date time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#, kde-format
+msgid "Current time is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#, kde-format
+msgid "Current date is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#, kde-format
+msgid "Current date time is %1"
 msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
@@ -464,32 +494,36 @@ msgstr "Ondersteuning voor hulpmiddelen toevoegen."
 msgid "Allow to switch from chat identifier."
 msgstr "Sta toe om te schakelen van identifier van chat."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
+msgid "Add Current Date Time tool."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ondersteuning voor Wat is nieuw toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add instance support."
 msgstr "Ondersteuning voor exemplaar toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ondersteuning voor Markdown toevoegen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ondersteuning voor accentuering."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Toestaan chat te verwijderen repareren. Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:62
+#: widgets/whatsnew/whatsnewtranslations.cpp:63
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Pictogram op vensters repareren"
@@ -518,6 +552,9 @@ msgstr "Enige van de nieuwe functies in deze uitgave van KAIchat omvatten:"
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Enig repareren van bugs:"
+
+#~ msgid "The name of the city"
+#~ msgstr "De naam van de stad"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"
