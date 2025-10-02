@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-01 00:49+0000\n"
+"POT-Creation-Date: 2025-10-02 00:45+0000\n"
 "PO-Revision-Date: 2025-09-20 09:57+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -166,7 +166,7 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
-msgid "Use this tools to get current date time"
+msgid "Use this tool to get current date time"
 msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
@@ -278,23 +278,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportera som text…"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:135
 #, kde-format
 msgid "What's new"
 msgstr "Vad är nytt"
 
-#: widgets/kaichatmainwindow.cpp:122
+#: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Visa arkiv"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Öppna snabbfråga..."
 
-#: widgets/kaichatmainwindow.cpp:251
+#: widgets/kaichatmainwindow.cpp:268
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -303,24 +303,24 @@ msgstr ""
 "<qt>Det här döljer menyraden fullständigt. Du kan visa den igen genom att "
 "skriva %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:254
+#: widgets/kaichatmainwindow.cpp:271
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Dölj menyrad"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:305
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportera chatter"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
 msgstr "Modellnerladdning klar"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Model %1 har laddats ner."
@@ -495,32 +495,36 @@ msgstr "Tillåt att byta från chattidentifierare."
 msgid "Add Current Date Time tool."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
+msgid "Add progress tool message info."
+msgstr ""
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add what's new support."
 msgstr "Lägg till stöd för Vad är nytt."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add instance support."
 msgstr "Lägg till instansstöd."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add Mardown support."
 msgstr "lägg till stöd för Markdown"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Lägg till stöd för syntaxfärgläggning."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Rätta tillåt borttagning av chatt. Fel %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:63
+#: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Rätta ikon på Windows."

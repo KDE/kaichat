@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-01 00:49+0000\n"
-"PO-Revision-Date: 2025-09-21 19:04+0300\n"
+"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"PO-Revision-Date: 2025-10-01 14:37+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -157,37 +157,38 @@ msgstr "<qt>Yeni isteği şurada bulabilirsiniz:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Geçerli Tarih ve Zaman"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Geçerli Tarihi ve Zamanı Al"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, kde-format
-msgid "Use this tools to get current date time"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Use this tools to get current date time"
+msgid "Use this tool to get current date time"
+msgstr "Şu anki tarihi ve zamanı almak için bu araçları kullanın"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Tarih/Zaman Aracını Yapılandır"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "Geçerli zaman %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "Geçerli tarih %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "Geçerli tarih ve zaman %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -278,23 +279,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Metin Olarak Dışa Aktar…"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:135
 #, kde-format
 msgid "What's new"
 msgstr "Neler Yeni"
 
-#: widgets/kaichatmainwindow.cpp:122
+#: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Arşivi Göster"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Tez Sorguyu Aç…"
 
-#: widgets/kaichatmainwindow.cpp:251
+#: widgets/kaichatmainwindow.cpp:268
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -303,24 +304,24 @@ msgstr ""
 "<qt>Bu, menü çubuğunu tümüyle gizleyecektir. %1 yazarak onu yeniden "
 "gösterebilirsiniz.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:254
+#: widgets/kaichatmainwindow.cpp:271
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:305
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
 msgstr "%1 modeli indirildi."
@@ -491,34 +492,38 @@ msgstr "Sohbet tanımlayıcısından geçiş yapmaya olanak tanı"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
+msgstr "Geçerli tarih/zaman aracı ekle"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
+msgid "Add progress tool message info."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add what's new support."
 msgstr "Neler Yeni desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add instance support."
 msgstr "Örnek desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Vurgu desteği ekle"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Sohbeti silmeyi düzelt (hata %1)"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:63
+#: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows üzerinde simgeleri onar"

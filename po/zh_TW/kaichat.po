@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-01 00:49+0000\n"
-"PO-Revision-Date: 2025-09-30 16:38+0900\n"
+"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"PO-Revision-Date: 2025-10-01 21:55+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -157,37 +157,38 @@ msgstr "<qt>您可以在此檢視新的請求：<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "目前的日期與時間"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "取得目前日期與時間"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, kde-format
-msgid "Use this tools to get current date time"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Use this tools to get current date time"
+msgid "Use this tool to get current date time"
+msgstr "使用此工具來取得目前日期與時間"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "設定日期時間工具"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "目前時間是 %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "目前日期是 %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "目前日期與時間是 %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -278,47 +279,47 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "匯出為純文字…"
 
-#: widgets/kaichatmainwindow.cpp:118
+#: widgets/kaichatmainwindow.cpp:135
 #, kde-format
 msgid "What's new"
 msgstr "新功能"
 
-#: widgets/kaichatmainwindow.cpp:122
+#: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "顯示封存"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "開啟快速詢問…"
 
-#: widgets/kaichatmainwindow.cpp:251
+#: widgets/kaichatmainwindow.cpp:268
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單列。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:254
+#: widgets/kaichatmainwindow.cpp:271
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: widgets/kaichatmainwindow.cpp:288
+#: widgets/kaichatmainwindow.cpp:305
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "匯出聊天"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下載完成"
 
-#: widgets/kaichatmainwindow.cpp:347
+#: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
 msgstr "模型 %1 已下載完成。"
@@ -486,34 +487,38 @@ msgstr "允許切換聊天識別子。"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
+msgstr "新增目前日期與時間工具。"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
+msgid "Add progress tool message info."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add what's new support."
 msgstr "新增「新功能」列表支援。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add instance support."
 msgstr "新增實體支援。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add Mardown support."
 msgstr "新增 Markdown 支援。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "新增突顯支援。"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "修正允許刪除聊天。Bug %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:63
+#: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "修正 Windows 上的圖示。"
