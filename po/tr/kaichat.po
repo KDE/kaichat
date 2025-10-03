@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-10-01 14:37+0300\n"
+"PO-Revision-Date: 2025-10-02 17:04+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -165,10 +165,9 @@ msgid "Get Current Date Time"
 msgstr "Geçerli Tarihi ve Zamanı Al"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, fuzzy, kde-format
-#| msgid "Use this tools to get current date time"
+#, kde-format
 msgid "Use this tool to get current date time"
-msgstr "Şu anki tarihi ve zamanı almak için bu araçları kullanın"
+msgstr "Şu anki tarihi ve zamanı almak için bu aracı kullanın"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
@@ -496,7 +495,7 @@ msgstr "Geçerli tarih/zaman aracı ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "İlerleme aracı iletisi durumu ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format

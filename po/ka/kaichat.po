@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-10-01 04:17+0200\n"
+"PO-Revision-Date: 2025-10-02 03:34+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -168,10 +168,9 @@ msgid "Get Current Date Time"
 msgstr "მიმდინარე დროის და თარიღის მიღება"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, fuzzy, kde-format
-#| msgid "Use this tools to get current date time"
+#, kde-format
 msgid "Use this tool to get current date time"
-msgstr "გამოიყენეთ ეს ხელსაწყოები მიმდინარე დროის და თარიღის მისაღებად"
+msgstr "გამოიყენეთ ეს ხელსაწყო მიმდინარე დროის და თარიღის მისაღებად"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
@@ -500,7 +499,7 @@ msgstr "დაემატა მიმდინარე დროისა დ
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format

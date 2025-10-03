@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-09-30 23:49+0100\n"
+"PO-Revision-Date: 2025-10-02 18:53+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -160,37 +160,37 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Fecha y hora actual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Obtener fecha y hora actual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Use esta herramienta para obtener la fecha y hora actual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Configurar la herramienta de fecha y hora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "La hora actual es %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "La fecha actual es %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "La fecha y hora actual es %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -501,11 +501,11 @@ msgstr "Permitir cambiar a identificador de conversación."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Añadir herramienta de fecha y hora actual."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Añadir mensaje informativo de avance."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
@@ -562,6 +562,3 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Algunas correcciones de errores:"
-
-#~ msgid "The name of the city"
-#~ msgstr "El nombre de la ciudad"

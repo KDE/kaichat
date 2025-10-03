@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-09-21 02:26+0200\n"
+"PO-Revision-Date: 2025-10-02 21:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -160,37 +160,37 @@ msgstr "<qt>Eskaera berria hemen aurki dezakezu:<br /><a href='%1'>%1</a></qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Uneko data ordua"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Lortu Uneko Daata Ordua"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Erabili tresna hau uneko data ordua lortzeko"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Konfiguratu Data Ordua tresna"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "Uneko ordua %1 da"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "Uneko data %1 da"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "Uneko data ordua %1 da"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -505,11 +505,11 @@ msgstr "Berriketa identifikatzailetik aldatzea baimendu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Gehitu Uneko Data Ordu tresna."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Gehitu aurrerapen tresnaren mezu-informazioa."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format

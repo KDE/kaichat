@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-10-01 08:44-0300\n"
+"PO-Revision-Date: 2025-10-02 06:46-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -166,10 +166,9 @@ msgid "Get Current Date Time"
 msgstr "Obter a data e hora atual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, fuzzy, kde-format
-#| msgid "Use this tools to get current date time"
+#, kde-format
 msgid "Use this tool to get current date time"
-msgstr "Use essas ferramentas para obter a data e hora atual"
+msgstr "Use essa ferramenta para obter a data e hora atual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
@@ -501,7 +500,7 @@ msgstr "Adiciona ferramenta de data e hora atual"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Adiciona mensagem informativa do progresso de ferramenta"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
