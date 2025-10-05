@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-09-20 16:44+0200\n"
+"POT-Creation-Date: 2025-10-05 02:30+0000\n"
+"PO-Revision-Date: 2025-08-03 07:57+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -56,60 +56,60 @@ msgstr "Responsabile"
 #: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
-msgstr "Sono disponibili le seguenti istanze:"
+msgstr ""
 
 #: apps/main.cpp:100
 #, kde-format
 msgid "List of Chats:"
-msgstr "Elenco delle chat:"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr "Restituisci elenchi di istanze"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Inizia con un'istanza specifica"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr "Crea una nuova chat"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Apri Domanda rapida"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "Passa a Chat"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Passa a Chat da identificatore"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr "Messaggio di richiesta"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Restituisci elenchi di chat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -138,23 +138,22 @@ msgstr "Strumento"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr "Condividi testo…"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "Si è verificato un problema durante la condivisione del documento: %1"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr "Il file è stato condiviso."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
-"<qt>Puoi trovare la nuova richiesta qui:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
@@ -193,25 +192,25 @@ msgstr ""
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr "Dimensione carattere"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr "Aumenta il carattere"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr "Riduci il carattere"
+msgstr ""
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr "&Utilizza caratteri personalizzati"
+msgstr ""
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -235,7 +234,7 @@ msgstr "Generale"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr "Carattere"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
@@ -247,13 +246,13 @@ msgstr "Istanze"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Controllo ortografico"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr "Estensioni"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -262,10 +261,12 @@ msgid "Export…"
 msgstr "Esporta…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "Esporta come JSON…"
+msgstr "Esporta come Json…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
@@ -293,7 +294,7 @@ msgstr "Mostra archivio"
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr "Apri Domanda rapida..."
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:268
 #, kde-format
@@ -319,12 +320,12 @@ msgstr "Esporta chat"
 #: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
-msgstr "Scaricamento del modello completato"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
-msgstr "Il modello %1 è stato scaricato."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -340,9 +341,10 @@ msgstr "Visualizza"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:23
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tool"
 msgid "Tools"
-msgstr "Strumenti"
+msgstr "Strumento"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:27
@@ -360,53 +362,45 @@ msgstr "Barra degli strumenti principale"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr "Disabilita il controllo della versione"
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr "Verifica nuova versione"
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
 msgstr ""
-"La tua versione è più vecchia di 6 mesi, ti invitiamo a eseguire "
-"l'aggiornamento."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
-"La tua versione è più vecchia di 1 anno, ti consigliamo vivamente di "
-"eseguire l'aggiornamento."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr "Verifica nuova versione"
+msgstr ""
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
-"È stata trovata una nuova versione. Fai clic <a href=\"%1\">qui</a> per "
-"scaricarla."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
-"Non è stata trovata una nuova versione. L'ultima compilata è disponibile <a "
-"href=\"%1\">qui</a>."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
-msgstr "Verifica nuova versione"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -432,74 +426,72 @@ msgstr "Cosa c'è di nuovo in %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr "Aggiunge finestra Domanda rapida."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "Consente di scaricare Ollama su Windows/MacOs."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr "Utilizzo del prompt durante la chat."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr "Aggiunge testo condiviso e l'estensione di collegamento web."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr "Consente di configurare le estensioni."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr "Aggiunge un nuovo oggetto di aggiornamento."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr "Aggiunge un indicatore di avanzamento nell'elenco delle chat."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
 msgid "Allow to change font size."
-msgstr "Consente di configurare la dimensione del carattere."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:26
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
-"Aggiunge la riga di comando per aggiungere una nuova stanza di chat, "
-"visualizzando l'elenco delle istanze."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Aggiunge il supporto per il controllo ortografico."
+msgstr "Aggiunge il supporto per l'evidenziazione."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
 msgstr ""
-"Aggiunge una finestra a comparsa di notifica al termine dello scaricamento "
-"del modello."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
-"Consente di salvare e ripristinare il testo e la posizione della barra di "
-"scorrimento."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 msgid "Allow to save and restore current chat."
-msgstr "Consente di salvare e ripristinare la chat attuale."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr "Aggiunge l'opzione per mostrare delle chat dei titoli."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
+#, fuzzy
+#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Aggiunge il supporto per gli "
+msgstr "Aggiunge il supporto Markdown."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 msgid "Allow to switch from chat identifier."
-msgstr "Consente di passare dall'identificatore di chat."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
@@ -537,7 +529,7 @@ msgstr "Correzione del bug %1 che consente di eliminare la chat"
 #: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
-msgstr "Corregge l'icona sulle finestre."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -555,10 +547,11 @@ msgid "Important changes since last version:"
 msgstr "Modifiche importanti dalla versione precedente:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Kaichat include:"
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr ""
-"Alcune delle nuove funzionalità di questa versione di KAIchat includono:"
+"Alcune delle nuove funzionalità di questa versione di Kaichat includono:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format

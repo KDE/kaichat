@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
-"PO-Revision-Date: 2025-10-02 17:04+0300\n"
+"POT-Creation-Date: 2025-10-05 02:30+0000\n"
+"PO-Revision-Date: 2025-08-01 12:46+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -56,60 +56,60 @@ msgstr "Bakımcı"
 #: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
-msgstr "Aşağıdaki örnekler kullanılabilir:"
+msgstr ""
 
 #: apps/main.cpp:100
 #, kde-format
 msgid "List of Chats:"
-msgstr "Sohbet listeleri:"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr "Örneklerin listesini döndür"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Belirli bir örnekle başlat"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr "Yeni sohbet oluştur"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Tez sorguyu aç"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "Sohbete geç"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Tanımlayıcı ile sohbete geç"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr "Soru sor"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Sohbetlerin listesini döndür"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -138,79 +138,79 @@ msgstr "Araç"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr "Metni Paylaş…"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "Belge paylaşılırken bir sorun oluştu: %1"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr "Dosya paylaşıldı."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr "<qt>Yeni isteği şurada bulabilirsiniz:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr "Geçerli Tarih ve Zaman"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr "Geçerli Tarihi ve Zamanı Al"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr "Şu anki tarihi ve zamanı almak için bu aracı kullanın"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr "Tarih/Zaman Aracını Yapılandır"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr "Geçerli zaman %1"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr "Geçerli tarih %1"
+msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr "Geçerli tarih ve zaman %1"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr "Yazıtipi Puntosu"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr "Yazıtipi Boyutunu Artır"
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr "Yazıtipi Boyutunu Azalt"
+msgstr ""
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr "Ö&zel yazıtipleri kullan"
+msgstr ""
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -234,7 +234,7 @@ msgstr "Genel"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr "Yazıtipi"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
@@ -246,13 +246,13 @@ msgstr "Örnekler"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Yazım Denetimi"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr "Eklentiler"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -261,7 +261,9 @@ msgid "Export…"
 msgstr "Dışa Aktar…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as Json…"
 msgctxt "@action"
 msgid "Export as JSON…"
 msgstr "JSON Olarak Dışa Aktar…"
@@ -292,7 +294,7 @@ msgstr "Arşivi Göster"
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr "Tez Sorguyu Aç…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:268
 #, kde-format
@@ -318,12 +320,12 @@ msgstr "Sohbetleri Dışa Aktar"
 #: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
-msgstr "Model İndirildi"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
-msgstr "%1 modeli indirildi."
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -339,9 +341,10 @@ msgstr "Görünüm"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:23
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Tool"
 msgid "Tools"
-msgstr "Araçlar"
+msgstr "Araç"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:27
@@ -359,46 +362,45 @@ msgstr "Ana Araç Çubuğu"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr "Sürüm Denetimini Devre Dışı Bırak"
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr "Yeni Sürümü Denetle"
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
-msgstr "Kullandığınız sürüm altı aydan daha eski; güncellemeniz önerilir."
+msgstr ""
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
-msgstr "Kullandığınız sürüm bir yıldan daha eski; güncellemeniz önerilir."
+msgstr ""
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr "Yeni Sürümü Denetle"
+msgstr ""
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
-"Yeni bir sürüm bulundu. İndirmek için <a href=\"%1\">buraya</a> tıklayın."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-msgstr "Bulunan yeni sürüm yok. Yapı, <a href=\"%1\">burada</a> bulunabilir."
+msgstr ""
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
-msgstr "Yeni Sürümü Denetle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -424,78 +426,80 @@ msgstr "%2 içinde neler yeni. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr "Tez sorgu iletişim kutusu eklendi"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "Windows ve macOS üzerinde Ollama’yı indirmeye olanak tanı"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr "Sohbet sırasında istem kullan"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr "Paylaşılan metin ve web kısayolu eklentisini ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr "Eklentileri yapılandırmaya izin ver"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr "Güncelleme araç takımı ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr "Sohbetler listesine ilerleme göstergesi ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
 msgid "Allow to change font size."
-msgstr "Yazıtipini puntosunu değiştirmeye izin ver"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:26
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
-"Yeni sohbet odası eklemek veya örnekleri listelemek için komut satırı "
-"seçenekleri ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Yazım denetimi desteği ekle"
+msgstr "Vurgu desteği ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
-msgstr "Model indirmesi tamamlandığında bildirim göster"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 msgid "Allow to save and restore text and scrollbar position."
-msgstr "Metin ve sarma çubuğu konumunu geri yüklemeye izin ver"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 msgid "Allow to save and restore current chat."
-msgstr "Geçerli sohbeti kaydetmeye ve geri yüklemeye izin ver"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr "Sohbet başlıkları listesini gösterme seçeneği ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
+#, fuzzy
+#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Araçlar desteği ekle"
+msgstr "Markdown desteği ekle"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 msgid "Allow to switch from chat identifier."
-msgstr "Sohbet tanımlayıcısından geçiş yapmaya olanak tanı"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
-msgstr "Geçerli tarih/zaman aracı ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr "İlerleme aracı iletisi durumu ekle"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
@@ -525,7 +529,7 @@ msgstr "Sohbeti silmeyi düzelt (hata %1)"
 #: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
-msgstr "Windows üzerinde simgeleri onar"
+msgstr ""
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -543,7 +547,8 @@ msgid "Important changes since last version:"
 msgstr "Son sürümden bu yana olan önemli değişiklikler:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Some of the new features in this release of Kaichat include:"
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "KAIChat’in bu sürümündeki önemli özelliklerden bazıları:"
 
