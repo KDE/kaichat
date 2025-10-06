@@ -4,18 +4,17 @@
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 #include "whatsnewwidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "whatsnew/whatsnewtranslations.h"
 
 #include <QTextBrowser>
 #include <QVBoxLayout>
 
+using namespace Qt::Literals::StringLiterals;
 namespace
 {
 constexpr int allVersion = -1;
 }
-
 WhatsNewWidget::WhatsNewWidget(QWidget *parent)
     : QWidget{parent}
     , mLabelInfo(new QTextBrowser(this))
