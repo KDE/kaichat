@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-05 02:30+0000\n"
-"PO-Revision-Date: 2025-08-01 08:25+0200\n"
+"PO-Revision-Date: 2025-10-05 17:23+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -57,60 +57,60 @@ msgstr "Vzdrževalec"
 #: apps/main.cpp:88
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "Na voljo so naslednji pojavki:"
 
 #: apps/main.cpp:100
 #, kde-format
 msgid "List of Chats:"
-msgstr ""
+msgstr "Seznam klepetov:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr ""
+msgstr "Vrni sezname pojavkov"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr ""
+msgstr "Začni z določenim pojavkom"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Ustvari nov klepet"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr ""
+msgstr "Odpri hitro vprašanje"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "Preklopi na klepet"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr ""
+msgstr "Preklopi na klepet iz določilnika"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr ""
+msgstr "Sporočilo vprašanja"
 
 #: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr ""
+msgstr "Vrni sezname klepetov"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -139,79 +139,79 @@ msgstr "Orodje"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr ""
+msgstr "Deli besedilo…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "Obstajala je težava pri delitvi dokumenta: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "Datoteka je bila v skupni rabi."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr ""
+msgstr "<qt>Novi zahtevek lahko najdete na:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Trenutni datum in čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Dobi trenutni datum in čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Uporabi to orodje za pridobitev trenutnega datuma in časa"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Konfiguriraj orodje za datum in čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "Trenutni čas je %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "Trenutni datum je %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "Trenutni datum in čas je %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Velikost pisave"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "Povečaj pisavo"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "Zmanjšaj pisavo"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "Uporabi pisave po meri"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:18
 #, kde-format
@@ -235,7 +235,7 @@ msgstr "Splošno"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Pisava"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
@@ -247,13 +247,13 @@ msgstr "Pojavki"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Preverjanje črkovanja"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Vtičniki"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -262,12 +262,10 @@ msgid "Export…"
 msgstr "Izvoz…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "Izvozi kot json…"
+msgstr "Izvozi kot JSON…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
@@ -295,7 +293,7 @@ msgstr "Prikaži arhiv"
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgid "Open Quick Ask..."
-msgstr ""
+msgstr "Odpri hitro vprašanje..."
 
 #: widgets/kaichatmainwindow.cpp:268
 #, kde-format
@@ -321,12 +319,12 @@ msgstr "Izvozi klepete"
 #: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "Prenos modela končan"
 
 #: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "Model %1 je bi prenesen."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -342,10 +340,9 @@ msgstr "Pogled"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:23
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tools"
-msgstr "Orodje"
+msgstr "Orodja"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:27
@@ -363,45 +360,49 @@ msgstr "Glavna orodna vrstica"
 #, kde-format
 msgctxt "@action"
 msgid "Disable version check"
-msgstr ""
+msgstr "Onemogoči preverjanje različice"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Check new Version"
-msgstr ""
+msgstr "Preveri novo različico"
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:42
 #, kde-format
 msgid "Your version is older than 6 months, we encourage you to upgrade."
-msgstr ""
+msgstr "Vaša različica je starejša od 6 mesecev, spodbujamo vas k nadgradnji."
 
 #: widgets/needupdateversion/needupdateversionwidget.cpp:47
 #, kde-format
 msgid ""
 "Your version is older than 1 year, we strongly encourage you to upgrade."
 msgstr ""
+"Vaša različica je starejša od 1 leta, močno vas spodbujamo k nadgradnji."
 
 #: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
 #, kde-format
 msgctxt "@title:window"
 msgid "Check New Version"
-msgstr ""
+msgstr "Preveri novo različico"
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
 #, kde-format
 msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 msgstr ""
+"Najdena nova različica. Kliknite <a href = \"%1\"> tukaj </a> za prenos."
 
 #: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
 #, kde-format
 msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 msgstr ""
+"Nove različice ni mogoče najti. Izgradnjo pa je mogoče najti <a href = "
+"\"%1\"> tukaj </a>."
 
 #: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
 #, kde-format
 msgid "Check New Version"
-msgstr ""
+msgstr "Preveri novo različico"
 
 #: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
 #, kde-format
@@ -427,80 +428,78 @@ msgstr "Kaj je novega v %2. %1"
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:18
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "Dodajte pogovorno okno hitrega vprašanja."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:19
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr ""
+msgstr "Dovolite prenos Ollama v Windows/MacOS."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:20
 msgid "Use prompt during chating."
-msgstr ""
+msgstr "Uporabi poziv med klepetanjem."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:21
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "Dodajte skupni besedilni in spletni vtičnik."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:22
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "Dovoli konfiguriranje vtičnikov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:23
 msgid "Add new update widget."
-msgstr ""
+msgstr "Dodaj novi gradnik posodobitev."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:24
 msgid "Add progress indicator in chats list."
-msgstr ""
+msgstr "Dodaj indikator napredka v seznam klepetov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:25
 msgid "Allow to change font size."
-msgstr ""
+msgstr "Dovoli spremembo velikosti pisave."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:26
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"Dodaj ukazno vrstico za dodajanje nove klepetalnice in prikaz seznama "
+"pojavkov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add spell checking support."
-msgstr "Dodaj podporo za osvetljevanje."
+msgstr "Dodaj podporo za preverjanje črkovanja."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:28
 msgid "Add Notification popup when model download done."
-msgstr ""
+msgstr "Dodaj pojavno okno, ko je prenos modela končan. "
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:29
 msgid "Allow to save and restore text and scrollbar position."
-msgstr ""
+msgstr "Dovoli shranjevanje in obnovo besedilo in položaj drsenja."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:30
 msgid "Allow to save and restore current chat."
-msgstr ""
+msgstr "Dovoli shranjevanje in obnovo trenutnega klepeta."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:31
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Dovoli možnost prikazovanje seznama naslovov klepetov."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add tools support."
-msgstr "Dodaj podporo za Markdown."
+msgstr "Dodaj podporo orodij."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:33
 msgid "Allow to switch from chat identifier."
-msgstr ""
+msgstr "Dovoli preklop iz določilnika klepeta."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Dodaj orodje za trenutni datum in čas."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Dodaj orodje sporočanja informacij o napredku."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
@@ -530,7 +529,7 @@ msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
 #: widgets/whatsnew/whatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Popravi ikono v sistemu Windows."
 
 #: widgets/whatsnew/whatsnewwidget.cpp:46
 #, kde-format
@@ -548,10 +547,9 @@ msgid "Important changes since last version:"
 msgstr "Pomembne spremembe od zadnje različice:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:98
-#, fuzzy, kde-format
-#| msgid "Some of the new features in this release of Kaichat include:"
+#, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
-msgstr "Nekaj novih zmožnosti v tej izdaji Kaichata vsebuje:"
+msgstr "Nekaj novih zmožnosti v tej izdaji KAIchata vsebujejo:"
 
 #: widgets/whatsnew/whatsnewwidget.cpp:103
 #, kde-format
