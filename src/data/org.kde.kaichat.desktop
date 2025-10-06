@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=KAIChat
+Name[ar]=كتشات
 Name[ca]=KAIChat
 Name[ca@valencia]=KAIChat
 Name[de]=KAIChat
@@ -25,6 +26,7 @@ Type=Application
 Exec=kaichat -qwindowtitle %c %u
 Icon=kaichat
 GenericName=AI Chat
+GenericName[ar]=دردشة للذكاء الاصطناعي
 GenericName[ca]=Xat d'IA
 GenericName[ca@valencia]=Xat d'IA
 GenericName[de]=KI-Chat
