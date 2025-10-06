@@ -26,6 +26,7 @@ void CurrentDateTimeToolPluginJob::start()
         deleteLater();
         return;
     }
+    Q_EMIT toolInProgress(i18n("Get Current Date Time."));
     QString result;
     const QStringList lst = requiredArguments();
     for (const auto &arg : lst) {
