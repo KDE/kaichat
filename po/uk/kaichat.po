@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"POT-Creation-Date: 2025-10-07 00:47+0000\n"
 "PO-Revision-Date: 2025-10-03 18:10+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -175,17 +175,23 @@ msgstr "Скористайтеся цим інструментом для отр
 msgid "Configure Date Time Tool"
 msgstr "Інструмент налаштовування дати і часу"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, fuzzy, kde-format
+#| msgid "Get Current Date Time"
+msgid "Get Current Date Time."
+msgstr "Отримати поточну дату і час"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr "Поточний час — %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr "Поточна дата: %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Поточна дата і час: %1"
@@ -424,133 +430,151 @@ msgstr "(Показати новини)"
 msgid "What's new in %2. %1"
 msgstr "Що нового у %2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, kde-format
+msgid "Add what's new support."
+msgstr "Додано підтримку показу новин щодо програми."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#, kde-format
+msgid "Add instance support."
+msgstr "Додано підтримку екземплярів програми."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#, kde-format
+msgid "Add Mardown support."
+msgstr "Додано підтримку Markdown."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#, kde-format
+msgid "Add Highlighting support."
+msgstr "Додано підтримку підсвічування."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Додано вікно швидкого питання."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Уможливлено отримання Ollama у Windows/MacOs."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#, kde-format
 msgid "Use prompt during chating."
 msgstr "Реалізовано використання запиту під час спілкування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Додано додаток оприлюднення тексту та вебскорочень."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#, kde-format
 msgid "Allow to configure plugins."
 msgstr "Уможливлено налаштовування додатків."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#, kde-format
 msgid "Add new update widget."
 msgstr "Додано новий віджет оновлення."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "У списки спілкувань додано індикатор поступу."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
 msgid "Allow to change font size."
 msgstr "Уможливлено зміну розміру шрифту."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:26
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
 "Додано параметр командного рядка для додавання нової кімнати спілкування, "
 "показу списку екземплярів."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
 msgid "Add spell checking support."
 msgstr "Додано підтримку перевірки правопису."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "Додано контекстне сповіщення щодо завершення отримання моделі."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Дозволити збереження і відновлення тексту і позиції на смужці гортання."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Дозволити збереження і відновлення поточного спілкування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:53
+#, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Додано пункт для показу списку спілкувань із заголовками."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
 msgid "Add tools support."
 msgstr "Додано підтримку інструментів."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Уможливлено перемикання з ідентифікатора спілкування."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Додано інструмент поточної дати і часу."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#, kde-format
 msgid "Add progress tool message info."
 msgstr "Додано інструмент поступу до відомостей щодо повідомлень."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
-#, kde-format
-msgid "Add what's new support."
-msgstr "Додано підтримку показу новин щодо програми."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
-#, kde-format
-msgid "Add instance support."
-msgstr "Додано підтримку екземплярів програми."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
-#, kde-format
-msgid "Add Mardown support."
-msgstr "Додано підтримку Markdown."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "Додано підтримку підсвічування."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:52
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Виправлено піктограму у Windows"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:46
+#: widgets/whatsnew/whatsnewwidget.cpp:45
 #, kde-format
 msgid "All Versions"
 msgstr "Усі версії"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:49
+#: widgets/whatsnew/whatsnewwidget.cpp:48
 #, kde-format
 msgid "Version %1"
 msgstr "Версія %1"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:93
+#: widgets/whatsnew/whatsnewwidget.cpp:92
 #, kde-format
 msgid "Important changes since last version:"
 msgstr "Важливі зміни з часу випуску попередньої версії:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:98
+#: widgets/whatsnew/whatsnewwidget.cpp:97
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "Серед нових можливостей у цьому випуску KAIchat:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:103
+#: widgets/whatsnew/whatsnewwidget.cpp:102
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Виправлення деяких вад:"

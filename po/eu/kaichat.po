@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"POT-Creation-Date: 2025-10-07 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 21:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -177,17 +177,23 @@ msgstr "Erabili tresna hau uneko data ordua lortzeko"
 msgid "Configure Date Time Tool"
 msgstr "Konfiguratu Data Ordua tresna"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, fuzzy, kde-format
+#| msgid "Get Current Date Time"
+msgid "Get Current Date Time."
+msgstr "Lortu Uneko Daata Ordua"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr "Uneko ordua %1 da"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr "Uneko data %1 da"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Uneko data ordua %1 da"
@@ -432,136 +438,154 @@ msgstr "(Berriak erakutsi)"
 msgid "What's new in %2. %1"
 msgstr "Zer berri %2(a)n. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, kde-format
+msgid "Add what's new support."
+msgstr "Zer berri-ren euskarria gehitzu."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#, kde-format
+msgid "Add instance support."
+msgstr "Instantzien euskarria gehitu."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#, kde-format
+msgid "Add Mardown support."
+msgstr "Markdown-en euskarria gehitu."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#, kde-format
+msgid "Add Highlighting support."
+msgstr "Nabarmentzeko euskarria gehitu."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Galdera azkarra elkarrizketa-koadroa gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Ollama Windows/MacOs-en zama-jaistea baimendu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#, kde-format
 msgid "Use prompt during chating."
 msgstr "Berriketan gonbita erabiltzea."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Partekatutako testua eta web-lasterbide plugina gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#, kde-format
 msgid "Allow to configure plugins."
 msgstr "Pluginak konfiguratzea baimendu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#, kde-format
 msgid "Add new update widget."
 msgstr "Eguneratze-trepeta berria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Berriketen zerrendan aurrerapen adierazlea gehitzea."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
 msgid "Allow to change font size."
 msgstr "Letra-tipoa aldatzea baimendu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:26
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
 "Instantzien zerrenda azaltzen duen berriketa gela berria gehitzeko komando-"
 "lerroa gehitzea."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
 msgid "Add spell checking support."
 msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Gehitu jakinarazpenaren mezu gainerakorra eredua zama-jaitsiera burutu "
 "denean."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Testuaren eta kiribiltze-barraren kokapena gorde eta lehengoratzeko aukera "
 "ematen du."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:53
+#, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Izenburudun berriketak erakusteko aukera gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
 msgid "Add tools support."
 msgstr "Tresnen euskarria gehitu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Berriketa identifikatzailetik aldatzea baimendu."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Gehitu Uneko Data Ordu tresna."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#, kde-format
 msgid "Add progress tool message info."
 msgstr "Gehitu aurrerapen tresnaren mezu-informazioa."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
-#, kde-format
-msgid "Add what's new support."
-msgstr "Zer berri-ren euskarria gehitzu."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
-#, kde-format
-msgid "Add instance support."
-msgstr "Instantzien euskarria gehitu."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
-#, kde-format
-msgid "Add Mardown support."
-msgstr "Markdown-en euskarria gehitu."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "Nabarmentzeko euskarria gehitu."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:52
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows-en ikonoa konpontzea."
 
-#: widgets/whatsnew/whatsnewwidget.cpp:46
+#: widgets/whatsnew/whatsnewwidget.cpp:45
 #, kde-format
 msgid "All Versions"
 msgstr "Bertsio guztiak"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:49
+#: widgets/whatsnew/whatsnewwidget.cpp:48
 #, kde-format
 msgid "Version %1"
 msgstr "%1 bertsioa"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:93
+#: widgets/whatsnew/whatsnewwidget.cpp:92
 #, kde-format
 msgid "Important changes since last version:"
 msgstr "Azken bertsiotik dauden aldaketa garrantzitsuak:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:98
+#: widgets/whatsnew/whatsnewwidget.cpp:97
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "KAIchat-en argitalpen berri honetako ezaugarri berrien artean daude:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:103
+#: widgets/whatsnew/whatsnewwidget.cpp:102
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Akatsak konponketa batzuk:"

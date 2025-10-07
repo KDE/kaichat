@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"POT-Creation-Date: 2025-10-07 00:47+0000\n"
 "PO-Revision-Date: 2025-09-04 10:39+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -176,17 +176,22 @@ msgstr ""
 msgid "Configure Date Time Tool"
 msgstr ""
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, kde-format
+msgid "Get Current Date Time."
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr ""
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr ""
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr ""
@@ -423,136 +428,152 @@ msgstr "(Näytä uutiset)"
 msgid "What's new in %2. %1"
 msgstr "%2 – mitä uutta. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, kde-format
+msgid "Add what's new support."
+msgstr "Lisää mitä uutta -tuki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#, kde-format
+msgid "Add instance support."
+msgstr "Lisää ilmentymätuki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#, kde-format
+msgid "Add Mardown support."
+msgstr "Lisää Markdown-tuki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#, kde-format
+msgid "Add Highlighting support."
+msgstr "Lisää korostustuki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Lisää pikakysymysikkuna."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Sallii Ollaman lataamisen Windowsissa tai macOSissa."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#, kde-format
 msgid "Use prompt during chating."
 msgstr "Käytä keskusteltaessa kehotetta."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Lisää jaetun tekstin ja verkkopikakuvakkeen liitännäiset."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#, kde-format
 msgid "Allow to configure plugins."
 msgstr "Salli liitännäisten asettaminen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#, kde-format
 msgid "Add new update widget."
 msgstr "Lisää uusi päivityssovelma."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Lisää keskusteluluetteloihin edistymisilmaisin."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
 msgid "Allow to change font size."
 msgstr "Salli fonttikoon muuttaminen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:26
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
 "Lisää komentorivi uuden keskusteluhuoneen lisäämiseksi ja ilmentymäluettelon "
 "näyttämiseksi."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
 msgid "Add spell checking support."
 msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
 msgid "Allow to save and restore current chat."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:53
+#, kde-format
 msgid "Add option for showing list of title chats."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
-#, fuzzy
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, fuzzy, kde-format
 #| msgid "Add Mardown support."
 msgid "Add tools support."
 msgstr "Lisää Markdown-tuki."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
-#, fuzzy
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#, fuzzy, kde-format
 #| msgid "Allow to change font size."
 msgid "Allow to switch from chat identifier."
 msgstr "Salli fonttikoon muuttaminen."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#, kde-format
 msgid "Add Current Date Time tool."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#, kde-format
 msgid "Add progress tool message info."
 msgstr ""
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
-#, kde-format
-msgid "Add what's new support."
-msgstr "Lisää mitä uutta -tuki."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
-#, kde-format
-msgid "Add instance support."
-msgstr "Lisää ilmentymätuki."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
-#, kde-format
-msgid "Add Mardown support."
-msgstr "Lisää Markdown-tuki."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "Lisää korostustuki."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:52
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "Korjattu salli keskustelun poistaminen. Ohjelmavirhe %1"
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Korjaa ikkunoiden kuvake."
 
-#: widgets/whatsnew/whatsnewwidget.cpp:46
+#: widgets/whatsnew/whatsnewwidget.cpp:45
 #, kde-format
 msgid "All Versions"
 msgstr "Kaikki versiot"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:49
+#: widgets/whatsnew/whatsnewwidget.cpp:48
 #, kde-format
 msgid "Version %1"
 msgstr "Versio %1"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:93
+#: widgets/whatsnew/whatsnewwidget.cpp:92
 #, kde-format
 msgid "Important changes since last version:"
 msgstr "Tärkeitä muutoksia sitten viime version:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:98
+#: widgets/whatsnew/whatsnewwidget.cpp:97
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "Joitakin tämän KAIchat-julkaisun uusia ominaisuuksia ovat:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:103
+#: widgets/whatsnew/whatsnewwidget.cpp:102
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Joitakin vikoja on korjattu:"

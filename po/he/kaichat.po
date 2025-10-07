@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"POT-Creation-Date: 2025-10-07 00:47+0000\n"
 "PO-Revision-Date: 2025-10-04 10:52+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -175,17 +175,23 @@ msgstr "אפשר להשתמש בכלי הזה כדי למשוך את התארי�
 msgid "Configure Date Time Tool"
 msgstr "כלי הגדרת תאריך ושעה"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, fuzzy, kde-format
+#| msgid "Get Current Date Time"
+msgid "Get Current Date Time."
+msgstr "משיכת התאריך והשעה הנוכחיים"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr "השעה כרגע היא %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr "התאריך כרגע הוא %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr "התאריך והשעה כרגע הם %1"
@@ -422,130 +428,148 @@ msgstr "(הצגת חדשות)"
 msgid "What's new in %2. %1"
 msgstr "מה חדש ב־%2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
-msgid "Add Quick Ask Dialog."
-msgstr "הוספת חלונית שאלה מהירה."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
-msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "לאפשר להוריד Ollama על Windows/macOS."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
-msgid "Use prompt during chating."
-msgstr "להשתמש בבקשה במהלך השיחה."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
-msgid "Add shared text and webshorcut plugin."
-msgstr "הוספת תוסף טקסט משותף וקיצורי דפדפן."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
-msgid "Allow to configure plugins."
-msgstr "לאפשר להגדיר תוספים."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
-msgid "Add new update widget."
-msgstr "הוספת וידג׳ט עדכון חדש."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
-msgid "Add progress indicator in chats list."
-msgstr "הוספת מחוון התקדמות ברשימת השיחות."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
-msgid "Allow to change font size."
-msgstr "לאפשר את שינוי גודל הכתב."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:26
-msgid ""
-"Add command line for adding new chat room, displaying list of instances."
-msgstr "נוספה פקודה לשורת הפקודות להוספת חדר שיחה חדש, שמציג רשימת מופעים."
-
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
-msgid "Add spell checking support."
-msgstr "הוספת תמיכה בבדיקת איות."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
-msgid "Add Notification popup when model download done."
-msgstr "הוספת חלונית הודעה כשהורדת מודל מסתיימת."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
-msgid "Allow to save and restore text and scrollbar position."
-msgstr "מעכשיו יש אפשרות לשמור ולשחזר את הטקסט ומקום פס הגלילה."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
-msgid "Allow to save and restore current chat."
-msgstr "נוספה אפשרות לשמור ולשחזר את השיחה הנוכחית."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
-msgid "Add option for showing list of title chats."
-msgstr "נוספה אפשרות להצגת רשימת כותרות של שיחות."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
-msgid "Add tools support."
-msgstr "נוספה תמיכה בכלים."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
-msgid "Allow to switch from chat identifier."
-msgstr "לאפשר לעבור ממזהה שיחה."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
-msgid "Add Current Date Time tool."
-msgstr "הוספת כלי תאריך ושעה נוכחיים."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
-msgid "Add progress tool message info."
-msgstr "הוספת פריט הודעת כלי תהליך."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add what's new support."
 msgstr "הוספת תמיכה ב„מה חדש”."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add instance support."
 msgstr "הוספת תמיכה במופעים."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add Mardown support."
 msgstr "הוספת תמיכה ב־Markdown."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "הוספת תמיכה בהדגשה."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "תוקנה האפשרות למחוק שיחה. תקלה %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#, kde-format
+msgid "Add Quick Ask Dialog."
+msgstr "הוספת חלונית שאלה מהירה."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#, kde-format
+msgid "Allow to download Ollama on Windows/MacOs."
+msgstr "לאפשר להוריד Ollama על Windows/macOS."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#, kde-format
+msgid "Use prompt during chating."
+msgstr "להשתמש בבקשה במהלך השיחה."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#, kde-format
+msgid "Add shared text and webshorcut plugin."
+msgstr "הוספת תוסף טקסט משותף וקיצורי דפדפן."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#, kde-format
+msgid "Allow to configure plugins."
+msgstr "לאפשר להגדיר תוספים."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#, kde-format
+msgid "Add new update widget."
+msgstr "הוספת וידג׳ט עדכון חדש."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
+msgid "Add progress indicator in chats list."
+msgstr "הוספת מחוון התקדמות ברשימת השיחות."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
+msgid "Allow to change font size."
+msgstr "לאפשר את שינוי גודל הכתב."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
+msgid ""
+"Add command line for adding new chat room, displaying list of instances."
+msgstr "נוספה פקודה לשורת הפקודות להוספת חדר שיחה חדש, שמציג רשימת מופעים."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
+msgid "Add spell checking support."
+msgstr "הוספת תמיכה בבדיקת איות."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#, kde-format
+msgid "Add Notification popup when model download done."
+msgstr "הוספת חלונית הודעה כשהורדת מודל מסתיימת."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#, kde-format
+msgid "Allow to save and restore text and scrollbar position."
+msgstr "מעכשיו יש אפשרות לשמור ולשחזר את הטקסט ומקום פס הגלילה."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
+msgid "Allow to save and restore current chat."
+msgstr "נוספה אפשרות לשמור ולשחזר את השיחה הנוכחית."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:53
+#, kde-format
+msgid "Add option for showing list of title chats."
+msgstr "נוספה אפשרות להצגת רשימת כותרות של שיחות."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
+msgid "Add tools support."
+msgstr "נוספה תמיכה בכלים."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#, kde-format
+msgid "Allow to switch from chat identifier."
+msgstr "לאפשר לעבור ממזהה שיחה."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#, kde-format
+msgid "Add Current Date Time tool."
+msgstr "הוספת כלי תאריך ושעה נוכחיים."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#, kde-format
+msgid "Add progress tool message info."
+msgstr "הוספת פריט הודעת כלי תהליך."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "תוקן הסמל ב־Windows."
 
-#: widgets/whatsnew/whatsnewwidget.cpp:46
+#: widgets/whatsnew/whatsnewwidget.cpp:45
 #, kde-format
 msgid "All Versions"
 msgstr "כל הגרסאות"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:49
+#: widgets/whatsnew/whatsnewwidget.cpp:48
 #, kde-format
 msgid "Version %1"
 msgstr "גרסה %1"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:93
+#: widgets/whatsnew/whatsnewwidget.cpp:92
 #, kde-format
 msgid "Important changes since last version:"
 msgstr "שינויים חשובים מאז הגרסה האחרונה:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:98
+#: widgets/whatsnew/whatsnewwidget.cpp:97
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "חלק מהיכולות החדשות שהגרסה הזאת של KAIchat כוללת:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:103
+#: widgets/whatsnew/whatsnewwidget.cpp:102
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "תיקוני תקלות:"

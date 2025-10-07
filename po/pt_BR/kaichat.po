@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-02 00:45+0000\n"
+"POT-Creation-Date: 2025-10-07 00:47+0000\n"
 "PO-Revision-Date: 2025-10-02 06:46-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -175,17 +175,23 @@ msgstr "Use essa ferramenta para obter a data e hora atual"
 msgid "Configure Date Time Tool"
 msgstr "Configurar a ferramenta de data e hora"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, fuzzy, kde-format
+#| msgid "Get Current Date Time"
+msgid "Get Current Date Time."
+msgstr "Obter a data e hora atual"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr "Hora atual é %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr "Data atual é %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Data e hora atual é %1"
@@ -426,133 +432,151 @@ msgstr "(Mostrar novidades)"
 msgid "What's new in %2. %1"
 msgstr "O que há de novo em %2. %1"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:18
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#, kde-format
+msgid "Add what's new support."
+msgstr "Adiciona suporte a 'O que há de novo'."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#, kde-format
+msgid "Add instance support."
+msgstr "Adiciona suporte à instância."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#, kde-format
+msgid "Add Mardown support."
+msgstr "Adiciona suporte ao Markdown."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#, kde-format
+msgid "Add Highlighting support."
+msgstr "Adiciona suporte ao realce."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr "Corrige permissão para excluir bate-papo. Bug %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:40
+#, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Adiciona diálogo de pergunta rápida."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:19
+#: widgets/whatsnew/whatsnewtranslations.cpp:41
+#, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Permitir o download do Ollama no Windows/MacOs."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:20
+#: widgets/whatsnew/whatsnewtranslations.cpp:42
+#, kde-format
 msgid "Use prompt during chating."
 msgstr "Uso do prompt durante o bate-papo."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:21
+#: widgets/whatsnew/whatsnewtranslations.cpp:43
+#, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Adição dos plugins de texto compartilhado e de atalho da web."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:22
+#: widgets/whatsnew/whatsnewtranslations.cpp:44
+#, kde-format
 msgid "Allow to configure plugins."
 msgstr "Permite configurar plugins."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:23
+#: widgets/whatsnew/whatsnewtranslations.cpp:45
+#, kde-format
 msgid "Add new update widget."
 msgstr "Adiciona novo widget atualizado."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:24
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Adiciona indicador de progresso na lista de bate-papos."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:25
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
 msgid "Allow to change font size."
 msgstr "Permite alterar o tamanho da fonte."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:26
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
 "Adiciona item de linha de comando para adicionar nova sala de bate-papo, "
 "exibindo lista de instâncias."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:27
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
 msgid "Add spell checking support."
 msgstr "Adiciona suporte à verificação ortográfica."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:28
+#: widgets/whatsnew/whatsnewtranslations.cpp:50
+#, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Adicionar pop-up de notificação quando o download do modelo for concluído."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:29
+#: widgets/whatsnew/whatsnewtranslations.cpp:51
+#, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "Permite salvar e restaurar texto e posição da barra de rolagem."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:30
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Permite salvar e restaurar o bate-papo atual."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:31
+#: widgets/whatsnew/whatsnewtranslations.cpp:53
+#, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Adicionar opção para mostrar lista de títulos de bate-papos."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:32
+#: widgets/whatsnew/whatsnewtranslations.cpp:54
+#, kde-format
 msgid "Add tools support."
 msgstr "Adiciona suporte à ferramentas."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:33
+#: widgets/whatsnew/whatsnewtranslations.cpp:55
+#, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Permite alternar entre identificador de bate-papo."
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:34
+#: widgets/whatsnew/whatsnewtranslations.cpp:56
+#, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Adiciona ferramenta de data e hora atual"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:35
+#: widgets/whatsnew/whatsnewtranslations.cpp:57
+#, kde-format
 msgid "Add progress tool message info."
 msgstr "Adiciona mensagem informativa do progresso de ferramenta"
 
-#: widgets/whatsnew/whatsnewtranslations.cpp:46
-#, kde-format
-msgid "Add what's new support."
-msgstr "Adiciona suporte a 'O que há de novo'."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:47
-#, kde-format
-msgid "Add instance support."
-msgstr "Adiciona suporte à instância."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:48
-#, kde-format
-msgid "Add Mardown support."
-msgstr "Adiciona suporte ao Markdown."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:49
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "Adiciona suporte ao realce."
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:52
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "Corrige permissão para excluir bate-papo. Bug %1"
-
-#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#: widgets/whatsnew/whatsnewtranslations.cpp:60
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Correção do ícone no Windows."
 
-#: widgets/whatsnew/whatsnewwidget.cpp:46
+#: widgets/whatsnew/whatsnewwidget.cpp:45
 #, kde-format
 msgid "All Versions"
 msgstr "Todas as versões"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:49
+#: widgets/whatsnew/whatsnewwidget.cpp:48
 #, kde-format
 msgid "Version %1"
 msgstr "Versão %1"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:93
+#: widgets/whatsnew/whatsnewwidget.cpp:92
 #, kde-format
 msgid "Important changes since last version:"
 msgstr "Mudanças importantes desde a última versão:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:98
+#: widgets/whatsnew/whatsnewwidget.cpp:97
 #, kde-format
 msgid "Some of the new features in this release of KAIchat include:"
 msgstr "Algumas novas funcionalidades desta versão do KAIchat incluem:"
 
-#: widgets/whatsnew/whatsnewwidget.cpp:103
+#: widgets/whatsnew/whatsnewwidget.cpp:102
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Algumas correções de erro:"
