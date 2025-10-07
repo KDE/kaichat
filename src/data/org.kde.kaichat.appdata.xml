@@ -11,6 +11,7 @@
     <name translate="no">KDE</name>
   </developer>
   <name>KAIChat</name>
+  <name xml:lang="ar">كتشات</name>
   <name xml:lang="ca">KAIChat</name>
   <name xml:lang="ca-valencia">KAIChat</name>
   <name xml:lang="de">KAIChat</name>
@@ -33,6 +34,7 @@
   <name xml:lang="zh-CN">KAIChat</name>
   <name xml:lang="zh-TW">KAIChat</name>
   <summary>AI Chat</summary>
+  <summary xml:lang="ar">دردشة للذكاء الاصطناعي</summary>
   <summary xml:lang="ca">Xat d'IA</summary>
   <summary xml:lang="ca-valencia">Xat d'IA</summary>
   <summary xml:lang="de">KI-Chat</summary>
@@ -58,6 +60,7 @@
     <p>
       KAIChat is an AI Chat.
     </p>
+    <p xml:lang="ar">كتشات عميل دردشة للذكاء الاصطناعي.</p>
     <p xml:lang="ca">KAIChat és un xat d'IA.</p>
     <p xml:lang="ca-valencia">KAIChat és un xat d'IA.</p>
     <p xml:lang="de">KAIChat ist ein KI-Chat.</p>
