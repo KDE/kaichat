@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-07 00:47+0000\n"
-"PO-Revision-Date: 2025-10-02 10:35+0200\n"
+"PO-Revision-Date: 2025-10-07 23:35+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -176,10 +176,9 @@ msgid "Configure Date Time Tool"
 msgstr "Hulpmiddel voor datum tijd configureren"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Huidige datum tijd ophalen"
+msgstr "Huidige datum tijd ophalen."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format

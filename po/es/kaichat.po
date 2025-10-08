@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-07 00:47+0000\n"
-"PO-Revision-Date: 2025-10-02 18:53+0100\n"
+"PO-Revision-Date: 2025-10-07 04:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -178,10 +178,9 @@ msgid "Configure Date Time Tool"
 msgstr "Configurar la herramienta de fecha y hora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Obtener fecha y hora actual"
+msgstr "Obtener fecha y hora actual."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format

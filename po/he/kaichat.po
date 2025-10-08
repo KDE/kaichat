@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-07 00:47+0000\n"
-"PO-Revision-Date: 2025-10-04 10:52+0300\n"
+"PO-Revision-Date: 2025-10-07 08:52+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -176,10 +176,9 @@ msgid "Configure Date Time Tool"
 msgstr "כלי הגדרת תאריך ושעה"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "משיכת התאריך והשעה הנוכחיים"
+msgstr "משיכת התאריך והשעה הנוכחיים."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
