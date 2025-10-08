@@ -8,6 +8,7 @@
         "Description[eu]": "Plugin honek testua webean galdetzeko aukera ematen dizu.",
         "Description[nl]": "Deze plug-in biedt u het vragen aan het web.",
         "Description[pt_BR]": "Este plugin permite que você faça perguntas na web.",
+        "Description[sl]": "Ta vtičnik vam dovoljuje spraševanje na spletu.",
         "Description[sv]": "Insticksprogrammet låter dig fråga på webben.",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
@@ -18,6 +19,7 @@
         "Name[eu]": "Web lasterbidea",
         "Name[nl]": "Websneltoets",
         "Name[pt_BR]": "Atalho web",
+        "Name[sl]": "Spletna bližnjica",
         "Name[sv]": "Webbgenvägar",
         "Version": "1.0"
     }

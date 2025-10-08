@@ -8,6 +8,7 @@
         "Description[eu]": "Plugin honek testua partekatzeko aukera ematen dizu.",
         "Description[nl]": "Deze plug-in biedt u het delen van tekst.",
         "Description[pt_BR]": "Este plugin permite que você compartilhe texto.",
+        "Description[sl]": "Ta vtičnik dovoljuje deljenje besedila.",
         "Description[sv]": "Insticksprogrammet gör det möjligt att dela text.",
         "EnabledByDefault": true,
         "Name": "Share Text",
@@ -18,6 +19,7 @@
         "Name[eu]": "Testua partekatu",
         "Name[nl]": "Gedeelde tekst",
         "Name[pt_BR]": "Compartilhar texto",
+        "Name[sl]": "Deli besedilo",
         "Name[sv]": "Dela text",
         "Version": "1.0"
     }
