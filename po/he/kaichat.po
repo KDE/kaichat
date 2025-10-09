@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-07 00:47+0000\n"
+"POT-Creation-Date: 2025-10-09 00:46+0000\n"
 "PO-Revision-Date: 2025-10-07 08:52+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -426,6 +426,10 @@ msgstr "(הצגת חדשות)"
 #, kde-format
 msgid "What's new in %2. %1"
 msgstr "מה חדש ב־%2. %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:17
+msgid "Allow to copy block code to clipboard."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
 #, kde-format

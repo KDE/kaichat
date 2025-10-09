@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-07 00:47+0000\n"
+"POT-Creation-Date: 2025-10-09 00:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -423,6 +423,10 @@ msgstr "(显示新闻)"
 #, kde-format
 msgid "What's new in %2. %1"
 msgstr "%2. %1 的新功能"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:17
+msgid "Allow to copy block code to clipboard."
+msgstr ""
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:27
 #, kde-format
