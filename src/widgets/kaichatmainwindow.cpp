@@ -144,6 +144,10 @@ void KAIChatMainWindow::setupActions()
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
 
+    auto searchInDataBaseAction = new QAction(i18nc("@action", "Search in Database…"), this);
+    ac->addAction(u"search_in_database"_s, searchInDataBaseAction);
+    connect(searchInDataBaseAction, &QAction::triggered, this, &KAIChatMainWindow::slotSearchText);
+
     KStandardAction::find(this, &KAIChatMainWindow::slotSearchText, ac);
 
     auto manager = KColorSchemeManager::instance();
