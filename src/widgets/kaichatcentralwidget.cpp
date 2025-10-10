@@ -7,14 +7,14 @@
 #include "kaichatcentralwidget.h"
 #include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
-#include "needupdateversion/needupdateversionwidget.h"
-#include "whatsnew/whatsnewmessagewidget.h"
-#include "whatsnew/whatsnewtranslations.h"
 #include <QVBoxLayout>
+#include <TextAddonsWidgets/WhatsNewMessageWidget>
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
 #include <TextAutoGenerateText/TextAutoGenerateStackWidget>
+// #include <TextAddonsWidgets/whatsnewtranslations>
+#include <TextAddonsWidgets/NeedUpdateVersionWidget>
 using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
@@ -26,14 +26,14 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     mainLayout->setContentsMargins({});
     mainLayout->setSpacing(0);
 
-    WhatsNewTranslations translations;
-    const QString newFeaturesMD5 = translations.newFeaturesMD5();
+    // WhatsNewTranslations translations;
+    const QString newFeaturesMD5; // TODO = translations.newFeaturesMD5();
     if (!newFeaturesMD5.isEmpty()) {
         const QString previousNewFeaturesMD5 = KAIChatGlobalConfig::self()->previousNewFeaturesMD5();
         if (!previousNewFeaturesMD5.isEmpty()) {
             const bool hasNewFeature = (previousNewFeaturesMD5 != newFeaturesMD5);
             if (hasNewFeature) {
-                auto whatsNewMessageWidget = new WhatsNewMessageWidget(this);
+                auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageWidget(this);
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
@@ -47,10 +47,10 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     mTextAutogenerateWidget->setObjectName("mTextAutogenerateWidget"_L1);
     mainLayout->addWidget(mTextAutogenerateWidget);
 
-    if (NeedUpdateVersionUtils::checkVersion()) {
-        const auto status = NeedUpdateVersionUtils::obsoleteVersionStatus(QLatin1StringView(KAICHAT_RELEASE_VERSION), QDate::currentDate());
-        if (status != NeedUpdateVersionUtils::ObsoleteVersion::NotObsoleteYet) {
-            auto needUpdateVersionWidget = new NeedUpdateVersionWidget(this);
+    if (TextAddonsWidgets::NeedUpdateVersionUtils::checkVersion()) {
+        const auto status = TextAddonsWidgets::NeedUpdateVersionUtils::obsoleteVersionStatus(QLatin1StringView(KAICHAT_RELEASE_VERSION), QDate::currentDate());
+        if (status != TextAddonsWidgets::NeedUpdateVersionUtils::ObsoleteVersion::NotObsoleteYet) {
+            auto needUpdateVersionWidget = new TextAddonsWidgets::NeedUpdateVersionWidget(this);
             needUpdateVersionWidget->setObjectName(u"needUpdateVersionWidget"_s);
             mainLayout->insertWidget(0, needUpdateVersionWidget);
             needUpdateVersionWidget->setObsoleteVersion(status);

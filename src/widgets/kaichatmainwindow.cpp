@@ -14,12 +14,12 @@
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
 #include "kaichatutils.h"
-#include "whatsnew/whatsnewdialog.h"
 #include <QLabel>
+#include <TextAddonsWidgets/WhatsNewDialog>
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-#include "verifynewversionwidget/verifynewversionwidgetaction.h"
+#include <TextAddonsWidgets/VerifyNewVersionWidget>
 #endif
-
+#include "kaichatwhatsnewtranslations.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>
@@ -57,7 +57,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
     , mMainWidget(new KAIChatCentralWidget(mManager, this))
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-    , mVerifyNewVersionWidgetAction(new VerifyNewVersionWidgetAction(this))
+    , mVerifyNewVersionWidgetAction(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
 {
     mMainWidget->setObjectName(u"mMainWidget"_s);
@@ -199,7 +199,8 @@ void KAIChatMainWindow::slotQuickAsk()
 
 void KAIChatMainWindow::slotWhatsNew()
 {
-    WhatsNewDialog dlg(this);
+    KAIChatWhatsNewTranslations translations;
+    TextAddonsWidgets::WhatsNewDialog dlg(translations.createWhatsNewInfo(), this);
     dlg.updateInformations();
     dlg.exec();
 }

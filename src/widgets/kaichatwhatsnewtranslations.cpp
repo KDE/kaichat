@@ -1,28 +1,27 @@
 /*
-   SPDX-FileCopyrightText: 2024-2025 Laurent Montel <montel@kde.org>
+   SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-#include "whatsnewtranslations.h"
+#include "kaichatwhatsnewtranslations.h"
 using namespace Qt::Literals::StringLiterals;
+KAIChatWhatsNewTranslations::KAIChatWhatsNewTranslations() = default;
 
-WhatsNewTranslations::WhatsNewTranslations() = default;
-
-WhatsNewTranslations::~WhatsNewTranslations() = default;
+KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 
 // Use by newFeaturesMD5
-QList<KLazyLocalizedString> WhatsNewTranslations::lastNewFeatures() const
+QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
     const QList<KLazyLocalizedString> info{kli18n("Allow to copy block code to clipboard.")};
     return info;
 }
 
-QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
+QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsNewInfo() const
 {
-    QList<WhatsNewInfo> listInfo;
+    QList<TextAddonsWidgets::WhatsNewInfo> listInfo;
     {
-        WhatsNewInfo info;
+        TextAddonsWidgets::WhatsNewInfo info;
         info.setNewFeatures({
             i18n("Add what's new support."),
             i18n("Add instance support."),
@@ -35,7 +34,7 @@ QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
         listInfo.append(std::move(info));
     }
     {
-        WhatsNewInfo info;
+        TextAddonsWidgets::WhatsNewInfo info;
         info.setNewFeatures({
             i18n("Add Quick Ask Dialog."),
             i18n("Allow to download Ollama on Windows/MacOs."),
@@ -62,7 +61,7 @@ QList<WhatsNewInfo> WhatsNewTranslations::createWhatsNewInfo() const
         listInfo.append(std::move(info));
     }
     {
-        WhatsNewInfo info;
+        TextAddonsWidgets::WhatsNewInfo info;
         QStringList lst;
         for (const KLazyLocalizedString &l : lastNewFeatures()) {
             lst += l.toString();

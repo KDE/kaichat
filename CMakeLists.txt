@@ -77,7 +77,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.8.0")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "1.8.44")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 find_package(
@@ -113,6 +113,16 @@ set_package_properties(
             "Required for building AI plugins support"
         DESCRIPTION
             "Use AI plugin"
+)
+
+find_package(KF6TextAddonsWidgets ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(
+    KF6TextAddonsWidgets
+    PROPERTIES
+        DESCRIPTION
+            "Add text addons widget"
+        TYPE
+            REQUIRED
 )
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")

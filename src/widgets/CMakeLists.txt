@@ -34,36 +34,8 @@ target_sources(
         kaichatconfigureinstanceswidget.cpp
         kaichatutils.h
         kaichatutils.cpp
-        whatsnew/whatsnewdialog.h
-        whatsnew/whatsnewdialog.cpp
-        whatsnew/whatsnewwidget.h
-        whatsnew/whatsnewwidget.cpp
-        whatsnew/whatsnewmessagewidget.h
-        whatsnew/whatsnewmessagewidget.cpp
-        whatsnew/whatsnewcomboboxwidget.h
-        whatsnew/whatsnewcomboboxwidget.cpp
-        whatsnew/whatsnewtranslationbase.h
-        whatsnew/whatsnewtranslationbase.cpp
-        whatsnew/whatsnewinfo.h
-        whatsnew/whatsnewinfo.cpp
-        whatsnew/whatsnewtranslations.h
-        whatsnew/whatsnewtranslations.cpp
-        verifynewversionwidget/verifynewversionwidget.h
-        verifynewversionwidget/verifynewversionwidget.cpp
-        verifynewversionwidget/verifynewversiondialog.h
-        verifynewversionwidget/verifynewversiondialog.cpp
-        verifynewversionwidget/verifynewversionwidgetaction.cpp
-        verifynewversionwidget/verifynewversionwidgetaction.h
-        needupdateversion/needupdateversionwidget.h
-        needupdateversion/needupdateversionwidget.cpp
-        needupdateversion/needupdateversionutils.h
-        needupdateversion/needupdateversionutils.cpp
-        needupdateversion/needupdateparsehtmljob.h
-        needupdateversion/needupdateparsehtmljob.cpp
-        needupdateversion/needupdateparsehtmlutil.h
-        needupdateversion/needupdateparsehtmlutil.cpp
-        needupdateversion/needupdatecheckexistingnewversionjob.h
-        needupdateversion/needupdatecheckexistingnewversionjob.cpp
+        kaichatwhatsnewtranslations.h
+        kaichatwhatsnewtranslations.cpp
 )
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
@@ -90,6 +62,7 @@ target_link_libraries(
     KF6::SonnetUi
     KF6::Notifications
     KF6::NotifyConfig
+    KF6::TextAddonsWidgets
     libkaichatcore
 )
 set_target_properties(
@@ -110,10 +83,3 @@ install(
     LIBRARY
         NAMELINK_SKIP
 )
-
-if(BUILD_TESTING)
-    add_subdirectory(whatsnew/autotests)
-    add_subdirectory(needupdateversion/autotests)
-    add_subdirectory(needupdateversion/tests)
-    add_subdirectory(verifynewversionwidget/autotests)
-endif()

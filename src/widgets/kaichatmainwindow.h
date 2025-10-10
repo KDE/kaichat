@@ -17,7 +17,10 @@ class KAIChatChangeFontSizeMenu;
 class QCommandLineParser;
 class QLabel;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-class VerifyNewVersionWidgetAction;
+namespace TextAddonsWidgets
+{
+class VerifyNewVersionWidget;
+}
 #endif
 namespace TextAutoGenerateText
 {
@@ -67,6 +70,6 @@ private:
     KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
     QLabel *mToolProgressInfo = nullptr;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-    VerifyNewVersionWidgetAction *const mVerifyNewVersionWidgetAction;
+    TextAddonsWidgets::VerifyNewVersionWidget *const mVerifyNewVersionWidgetAction;
 #endif
 };
