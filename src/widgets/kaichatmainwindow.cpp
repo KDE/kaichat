@@ -178,7 +178,7 @@ void KAIChatMainWindow::setupActions()
         });
     }
 
-    mShowQuickAskAction = new QAction(i18n("Open Quick Ask..."), this);
+    mShowQuickAskAction = new QAction(i18nc("@action", "Open Quick Ask…"), this);
     ac->addAction(u"show_quick_ask"_s, mShowQuickAskAction);
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
 
