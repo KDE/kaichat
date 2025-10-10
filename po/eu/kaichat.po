@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-09 00:46+0000\n"
+"POT-Creation-Date: 2025-10-10 09:56+0000\n"
 "PO-Revision-Date: 2025-10-02 21:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -298,12 +298,21 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Erakutsi artxiboa"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
-msgid "Open Quick Ask..."
-msgstr "Ireki Galdera azkarra..."
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "Ireki Galdera azkarra"
+
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -312,24 +321,24 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esportatu berriketak"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:367
 #, kde-format
 msgid "Model Download Done"
 msgstr "Eredua zama-jaistea burutu da"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model %1 was download."
 msgstr "%1 eredua zama-jaitsi da."
@@ -340,26 +349,32 @@ msgstr "%1 eredua zama-jaitsi da."
 msgid "&Settings"
 msgstr "E&zarpenak"
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
 msgstr "Ikuspegia"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
 msgstr "Tresnak"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
 msgstr "&Laguntza"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:34
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Tresna-barra nagusia"
@@ -593,6 +608,9 @@ msgstr "KAIchat-en argitalpen berri honetako ezaugarri berrien artean daude:"
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Akatsak konponketa batzuk:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

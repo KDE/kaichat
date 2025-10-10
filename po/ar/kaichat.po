@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-09 00:46+0000\n"
+"POT-Creation-Date: 2025-10-10 09:56+0000\n"
 "PO-Revision-Date: 2025-10-08 21:41+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -295,36 +295,45 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "أَرِشِف"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
-msgid "Open Quick Ask..."
-msgstr "اِفتح السؤال السريع..."
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "اِفتح السؤال السريع"
+
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>سيُخفِي هذا شريط القوائم كُليًّا. أَظهِره مُجدَّدًا بِطِباعَة %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "أَخفِ شريط القوائم"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "صَدِّر الدردشات"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:367
 #, kde-format
 msgid "Model Download Done"
 msgstr "نَزِّل النموذج"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model %1 was download."
 msgstr "نَزِّل النموذج %1."
@@ -335,26 +344,32 @@ msgstr "نَزِّل النموذج %1."
 msgid "&Settings"
 msgstr "الإعدادات"
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
 msgstr "اِعرض"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
 msgstr "الأدوات"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
 msgstr "المُساعدة"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:34
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
 msgstr "شريط الأدوات الرئيسي"
@@ -574,3 +589,6 @@ msgstr "تتضمَّن بعض الميزات الجديدة في إصدار كت
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "بعض إصلاحات العِلَل:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "اِفتح السؤال السريع..."

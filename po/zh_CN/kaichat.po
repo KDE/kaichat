@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-09 00:46+0000\n"
+"POT-Creation-Date: 2025-10-10 09:56+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -294,36 +294,45 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "显示归档"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
-msgid "Open Quick Ask..."
-msgstr "打开 Quick Ask..."
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "打开 Quick Ask"
+
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "导出聊天"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:367
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下载完成"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model %1 was download."
 msgstr "模型 %1 已下载。"
@@ -334,26 +343,32 @@ msgstr "模型 %1 已下载。"
 msgid "&Settings"
 msgstr "设置(&S)"
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
 msgstr "查看"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
 msgstr "帮助(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:34
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具栏"
@@ -573,3 +588,6 @@ msgstr "此版本 KAIchat 所包含的的部分新特性包括："
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "修复了一些问题："
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "打开 Quick Ask..."

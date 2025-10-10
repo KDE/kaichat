@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-09 00:46+0000\n"
+"POT-Creation-Date: 2025-10-10 09:56+0000\n"
 "PO-Revision-Date: 2025-10-07 04:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -297,12 +297,21 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
-msgid "Open Quick Ask..."
-msgstr "Abrir pregunta rápida…"
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "Abrir pregunta rápida"
+
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -311,24 +320,24 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar la barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar conversaciones"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:367
 #, kde-format
 msgid "Model Download Done"
 msgstr "Descarga de modelo terminada"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Se ha descargado el modelo %1."
@@ -339,26 +348,32 @@ msgstr "Se ha descargado el modelo %1."
 msgid "&Settings"
 msgstr "&Preferencias"
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
 msgstr "Ver"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
 msgstr "Herramientas"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
 msgstr "A&yuda"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:34
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra de herramientas principal"
@@ -589,3 +604,6 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Algunas correcciones de errores:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Abrir pregunta rápida…"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-09 00:46+0000\n"
+"POT-Creation-Date: 2025-10-10 09:56+0000\n"
 "PO-Revision-Date: 2025-10-09 07:12+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -295,12 +295,21 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Prikaži arhiv"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
-msgid "Open Quick Ask..."
-msgstr "Odpri hitro vprašanje..."
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:185
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "Odpri hitro vprašanje"
+
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -309,24 +318,24 @@ msgstr ""
 "<qt>To bo popolnoma skrilo menijsko vrstico. Ponovno jo lahko prikažete "
 "tako, da vtipkate %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skrij menijsko vrstico"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:367
 #, kde-format
 msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Model %1 je bil prenesen."
@@ -337,26 +346,32 @@ msgstr "Model %1 je bil prenesen."
 msgid "&Settings"
 msgstr "Nastavitve"
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
 msgstr "Pogled"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
 msgstr "Orodja"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
 msgstr "Pomoč"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:34
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Glavna orodna vrstica"
@@ -582,6 +597,9 @@ msgstr "Nekaj novih zmožnosti v tej izdaji KAIchata vsebuje:"
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Nekaj popravkov napak:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Odpri hitro vprašanje..."
 
 #~ msgid "The name of the city"
 #~ msgstr "Ime mesta"
