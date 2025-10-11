@@ -3,8 +3,6 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 # SPDX-FileCopyrightText: 2025 oneway <onewayme001@posteo.de>
-# Automatically generated, 2025.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
@@ -23,7 +21,7 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Deutsches KDE-Übersetzungsteam"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
