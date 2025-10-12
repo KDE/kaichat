@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-09 09:54+0200\n"
+"PO-Revision-Date: 2025-10-11 13:03+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -300,15 +300,13 @@ msgstr "Mostra l'arxiu"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Cerca a la base de dades…"
 
 #: widgets/kaichatmainwindow.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Obre una pregunta ràpida"
+msgstr "Obre una pregunta ràpida…"
 
 #: widgets/kaichatmainwindow.cpp:273
 #, kde-format
@@ -351,7 +349,7 @@ msgstr "&Configuració"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Edita"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -509,18 +507,17 @@ msgstr "Corregeix una icona al Windows."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "Permet exportar text als connectors d'editor generats automàticament."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Afegeix un giny nou d'actualització."
+msgstr "Afegeix un giny nou què hi ha de nou."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Connector nou: mostra la mida de la col·lecció."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

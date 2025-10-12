@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-09-20 16:44+0200\n"
+"PO-Revision-Date: 2025-10-09 18:26+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -158,42 +158,42 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Data e ora attuali"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Ottieni data e ora attuali"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Utilizzare questo strumento per ottenere la data e l'ora attuali"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Configura strumento di data e ora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr ""
+msgstr "Ottieni data e ora attuali."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "L'ora attuale è %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "La data attuale è %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "La data e l'ora attuali sono %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -378,7 +378,7 @@ msgstr "Barra degli strumenti principale"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Consenti di copiare il codice del blocco negli appunti."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
@@ -495,12 +495,12 @@ msgstr "Consente di passare dall'identificatore di chat."
 #: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Aggiungi lo strumento Data e ora attuali."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Aggiungi informazioni sul messaggio dello strumento di avanzamento."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format

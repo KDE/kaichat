@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-10 20:21+0100\n"
+"PO-Revision-Date: 2025-10-11 12:07+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -509,80 +509,15 @@ msgstr "Corregir icono de Windows."
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Permitir exportación de texto en los complementos de generación automática "
+"del editor."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Añadir nuevo elemento de actualización."
+msgstr "Añadir nuevo elemento de novedades."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Desactivar comprobación de la versión"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Su versión tiene más de 6 meses de antigüedad, le recomendamos que "
-#~ "actualice."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Su versión tiene más de 1 año de antigüedad, le recomendamos "
-#~ "encarecidamente que actualice."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "Hay una nueva versión. Pulse <a href=\"%1\">aquí</a> para descargarla."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "No hay ninguna versión nueva. Puede encontrar la compilación <a href="
-#~ "\"%1\">aquí</a>."
-
-#~ msgid "Check New Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Versión:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Novedades de %1"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Mostrar novedades)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Novedades de %2. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Todas las versiones"
-
-#~ msgid "Version %1"
-#~ msgstr "Versión %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Cambios importantes desde la última versión:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "Algunas de las nuevas funcionalidades en esta versión de KAIchat incluyen:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Algunas correcciones de errores:"
+msgstr "Nuevo complemento: mostrar el tamaño de la colección."

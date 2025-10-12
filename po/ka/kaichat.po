@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-11 03:40+0200\n"
+"PO-Revision-Date: 2025-10-11 12:43+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -505,18 +505,17 @@ msgstr "გასწორდა ხატულა ფანჯრებზე.
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "ტექსტის გატანის დაშვება ავტოგენერაციის რედაქტორის დამატებებში."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "ახალი განახლების ვიჯეტის დამატება."
+msgstr "ახალი სიახლეების ვიჯეტის დამატება."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "ახალი დამატება: კოლექციის ზომის ჩვენება."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

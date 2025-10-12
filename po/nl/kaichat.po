@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-09 21:45+0200\n"
+"PO-Revision-Date: 2025-10-11 18:19+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -299,15 +299,13 @@ msgstr "Archief tonen"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "In database zoeken…"
 
 #: widgets/kaichatmainwindow.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Snel vragen openen"
+msgstr "Snel vragen openen…"
 
 #: widgets/kaichatmainwindow.cpp:273
 #, kde-format
@@ -350,7 +348,7 @@ msgstr "In&stellingen"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "B&ewerken"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -506,17 +504,17 @@ msgstr "Pictogram op vensters repareren"
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Toestaan tekst te exporteren in automatisch gegenereerde editor-plugins."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Nieuw widget voor bijwerken toevoegen."
+msgstr "Nieuw widget Wat-is-nieuw toevoegen."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Nieuwe plug-in: grootte van verzameling tonen."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
