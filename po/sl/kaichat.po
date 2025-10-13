@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-10 22:41+0200\n"
+"PO-Revision-Date: 2025-10-12 09:11+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -504,17 +504,17 @@ msgstr "Fiksiraj ikono na oknih."
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Dovoli izvoz v vtičnikih urejevalnika za samodejno generiranje besedil."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Dodaj nov gradnik za posodobitve."
+msgstr "Dodaj nov gradnik kaj je novega."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Novi vtičnik: prikaži velikost zbirke."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-07 09:33+0200\n"
+"PO-Revision-Date: 2025-10-11 13:03+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -300,15 +300,13 @@ msgstr "Mostra l'arxiu"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Busca en la base de dades…"
 
 #: widgets/kaichatmainwindow.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Obri una pregunta ràpida"
+msgstr "Obri una pregunta ràpida…"
 
 #: widgets/kaichatmainwindow.cpp:273
 #, kde-format
@@ -351,7 +349,7 @@ msgstr "Con&figuració"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Edita"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -379,7 +377,7 @@ msgstr "Barra d'eines principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Permet copiar blocs de codi al porta-retalls."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
@@ -509,84 +507,14 @@ msgstr "Corregix una icona en Windows."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "Permet exportar text als connectors d'editor generats automàticament."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Afig un giny nou d'actualització."
+msgstr "Afig un giny nou què hi ha de nou."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Desactiva la comprovació de la versió"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Comprova si hi ha una versió nova"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Esta versió té més de 6 mesos d'antiguitat, us animem que l'actualitzeu."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Esta versió té més d'un any d'antiguitat, us animem completament que "
-#~ "l'actualitzeu."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "S'ha trobat una versió nova. Cliqueu <a href=\"%1\">ací</a> per a baixar-"
-#~ "la."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "No s'ha trobat cap versió nova. La construcció es pot trobar <a href="
-#~ "\"%1\">ací</a>."
-
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Versió:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Què hi ha de nou en %1"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Mostra les novetats)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Què hi ha de nou en %2. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Totes les versions"
-
-#~ msgid "Version %1"
-#~ msgstr "Versió %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Canvis importants des de l'última versió:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "Algunes de les característiques noves d'esta versió de KAIChat inclouen:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Esmena d'errors:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Obri una pregunta ràpida…"
+msgstr "Connector nou: mostra la mida de la col·lecció."
