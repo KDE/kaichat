@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-09-04 10:39+0300\n"
+"PO-Revision-Date: 2025-10-02 18:11+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -61,7 +61,7 @@ msgstr "Seuraavat ilmentymät ovat käytettävissä:"
 #: apps/main.cpp:100
 #, kde-format
 msgid "List of Chats:"
-msgstr ""
+msgstr "Keskusteluluettelo:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -94,12 +94,10 @@ msgid "Switch to Chat"
 msgstr "Vaihda keskusteluun"
 
 #: core/kaichatcommandlineparser.cpp:31
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Vaihda keskusteluun"
+msgstr "Vaihda keskusteluun tunnisteen mukaan"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -111,7 +109,7 @@ msgstr "Kysy viestiä"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr ""
+msgstr "Palaa keskusteluluetteloon"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -334,12 +332,12 @@ msgstr "Vie keskusteluja"
 #: widgets/kaichatmainwindow.cpp:368
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "Mallin lataus valmis"
 
 #: widgets/kaichatmainwindow.cpp:369
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "Malli %1 ladattiin."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
@@ -462,34 +460,32 @@ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
 #: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add Notification popup when model download done."
-msgstr ""
+msgstr "Lisää ilmoitus, kun mallin lataus on valmistunut."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
-msgstr ""
+msgstr "Salli tallentaa ja palauttaa tekstin ja vierityspalkin sijainti."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Allow to save and restore current chat."
-msgstr ""
+msgstr "Salli tallentaa ja palauttaa nykyinen keskustelu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "Lisää valinta keskusteluotsikoiden näyttämiseksi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:53
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "Add tools support."
-msgstr "Lisää Markdown-tuki."
+msgstr "Lisää työkalutuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:54
-#, fuzzy, kde-format
-#| msgid "Allow to change font size."
+#, kde-format
 msgid "Allow to switch from chat identifier."
-msgstr "Salli fonttikoon muuttaminen."
+msgstr "Salli vaihto keskustelutunnisteesta."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-11 09:09+0000\n"
-"PO-Revision-Date: 2025-10-07 08:52+0300\n"
+"PO-Revision-Date: 2025-10-12 08:56+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -299,15 +299,13 @@ msgstr "הצגת ארכיון"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "חיפוש במסד הנתונים…"
 
 #: widgets/kaichatmainwindow.cpp:185
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "פתיחת שאלה מהירה"
+msgstr "פתיחת שאלה מהירה…"
 
 #: widgets/kaichatmainwindow.cpp:273
 #, kde-format
@@ -350,7 +348,7 @@ msgstr "ה&גדרות"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&עריכה"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -378,7 +376,7 @@ msgstr "סרגל כלים ראשי"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "לאפשר העתקת קטעי קוד ללוח הגזירים."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
@@ -503,18 +501,17 @@ msgstr "תוקן הסמל ב־Windows."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "לאפשר לייצא טקסט בתוספי עורך ליצירה אוטומטית."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "הוספת וידג׳ט עדכון חדש."
+msgstr "הוספת וידג׳ט חדש להצגת מה חדש."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "תוסף חדש: הצגת גודל אוסף."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
