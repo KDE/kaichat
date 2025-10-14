@@ -13,7 +13,7 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{kli18n("Allow to copy block code to clipboard.")};
+    const QList<KLazyLocalizedString> info{kli18n("Allow to copy block code to clipboard."), kli18n("Show number of string found in statusbar.")};
     return info;
 }
 
