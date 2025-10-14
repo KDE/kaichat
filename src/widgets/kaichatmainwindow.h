@@ -56,7 +56,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotDownloadModelFinished(const QString &modelName);
     LIBKAICHATWIDGETS_NO_EXPORT void slotConfigureNotifications();
     LIBKAICHATWIDGETS_NO_EXPORT void setupStatusBar();
-    LIBKAICHATWIDGETS_NO_EXPORT void slotToolProgressInfoChanged(const QString &str);
+    LIBKAICHATWIDGETS_NO_EXPORT void slotStatusBarInfoChanged(const QString &str);
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;

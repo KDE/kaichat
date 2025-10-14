@@ -75,7 +75,14 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::loadEngineDone, this, &KAIChatMainWindow::updateActions);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::currentChatIdChanged, this, &KAIChatMainWindow::updateActions);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::downloadModelFinished, this, &KAIChatMainWindow::slotDownloadModelFinished);
-    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::toolInProgress, this, &KAIChatMainWindow::slotToolProgressInfoChanged);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::toolInProgress, this, &KAIChatMainWindow::slotStatusBarInfoChanged);
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::numberOfSearchStringChanged, this, [this](int number) {
+        if (number > 0) {
+            slotStatusBarInfoChanged(i18n("%1 string found.", number));
+        } else {
+            slotStatusBarInfoChanged({});
+        }
+    });
     disableActions();
 }
 
@@ -94,7 +101,7 @@ void KAIChatMainWindow::setupStatusBar()
     statusBar()->addPermanentWidget(mToolProgressInfo, 1);
 }
 
-void KAIChatMainWindow::slotToolProgressInfoChanged(const QString &str)
+void KAIChatMainWindow::slotStatusBarInfoChanged(const QString &str)
 {
     mToolProgressInfo->setText(str);
 }
