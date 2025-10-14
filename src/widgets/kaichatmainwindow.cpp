@@ -78,7 +78,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::toolInProgress, this, &KAIChatMainWindow::slotStatusBarInfoChanged);
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::numberOfSearchStringChanged, this, [this](int number) {
         if (number > 0) {
-            slotStatusBarInfoChanged(i18n("%1 string found.", number));
+            slotStatusBarInfoChanged(i18np("%1 string found.", "%1 strings found.", number));
         } else {
             slotStatusBarInfoChanged({});
         }
