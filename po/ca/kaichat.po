@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-11 09:09+0000\n"
+"POT-Creation-Date: 2025-10-15 00:46+0000\n"
 "PO-Revision-Date: 2025-10-11 13:03+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -285,30 +285,37 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
-#: widgets/kaichatmainwindow.cpp:135
+#: widgets/kaichatmainwindow.cpp:81
+#, kde-format
+msgid "%1 string found."
+msgid_plural "%1 strings found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgid "What's new"
 msgstr "Què hi ha de nou"
 
-#: widgets/kaichatmainwindow.cpp:139
+#: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:147
+#: widgets/kaichatmainwindow.cpp:154
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Cerca a la base de dades…"
 
-#: widgets/kaichatmainwindow.cpp:185
+#: widgets/kaichatmainwindow.cpp:192
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Obre una pregunta ràpida…"
 
-#: widgets/kaichatmainwindow.cpp:273
+#: widgets/kaichatmainwindow.cpp:280
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -317,24 +324,24 @@ msgstr ""
 "<qt>Això ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:276
+#: widgets/kaichatmainwindow.cpp:283
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:317
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporta xats"
 
-#: widgets/kaichatmainwindow.cpp:368
+#: widgets/kaichatmainwindow.cpp:375
 #, kde-format
 msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
-#: widgets/kaichatmainwindow.cpp:369
+#: widgets/kaichatmainwindow.cpp:376
 #, kde-format
 msgid "Model %1 was download."
 msgstr "S'ha baixat el model %1."
@@ -379,72 +386,80 @@ msgstr "Barra d'eines principal"
 msgid "Allow to copy block code to clipboard."
 msgstr "Permet copiar blocs de codi al porta-retalls."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:26
+#: widgets/kaichatwhatsnewtranslations.cpp:17
+msgid "Show number of string found in statusbar."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:18
+msgid "Implement quick search."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add what's new support."
 msgstr "Afegeix la implementació de Què hi ha de nou."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:27
+#: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add instance support."
 msgstr "Afegeix la implementació d'instàncies."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:28
+#: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Afegeix la implementació del Markdown."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:29
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Afegeix la implementació del ressaltat."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Corregeix permetre la supressió de xat. Error %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:39
+#: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Afegeix el diàleg de pregunta ràpida."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:40
+#: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Permet baixar l'Ollama en Windows/MacOs."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:41
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Usa un indicador durant el xat."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Afegit el text compartit i el connector de dreceres web."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Permet configurar connectors."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add new update widget."
 msgstr "Afegeix un giny nou d'actualització."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Afegeix un indicador de progrés a la llista de xats."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Permet canviar la mida de la lletra."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -452,55 +467,55 @@ msgstr ""
 "Afegeix una línia d'ordres per afegir una sala de xat nova, mostrant la "
 "llista d'instàncies."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Afegeix la implementació de la verificació ortogràfica."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Afegeix una finestra emergent de notificació quan s'ha efectuat la baixada "
 "del model."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Permet desar i restaurar el text i la posició de la barra de desplaçament."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Permet desar i restaurar el xat actual."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Afegeix una opció per a mostrar la llista dels títols dels xats."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add tools support."
 msgstr "Afegeix la implementació d'eines."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Permet canviar a partir d'un identificador de xat."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Afegeix l'eina de data i hora actuals."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Afegeix informació del missatge de progrés de l'eina."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregeix una icona al Windows."

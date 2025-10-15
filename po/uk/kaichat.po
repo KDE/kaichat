@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-11 09:09+0000\n"
+"POT-Creation-Date: 2025-10-15 00:46+0000\n"
 "PO-Revision-Date: 2025-10-11 16:28+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -284,30 +284,39 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:135
+#: widgets/kaichatmainwindow.cpp:81
+#, kde-format
+msgid "%1 string found."
+msgid_plural "%1 strings found."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:139
+#: widgets/kaichatmainwindow.cpp:146
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:147
+#: widgets/kaichatmainwindow.cpp:154
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:185
+#: widgets/kaichatmainwindow.cpp:192
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:273
+#: widgets/kaichatmainwindow.cpp:280
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -316,24 +325,24 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:276
+#: widgets/kaichatmainwindow.cpp:283
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:317
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:368
+#: widgets/kaichatmainwindow.cpp:375
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:369
+#: widgets/kaichatmainwindow.cpp:376
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Модель %1 отримано."
@@ -378,72 +387,80 @@ msgstr "Головна панель"
 msgid "Allow to copy block code to clipboard."
 msgstr "Уможливлено копіювання блоків коду до буфера обміну даними."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:26
+#: widgets/kaichatwhatsnewtranslations.cpp:17
+msgid "Show number of string found in statusbar."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:18
+msgid "Implement quick search."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add what's new support."
 msgstr "Додано підтримку показу новин щодо програми."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:27
+#: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add instance support."
 msgstr "Додано підтримку екземплярів програми."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:28
+#: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Додано підтримку Markdown."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:29
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Додано підтримку підсвічування."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Виправлено дозвіл на вилучення спілкування. Вада %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:39
+#: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Додано вікно швидкого питання."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:40
+#: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Уможливлено отримання Ollama у Windows/MacOs."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:41
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Реалізовано використання запиту під час спілкування."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Додано додаток оприлюднення тексту та вебскорочень."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Уможливлено налаштовування додатків."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add new update widget."
 msgstr "Додано новий віджет оновлення."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "У списки спілкувань додано індикатор поступу."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Уможливлено зміну розміру шрифту."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -451,53 +468,53 @@ msgstr ""
 "Додано параметр командного рядка для додавання нової кімнати спілкування, "
 "показу списку екземплярів."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Додано підтримку перевірки правопису."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "Додано контекстне сповіщення щодо завершення отримання моделі."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Дозволити збереження і відновлення тексту і позиції на смужці гортання."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Дозволити збереження і відновлення поточного спілкування."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Додано пункт для показу списку спілкувань із заголовками."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add tools support."
 msgstr "Додано підтримку інструментів."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Уможливлено перемикання з ідентифікатора спілкування."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Додано інструмент поточної дати і часу."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Додано інструмент поступу до відомостей щодо повідомлень."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Виправлено піктограму у Windows"
