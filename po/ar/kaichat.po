@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-08 21:41+0400\n"
+"PO-Revision-Date: 2025-10-15 21:14+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -288,12 +288,12 @@ msgstr "صَدِّر بصيغة نص..."
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "عُثِر على %1 سلسلة."
+msgstr[1] "عُثِر على سلسلة واحدة."
+msgstr[2] "عُثِر على سلسلتين."
+msgstr[3] "عُثِر على %1 سلاسل."
+msgstr[4] "عُثِر على %1 سلسلة."
+msgstr[5] "عُثِر على %1 سلسلة."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -310,15 +310,13 @@ msgstr "أَرِشِف"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "البحث في قاعدة البيانات…"
 
 #: widgets/kaichatmainwindow.cpp:192
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "اِفتح السؤال السريع"
+msgstr "اِفتح السؤال السريع…"
 
 #: widgets/kaichatmainwindow.cpp:280
 #, kde-format
@@ -359,7 +357,7 @@ msgstr "الإعدادات"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&حرّر"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -387,15 +385,15 @@ msgstr "شريط الأدوات الرئيسي"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "اسمح بنسخ كتلة الرمز إلى الحافظة."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "أظهر عدد السلاسل الموجودة في شريط الحالة."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "تنفيذ البحث السريع."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
@@ -520,18 +518,17 @@ msgstr "اِصلح الأيقونة على ويندوز."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "اسمح بتصدير النص في ملحقات محرر التوليد الآلي."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "أَضِف وَجيهة تحديث جديدة."
+msgstr "إضافة ودجة ما الجديد"
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "ملحقة جديدة: عرض حجم التجميعة"
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

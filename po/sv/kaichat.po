@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-13 22:29+0200\n"
+"PO-Revision-Date: 2025-10-15 21:07+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -287,8 +287,8 @@ msgstr "Exportera som text…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 sträng hittades."
+msgstr[1] "%1 strängar hittades."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -386,11 +386,11 @@ msgstr "Tillåt att kopiera kodblock till klippbordet."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Visa antal hittade strängar på statusraden."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Implementera snabbsökning."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

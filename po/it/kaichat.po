@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-09 18:26+0200\n"
+"PO-Revision-Date: 2025-10-12 07:44+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -306,15 +306,13 @@ msgstr "Mostra archivio"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Cerca nella banca dati…"
 
 #: widgets/kaichatmainwindow.cpp:192
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Apri Domanda rapida"
+msgstr "Apri Domanda rapida…"
 
 #: widgets/kaichatmainwindow.cpp:280
 #, kde-format
@@ -357,7 +355,7 @@ msgstr "Impo&stazioni"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Modifica"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -525,17 +523,18 @@ msgstr "Corregge l'icona sulle finestre."
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Consente l'esportazione del testo nelle estensioni dell'editor di "
+"generazione automatica."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Aggiunge un nuovo oggetto di aggiornamento."
+msgstr "Aggiunge un nuovo oggetto Cosa c'è di nuovo."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Nuova estensione: mostra la dimensione della raccolta."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

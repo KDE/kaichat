@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-12 09:11+0200\n"
+"PO-Revision-Date: 2025-10-15 07:20+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -288,10 +288,10 @@ msgstr "Izvozi kot besedilo…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Najdenih %1 nizov."
+msgstr[1] "Najden %1 niz."
+msgstr[2] "Najdena %1 niza."
+msgstr[3] "Najdeni %1 nizi."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -389,11 +389,11 @@ msgstr "Dovoli kopiranje bloka kode v odložišče."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Prikaži število najdenih nizov v statusni vrstici."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Izvedi hitro iskanje."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

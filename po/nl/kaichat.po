@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-11 18:19+0200\n"
+"PO-Revision-Date: 2025-10-15 12:17+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -288,8 +288,8 @@ msgstr "Als tekst exporteren…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 tekenreeks gevonden."
+msgstr[1] "%1 tekenreeksen gevonden."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -387,11 +387,11 @@ msgstr "Toestaan blokcode naar klembord te kopiëren."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Toon het aantal gevonden tekenreeksen in de statusbalk."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Snelle zoekactie implementeren."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-12 08:56+0300\n"
+"PO-Revision-Date: 2025-10-15 20:45+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -288,10 +288,10 @@ msgstr "ייצוא כטקסט…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "נמצאה מחרוזת."
+msgstr[1] "נמצאו שתי מחרוזות."
+msgstr[2] "נמצאו %1 מחרוזות."
+msgstr[3] "נמצאו %1 מחרוזות."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -389,11 +389,11 @@ msgstr "לאפשר העתקת קטעי קוד ללוח הגזירים."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "הצגת כמות המחרוזות שנמצאו בשורת המצב."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "מימוש חיפוש מהיר."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

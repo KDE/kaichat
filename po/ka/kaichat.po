@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-11 12:43+0200\n"
+"PO-Revision-Date: 2025-10-15 03:40+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -290,8 +290,8 @@ msgstr "გატანა ტექსტის სახით…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ნაპოვნია %1 სტრიქონი."
+msgstr[1] "ნაპოვნია %1 სტრიქონი."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -389,11 +389,11 @@ msgstr "ბლოკის კოდის ბუფერში დაკოპ
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "სწრაფი ძებნის იმპლემენტაცია."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

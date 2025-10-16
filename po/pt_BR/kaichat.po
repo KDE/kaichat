@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-11 07:44-0300\n"
+"PO-Revision-Date: 2025-10-15 09:38-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -288,8 +288,8 @@ msgstr "Exportar como texto…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 string encontrado."
+msgstr[1] "%1 strings encontrados."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -387,11 +387,11 @@ msgstr "Permite copiar código de bloco para a área de transferência."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Mostra o número de strings encontrados na barra de status."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Implementa a pesquisa rápida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
