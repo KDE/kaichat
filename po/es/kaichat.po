@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-15 00:46+0000\n"
-"PO-Revision-Date: 2025-10-11 12:07+0100\n"
+"PO-Revision-Date: 2025-10-15 17:48+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -290,8 +290,8 @@ msgstr "Exportar como texto…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Se ha encontrado %1 cadena."
+msgstr[1] "Se han encontrado %1 cadenas."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -389,11 +389,11 @@ msgstr "Permitir copiar código de bloque al portapapeles."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Mostrar el número de cadenas encontradas en la barra de estado."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Implementación de la búsqueda rápida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
