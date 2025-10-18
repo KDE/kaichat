@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-15 00:46+0000\n"
+"POT-Creation-Date: 2025-10-18 00:45+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -391,123 +391,127 @@ msgstr ""
 msgid "Implement quick search."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:28
+#: widgets/kaichatwhatsnewtranslations.cpp:19
+msgid "Add quick search bar in quick ask dialog."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
 msgid "Add what's new support."
 msgstr "添加“新增功能”支持。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:29
+#: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add instance support."
 msgstr "添加实例支持。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:30
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add Mardown support."
 msgstr "添加 Markdown 支持。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:31
+#: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "添加高亮支持。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:34
+#: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "修复了允许删除聊天的问题。Bug %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:41
+#: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "添加 Quick Ask 对话框"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "允许在 Windows/MacOs 上下载 Ollama。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "在聊天时使用提示词。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "添加共享文本和网页快捷方式插件。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "允许配置插件。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add new update widget."
 msgstr "添加新的“更新”小部件。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "在聊天列表中添加进度指示器。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Allow to change font size."
 msgstr "允许更改字体大小。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr "添加创建新聊天室的命令，显示实例列表。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add spell checking support."
 msgstr "添加拼写检查支持。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "模型下载完成时添加通知弹窗。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "允许保存和恢复文本及滚动条位置。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "允许保存和恢复当前聊天。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "添加显示聊天列表标题的选项。"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add tools support."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Add progress tool message info."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:61
+#: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "修复窗口上的图标。"
