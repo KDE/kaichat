@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-05 02:30+0000\n"
-"PO-Revision-Date: 2025-10-02 18:11+0300\n"
+"PO-Revision-Date: 2025-10-13 20:51+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -157,37 +157,37 @@ msgstr "<qt>Uuden pyynnön löytää:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Nykyinen päiväys ja aika"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Nouda nykyinen päiväys ja aika"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Tällä työkalulla saa nykyisen päiväyksen ja ajan"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Päiväystyökalun asetukset"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "Kellonaika on nyt %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "Päivä on nyt %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "Päivä ja kellonaika ovat nyt %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -490,7 +490,7 @@ msgstr "Salli vaihto keskustelutunnisteesta."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:34
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Lisää päiväys ja aika -työkalu."
 
 #: widgets/whatsnew/whatsnewtranslations.cpp:35
 msgid "Add progress tool message info."
