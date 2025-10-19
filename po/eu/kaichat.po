@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-18 00:45+0000\n"
-"PO-Revision-Date: 2025-10-02 21:39+0200\n"
+"PO-Revision-Date: 2025-10-18 17:42+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -178,10 +178,9 @@ msgid "Configure Date Time Tool"
 msgstr "Konfiguratu Data Ordua tresna"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Lortu Uneko Daata Ordua"
+msgstr "Lortu Uneko Data Ordua."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -291,8 +290,8 @@ msgstr "Esportatu testu gisa…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kate %1 aurkitu da."
+msgstr[1] "%1 kate aurkitu dira."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -309,15 +308,13 @@ msgstr "Erakutsi artxiboa"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Bilatu datu-basean…"
 
 #: widgets/kaichatmainwindow.cpp:192
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Ireki Galdera azkarra"
+msgstr "Ireki Galdera azkarra…"
 
 #: widgets/kaichatmainwindow.cpp:280
 #, kde-format
@@ -360,7 +357,7 @@ msgstr "E&zarpenak"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Editatu"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -388,19 +385,19 @@ msgstr "Tresna-barra nagusia"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Kode-blokea arbelera kopiatzeko aukera ematea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Aurkitutako kate kopurua egoera-barran erakustea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Bilaketa azkarra inplementatzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Bilaketa azkarra barra galdera azkarra elkarrizketa koadroan gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
@@ -532,17 +529,18 @@ msgstr "Windows-en ikonoa konpontzea."
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Editorearen automatikoki sortzeko plugineko testua esportatzeko aukera "
+"ematea."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Eguneratze-trepeta berria gehitu."
+msgstr "Zerberri trepeta berria gehitzea."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Plugin berria: erakutsi bildumaren neurria."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

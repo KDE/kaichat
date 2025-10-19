@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-18 00:45+0000\n"
-"PO-Revision-Date: 2025-10-15 18:53+0300\n"
+"PO-Revision-Date: 2025-10-18 15:59+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -288,7 +288,7 @@ msgstr "Експортувати як текст…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
+msgstr[0] "Знайдено %1 рядок."
 msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
@@ -397,7 +397,7 @@ msgstr "Реалізовано швидкий пошук."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Додано панель швидкого пошуку у вікні швидкого запиту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format

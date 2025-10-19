@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-18 00:45+0000\n"
-"PO-Revision-Date: 2025-10-11 21:42+0300\n"
+"PO-Revision-Date: 2025-10-18 17:34+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -287,8 +287,8 @@ msgstr "Metin Olarak Dışa Aktar…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 dizi bulundu."
+msgstr[1] "%1 dizi bulundu."
 
 #: widgets/kaichatmainwindow.cpp:142
 #, kde-format
@@ -386,15 +386,15 @@ msgstr "Kod bloklarını panoya kopyalamaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Durum çubuğunda bulunan dizi sayısını göster"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Implement quick search."
-msgstr ""
+msgstr "Tez aramayı gerçekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Tez sorgu iletişim kutusuna arama çubuğu ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
