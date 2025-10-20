@@ -47,4 +47,9 @@ void KAIChatConfigureFontWidget::load()
     mFontChooser->setFont(KAIChatGlobalConfig::self()->generalFont());
 }
 
+void KAIChatConfigureFontWidget::restoreToDefaults()
+{
+    // TODO
+}
+
 #include "moc_kaichatconfigurefontwidget.cpp"

@@ -17,6 +17,7 @@ public:
     ~KAIChatConfigureFontWidget() override;
     void save();
     void load();
+    void restoreToDefaults();
 
 private:
     QCheckBox *const mCustomFontCheck;

@@ -32,4 +32,9 @@ void KAIChatConfigureSpellCheckingWidget::load()
     // Nothing
 }
 
+void KAIChatConfigureSpellCheckingWidget::restoreToDefaults()
+{
+    mConfigWidget->slotDefault();
+}
+
 #include "moc_kaichatconfigurespellcheckingwidget.cpp"

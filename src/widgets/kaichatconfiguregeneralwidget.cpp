@@ -44,4 +44,9 @@ void KAIChatConfigureGeneralWidget::load()
     mConfigurePromptWidget->setSystemPrompt(mManager->systemPrompt());
 }
 
+void KAIChatConfigureGeneralWidget::restoreToDefaults()
+{
+    // TODO
+}
+
 #include "moc_kaichatconfiguregeneralwidget.cpp"
