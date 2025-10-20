@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-18 00:45+0000\n"
-"PO-Revision-Date: 2025-10-15 12:17+0200\n"
+"PO-Revision-Date: 2025-10-19 15:49+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr "DE huidige datum tijd"
+msgstr "De huidige datum tijd"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
@@ -395,7 +395,7 @@ msgstr "Snelle zoekactie implementeren."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Voeg een snelle zoekbalk toe in de dialoog snelle vraag."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
