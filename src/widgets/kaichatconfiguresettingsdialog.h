@@ -28,6 +28,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void writeConfig();
     LIBKAICHATWIDGETS_NO_EXPORT void slotAccepted();
     LIBKAICHATWIDGETS_NO_EXPORT void load();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotRestoreDefaults();
     KAIChatConfigureGeneralWidget *const mConfigureGeneralWidget;
     KAIChatConfigureInstancesWidget *const mInstancesManagerWidget;
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;

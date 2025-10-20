@@ -56,10 +56,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     configurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
     addPage(configurePluginsWidgetPage);
 
-    buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel);
+    buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
 
     connect(buttonBox()->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::slotAccepted);
     connect(buttonBox()->button(QDialogButtonBox::Cancel), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::reject);
+    connect(buttonBox()->button(QDialogButtonBox::RestoreDefaults), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::slotRestoreDefaults);
     readConfig();
     load();
 }
@@ -99,6 +100,11 @@ void KAIChatConfigureSettingsDialog::load()
     mConfigurePluginsWidget->load();
     mConfigureFontWidget->load();
     mConfigureSpellCheckingWidget->load();
+}
+
+void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
+{
+    // TODO
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"
