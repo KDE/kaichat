@@ -14,6 +14,7 @@
         "Description[ro]": "Această extensie vă permite să partajați text.",
         "Description[sl]": "Ta vtičnik dovoljuje deljenje besedila.",
         "Description[sv]": "Insticksprogrammet gör det möjligt att dela text.",
+        "Description[tr]": "Bu eklenti, metin paylaşmanıza olanak tanır.",
         "Description[uk]": "За допомогою цього додатка ви можете оприлюднювати тексти.",
         "EnabledByDefault": true,
         "Name": "Share Text",
@@ -30,6 +31,7 @@
         "Name[ro]": "Partajează text",
         "Name[sl]": "Deli besedilo",
         "Name[sv]": "Dela text",
+        "Name[tr]": "Metni Paylaş",
         "Name[uk]": "Оприлюднення тексту",
         "Version": "1.0"
     }

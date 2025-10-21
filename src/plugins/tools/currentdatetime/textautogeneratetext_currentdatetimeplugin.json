@@ -13,6 +13,7 @@
         "Description[pt_BR]": "Este plugin permite que você obtenha a data e hora atual.",
         "Description[sl]": "Ta vtičnik omogoča pridobitev trenutnega datuma in časa.",
         "Description[sv]": "Insticksprogrammet låter dig ta reda på aktuellt datum och tid.",
+        "Description[tr]": "Bu eklenti, şu anki tarihi ve zamanı almanıza olanak tanır.",
         "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо поточної дати і часу.",
         "EnabledByDefault": true,
         "Name": "Current Date Time",
@@ -28,6 +29,7 @@
         "Name[pt_BR]": "Data e hora atual",
         "Name[sl]": "Trenutni datum in čas",
         "Name[sv]": "Aktuellt datum och tid",
+        "Name[tr]": "Geçerli Tarih/Zaman",
         "Name[uk]": "Поточна дата і час",
         "Version": "1.0"
     }

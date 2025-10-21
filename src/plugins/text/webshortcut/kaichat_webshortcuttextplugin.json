@@ -14,6 +14,7 @@
         "Description[ro]": "Această extensie vă permite să căutați pe Internet.",
         "Description[sl]": "Ta vtičnik vam dovoljuje spraševanje na spletu.",
         "Description[sv]": "Insticksprogrammet låter dig fråga på webben.",
+        "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
         "Description[uk]": "За допомогою цього додатка ви можете надсилати пошукові записи до інтернету.",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
@@ -30,6 +31,7 @@
         "Name[ro]": "Scurtătură web",
         "Name[sl]": "Spletna bližnjica",
         "Name[sv]": "Webbgenvägar",
+        "Name[tr]": "Web Kısayolu",
         "Name[uk]": "Вебскорочення",
         "Version": "1.0"
     }
