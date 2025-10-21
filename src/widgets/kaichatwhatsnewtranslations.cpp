@@ -13,10 +13,13 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{kli18n("Allow to copy block code to clipboard."),
-                                           kli18n("Show number of string found in statusbar."),
-                                           kli18n("Implement quick search."),
-                                           kli18n("Add quick search bar in quick ask dialog.")};
+    const QList<KLazyLocalizedString> info{
+        kli18n("Allow to copy block code to clipboard."),
+        kli18n("Show number of string found in statusbar."),
+        kli18n("Implement quick search."),
+        kli18n("Add quick search bar in quick ask dialog."),
+        kli18n("Add restore configure settings value."),
+    };
     return info;
 }
 
