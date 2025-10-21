@@ -10,6 +10,7 @@
 #include <QCheckBox>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <TextAutoGenerateText/TextAutoGenerateSettings>
 #include <TextAutoGenerateText/TextAutoGenerateTextConfigurePromptWidget>
 
 using namespace Qt::Literals::StringLiterals;
@@ -50,6 +51,7 @@ void KAIChatConfigureGeneralWidget::restoreToDefaults()
     const bool enableSystemTray = KAIChatGlobalConfig::self()->enableSystemTray();
     mEnableSystemTray->setChecked(enableSystemTray);
     KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
+    mConfigurePromptWidget->setSystemPrompt(TextAutoGenerateText::TextAutoGenerateSettings::defaultPrompt());
 }
 
 #include "moc_kaichatconfiguregeneralwidget.cpp"
