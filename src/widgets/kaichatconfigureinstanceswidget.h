@@ -19,6 +19,7 @@ public:
     ~KAIChatConfigureInstancesWidget() override;
     void save();
     void load();
+    void restoreToDefaults();
 
 private:
     TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget *const mInstancesManagerWidget;

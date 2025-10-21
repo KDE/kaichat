@@ -32,4 +32,9 @@ void KAIChatConfigureInstancesWidget::load()
     // nothing
 }
 
+void KAIChatConfigureInstancesWidget::restoreToDefaults()
+{
+    // nothing
+}
+
 #include "moc_kaichatconfigureinstanceswidget.cpp"
