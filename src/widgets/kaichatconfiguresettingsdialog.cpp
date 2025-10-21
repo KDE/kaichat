@@ -105,6 +105,7 @@ void KAIChatConfigureSettingsDialog::load()
 void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
 {
     mConfigureGeneralWidget->restoreToDefaults();
+    mInstancesManagerWidget->restoreToDefaults();
     // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
     mConfigureFontWidget->restoreToDefaults();
     mConfigureSpellCheckingWidget->restoreToDefaults();

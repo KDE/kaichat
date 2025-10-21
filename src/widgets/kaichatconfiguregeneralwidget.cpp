@@ -46,7 +46,10 @@ void KAIChatConfigureGeneralWidget::load()
 
 void KAIChatConfigureGeneralWidget::restoreToDefaults()
 {
-    // TODO
+    const bool bUseDefaults = KAIChatGlobalConfig::self()->useDefaults(true);
+    const bool enableSystemTray = KAIChatGlobalConfig::self()->enableSystemTray();
+    mEnableSystemTray->setChecked(enableSystemTray);
+    KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
 }
 
 #include "moc_kaichatconfiguregeneralwidget.cpp"
