@@ -49,7 +49,12 @@ void KAIChatConfigureFontWidget::load()
 
 void KAIChatConfigureFontWidget::restoreToDefaults()
 {
-    // TODO
+    const bool bUseDefaults = KAIChatGlobalConfig::self()->useDefaults(true);
+    const bool customFontCheck = KAIChatGlobalConfig::self()->useCustomFont();
+    const QFont generalFont = KAIChatGlobalConfig::self()->generalFont();
+    mCustomFontCheck->setChecked(customFontCheck);
+    mFontChooser->setFont(generalFont);
+    KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
 }
 
 #include "moc_kaichatconfigurefontwidget.cpp"
