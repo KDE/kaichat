@@ -5,6 +5,7 @@
  */
 #include "kaichatconfiguresettingsdialog.h"
 #include "kaichat_widget_debug.h"
+#include "kaichatconfigureaccessibilitywidget.h"
 #include "kaichatconfigurefontwidget.h"
 #include "kaichatconfiguregeneralwidget.h"
 #include "kaichatconfigureinstanceswidget.h"
@@ -28,6 +29,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
     , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
+    , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -51,6 +53,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
     mConfigureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
     addPage(mConfigureSpellCheckWidgetPage);
+
+    const QString textToSpeechPageName = i18nc("@title Preferences page name", "Accessibility");
+    mConfigureTextToSpeechWidgetPage = new KPageWidgetItem(mConfigureAccessibilityWidget, textToSpeechPageName);
+    mConfigureTextToSpeechWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-accessibility"_s));
+    addPage(mConfigureTextToSpeechWidgetPage);
 
     const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
     mConfigurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
@@ -93,6 +100,7 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
     mConfigurePluginsWidget->save();
     mConfigureFontWidget->save();
     mConfigureSpellCheckingWidget->save();
+    mConfigureAccessibilityWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()
@@ -101,6 +109,7 @@ void KAIChatConfigureSettingsDialog::load()
     mConfigurePluginsWidget->load();
     mConfigureFontWidget->load();
     mConfigureSpellCheckingWidget->load();
+    mConfigureAccessibilityWidget->load();
 }
 
 void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
@@ -113,6 +122,8 @@ void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
         mInstancesManagerWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureSpellCheckWidgetPage) {
         mConfigureSpellCheckingWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigureTextToSpeechWidgetPage) {
+        mConfigureAccessibilityWidget->restoreToDefaults();
     } else if (currentPage() == mConfigurePluginsWidgetPage) {
         // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
     } else {

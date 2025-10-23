@@ -125,6 +125,16 @@ set_package_properties(
             REQUIRED
 )
 
+find_package(KF6TextEditTextToSpeech ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(
+    TextEditTextToSpeech
+    PROPERTIES
+        DESCRIPTION
+            "Required for building text to speech support"
+        TYPE
+            REQUIRED
+)
+
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
