@@ -25,9 +25,11 @@ target_sources(
         kaichatconfiguregeneralwidget.h
         kaichatconfiguregeneralwidget.cpp
         kaichatconfigurefontwidget.cpp
-        kaichatconfigurespellcheckingwidget.cpp
         kaichatconfigurefontwidget.h
+        kaichatconfigurespellcheckingwidget.cpp
         kaichatconfigurespellcheckingwidget.h
+        kaichatconfigureaccessibilitywidget.cpp
+        kaichatconfigureaccessibilitywidget.h
         kaichatexportmenu.h
         kaichatexportmenu.cpp
         kaichatconfigureinstanceswidget.h
@@ -63,6 +65,7 @@ target_link_libraries(
     KF6::Notifications
     KF6::NotifyConfig
     KF6::TextAddonsWidgets
+    KF6::TextEditTextToSpeech
     libkaichatcore
 )
 set_target_properties(
