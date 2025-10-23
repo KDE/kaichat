@@ -13,7 +13,7 @@ namespace TextEditTextToSpeech
 {
 class TextToSpeechConfigWidget;
 }
-
+class QCheckBox;
 class KAIChatConfigureAccessibilityWidget : public QWidget
 {
     Q_OBJECT
@@ -30,5 +30,6 @@ protected:
 
 private:
     TextEditTextToSpeech::TextToSpeechConfigWidget *const mTextToSpeechWidget;
+    QCheckBox *const mEnableTextToSpeech;
     bool mWasInitialized = false;
 };

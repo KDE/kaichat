@@ -5,23 +5,32 @@
 */
 
 #include "kaichatconfigureaccessibilitywidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include <TextEditTextToSpeech/TextToSpeechConfigWidget>
 
+#include <KLocalizedString>
+
+#include <QCheckBox>
 #include <QShowEvent>
 #include <QVBoxLayout>
 
+using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureAccessibilityWidget::KAIChatConfigureAccessibilityWidget(QWidget *parent)
     : QWidget{parent}
     , mTextToSpeechWidget(new TextEditTextToSpeech::TextToSpeechConfigWidget(this))
+    , mEnableTextToSpeech(new QCheckBox(i18nc("@option:check", "Enable Text To Speech"), this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
     mainLayout->setContentsMargins({});
 
+    mEnableTextToSpeech->setObjectName(u"mEnableTextToSpeech"_s);
+    mainLayout->addWidget(mEnableTextToSpeech);
+
     mTextToSpeechWidget->setObjectName(u"mTextToSpeechWidget"_s);
     mainLayout->addWidget(mTextToSpeechWidget);
+
+    connect(mEnableTextToSpeech, &QCheckBox::clicked, mTextToSpeechWidget, &TextEditTextToSpeech::TextToSpeechConfigWidget::setEnabled);
 }
 
 KAIChatConfigureAccessibilityWidget::~KAIChatConfigureAccessibilityWidget() = default;
