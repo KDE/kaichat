@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguresettingsdialog.h"
+#include "kaichat_widget_debug.h"
 #include "kaichatconfigurefontwidget.h"
 #include "kaichatconfiguregeneralwidget.h"
 #include "kaichatconfigureinstanceswidget.h"
@@ -32,29 +33,29 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     setFaceType(KPageDialog::List);
 
     const QString generalPageName = i18nc("@title General page name", "General");
-    auto configureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
-    configureGeneralWidgetPage->setIcon(QIcon(u":/kaichat/kaichat.svg"_s));
-    addPage(configureGeneralWidgetPage);
+    mConfigureGeneralWidgetPage = new KPageWidgetItem(mConfigureGeneralWidget, generalPageName);
+    mConfigureGeneralWidgetPage->setIcon(QIcon(u":/kaichat/kaichat.svg"_s));
+    addPage(mConfigureGeneralWidgetPage);
 
     const QString fontPageName = i18nc("@title General page name", "Font");
-    auto configureFontWidgetPage = new KPageWidgetItem(mConfigureFontWidget, fontPageName);
-    configureFontWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-font"_s));
-    addPage(configureFontWidgetPage);
+    mConfigureFontWidgetPage = new KPageWidgetItem(mConfigureFontWidget, fontPageName);
+    mConfigureFontWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-font"_s));
+    addPage(mConfigureFontWidgetPage);
 
     const QString instancesPageName = i18nc("@title Instances page name", "Instances");
-    auto configureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
-    configureInstancesWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-theme"_s));
-    addPage(configureInstancesWidgetPage);
+    mConfigureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
+    mConfigureInstancesWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-theme"_s));
+    addPage(mConfigureInstancesWidgetPage);
 
     const QString spellCheckPageName = i18nc("@title Preferences page name", "Spell Checking");
-    auto configureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
-    configureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
-    addPage(configureSpellCheckWidgetPage);
+    mConfigureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
+    mConfigureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
+    addPage(mConfigureSpellCheckWidgetPage);
 
     const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
-    auto configurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
-    configurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
-    addPage(configurePluginsWidgetPage);
+    mConfigurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
+    mConfigurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
+    addPage(mConfigurePluginsWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
 
@@ -104,11 +105,19 @@ void KAIChatConfigureSettingsDialog::load()
 
 void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
 {
-    mConfigureGeneralWidget->restoreToDefaults();
-    mInstancesManagerWidget->restoreToDefaults();
-    // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
-    mConfigureFontWidget->restoreToDefaults();
-    mConfigureSpellCheckingWidget->restoreToDefaults();
+    if (currentPage() == mConfigureGeneralWidgetPage) {
+        mConfigureGeneralWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigureFontWidgetPage) {
+        mConfigureFontWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigureInstancesWidgetPage) {
+        mInstancesManagerWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigureSpellCheckWidgetPage) {
+        mConfigureSpellCheckingWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigurePluginsWidgetPage) {
+        // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
+    } else {
+        qCWarning(KAICHAT_WIDGET_LOG) << " slotRestoreDefault not implemented for current page";
+    }
 }
 
 #include "moc_kaichatconfiguresettingsdialog.cpp"

@@ -34,4 +34,9 @@ private:
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
     KAIChatConfigureFontWidget *const mConfigureFontWidget;
     KAIChatConfigureSpellCheckingWidget *const mConfigureSpellCheckingWidget;
+    KPageWidgetItem *mConfigureGeneralWidgetPage = nullptr;
+    KPageWidgetItem *mConfigureFontWidgetPage = nullptr;
+    KPageWidgetItem *mConfigureInstancesWidgetPage = nullptr;
+    KPageWidgetItem *mConfigureSpellCheckWidgetPage = nullptr;
+    KPageWidgetItem *mConfigurePluginsWidgetPage = nullptr;
 };
