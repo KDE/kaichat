@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-22 00:46+0000\n"
-"PO-Revision-Date: 2025-10-18 14:25+0300\n"
+"PO-Revision-Date: 2025-10-22 08:52+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -401,7 +401,7 @@ msgstr "הוספת סרגל חיפוש מהיר בסרגל השאלה המהיר
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "הוספת ערך הגדרות לשחזור תצורה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

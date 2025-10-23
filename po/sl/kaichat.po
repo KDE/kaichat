@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-22 00:46+0000\n"
-"PO-Revision-Date: 2025-10-18 07:40+0200\n"
+"PO-Revision-Date: 2025-10-22 07:08+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -401,7 +401,7 @@ msgstr "Dodaj vrstico hitrega iskanja v pogovorno okno hitrega iskanja."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Dodaj vrednost za obnovitev nastavitev konfiguracije."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

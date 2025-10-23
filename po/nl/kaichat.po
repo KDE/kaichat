@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-22 00:46+0000\n"
-"PO-Revision-Date: 2025-10-19 15:49+0200\n"
+"PO-Revision-Date: 2025-10-23 00:36+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -399,7 +399,7 @@ msgstr "Voeg een snelle zoekbalk toe in de dialoog snelle vraag."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Voeg waarde van instellingen van herstelconfiguratie."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

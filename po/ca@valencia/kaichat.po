@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-22 00:46+0000\n"
-"PO-Revision-Date: 2025-10-18 10:33+0200\n"
+"PO-Revision-Date: 2025-10-22 11:26+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -400,7 +400,7 @@ msgstr "Afig la barra de busca ràpida al diàleg de pregunta ràpida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Afig la restauració de la configuració del valor de les opcions."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

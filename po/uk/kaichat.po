@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-22 00:46+0000\n"
-"PO-Revision-Date: 2025-10-18 15:59+0300\n"
+"PO-Revision-Date: 2025-10-22 09:37+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -401,7 +401,7 @@ msgstr "Додано панель швидкого пошуку у вікні ш
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Додано значення для відновлення параметрів налаштувань."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
