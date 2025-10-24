@@ -5,8 +5,8 @@
 */
 
 #include "kaichatconfigurefontwidget.h"
+#include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
-#include "kaichatglobalconfig.h"
 #include <KFontChooser>
 #include <KLocalizedString>
 
@@ -36,25 +36,25 @@ KAIChatConfigureFontWidget::~KAIChatConfigureFontWidget() = default;
 
 void KAIChatConfigureFontWidget::save()
 {
-    KAIChatGlobalConfig::self()->setUseCustomFont(mCustomFontCheck->isChecked());
-    KAIChatGlobalConfig::self()->setGeneralFont(mFontChooser->font());
-    KAIChatGlobalConfig::self()->save();
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setUseCustomFont(mCustomFontCheck->isChecked());
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setGeneralFont(mFontChooser->font());
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->save();
 }
 
 void KAIChatConfigureFontWidget::load()
 {
-    mCustomFontCheck->setChecked(KAIChatGlobalConfig::self()->useCustomFont());
-    mFontChooser->setFont(KAIChatGlobalConfig::self()->generalFont());
+    mCustomFontCheck->setChecked(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont());
+    mFontChooser->setFont(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont());
 }
 
 void KAIChatConfigureFontWidget::restoreToDefaults()
 {
-    const bool bUseDefaults = KAIChatGlobalConfig::self()->useDefaults(true);
-    const bool customFontCheck = KAIChatGlobalConfig::self()->useCustomFont();
-    const QFont generalFont = KAIChatGlobalConfig::self()->generalFont();
+    const bool bUseDefaults = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useDefaults(true);
+    const bool customFontCheck = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont();
+    const QFont generalFont = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont();
     mCustomFontCheck->setChecked(customFontCheck);
     mFontChooser->setFont(generalFont);
-    KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useDefaults(bUseDefaults);
 }
 
 #include "moc_kaichatconfigurefontwidget.cpp"

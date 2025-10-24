@@ -6,7 +6,8 @@
 
 #include "config-kaichat.h"
 #include "kaichatcommandlineparser.h"
-#include "kaichatglobalconfig.h"
+#include "textautogeneratetext/textautogeneratetextglobalconfig.h"
+
 #include "kaichatmainwindow.h"
 #include "kaichatutils.h"
 #include <KConfigGroup>
@@ -109,8 +110,8 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    if (KAIChatGlobalConfig::self()->useCustomFont()) {
-        qApp->setFont(KAIChatGlobalConfig::self()->generalFont());
+    if (TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
+        qApp->setFont(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont());
     }
 
 #if WITH_DBUS

@@ -5,9 +5,9 @@
 */
 
 #include "kaichatchangefontsizemenu.h"
+#include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
 #include "kaichat_widget_debug.h"
-#include "kaichatglobalconfig.h"
 #include <KLocalizedString>
 #include <QGuiApplication>
 #include <QMenu>
@@ -37,10 +37,10 @@ KAIChatChangeFontSizeMenu::~KAIChatChangeFontSizeMenu() = default;
 void KAIChatChangeFontSizeMenu::changeFontSize(int offset)
 {
     QFont f;
-    if (KAIChatGlobalConfig::self()->useCustomFont()) {
-        f = KAIChatGlobalConfig::self()->generalFont();
+    if (TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
+        f = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont();
     } else {
-        KAIChatGlobalConfig::self()->setUseCustomFont(true);
+        TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setUseCustomFont(true);
         f = qApp->font();
     }
     const int newSize = f.pointSize() + offset;
@@ -49,8 +49,8 @@ void KAIChatChangeFontSizeMenu::changeFontSize(int offset)
         return;
     }
     f.setPointSize(newSize);
-    KAIChatGlobalConfig::self()->setGeneralFont(f);
-    KAIChatGlobalConfig::self()->save();
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setGeneralFont(f);
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->save();
     qApp->setFont(f);
     Q_EMIT fontChanged();
 }

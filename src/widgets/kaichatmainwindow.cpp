@@ -6,6 +6,8 @@
 
 #include "kaichatmainwindow.h"
 
+#include "textautogeneratetext/textautogeneratetextglobalconfig.h"
+
 #include "kaichatcentralwidget.h"
 #include "kaichatchangefontsizemenu.h"
 #include "kaichatcommandlineparser.h"
@@ -250,8 +252,8 @@ void KAIChatMainWindow::slotConfigure()
 {
     QPointer<KAIChatConfigureSettingsDialog> dlg = new KAIChatConfigureSettingsDialog(mManager, this);
     if (dlg->exec()) {
-        if (KAIChatGlobalConfig::self()->useCustomFont()) {
-            qApp->setFont(KAIChatGlobalConfig::self()->generalFont());
+        if (TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
+            qApp->setFont(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont());
         } else {
             qApp->setFont(QFontDatabase::systemFont(QFontDatabase::GeneralFont));
         }
