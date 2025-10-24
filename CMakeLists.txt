@@ -132,8 +132,12 @@ set_package_properties(
         DESCRIPTION
             "Required for building text to speech support"
         TYPE
-            REQUIRED
+            OPTIONAL
 )
+
+if(TARGET KF6::TextEditTextToSpeech)
+    set(HAVE_TEXT_TO_SPEECH TRUE)
+endif()
 
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)

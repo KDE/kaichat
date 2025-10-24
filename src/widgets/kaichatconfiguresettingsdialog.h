@@ -5,6 +5,7 @@
  */
 
 #pragma once
+#include "config-kaichat.h"
 #include "libkaichatwidgets_private_export.h"
 #include <KPageDialog>
 class KAIChatConfigureGeneralWidget;
@@ -35,11 +36,13 @@ private:
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
     KAIChatConfigureFontWidget *const mConfigureFontWidget;
     KAIChatConfigureSpellCheckingWidget *const mConfigureSpellCheckingWidget;
+#ifdef HAVE_TEXT_TO_SPEECH
     KAIChatConfigureAccessibilityWidget *const mConfigureAccessibilityWidget;
+    KPageWidgetItem *mConfigureTextToSpeechWidgetPage = nullptr;
+#endif
     KPageWidgetItem *mConfigureGeneralWidgetPage = nullptr;
     KPageWidgetItem *mConfigureFontWidgetPage = nullptr;
     KPageWidgetItem *mConfigureInstancesWidgetPage = nullptr;
     KPageWidgetItem *mConfigureSpellCheckWidgetPage = nullptr;
     KPageWidgetItem *mConfigurePluginsWidgetPage = nullptr;
-    KPageWidgetItem *mConfigureTextToSpeechWidgetPage = nullptr;
 };
