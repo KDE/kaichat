@@ -5,7 +5,7 @@
 */
 
 #include "kaichatconfigureaccessibilitywidget.h"
-
+#include "kaichatglobalconfig.h"
 #include <TextEditTextToSpeech/TextToSpeechConfigWidget>
 
 #include <KLocalizedString>
@@ -30,7 +30,7 @@ KAIChatConfigureAccessibilityWidget::KAIChatConfigureAccessibilityWidget(QWidget
     mTextToSpeechWidget->setObjectName(u"mTextToSpeechWidget"_s);
     mainLayout->addWidget(mTextToSpeechWidget);
 
-    connect(mEnableTextToSpeech, &QCheckBox::clicked, mTextToSpeechWidget, &TextEditTextToSpeech::TextToSpeechConfigWidget::setEnabled);
+    connect(mEnableTextToSpeech, &QCheckBox::toggled, mTextToSpeechWidget, &TextEditTextToSpeech::TextToSpeechConfigWidget::setEnabled);
 }
 
 KAIChatConfigureAccessibilityWidget::~KAIChatConfigureAccessibilityWidget() = default;
@@ -38,6 +38,8 @@ KAIChatConfigureAccessibilityWidget::~KAIChatConfigureAccessibilityWidget() = de
 void KAIChatConfigureAccessibilityWidget::save()
 {
     if (mWasInitialized) {
+        KAIChatGlobalConfig::self()->setEnableTextToSpeech(mEnableTextToSpeech->isChecked());
+        KAIChatGlobalConfig::self()->save();
         mTextToSpeechWidget->writeConfig();
     }
 }
@@ -45,11 +47,17 @@ void KAIChatConfigureAccessibilityWidget::save()
 void KAIChatConfigureAccessibilityWidget::load()
 {
     mTextToSpeechWidget->initializeSettings();
+    mEnableTextToSpeech->setChecked(KAIChatGlobalConfig::self()->enableTextToSpeech());
+    mTextToSpeechWidget->setEnabled(mEnableTextToSpeech->isChecked());
 }
 
 void KAIChatConfigureAccessibilityWidget::restoreToDefaults()
 {
     mTextToSpeechWidget->restoreDefaults();
+    const bool bUseDefaults = KAIChatGlobalConfig::self()->useDefaults(true);
+    const bool enableTextToSpeech = KAIChatGlobalConfig::self()->enableTextToSpeech();
+    mEnableTextToSpeech->setChecked(enableTextToSpeech);
+    KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
 }
 
 void KAIChatConfigureAccessibilityWidget::showEvent(QShowEvent *event)
