@@ -7,6 +7,7 @@
 #include "kaichatconfigureaccessibilitywidget.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
+#include <TextEditTextToSpeech/TextToSpeech>
 #include <TextEditTextToSpeech/TextToSpeechConfigWidget>
 
 #include <KLocalizedString>
@@ -42,6 +43,7 @@ void KAIChatConfigureAccessibilityWidget::save()
         TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setEnableTextToSpeech(mEnableTextToSpeech->isChecked());
         TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->save();
         mTextToSpeechWidget->writeConfig();
+        TextEditTextToSpeech::TextToSpeech::self()->reloadSettings();
     }
 }
 
