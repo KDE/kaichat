@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-22 00:46+0000\n"
+"POT-Creation-Date: 2025-10-24 00:45+0000\n"
 "PO-Revision-Date: 2025-10-22 22:58+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -214,6 +214,12 @@ msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Disminuir tamaño del texto"
 
+#: widgets/kaichatconfigureaccessibilitywidget.cpp:21
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr ""
+
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
@@ -226,37 +232,43 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Activar icono de la bandeja del sistema"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:31
+#: widgets/kaichatconfiguresettingsdialog.cpp:34
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configurar KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:34
+#: widgets/kaichatconfiguresettingsdialog.cpp:37
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "General"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:39
+#: widgets/kaichatconfiguresettingsdialog.cpp:42
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr "Tipo de letra"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:44
+#: widgets/kaichatconfiguresettingsdialog.cpp:47
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instancias"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:49
+#: widgets/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "Comprobación de ortografía"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:54
+#: widgets/kaichatconfiguresettingsdialog.cpp:57
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Accessibility"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:62
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -403,72 +415,78 @@ msgstr "Añadir la barra de búsqueda rápida en el diálogo de pregunta rápida
 msgid "Add restore configure settings value."
 msgstr "Añadir valor para restaurar la configuración."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:22
+#, fuzzy
+#| msgid "Allow to configure plugins."
+msgid "Allow to configure text to speech."
+msgstr "Permitir la configuración de complementos."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add what's new support."
 msgstr "Se ha añadido la implementación de novedades."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:33
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add instance support."
 msgstr "Se ha añadido la implementación de instancias."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:34
+#: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Se ha añadido compatibilidad con Markdown."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:35
+#: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Se ha añadido la implementación de resaltado."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:38
+#: widgets/kaichatwhatsnewtranslations.cpp:39
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Se ha corregido la posibilidad de borrar la conversación. Fallo %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Añadir diálogo de pregunta rápida."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Permitir la descarga de Ollama en Windows/macOS."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Usar instrucciones durante la conversación."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Añadir el complemento de texto compartido y atajo web."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Permitir la configuración de complementos."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add new update widget."
 msgstr "Añadir nuevo elemento de actualización."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Añadir indicador de avance en la lista de conversaciones."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Permitir el cambio del tamaño del texto."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -476,55 +494,55 @@ msgstr ""
 "Añadir línea de órdenes para añadir nueva sala de charla, mostrando la lista "
 "de instancias."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Añadir Corrección ortográfica."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Añadir ventana emergente de notificación cuando termine la descarga del "
 "modelo."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Permitir guardar y restaurar texto y posición en la barra de desplazamiento."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Permitir guardar y restaurar la conversación actual."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Añadir opción para mostrar la lista de títulos de conversaciones."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add tools support."
 msgstr "Añadir uso de herramientas."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Permitir cambiar a identificador de conversación."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:61
+#: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Añadir herramienta de fecha y hora actual."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:62
+#: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Añadir mensaje informativo de avance."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:65
+#: widgets/kaichatwhatsnewtranslations.cpp:66
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregir icono de Windows."
