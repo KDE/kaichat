@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-24 00:45+0000\n"
-"PO-Revision-Date: 2025-10-22 09:37+0300\n"
+"POT-Creation-Date: 2025-10-25 00:45+0000\n"
+"PO-Revision-Date: 2025-10-24 13:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -28,38 +28,38 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:65 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:66
+#: apps/main.cpp:67
 #, kde-format
 msgid "AI Chat"
 msgstr "Спілкування з ШІ"
 
-#: apps/main.cpp:68
+#: apps/main.cpp:69
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "© Laurent Montel <montel@kde.org>, 2025"
 
-#: apps/main.cpp:69
+#: apps/main.cpp:70
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:69
+#: apps/main.cpp:70
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: apps/main.cpp:88
+#: apps/main.cpp:89
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Доступні такі екземпляри:"
 
-#: apps/main.cpp:100
+#: apps/main.cpp:101
 #, kde-format
 msgid "List of Chats:"
 msgstr "Список спілкувань:"
@@ -212,11 +212,11 @@ msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Зменшити розмір шрифту"
 
-#: widgets/kaichatconfigureaccessibilitywidget.cpp:21
+#: widgets/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Увімкнути озвучення тексту"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -230,43 +230,43 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Увімкнути піктограму системного лотка"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:34
+#: widgets/kaichatconfiguresettingsdialog.cpp:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Налаштовування KAIChat"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:37
+#: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Загальне"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:42
+#: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr "Шрифт"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:49
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Екземляри"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:52
+#: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "Перевірка правопису"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:57
+#: widgets/kaichatconfiguresettingsdialog.cpp:59
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Доступність"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:62
+#: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
@@ -296,7 +296,7 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
-#: widgets/kaichatmainwindow.cpp:81
+#: widgets/kaichatmainwindow.cpp:83
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -305,30 +305,30 @@ msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
 
-#: widgets/kaichatmainwindow.cpp:142
+#: widgets/kaichatmainwindow.cpp:144
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:146
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:154
+#: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:192
+#: widgets/kaichatmainwindow.cpp:194
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:280
+#: widgets/kaichatmainwindow.cpp:282
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -337,24 +337,24 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:283
+#: widgets/kaichatmainwindow.cpp:285
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:317
+#: widgets/kaichatmainwindow.cpp:319
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:375
+#: widgets/kaichatmainwindow.cpp:377
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:376
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Модель %1 отримано."
@@ -416,10 +416,8 @@ msgid "Add restore configure settings value."
 msgstr "Додано значення для відновлення параметрів налаштувань."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Уможливлено налаштовування додатків."
+msgstr "Уможливлено налаштовування озвучення тексту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
