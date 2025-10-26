@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-25 00:45+0000\n"
-"PO-Revision-Date: 2025-10-22 08:52+0300\n"
+"PO-Revision-Date: 2025-10-24 08:04+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -216,7 +216,7 @@ msgstr "הקטנת הכתב"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "הפעלת הקראה"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -264,7 +264,7 @@ msgstr "בדיקת איות"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "נגישות"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -416,10 +416,8 @@ msgid "Add restore configure settings value."
 msgstr "הוספת ערך הגדרות לשחזור תצורה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "לאפשר להגדיר תוספים."
+msgstr "לאפשר להגדיר הקראה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
