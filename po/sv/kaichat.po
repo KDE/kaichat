@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-25 00:45+0000\n"
-"PO-Revision-Date: 2025-10-22 20:10+0200\n"
+"PO-Revision-Date: 2025-10-26 20:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -215,7 +215,7 @@ msgstr "Minska teckenstorlek"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Aktivera text till tal"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -263,7 +263,7 @@ msgstr "Stavningskontroll"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Handikappstöd"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -413,10 +413,8 @@ msgid "Add restore configure settings value."
 msgstr "Lägg till återställning av inställningsvärde."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Tillåt att anpassa insticksprogram."
+msgstr "Tillåt att anpassa text till tal."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
