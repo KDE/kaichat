@@ -75,7 +75,7 @@ QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsN
         }
         info.setNewFeatures(lst);
         info.setVersion(u"0.6.0"_s);
-        info.setBugFixings({});
+        info.setBugFixings({i18n("Fix multi tools plugins call.")});
 
         listInfo.append(std::move(info));
     }
