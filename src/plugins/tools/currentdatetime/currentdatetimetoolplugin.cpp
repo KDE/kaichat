@@ -47,15 +47,9 @@ void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
     dlg.exec();
 }
 
-void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
-                                          const QByteArray &uuid,
-                                          const QList<TextAutoGenerateText::TextAutoGenerateReply::ToolCallArgumentInfo> &info)
+TextAutoGenerateText::TextAutoGenerateTextToolPluginJob *CurrentDateTimeToolPlugin::callTool()
 {
-    for (const auto &i : info) {
-        auto job = new CurrentDateTimeToolPluginJob(this);
-        initializeJob(job, chatId, uuid, i);
-        job->start();
-    }
+    return new CurrentDateTimeToolPluginJob(this);
 }
 
 #include "currentdatetimetoolplugin.moc"
