@@ -24,7 +24,6 @@ KAIChatConfigureAccessibilityWidget::KAIChatConfigureAccessibilityWidget(QWidget
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
-    mainLayout->setContentsMargins({});
 
     mEnableTextToSpeech->setObjectName(u"mEnableTextToSpeech"_s);
     mainLayout->addWidget(mEnableTextToSpeech);
