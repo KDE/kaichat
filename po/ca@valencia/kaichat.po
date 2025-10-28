@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-25 00:45+0000\n"
+"POT-Creation-Date: 2025-10-28 00:46+0000\n"
 "PO-Revision-Date: 2025-10-24 10:51+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -543,6 +543,11 @@ msgstr "Afig informació del missatge de progrés de l'eina."
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Corregix una icona en Windows."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:78
+#, kde-format
+msgid "Fix multi tools plugins call."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
