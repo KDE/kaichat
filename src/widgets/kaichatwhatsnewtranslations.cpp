@@ -20,6 +20,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add quick search bar in quick ask dialog."),
         kli18n("Add restore configure settings value."),
         kli18n("Allow to configure text to speech."),
+        kli18n("Add tool plugin icon name."),
     };
     return info;
 }
