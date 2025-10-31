@@ -21,4 +21,5 @@ public:
     void showConfigureDialog(QWidget *parent) override;
 
     [[nodiscard]] TextAutoGenerateText::TextAutoGenerateTextToolPluginJob *callTool() override;
+    [[nodiscard]] QString iconName() const override;
 };

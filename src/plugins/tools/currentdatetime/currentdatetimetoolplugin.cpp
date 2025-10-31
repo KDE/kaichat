@@ -52,5 +52,10 @@ TextAutoGenerateText::TextAutoGenerateTextToolPluginJob *CurrentDateTimeToolPlug
     return new CurrentDateTimeToolPluginJob(this);
 }
 
+QString CurrentDateTimeToolPlugin::iconName() const
+{
+    return u"preferences-system-time"_s;
+}
+
 #include "currentdatetimetoolplugin.moc"
 #include "moc_currentdatetimetoolplugin.cpp"
