@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-10-25 16:56+0400\n"
+"PO-Revision-Date: 2025-10-30 10:12+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -547,7 +547,7 @@ msgstr "اِصلح الأيقونة على ويندوز."
 #: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "إصلاح استدعاء محلقات متعددة الأدوات."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."

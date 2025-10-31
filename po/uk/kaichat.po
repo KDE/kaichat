@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-10-28 17:27+0200\n"
+"PO-Revision-Date: 2025-10-30 13:46+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -421,7 +421,7 @@ msgstr "Уможливлено налаштовування озвучення �
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Додано назву піктограми додатка інструменту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-10-28 14:17+0100\n"
+"PO-Revision-Date: 2025-10-30 13:35+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -419,7 +419,7 @@ msgstr "Sta configureren van tekst-naar-spraak toe."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Pictogramnaam van hulpmiddelplug-in toevoegen"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
