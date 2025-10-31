@@ -7,14 +7,14 @@
 #include "kaichatcentralwidget.h"
 #include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
+#include "kaichatwhatsnewtranslations.h"
 #include <QVBoxLayout>
+#include <TextAddonsWidgets/NeedUpdateVersionWidget>
 #include <TextAddonsWidgets/WhatsNewMessageWidget>
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
 #include <TextAutoGenerateText/TextAutoGenerateStackWidget>
-// #include <TextAddonsWidgets/whatsnewtranslations>
-#include <TextAddonsWidgets/NeedUpdateVersionWidget>
 using namespace Qt::Literals::StringLiterals;
 KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
@@ -26,14 +26,15 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     mainLayout->setContentsMargins({});
     mainLayout->setSpacing(0);
 
-    // WhatsNewTranslations translations;
-    const QString newFeaturesMD5; // TODO = translations.newFeaturesMD5();
+    KAIChatWhatsNewTranslations translations;
+    const QString newFeaturesMD5 = translations.newFeaturesMD5();
     if (!newFeaturesMD5.isEmpty()) {
         const QString previousNewFeaturesMD5 = KAIChatGlobalConfig::self()->previousNewFeaturesMD5();
         if (!previousNewFeaturesMD5.isEmpty()) {
             const bool hasNewFeature = (previousNewFeaturesMD5 != newFeaturesMD5);
             if (hasNewFeature) {
                 auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageWidget(this);
+                whatsNewMessageWidget->setWhatsNewInfos(translations.createWhatsNewInfo());
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
