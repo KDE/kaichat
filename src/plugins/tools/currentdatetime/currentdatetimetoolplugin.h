@@ -22,4 +22,6 @@ public:
 
     [[nodiscard]] TextAutoGenerateText::TextAutoGenerateTextToolPluginJob *callTool() override;
     [[nodiscard]] QString iconName() const override;
+
+    [[nodiscard]] int order() const override;
 };

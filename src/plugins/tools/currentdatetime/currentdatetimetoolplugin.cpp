@@ -57,5 +57,10 @@ QString CurrentDateTimeToolPlugin::iconName() const
     return u"preferences-system-time"_s;
 }
 
+int CurrentDateTimeToolPlugin::order() const
+{
+    return 15;
+}
+
 #include "currentdatetimetoolplugin.moc"
 #include "moc_currentdatetimetoolplugin.cpp"
