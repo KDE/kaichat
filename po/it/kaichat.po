@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-10-28 14:36+0100\n"
+"PO-Revision-Date: 2025-10-30 17:51+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -420,7 +420,7 @@ msgstr "Consenti di configurare la conversione da testo a voce."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Aggiungi il nome dell'icona dell'estensione."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
