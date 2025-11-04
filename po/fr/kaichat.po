@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-30 00:45+0000\n"
-"PO-Revision-Date: 2025-09-21 09:23+0200\n"
+"PO-Revision-Date: 2025-10-31 09:41+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -82,7 +82,7 @@ msgstr "Créer un nouveau salon"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Ouvrir la boîte de dialogue de requête rapide"
+msgstr "Ouvrir la boite de dialogue de requête rapide"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
@@ -156,42 +156,42 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "L'heure et la date courante"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Obtenir l'heure et la date courantes"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Utilisez cet outil pour obtenir la date et l'heure courantes"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Configurer l'outil « Date et heure »"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr ""
+msgstr "Obtenir l'heure et la date courantes."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "L'heure courante est %1."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "La date courante est %1."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "L'heure et date courantes sont %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -214,7 +214,7 @@ msgstr "Diminuer la taille de la police"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Activer la synthèse vocale"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -226,7 +226,7 @@ msgstr "&Utiliser des polices personnalisées"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "Activer l'icône de la boîte à miniatures"
+msgstr "Activer l'icône de la boite à miniatures"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:36
 #, kde-format
@@ -262,7 +262,7 @@ msgstr "Correction orthographique"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Accessibilité"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -298,8 +298,8 @@ msgstr "Exporter au format « Texte »..."
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "La chaine %1 a été trouvée."
+msgstr[1] "Les chaines %1 ont été trouvées."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -316,15 +316,13 @@ msgstr "Afficher l'archive"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Rechercher dans la base de données…"
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Ouvrir la boîte de dialogue de requête rapide"
+msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
 #: widgets/kaichatmainwindow.cpp:282
 #, kde-format
@@ -367,7 +365,7 @@ msgstr "&Configuration"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Édition"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -395,33 +393,33 @@ msgstr "Barre principale d'outils"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Autoriser la copie de bloc de code dans le presse-papier."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Afficher le nombre de chaines trouvées dans la barre d'état."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "Effectuez une recherche rapide."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
 msgstr ""
+"Ajoutez une barre de recherche rapide dans la boite de dialogue de demande "
+"rapide."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Ajouter la valeur de restauration des paramètres de configuration."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Autoriser la configuration des modules externes."
+msgstr "Autoriser la configuration de la synthèse vocale."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Ajouter le nom de l'icône du module externe de l'outil."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
@@ -451,7 +449,7 @@ msgstr "Correction de l'autorisation de supprimer un salon. Bogue %1"
 #: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Quick Ask Dialog."
-msgstr "Ajouter une boîte de dialogue de requête rapide."
+msgstr "Ajouter une boite de dialogue de requête rapide."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
@@ -540,12 +538,12 @@ msgstr "Autoriser le basculement vers la discussion selon l'identifieur"
 #: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "Ajouter l'outil « Date et heure courante »."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "Ajoutez les informations du message de progression de l'outil."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
@@ -555,22 +553,23 @@ msgstr "Correction de l'icône sur les fenêtres."
 #: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Correction de l'appel à des modules externes multi-outils."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Autoriser l'exportation de texte dans les modules externes de l'éditeur de "
+"génération automatique."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Ajouter un nouveau composant graphique de mise à jour."
+msgstr "Ajouter un nouveau composant graphique « Quoi de neuf »."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Nouveau module externe : afficher la taille de la collection."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
