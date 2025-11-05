@@ -146,6 +146,10 @@ if(NOT USE_DBUS)
     find_package(KDSingleApplication-qt6 CONFIG REQUIRED)
 endif()
 
+if(${KF6TextAutoGenerateText_VERSION} VERSION_GREATER_EQUAL 1.8.56)
+    set(HAVE_NEW_TOOLS_PLUGINS_SUPPORT TRUE)
+endif()
+
 configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)

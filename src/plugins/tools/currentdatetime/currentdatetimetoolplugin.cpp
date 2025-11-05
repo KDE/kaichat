@@ -47,6 +47,13 @@ void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
     dlg.exec();
 }
 
+#if HAVE_NEW_TOOLS_PLUGINS_SUPPORT
+TextAutoGenerateText::TextAutoGenerateTextToolPluginJob *CurrentDateTimeToolPlugin::callTool()
+{
+    return new CurrentDateTimeToolPluginJob(this);
+}
+
+#else
 void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
                                           const QByteArray &uuid,
                                           const QList<TextAutoGenerateText::TextAutoGenerateReply::ToolCallArgumentInfo> &info)
@@ -57,6 +64,14 @@ void CurrentDateTimeToolPlugin::callTools(const QByteArray &chatId,
         job->start();
     }
 }
+#endif
+
+#if HAVE_NEW_TOOLS_PLUGINS_SUPPORT
+int CurrentDateTimeToolPlugin::order() const
+{
+    return 30;
+}
+#endif
 
 #include "currentdatetimetoolplugin.moc"
 #include "moc_currentdatetimetoolplugin.cpp"
