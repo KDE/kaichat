@@ -25,7 +25,7 @@ msgstr "KDE 中国, Eric Zhao, ShiroAzusa"
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com, shiroazusa@qq.com"
+msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com, azusa@shiroazusa.net"
 
 #: apps/main.cpp:65 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -35,7 +35,7 @@ msgstr "KAIChat"
 #: apps/main.cpp:67
 #, kde-format
 msgid "AI Chat"
-msgstr ""
+msgstr "AI 聊天"
 
 #: apps/main.cpp:69
 #, kde-format
@@ -97,7 +97,7 @@ msgstr "切换到聊天模式"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr ""
+msgstr "从标识符切换到聊天"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
@@ -157,42 +157,42 @@ msgstr "<qt>您的新请求位于：<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "当前日期和时间"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "获取当前的日期和时间"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "使用此工具获取当前日期时间"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "配置日期时间工具"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr ""
+msgstr "获取当前的日期和时间。"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "当前时间是 %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "当前时间是 %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "当前日期时间是 %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -215,7 +215,7 @@ msgstr "缩小字体"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "启用文字转语音"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -263,7 +263,7 @@ msgstr "拼写检查"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "无障碍辅助功能"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -299,7 +299,7 @@ msgstr "导出为文本..."
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
+msgstr[0] "找到 %1 条字符串."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -316,15 +316,13 @@ msgstr "显示归档"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "在数据库中搜索..."
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "打开 Quick Ask"
+msgstr "打开 Quick Ask..."
 
 #: widgets/kaichatmainwindow.cpp:282
 #, kde-format
@@ -365,7 +363,7 @@ msgstr "设置(&S)"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "编辑(&E)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -393,33 +391,31 @@ msgstr "主工具栏"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "允许复制代码块到剪贴板。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "在状态栏中显示找到的字符串数量。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "执行快速搜索。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "在 Quick Ask 对话框中添加快速搜索栏。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "添加恢复配置设置的值。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "允许配置插件。"
+msgstr "允许配置文字转语音功能。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "添加工具插件图标名称。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
@@ -520,22 +516,22 @@ msgstr "添加显示聊天列表标题的选项。"
 #: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add tools support."
-msgstr ""
+msgstr "添加工具支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to switch from chat identifier."
-msgstr ""
+msgstr "允许从聊天标识符切换。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "添加当前日期时间工具。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "添加进度工具消息信息。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
@@ -545,80 +541,18 @@ msgstr "修复窗口上的图标。"
 #: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "修复多工具插件调用。"
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "允许在自动生成编辑器插件中导出文本。"
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "添加新的“更新”小部件。"
+msgstr "添加新的 “whatsnew” 小部件。"
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "禁用版本检查"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "检查新版本"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr "您的软件已经是 6 个月前的版本了，我们建议您升级为最新版本。"
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr "您的软件已经是 1 年前的版本了，我们强烈建议您升级为最新版本。"
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "检查新版本"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr "发现新版本。请点击<a href=\"%1\">此处</a>进行下载。"
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr "未发现新版本。可在<a href=\"%1\">此处</a>找到构建版本。"
-
-#~ msgid "Check New Version"
-#~ msgstr "检查新版本"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "版本："
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "%1 的新功能"
-
-#~ msgid "(Show News)"
-#~ msgstr "(显示新闻)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "%2. %1 的新功能"
-
-#~ msgid "All Versions"
-#~ msgstr "全部版本"
-
-#~ msgid "Version %1"
-#~ msgstr "版本 %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "上个版本以来的重要变化："
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "此版本 KAIchat 所包含的的部分新特性包括："
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "修复了一些问题："
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "打开 Quick Ask..."
+msgstr "新插件：显示集合大小。"
