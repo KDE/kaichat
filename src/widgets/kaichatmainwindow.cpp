@@ -90,7 +90,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
 
 KAIChatMainWindow::~KAIChatMainWindow()
 {
-    KSharedConfig::Ptr config = KSharedConfig::openConfig();
+    KSharedConfig::Ptr config = KSharedConfig::openStateConfig();
     KConfigGroup group = config->group(QLatin1StringView(myKAIChatMainWindowGroupName));
     group.writeEntry("Size", size());
 }
@@ -110,7 +110,7 @@ void KAIChatMainWindow::slotStatusBarInfoChanged(const QString &str)
 
 void KAIChatMainWindow::readConfig()
 {
-    KSharedConfig::Ptr config = KSharedConfig::openConfig();
+    KSharedConfig::Ptr config = KSharedConfig::openStateConfig();
     KConfigGroup group = KConfigGroup(config, QLatin1StringView(myKAIChatMainWindowGroupName));
     const QSize sizeDialog = group.readEntry("Size", QSize(800, 600));
     if (sizeDialog.isValid()) {
