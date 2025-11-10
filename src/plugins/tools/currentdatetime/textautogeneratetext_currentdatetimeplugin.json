@@ -17,6 +17,7 @@
         "Description[sv]": "Insticksprogrammet låter dig ta reda på aktuellt datum och tid.",
         "Description[tr]": "Bu eklenti, şu anki tarihi ve zamanı almanıza olanak tanır.",
         "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо поточної дати і часу.",
+        "Description[zh_CN]": "此插件允许您获取当前日期时间。",
         "Description[zh_TW]": "這個外掛程式讓您取得目前日期與時間。",
         "EnabledByDefault": true,
         "Name": "Current Date Time",
@@ -36,6 +37,7 @@
         "Name[sv]": "Aktuellt datum och tid",
         "Name[tr]": "Geçerli Tarih/Zaman",
         "Name[uk]": "Поточна дата і час",
+        "Name[zh_CN]": "当前日期和时间",
         "Name[zh_TW]": "目前日期與時間",
         "Version": "1.0"
     }
