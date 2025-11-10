@@ -62,7 +62,7 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         break;
     }
     connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportDone, this, []() {
-        qDebug() << " job done";
+        qDebug() << "Export job done";
     });
 
     job->setInfo(newInfo);
