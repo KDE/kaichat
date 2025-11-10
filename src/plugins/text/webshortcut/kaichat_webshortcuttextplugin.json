@@ -17,6 +17,7 @@
         "Description[sv]": "Insticksprogrammet låter dig fråga på webben.",
         "Description[tr]": "Bu eklenti, web üzerinde sorgu yapmanıza olanak tanır.",
         "Description[uk]": "За допомогою цього додатка ви можете надсилати пошукові записи до інтернету.",
+        "Description[zh_CN]": "此插件允许您在网页上提问。",
         "EnabledByDefault": true,
         "Name": "Web Shortcut",
         "Name[ar]": "اختصار وبّ",
@@ -35,6 +36,7 @@
         "Name[sv]": "Webbgenvägar",
         "Name[tr]": "Web Kısayolu",
         "Name[uk]": "Вебскорочення",
+        "Name[zh_CN]": "网页快捷方式",
         "Version": "1.0"
     }
 }
