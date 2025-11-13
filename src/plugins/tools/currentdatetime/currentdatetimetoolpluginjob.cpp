@@ -60,6 +60,7 @@ void CurrentDateTimeToolPluginJob::start()
         .messageUuid = mMessageUuid,
         .chatId = mChatId,
         .toolIdentifier = mToolIdentifier,
+        .attachementInfoList = {},
     };
     Q_EMIT finished(info);
     deleteLater();
