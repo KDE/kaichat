@@ -22,6 +22,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Allow to configure text to speech."),
         kli18n("Add tool plugin icon name."),
         kli18n("Add attachment support."),
+        kli18n("Add new icon."),
     };
     return info;
 }
