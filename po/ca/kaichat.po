@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-13 00:45+0000\n"
-"PO-Revision-Date: 2025-10-30 13:22+0100\n"
+"PO-Revision-Date: 2025-11-13 14:46+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -423,10 +423,8 @@ msgid "Add tool plugin icon name."
 msgstr "Afegeix el nom d'icona del connector d'eina."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Afegeix la implementació d'instàncies."
+msgstr "Afegeix la implementació d'adjunts."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

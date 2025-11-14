@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-13 00:45+0000\n"
-"PO-Revision-Date: 2025-10-30 07:41+0100\n"
+"PO-Revision-Date: 2025-11-13 06:22+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -424,10 +424,8 @@ msgid "Add tool plugin icon name."
 msgstr "Dodaj ime ikone vtičnika orodja."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Dodaj podporo pojavka."
+msgstr "Dodaj podporo priloge."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

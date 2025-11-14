@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-13 00:45+0000\n"
-"PO-Revision-Date: 2025-10-30 05:28+0100\n"
+"PO-Revision-Date: 2025-11-13 03:21+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -424,10 +424,8 @@ msgid "Add tool plugin icon name."
 msgstr "დაემატა ხელსაწყოს დამატების ხატულას სახელი."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
+msgstr "დაემატა მიმაგრებული ფაილების მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

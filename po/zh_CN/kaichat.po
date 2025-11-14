@@ -418,10 +418,8 @@ msgid "Add tool plugin icon name."
 msgstr "添加工具插件图标名称。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "添加实例支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
