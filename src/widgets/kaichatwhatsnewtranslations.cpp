@@ -23,6 +23,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add tool plugin icon name."),
         kli18n("Add attachment support."),
         kli18n("Add new icon."),
+        kli18n("Add debug command line."),
     };
     return info;
 }
