@@ -357,6 +357,9 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
             mManager->switchToChatId(chatIdentifier.toLatin1());
         }
     }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Debug))) {
+        mManager->setDebug(true);
+    }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
         qDebug() << " INSTANCE ***************";
         // TODO

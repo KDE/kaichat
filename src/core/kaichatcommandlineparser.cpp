@@ -32,6 +32,7 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          u"Chat Identifier"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::AskMessage), i18nc("@info:shell", "Ask Message"), u"Message"_s));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListChats), i18nc("@info:shell", "Return lists of chats")));
+    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Debug), i18nc("@info:shell", "Activate Debug Mode")));
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -53,6 +54,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"ask-message"_s;
     case OptionParser::ListChats:
         return u"list-chats"_s;
+    case OptionParser::Debug:
+        return u"debug"_s;
     }
     return {};
 }

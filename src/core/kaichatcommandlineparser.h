@@ -20,6 +20,7 @@ public:
         SwitchToChatFromId,
         AskMessage,
         ListChats,
+        Debug,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();
