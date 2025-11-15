@@ -1,0 +1,559 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kaichat package.
+# SPDX-FileCopyrightText: 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-05 02:30+0000\n"
+"PO-Revision-Date: 2025-11-14 08:39+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 25.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Łukasz Wojniłowicz"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lukasz.wojnilowicz@gmail.com"
+
+#: apps/main.cpp:64 widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
+
+#: apps/main.cpp:66
+#, kde-format
+msgid "AI Chat"
+msgstr "Okienko AI"
+
+#: apps/main.cpp:68
+#, kde-format
+msgid "Copyright © 2025 Laurent Montel"
+msgstr "Copyright © 2025 Laurent Montel"
+
+#: apps/main.cpp:69
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:69
+#, kde-format
+msgid "Maintainer"
+msgstr "Opiekun"
+
+#: apps/main.cpp:88
+#, kde-format
+msgid "The following instances are available:"
+msgstr "Dostępne są następujące wystąpienia:"
+
+#: apps/main.cpp:100
+#, kde-format
+msgid "List of Chats:"
+msgstr "Lista rozmów:"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr "Zwróć listę wystąpień"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start with specific instance"
+msgstr "Rozpocznij z danym wystąpieniem"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr "Utwórz nową rozmowę"
+
+#: core/kaichatcommandlineparser.cpp:27
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "Otwórz szybkie zapytania"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr "Przełącz na rozmowę"
+
+#: core/kaichatcommandlineparser.cpp:31
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Przełączanie na rozmowę po identyfikatorze"
+
+#: core/kaichatcommandlineparser.cpp:33
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr "Treść zapytania"
+
+#: core/kaichatcommandlineparser.cpp:34
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Zwróć listę rozmów"
+
+#: core/kaichatexportchatasmardownjob.cpp:32
+#: core/kaichatexportchatastextjob.cpp:32
+#, kde-format
+msgid "User"
+msgstr "Użytkownik"
+
+#: core/kaichatexportchatasmardownjob.cpp:35
+#: core/kaichatexportchatastextjob.cpp:35
+#, kde-format
+msgid "Assistant"
+msgstr "Pomocnik"
+
+#: core/kaichatexportchatasmardownjob.cpp:38
+#: core/kaichatexportchatastextjob.cpp:38
+#, kde-format
+msgid "System"
+msgstr "System"
+
+#: core/kaichatexportchatasmardownjob.cpp:41
+#: core/kaichatexportchatastextjob.cpp:41
+#, kde-format
+msgid "Tool"
+msgstr "Narzędzie"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr "Udostępnij tekst…"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Napotkano kłopot przy udostępnianiu dokumentu: %1"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#, kde-format
+msgid "File was shared."
+msgstr "Plik został udostępniony."
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>Możesz znaleźć nowe żądanie na:<br /><a href='%1'>%1</a> </qt>"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+msgid "The Current Date Time"
+msgstr "Bieżąca data i czas"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr "Pobierz bieżącą datę i czas"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tool to get current date time"
+msgstr "Użyj tego narzędzia do pobrania bieżącej daty"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr "Ustawienia daty i czasu"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#, kde-format
+msgid "Current time is %1"
+msgstr "Bieżący czas to %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#, kde-format
+msgid "Current date is %1"
+msgstr "Bieżąca data to %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#, kde-format
+msgid "Current date time is %1"
+msgstr "Bieżąca data i czas to %1"
+
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr "Rozmiar czcionki"
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr "Zwiększ czcionkę"
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr "Zmniejsz czcionkę"
+
+#: widgets/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Użyj własnych czcionek"
+
+#: widgets/kaichatconfiguregeneralwidget.cpp:18
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Włącz ikonę na tacce systemowej"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Ustawienia KAIChat"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:34
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Ogólne"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:39
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr "Czcionka"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:44
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Wystąpienia"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:49
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Sprawdzanie pisowni"
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:54
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: widgets/kaichatexportmenu.cpp:17
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export…"
+msgstr "Wyeksportuj…"
+
+#: widgets/kaichatexportmenu.cpp:18
+#, kde-format
+msgctxt "@action"
+msgid "Export as JSON…"
+msgstr "Wyeksportuj jako JSON…"
+
+#: widgets/kaichatexportmenu.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Export as Markdown…"
+msgstr "Wyeksportuj jako Markdown…"
+
+#: widgets/kaichatexportmenu.cpp:32
+#, kde-format
+msgctxt "@action"
+msgid "Export as Text…"
+msgstr "Wyeksportuj jako tekst…"
+
+#: widgets/kaichatmainwindow.cpp:135
+#, kde-format
+msgid "What's new"
+msgstr "Co nowego"
+
+#: widgets/kaichatmainwindow.cpp:139
+#, kde-format
+msgctxt "@action"
+msgid "Show Archive"
+msgstr "Pokaż archiwum"
+
+#: widgets/kaichatmainwindow.cpp:181
+#, kde-format
+msgid "Open Quick Ask..."
+msgstr "Otwórz szybkie zapytania…"
+
+#: widgets/kaichatmainwindow.cpp:268
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+"<qt>To spowoduje całkowite ukrycie paska menu. Można go przywrócić "
+"naciskając %1.</qt>"
+
+#: widgets/kaichatmainwindow.cpp:271
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr "Ukryj pasek menu"
+
+#: widgets/kaichatmainwindow.cpp:305
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Chats"
+msgstr "Wyeksportuj rozmowy"
+
+#: widgets/kaichatmainwindow.cpp:363
+#, kde-format
+msgid "Model Download Done"
+msgstr "Ukończono pobieranie modelu"
+
+#: widgets/kaichatmainwindow.cpp:364
+#, kde-format
+msgid "Model %1 was download."
+msgstr "Pobrano model %1."
+
+#. i18n: ectx: Menu (settings)
+#: widgets/kaichatui.rc:13
+#, kde-format
+msgid "&Settings"
+msgstr "U&stawienia"
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:17
+#, kde-format
+msgid "View"
+msgstr "Widok"
+
+#. i18n: ectx: Menu (Tools)
+#: widgets/kaichatui.rc:23
+#, kde-format
+msgid "Tools"
+msgstr "Narzędzia"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:27
+#, kde-format
+msgid "&Help"
+msgstr "&Pomoc"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgets/kaichatui.rc:34
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Główny pasek narzędzi"
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Disable version check"
+msgstr "Wyłącz sprawdzanie wersji"
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:26
+#, kde-format
+msgctxt "@action"
+msgid "Check new Version"
+msgstr "Sprawdź, czy jest nowa wersja"
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:42
+#, kde-format
+msgid "Your version is older than 6 months, we encourage you to upgrade."
+msgstr ""
+"Twoja wersja jest starsza niż 6 miesięcy, więc zalecamy jej uaktualnienie."
+
+#: widgets/needupdateversion/needupdateversionwidget.cpp:47
+#, kde-format
+msgid ""
+"Your version is older than 1 year, we strongly encourage you to upgrade."
+msgstr ""
+"Twoja wersja jest starsza niż 1 rok, więc bardzo zalecamy jej uaktualnienie."
+
+#: widgets/verifynewversionwidget/verifynewversiondialog.cpp:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Check New Version"
+msgstr "Sprawdź, czy jest nowa wersja"
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:73
+#, kde-format
+msgid "A new version found. Click <a href=\"%1\">here</a> for downloading it."
+msgstr ""
+"Dostępna jest nowa wersja. Naciśnij <a href=\"%1\">tutaj</a>, aby ją pobrać."
+
+#: widgets/verifynewversionwidget/verifynewversionwidget.cpp:75
+#, kde-format
+msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
+msgstr ""
+"Nie znaleziono żadnej nowej wersji. Wersję z budowy można znaleźć <a href="
+"\"%1\">tutaj</a>."
+
+#: widgets/verifynewversionwidget/verifynewversionwidgetaction.cpp:29
+#, kde-format
+msgid "Check New Version"
+msgstr "Sprawdź, czy jest nowa wersja"
+
+#: widgets/whatsnew/whatsnewcomboboxwidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr "Wersja:"
+
+#: widgets/whatsnew/whatsnewdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "What's new in %1"
+msgstr "Co nowego w %1"
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "(Show News)"
+msgstr "(Pokaż wieści)"
+
+#: widgets/whatsnew/whatsnewmessagewidget.cpp:21
+#, kde-format
+msgid "What's new in %2. %1"
+msgstr "Co nowego w %2. %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:18
+msgid "Add Quick Ask Dialog."
+msgstr "Dodano okno szybkich zapytań."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:19
+msgid "Allow to download Ollama on Windows/MacOs."
+msgstr "Możliwość pobrania Ollama na Windowsie/MacOsie."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:20
+msgid "Use prompt during chating."
+msgstr "Użycie zapytania podczas rozmowy."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:21
+msgid "Add shared text and webshorcut plugin."
+msgstr "Dodano udostępnianie tekstu i wtyczkę skrótów sieciowych."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:22
+msgid "Allow to configure plugins."
+msgstr "Możliwość ustawiania wtyczek."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:23
+msgid "Add new update widget."
+msgstr "Dodano nowe okno obsługi."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:24
+msgid "Add progress indicator in chats list."
+msgstr "Dodano wskaźnik postępu na liście rozmów."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:25
+msgid "Allow to change font size."
+msgstr "Możliwość zmiany rozmiaru czcionki."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:26
+msgid ""
+"Add command line for adding new chat room, displaying list of instances."
+msgstr ""
+"Dodano wiersz poleceń do dodawania nowego pokoju rozmów, wyświetlającego "
+"listę wystąpień."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:27
+msgid "Add spell checking support."
+msgstr "Dodano sprawdzanie pisowni."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:28
+msgid "Add Notification popup when model download done."
+msgstr "Dodanie okna z powiadomieniem po pobraniu modelu."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:29
+msgid "Allow to save and restore text and scrollbar position."
+msgstr ""
+"Możliwość zapisywania i przywracania tekstu i położenia paska przewijania."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:30
+msgid "Allow to save and restore current chat."
+msgstr "Możliwość zapisywania i przywracania bieżącej rozmowy."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:31
+msgid "Add option for showing list of title chats."
+msgstr "Dodano ustawienie do wyświetlania listy tytułów rozmów."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:32
+msgid "Add tools support."
+msgstr "Dodano obsługę narzędzi."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:33
+msgid "Allow to switch from chat identifier."
+msgstr "Możliwość zmiany identyfikatora rozmowy."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:34
+msgid "Add Current Date Time tool."
+msgstr "Dodano narzędzie zgłaszające bieżącą datę."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:35
+msgid "Add progress tool message info."
+msgstr "Dodano pasek do pokazywania postępu narzędzia."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:46
+#, kde-format
+msgid "Add what's new support."
+msgstr "Dodanie obsługi co nowego."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:47
+#, kde-format
+msgid "Add instance support."
+msgstr "Dodano obsługę wystąpień."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:48
+#, kde-format
+msgid "Add Mardown support."
+msgstr "Dodano obsługę Markdown."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:49
+#, kde-format
+msgid "Add Highlighting support."
+msgstr "Dodano obsługę podświetlania."
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:52
+#, kde-format
+msgid "Fix allow delete chat. Bug %1"
+msgstr "Poprawiono usuwanie rozmów. Błąd %1"
+
+#: widgets/whatsnew/whatsnewtranslations.cpp:64
+#, kde-format
+msgid "Fix icon on windows."
+msgstr "Naprawiono ikonę na Windowsie."
+
+#: widgets/whatsnew/whatsnewwidget.cpp:46
+#, kde-format
+msgid "All Versions"
+msgstr "Wszystkie wersje"
+
+#: widgets/whatsnew/whatsnewwidget.cpp:49
+#, kde-format
+msgid "Version %1"
+msgstr "Wersja %1"
+
+#: widgets/whatsnew/whatsnewwidget.cpp:93
+#, kde-format
+msgid "Important changes since last version:"
+msgstr "Ważne zmiany od ostatniego wydania:"
+
+#: widgets/whatsnew/whatsnewwidget.cpp:98
+#, kde-format
+msgid "Some of the new features in this release of KAIchat include:"
+msgstr "Nowe możliwości w tym wydaniu KAIchat to:"
+
+#: widgets/whatsnew/whatsnewwidget.cpp:103
+#, kde-format
+msgid "Some bug fixing:"
+msgstr "Naprawa błędów:"
