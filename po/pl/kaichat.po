@@ -1,34 +1,32 @@
-# Translation for kaichat.po to Euskara/Basque (eu).
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
-# Translators:
-# SPDX-FileCopyrightText: 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-10-23 00:37+0200\n"
-"Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
-"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
-"Language: eu\n"
+"PO-Revision-Date: 2025-11-14 08:39+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: pl\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 25.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Iñigo Salvador Azurmendi"
+msgstr "Łukasz Wojniłowicz"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "xalba@ni.eus"
+msgstr "lukasz.wojnilowicz@gmail.com"
 
 #: apps/main.cpp:65 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -38,7 +36,7 @@ msgstr "KAIChat"
 #: apps/main.cpp:67
 #, kde-format
 msgid "AI Chat"
-msgstr "AA berriketa"
+msgstr "Okienko AI"
 
 #: apps/main.cpp:69
 #, kde-format
@@ -54,65 +52,65 @@ msgstr "Laurent Montel"
 #: apps/main.cpp:70
 #, kde-format
 msgid "Maintainer"
-msgstr "Mantentzailea"
+msgstr "Opiekun"
 
 #: apps/main.cpp:89
 #, kde-format
 msgid "The following instances are available:"
-msgstr "Ondoko instantziak erabilgarri daude:"
+msgstr "Dostępne są następujące wystąpienia:"
 
 #: apps/main.cpp:101
 #, kde-format
 msgid "List of Chats:"
-msgstr "Berriketa-zerrenda:"
+msgstr "Lista rozmów:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr "Itzuli instantzia-zerrendak"
+msgstr "Zwróć listę wystąpień"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr "Hasi instantzia jakin batekin"
+msgstr "Rozpocznij z danym wystąpieniem"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr "Sortu berriketa berria"
+msgstr "Utwórz nową rozmowę"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "Ireki Galdera azkarra"
+msgstr "Otwórz szybkie zapytania"
 
 #: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "Aldatu berriketara"
+msgstr "Przełącz na rozmowę"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "Aldatu berriketara identifikatzailetik"
+msgstr "Przełączanie na rozmowę po identyfikatorze"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr "Galdera mezua"
+msgstr "Treść zapytania"
 
 #: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Itzuli berriketa-zerrendak"
+msgstr "Zwróć listę rozmów"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -124,215 +122,216 @@ msgstr ""
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
 msgid "User"
-msgstr "Erabiltzailea"
+msgstr "Użytkownik"
 
 #: core/kaichatexportchatasmardownjob.cpp:35
 #: core/kaichatexportchatastextjob.cpp:35
 #, kde-format
 msgid "Assistant"
-msgstr "Laguntzailea"
+msgstr "Pomocnik"
 
 #: core/kaichatexportchatasmardownjob.cpp:38
 #: core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "System"
-msgstr "Sistema"
+msgstr "System"
 
 #: core/kaichatexportchatasmardownjob.cpp:41
 #: core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Tool"
-msgstr "Tresna"
+msgstr "Narzędzie"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr "Partekatu testua..."
+msgstr "Udostępnij tekst…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "Arazoa bat egon da dokumentua partekatzean: %1"
+msgstr "Napotkano kłopot przy udostępnianiu dokumentu: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
 msgid "File was shared."
-msgstr "Fitxategia partekatu da."
+msgstr "Plik został udostępniony."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr "<qt>Eskaera berria hemen aurki dezakezu:<br /><a href='%1'>%1</a></qt>"
+msgstr "<qt>Możesz znaleźć nowe żądanie na:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr "Uneko data ordua"
+msgstr "Bieżąca data i czas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr "Lortu Uneko Daata Ordua"
+msgstr "Pobierz bieżącą datę i czas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr "Erabili tresna hau uneko data ordua lortzeko"
+msgstr "Użyj tego narzędzia do pobrania bieżącej daty"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr "Konfiguratu Data Ordua tresna"
+msgstr "Ustawienia daty i czasu"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr "Lortu Uneko Data Ordua."
+msgstr "Pobierz bieżącą datę i czas."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr "Uneko ordua %1 da"
+msgstr "Bieżący czas to %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr "Uneko data %1 da"
+msgstr "Bieżąca data to %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr "Uneko data ordua %1 da"
+msgstr "Bieżąca data i czas to %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr "Letra-tipoaren neurria"
+msgstr "Rozmiar czcionki"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr "Handiagotu letra-tipoa"
+msgstr "Zwiększ czcionkę"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr "Txikiagotu letra-tipoa"
+msgstr "Zmniejsz czcionkę"
 
 #: widgets/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Włącz tekst-na-mowę"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr "&Erabili neurrira ipinitako letra-tipoak"
+msgstr "&Użyj własnych czcionek"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "Gaitu sistemaren erretiluko ikonoa"
+msgstr "Włącz ikonę na tacce systemowej"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:36
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "Konfiguratu KAIChat"
+msgstr "Ustawienia KAIChat"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:39
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "Orokorra"
+msgstr "Ogólne"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr "Letra-tipoa"
+msgstr "Czcionka"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:49
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "Instantziak"
+msgstr "Wystąpienia"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Ortografia-egiaztatzea"
+msgstr "Sprawdzanie pisowni"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:59
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Dostępność"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr "Pluginak"
+msgstr "Wtyczki"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "Esportatu…"
+msgstr "Wyeksportuj…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "Esportatu JSON gisa…"
+msgstr "Wyeksportuj jako JSON…"
 
 #: widgets/kaichatexportmenu.cpp:25
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "Esportatu Markdown gisa…"
+msgstr "Wyeksportuj jako Markdown…"
 
 #: widgets/kaichatexportmenu.cpp:32
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "Esportatu testu gisa…"
+msgstr "Wyeksportuj jako tekst…"
 
 #: widgets/kaichatmainwindow.cpp:83
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] "Kate %1 aurkitu da."
-msgstr[1] "%1 kate aurkitu dira."
+msgstr[0] "Znaleziono %1 ciąg znaków."
+msgstr[1] "Znaleziono %1 ciągi znaków."
+msgstr[2] "Znaleziono %1 ciągów znaków."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
 msgid "What's new"
-msgstr "Zer berri"
+msgstr "Co nowego"
 
 #: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "Erakutsi artxiboa"
+msgstr "Pokaż archiwum"
 
 #: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr "Bilatu datu-basean…"
+msgstr "Poszukaj w bazie danych…"
 
 #: widgets/kaichatmainwindow.cpp:194
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Ireki Galdera azkarra…"
+msgstr "Otwórz szybkie zapytania…"
 
 #: widgets/kaichatmainwindow.cpp:282
 #, kde-format
@@ -340,102 +339,98 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
-"dezakezu.</qt>"
+"<qt>To spowoduje całkowite ukrycie paska menu. Można go przywrócić "
+"naciskając %1.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:285
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "Ezkutatu menu-barra"
+msgstr "Ukryj pasek menu"
 
 #: widgets/kaichatmainwindow.cpp:319
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "Esportatu berriketak"
+msgstr "Wyeksportuj rozmowy"
 
 #: widgets/kaichatmainwindow.cpp:380
 #, kde-format
 msgid "Model Download Done"
-msgstr "Eredua zama-jaistea burutu da"
+msgstr "Ukończono pobieranie modelu"
 
 #: widgets/kaichatmainwindow.cpp:381
 #, kde-format
 msgid "Model %1 was download."
-msgstr "%1 eredua zama-jaitsi da."
+msgstr "Pobrano model %1."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:13
 #, kde-format
 msgid "&Settings"
-msgstr "E&zarpenak"
+msgstr "U&stawienia"
 
 #. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr "&Editatu"
+msgstr "&Edycja"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
 #, kde-format
 msgid "View"
-msgstr "Ikuspegia"
+msgstr "Widok"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:27
 #, kde-format
 msgid "Tools"
-msgstr "Tresnak"
+msgstr "Narzędzia"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:31
 #, kde-format
 msgid "&Help"
-msgstr "&Laguntza"
+msgstr "&Pomoc"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:38
 #, kde-format
 msgid "Main Toolbar"
-msgstr "Tresna-barra nagusia"
+msgstr "Główny pasek narzędzi"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr "Kode-blokea arbelera kopiatzeko aukera ematea."
+msgstr "Możliwość skopiowania bloku kodu do schowka."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr "Aurkitutako kate kopurua egoera-barran erakustea."
+msgstr "Pokazywanie liczby ciągu znaków na pasku stanu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr "Bilaketa azkarra inplementatzea."
+msgstr "Dodanie szybkiego wyszukiwania."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr "Bilaketa azkarra barra galdera azkarra elkarrizketa koadroan gehitzea."
+msgstr "Dodanie paska szybkiego wyszukiwania w oknie szybkich pytań."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr "Konfiguratzeko ezarpenen balioa lehengoratzea gehitzea."
+msgstr "Dodano przywracanie wartości ustawień do domyślnych."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Pluginak konfiguratzea baimendu."
+msgstr "Możliwość ustawienia tekstu na mowę."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Dodano nazwę ikony narzędzia z wtyczki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Instantzien euskarria gehitu."
+msgstr "Dodanie obsługi załączników."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
@@ -448,227 +443,142 @@ msgstr ""
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add what's new support."
-msgstr "Zer berri-ren euskarria gehitzu."
+msgstr "Dodanie obsługi co nowego."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
 msgid "Add instance support."
-msgstr "Instantzien euskarria gehitu."
+msgstr "Dodano obsługę wystąpień."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:39
 #, kde-format
 msgid "Add Mardown support."
-msgstr "Markdown-en euskarria gehitu."
+msgstr "Dodano obsługę Markdown."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Highlighting support."
-msgstr "Nabarmentzeko euskarria gehitu."
+msgstr "Dodano obsługę podświetlania."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
+msgstr "Poprawiono usuwanie rozmów. Błąd %1"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add Quick Ask Dialog."
-msgstr "Galdera azkarra elkarrizketa-koadroa gehitu."
+msgstr "Dodano okno szybkich zapytań."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "Ollama Windows/MacOs-en zama-jaistea baimendu."
+msgstr "Możliwość pobrania Ollama na Windowsie/MacOsie."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Use prompt during chating."
-msgstr "Berriketan gonbita erabiltzea."
+msgstr "Użycie zapytania podczas rozmowy."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
-msgstr "Partekatutako testua eta web-lasterbide plugina gehitu."
+msgstr "Dodano udostępnianie tekstu i wtyczkę skrótów sieciowych."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Allow to configure plugins."
-msgstr "Pluginak konfiguratzea baimendu."
+msgstr "Możliwość ustawiania wtyczek."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add new update widget."
-msgstr "Eguneratze-trepeta berria gehitu."
+msgstr "Dodano nowe okno obsługi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add progress indicator in chats list."
-msgstr "Berriketen zerrendan aurrerapen adierazlea gehitzea."
+msgstr "Dodano wskaźnik postępu na liście rozmów."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Allow to change font size."
-msgstr "Letra-tipoa aldatzea baimendu."
+msgstr "Możliwość zmiany rozmiaru czcionki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
-"Instantzien zerrenda azaltzen duen berriketa gela berria gehitzeko komando-"
-"lerroa gehitzea."
+"Dodano wiersz poleceń do dodawania nowego pokoju rozmów, wyświetlającego "
+"listę wystąpień."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Add spell checking support."
-msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
+msgstr "Dodano sprawdzanie pisowni."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add Notification popup when model download done."
-msgstr ""
-"Gehitu jakinarazpenaren mezu gainerakorra eredua zama-jaitsiera burutu "
-"denean."
+msgstr "Dodanie okna z powiadomieniem po pobraniu modelu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
-"Testuaren eta kiribiltze-barraren kokapena gorde eta lehengoratzeko aukera "
-"ematen du."
+"Możliwość zapisywania i przywracania tekstu i położenia paska przewijania."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to save and restore current chat."
-msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
+msgstr "Możliwość zapisywania i przywracania bieżącej rozmowy."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add option for showing list of title chats."
-msgstr "Izenburudun berriketak erakusteko aukera gehitu."
+msgstr "Dodano ustawienie do wyświetlania listy tytułów rozmów."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add tools support."
-msgstr "Tresnen euskarria gehitu."
+msgstr "Dodano obsługę narzędzi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:65
 #, kde-format
 msgid "Allow to switch from chat identifier."
-msgstr "Berriketa identifikatzailetik aldatzea baimendu."
+msgstr "Możliwość zmiany identyfikatora rozmowy."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:66
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr "Gehitu Uneko Data Ordu tresna."
+msgstr "Dodano narzędzie zgłaszające bieżącą datę."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Add progress tool message info."
-msgstr "Gehitu aurrerapen tresnaren mezu-informazioa."
+msgstr "Dodano pasek do pokazywania postępu narzędzia."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:70
 #, kde-format
 msgid "Fix icon on windows."
-msgstr "Windows-en ikonoa konpontzea."
+msgstr "Naprawiono ikonę na Windowsie."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Poprawiono wywołanie do wielu narzędzi."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
-"Editorearen automatikoki sortzeko plugineko testua esportatzeko aukera "
-"ematea."
+msgstr "Możliwość eksportowania tekstu we wtyczkach edytora autogenerowania."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Zerberri trepeta berria gehitzea."
+msgstr "Dodano nowy element interfejsu \"co nowego\""
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr "Plugin berria: erakutsi bildumaren neurria."
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Ezgaitu bertsio-egiaztapena"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Egiaztatu bertsio berririk dagoen"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Zure bertsioa 6 hilabete baino zaharragoa da, bertsio-berritzea "
-#~ "gomendatzen dizugu."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Zure bertsioa urte 1 baino zaharragoa da, bertsio-berritzea biziki "
-#~ "gomendatzen dizugu."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Egiaztatu bertsio berririk dagoen"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "Bertsio berri bat aurkitu da. Egin klik <a href=\"%1\">hemen</a> hura "
-#~ "zama-jaisteko."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "Ez da bertsio berririk aurkitu. Eraikina <a href=\"%1\">hemen</a> aurki "
-#~ "daiteke."
-
-#~ msgid "Check New Version"
-#~ msgstr "Egiaztatu bertsio berririk dagoen"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Bertsioa:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Zer berri %1(e)(a)n"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Berriak erakutsi)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Zer berri %2(a)n. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Bertsio guztiak"
-
-#~ msgid "Version %1"
-#~ msgstr "%1 bertsioa"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Azken bertsiotik dauden aldaketa garrantzitsuak:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "KAIchat-en argitalpen berri honetako ezaugarri berrien artean daude:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Akatsak konponketa batzuk:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Ireki Galdera azkarra..."
-
-#~ msgid "KAiChat"
-#~ msgstr "KAiChat"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket Chat bezeroa"
-
-#~ msgctxt "@title:window"
-#~ msgid "Export Autocorrection File"
-#~ msgstr "Esportatu zuzenketa automatikorako fitxategia"
+msgstr "Nowa wtyczka: pokazywanie rozmiaru zbioru."
