@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-11-13 03:21+0100\n"
+"PO-Revision-Date: 2025-11-15 08:26+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -116,7 +116,7 @@ msgstr "აბრუნებს ჩატების სიას"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "გამართვის რეჟიმის გააქტიურება"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -435,11 +435,11 @@ msgstr "დაემატა მიმაგრებული ფაილე�
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "დაემატა ახალი ხატულა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "დაემატა გამართვის ბრძანების სტრიქონი."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

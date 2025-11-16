@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-11-14 00:50+0100\n"
+"PO-Revision-Date: 2025-11-15 12:17+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -117,7 +117,7 @@ msgstr "Devolver listas de conversaciones"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Activar el modo de depuración"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -435,11 +435,11 @@ msgstr "Se ha añadido la implementación de adjuntar."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Añadir nuevo icono."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Añadir línea de órdenes de depuración."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

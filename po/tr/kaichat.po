@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-11-14 18:37+0300\n"
+"PO-Revision-Date: 2025-11-15 19:44+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -115,7 +115,7 @@ msgstr "Sohbetlerin listesini döndür"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Hata ayıklama kipini etkinleştir"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -432,11 +432,11 @@ msgstr "Ek iliştirme desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Yeni simge ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Komut satırı hata ayıklaması ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

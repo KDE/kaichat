@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-11-13 10:19+0200\n"
+"PO-Revision-Date: 2025-11-15 10:14+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -116,7 +116,7 @@ msgstr "חזרה לרשימת השיחות"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "הפעלת מצב ניפוי שגיאות"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -435,11 +435,11 @@ msgstr "הוספת תמיכה בצירוף קבצים."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "נוסף סמל חדש."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "נוסף ניפוי שגיאות דרך שורת פקודה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

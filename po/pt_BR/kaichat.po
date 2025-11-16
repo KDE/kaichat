@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-15 00:44+0000\n"
-"PO-Revision-Date: 2025-11-13 07:11-0300\n"
+"PO-Revision-Date: 2025-11-15 07:32-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -116,7 +116,7 @@ msgstr "Retorna listas de bate-papos"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Ativar modo de depuração"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -426,7 +426,7 @@ msgstr "Permite configurar texto para fala."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr "Adicionar nome do ícone do plugin de ferramenta."
+msgstr "Adiciona nome do ícone do plugin de ferramenta."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 msgid "Add attachment support."
@@ -434,11 +434,11 @@ msgstr "Adiciona suporte a anexos."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Adiciona novo ícone."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Adiciona depuração da linha de comando."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
