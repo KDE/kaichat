@@ -24,6 +24,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add attachment support."),
         kli18n("Add new icon."),
         kli18n("Add debug command line."),
+        kli18n("Add wikipedia, weather tools plugins (provided by kaichat-addons)."),
     };
     return info;
 }
