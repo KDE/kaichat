@@ -19,7 +19,9 @@ You can get kaichat from:
 - [git clone git@invent.kde.org](git@invent.kde.org:utilities/kaichat.git)
 - [git clone https://invent.kde.org/utilities/kaichat.git](https://invent.kde.org/utilities/kaichat.git)
 
-Extra plugins tools can be found in kaichat-addons repository.
+Extra plugins tools can be found in kaichat-addons repository
+
+- [git clone https//invent.kde.org/utilities/kaichat-addons.git] (https//invent.kde.org/utilities/kaichat-addons.git)
 
 ## Requirements
 
