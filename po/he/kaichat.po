@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-15 10:14+0200\n"
+"PO-Revision-Date: 2025-11-17 16:01+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -443,7 +443,7 @@ msgstr "נוסף ניפוי שגיאות דרך שורת פקודה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
+msgstr "הוספת תוספים לוויקיפדיה, כלי מזג אוויר (מסופקים על ידי kaichat-addons)"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
