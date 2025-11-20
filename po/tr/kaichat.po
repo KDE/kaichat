@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-15 19:44+0300\n"
+"PO-Revision-Date: 2025-11-19 20:27+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -441,6 +441,8 @@ msgstr "Komut satırı hata ayıklaması ekle"
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Vikipedi ve hava durumu araçları eklentileri ekle (kaichat-addons tarafından "
+"sağlanır)"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
