@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-15 13:50+0100\n"
+"PO-Revision-Date: 2025-11-18 17:43+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -443,6 +443,8 @@ msgstr "Afig una línia d'ordres de depuració."
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Afig els connectors d'eines de la Viquipèdia, meteorologia (proporcionades "
+"per kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

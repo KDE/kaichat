@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-15 07:51+0100\n"
+"PO-Revision-Date: 2025-11-20 07:29+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -443,7 +443,7 @@ msgstr "Dodaj ukazno vrstico za odpravljanje napak."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
+msgstr "Dodaj vtičnike Wikipedia, orodja za vreme (zagotavlja kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

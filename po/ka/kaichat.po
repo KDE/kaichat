@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-15 08:26+0100\n"
+"PO-Revision-Date: 2025-11-20 04:58+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -444,6 +444,8 @@ msgstr "დაემატა გამართვის ბრძანებ�
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"დაემატა ვიკიპედიის და ამინდის ხელსაწყოს დამატებები (შეიცავს პაკეტი kaichat-"
+"addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

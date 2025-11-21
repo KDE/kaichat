@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-10-01 21:55+0900\n"
+"PO-Revision-Date: 2025-11-20 21:10+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -115,7 +115,7 @@ msgstr "回傳聊天列表"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "啟用除錯模式"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -171,8 +171,7 @@ msgid "Get Current Date Time"
 msgstr "取得目前日期與時間"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
-#, fuzzy, kde-format
-#| msgid "Use this tools to get current date time"
+#, kde-format
 msgid "Use this tool to get current date time"
 msgstr "使用此工具來取得目前日期與時間"
 
@@ -182,10 +181,9 @@ msgid "Configure Date Time Tool"
 msgstr "設定日期時間工具"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "取得目前日期與時間"
+msgstr "取得目前日期與時間。"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -223,7 +221,7 @@ msgstr "縮小字型"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "啟用文字轉語音"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -271,7 +269,7 @@ msgstr "拼字檢查"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙輔助"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -307,7 +305,7 @@ msgstr "匯出為純文字…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
+msgstr[0] "找到 %1 個字串。"
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -324,15 +322,13 @@ msgstr "顯示封存"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "在資料庫中搜尋…"
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "開啟快速詢問"
+msgstr "開啟快速詢問…"
 
 #: widgets/kaichatmainwindow.cpp:282
 #, kde-format
@@ -373,7 +369,7 @@ msgstr "設定(&S)"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "編輯(&E)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -401,51 +397,47 @@ msgstr "主工具列"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "允許複製程式碼區塊到剪貼簿。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "在狀態列中顯示找到幾個字串。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "實作快速搜尋。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "新增快速搜尋列到快速詢問對話框。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "新增回復設定值的功能。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "允許設定外掛程式。"
+msgstr "允許設定文字轉語音。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "新增工具外掛程式圖示名稱。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "新增實體支援。"
+msgstr "新增附件支援。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "新增圖示。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "新增除錯命令列。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
+msgstr "新增維基百科、天氣工具外掛程式（由 kaichat-addons 提供）。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -561,7 +553,7 @@ msgstr "新增目前日期與時間工具。"
 #: widgets/kaichatwhatsnewtranslations.cpp:68
 #, kde-format
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "新增進度工具訊息資訊。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
@@ -571,22 +563,21 @@ msgstr "修正 Windows 上的圖示。"
 #: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "修正多重工具外掛程式呼叫。"
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "允許在自動生成編輯器外掛程式中匯出文字。"
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "新增新更新元件。"
+msgstr "新增新功能元件。"
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "新外掛程式：顯示收藏大小。"
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
