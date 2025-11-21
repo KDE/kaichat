@@ -21,7 +21,7 @@ CurrentDateTimeToolPlugin::CurrentDateTimeToolPlugin(QObject *parent, const QVar
     {
         TextAutoGenerateText::TextAutoGenerateTextToolPluginProperty prop;
         prop.setDescription(kli18n("The Current Date Time"));
-        prop.setName(u"currentdatetime"_s);
+        prop.setName(CurrentDateTimeToolPluginUtils::currentDateTimePropertyName());
         prop.setTypeElements({CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::Date),
                               CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::Time),
                               CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::DateTime)});

@@ -37,3 +37,8 @@ CurrentDateTimeToolPluginUtils::DateTimeEnum CurrentDateTimeToolPluginUtils::con
     }
     return CurrentDateTimeToolPluginUtils::DateTimeEnum::Unknown;
 }
+
+QString CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()
+{
+    return u"currentdatetime"_s;
+}

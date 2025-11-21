@@ -15,4 +15,5 @@ enum DateTimeEnum : int8_t {
 };
 [[nodiscard]] QString convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::DateTimeEnum type);
 [[nodiscard]] CurrentDateTimeToolPluginUtils::DateTimeEnum convertStringToDateTimeEnum(const QString &str);
+[[nodiscard]] QString currentDateTimePropertyName();
 };

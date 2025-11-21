@@ -33,7 +33,7 @@ void CurrentDateTimeToolPluginJob::start()
         for (const auto &resultTool : std::as_const(mToolArguments)) {
             if (resultTool.keyTool == arg) {
                 const QString value = resultTool.value;
-                if (arg == "currentdatetime"_L1) {
+                if (arg == CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()) {
                     const CurrentDateTimeToolPluginUtils::DateTimeEnum typeDateTime = CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(value);
                     switch (typeDateTime) {
                     case CurrentDateTimeToolPluginUtils::DateTimeEnum::Time:
