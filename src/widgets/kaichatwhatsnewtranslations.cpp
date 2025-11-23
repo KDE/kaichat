@@ -25,6 +25,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add new icon."),
         kli18n("Add debug command line."),
         kli18n("Add wikipedia, weather tools plugins (provided by kaichat-addons)."),
+        kli18n("Store Pending Typed Info in Database."),
     };
     return info;
 }
