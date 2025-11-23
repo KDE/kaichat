@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:55+0000\n"
-"PO-Revision-Date: 2025-11-14 08:39+0100\n"
+"PO-Revision-Date: 2025-11-22 21:41+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
 "Language: pl\n"
@@ -116,7 +116,7 @@ msgstr "Zwróć listę rozmów"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Włącz tryb diagnostyczny"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -434,15 +434,16 @@ msgstr "Dodanie obsługi załączników."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Dodano nową ikonę."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Dodano diagnostyczny wiersz poleceń."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Dodano wtyczki wikipedi oraz pogody (dostarczone przez kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
