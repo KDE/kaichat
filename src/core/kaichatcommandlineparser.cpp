@@ -35,7 +35,10 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Debug), i18nc("@info:shell", "Activate Debug Mode")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Attach),
                                          i18nc("@info:shell", "Add an attachment. This can be repeated"),
-                                         u"Attachments"_s));
+                                         u"Attachment"_s));
+    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ToolName),
+                                         i18nc("@info:shell", "Define tool used. This can be repeated"),
+                                         u"Tool Name"_s));
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -61,6 +64,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"debug"_s;
     case OptionParser::Attach:
         return u"attach"_s;
+    case OptionParser::ToolName:
+        return u"tool"_s;
     }
     return {};
 }

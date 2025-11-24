@@ -22,6 +22,7 @@ public:
         ListChats,
         Debug,
         Attach,
+        ToolName,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();
