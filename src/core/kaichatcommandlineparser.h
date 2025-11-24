@@ -21,6 +21,7 @@ public:
         AskMessage,
         ListChats,
         Debug,
+        Attach,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

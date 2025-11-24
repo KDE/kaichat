@@ -25,6 +25,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats), u"list-chats"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChatFromId), u"switch-to-chat-from-id"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Debug), u"debug"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach), u"attach"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"
