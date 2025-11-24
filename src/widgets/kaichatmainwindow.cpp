@@ -372,6 +372,11 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
         mManager->ask(message);
     }
+
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach))) {
+        const QStringList lstAttachments = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach));
+        // TODO add methods in manager
+    }
 }
 
 void KAIChatMainWindow::slotDownloadModelFinished(const QString &modelName)
