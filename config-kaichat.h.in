@@ -11,3 +11,4 @@
 #cmakedefine01 WITH_DBUS
 #cmakedefine01 KAICHAT_STABLE_VERSION
 #cmakedefine01 HAVE_NEW_TOOLS_PLUGINS_SUPPORT
+#cmakedefine01 HAVE_NEW_ASK_API

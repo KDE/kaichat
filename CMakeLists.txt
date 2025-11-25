@@ -115,6 +115,8 @@ set_package_properties(
             "Use AI plugin"
 )
 
+find_package(KF6TextAddonsWidgets ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
@@ -148,6 +150,10 @@ endif()
 
 if(${KF6TextAutoGenerateText_VERSION} VERSION_GREATER_EQUAL 1.8.56)
     set(HAVE_NEW_TOOLS_PLUGINS_SUPPORT TRUE)
+endif()
+
+if(${KF6TextAutoGenerateText_VERSION} VERSION_GREATER_EQUAL 1.8.69)
+    set(HAVE_NEW_ASK_API TRUE)
 endif()
 
 configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)

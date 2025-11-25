@@ -6,6 +6,7 @@
 
 #include "kaichatmainwindow.h"
 
+#include "config-kaichat.h"
 #include "kaichatcentralwidget.h"
 #include "kaichatchangefontsizemenu.h"
 #include "kaichatcommandlineparser.h"
@@ -353,7 +354,14 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage))) {
         const QString message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
+#if HAVE_NEW_ASK_API
+        const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = message, .attachments = {}, .tools = {}};
+        if (info.isValid()) {
+            mManager->ask(info);
+        }
+#else
         mManager->ask(message);
+#endif
     }
 }
 

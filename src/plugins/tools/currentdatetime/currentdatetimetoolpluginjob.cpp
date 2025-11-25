@@ -5,6 +5,7 @@
 */
 
 #include "currentdatetimetoolpluginjob.h"
+#include "config-kaichat.h"
 #include "currentdatetimetoolpluginutils.h"
 #include "kaichat_currentdatetimeplugin_debug.h"
 #include <KLocalizedString>
@@ -54,7 +55,19 @@ void CurrentDateTimeToolPluginJob::start()
     }
 
     qDebug() << " toolArguments " << toolArguments();
+#if HAVE_NEW_ASK_API
+    const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
+        .content = result,
+        .messageUuid = mMessageUuid,
+        .chatId = mChatId,
+        .toolIdentifier = mToolIdentifier,
+        .attachementInfoList = {},
+    };
+
+    Q_EMIT finished(info);
+#else
     Q_EMIT finished(result, mMessageUuid, mChatId, mToolIdentifier);
+#endif
     deleteLater();
 }
 

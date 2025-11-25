@@ -91,6 +91,7 @@ target_link_libraries(
     KF6::Notifications
     KF6::NotifyConfig
     libkaichatcore
+    KF6::TextAddonsWidgets
 )
 set_target_properties(
     libkaichatwidgets
