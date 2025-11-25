@@ -368,14 +368,24 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
         mManager->createNewChat(newChatName);
     }
+    QString message;
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage))) {
-        const QString message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
-        mManager->ask(message);
+        message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
     }
-
+    QStringList lstAttachments;
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach))) {
-        const QStringList lstAttachments = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach));
-        // TODO add methods in manager
+        lstAttachments = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach));
+    }
+    QList<QByteArray> tools;
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName))) {
+        const QStringList toolNames = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName));
+        for (const auto &t : toolNames) {
+            tools.append(t.toLatin1());
+        }
+    }
+    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = message, .attachments = lstAttachments, .tools = tools};
+    if (info.isValid()) {
+        mManager->ask(info);
     }
 }
 
