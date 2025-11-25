@@ -22,23 +22,25 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListInstances), i18nc("@info:shell", "Return lists of instances")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Instance),
                                          i18nc("@info:shell", "Start with specific instance"),
-                                         u"Instance Name"_s));
-    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::NewChat), i18nc("@info:shell", "Create new chat"), u"New Chat"_s));
+                                         i18n("Instance Name")));
+    parser->addOption(
+        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::NewChat), i18nc("@info:shell", "Create new chat"), i18n("New Chat Title")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::QuickAsk), i18nc("@info:shell", "Open Quick Ask")));
     parser->addOption(
-        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::SwitchToChat), i18nc("@info:shell", "Switch to Chat"), u"Chat Name"_s));
+        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::SwitchToChat), i18nc("@info:shell", "Switch to Chat"), i18n("Chat Name")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::SwitchToChatFromId),
                                          i18nc("@info:shell", "Switch to Chat from identifier"),
-                                         u"Chat Identifier"_s));
-    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::AskMessage), i18nc("@info:shell", "Ask Message"), u"Message"_s));
+                                         i18n("Chat Identifier")));
+    parser->addOption(
+        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::AskMessage), i18nc("@info:shell", "Ask Message"), i18n("Message")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListChats), i18nc("@info:shell", "Return lists of chats")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Debug), i18nc("@info:shell", "Activate Debug Mode")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Attach),
                                          i18nc("@info:shell", "Add an attachment. This can be repeated"),
-                                         u"Attachment"_s));
+                                         i18n("Attachment Url")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ToolName),
                                          i18nc("@info:shell", "Define tool used. This can be repeated"),
-                                         u"Tool Name"_s));
+                                         i18n("Tool Name")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::PluginInfo), i18nc("@info:shell", "Return plugins info")));
 }
 
