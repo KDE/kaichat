@@ -23,6 +23,7 @@ public:
         Debug,
         Attach,
         ToolName,
+        PluginInfo,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

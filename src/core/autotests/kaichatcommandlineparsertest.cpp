@@ -27,6 +27,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Debug), u"debug"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach), u"attach"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName), u"tool"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo), u"plugin-info"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"
