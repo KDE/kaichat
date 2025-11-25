@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-24 00:46+0000\n"
-"PO-Revision-Date: 2025-11-19 20:27+0300\n"
+"POT-Creation-Date: 2025-11-25 00:45+0000\n"
+"PO-Revision-Date: 2025-11-24 16:28+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -116,6 +116,18 @@ msgstr "Sohbetlerin listesini döndür"
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Hata ayıklama kipini etkinleştir"
+
+#: core/kaichatcommandlineparser.cpp:37
+#, kde-format
+msgctxt "@info:shell"
+msgid "Add an attachment. This can be repeated"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, kde-format
+msgctxt "@info:shell"
+msgid "Define tool used. This can be repeated"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -352,12 +364,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:380
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:381
+#: widgets/kaichatmainwindow.cpp:386
 #, kde-format
 msgid "Model %1 was download."
 msgstr "%1 modeli indirildi."
@@ -446,74 +458,78 @@ msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
+msgstr "Bekleyen girilmiş bilgiyi veritabanında depola"
+
+#: widgets/kaichatwhatsnewtranslations.cpp:29
+msgid "Allow to add attachment files from command line."
 msgstr ""
 
-#: widgets/kaichatwhatsnewtranslations.cpp:39
+#: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add what's new support."
 msgstr "Neler Yeni desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:40
+#: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
 msgid "Add instance support."
 msgstr "Örnek desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:41
+#: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Vurgu desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Sohbeti silmeyi düzelt (hata %1)"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Tez sorgu iletişim kutusu eklendi"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Windows ve macOS üzerinde Ollama’yı indirmeye olanak tanı"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Sohbet sırasında istem kullan"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Paylaşılan metin ve web kısayolu eklentisini ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Eklentileri yapılandırmaya izin ver"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add new update widget."
 msgstr "Güncelleme araç takımı ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Sohbetler listesine ilerleme göstergesi ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Yazıtipini puntosunu değiştirmeye izin ver"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -521,57 +537,57 @@ msgstr ""
 "Yeni sohbet odası eklemek veya örnekleri listelemek için komut satırı "
 "seçenekleri ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:61
+#: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Yazım denetimi desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:62
+#: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "Model indirmesi tamamlandığında bildirim göster"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:63
+#: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "Metin ve sarma çubuğu konumunu geri yüklemeye izin ver"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:64
+#: widgets/kaichatwhatsnewtranslations.cpp:65
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Geçerli sohbeti kaydetmeye ve geri yüklemeye izin ver"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:65
+#: widgets/kaichatwhatsnewtranslations.cpp:66
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Sohbet başlıkları listesini gösterme seçeneği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:66
+#: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Add tools support."
 msgstr "Araçlar desteği ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:67
+#: widgets/kaichatwhatsnewtranslations.cpp:68
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Sohbet tanımlayıcısından geçiş yapmaya olanak tanı"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:68
+#: widgets/kaichatwhatsnewtranslations.cpp:69
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Geçerli tarih/zaman aracı ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:69
+#: widgets/kaichatwhatsnewtranslations.cpp:70
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "İlerleme aracı iletisi durumu ekle"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:72
+#: widgets/kaichatwhatsnewtranslations.cpp:73
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows üzerinde simgeleri onar"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:84
+#: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "Çoklu araçlar eklentileri çağrısını düzelt"
