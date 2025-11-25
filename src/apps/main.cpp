@@ -16,6 +16,8 @@
 #include <QApplication>
 #include <QCommandLineParser>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <TextAutoGenerateText/TextAutoGeneratePluginTextManager>
+#include <TextAutoGenerateText/TextAutoGenerateTextToolPluginManager>
 #include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 #include <iostream>
 
@@ -96,7 +98,7 @@ int main(int argc, char *argv[])
     }
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats))) {
-        TextAutoGenerateText::TextAutoGenerateManager manager;
+        const TextAutoGenerateText::TextAutoGenerateManager manager;
         const QStringList lst = manager.chatsList();
         std::cout << qPrintable(i18n("List of Chats:")) << '\n';
         for (const QString &chatTitle : lst) {
@@ -111,7 +113,9 @@ int main(int argc, char *argv[])
     }
 
     if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
-        // TODO
+        std::cout << qPrintable(i18n("Plugins:")) << '\n';
+        std::cout << qPrintable(TextAutoGenerateText::TextAutoGeneratePluginTextManager::self()->generatePluginsInformation()) << '\n';
+        std::cout << qPrintable(TextAutoGenerateText::TextAutoGenerateTextToolPluginManager::self()->generatePluginsInformation()) << '\n';
         return 0;
     }
 
