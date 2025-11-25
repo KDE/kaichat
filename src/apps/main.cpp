@@ -110,6 +110,11 @@ int main(int argc, char *argv[])
         return 0;
     }
 
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
+        // TODO
+        return 0;
+    }
+
     if (TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
         qApp->setFont(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont());
     }
