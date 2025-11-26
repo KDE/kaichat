@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 14:42+0000\n"
+"POT-Creation-Date: 2025-11-26 02:34+0000\n"
 "PO-Revision-Date: 2025-10-05 14:46+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -177,17 +177,17 @@ msgstr "Use esta herramienta para obtener la fecha y hora actual"
 msgid "Configure Date Time Tool"
 msgstr "Configurar la herramienta de fecha y hora"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:39
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
 msgstr "La hora actual es %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
 msgstr "La fecha actual es %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:45
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
 msgstr "La fecha y hora actual es %1"
@@ -281,23 +281,23 @@ msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Exportar como texto…"
 
-#: widgets/kaichatmainwindow.cpp:135
+#: widgets/kaichatmainwindow.cpp:136
 #, kde-format
 msgid "What's new"
 msgstr "Novedades"
 
-#: widgets/kaichatmainwindow.cpp:139
+#: widgets/kaichatmainwindow.cpp:140
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgid "Open Quick Ask..."
 msgstr "Abrir pregunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:268
+#: widgets/kaichatmainwindow.cpp:269
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -306,24 +306,24 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:271
+#: widgets/kaichatmainwindow.cpp:272
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar la barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:306
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar conversaciones"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:371
 #, kde-format
 msgid "Model Download Done"
 msgstr "Descarga de modelo terminada"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Se ha descargado el modelo %1."
