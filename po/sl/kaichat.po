@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-25 00:45+0000\n"
-"PO-Revision-Date: 2025-11-24 06:45+0100\n"
+"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"PO-Revision-Date: 2025-11-25 07:45+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -28,41 +28,48 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "matjaz.jeran@amis.net"
 
-#: apps/main.cpp:65 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:67 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:67
+#: apps/main.cpp:69
 #, kde-format
 msgid "AI Chat"
 msgstr "AI Chat"
 
-#: apps/main.cpp:69
+#: apps/main.cpp:71
 #, kde-format
 msgid "Copyright © 2025 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:70
+#: apps/main.cpp:72
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:70
+#: apps/main.cpp:72
 #, kde-format
 msgid "Maintainer"
 msgstr "Vzdrževalec"
 
-#: apps/main.cpp:89
+#: apps/main.cpp:91
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Na voljo so naslednji pojavki:"
 
-#: apps/main.cpp:101
+#: apps/main.cpp:103
 #, kde-format
 msgid "List of Chats:"
 msgstr "Seznam klepetov:"
+
+#: apps/main.cpp:116
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
+msgid "Plugins:"
+msgstr "Vtičniki"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -76,7 +83,14 @@ msgctxt "@info:shell"
 msgid "Start with specific instance"
 msgstr "Začni s konkretnim pojavkom"
 
-#: core/kaichatcommandlineparser.cpp:26
+#: core/kaichatcommandlineparser.cpp:25
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instance Name"
+msgstr "Pojavki"
+
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
@@ -84,51 +98,95 @@ msgstr "Ustvari nov klepet"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
+msgid "New Chat Title"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:28
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "Odpri hitro vprašanje"
 
-#: core/kaichatcommandlineparser.cpp:29
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Preklopi na klepet"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgid "Chat Name"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "Preklopi na klepet iz določilnika"
 
 #: core/kaichatcommandlineparser.cpp:33
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat from identifier"
+msgid "Chat Identifier"
+msgstr "Preklopi na klepet iz določilnika"
+
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Vprašaj sporočilo"
 
-#: core/kaichatcommandlineparser.cpp:34
+#: core/kaichatcommandlineparser.cpp:35
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Ask Message"
+msgid "Message"
+msgstr "Vprašaj sporočilo"
+
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "Vrni sezname klepetov"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Aktiviraj način za odpravljanje napak"
 
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Dodaj prilogo. To se da ponoviti"
 
 #: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Add attachment support."
+msgid "Attachment Url"
+msgstr "Dodaj podporo priloge."
+
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Uporabljeno orodje za določanje. To se da ponoviti"
+
+#: core/kaichatcommandlineparser.cpp:43
+#, fuzzy, kde-format
+#| msgid "Tool"
+msgid "Tool Name"
+msgstr "Orodje"
+
+#: core/kaichatcommandlineparser.cpp:44
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Return lists of chats"
+msgctxt "@info:shell"
+msgid "Return plugins info"
+msgstr "Vrni sezname klepetov"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -367,12 +425,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:395
 #, kde-format
 msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
-#: widgets/kaichatmainwindow.cpp:386
+#: widgets/kaichatmainwindow.cpp:396
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Model %1 je bil prenesen."
@@ -463,7 +521,7 @@ msgstr "Shrani čakajoče vnesene informacije v zbirko podatkov."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Dovoli dodajanje prilog iz ukazne vrstice."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
