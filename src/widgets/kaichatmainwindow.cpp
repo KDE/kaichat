@@ -196,6 +196,35 @@ void KAIChatMainWindow::setupActions()
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
 
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
+    const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
+
+#if defined(Q_OS_WIN)
+#if KAICHAT_STABLE_VERSION
+    const QString url = defaultUrlPath + u"/0.5/windows/"_s;
+#else
+    const QString url = defaultUrlPath + u"/master/windows/"_s;
+#endif
+    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::Windows, url);
+#endif
+
+#if defined(Q_OS_MACOS)
+#ifdef Q_PROCESSOR_ARM_64
+#if KAICHAT_STABLE_VERSION
+    const QString url = defaultUrlPath + u"/0.5/macos-x86_64/"_s;
+#else
+    const QString url = defaultUrlPath + u"/master/macos-x86_64/"_s;
+#endif
+    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
+#endif
+#else
+#if KAICHAT_STABLE_VERSION
+    const QString url = defaultUrlPath + u"/0.5/macos-arm64/"_s;
+#else
+    const QString url = defaultUrlPath + u"/master/macos-arm64/"_s;
+#endif
+    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
+#endif
+
     auto verifyNewVersionAction = mVerifyNewVersionWidgetAction->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
 #endif
