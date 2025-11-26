@@ -21,7 +21,7 @@ void KAIChatExportChatAsMardownJob::exportChat()
 {
     QString txt;
     txt = u"# %1"_s.arg(mInfo.chatTitle);
-    for (const auto &message : mInfo.listMessages) {
+    for (const auto &message : std::as_const(mInfo.listMessages)) {
         txt += u'\n';
         txt += u'\n';
         switch (message.sender()) {

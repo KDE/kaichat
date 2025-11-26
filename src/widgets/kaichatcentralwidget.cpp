@@ -49,7 +49,7 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     mainLayout->addWidget(mTextAutogenerateWidget);
 
     if (TextAddonsWidgets::NeedUpdateVersionUtils::checkVersion()) {
-        const auto status = TextAddonsWidgets::NeedUpdateVersionUtils::obsoleteVersionStatus(QLatin1StringView(KAICHAT_RELEASE_VERSION), QDate::currentDate());
+        const auto status = TextAddonsWidgets::NeedUpdateVersionUtils::obsoleteVersionStatus(QStringLiteral(KAICHAT_RELEASE_VERSION), QDate::currentDate());
         if (status != TextAddonsWidgets::NeedUpdateVersionUtils::ObsoleteVersion::NotObsoleteYet) {
             auto needUpdateVersionWidget = new TextAddonsWidgets::NeedUpdateVersionWidget(this);
             needUpdateVersionWidget->setObjectName(u"needUpdateVersionWidget"_s);

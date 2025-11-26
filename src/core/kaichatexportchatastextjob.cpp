@@ -22,7 +22,7 @@ void KAIChatExportChatAsTextJob::exportChat()
 {
     QString txt;
     txt = mInfo.chatTitle;
-    for (const auto &message : mInfo.listMessages) {
+    for (const auto &message : std::as_const(mInfo.listMessages)) {
         txt += u'\n';
         switch (message.sender()) {
         case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Unknown:
