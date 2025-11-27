@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-25 11:21+0300\n"
+"POT-Creation-Date: 2025-11-27 00:46+0000\n"
+"PO-Revision-Date: 2025-11-26 12:17+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -64,11 +64,9 @@ msgid "List of Chats:"
 msgstr "Sohbet listeleri:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Eklentiler"
+msgstr "Eklentiler:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -83,11 +81,9 @@ msgid "Start with specific instance"
 msgstr "Belirli bir örnekle başlat"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Örnekler"
+msgstr "Örnek Adı"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -98,7 +94,7 @@ msgstr "Yeni sohbet oluştur"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Yeni Sohbet Başlığı"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -115,7 +111,7 @@ msgstr "Sohbete geç"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Sohbet Adı"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -124,11 +120,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Tanımlayıcı ile sohbete geç"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Tanımlayıcı ile sohbete geç"
+msgstr "Sohbet Tanımlayıcısı"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -137,11 +131,9 @@ msgid "Ask Message"
 msgstr "Soru sor"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Soru sor"
+msgstr "İleti"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -162,10 +154,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr "İlişik ekle. Bu, yinelenebilir."
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add attachment support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Ek iliştirme desteği ekle"
+msgstr "Ek URL’si"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -174,18 +165,15 @@ msgid "Define tool used. This can be repeated"
 msgstr "Kullanılan aracı tanımla. Bu, yinelenebilir."
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Araç"
+msgstr "Araç Adı"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Sohbetlerin listesini döndür"
+msgstr "Eklenti bilgisini döndür"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -401,7 +389,7 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Tez Sorguyu Aç…"
 
-#: widgets/kaichatmainwindow.cpp:282
+#: widgets/kaichatmainwindow.cpp:311
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -410,24 +398,24 @@ msgstr ""
 "<qt>Bu, menü çubuğunu tümüyle gizleyecektir. %1 yazarak onu yeniden "
 "gösterebilirsiniz.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:314
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
-#: widgets/kaichatmainwindow.cpp:319
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:395
+#: widgets/kaichatmainwindow.cpp:424
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:396
+#: widgets/kaichatmainwindow.cpp:425
 #, kde-format
 msgid "Model %1 was download."
 msgstr "%1 modeli indirildi."

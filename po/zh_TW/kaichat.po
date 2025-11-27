@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:46+0000\n"
+"POT-Creation-Date: 2025-11-27 00:46+0000\n"
 "PO-Revision-Date: 2025-11-20 21:10+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -400,31 +400,31 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "開啟快速詢問…"
 
-#: widgets/kaichatmainwindow.cpp:282
+#: widgets/kaichatmainwindow.cpp:311
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單列。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:314
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: widgets/kaichatmainwindow.cpp:319
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "匯出聊天"
 
-#: widgets/kaichatmainwindow.cpp:395
+#: widgets/kaichatmainwindow.cpp:424
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下載完成"
 
-#: widgets/kaichatmainwindow.cpp:396
+#: widgets/kaichatmainwindow.cpp:425
 #, kde-format
 msgid "Model %1 was download."
 msgstr "模型 %1 已下載完成。"

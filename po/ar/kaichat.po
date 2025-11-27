@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-26 00:46+0000\n"
-"PO-Revision-Date: 2025-11-20 18:57+0400\n"
+"POT-Creation-Date: 2025-11-27 00:46+0000\n"
+"PO-Revision-Date: 2025-11-26 10:30+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -160,7 +160,7 @@ msgstr "نشّط وضع التنقيح"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "أضف مرفقًا. يمكن تكرار هذا"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, fuzzy, kde-format
@@ -172,7 +172,7 @@ msgstr "إضافة دعم المرفقات."
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "عرف الأداة المستخدمة. يمكن تكرار هذا"
 
 #: core/kaichatcommandlineparser.cpp:43
 #, fuzzy, kde-format
@@ -406,31 +406,31 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "اِفتح السؤال السريع…"
 
-#: widgets/kaichatmainwindow.cpp:282
+#: widgets/kaichatmainwindow.cpp:311
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>سيُخفِي هذا شريط القوائم كُليًّا. أَظهِره مُجدَّدًا بِطِباعَة %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:285
+#: widgets/kaichatmainwindow.cpp:314
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "أَخفِ شريط القوائم"
 
-#: widgets/kaichatmainwindow.cpp:319
+#: widgets/kaichatmainwindow.cpp:348
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "صَدِّر الدردشات"
 
-#: widgets/kaichatmainwindow.cpp:395
+#: widgets/kaichatmainwindow.cpp:424
 #, kde-format
 msgid "Model Download Done"
 msgstr "نَزِّل النموذج"
 
-#: widgets/kaichatmainwindow.cpp:396
+#: widgets/kaichatmainwindow.cpp:425
 #, kde-format
 msgid "Model %1 was download."
 msgstr "نَزِّل النموذج %1."
@@ -517,11 +517,11 @@ msgstr "إضافة ويكيبيديا ومكونات إضافية لأدوات �
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "اسمح بإضافة ملفات مرفقة من سطر الأوامر."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
