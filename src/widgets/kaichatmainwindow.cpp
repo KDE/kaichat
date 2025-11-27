@@ -59,7 +59,7 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
     , mMainWidget(new KAIChatCentralWidget(mManager, this))
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-    , mVerifyNewVersionWidgetAction(new TextAddonsWidgets::VerifyNewVersionWidget(this))
+    , mVerifyNewVersionWidget(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
 {
     mMainWidget->setObjectName(u"mMainWidget"_s);
@@ -224,7 +224,7 @@ void KAIChatMainWindow::setupActions()
     mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
 #endif
 
-    auto verifyNewVersionAction = mVerifyNewVersionWidgetAction->verifyNewVersionAction();
+    auto verifyNewVersionAction = mVerifyNewVersionWidget->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
 #endif
 }

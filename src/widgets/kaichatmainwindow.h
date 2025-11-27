@@ -70,6 +70,6 @@ private:
     KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
     QLabel *mToolProgressInfo = nullptr;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
-    TextAddonsWidgets::VerifyNewVersionWidget *const mVerifyNewVersionWidgetAction;
+    TextAddonsWidgets::VerifyNewVersionWidget *const mVerifyNewVersionWidget;
 #endif
 };
