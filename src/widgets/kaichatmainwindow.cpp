@@ -194,7 +194,6 @@ void KAIChatMainWindow::setupActions()
     mShowQuickAskAction = new QAction(i18nc("@action", "Open Quick Ask…"), this);
     ac->addAction(u"show_quick_ask"_s, mShowQuickAskAction);
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
-
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
 
@@ -215,12 +214,12 @@ void KAIChatMainWindow::setupActions()
     const QString url = defaultUrlPath + u"/master/macos-x86_64/"_s;
 #endif
     mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
-#endif
 #else
 #if KAICHAT_STABLE_VERSION
     const QString url = defaultUrlPath + u"/0.5/macos-arm64/"_s;
 #else
     const QString url = defaultUrlPath + u"/master/macos-arm64/"_s;
+#endif
 #endif
     mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
 #endif
