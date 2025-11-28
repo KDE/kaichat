@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-27 00:46+0000\n"
-"PO-Revision-Date: 2025-11-24 19:50+0100\n"
+"POT-Creation-Date: 2025-11-28 00:45+0000\n"
+"PO-Revision-Date: 2025-11-26 09:26+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: French <French <kde-francophone@kde.org>>\n"
 "Language: fr\n"
@@ -156,7 +156,7 @@ msgstr "Activer le mode de débogage"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Ajouter une pièce jointe. Ceci peut être répété."
 
 #: core/kaichatcommandlineparser.cpp:40
 #, fuzzy, kde-format
@@ -168,7 +168,7 @@ msgstr "Ajouter la prise en charge des pièces jointes."
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Définir l'outil utilisé. Cela peut être répété."
 
 #: core/kaichatcommandlineparser.cpp:43
 #, fuzzy, kde-format
@@ -400,7 +400,7 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -409,24 +409,24 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:313
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:348
+#: widgets/kaichatmainwindow.cpp:347
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporter les salons"
 
-#: widgets/kaichatmainwindow.cpp:424
+#: widgets/kaichatmainwindow.cpp:423
 #, kde-format
 msgid "Model Download Done"
 msgstr "Téléchargement du modèle terminé"
 
-#: widgets/kaichatmainwindow.cpp:425
+#: widgets/kaichatmainwindow.cpp:424
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Le modèle %1 a été téléchargé."
@@ -523,6 +523,7 @@ msgstr ""
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
 msgstr ""
+"Autoriser l'ajout de fichiers joints à partir de la ligne de commandes."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
