@@ -201,7 +201,7 @@ void KAIChatMainWindow::setupActions()
 #if KAICHAT_STABLE_VERSION
     stableVersion = true;
 #endif
-    mVerifyNewVersionWidget->generateUrlInfo(stableBranch, defaultUrlPath, bool stableVersion);
+    mVerifyNewVersionWidget->generateUrlInfo(stableBranch, defaultUrlPath, stableVersion);
     auto verifyNewVersionAction = mVerifyNewVersionWidget->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
 #endif
