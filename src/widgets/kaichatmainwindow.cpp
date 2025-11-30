@@ -197,30 +197,11 @@ void KAIChatMainWindow::setupActions()
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
     const QString stableBranch = u"0.5"_s;
-    QString osName;
-
-    TextAddonsWidgets::VerifyNewVersionWidget::OsVersion osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::Unknown;
-
-#if defined(Q_OS_WIN)
-    osName = u"windows"_s;
-    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::Windows;
-#else if defined(Q_OS_MACOS)
-#ifdef Q_PROCESSOR_ARM_64
-    osName = u"macos-arm64"_s;
-    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64;
-#else
-    osName = u"macos-x86_64"_s;
-    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOs;
-#endif
-#endif
-
+    bool stableVersion = false;
 #if KAICHAT_STABLE_VERSION
-    const QString url = defaultUrlPath + u"/%1/%2/"_s.arg(stableBranch, osName);
-#else
-    const QString url = defaultUrlPath + u"/master/%1/"_s.arg(osName);
+    stableVersion = true;
 #endif
-    mVerifyNewVersionWidget->addOsUrlInfo(osVersion, url);
-
+    mVerifyNewVersionWidget->generateUrlInfo(stableBranch, defaultUrlPath, bool stableVersion);
     auto verifyNewVersionAction = mVerifyNewVersionWidget->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
 #endif
