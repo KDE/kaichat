@@ -196,33 +196,30 @@ void KAIChatMainWindow::setupActions()
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
+    const QString stableBranch = u"0.5"_s;
+    QString osName;
+
+    TextAddonsWidgets::VerifyNewVersionWidget::OsVersion osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersionUnknown;
 
 #if defined(Q_OS_WIN)
-#if KAICHAT_STABLE_VERSION
-    const QString url = defaultUrlPath + u"/0.5/windows/"_s;
+    osName = u"windows"_s;
+    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::Windows;
+#else if defined(Q_OS_MACOS)
+#ifdef Q_PROCESSOR_ARM_64
+    osName = u"macos-arm64"_s;
+    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64;
 #else
-    const QString url = defaultUrlPath + u"/master/windows/"_s;
+    osName = u"macos-x86_64"_s;
+    osVersion = TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOs;
 #endif
-    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::Windows, url);
 #endif
 
-#if defined(Q_OS_MACOS)
-#ifdef Q_PROCESSOR_ARM_64
 #if KAICHAT_STABLE_VERSION
-    const QString url = defaultUrlPath + u"/0.5/macos-arm64/"_s;
+    const QString url = defaultUrlPath + u"/%1/%2/"_s.arg(stableBranch, osName);
 #else
-    const QString url = defaultUrlPath + u"/master/macos-arm64/"_s;
+    const QString url = defaultUrlPath + u"/master/%1/"_s.arg(osName);
 #endif
-    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOsArm64, url);
-#else
-#if KAICHAT_STABLE_VERSION
-    const QString url = defaultUrlPath + u"/0.5/macos-x86_64/"_s;
-#else
-    const QString url = defaultUrlPath + u"/master/macos-x86_64/"_s;
-#endif
-#endif
-    mVerifyNewVersionWidget->addOsUrlInfo(TextAddonsWidgets::VerifyNewVersionWidget::OsVersion::MacOs, url);
-#endif
+    mVerifyNewVersionWidget->addOsUrlInfo(osVersion, url);
 
     auto verifyNewVersionAction = mVerifyNewVersionWidget->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
