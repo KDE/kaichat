@@ -563,9 +563,3 @@ msgstr ""
 #, kde-format
 msgid "Some bug fixing:"
 msgstr "Correcció d'errors:"
-
-#~ msgid "KAiChat"
-#~ msgstr "KAiChat"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Client de xat del Rocket"
