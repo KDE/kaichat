@@ -145,7 +145,7 @@ msgstr "Compartix el text…"
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "S'ha produït un problema en compartir el document: %1"
+msgstr "S'ha produït un problema mentre es compartia el document: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
