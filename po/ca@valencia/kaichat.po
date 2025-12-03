@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-01 00:46+0000\n"
-"PO-Revision-Date: 2025-11-25 08:56+0100\n"
+"PO-Revision-Date: 2025-11-26 10:55+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -66,11 +66,9 @@ msgid "List of Chats:"
 msgstr "Llista de xats:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Connectors"
+msgstr "Connectors:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -85,11 +83,9 @@ msgid "Start with specific instance"
 msgstr "Comença amb una instància específica"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Instàncies"
+msgstr "Nom de la instància"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -100,7 +96,7 @@ msgstr "Crea un xat nou"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Títol del xat nou"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -117,7 +113,7 @@ msgstr "Canvia a xat"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Nom del xat"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -126,11 +122,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Canvia a un xat a partir de l'identificador"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Canvia a un xat a partir de l'identificador"
+msgstr "Identificador del xat"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -139,11 +133,9 @@ msgid "Ask Message"
 msgstr "Pregunta un missatge"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Pregunta un missatge"
+msgstr "Missatge"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -164,10 +156,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr "Afig un adjunt. Açò es pot repetir"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add attachment support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Afig la implementació d'adjunts."
+msgstr "URL de l'adjunt"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -176,18 +167,15 @@ msgid "Define tool used. This can be repeated"
 msgstr "Establix l'eina utilitzada. Açò es pot repetir"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Eina"
+msgstr "Nom de l'eina"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Retorna la llista de xats"
+msgstr "Retorna la informació dels connectors"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -221,7 +209,7 @@ msgstr "Compartix el text…"
 #: plugins/text/sharetext/purposemenuwidget.cpp:64
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "S'ha produït un problema en compartir el document: %1"
+msgstr "S'ha produït un problema mentre es compartia el document: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:68
 #, kde-format
