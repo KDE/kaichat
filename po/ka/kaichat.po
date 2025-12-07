@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-06 00:45+0000\n"
-"PO-Revision-Date: 2025-11-26 03:24+0100\n"
+"PO-Revision-Date: 2025-12-06 15:05+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -515,7 +515,7 @@ msgstr "მიმაგრებული ფაილების ბრძა�
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "დაემატა ხატულა ollama-ის მოდელების მორგების ფანჯარაში."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format

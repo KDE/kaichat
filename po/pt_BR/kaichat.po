@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-06 00:45+0000\n"
-"PO-Revision-Date: 2025-11-26 01:25-0300\n"
-"Last-Translator: Guilherme Marçal Silva <guimarcalsilva@gmail.com>\n"
+"PO-Revision-Date: 2025-12-06 05:45-0300\n"
+"Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -514,7 +514,7 @@ msgstr "Permitir adicionar arquivos anexos a partir da linha de comando."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Adicionado ícone na configuração dos modelos ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format

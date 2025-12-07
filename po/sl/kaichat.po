@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-06 00:45+0000\n"
-"PO-Revision-Date: 2025-11-26 09:53+0100\n"
+"PO-Revision-Date: 2025-12-06 08:54+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -513,7 +513,7 @@ msgstr "Dovoli dodajanje prilog iz ukazne vrstice."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Dodaj ikono pri konfiguriranju modelov Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
