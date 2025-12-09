@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-06 00:45+0000\n"
-"PO-Revision-Date: 2025-11-27 12:18+0400\n"
+"PO-Revision-Date: 2025-12-08 16:41+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -513,7 +513,7 @@ msgstr "اسمح بإضافة ملفات مرفقة من سطر الأوامر."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "أضف أيقونة لضبط نماذج أولاما"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format

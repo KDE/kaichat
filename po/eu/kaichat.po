@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-06 00:45+0000\n"
-"PO-Revision-Date: 2025-10-23 00:37+0200\n"
+"PO-Revision-Date: 2025-12-08 14:45+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -67,11 +67,9 @@ msgid "List of Chats:"
 msgstr "Berriketa-zerrenda:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Pluginak"
+msgstr "Pluginak:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -86,11 +84,9 @@ msgid "Start with specific instance"
 msgstr "Hasi instantzia jakin batekin"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Instantziak"
+msgstr "Instantziaren izena"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -101,7 +97,7 @@ msgstr "Sortu berriketa berria"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Berriketa berriaren titulua"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -118,7 +114,7 @@ msgstr "Aldatu berriketara"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Berriketaren izena"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -127,11 +123,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Aldatu berriketara identifikatzailetik"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Aldatu berriketara identifikatzailetik"
+msgstr "Berriketa identifikatzailea"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -140,55 +134,49 @@ msgid "Ask Message"
 msgstr "Galdera mezua"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Galdera mezua"
+msgstr "Mezua"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr "Itzuli berriketa-zerrendak"
+msgstr "Berriketa zerrendak itzuli"
 
 #: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Aktibatu arazteko modua"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Gehitu eranskin bat. Hau errepikatu daiteke"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Instantzien euskarria gehitu."
+msgstr "Eranskinaren URLa"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Erabilitako tresna definitu. Hau errepikatu daiteke"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Tresna"
+msgstr "Tresnaren izena"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Itzuli berriketa-zerrendak"
+msgstr "Pluginen informazioa itzuli"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -294,7 +282,7 @@ msgstr "Txikiagotu letra-tipoa"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Gaitu Testutik hizketara"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -342,7 +330,7 @@ msgstr "Ortografia-egiaztatzea"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Irisgarritasuna"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -492,44 +480,41 @@ msgid "Add restore configure settings value."
 msgstr "Konfiguratzeko ezarpenen balioa lehengoratzea gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Pluginak konfiguratzea baimendu."
+msgstr "Testutik hizketara konfiguratzea baimentzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Trena-pluginaren ikonoaren izena gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Instantzien euskarria gehitu."
+msgstr "Eranskin-euskarria gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Ikono berria gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Arazteko komando-lerroa gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Wikipedia, eguraldi tresna pluginak gehitzea (kaichat-addons bidez hornitua)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "\"Tekleatutakoa zain\" informazioa datu-basean gordetzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Eranskin fitxategiak komando-lerrotik gehitzea baimentzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Ollama ereduen konfigurazioan ikonoa gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
@@ -661,7 +646,7 @@ msgstr "Windows-en ikonoa konpontzea."
 #: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Tresna anitzen pluginek deia konpontzea."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
