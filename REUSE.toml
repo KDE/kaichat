@@ -4,7 +4,7 @@ SPDX-PackageSupplier = "Laurent Montel <montel@kde.org>"
 SPDX-PackageDownloadLocation = "https://invent.kde.org/utilities/kaichat"
 
 [[annotations]]
-path = ["src/widgets/needupdateversion/autotests/data/*.html", "doc/**", "REUSE.toml", "src/widgets/icons/**", "logo.png", "logo.svg", ".gersemirc", "src/plugins/text/sharetext/kaichat_sharetextplugin.json", "src/plugins/text/webshortcut/kaichat_webshortcuttextplugin.json", "src/plugins/tools/currentdatetime/textautogeneratetext_currentdatetimeplugin.json"]
+path = [".flatpak-manifest.json", "src/widgets/needupdateversion/autotests/data/*.html", "doc/**", "REUSE.toml", "src/widgets/icons/**", "logo.png", "logo.svg", ".gersemirc", "src/plugins/text/sharetext/kaichat_sharetextplugin.json", "src/plugins/text/webshortcut/kaichat_webshortcuttextplugin.json", "src/plugins/tools/currentdatetime/textautogeneratetext_currentdatetimeplugin.json"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Laurent Montel <montel@kde.org>"
 SPDX-License-Identifier = "CC0-1.0"
