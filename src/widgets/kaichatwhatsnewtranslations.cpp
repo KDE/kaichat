@@ -28,6 +28,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Store Pending Typed Info in Database."),
         kli18n("Allow to add attachment files from command line."),
         kli18n("Add icon in configure ollama models."),
+        kli18n("Allow to use specific Ollama environment variables."),
     };
     return info;
 }
