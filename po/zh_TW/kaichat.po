@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-16 06:53+0000\n"
-"PO-Revision-Date: 2025-11-20 21:10+0900\n"
+"PO-Revision-Date: 2025-12-16 22:12+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -64,11 +64,9 @@ msgid "List of Chats:"
 msgstr "聊天列表："
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "外掛程式"
+msgstr "外掛程式："
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -83,11 +81,9 @@ msgid "Start with specific instance"
 msgstr "以指定實體啟動"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "實體"
+msgstr "實體名稱"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -98,7 +94,7 @@ msgstr "建立新的聊天"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "新聊天標題"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -115,7 +111,7 @@ msgstr "切換到聊天"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "聊天名稱"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -124,11 +120,9 @@ msgid "Switch to Chat from identifier"
 msgstr "從識別子切換到聊天"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "從識別子切換到聊天"
+msgstr "聊天識別子"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -137,11 +131,9 @@ msgid "Ask Message"
 msgstr "詢問訊息"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "詢問訊息"
+msgstr "訊息"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -159,33 +151,29 @@ msgstr "啟用除錯模式"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "新增附件。這可以重複"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add attachment support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "新增附件支援。"
+msgstr "附件網址"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "定義使用的工具。這可以重複"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "工具"
+msgstr "工具名稱"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "回傳聊天列表"
+msgstr "回傳外掛程式資訊"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -511,19 +499,19 @@ msgstr "新增維基百科、天氣工具外掛程式（由 kaichat-addons 提�
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "在資料庫儲存待處理輸入資訊。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "允許從命令列新增附件檔案。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "新增圖示到 Ollama 模型設定。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "允許使用指定 Ollama 環境變數。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format

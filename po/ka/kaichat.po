@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-16 06:53+0000\n"
-"PO-Revision-Date: 2025-12-06 15:05+0100\n"
+"PO-Revision-Date: 2025-12-16 10:38+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -519,7 +519,7 @@ msgstr "დაემატა ხატულა ollama-ის მოდელ�
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "სპეციფიკური Ollama-ის გარემოს ცვლადების გამოყენების დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format

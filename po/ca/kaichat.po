@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-16 06:53+0000\n"
-"PO-Revision-Date: 2025-12-06 10:14+0100\n"
+"PO-Revision-Date: 2025-12-16 09:42+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -518,7 +518,7 @@ msgstr "Afegeix la icona a la configuració dels models Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Permet utilitzar variables d'entorn específiques d'Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
