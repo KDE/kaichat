@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-06 00:45+0000\n"
+"POT-Creation-Date: 2025-12-16 06:53+0000\n"
 "PO-Revision-Date: 2025-12-06 08:54+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -205,17 +205,17 @@ msgstr "Orodje"
 msgid "Share Text…"
 msgstr "Deli besedilo…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:64
+#: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Pri deljenju dokumenta je prišlo do težave: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:68
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "File was shared."
 msgstr "Datoteka je bila dana v skupno rabo."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:72
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Novo zahtevo najdete na:<br /><a href='%1'>%1</a> </qt>"
@@ -515,72 +515,76 @@ msgstr "Dovoli dodajanje prilog iz ukazne vrstice."
 msgid "Add icon in configure ollama models."
 msgstr "Dodaj ikono pri konfiguriranju modelov Ollama."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:41
+#: widgets/kaichatwhatsnewtranslations.cpp:31
+msgid "Allow to use specific Ollama environment variables."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
 msgid "Add what's new support."
 msgstr "Dodaj podporo kaj je novega."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add instance support."
 msgstr "Dodaj podporo pojavka."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Dodaj podporo za Markdown."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Dodaj podporo za osvetljevanje."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Dodaj pogovorno okno za hitro vprašanje."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Dovoli prenos Ollame na Windows/MacOs."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Uporabi poziv med klepetom."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Dodaj vtičnik za deljeno besedilo in spletno bližnjico."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Dovoli konfiguriranje vtičnikov."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add new update widget."
 msgstr "Dodaj nov gradnik za posodobitve."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Dodaj kazalnik napredka na seznam klepetov."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:61
+#: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Dovoli spremembo velikosti pisave."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:62
+#: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -588,57 +592,57 @@ msgstr ""
 "Dodaj ukazno vrstico za dodajanje nove klepetalnice in prikaz seznama "
 "pojavkov."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:63
+#: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Dodaj podporo za črkovalnik."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:64
+#: widgets/kaichatwhatsnewtranslations.cpp:65
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "Dodaj pojavno okno z obvestili, ko je prenos modela končan."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:65
+#: widgets/kaichatwhatsnewtranslations.cpp:66
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "Dovoli shranjevanje in obnovo besedila in položaja drsnika."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:66
+#: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Dovoli shranjevanje in obnovo trenutnega klepeta."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:67
+#: widgets/kaichatwhatsnewtranslations.cpp:68
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Dodaj možnost za prikaz seznama naslovov klepetov."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:68
+#: widgets/kaichatwhatsnewtranslations.cpp:69
 #, kde-format
 msgid "Add tools support."
 msgstr "Dodaj podporo za orodja."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:69
+#: widgets/kaichatwhatsnewtranslations.cpp:70
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Dovoli preklop iz določilnika klepeta."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:70
+#: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Dodaj orodje za trenutni datum in čas."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:71
+#: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Dodaj informacije o sporočilu orodja za napredek."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:74
+#: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Fiksiraj ikono na oknih."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:86
+#: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "Popravi klic vtičnikov za več orodij."
