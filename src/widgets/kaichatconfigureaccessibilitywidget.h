@@ -6,7 +6,6 @@
 
 #pragma once
 
-#include <QWidget>
 
 #include <QWidget>
 namespace TextEditTextToSpeech
