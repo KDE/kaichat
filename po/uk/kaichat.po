@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-16 06:53+0000\n"
-"PO-Revision-Date: 2025-12-06 16:36+0200\n"
+"PO-Revision-Date: 2025-12-16 21:55+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -518,7 +518,7 @@ msgstr "Додано піктограму для налаштовування м
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Надає змогу скористатися специфічними змінними середовища Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
