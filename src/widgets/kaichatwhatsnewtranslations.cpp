@@ -13,23 +13,7 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{
-        kli18n("Allow to copy block code to clipboard."),
-        kli18n("Show number of string found in statusbar."),
-        kli18n("Implement quick search."),
-        kli18n("Add quick search bar in quick ask dialog."),
-        kli18n("Add restore configure settings value."),
-        kli18n("Allow to configure text to speech."),
-        kli18n("Add tool plugin icon name."),
-        kli18n("Add attachment support."),
-        kli18n("Add new icon."),
-        kli18n("Add debug command line."),
-        kli18n("Add wikipedia, weather tools plugins (provided by kaichat-addons)."),
-        kli18n("Store Pending Typed Info in Database."),
-        kli18n("Allow to add attachment files from command line."),
-        kli18n("Add icon in configure ollama models."),
-        kli18n("Allow to use specific Ollama environment variables."),
-    };
+    const QList<KLazyLocalizedString> info{};
     return info;
 }
 
@@ -78,13 +62,37 @@ QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsN
     }
     {
         TextAddonsWidgets::WhatsNewInfo info;
+        info.setNewFeatures({
+            i18n("Allow to copy block code to clipboard."),
+            i18n("Show number of string found in statusbar."),
+            i18n("Implement quick search."),
+            i18n("Add quick search bar in quick ask dialog."),
+            i18n("Add restore configure settings value."),
+            i18n("Allow to configure text to speech."),
+            i18n("Add tool plugin icon name."),
+            i18n("Add attachment support."),
+            i18n("Add new icon."),
+            i18n("Add debug command line."),
+            i18n("Add wikipedia, weather tools plugins (provided by kaichat-addons)."),
+            i18n("Store Pending Typed Info in Database."),
+            i18n("Allow to add attachment files from command line."),
+            i18n("Add icon in configure ollama models."),
+            i18n("Allow to use specific Ollama environment variables."),
+        });
+
+        info.setVersion(u"0.6.0"_s);
+        info.setBugFixings({i18n("Fix multi tools plugins call.")});
+
+        listInfo.append(std::move(info));
+    }
+    {
+        TextAddonsWidgets::WhatsNewInfo info;
         QStringList lst;
         for (const KLazyLocalizedString &l : lastNewFeatures()) {
             lst += l.toString();
         }
         info.setNewFeatures(lst);
-        info.setVersion(u"0.6.0"_s);
-        info.setBugFixings({i18n("Fix multi tools plugins call.")});
+        info.setVersion(u"0.7.0"_s);
 
         listInfo.append(std::move(info));
     }
