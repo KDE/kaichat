@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-16 06:53+0000\n"
-"PO-Revision-Date: 2025-10-26 20:49+0100\n"
+"POT-Creation-Date: 2025-12-19 02:44+0000\n"
+"PO-Revision-Date: 2025-10-05 08:17+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.08.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -162,10 +162,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Lägg till instansstöd."
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -251,24 +250,25 @@ msgid "Configure Date Time Tool"
 msgstr "Anpassa datum och tid-verktyget"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Get Current Date Time"
 msgid "Get Current Date Time."
-msgstr "Ta reda på aktuellt datum och tid."
+msgstr "Ta reda på aktuellt datum och tid"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr "Aktuell tid är %1 %1"
+msgstr "Aktuell tid är %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr "Aktuellt datum är %1 %1"
+msgstr "Aktuellt datum är %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr "Aktuellt datum och tid är %1 %1"
+msgstr "Aktuellt datum och tid är %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -291,7 +291,7 @@ msgstr "Minska teckenstorlek"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr "Aktivera text till tal"
+msgstr ""
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -339,7 +339,7 @@ msgstr "Stavningskontroll"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr "Handikappstöd"
+msgstr ""
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -375,8 +375,8 @@ msgstr "Exportera som text…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] "%1 sträng hittades."
-msgstr[1] "%1 strängar hittades."
+msgstr[0] ""
+msgstr[1] ""
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -393,13 +393,15 @@ msgstr "Visa arkiv"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr "Sök i databas…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:194
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Open Quick Ask"
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Öppna snabbfråga…"
+msgstr "Öppna snabbfråga"
 
 #: widgets/kaichatmainwindow.cpp:288
 #, kde-format
@@ -442,7 +444,7 @@ msgstr "In&ställningar"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr "&Redigera"
+msgstr ""
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -470,27 +472,29 @@ msgstr "Huvudverktygsrad"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr "Tillåt att kopiera kodblock till klippbordet."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr "Visa antal hittade strängar på statusraden."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr "Implementera snabbsökning."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr "Lägg till snabbsökrad i frågedialogruta."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr "Lägg till återställning av inställningsvärde."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
+#, fuzzy
+#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Tillåt att anpassa text till tal."
+msgstr "Tillåt att anpassa insticksprogram."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
@@ -641,12 +645,12 @@ msgstr "Tillåt att byta från chattidentifierare."
 #: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr "Lägg till verktyg för aktuellt datum och tid."
+msgstr "Lägg till verktyg för aktuellt datum och tid"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
 msgid "Add progress tool message info."
-msgstr "Lägg till meddelandeinformation i förloppsverktyg.."
+msgstr "Lägg till meddelandeinformation i förloppsverktyg."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
@@ -661,17 +665,20 @@ msgstr ""
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
-"Tillåt att exportera text i automatiskt genererade editorinsticksprogram"
 
 #: widgets/whatsnewtranslations.cpp:25
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add new update widget."
 msgid "Add new whatsnew widget."
-msgstr "Lägg till ny vad-är-nytt grafisk komponent."
+msgstr "Lägg till ny grafisk uppdateringskomponent."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr "Nytt insticksprogram: Visa samlingsstorlek."
+msgstr ""
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Öppna snabbfråga..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -734,9 +741,6 @@ msgstr "Nytt insticksprogram: Visa samlingsstorlek."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "En del felrättning:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Öppna snabbfråga..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"
