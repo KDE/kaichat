@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-19 02:44+0000\n"
-"PO-Revision-Date: 2025-10-05 09:51+0200\n"
+"PO-Revision-Date: 2025-12-19 11:23+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -66,11 +66,9 @@ msgid "List of Chats:"
 msgstr "Llista de xats:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Connectors"
+msgstr "Connectors:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -85,11 +83,9 @@ msgid "Start with specific instance"
 msgstr "Comença amb una instància específica"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Instàncies"
+msgstr "Nom de la instància"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -100,7 +96,7 @@ msgstr "Crea un xat nou"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Títol del xat nou"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -117,7 +113,7 @@ msgstr "Canvia a xat"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Nom del xat"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -126,11 +122,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Canvia a un xat a partir de l'identificador"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Canvia a un xat a partir de l'identificador"
+msgstr "Identificador del xat"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -139,11 +133,9 @@ msgid "Ask Message"
 msgstr "Pregunta un missatge"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Pregunta un missatge"
+msgstr "Missatge"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -155,38 +147,35 @@ msgstr "Retorna la llista de xats"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Activa el mode de depuració"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Afig un adjunt. Açò es pot repetir"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "URL de l'adjunt"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Establix l'eina utilitzada. Açò es pot repetir"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Eina"
+msgstr "Nom de l'eina"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Retorna la llista de xats"
+msgstr "Retorna la informació dels connectors"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -252,10 +241,9 @@ msgid "Configure Date Time Tool"
 msgstr "Configureu l'eina de data i hora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Obtín la data i l'hora actuals"
+msgstr "Obtín la data i l'hora actuals."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -293,7 +281,7 @@ msgstr "Disminuïx la mida de la lletra"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Activa el text a veu"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -341,7 +329,7 @@ msgstr "Verificació ortogràfica"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Accessibilitat"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -377,8 +365,8 @@ msgstr "Exporta com a text…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "S'ha trobat %1 cadena."
+msgstr[1] "S'han trobat %1 cadenes."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -395,15 +383,13 @@ msgstr "Mostra l'arxiu"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Busca en la base de dades…"
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Obri una pregunta ràpida"
+msgstr "Obri una pregunta ràpida…"
 
 #: widgets/kaichatmainwindow.cpp:288
 #, kde-format
@@ -446,7 +432,7 @@ msgstr "Con&figuració"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Edita"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -474,67 +460,65 @@ msgstr "Barra d'eines principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Permet copiar blocs de codi al porta-retalls."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Mostra el nombre de cadenes trobades a la barra d'estat."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "Implementa la busca ràpida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Afig la barra de busca ràpida al diàleg de pregunta ràpida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Afig la restauració de la configuració del valor de les opcions."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Permet configurar connectors."
+msgstr "Permet configurar el text a veu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Afig el nom d'icona del connector d'eina."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Afig la implementació d'instàncies."
+msgstr "Afig la implementació d'adjunts."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Afig una icona nova."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Afig una línia d'ordres de depuració."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Afig els connectors d'eines de la Viquipèdia, meteorologia (proporcionades "
+"per kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Emmagatzema la informació teclejada pendent a la base de dades."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Permet afegir fitxers adjunts des de la línia d'ordres."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Afig la icona a la configuració dels models Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Permet utilitzar variables d'entorn específiques d'Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
@@ -665,88 +649,18 @@ msgstr "Corregix una icona en Windows."
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Corregix la crida als connectors multieines."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "Permet exportar text als connectors d'editor generats automàticament."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Afig un giny nou d'actualització."
+msgstr "Afig un giny nou què hi ha de nou."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Obri una pregunta ràpida…"
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Desactiva la comprovació de la versió"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Comprova si hi ha una versió nova"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Esta versió té més de 6 mesos d'antiguitat, us animem que l'actualitzeu."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Esta versió té més d'un any d'antiguitat, us animem completament que "
-#~ "l'actualitzeu."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "S'ha trobat una versió nova. Cliqueu <a href=\"%1\">ací</a> per a baixar-"
-#~ "la."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "No s'ha trobat cap versió nova. La construcció es pot trobar <a href="
-#~ "\"%1\">ací</a>."
-
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Versió:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Què hi ha de nou en %1"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Mostra les novetats)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Què hi ha de nou en %2. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Totes les versions"
-
-#~ msgid "Version %1"
-#~ msgstr "Versió %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Canvis importants des de l'última versió:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "Algunes de les característiques noves d'esta versió de KAIChat inclouen:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Esmena d'errors:"
+msgstr "Connector nou: mostra la mida de la col·lecció."

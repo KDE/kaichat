@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-19 02:44+0000\n"
-"PO-Revision-Date: 2025-10-05 14:46+0100\n"
+"PO-Revision-Date: 2025-12-19 10:40+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -66,11 +66,9 @@ msgid "List of Chats:"
 msgstr "Lista de conversaciones:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Complementos"
+msgstr "Complementos:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -85,11 +83,9 @@ msgid "Start with specific instance"
 msgstr "Iniciar con una instancia específica"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Instancias"
+msgstr "Nombre de la instancia"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -100,7 +96,7 @@ msgstr "Crear nueva conversación"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Título de la nueva conversación"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -117,7 +113,7 @@ msgstr "Cambiar a conversación"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Nombre de la conversación"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -126,11 +122,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Cambiar a la conversación del identificador"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Cambiar a la conversación del identificador"
+msgstr "Identificador de la conversación"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -139,11 +133,9 @@ msgid "Ask Message"
 msgstr "Mensaje de la pregunta"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Mensaje de la pregunta"
+msgstr "Mensaje"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -155,38 +147,35 @@ msgstr "Devolver listas de conversaciones"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Activar el modo de depuración"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Añadir un adjunto. Se puede repetir."
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "URL del adjunto"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Definir la herramienta que se usará. Se puede repetir."
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Herramienta"
+msgstr "Nombre de la herramienta"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Devolver listas de conversaciones"
+msgstr "Devolver información sobre los complementos"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -253,10 +242,9 @@ msgid "Configure Date Time Tool"
 msgstr "Configurar la herramienta de fecha y hora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Obtener fecha y hora actual"
+msgstr "Obtener fecha y hora actual."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -294,7 +282,7 @@ msgstr "Disminuir tamaño del texto"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Activar texto a voz"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -342,7 +330,7 @@ msgstr "Comprobación de ortografía"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Accesibilidad"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -378,8 +366,8 @@ msgstr "Exportar como texto…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Se ha encontrado %1 cadena."
+msgstr[1] "Se han encontrado %1 cadenas."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -396,15 +384,13 @@ msgstr "Mostrar el archivo"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Buscar en la base de datos…"
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Abrir pregunta rápida"
+msgstr "Abrir pregunta rápida…"
 
 #: widgets/kaichatmainwindow.cpp:288
 #, kde-format
@@ -447,7 +433,7 @@ msgstr "&Preferencias"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Editar"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -475,67 +461,65 @@ msgstr "Barra de herramientas principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Permitir copiar código de bloque al portapapeles."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Mostrar el número de cadenas encontradas en la barra de estado."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "Implementación de la búsqueda rápida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Añadir la barra de búsqueda rápida en el diálogo de pregunta rápida."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Añadir valor para restaurar la configuración."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Permitir la configuración de complementos."
+msgstr "Permitir la configuración de texto a voz."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Añadir nombre de icono de complemento."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Se ha añadido la implementación de instancias."
+msgstr "Se ha añadido la implementación de adjuntar."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Añadir nuevo icono."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Añadir línea de órdenes de depuración."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Añadir wikipedia, complementos de herramientas meteorológicas "
+"(proporcionados por kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Guardar información escrita pendiente en la base de datos."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Permitir adjuntar archivos en la línea de la orden."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Añadir icono en la configuración de modelos de Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Permitir el uso de variables de entorno específicas de Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
@@ -666,88 +650,20 @@ msgstr "Corregir icono de Windows."
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Corregir llamada de múltiples complementos."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Permitir exportación de texto en los complementos de generación automática "
+"del editor."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Añadir nuevo elemento de actualización."
+msgstr "Añadir nuevo elemento de novedades."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Abrir pregunta rápida…"
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Desactivar comprobación de la versión"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Su versión tiene más de 6 meses de antigüedad, le recomendamos que "
-#~ "actualice."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Su versión tiene más de 1 año de antigüedad, le recomendamos "
-#~ "encarecidamente que actualice."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "Hay una nueva versión. Pulse <a href=\"%1\">aquí</a> para descargarla."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "No hay ninguna versión nueva. Puede encontrar la compilación <a href="
-#~ "\"%1\">aquí</a>."
-
-#~ msgid "Check New Version"
-#~ msgstr "Comprobar nueva versión"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Versión:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Novedades de %1"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Mostrar novedades)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Novedades de %2. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Todas las versiones"
-
-#~ msgid "Version %1"
-#~ msgstr "Versión %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Cambios importantes desde la última versión:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "Algunas de las nuevas funcionalidades en esta versión de KAIchat incluyen:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Algunas correcciones de errores:"
+msgstr "Nuevo complemento: mostrar el tamaño de la colección."
