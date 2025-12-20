@@ -14,7 +14,7 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
     const QList<KLazyLocalizedString> info{
-        kli18n("Add Gork instance support."),
+        kli18n("Add Grok instance support."),
     };
     return info;
 }
