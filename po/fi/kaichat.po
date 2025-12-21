@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-20 00:45+0000\n"
+"POT-Creation-Date: 2025-12-21 00:46+0000\n"
 "PO-Revision-Date: 2025-10-22 10:34+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -471,7 +471,7 @@ msgstr "Päätyökalurivi"
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 #, fuzzy
 #| msgid "Add instance support."
-msgid "Add Gork instance support."
+msgid "Add Grok instance support."
 msgstr "Lisää ilmentymätuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28

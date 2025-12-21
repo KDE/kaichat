@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-20 00:45+0000\n"
-"PO-Revision-Date: 2025-12-16 09:42+0100\n"
+"POT-Creation-Date: 2025-12-21 00:46+0000\n"
+"PO-Revision-Date: 2025-12-20 11:33+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.04.0\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -460,9 +460,9 @@ msgstr "Barra d'eines principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 #, fuzzy
-#| msgid "Add instance support."
-msgid "Add Gork instance support."
-msgstr "Afegeix la implementació d'instàncies."
+#| msgid "Add Gork instance support."
+msgid "Add Grok instance support."
+msgstr "Afegeix la implementació de la instància Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

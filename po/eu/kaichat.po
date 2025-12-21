@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-20 00:45+0000\n"
-"PO-Revision-Date: 2025-12-16 19:47+0100\n"
+"POT-Creation-Date: 2025-12-21 00:46+0000\n"
+"PO-Revision-Date: 2025-12-20 08:37+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -461,14 +461,14 @@ msgstr "Tresna-barra nagusia"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 #, fuzzy
-#| msgid "Add instance support."
-msgid "Add Gork instance support."
-msgstr "Instantzien euskarria gehitu."
+#| msgid "Add Gork instance support."
+msgid "Add Grok instance support."
+msgstr "Gork instantzien euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
 msgid "Add what's new support."
-msgstr "Zer berri-ren euskarria gehitzu."
+msgstr "Zer berri-ren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format

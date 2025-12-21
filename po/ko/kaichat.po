@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-20 00:45+0000\n"
+"POT-Creation-Date: 2025-12-21 00:46+0000\n"
 "PO-Revision-Date: 2025-07-21 00:46+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -463,7 +463,7 @@ msgstr "주 도구 모음"
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 #, fuzzy
 #| msgid "Add instance support."
-msgid "Add Gork instance support."
+msgid "Add Grok instance support."
 msgstr "인스턴스 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
