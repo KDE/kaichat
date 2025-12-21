@@ -14,6 +14,7 @@
   <name xml:lang="ar">كتشات</name>
   <name xml:lang="ca">KAIChat</name>
   <name xml:lang="ca-valencia">KAIChat</name>
+  <name xml:lang="cs">KAIChat</name>
   <name xml:lang="de">KAIChat</name>
   <name xml:lang="es">KAIChat</name>
   <name xml:lang="eu">KAIChat</name>
@@ -38,6 +39,7 @@
   <summary xml:lang="ar">دردشة للذكاء الاصطناعي</summary>
   <summary xml:lang="ca">Xat d'IA</summary>
   <summary xml:lang="ca-valencia">Xat d'IA</summary>
+  <summary xml:lang="cs">Rozhovor s AI</summary>
   <summary xml:lang="de">KI-Chat</summary>
   <summary xml:lang="es">Chat con IA</summary>
   <summary xml:lang="eu">AA berriketa</summary>
@@ -65,6 +67,7 @@
     <p xml:lang="ar">كتشات عميل دردشة للذكاء الاصطناعي.</p>
     <p xml:lang="ca">KAIChat és un xat d'IA.</p>
     <p xml:lang="ca-valencia">KAIChat és un xat d'IA.</p>
+    <p xml:lang="cs">KAIChat je rozhovor s AI.</p>
     <p xml:lang="de">KAIChat ist ein KI-Chat.</p>
     <p xml:lang="es">KAIChat es un chat con IA.</p>
     <p xml:lang="eu">KAIChat AA berriketa-aplikazio bat da.</p>
