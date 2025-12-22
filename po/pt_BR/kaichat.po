@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-21 00:46+0000\n"
-"PO-Revision-Date: 2025-12-20 06:07-0300\n"
+"PO-Revision-Date: 2025-12-21 07:11-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -459,10 +459,8 @@ msgid "Main Toolbar"
 msgstr "Barra de ferramentas principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add Gork instance support."
 msgid "Add Grok instance support."
-msgstr "Adiciona suporte à instância do Gork."
+msgstr "Adiciona suporte à instância do Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

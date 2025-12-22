@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-21 00:46+0000\n"
-"PO-Revision-Date: 2025-12-20 08:21+0100\n"
+"PO-Revision-Date: 2025-12-21 07:50+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -460,10 +460,8 @@ msgid "Main Toolbar"
 msgstr "ხელსაწყოთა მთავარი ზოლი"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add Gork instance support."
 msgid "Add Grok instance support."
-msgstr "დაემატა Gork-ის გაშვებული ასლების მხარდაჭერა."
+msgstr "დაემატა Grok-ის გაშვებული ასლების მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

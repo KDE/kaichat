@@ -454,9 +454,8 @@ msgid "Main Toolbar"
 msgstr "主工具栏"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
 msgid "Add Grok instance support."
-msgstr "添加实例支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

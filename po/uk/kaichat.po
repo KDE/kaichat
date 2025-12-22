@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-21 00:46+0000\n"
-"PO-Revision-Date: 2025-12-20 10:24+0200\n"
+"PO-Revision-Date: 2025-12-21 15:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -460,10 +460,8 @@ msgid "Main Toolbar"
 msgstr "Головна панель"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add Gork instance support."
 msgid "Add Grok instance support."
-msgstr "Додано підтримку екземплярів Gork."
+msgstr "Додано підтримку екземплярів Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
