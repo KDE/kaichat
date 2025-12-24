@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-21 00:46+0000\n"
-"PO-Revision-Date: 2025-12-21 11:06+0300\n"
+"PO-Revision-Date: 2025-12-23 11:49+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.11.80\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -381,7 +381,7 @@ msgstr "Arşivi Göster"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr "Veritabanında Ara…"
+msgstr "Veri Tabanında Ara…"
 
 #: widgets/kaichatmainwindow.cpp:194
 #, kde-format
@@ -643,7 +643,7 @@ msgstr ""
 #: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Store Pending Typed Info in Database."
-msgstr "Bekleyen girilmiş bilgiyi veritabanında depola"
+msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
