@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-19 02:44+0000\n"
-"PO-Revision-Date: 2025-10-07 22:16+0300\n"
+"PO-Revision-Date: 2025-12-24 17:18+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -65,11 +65,9 @@ msgid "List of Chats:"
 msgstr "Список спілкувань:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Додатки"
+msgstr "Додатки:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -84,11 +82,9 @@ msgid "Start with specific instance"
 msgstr "Почати з певного екземпляра"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Екземляри"
+msgstr "Назва екземпляра"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -99,7 +95,7 @@ msgstr "Створити обговорення"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Заголовок нового спілкування"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -116,7 +112,7 @@ msgstr "Перемкнутися на спілкування"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Назва спілкування"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -125,11 +121,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Перемкнутися на спілкування з ідентифікатора"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Перемкнутися на спілкування з ідентифікатора"
+msgstr "Ідентифікатор спілкування"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -138,11 +132,9 @@ msgid "Ask Message"
 msgstr "Повідомлення запиту"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Повідомлення запиту"
+msgstr "Повідомлення"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -154,38 +146,35 @@ msgstr "Повернути списки спілкувань"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Задіяти діагностичний режим"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Додати долучення. Можна повторювати"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "Адреса долучення"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Визначити використаний інструмент. Можна повторювати"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Інструмент"
+msgstr "Назва засобу"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Повернути списки спілкувань"
+msgstr "Повернути відомості щодо додатків"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -251,10 +240,9 @@ msgid "Configure Date Time Tool"
 msgstr "Інструмент налаштовування дати і часу"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
-#, fuzzy, kde-format
-#| msgid "Get Current Date Time"
+#, kde-format
 msgid "Get Current Date Time."
-msgstr "Отримати поточну дату і час"
+msgstr "Отримати поточну дату і час."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -292,7 +280,7 @@ msgstr "Зменшити розмір шрифту"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Увімкнути озвучення тексту"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -340,7 +328,7 @@ msgstr "Перевірка правопису"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Доступність"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -376,10 +364,10 @@ msgstr "Експортувати як текст…"
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Знайдено %1 рядок."
+msgstr[1] "Знайдено %1 рядки."
+msgstr[2] "Знайдено %1 рядків."
+msgstr[3] "Знайдено один рядок."
 
 #: widgets/kaichatmainwindow.cpp:144
 #, kde-format
@@ -396,15 +384,13 @@ msgstr "Показати архів"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Шукати у базі даних…"
 
 #: widgets/kaichatmainwindow.cpp:194
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Open Quick Ask"
+#, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "Відкрити швидке питання"
+msgstr "Відкрити швидке питання…"
 
 #: widgets/kaichatmainwindow.cpp:288
 #, kde-format
@@ -447,7 +433,7 @@ msgstr "П&араметри"
 #: widgets/kaichatui.rc:17
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "З&міни"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:21
@@ -475,67 +461,64 @@ msgstr "Головна панель"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "Уможливлено копіювання блоків коду до буфера обміну даними."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "Реалізовано показ кількості знайдених рядків на смужці стану."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Implement quick search."
-msgstr ""
+msgstr "Реалізовано швидкий пошук."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "Додано панель швидкого пошуку у вікні швидкого запиту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Додано значення для відновлення параметрів налаштувань."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Уможливлено налаштовування додатків."
+msgstr "Уможливлено налаштовування озвучення тексту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Додано назву піктограми додатка інструменту."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Додано підтримку екземплярів програми."
+msgstr "Додано підтримку долучень."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Додано нову піктограму."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Додано параметр командного рядка для діагностики."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Додано додатки Вікіпедії та прогнозу погоди (є частиною kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Реалізовано збереження даних щодо черги введення у базі даних."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Дозволено додавання файлів долучень з командного рядка."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Додано піктограму для налаштовування моделей ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Надає змогу скористатися специфічними змінними середовища Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
@@ -664,22 +647,23 @@ msgstr "Виправлено піктограму у Windows"
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Виправлено виклик додатків із декількома інструментами"
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
+"Уможливлено експортування тексту у додатках автоматичного породження до "
+"редактора."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add new update widget."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Додано новий віджет оновлення."
+msgstr "Додано новий віджет зі списком можливостей нової версії."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Новий додаток: показ розміру збірки."
 
 #~ msgid "Open Quick Ask..."
 #~ msgstr "Відкрити швидке питання..."
