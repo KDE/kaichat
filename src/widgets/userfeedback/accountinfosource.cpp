@@ -6,9 +6,10 @@
 
 #include "accountinfosource.h"
 
-// #include "accountmanager.h"
+#include <KConfig>
 #include <KLocalizedString>
 #include <QVariant>
+#include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 
 using namespace Qt::Literals::StringLiterals;
 AccountInfoSource::AccountInfoSource()
@@ -30,8 +31,8 @@ QString AccountInfoSource::description() const
 
 QVariant AccountInfoSource::data()
 {
-    // TODO
-    // const QVariantMap m{{u"value"_s, Ruqola::self()->accountManager()->accountNumber()}};
-    // return m;
-    return {};
+    KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
+    const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(&config);
+    const QVariantMap m{{u"value"_s, lst.count()}};
+    return m;
 }
