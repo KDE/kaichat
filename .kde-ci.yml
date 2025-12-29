@@ -19,6 +19,7 @@ Dependencies:
     'frameworks/sonnet': '@latest-kf6'
     'frameworks/knotifications': '@latest-kf6'
     'frameworks/knotifyconfig': '@latest-kf6'
+    'frameworks/kuserfeedback': '@latest-kf6'
 
  - 'on': ['Linux', 'FreeBSD']
    'require':

@@ -11,3 +11,4 @@
 #cmakedefine01 WITH_DBUS
 #cmakedefine01 KAICHAT_STABLE_VERSION
 #cmakedefine01 HAVE_TEXT_TO_SPEECH
+#cmakedefine01 HAVE_KUSERFEEDBACK

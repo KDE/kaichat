@@ -7,6 +7,19 @@ ecm_qt_declare_logging_category(libkaichatwidgets HEADER kaichat_widget_debug.h 
     CATEGORY_NAME org.kde.kaichat_widget DESCRIPTION "kaichat (widget lib)" EXPORT KAICHAT
 )
 
+if(TARGET KF6::UserFeedbackWidgets)
+    target_sources(
+        libkaichatwidgets
+        PRIVATE
+            userfeedback/userfeedbackmanager.cpp
+            userfeedback/userfeedbackmanager.h
+            userfeedback/kaichatuserfeedbackprovider.cpp
+            userfeedback/kaichatuserfeedbackprovider.h
+            userfeedback/accountinfosource.cpp
+            userfeedback/accountinfosource.h
+    )
+endif()
+
 target_sources(
     libkaichatwidgets
     PRIVATE
@@ -68,6 +81,11 @@ target_link_libraries(
     KF6::TextEditTextToSpeech
     libkaichatcore
 )
+
+if(TARGET KF6::UserFeedbackWidgets)
+    target_link_libraries(libkaichatwidgets KF6::UserFeedbackWidgets)
+endif()
+
 set_target_properties(
     libkaichatwidgets
     PROPERTIES

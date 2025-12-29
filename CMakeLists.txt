@@ -126,6 +126,19 @@ if(NOT APPLE)
     find_package(KF6Purpose ${KF_MIN_VERSION} CONFIG)
 endif()
 
+find_package(KF6UserFeedback ${KF_MIN_VERSION} CONFIG)
+set(HAVE_KUSERFEEDBACK ${KF6UserFeedback_FOUND})
+set_package_properties(
+    KF6UserFeedback
+    PROPERTIES
+        DESCRIPTION
+            "User Feedback lib"
+        TYPE
+            OPTIONAL
+        PURPOSE
+            "Allow to send Telemetry Information (optional)."
+)
+
 find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
 set_package_properties(
     KF6TextAutoGenerateText
