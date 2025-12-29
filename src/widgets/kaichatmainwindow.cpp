@@ -49,6 +49,13 @@
 #include <QMenuBar>
 #include <QPointer>
 #include <QStatusBar>
+
+#if HAVE_KUSERFEEDBACK
+#include "userfeedback/userfeedbackmanager.h"
+#include <KUserFeedback/NotificationPopup>
+#include <KUserFeedback/Provider>
+#endif
+
 namespace
 {
 const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
@@ -86,6 +93,10 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
         }
     });
     disableActions();
+#if HAVE_KUSERFEEDBACK
+    auto userFeedBackNotificationPopup = new KUserFeedback::NotificationPopup(this);
+    userFeedBackNotificationPopup->setFeedbackProvider(UserFeedBackManager::self()->userFeedbackProvider());
+#endif
 }
 
 KAIChatMainWindow::~KAIChatMainWindow()
