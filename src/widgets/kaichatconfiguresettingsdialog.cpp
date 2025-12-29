@@ -17,6 +17,11 @@
 #include <QPushButton>
 #include <QWindow>
 #include <TextAutoGenerateText/TextAutoGenerateTextConfigurePluginsWidget>
+
+#if HAVE_KUSERFEEDBACK
+#include "kaichatconfigureuserfeedbackwidget.h"
+#endif
+
 namespace
 {
 const char myConfigGroupName[] = "KAIChatConfigureSettingsDialog";
@@ -29,8 +34,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
     , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
-#ifdef HAVE_TEXT_TO_SPEECH
+#if HAVE_TEXT_TO_SPEECH
     , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
+#endif
+#if HAVE_KUSERFEEDBACK
+    , mConfigureUserFeedBackWidget(new KAIChatConfigureUserFeedbackWidget(this))
 #endif
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
@@ -55,7 +63,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
     mConfigureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
     addPage(mConfigureSpellCheckWidgetPage);
-#ifdef HAVE_TEXT_TO_SPEECH
+#if HAVE_TEXT_TO_SPEECH
     const QString textToSpeechPageName = i18nc("@title Preferences page name", "Accessibility");
     mConfigureTextToSpeechWidgetPage = new KPageWidgetItem(mConfigureAccessibilityWidget, textToSpeechPageName);
     mConfigureTextToSpeechWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-accessibility"_s));
@@ -66,6 +74,13 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
     mConfigurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
     addPage(mConfigurePluginsWidgetPage);
+
+#if HAVE_KUSERFEEDBACK
+    const QString userFeedBackPageName = i18nc("@title Preferences page name", "User Feedback");
+    mConfigureUserFeedBackWidgetPage = new KPageWidgetItem(mConfigureUserFeedBackWidget, userFeedBackPageName);
+    mConfigureUserFeedBackWidgetPage->setIcon(QIcon::fromTheme(u"preferences-other"_s));
+    addPage(mConfigureUserFeedBackWidgetPage);
+#endif
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
 
@@ -103,8 +118,11 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
     mConfigurePluginsWidget->save();
     mConfigureFontWidget->save();
     mConfigureSpellCheckingWidget->save();
-#ifdef HAVE_TEXT_TO_SPEECH
+#if HAVE_TEXT_TO_SPEECH
     mConfigureAccessibilityWidget->save();
+#endif
+#if HAVE_KUSERFEEDBACK
+    mConfigureUserFeedBackWidget->save();
 #endif
 }
 
@@ -114,8 +132,11 @@ void KAIChatConfigureSettingsDialog::load()
     mConfigurePluginsWidget->load();
     mConfigureFontWidget->load();
     mConfigureSpellCheckingWidget->load();
-#ifdef HAVE_TEXT_TO_SPEECH
+#if HAVE_TEXT_TO_SPEECH
     mConfigureAccessibilityWidget->load();
+#endif
+#if HAVE_KUSERFEEDBACK
+    mConfigureUserFeedBackWidget->load();
 #endif
 }
 
@@ -129,9 +150,13 @@ void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
         mInstancesManagerWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureSpellCheckWidgetPage) {
         mConfigureSpellCheckingWidget->restoreToDefaults();
-#ifdef HAVE_TEXT_TO_SPEECH
+#if HAVE_TEXT_TO_SPEECH
     } else if (currentPage() == mConfigureTextToSpeechWidgetPage) {
         mConfigureAccessibilityWidget->restoreToDefaults();
+#endif
+#if HAVE_KUSERFEEDBACK
+    } else if (currentPage() == mConfigureUserFeedBackWidgetPage) {
+        mConfigureUserFeedBackWidget->restoreToDefaults();
 #endif
     } else if (currentPage() == mConfigurePluginsWidgetPage) {
         // Necessary ? mConfigurePluginsWidget->restoreToDefaults();

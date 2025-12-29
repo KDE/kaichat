@@ -17,6 +17,8 @@ if(TARGET KF6::UserFeedbackWidgets)
             userfeedback/kaichatuserfeedbackprovider.h
             userfeedback/accountinfosource.cpp
             userfeedback/accountinfosource.h
+            kaichatconfigureuserfeedbackwidget.cpp
+            kaichatconfigureuserfeedbackwidget.h
     )
 endif()
 
