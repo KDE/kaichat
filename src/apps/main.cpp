@@ -28,6 +28,10 @@
 
 #include <KStyleManager>
 
+#if HAVE_KUSERFEEDBACK
+#include "userfeedback/kaichatuserfeedbackprovider.h"
+#endif
+
 #if WITH_DBUS
 #include <KDBusService>
 #else
@@ -84,6 +88,15 @@ int main(int argc, char *argv[])
     aboutData.setupCommandLine(&parser);
     parser.process(app);
     aboutData.processCommandLine(&parser);
+
+#if HAVE_KUSERFEEDBACK
+    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack))) {
+        auto userFeedback = new KAIChatUserFeedbackProvider;
+        QTextStream(stdout) << userFeedback->describeDataSources() << '\n';
+        delete userFeedback;
+        return 0;
+    }
+#endif
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
         KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());

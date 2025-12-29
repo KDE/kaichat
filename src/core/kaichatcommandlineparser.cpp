@@ -42,6 +42,9 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          i18nc("@info:shell", "Define tool used. This can be repeated"),
                                          i18n("Tool Name")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::PluginInfo), i18nc("@info:shell", "Return plugins info")));
+#if HAVE_KUSERFEEDBACK
+    parser->addOption(QCommandLineOption(optionParserFromEnum(OptionParser::FeedBack), i18nc("@info:shell", "Lists the available options for user feedback")));
+#endif
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -69,6 +72,10 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"attach"_s;
     case OptionParser::ToolName:
         return u"tool"_s;
+#if HAVE_KUSERFEEDBACK
+    case OptionParser::FeedBack:
+        return u"feedback"_s;
+#endif
     case OptionParser::PluginInfo:
         return u"plugin-info"_s;
     }

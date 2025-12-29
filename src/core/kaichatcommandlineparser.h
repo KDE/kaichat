@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #pragma once
+#include "config-kaichat.h"
 #include "libkaichatcore_export.h"
-
 #include <QString>
 class QCommandLineParser;
 class LIBKAICHATCORE_EXPORT KAIChatCommandLineParser
@@ -24,6 +24,9 @@ public:
         Attach,
         ToolName,
         PluginInfo,
+#if HAVE_KUSERFEEDBACK
+        FeedBack,
+#endif
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

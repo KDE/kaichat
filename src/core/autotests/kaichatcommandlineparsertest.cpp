@@ -5,6 +5,7 @@
  */
 
 #include "kaichatcommandlineparsertest.h"
+#include "config-kaichat.h"
 #include "kaichatcommandlineparser.h"
 #include <QTest>
 QTEST_GUILESS_MAIN(KAIChatCommandLineParserTest)
@@ -28,6 +29,9 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach), u"attach"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName), u"tool"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo), u"plugin-info"_s);
+#if HAVE_KUSERFEEDBACK
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack), u"feedback"_s);
+#endif
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"
