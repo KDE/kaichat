@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-30 00:44+0000\n"
-"PO-Revision-Date: 2025-12-23 11:49+0300\n"
+"PO-Revision-Date: 2025-12-30 13:25+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -179,7 +179,7 @@ msgstr "Eklenti bilgisini döndür"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Kullanıcı geri bildirimi için kullanılabilir seçenekleri listele"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -345,7 +345,7 @@ msgstr "Eklentiler"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Kullanıcı Geri Bildirimi"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -473,10 +473,8 @@ msgid "Add Grok instance support."
 msgstr "Grok örneği desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Yazım denetimi desteği ekle"
+msgstr "Kullanıcı geri bildirimi desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
@@ -541,7 +539,7 @@ msgstr "Sohbetler listesine ilerleme göstergesi ekle"
 #: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Allow to change font size."
-msgstr "Yazıtipini puntosunu değiştirmeye izin ver"
+msgstr "Yazıtipi puntosunu değiştirmeye izin ver"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
@@ -686,12 +684,12 @@ msgstr "Çoklu araçlar eklentileri çağrısını düzelt"
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Hesap Bilgisi"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Hesap sayısını döndürün."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."

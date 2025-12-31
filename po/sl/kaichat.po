@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-30 00:44+0000\n"
-"PO-Revision-Date: 2025-12-21 07:12+0100\n"
+"PO-Revision-Date: 2025-12-30 06:43+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -180,7 +180,7 @@ msgstr "Vrni informacije o vtičnikih"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Navaja razpoložljive možnosti za povratne informacije uporabnikov"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -346,7 +346,7 @@ msgstr "Vtičniki"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Povratne informacije uporabnikov"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -476,10 +476,8 @@ msgid "Add Grok instance support."
 msgstr "Dodaj podporo pojavku Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Dodaj podporo za črkovalnik."
+msgstr "Dodaj podporo za povratne informacije uporabnikov."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
@@ -687,12 +685,12 @@ msgstr "Popravi klic vtičnikov za več orodij."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Podatki o računu"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Vrni številko računa."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
