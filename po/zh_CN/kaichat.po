@@ -66,7 +66,7 @@ msgstr "聊天列表："
 #: apps/main.cpp:129
 #, kde-format
 msgid "Plugins:"
-msgstr ""
+msgstr "插件:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -83,7 +83,7 @@ msgstr "以特定实例开始"
 #: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgid "Instance Name"
-msgstr ""
+msgstr "实例名称"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -470,10 +470,8 @@ msgid "Add Grok instance support."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "添加拼写检查支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 #, kde-format
