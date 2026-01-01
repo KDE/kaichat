@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2025 Laurent Montel <montel@kde.org>
+ * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
                          QStringLiteral(KAICHAT_VERSION),
                          i18n("AI Chat"),
                          KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2025 Laurent Montel"));
+                         i18n("Copyright © 2025-2026 Laurent Montel"));
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
     aboutData.setOrganizationDomain("kde.org"_ba);
     aboutData.setProductName("kaichat"_ba);
