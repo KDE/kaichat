@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-30 00:44+0000\n"
+"POT-Creation-Date: 2026-01-02 00:47+0000\n"
 "PO-Revision-Date: 2025-10-26 20:49+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -38,8 +38,9 @@ msgid "AI Chat"
 msgstr "AI-chatt"
 
 #: apps/main.cpp:75
-#, kde-format
-msgid "Copyright © 2025 Laurent Montel"
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
+msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:76
