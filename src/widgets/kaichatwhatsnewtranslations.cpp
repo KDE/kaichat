@@ -16,6 +16,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
     const QList<KLazyLocalizedString> info{
         kli18n("Add Grok instance support."),
         kli18n("Add User Feedback support."),
+        kli18n("Allow to show model info."),
     };
     return info;
 }
