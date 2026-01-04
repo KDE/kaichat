@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-02 00:47+0000\n"
+"POT-Creation-Date: 2026-01-04 00:47+0000\n"
 "PO-Revision-Date: 2025-12-20 08:37+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -484,72 +484,76 @@ msgstr "Gork instantzien euskarria gehitu."
 msgid "Add User Feedback support."
 msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:29
+#: widgets/kaichatwhatsnewtranslations.cpp:19
+msgid "Allow to show model info."
+msgstr ""
+
+#: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
 msgid "Add what's new support."
 msgstr "Zer berri-ren euskarria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:30
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add instance support."
 msgstr "Instantzien euskarria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:31
+#: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Markdown-en euskarria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Nabarmentzeko euskarria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:35
+#: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:42
+#: widgets/kaichatwhatsnewtranslations.cpp:43
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Galdera azkarra elkarrizketa-koadroa gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Ollama Windows/MacOs-en zama-jaistea baimendu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Berriketan gonbita erabiltzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Partekatutako testua eta web-lasterbide plugina gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Pluginak konfiguratzea baimendu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Add new update widget."
 msgstr "Eguneratze-trepeta berria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Berriketen zerrendan aurrerapen adierazlea gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Letra-tipoa aldatzea baimendu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -557,137 +561,137 @@ msgstr ""
 "Instantzien zerrenda azaltzen duen berriketa gela berria gehitzeko komando-"
 "lerroa gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Gehitu jakinarazpenaren mezu gainerakorra eredua zama-jaitsiera burutu "
 "denean."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Testuaren eta kiribiltze-barraren kokapena gorde eta lehengoratzeko aukera "
 "ematen du."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "Izenburudun berriketak erakusteko aukera gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add tools support."
 msgstr "Tresnen euskarria gehitu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Berriketa identifikatzailetik aldatzea baimendu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Gehitu Uneko Data Ordu tresna."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Gehitu aurrerapen tresnaren mezu-informazioa."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:62
+#: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Windows-en ikonoa konpontzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:69
+#: widgets/kaichatwhatsnewtranslations.cpp:70
 #, kde-format
 msgid "Allow to copy block code to clipboard."
 msgstr "Kode-blokea arbelera kopiatzeko aukera ematea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:70
+#: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Show number of string found in statusbar."
 msgstr "Aurkitutako kate kopurua egoera-barran erakustea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:71
+#: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
 msgid "Implement quick search."
 msgstr "Bilaketa azkarra inplementatzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:72
+#: widgets/kaichatwhatsnewtranslations.cpp:73
 #, kde-format
 msgid "Add quick search bar in quick ask dialog."
 msgstr "Bilaketa azkarra barra galdera azkarra elkarrizketa koadroan gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:73
+#: widgets/kaichatwhatsnewtranslations.cpp:74
 #, kde-format
 msgid "Add restore configure settings value."
 msgstr "Konfiguratzeko ezarpenen balioa lehengoratzea gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:74
+#: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
 msgid "Allow to configure text to speech."
 msgstr "Testutik hizketara konfiguratzea baimentzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:75
+#: widgets/kaichatwhatsnewtranslations.cpp:76
 #, kde-format
 msgid "Add tool plugin icon name."
 msgstr "Trena-pluginaren ikonoaren izena gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:76
+#: widgets/kaichatwhatsnewtranslations.cpp:77
 #, kde-format
 msgid "Add attachment support."
 msgstr "Eranskin-euskarria gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:77
+#: widgets/kaichatwhatsnewtranslations.cpp:78
 #, kde-format
 msgid "Add new icon."
 msgstr "Ikono berria gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:78
+#: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Add debug command line."
 msgstr "Arazteko komando-lerroa gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:79
+#: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
 "Wikipedia, eguraldi tresna pluginak gehitzea (kaichat-addons bidez hornitua)."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:80
+#: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Store Pending Typed Info in Database."
 msgstr "\"Tekleatutakoa zain\" informazioa datu-basean gordetzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:81
+#: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Allow to add attachment files from command line."
 msgstr "Eranskin fitxategiak komando-lerrotik gehitzea baimentzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:82
+#: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Add icon in configure ollama models."
 msgstr "Ollama ereduen konfigurazioan ikonoa gehitzea."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:83
+#: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
 msgstr "Ollamaren ingurune aldagai espezifikoak erabiltzea baimendu."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:87
+#: widgets/kaichatwhatsnewtranslations.cpp:88
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "Tresna anitzen pluginek deia konpontzea."
