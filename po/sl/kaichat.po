@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-04 00:47+0000\n"
-"PO-Revision-Date: 2026-01-02 06:56+0100\n"
+"PO-Revision-Date: 2026-01-04 07:37+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -481,7 +481,7 @@ msgstr "Dodaj podporo za povratne informacije uporabnikov."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "Dovoli prikaz informacij o modelu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format

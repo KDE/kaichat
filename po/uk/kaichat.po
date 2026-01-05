@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-04 00:47+0000\n"
-"PO-Revision-Date: 2026-01-02 09:24+0200\n"
+"PO-Revision-Date: 2026-01-04 12:29+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -481,7 +481,7 @@ msgstr "Додано підтримку відгуків користувачі�
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "Дозволити показувати відомості щодо моделі."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format

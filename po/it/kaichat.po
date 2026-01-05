@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Vincenzo Reale <smart2128vr@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Vincenzo Reale <smart2128vr@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-04 00:47+0000\n"
-"PO-Revision-Date: 2025-12-22 07:40+0100\n"
+"PO-Revision-Date: 2026-01-04 09:52+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -38,10 +38,9 @@ msgid "AI Chat"
 msgstr "Chat IA"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr "Copyright © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -180,7 +179,7 @@ msgstr "Restituisci informazioni delle estensioni"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Elenca le opzioni disponibili per le segnalazioni degli utenti"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -347,7 +346,7 @@ msgstr "Estensioni"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Segnalazioni degli utenti"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -475,14 +474,12 @@ msgid "Add Grok instance support."
 msgstr "Aggiunge il supporto per l'istanza Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Aggiunge il supporto per il controllo ortografico."
+msgstr "Aggiunge il supporto per le segnalazioni degli utenti"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "Consente di mostrare le informazioni sul modello."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
@@ -697,12 +694,12 @@ msgstr "Corregge l'invocazione delle estensioni multi-strumento."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Informazioni sull'account"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Restituisce il numero di account."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
