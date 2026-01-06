@@ -38,10 +38,9 @@ msgid "AI Chat"
 msgstr "AI 聊天"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr ""
 
 #: apps/main.cpp:76
 #, kde-format
