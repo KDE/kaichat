@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-19 02:44+0000\n"
-"PO-Revision-Date: 2025-12-18 10:01+0100\n"
+"PO-Revision-Date: 2026-01-05 18:28+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -500,7 +500,7 @@ msgstr "Ajouter une ligne de commande de débogage."
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
-"Ajouter les modules externes pour Wikipedia,  les outils pour la météo "
+"Ajouter les modules externes pour Wikipedia, les outils pour la météo "
 "(Fournit par le paquet « kaichat-addons »)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
