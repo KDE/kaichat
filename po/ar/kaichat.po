@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-04 00:47+0000\n"
-"PO-Revision-Date: 2025-12-24 17:04+0400\n"
+"PO-Revision-Date: 2026-01-08 13:30+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -39,10 +39,9 @@ msgid "AI Chat"
 msgstr "دردشة للذكاء الاصطناعي"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "حقوق النشر © 2025 لوران مونتيل"
+msgstr "حقوق النشر © 2025-2026 لوران مونتيل"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -181,7 +180,7 @@ msgstr "تعيد معلومات الملحقات"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "يسرد الخيارات المتاحة لتعليقات المستخدمين."
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -347,7 +346,7 @@ msgstr "المُلْحَقات"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "ملاحظات المستخدمين"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -477,14 +476,12 @@ msgid "Add Grok instance support."
 msgstr "إتاحة نسخة غروك."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "أَضِف دعم التدقيق الإملائي."
+msgstr "إضافة تعليقات المستخدمين."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "اسمح بعرض معلومات النموذج."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 #, kde-format
@@ -690,12 +687,12 @@ msgstr "إصلاح استدعاء محلقات متعددة الأدوات."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "معلومات الحساب"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "أرجع عدد الحسابات."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
