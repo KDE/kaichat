@@ -5,12 +5,12 @@
  */
 
 #include "kaichatexportchatastextjob.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QFile>
 
+using namespace Qt::Literals::StringLiterals;
 KAIChatExportChatAsTextJob::KAIChatExportChatAsTextJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {

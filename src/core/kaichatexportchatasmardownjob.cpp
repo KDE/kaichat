@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatexportchatasmardownjob.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QFile>
 
+using namespace Qt::Literals::StringLiterals;
 KAIChatExportChatAsMardownJob::KAIChatExportChatAsMardownJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {
