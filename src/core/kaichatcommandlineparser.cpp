@@ -45,6 +45,7 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
 #if HAVE_KUSERFEEDBACK
     parser->addOption(QCommandLineOption(optionParserFromEnum(OptionParser::FeedBack), i18nc("@info:shell", "Lists the available options for user feedback")));
 #endif
+    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ImportChat), i18nc("@info:shell", "Import Chat"), i18n("Import")));
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -78,6 +79,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
 #endif
     case OptionParser::PluginInfo:
         return u"plugin-info"_s;
+    case OptionParser::ImportChat:
+        return u"import"_s;
     }
     return {};
 }

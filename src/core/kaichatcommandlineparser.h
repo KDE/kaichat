@@ -27,6 +27,7 @@ public:
 #if HAVE_KUSERFEEDBACK
         FeedBack,
 #endif
+        ImportChat,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

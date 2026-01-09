@@ -32,6 +32,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
 #if HAVE_KUSERFEEDBACK
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack), u"feedback"_s);
 #endif
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat), u"import"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"
