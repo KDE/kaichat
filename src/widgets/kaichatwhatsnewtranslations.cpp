@@ -17,6 +17,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Grok instance support."),
         kli18n("Add User Feedback support."),
         kli18n("Allow to show model info."),
+        kli18n("Add import chat support."),
     };
     return info;
 }
