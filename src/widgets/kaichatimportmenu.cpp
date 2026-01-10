@@ -31,7 +31,7 @@ void KAIChatImportMenu::setImportChatInfo(const TextAutoGenerateText::TextAutoGe
         job = new TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob(this);
         break;
     case ConvertFromType::Unknown:
-        qCWarning(KAICHAT_WIDGET_LOG) << " Invalid ConvertToType enum. It's a bug";
+        qCWarning(KAICHAT_WIDGET_LOG) << " Invalid ConvertFromType enum. It's a bug";
         return;
     }
 
