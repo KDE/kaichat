@@ -6,6 +6,7 @@
 
 #include "kaichatmainwindow.h"
 
+#include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
 #include "kaichatcentralwidget.h"
@@ -163,6 +164,10 @@ void KAIChatMainWindow::setupActions()
     mExportMenu = new KAIChatExportMenu(this);
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
+
+    mImportMenu = new KAIChatImportMenu(this);
+    ac->addAction(u"import_menu"_s, mImportMenu);
+    connect(mImportMenu, &KAIChatImportMenu::importRequested, this, &KAIChatMainWindow::slotImportInfoRequested);
 
     auto searchInDataBaseAction = new QAction(i18nc("@action", "Search in Database…"), this);
     ac->addAction(u"search_in_database"_s, searchInDataBaseAction);
@@ -329,6 +334,19 @@ void KAIChatMainWindow::slotActivateRequested(const QStringList &arguments, [[ma
 void KAIChatMainWindow::slotSearchText()
 {
     mMainWidget->searchText();
+}
+
+void KAIChatMainWindow::slotImportInfoRequested()
+{
+    const QString fileName = QFileDialog::getOpenFileName(this, i18nc("@title:window", "Import Chats"), QDir::homePath());
+    if (fileName.isEmpty()) {
+        return;
+    }
+    const TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{
+        .filename = fileName,
+        .chatTitle = {} // TODO ?
+    };
+    mImportMenu->setImportChatInfo(std::move(info));
 }
 
 void KAIChatMainWindow::slotExportInfoRequested()

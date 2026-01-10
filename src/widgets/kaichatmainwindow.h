@@ -13,6 +13,7 @@ class KHamburgerMenu;
 class KToggleFullScreenAction;
 class KAIChatNotificatifierItem;
 class KAIChatExportMenu;
+class KAIChatImportMenu;
 class KAIChatChangeFontSizeMenu;
 class QCommandLineParser;
 class QLabel;
@@ -57,6 +58,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotConfigureNotifications();
     LIBKAICHATWIDGETS_NO_EXPORT void setupStatusBar();
     LIBKAICHATWIDGETS_NO_EXPORT void slotStatusBarInfoChanged(const QString &str);
+    LIBKAICHATWIDGETS_NO_EXPORT void slotImportInfoRequested();
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
@@ -66,6 +68,7 @@ private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
     KAIChatCentralWidget *const mMainWidget;
     KAIChatExportMenu *mExportMenu = nullptr;
+    KAIChatImportMenu *mImportMenu = nullptr;
     QAction *mShowQuickAskAction = nullptr;
     KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
     QLabel *mToolProgressInfo = nullptr;
