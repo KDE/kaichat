@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-04 00:47+0000\n"
+"POT-Creation-Date: 2026-01-10 00:46+0000\n"
 "PO-Revision-Date: 2026-01-04 09:52+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -181,6 +181,19 @@ msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Elenca le opzioni disponibili per le segnalazioni degli utenti"
 
+#: core/kaichatcommandlineparser.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
+msgctxt "@info:shell"
+msgid "Import Chat"
+msgstr "Esporta chat"
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgid "Import"
+msgstr ""
+
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
 #, kde-format
@@ -354,7 +367,7 @@ msgctxt "@action:inmenu"
 msgid "Export…"
 msgstr "Esporta…"
 
-#: widgets/kaichatexportmenu.cpp:18
+#: widgets/kaichatexportmenu.cpp:18 widgets/kaichatimportmenu.cpp:16
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
@@ -371,6 +384,14 @@ msgstr "Esporta come Markdown…"
 msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Esporta come testo…"
+
+#: widgets/kaichatimportmenu.cpp:15
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
+msgctxt "@action:inmenu"
+msgid "Import…"
+msgstr "Esporta…"
 
 #: widgets/kaichatmainwindow.cpp:90
 #, kde-format

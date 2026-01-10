@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the kaichat package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-04 00:47+0000\n"
+"POT-Creation-Date: 2026-01-10 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Irish Gaelic <kde-i18n-doc@kde.org>\n"
-"Language: ga\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,6 +181,17 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import Chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgid "Import"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:32
@@ -354,7 +366,7 @@ msgctxt "@action:inmenu"
 msgid "Export…"
 msgstr ""
 
-#: widgets/kaichatexportmenu.cpp:18
+#: widgets/kaichatexportmenu.cpp:18 widgets/kaichatimportmenu.cpp:16
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
@@ -370,6 +382,12 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
+msgstr ""
+
+#: widgets/kaichatimportmenu.cpp:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import…"
 msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:90
