@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-10 00:46+0000\n"
+"POT-Creation-Date: 2026-01-11 00:46+0000\n"
 "PO-Revision-Date: 2026-01-05 18:28+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
@@ -391,37 +391,37 @@ msgctxt "@action:inmenu"
 msgid "Import…"
 msgstr "Exporter…"
 
-#: widgets/kaichatmainwindow.cpp:90
+#: widgets/kaichatmainwindow.cpp:91
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "La chaine %1 a été trouvée."
 msgstr[1] "Les chaines %1 ont été trouvées."
 
-#: widgets/kaichatmainwindow.cpp:155
+#: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:167
+#: widgets/kaichatmainwindow.cpp:172
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Rechercher dans la base de données…"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:210
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
-#: widgets/kaichatmainwindow.cpp:299
+#: widgets/kaichatmainwindow.cpp:304
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -430,60 +430,68 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:302
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:341
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
+msgctxt "@title:window"
+msgid "Import Chats"
+msgstr "Exporter les salons"
+
+#: widgets/kaichatmainwindow.cpp:354
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporter les salons"
 
-#: widgets/kaichatmainwindow.cpp:412
+#: widgets/kaichatmainwindow.cpp:430
 #, kde-format
 msgid "Model Download Done"
 msgstr "Téléchargement du modèle terminé"
 
-#: widgets/kaichatmainwindow.cpp:413
+#: widgets/kaichatmainwindow.cpp:431
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Le modèle %1 a été téléchargé."
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:13
+#: widgets/kaichatui.rc:15
 #, kde-format
 msgid "&Settings"
 msgstr "&Configuration"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:17
+#: widgets/kaichatui.rc:19
 #, kde-format
 msgid "&Edit"
 msgstr "&Édition"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:21
+#: widgets/kaichatui.rc:23
 #, kde-format
 msgid "View"
 msgstr "Affichage"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:29
 #, kde-format
 msgid "Tools"
 msgstr "Outils"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:31
+#: widgets/kaichatui.rc:33
 #, kde-format
 msgid "&Help"
 msgstr "&Aide"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:38
+#: widgets/kaichatui.rc:40
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barre principale d'outils"
@@ -500,72 +508,78 @@ msgstr "Ajouter la prise en charge des retours utilisateurs."
 msgid "Allow to show model info."
 msgstr "Permettre l'affichage des informations de modèle."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:30
+#: widgets/kaichatwhatsnewtranslations.cpp:20
+#, fuzzy
+#| msgid "Add attachment support."
+msgid "Add import chat support."
+msgstr "Ajouter la prise en charge des pièces jointes."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add what's new support."
 msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:31
+#: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add instance support."
 msgstr "Ajouter la prise en charge d'instances."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Mardown support."
 msgstr "Ajouter la prise en charge du format « Markdown »."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:33
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "Ajouter la prise en charge de la surbrillance"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:36
+#: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "Correction de l'autorisation de supprimer un salon. Bogue %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "Ajouter une boite de dialogue de requête rapide."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Autoriser le téléchargement de Ollama sur Windows / macOS."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "Utilisez l'invite pendant la discussion."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "Ajouter un texte partagé et un module externe de raccourcis Internet"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "Autoriser la configuration des modules externes."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add new update widget."
 msgstr "Ajouter un nouveau composant graphique de mise à jour."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "Ajouter un indicateur d'avancement dans la liste des salons."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Allow to change font size."
 msgstr "Autoriser le changement de taille de police."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -573,145 +587,145 @@ msgstr ""
 "Ajoutez une ligne de commande pour ajouter un nouveau salon de discussions, "
 "en affichant la liste des instances."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add spell checking support."
 msgstr "Ajouter la prise en charge de la correction orthographique"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr ""
 "Ajouter une fenêtre contextuelle de notification lorsque le téléchargement "
 "du modèle est terminé."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr ""
 "Permet d'enregistrer et de restaurer le texte et la position de la barre de "
 "défilement."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "Permet d'enregistrer et de restaurer la discussion courante."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr ""
 "Ajouter une option pour l'affichage de la liste des salons de discussions "
 "avec titre."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add tools support."
 msgstr "Ajouter la prise en charge des outils."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "Autoriser le basculement vers la discussion selon l'identifieur"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "Ajouter l'outil « Date et heure courante »."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "Ajoutez les informations du message de progression de l'outil."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:63
+#: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "Correction de l'icône sur les fenêtres."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:70
+#: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Allow to copy block code to clipboard."
 msgstr "Autoriser la copie de bloc de code dans le presse-papier."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:71
+#: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
 msgid "Show number of string found in statusbar."
 msgstr "Afficher le nombre de chaines trouvées dans la barre d'état."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:72
+#: widgets/kaichatwhatsnewtranslations.cpp:73
 #, kde-format
 msgid "Implement quick search."
 msgstr "Effectuez une recherche rapide."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:73
+#: widgets/kaichatwhatsnewtranslations.cpp:74
 #, kde-format
 msgid "Add quick search bar in quick ask dialog."
 msgstr ""
 "Ajoutez une barre de recherche rapide dans la boite de dialogue de demande "
 "rapide."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:74
+#: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
 msgid "Add restore configure settings value."
 msgstr "Ajouter la valeur de restauration des paramètres de configuration."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:75
+#: widgets/kaichatwhatsnewtranslations.cpp:76
 #, kde-format
 msgid "Allow to configure text to speech."
 msgstr "Autoriser la configuration de la synthèse vocale."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:76
+#: widgets/kaichatwhatsnewtranslations.cpp:77
 #, kde-format
 msgid "Add tool plugin icon name."
 msgstr "Ajouter le nom de l'icône du module externe de l'outil."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:77
+#: widgets/kaichatwhatsnewtranslations.cpp:78
 #, kde-format
 msgid "Add attachment support."
 msgstr "Ajouter la prise en charge des pièces jointes."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:78
+#: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Add new icon."
 msgstr "Ajouter une nouvelle icône."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:79
+#: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Add debug command line."
 msgstr "Ajouter une ligne de commande de débogage."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:80
+#: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
 "Ajouter les modules externes pour Wikipedia, les outils pour la météo "
 "(Fournit par le paquet « kaichat-addons »)."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:81
+#: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Store Pending Typed Info in Database."
 msgstr ""
 "Enregistrer les informations marquées en attente dans la base de données."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:82
+#: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Allow to add attachment files from command line."
 msgstr ""
 "Autoriser l'ajout de fichiers joints à partir de la ligne de commandes."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:83
+#: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Add icon in configure ollama models."
 msgstr "Ajouter une icône dans la configuration des modèles pour Ollama."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:84
+#: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
 msgstr ""
 "Autoriser l'utilisation de variables d'environnement spécifiques pour Ollama"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:88
+#: widgets/kaichatwhatsnewtranslations.cpp:89
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "Correction de l'appel à des modules externes multi-outils."

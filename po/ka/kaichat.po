@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-10 00:46+0000\n"
-"PO-Revision-Date: 2026-01-04 05:25+0100\n"
+"POT-Creation-Date: 2026-01-11 00:46+0000\n"
+"PO-Revision-Date: 2026-01-10 02:45+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -183,17 +183,15 @@ msgid "Lists the available options for user feedback"
 msgstr "მომხმარებლის უკუკავშირის ხელმისაწვდომი ვარიანტები"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "ჩატების გატანა"
+msgstr "ჩატის შემოტანა"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "შემოტანა"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -388,44 +386,42 @@ msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "გატანა…"
+msgstr "შემოტანა…"
 
-#: widgets/kaichatmainwindow.cpp:90
+#: widgets/kaichatmainwindow.cpp:91
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "ნაპოვნია %1 სტრიქონი."
 msgstr[1] "ნაპოვნია %1 სტრიქონი."
 
-#: widgets/kaichatmainwindow.cpp:155
+#: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:160
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:167
+#: widgets/kaichatmainwindow.cpp:172
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "ძებნა მონაცემთა ბაზაში…"
 
-#: widgets/kaichatmainwindow.cpp:205
+#: widgets/kaichatmainwindow.cpp:210
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "სწრაფი კითხვის გახსნა…"
 
-#: widgets/kaichatmainwindow.cpp:299
+#: widgets/kaichatmainwindow.cpp:304
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -434,60 +430,68 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:302
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:341
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Import Chat"
+msgctxt "@title:window"
+msgid "Import Chats"
+msgstr "ჩატის შემოტანა"
+
+#: widgets/kaichatmainwindow.cpp:354
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ჩატების გატანა"
 
-#: widgets/kaichatmainwindow.cpp:412
+#: widgets/kaichatmainwindow.cpp:430
 #, kde-format
 msgid "Model Download Done"
 msgstr "მოდელის გადმოწერა დასრულდა"
 
-#: widgets/kaichatmainwindow.cpp:413
+#: widgets/kaichatmainwindow.cpp:431
 #, kde-format
 msgid "Model %1 was download."
 msgstr "მოდელი %1 გადმოწერილია."
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:13
+#: widgets/kaichatui.rc:15
 #, kde-format
 msgid "&Settings"
 msgstr "მორგე&ბა"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:17
+#: widgets/kaichatui.rc:19
 #, kde-format
 msgid "&Edit"
 msgstr "ჩასწორ&ება"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:21
+#: widgets/kaichatui.rc:23
 #, kde-format
 msgid "View"
 msgstr "ნახვა"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:27
+#: widgets/kaichatui.rc:29
 #, kde-format
 msgid "Tools"
 msgstr "ხელსაწყოები"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:31
+#: widgets/kaichatui.rc:33
 #, kde-format
 msgid "&Help"
 msgstr "&დახმარება"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:38
+#: widgets/kaichatui.rc:40
 #, kde-format
 msgid "Main Toolbar"
 msgstr "ხელსაწყოთა მთავარი ზოლი"
@@ -504,72 +508,78 @@ msgstr "დაემატა მომხმარებლის უკუკ�
 msgid "Allow to show model info."
 msgstr "მოდელის ინფორმაციის ჩვენების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:30
+#: widgets/kaichatwhatsnewtranslations.cpp:20
+#, fuzzy
+#| msgid "Add attachment support."
+msgid "Add import chat support."
+msgstr "დაემატა მიმაგრებული ფაილების მხარდაჭერა."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
 msgid "Add what's new support."
 msgstr "დაემატა მენიუ 'რა არის ახალი'."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:31
+#: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
 msgid "Add instance support."
 msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:32
+#: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
 msgid "Add Mardown support."
 msgstr "დაემატა მარკდაუნის მხარდაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:33
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "დაემატა გამოკვეთის მხარდაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:36
+#: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:43
+#: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "სწრაფი კითხვის დიალოგის დამატება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:44
+#: widgets/kaichatwhatsnewtranslations.cpp:45
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "Ollama-ის გადმოწერის დაშვება Windows/macOS-ზე."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:45
+#: widgets/kaichatwhatsnewtranslations.cpp:46
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "შეყვანის ზოლის გამოყენება ჩატისას."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "დაემატა გაზიარებული ტექსტის და ვებ-მალსახმობის დამატება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "დამატებების მორგების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Add new update widget."
 msgstr "ახალი განახლების ვიჯეტის დამატება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "მიმდინარეობის მაჩვენებლის დამატება ჩატების სიაში."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Allow to change font size."
 msgstr "ფონტის ზომის შეცვლის დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
@@ -577,134 +587,134 @@ msgstr ""
 "დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და გაშვებული "
 "ასლების სიის გამოსატანად."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add spell checking support."
 msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "გაფრთხილების მხტუნარას დამატება, როცა მოდელის გადმოწერა დასრულდება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "ტექსტის და ჩოჩიის მდებარეობის შენახვის და აღდგენის ჩართვა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "მიმდინარე ჩატის შენახვის და აღდგენის დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Add tools support."
 msgstr "დაემატა ხელსაწყოების მხადაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "ჩატის იდენტიფიკატორიდან გადართვის დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "დაემატა მიმდინარე დროისა და თარიღის ხელსაწყო."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:63
+#: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "გასწორდა ხატულა ფანჯრებზე."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:70
+#: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Allow to copy block code to clipboard."
 msgstr "ბლოკის კოდის ბუფერში დაკოპირების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:71
+#: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
 msgid "Show number of string found in statusbar."
 msgstr "ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:72
+#: widgets/kaichatwhatsnewtranslations.cpp:73
 #, kde-format
 msgid "Implement quick search."
 msgstr "სწრაფი ძებნის იმპლემენტაცია."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:73
+#: widgets/kaichatwhatsnewtranslations.cpp:74
 #, kde-format
 msgid "Add quick search bar in quick ask dialog."
 msgstr "დაემატა სწრაფი ძებნის პანელი სწრაფი კითხვის დიალოგში."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:74
+#: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
 msgid "Add restore configure settings value."
 msgstr "პარამეტრების კონფიგურაციის მნიშვნელობის აღდგენის დამატება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:75
+#: widgets/kaichatwhatsnewtranslations.cpp:76
 #, kde-format
 msgid "Allow to configure text to speech."
 msgstr "ტექსტის წარმოთქმის მორგების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:76
+#: widgets/kaichatwhatsnewtranslations.cpp:77
 #, kde-format
 msgid "Add tool plugin icon name."
 msgstr "დაემატა ხელსაწყოს დამატების ხატულას სახელი."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:77
+#: widgets/kaichatwhatsnewtranslations.cpp:78
 #, kde-format
 msgid "Add attachment support."
 msgstr "დაემატა მიმაგრებული ფაილების მხარდაჭერა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:78
+#: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Add new icon."
 msgstr "დაემატა ახალი ხატულა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:79
+#: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Add debug command line."
 msgstr "დაემატა გამართვის ბრძანების სტრიქონი."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:80
+#: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
 "დაემატა ვიკიპედიის და ამინდის ხელსაწყოს დამატებები (შეიცავს პაკეტი kaichat-"
 "addons)."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:81
+#: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Store Pending Typed Info in Database."
 msgstr "რიგში მყოფი აკრეფილი ინფორმაციის მონაცემთა ბაზაში შენახვა."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:82
+#: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Allow to add attachment files from command line."
 msgstr "მიმაგრებული ფაილების ბრძანების სტრიქონიდან დამატების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:83
+#: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Add icon in configure ollama models."
 msgstr "დაემატა ხატულა ollama-ის მოდელების მორგების ფანჯარაში."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:84
+#: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
 msgstr "სპეციფიკური Ollama-ის გარემოს ცვლადების გამოყენების დაშვება."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:88
+#: widgets/kaichatwhatsnewtranslations.cpp:89
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "გასწორდა mutitools დამატების გამოძახება."
