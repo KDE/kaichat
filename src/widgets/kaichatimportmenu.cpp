@@ -36,6 +36,7 @@ void KAIChatImportMenu::setImportChatInfo(const TextAutoGenerateText::TextAutoGe
         return;
     }
 
+    connect(job, &TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::importDone, this, &KAIChatImportMenu::importDone);
     job->setInfo(newInfo);
     job->start();
 }

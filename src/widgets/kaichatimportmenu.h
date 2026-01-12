@@ -19,6 +19,7 @@ public:
 
 Q_SIGNALS:
     void importRequested();
+    void importDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs);
 
 private:
     enum class ConvertFromType : uint8_t {

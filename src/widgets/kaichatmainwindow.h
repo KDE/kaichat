@@ -25,6 +25,7 @@ class VerifyNewVersionWidget;
 #endif
 namespace TextAutoGenerateText
 {
+class TextAutoGenerateMessage;
 class TextAutoGenerateManager;
 }
 class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
@@ -39,6 +40,7 @@ public:
     void parseCommandLine(QCommandLineParser *parser);
 
 private:
+    LIBKAICHATWIDGETS_NO_EXPORT void slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs);
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowArchive(bool checked);
     LIBKAICHATWIDGETS_NO_EXPORT void readConfig();
     LIBKAICHATWIDGETS_NO_EXPORT void setupActions();

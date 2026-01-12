@@ -168,6 +168,7 @@ void KAIChatMainWindow::setupActions()
     mImportMenu = new KAIChatImportMenu(this);
     ac->addAction(u"import_menu"_s, mImportMenu);
     connect(mImportMenu, &KAIChatImportMenu::importRequested, this, &KAIChatMainWindow::slotImportInfoRequested);
+    connect(mImportMenu, &KAIChatImportMenu::importDone, this, &KAIChatMainWindow::slotImportDone);
 
     auto searchInDataBaseAction = new QAction(i18nc("@action", "Search in Database…"), this);
     ac->addAction(u"search_in_database"_s, searchInDataBaseAction);
@@ -435,6 +436,11 @@ void KAIChatMainWindow::slotDownloadModelFinished(const QString &modelName)
 void KAIChatMainWindow::slotConfigureNotifications()
 {
     KNotifyConfigWidget::configure(this);
+}
+
+void KAIChatMainWindow::slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs)
+{
+    // TODO
 }
 
 #include "moc_kaichatmainwindow.cpp"
