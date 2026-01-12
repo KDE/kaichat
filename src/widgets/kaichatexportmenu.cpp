@@ -10,7 +10,7 @@
 #include "kaichatexportchatastextjob.h"
 #include <KLocalizedString>
 #include <TextAutoGenerateText/TextAutoGenerateExportChatAsJsonJob>
-
+using namespace Qt::Literals::StringLiterals;
 KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     : KActionMenu(parent)
 {
@@ -18,6 +18,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     auto act = new QAction(i18nc("@action", "Export as JSON…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Json;
+        mFileFilter = u"%1 (*.kaichat, *.json)"_s.arg(i18n("kaichat"));
         Q_EMIT exportInfoRequested();
     });
     addAction(act);
@@ -25,6 +26,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     act = new QAction(i18nc("@action", "Export as Markdown…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Markdown;
+        mFileFilter = KAIChatExportChatAsMardownJob::fileFilter();
         Q_EMIT exportInfoRequested();
     });
     addAction(act);
@@ -32,6 +34,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     act = new QAction(i18nc("@action", "Export as Text…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Text;
+        mFileFilter = KAIChatExportChatAsTextJob::fileFilter();
         Q_EMIT exportInfoRequested();
     });
     addAction(act);
@@ -67,6 +70,11 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
 
     job->setInfo(newInfo);
     job->start();
+}
+
+QString KAIChatExportMenu::fileFilter() const
+{
+    return mFileFilter;
 }
 
 #include "moc_kaichatexportmenu.cpp"

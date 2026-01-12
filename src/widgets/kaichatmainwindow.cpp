@@ -338,7 +338,7 @@ void KAIChatMainWindow::slotSearchText()
 
 void KAIChatMainWindow::slotImportInfoRequested()
 {
-    const QString fileName = QFileDialog::getOpenFileName(this, i18nc("@title:window", "Import Chats"), QDir::homePath());
+    const QString fileName = QFileDialog::getOpenFileName(this, i18nc("@title:window", "Import Chats"), QDir::homePath(), mImportMenu->fileFilter());
     if (fileName.isEmpty()) {
         return;
     }
@@ -351,7 +351,7 @@ void KAIChatMainWindow::slotImportInfoRequested()
 
 void KAIChatMainWindow::slotExportInfoRequested()
 {
-    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Chats"), QDir::homePath());
+    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Chats"), QDir::homePath(), mExportMenu->fileFilter());
     if (fileName.isEmpty()) {
         return;
     }

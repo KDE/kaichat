@@ -8,14 +8,15 @@
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
 #include <TextAutoGenerateText/TextAutoGenerateImportChatAsJsonJob>
-
+using namespace Qt::Literals::StringLiterals;
 KAIChatImportMenu::KAIChatImportMenu(QObject *parent)
     : KActionMenu{parent}
 {
     setText(i18nc("@action:inmenu", "Import…"));
-    auto act = new QAction(i18nc("@action", "Export as JSON…"), this);
+    auto act = new QAction(i18nc("@action", "Import as JSON…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertFromType = ConvertFromType::Json;
+        mFileFilter = u"%1 (*.kaichat, *.json)"_s.arg(i18n("kaichat"));
         Q_EMIT importRequested();
     });
     addAction(act);
@@ -37,6 +38,11 @@ void KAIChatImportMenu::setImportChatInfo(const TextAutoGenerateText::TextAutoGe
 
     job->setInfo(newInfo);
     job->start();
+}
+
+QString KAIChatImportMenu::fileFilter() const
+{
+    return mFileFilter;
 }
 
 #include "moc_kaichatimportmenu.cpp"

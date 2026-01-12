@@ -18,6 +18,11 @@ KAIChatExportChatAsTextJob::KAIChatExportChatAsTextJob(QObject *parent)
 
 KAIChatExportChatAsTextJob::~KAIChatExportChatAsTextJob() = default;
 
+QString KAIChatExportChatAsTextJob::fileFilter()
+{
+    return u"%1 (*.txt)"_s.arg(i18n("Text"));
+}
+
 void KAIChatExportChatAsTextJob::exportChat()
 {
     QString txt;

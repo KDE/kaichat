@@ -14,6 +14,8 @@ public:
     explicit KAIChatExportChatAsTextJob(QObject *parent = nullptr);
     ~KAIChatExportChatAsTextJob() override;
 
+    [[nodiscard]] static QString fileFilter();
+
 protected:
     void exportChat() override;
 };

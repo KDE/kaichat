@@ -14,6 +14,8 @@ public:
     explicit KAIChatExportChatAsMardownJob(QObject *parent = nullptr);
     ~KAIChatExportChatAsMardownJob() override;
 
+    [[nodiscard]] static QString fileFilter();
+
 protected:
     void exportChat() override;
 };

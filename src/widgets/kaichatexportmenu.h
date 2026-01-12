@@ -15,6 +15,8 @@ public:
     ~KAIChatExportMenu() override;
 
     void setExportChatInfo(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo);
+    [[nodiscard]] QString fileFilter() const;
+
 Q_SIGNALS:
     void exportInfoRequested();
 
@@ -27,4 +29,5 @@ private:
     };
     void convertChat(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo);
     ConvertToType mConvertToType = ConvertToType::Unknown;
+    QString mFileFilter;
 };

@@ -15,6 +15,8 @@ public:
 
     void setImportChatInfo(const TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo &newInfo);
 
+    QString fileFilter() const;
+
 Q_SIGNALS:
     void importRequested();
 
@@ -24,4 +26,5 @@ private:
         Json,
     };
     ConvertFromType mConvertFromType = ConvertFromType::Unknown;
+    QString mFileFilter;
 };
