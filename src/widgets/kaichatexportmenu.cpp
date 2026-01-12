@@ -18,7 +18,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     auto act = new QAction(i18nc("@action", "Export as JSON…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Json;
-        mFileFilter = u"%1 (*.kaichat, *.json)"_s.arg(i18n("kaichat"));
+        mFileFilter = u"%1 (*.kaichat);;%2 (*.json)"_s.arg(i18n("kaichat"), i18n("Json File"));
         Q_EMIT exportInfoRequested();
     });
     addAction(act);

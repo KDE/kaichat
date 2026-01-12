@@ -16,7 +16,7 @@ KAIChatImportMenu::KAIChatImportMenu(QObject *parent)
     auto act = new QAction(i18nc("@action", "Import as JSON…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertFromType = ConvertFromType::Json;
-        mFileFilter = u"%1 (*.kaichat, *.json)"_s.arg(i18n("kaichat"));
+        mFileFilter = u"%1 (*.kaichat);;%2 (*.json)"_s.arg(i18n("kaichat"), i18n("Json File"));
         Q_EMIT importRequested();
     });
     addAction(act);
