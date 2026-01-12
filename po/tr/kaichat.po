@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-11 00:46+0000\n"
-"PO-Revision-Date: 2026-01-10 21:31+0300\n"
+"PO-Revision-Date: 2026-01-11 13:01+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -434,12 +434,10 @@ msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
 #: widgets/kaichatmainwindow.cpp:341
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Sohbet İçe Aktar"
+msgstr "Sohbetler İçe Aktar"
 
 #: widgets/kaichatmainwindow.cpp:354
 #, kde-format
@@ -506,10 +504,8 @@ msgid "Allow to show model info."
 msgstr "Model bilgisini göstermeye olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Ek iliştirme desteği ekle"
+msgstr "Sohbet içe aktarma desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-11 00:46+0000\n"
-"PO-Revision-Date: 2026-01-10 07:04-0300\n"
+"PO-Revision-Date: 2026-01-11 06:52-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -436,12 +436,10 @@ msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
 #: widgets/kaichatmainwindow.cpp:341
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Importar bate-papo"
+msgstr "Importar bate-papos"
 
 #: widgets/kaichatmainwindow.cpp:354
 #, kde-format
@@ -508,10 +506,8 @@ msgid "Allow to show model info."
 msgstr "Permite mostrar informações do modelo."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Adiciona suporte a anexos."
+msgstr "Adiciona suporte a importação de bate-papo."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
