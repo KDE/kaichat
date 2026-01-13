@@ -23,6 +23,7 @@
 #include <TextAddonsWidgets/VerifyNewVersionWidget>
 #endif
 #include "kaichatwhatsnewtranslations.h"
+#include <TextAutoGenerateText/TextAutoGenerateImportChatAsJsonJob>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>
@@ -419,6 +420,25 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
             tools.append(t.toLatin1());
         }
     }
+
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat))) {
+        const QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
+        auto job = new TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob(this);
+        const TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::ImportChatInfo info{
+            .filename = importFileName,
+            .chatTitle = {},
+        };
+        job->setInfo(info);
+        connect(job,
+                &TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::importDone,
+                this,
+                [this](const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs) {
+                    // FIXME
+                    mManager->importChat(title, msgs);
+                });
+        job->start();
+    }
+
     const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = message, .attachments = lstAttachments, .tools = tools};
     if (info.isValid()) {
         mManager->ask(info);
