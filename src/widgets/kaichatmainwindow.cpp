@@ -440,7 +440,7 @@ void KAIChatMainWindow::slotConfigureNotifications()
 
 void KAIChatMainWindow::slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs)
 {
-    // TODO
+    mManager->importChat(title, msgs);
 }
 
 #include "moc_kaichatmainwindow.cpp"
