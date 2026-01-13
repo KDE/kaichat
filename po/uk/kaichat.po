@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-11 00:46+0000\n"
-"PO-Revision-Date: 2026-01-04 12:29+0200\n"
+"POT-Creation-Date: 2026-01-13 08:44+0000\n"
+"PO-Revision-Date: 2026-01-12 03:12+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -183,41 +183,49 @@ msgid "Lists the available options for user feedback"
 msgstr "Показати доступні варіанти для відгуків користувача"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Експорт даних спілкування"
+msgstr "Імпортувати дані спілкування"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
+msgstr "Імпортувати"
+
+#: core/kaichatexportchatasmardownjob.cpp:22
+#, kde-format
+msgid "Mardown"
 msgstr ""
 
-#: core/kaichatexportchatasmardownjob.cpp:32
-#: core/kaichatexportchatastextjob.cpp:32
+#: core/kaichatexportchatasmardownjob.cpp:37
+#: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
 msgstr "Користувач"
 
-#: core/kaichatexportchatasmardownjob.cpp:35
-#: core/kaichatexportchatastextjob.cpp:35
+#: core/kaichatexportchatasmardownjob.cpp:40
+#: core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
 msgstr "Помічник"
 
-#: core/kaichatexportchatasmardownjob.cpp:38
-#: core/kaichatexportchatastextjob.cpp:38
+#: core/kaichatexportchatasmardownjob.cpp:43
+#: core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
 msgstr "Система"
 
-#: core/kaichatexportchatasmardownjob.cpp:41
-#: core/kaichatexportchatastextjob.cpp:41
+#: core/kaichatexportchatasmardownjob.cpp:46
+#: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
 msgstr "Інструмент"
+
+#: core/kaichatexportchatastextjob.cpp:23
+#, kde-format
+msgid "Text"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -367,33 +375,49 @@ msgctxt "@action:inmenu"
 msgid "Export…"
 msgstr "Експортувати…"
 
-#: widgets/kaichatexportmenu.cpp:18 widgets/kaichatimportmenu.cpp:16
+#: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
 msgstr "Експортувати як JSON…"
 
-#: widgets/kaichatexportmenu.cpp:25
+#: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "kaichat"
+msgstr ""
+
+#: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "Json File"
+msgstr ""
+
+#: widgets/kaichatexportmenu.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
 msgstr "Експортувати як Markdown…"
 
-#: widgets/kaichatexportmenu.cpp:32
+#: widgets/kaichatexportmenu.cpp:34
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Експортувати…"
+msgstr "Імпортувати…"
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatimportmenu.cpp:16
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
+msgctxt "@action"
+msgid "Import as JSON…"
+msgstr "Експортувати як JSON…"
+
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -402,30 +426,30 @@ msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
 
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:172
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:210
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:304
+#: widgets/kaichatmainwindow.cpp:306
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -434,32 +458,30 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:341
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#: widgets/kaichatmainwindow.cpp:343
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Експорт даних спілкування"
+msgstr "Імпорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:354
+#: widgets/kaichatmainwindow.cpp:356
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:430
+#: widgets/kaichatmainwindow.cpp:451
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:431
+#: widgets/kaichatmainwindow.cpp:452
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Модель %1 отримано."
@@ -513,10 +535,8 @@ msgid "Allow to show model info."
 msgstr "Дозволити показувати відомості щодо моделі."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Додано підтримку долучень."
+msgstr "Додано підтримку імпортування даних спілкування."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format

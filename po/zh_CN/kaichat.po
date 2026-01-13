@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-11 00:46+0000\n"
+"POT-Creation-Date: 2026-01-13 08:44+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -182,41 +182,49 @@ msgid "Lists the available options for user feedback"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "导出聊天"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: core/kaichatexportchatasmardownjob.cpp:32
-#: core/kaichatexportchatastextjob.cpp:32
+#: core/kaichatexportchatasmardownjob.cpp:22
+#, kde-format
+msgid "Mardown"
+msgstr ""
+
+#: core/kaichatexportchatasmardownjob.cpp:37
+#: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
 msgstr "用户"
 
-#: core/kaichatexportchatasmardownjob.cpp:35
-#: core/kaichatexportchatastextjob.cpp:35
+#: core/kaichatexportchatasmardownjob.cpp:40
+#: core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
 msgstr "助理"
 
-#: core/kaichatexportchatasmardownjob.cpp:38
-#: core/kaichatexportchatastextjob.cpp:38
+#: core/kaichatexportchatasmardownjob.cpp:43
+#: core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
 msgstr "系统"
 
-#: core/kaichatexportchatasmardownjob.cpp:41
-#: core/kaichatexportchatastextjob.cpp:41
+#: core/kaichatexportchatasmardownjob.cpp:46
+#: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
 msgstr "工具"
+
+#: core/kaichatexportchatastextjob.cpp:23
+#, kde-format
+msgid "Text"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -366,94 +374,108 @@ msgctxt "@action:inmenu"
 msgid "Export…"
 msgstr "导出..."
 
-#: widgets/kaichatexportmenu.cpp:18 widgets/kaichatimportmenu.cpp:16
+#: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
 msgstr "以 JSON 形式导出..."
 
-#: widgets/kaichatexportmenu.cpp:25
+#: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "kaichat"
+msgstr ""
+
+#: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "Json File"
+msgstr ""
+
+#: widgets/kaichatexportmenu.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
 msgstr "导出为 Markdown..."
 
-#: widgets/kaichatexportmenu.cpp:32
+#: widgets/kaichatexportmenu.cpp:34
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
 msgstr "导出为文本..."
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "导出..."
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatimportmenu.cpp:16
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
+msgctxt "@action"
+msgid "Import as JSON…"
+msgstr "以 JSON 形式导出..."
+
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "找到 %1 条字符串."
 
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgid "What's new"
 msgstr "新增功能"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "显示归档"
 
-#: widgets/kaichatmainwindow.cpp:172
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "在数据库中搜索..."
 
-#: widgets/kaichatmainwindow.cpp:210
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "打开 Quick Ask..."
 
-#: widgets/kaichatmainwindow.cpp:304
+#: widgets/kaichatmainwindow.cpp:306
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>这将完全隐藏菜单栏。按 %1 可以重新显示。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
-#: widgets/kaichatmainwindow.cpp:341
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#: widgets/kaichatmainwindow.cpp:343
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "导出聊天"
+msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:354
+#: widgets/kaichatmainwindow.cpp:356
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "导出聊天"
 
-#: widgets/kaichatmainwindow.cpp:430
+#: widgets/kaichatmainwindow.cpp:451
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下载完成"
 
-#: widgets/kaichatmainwindow.cpp:431
+#: widgets/kaichatmainwindow.cpp:452
 #, kde-format
 msgid "Model %1 was download."
 msgstr "模型 %1 已下载。"
@@ -507,10 +529,8 @@ msgid "Allow to show model info."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add import chat support."
-msgstr "添加实例支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 #, kde-format
