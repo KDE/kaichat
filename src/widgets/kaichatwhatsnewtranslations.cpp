@@ -18,6 +18,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add User Feedback support."),
         kli18n("Allow to show model info."),
         kli18n("Add import chat support."),
+        kli18n("Add Ollama Online support."),
     };
     return info;
 }
