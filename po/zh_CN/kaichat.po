@@ -409,12 +409,10 @@ msgid "Import…"
 msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "以 JSON 形式导出..."
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -533,10 +531,8 @@ msgid "Add import chat support."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "添加“新增功能”支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

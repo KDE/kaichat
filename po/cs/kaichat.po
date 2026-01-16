@@ -183,10 +183,10 @@ msgstr "Seznam dostupných voleb pro uživatelskou zpětnou vazbu"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, fuzzy, kde-format
-#| msgid "AI Chat"
+#| msgid "Import"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Rozhovor s AI"
+msgstr "Importovat"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
@@ -405,19 +405,16 @@ msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:15
 #, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#| msgid "Import"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Exportovat…"
+msgstr "Importovat"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "Exportovat…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -466,10 +463,10 @@ msgstr "Skrýt nabídku"
 
 #: widgets/kaichatmainwindow.cpp:343
 #, fuzzy, kde-format
-#| msgid "AI Chat"
+#| msgid "Import"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Rozhovor s AI"
+msgstr "Importovat"
 
 #: widgets/kaichatmainwindow.cpp:356
 #, kde-format
