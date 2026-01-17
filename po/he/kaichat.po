@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-15 00:46+0000\n"
-"PO-Revision-Date: 2026-01-11 20:49+0200\n"
+"PO-Revision-Date: 2026-01-15 08:55+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -196,7 +196,7 @@ msgstr "ייבוא"
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -225,7 +225,7 @@ msgstr "כלי"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "טקסט"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -384,12 +384,12 @@ msgstr "ייצוא כ־JSON…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "קובץ Json"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -410,12 +410,10 @@ msgid "Import…"
 msgstr "ייבוא…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "ייצוא כ־JSON…"
+msgstr "ייבוא כ־JSON…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -539,10 +537,8 @@ msgid "Add import chat support."
 msgstr "הוספת תמיכה בייבוא שיחות."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "הוספת תמיכה ב„מה חדש”."
+msgstr "הוספת תמיכה ב־Ollama מקוונת."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
