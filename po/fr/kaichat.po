@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-15 00:46+0000\n"
-"PO-Revision-Date: 2026-01-14 08:19+0100\n"
+"PO-Revision-Date: 2026-01-16 10:53+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -533,10 +533,8 @@ msgid "Add import chat support."
 msgstr "Ajouter la prise en charge de l'importation de salons."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "Ajoute la prise en charge de « Quoi de neuf »"
+msgstr "Ajoute la prise en charge de  Ollama en mode connecté"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
