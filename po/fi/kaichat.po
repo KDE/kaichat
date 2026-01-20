@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Tommi Nieminen <translator@legisign.org>
+# SPDX-FileCopyrightText: 2025, 2026 Tommi Nieminen <translator@legisign.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-15 00:46+0000\n"
-"PO-Revision-Date: 2025-11-13 13:47+0200\n"
+"PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -65,11 +65,9 @@ msgid "List of Chats:"
 msgstr "Keskusteluluettelo:"
 
 #: apps/main.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Liitännäiset"
+msgstr "Liitännäiset:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -84,11 +82,9 @@ msgid "Start with specific instance"
 msgstr "Aloita määräilmentymästä"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Ilmentymät"
+msgstr "Ilmentymän nimi"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -99,7 +95,7 @@ msgstr "Luo uusi keskustelu"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Keskustelun uusi otsikko"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -116,7 +112,7 @@ msgstr "Vaihda keskusteluun"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Keskustelun nimi"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -125,11 +121,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Vaihda keskusteluun tunnisteen mukaan"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Vaihda keskusteluun tunnisteen mukaan"
+msgstr "Keskustelun tunniste"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -138,11 +132,9 @@ msgid "Ask Message"
 msgstr "Kysy viestiä"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Kysy viestiä"
+msgstr "Viesti"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -154,39 +146,35 @@ msgstr "Palaa keskusteluluetteloon"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Aktivoi virheenpaikannustila"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Lisää liite. Tätä voi toistaa"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Lisää ilmentymätuki."
+msgstr "Liitteen verkko-osoite"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Määritä käytettävä työkalu. Tätä voi toistaa"
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Työkalu"
+msgstr "Työkalun nimi"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Palaa keskusteluluetteloon"
+msgstr "Palauta liitännäisen tiedot"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
@@ -539,10 +527,8 @@ msgid "Main Toolbar"
 msgstr "Päätyökalurivi"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Lisää ilmentymätuki."
+msgstr "Lisää Grok-ilmentymätuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 #, fuzzy
@@ -726,45 +712,45 @@ msgid "Add tool plugin icon name."
 msgstr "Lisää työkaluliitännäiskuvakkeen nimi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:79
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Add attachment support."
-msgstr "Lisää ilmentymätuki."
+msgstr "Lisää liitetuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Add new icon."
-msgstr ""
+msgstr "Lisää uusi kuvake."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Add debug command line."
-msgstr ""
+msgstr "Lisää virheenpaikannuskomentorivi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Lisää Wikipedia- ja säätyökaluliitännäiset (jotka tarjoaa kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Talleta odottava tyyppitieto tietokantaan."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Salli liitetiedostojen lisääminen komentoriviltä."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Lisää kuvake Ollama-mallien asettamiseksi."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Salli käyttää tarkkoja Ollama-ympäristömuuttujia."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:90
 #, kde-format
