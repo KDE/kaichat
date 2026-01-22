@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-21 00:48+0000\n"
-"PO-Revision-Date: 2026-01-15 12:27+0100\n"
+"PO-Revision-Date: 2026-01-21 11:28+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -540,10 +540,8 @@ msgid "Add Ollama Online support."
 msgstr "Ondersteuning voor Ollama online toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Ollama Online support."
 msgid "Add Ollama Cloud support."
-msgstr "Ondersteuning voor Ollama online toevoegen."
+msgstr "Ondersteuning voor Ollama Cloud toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
