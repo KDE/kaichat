@@ -535,10 +535,8 @@ msgid "Add Ollama Online support."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "添加 Markdown 支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
