@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-21 00:48+0000\n"
-"PO-Revision-Date: 2026-01-18 18:48+0400\n"
+"PO-Revision-Date: 2026-01-24 11:50+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -541,10 +541,8 @@ msgid "Add Ollama Online support."
 msgstr "إضافة دعم أولاما عبر الإنترنت."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Ollama Online support."
 msgid "Add Ollama Cloud support."
-msgstr "إضافة دعم أولاما عبر الإنترنت."
+msgstr "إضافة دعم سحابة أولاما."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
