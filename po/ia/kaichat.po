@@ -1,59 +1,57 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2026 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# SPDX-FileCopyrightText: 2026 giovanni <g.sora@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-21 00:48+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-01-28 10:36+0100\n"
+"Last-Translator: giovanni <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
+"Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Giovanni Sora"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "g.sora@tiscali.it"
 
 #: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr ""
+msgstr "KAIChat"
 
 #: apps/main.cpp:73
 #, kde-format
 msgid "AI Chat"
-msgstr ""
+msgstr "Chat (Conversation in directo) de AI (IA)"
 
 #: apps/main.cpp:75
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr ""
+msgstr "Copyright © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr ""
+msgstr "Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
 msgid "Maintainer"
-msgstr ""
+msgstr "Mantenitor"
 
 #: apps/main.cpp:104
 #, kde-format
@@ -68,7 +66,7 @@ msgstr ""
 #: apps/main.cpp:129
 #, kde-format
 msgid "Plugins:"
-msgstr ""
+msgstr "Plugins:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -135,7 +133,7 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -158,7 +156,7 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "Url de Attachamento"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -169,7 +167,7 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr ""
+msgstr "Nomine de instrumento"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -181,7 +179,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Lista le optiones disponibile per responsa de usator"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
@@ -192,7 +190,7 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "Importa"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -203,50 +201,50 @@ msgstr ""
 #: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
-msgstr ""
+msgstr "Usator"
 
 #: core/kaichatexportchatasmardownjob.cpp:40
 #: core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
-msgstr ""
+msgstr "Assistente"
 
 #: core/kaichatexportchatasmardownjob.cpp:43
 #: core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
-msgstr ""
+msgstr "Systema"
 
 #: core/kaichatexportchatasmardownjob.cpp:46
 #: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "Instrumento"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Texto"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr ""
+msgstr "Compartir texto…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "Il ha un problema a impartir le documento: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "File esseva compartite."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:72
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr ""
+msgstr "<qt>Tu pote trovar le nove requesta a:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
@@ -275,7 +273,7 @@ msgstr ""
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "Tempore currente es %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
@@ -290,7 +288,7 @@ msgstr ""
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "Dimension de Font"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
@@ -314,13 +312,13 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "&Usa  fonts personalisate"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr ""
+msgstr "Habilita icone de tabuliero de systema"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:44
 #, kde-format
@@ -332,13 +330,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:57
 #, kde-format
@@ -350,47 +348,47 @@ msgstr ""
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "Controlo Orthographic"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:67
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Accessibilitate"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:73
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:79
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Responsa del usator"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr ""
+msgstr "Exporta…"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr ""
+msgstr "Exporta como JSON…"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "File de json"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -402,19 +400,19 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr ""
+msgstr "Exporta como Texto…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr ""
+msgstr "Importa…"
 
 #: widgets/kaichatimportmenu.cpp:16
 #, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr ""
+msgstr "Importa como JSON…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -426,7 +424,7 @@ msgstr[1] ""
 #: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgid "What's new"
-msgstr ""
+msgstr "Que es de novo"
 
 #: widgets/kaichatmainwindow.cpp:161
 #, kde-format
@@ -452,12 +450,14 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
+"<qt>Isto celera completemente le barra de menu. Tu pote monstrar lo de nove "
+"per typar %1.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:309
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr ""
+msgstr "Cela barra de menu"
 
 #: widgets/kaichatmainwindow.cpp:343
 #, kde-format
@@ -485,37 +485,37 @@ msgstr ""
 #: widgets/kaichatui.rc:15
 #, kde-format
 msgid "&Settings"
-msgstr ""
+msgstr "Preferentia&s"
 
 #. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:19
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "&Edita"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:23
 #, kde-format
 msgid "View"
-msgstr ""
+msgstr "Vista"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:29
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "Instrumentos"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:33
 #, kde-format
 msgid "&Help"
-msgstr ""
+msgstr "Ad&juta"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:40
 #, kde-format
 msgid "Main Toolbar"
-msgstr ""
+msgstr "Barra de instrumento principal"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
 msgid "Add Grok instance support."
@@ -745,23 +745,23 @@ msgstr ""
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Information de conto"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Rtorna le numero de conto."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "Permitte exportar texto in plugins de editor autogenerate."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr ""
+msgstr "Un nove widget de cosa es nove."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Nove plugin: monstra grandor de collection."
