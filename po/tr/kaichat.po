@@ -1,21 +1,21 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025 Emir SARI <emir_sari@îcloud.com>
+# SPDX-FileCopyrightText: 2025, 2026 Emir SARI <emir_sari@îcloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-19 02:44+0000\n"
-"PO-Revision-Date: 2025-12-30 13:25+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"PO-Revision-Date: 2026-01-21 11:22+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,9 +38,10 @@ msgid "AI Chat"
 msgstr "Yapay Zekâ Sohbeti"
 
 #: apps/main.cpp:71
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025-2026 Laurent Montel"
 msgid "Copyright © 2025 Laurent Montel"
-msgstr "© 2025 Laurent Montel"
+msgstr "© 2025–2026 Laurent Montel"
 
 #: apps/main.cpp:72
 #, kde-format
@@ -64,11 +65,9 @@ msgid "List of Chats:"
 msgstr "Sohbet listeleri:"
 
 #: apps/main.cpp:116
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Eklentiler"
+msgstr "Eklentiler:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -83,11 +82,9 @@ msgid "Start with specific instance"
 msgstr "Belirli bir örnekle başlat"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Örnekler"
+msgstr "Örnek Adı"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -98,7 +95,7 @@ msgstr "Yeni sohbet oluştur"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Yeni Sohbet Başlığı"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -115,7 +112,7 @@ msgstr "Sohbete geç"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Sohbet Adı"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -124,11 +121,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Tanımlayıcı ile sohbete geç"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Tanımlayıcı ile sohbete geç"
+msgstr "Sohbet Tanımlayıcısı"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -137,11 +132,9 @@ msgid "Ask Message"
 msgstr "Soru sor"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Soru sor"
+msgstr "İleti"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -153,38 +146,35 @@ msgstr "Sohbetlerin listesini döndür"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Hata ayıklama kipini etkinleştir"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "İlişik ekle. Bu, yinelenebilir."
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "Ek URL’si"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Kullanılan aracı tanımla. Bu, yinelenebilir."
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Araç"
+msgstr "Araç Adı"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Sohbetlerin listesini döndür"
+msgstr "Eklenti bilgisini döndür"
 
 #: core/kaichatexportchatasmardownjob.cpp:32
 #: core/kaichatexportchatastextjob.cpp:32
@@ -290,7 +280,7 @@ msgstr "Yazıtipi Puntosunu Azalt"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Konuşmayı etkinleştir"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -338,7 +328,7 @@ msgstr "Yazım Denetimi"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "Erişilebilirlik"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -485,51 +475,49 @@ msgstr "Tez sorgu iletişim kutusuna arama çubuğu ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "Yapılandırma değerlerini geri yükleme seçeneği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Allow to configure plugins."
 msgid "Allow to configure text to speech."
-msgstr "Eklentileri yapılandırmaya izin ver"
+msgstr "Metin konuşmayı yapılandırmaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Araç eklentisi simgesi adını ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add attachment support."
-msgstr "Örnek desteği ekle"
+msgstr "Ek iliştirme desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add new icon."
-msgstr ""
+msgstr "Yeni simge ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Add debug command line."
-msgstr ""
+msgstr "Komut satırı hata ayıklaması ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Vikipedi ve hava durumu araçları eklentileri ekle (kaichat-addons tarafından "
+"sağlanır)"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:29
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Komut satırından ilişik eklemeye olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:30
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Ollama modellerini yapılandırma simgesini ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:31
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Belirli Ollama çevre değişkenlerini kullanmaya izin ver"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:42
 #, kde-format
@@ -657,7 +645,7 @@ msgstr "Windows üzerinde simgeleri onar"
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Çoklu araçlar eklentileri çağrısını düzelt"
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -674,8 +662,68 @@ msgstr "Yeni “Neler Yeni” araç takımını ekle"
 msgid "New plugin: show collection size."
 msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Tez Sorguyu Aç…"
+#~ msgctxt "@info:shell"
+#~ msgid "Lists the available options for user feedback"
+#~ msgstr "Kullanıcı geri bildirimi için kullanılabilir seçenekleri listele"
+
+#~ msgctxt "@info:shell"
+#~ msgid "Import Chat"
+#~ msgstr "Sohbet İçe Aktar"
+
+#~ msgid "Import"
+#~ msgstr "İçe Aktar"
+
+#~ msgid "Mardown"
+#~ msgstr "Markdown"
+
+#~ msgid "Text"
+#~ msgstr "Metin"
+
+#~ msgctxt "@title Preferences page name"
+#~ msgid "User Feedback"
+#~ msgstr "Kullanıcı Geri Bildirimi"
+
+#~ msgid "kaichat"
+#~ msgstr "KAIChat"
+
+#~ msgid "Json File"
+#~ msgstr "JSON dosyası"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import…"
+#~ msgstr "İçe Aktar…"
+
+#~ msgctxt "@action"
+#~ msgid "Import as JSON…"
+#~ msgstr "JSON Olarak İçe Aktar…"
+
+#~ msgctxt "@title:window"
+#~ msgid "Import Chats"
+#~ msgstr "Sohbetler İçe Aktar"
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "Grok örneği desteği ekle"
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Kullanıcı geri bildirimi desteği ekle"
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Model bilgisini göstermeye olanak tanı"
+
+#~ msgid "Add import chat support."
+#~ msgstr "Sohbet içe aktarma desteği ekle"
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ollama Çevrimiçi desteği ekle"
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ollama Bulut desteği ekle"
+
+#~ msgid "Account information"
+#~ msgstr "Hesap Bilgisi"
+
+#~ msgid "Return the number of account."
+#~ msgstr "Hesap sayısını döndürün."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -736,6 +784,9 @@ msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Bazı hata düzeltmeleri:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Tez Sorguyu Aç…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAIChat"
