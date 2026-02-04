@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-21 00:48+0000\n"
+"POT-Creation-Date: 2026-02-04 00:47+0000\n"
 "PO-Revision-Date: 2026-01-21 08:52+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -544,203 +544,209 @@ msgstr "הוספת תמיכה ב־Ollama מקוונת."
 msgid "Add Ollama Cloud support."
 msgstr "נוספה תמיכה בענן Ollama."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:33
+#: widgets/kaichatwhatsnewtranslations.cpp:23
+#, fuzzy
+#| msgid "Allow to change font size."
+msgid "Allow to duplicate chat."
+msgstr "לאפשר את שינוי גודל הכתב."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
 msgid "Add what's new support."
 msgstr "הוספת תמיכה ב„מה חדש”."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:34
+#: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
 msgid "Add instance support."
 msgstr "הוספת תמיכה במופעים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:35
+#: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format
 msgid "Add Mardown support."
 msgstr "הוספת תמיכה ב־Markdown."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:36
+#: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
 msgid "Add Highlighting support."
 msgstr "הוספת תמיכה בהדגשה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:39
+#: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
 msgstr "תוקנה האפשרות למחוק שיחה. תקלה %1"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:46
+#: widgets/kaichatwhatsnewtranslations.cpp:47
 #, kde-format
 msgid "Add Quick Ask Dialog."
 msgstr "הוספת חלונית שאלה מהירה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:47
+#: widgets/kaichatwhatsnewtranslations.cpp:48
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
 msgstr "לאפשר להוריד Ollama על Windows/macOS."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:48
+#: widgets/kaichatwhatsnewtranslations.cpp:49
 #, kde-format
 msgid "Use prompt during chating."
 msgstr "להשתמש בבקשה במהלך השיחה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:49
+#: widgets/kaichatwhatsnewtranslations.cpp:50
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
 msgstr "הוספת תוסף טקסט משותף וקיצורי דפדפן."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:50
+#: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Allow to configure plugins."
 msgstr "לאפשר להגדיר תוספים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:51
+#: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Add new update widget."
 msgstr "הוספת וידג׳ט עדכון חדש."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:52
+#: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Add progress indicator in chats list."
 msgstr "הוספת מחוון התקדמות ברשימת השיחות."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:53
+#: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Allow to change font size."
 msgstr "לאפשר את שינוי גודל הכתב."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:54
+#: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr "נוספה פקודה לשורת הפקודות להוספת חדר שיחה חדש, שמציג רשימת מופעים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:55
+#: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add spell checking support."
 msgstr "הוספת תמיכה בבדיקת איות."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:56
+#: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add Notification popup when model download done."
 msgstr "הוספת חלונית הודעה כשהורדת מודל מסתיימת."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:57
+#: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
 msgstr "מעכשיו יש אפשרות לשמור ולשחזר את הטקסט ומקום פס הגלילה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:58
+#: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid "Allow to save and restore current chat."
 msgstr "נוספה אפשרות לשמור ולשחזר את השיחה הנוכחית."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:59
+#: widgets/kaichatwhatsnewtranslations.cpp:60
 #, kde-format
 msgid "Add option for showing list of title chats."
 msgstr "נוספה אפשרות להצגת רשימת כותרות של שיחות."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:60
+#: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add tools support."
 msgstr "נוספה תמיכה בכלים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:61
+#: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to switch from chat identifier."
 msgstr "לאפשר לעבור ממזהה שיחה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:62
+#: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Add Current Date Time tool."
 msgstr "הוספת כלי תאריך ושעה נוכחיים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:63
+#: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add progress tool message info."
 msgstr "הוספת פריט הודעת כלי תהליך."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:66
+#: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Fix icon on windows."
 msgstr "תוקן הסמל ב־Windows."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:73
+#: widgets/kaichatwhatsnewtranslations.cpp:74
 #, kde-format
 msgid "Allow to copy block code to clipboard."
 msgstr "לאפשר העתקת קטעי קוד ללוח הגזירים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:74
+#: widgets/kaichatwhatsnewtranslations.cpp:75
 #, kde-format
 msgid "Show number of string found in statusbar."
 msgstr "הצגת כמות המחרוזות שנמצאו בשורת המצב."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:75
+#: widgets/kaichatwhatsnewtranslations.cpp:76
 #, kde-format
 msgid "Implement quick search."
 msgstr "מימוש חיפוש מהיר."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:76
+#: widgets/kaichatwhatsnewtranslations.cpp:77
 #, kde-format
 msgid "Add quick search bar in quick ask dialog."
 msgstr "הוספת סרגל חיפוש מהיר בסרגל השאלה המהירה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:77
+#: widgets/kaichatwhatsnewtranslations.cpp:78
 #, kde-format
 msgid "Add restore configure settings value."
 msgstr "הוספת ערך הגדרות לשחזור תצורה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:78
+#: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Allow to configure text to speech."
 msgstr "לאפשר להגדיר הקראה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:79
+#: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Add tool plugin icon name."
 msgstr "הוספת שם סמל תוסף כלי."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:80
+#: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Add attachment support."
 msgstr "הוספת תמיכה בצירוף קבצים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:81
+#: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Add new icon."
 msgstr "נוסף סמל חדש."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:82
+#: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Add debug command line."
 msgstr "נוסף ניפוי שגיאות דרך שורת פקודה."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:83
+#: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr "הוספת תוספים לוויקיפדיה, כלי מזג אוויר (מסופקים על ידי kaichat-addons)"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:84
+#: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Store Pending Typed Info in Database."
 msgstr "אחסון נתונים ממתינים שהוקלדו למסד הנתונים."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:85
+#: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Allow to add attachment files from command line."
 msgstr "לאפשר להוסיף צרופות משורת הפקודות."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:86
+#: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Add icon in configure ollama models."
 msgstr "נוסף סמל בהגדרת מודלים של ollama."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:87
+#: widgets/kaichatwhatsnewtranslations.cpp:88
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
 msgstr "לאפשר להשתמש במשתני סביבה מסוימים של Ollama."
 
-#: widgets/kaichatwhatsnewtranslations.cpp:91
+#: widgets/kaichatwhatsnewtranslations.cpp:92
 #, kde-format
 msgid "Fix multi tools plugins call."
 msgstr "תוקנות קריאת תוספים למגוון כלים."
