@@ -766,7 +766,7 @@ msgstr ""
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr ""
+msgstr "Přidat nový widget „Co je nového“."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format

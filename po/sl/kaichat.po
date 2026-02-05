@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-04 00:47+0000\n"
-"PO-Revision-Date: 2026-01-21 06:49+0100\n"
+"PO-Revision-Date: 2026-02-04 07:05+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -389,7 +389,7 @@ msgstr "kaichat"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr "datoteka json"
+msgstr "datoteka Json"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -545,10 +545,8 @@ msgid "Add Ollama Cloud support."
 msgstr "Dodaj podporo za Ollama Cloud."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Dovoli spremembo velikosti pisave."
+msgstr "Dovoli podvajanje klepeta."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
