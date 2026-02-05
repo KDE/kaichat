@@ -98,7 +98,6 @@
   <url type="contact">https://go.kde.org/matrix/#/#kaichat:kde.org</url>
   <url type="vcs-browser">https://invent.kde.org/utilities/kaichat</url>
   <project_group>KDE</project_group>
-  <icon type="stock">org.kde.kaichat</icon>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">moderate</content_attribute>
     <content_attribute id="social-audio">moderate</content_attribute>
@@ -107,6 +106,10 @@
     <binary>kaichat</binary>
   </provides>
   <launchable type="desktop-id">org.kde.kaichat.desktop</launchable>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <icon type="stock">org.kde.kaichat</icon>
   <releases>
     <release version="0.5.0" date="2025-10-11"/>
     <release version="0.4.1" date="2025-08-08"/>
