@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-04 00:47+0000\n"
+"POT-Creation-Date: 2026-02-08 00:46+0000\n"
 "PO-Revision-Date: 2026-01-13 01:06+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -458,24 +458,24 @@ msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: widgets/kaichatmainwindow.cpp:343
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "匯入聊天紀錄"
 
-#: widgets/kaichatmainwindow.cpp:356
+#: widgets/kaichatmainwindow.cpp:359
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "匯出聊天"
 
-#: widgets/kaichatmainwindow.cpp:451
+#: widgets/kaichatmainwindow.cpp:454
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下載完成"
 
-#: widgets/kaichatmainwindow.cpp:452
+#: widgets/kaichatmainwindow.cpp:455
 #, kde-format
 msgid "Model %1 was download."
 msgstr "模型 %1 已下載完成。"

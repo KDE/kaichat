@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-04 00:47+0000\n"
-"PO-Revision-Date: 2026-01-21 08:52+0200\n"
+"POT-Creation-Date: 2026-02-08 00:46+0000\n"
+"PO-Revision-Date: 2026-02-06 10:34+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -462,24 +462,24 @@ msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:343
+#: widgets/kaichatmainwindow.cpp:346
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "ייבוא שיחות"
 
-#: widgets/kaichatmainwindow.cpp:356
+#: widgets/kaichatmainwindow.cpp:359
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ייצוא שיחות"
 
-#: widgets/kaichatmainwindow.cpp:451
+#: widgets/kaichatmainwindow.cpp:454
 #, kde-format
 msgid "Model Download Done"
 msgstr "הורדת המודל הסתיימה"
 
-#: widgets/kaichatmainwindow.cpp:452
+#: widgets/kaichatmainwindow.cpp:455
 #, kde-format
 msgid "Model %1 was download."
 msgstr "הורדת המודל %1 הסתיימה."
@@ -545,10 +545,8 @@ msgid "Add Ollama Cloud support."
 msgstr "נוספה תמיכה בענן Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "לאפשר את שינוי גודל הכתב."
+msgstr "לאפשר שכפול שיחה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format

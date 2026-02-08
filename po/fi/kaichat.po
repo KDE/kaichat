@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-04 00:47+0000\n"
+"POT-Creation-Date: 2026-02-08 00:46+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -466,7 +466,7 @@ msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
 
-#: widgets/kaichatmainwindow.cpp:343
+#: widgets/kaichatmainwindow.cpp:346
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Export Chats"
@@ -474,18 +474,18 @@ msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Vie keskusteluja"
 
-#: widgets/kaichatmainwindow.cpp:356
+#: widgets/kaichatmainwindow.cpp:359
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Vie keskusteluja"
 
-#: widgets/kaichatmainwindow.cpp:451
+#: widgets/kaichatmainwindow.cpp:454
 #, kde-format
 msgid "Model Download Done"
 msgstr "Mallin lataus valmis"
 
-#: widgets/kaichatmainwindow.cpp:452
+#: widgets/kaichatmainwindow.cpp:455
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Malli %1 ladattiin."
