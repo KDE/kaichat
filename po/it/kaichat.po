@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-08 00:46+0000\n"
-"PO-Revision-Date: 2026-01-21 13:56+0100\n"
+"PO-Revision-Date: 2026-02-06 09:28+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -543,10 +543,8 @@ msgid "Add Ollama Cloud support."
 msgstr "Aggiunge il supporto per Ollama Cloud."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Consente di configurare la dimensione del carattere."
+msgstr "Consente di duplicare la chat."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
