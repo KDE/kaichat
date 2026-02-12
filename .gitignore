@@ -28,3 +28,8 @@ CMakeLists.txt.user*
 /cmake-build*
 /Testing/
 /.vscode/
+
+.sentry-native/
+
+#for reuse on CI
+ci-utilities/
