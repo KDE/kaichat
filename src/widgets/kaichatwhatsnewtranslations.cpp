@@ -22,6 +22,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Ollama Cloud support."),
         kli18n("Allow to duplicate chat."),
         kli18n("Add Ollama Keep Alive setting support."),
+        kli18n("Show Ollama log."),
     };
     return info;
 }
