@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-17 00:49+0000\n"
-"PO-Revision-Date: 2026-02-14 08:35+0200\n"
+"PO-Revision-Date: 2026-02-17 08:00+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -558,7 +558,7 @@ msgstr "Показати журнал Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Дозволити використання Ollama з локальної мережі."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-17 00:49+0000\n"
-"PO-Revision-Date: 2026-02-14 03:59+0100\n"
+"PO-Revision-Date: 2026-02-17 04:15+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -558,7 +558,7 @@ msgstr "Ollama-ის ჟურნალის ჩვენება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Ollama-ის ლოკალურ ქსელში გამოჩენის დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

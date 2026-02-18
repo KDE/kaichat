@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-17 00:49+0000\n"
-"PO-Revision-Date: 2026-02-17 01:56+0100\n"
+"PO-Revision-Date: 2026-02-17 13:35+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -559,7 +559,7 @@ msgstr "Mostrar el registro de Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Permitir la exposición de Ollama a la red local."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
