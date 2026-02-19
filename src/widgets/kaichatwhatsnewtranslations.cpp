@@ -24,6 +24,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Ollama Keep Alive setting support."),
         kli18n("Show Ollama log."),
         kli18n("Allow to expose Ollama to local network."),
+        kli18n("Add thinking support."),
     };
     return info;
 }
