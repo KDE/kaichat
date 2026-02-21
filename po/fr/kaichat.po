@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-02-05 09:53+0100\n"
+"PO-Revision-Date: 2026-02-20 16:25+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 25.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -545,18 +545,17 @@ msgid "Allow to duplicate chat."
 msgstr "Autoriser la duplication du salon de discussions."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add Ollama Online support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Ajoute la prise en charge de  Ollama en mode connecté"
+msgstr ""
+"Ajouter la prise en charge de la configuration d'entretien du mode connecté."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Afficher le journal de Ollama"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Autoriser Ollama à s'exposer dans un réseau local."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 #, fuzzy
