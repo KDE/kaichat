@@ -13,19 +13,7 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{
-        kli18n("Add Grok instance support."),
-        kli18n("Add User Feedback support."),
-        kli18n("Allow to show model info."),
-        kli18n("Add import chat support."),
-        kli18n("Add Ollama Online support."),
-        kli18n("Add Ollama Cloud support."),
-        kli18n("Allow to duplicate chat."),
-        kli18n("Add Ollama Keep Alive setting support."),
-        kli18n("Show Ollama log."),
-        kli18n("Allow to expose Ollama to local network."),
-        kli18n("Add thinking support."),
-    };
+    const QList<KLazyLocalizedString> info{};
     return info;
 }
 
@@ -99,12 +87,32 @@ QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsN
     }
     {
         TextAddonsWidgets::WhatsNewInfo info;
+        info.setNewFeatures({
+            i18n("Add Grok instance support."),
+            i18n("Add User Feedback support."),
+            i18n("Allow to show model info."),
+            i18n("Add import chat support."),
+            i18n("Add Ollama Online support."),
+            i18n("Add Ollama Cloud support."),
+            i18n("Allow to duplicate chat."),
+            i18n("Add Ollama Keep Alive setting support."),
+            i18n("Show Ollama log."),
+            i18n("Allow to expose Ollama to local network."),
+            i18n("Add thinking support."),
+        });
+
+        info.setVersion(u"0.7.0"_s);
+
+        listInfo.append(std::move(info));
+    }
+    {
+        TextAddonsWidgets::WhatsNewInfo info;
         QStringList lst;
         for (const KLazyLocalizedString &l : lastNewFeatures()) {
             lst += l.toString();
         }
         info.setNewFeatures(lst);
-        info.setVersion(u"0.7.0"_s);
+        info.setVersion(u"0.8.0"_s);
 
         listInfo.append(std::move(info));
     }

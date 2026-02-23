@@ -1,19 +1,19 @@
 # SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.16.0)
-set(KAICHAT_VERSION "0.6.80")
+set(KAICHAT_VERSION "0.7.40")
 project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
 
 # TODO: update it in each release version
-set(KAICHAT_RELEASE_VERSION "26.04.30") # yy.MM.dd
+set(KAICHAT_RELEASE_VERSION "26.08.30") # yy.MM.dd
 
 # Use true if stable version => we will check specific version
-set(KAICHAT_STABLE_VERSION true)
+set(KAICHAT_STABLE_VERSION false)
 
 # Do NOT add quote
-set(KAICHAT_DEV_VERSION "beta")
+set(KAICHAT_DEV_VERSION "alpha")
 # add an extra space
 if(DEFINED KAICHAT_DEV_VERSION)
     set(KAICHAT_DEV_VERSION " ${KAICHAT_DEV_VERSION}")
@@ -22,7 +22,7 @@ endif()
 set(KAICHAT_VERSION_STRING "${KAICHAT_VERSION}${KAICHAT_DEV_VERSION}")
 
 set(QT_REQUIRED_VERSION "6.9.0")
-set(KF_MIN_VERSION "6.19.0")
+set(KF_MIN_VERSION "6.22.0")
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 
 set(ECM_VERSION ${KF_MIN_VERSION})
