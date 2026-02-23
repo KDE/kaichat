@@ -27,8 +27,6 @@ KAIChatConfigureGeneralWidget::KAIChatConfigureGeneralWidget(TextAutoGenerateTex
 
     mConfigurePromptWidget->setObjectName(u"mConfigurePromptWidget"_s);
     mainLayout->addWidget(mConfigurePromptWidget);
-
-    mainLayout->addStretch(1);
 }
 
 KAIChatConfigureGeneralWidget::~KAIChatConfigureGeneralWidget() = default;
