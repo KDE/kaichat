@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-02-19 09:39+0200\n"
+"PO-Revision-Date: 2026-02-22 08:27+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -561,10 +561,8 @@ msgid "Allow to expose Ollama to local network."
 msgstr "לאפשר לחשוף את Ollama לרשת המקומית."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "הוספת תמיכה בהדגשה."
+msgstr "נוספה תמיכה בחשיבה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
