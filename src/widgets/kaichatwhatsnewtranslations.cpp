@@ -108,7 +108,8 @@ QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsN
     {
         TextAddonsWidgets::WhatsNewInfo info;
         QStringList lst;
-        for (const KLazyLocalizedString &l : lastNewFeatures()) {
+        const auto newFeatures = lastNewFeatures();
+        for (const KLazyLocalizedString &l : newFeatures) {
             lst += l.toString();
         }
         info.setNewFeatures(lst);
