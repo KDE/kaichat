@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-02-21 08:43+0100\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"PO-Revision-Date: 2026-01-05 18:28+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -35,9 +35,10 @@ msgid "AI Chat"
 msgstr "Discussion avec une IA"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 - 2026 Laurent Montel"
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -176,23 +177,25 @@ msgstr "Retourner les informations de modules externes"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "Liste les options disponibles pour les retours des utilisateurs"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Importer un salon"
+msgstr "Exporter les salons"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr "Importer"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr "Markdown"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -221,7 +224,7 @@ msgstr "Outil"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "Texte"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -365,7 +368,7 @@ msgstr "Modules externes"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Retour des utilisateurs"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -382,12 +385,12 @@ msgstr "Exporter au format « JSON »..."
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr "kaichat"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr "Fichier « Json »"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -402,16 +405,20 @@ msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
 #: widgets/kaichatimportmenu.cpp:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Importer..."
+msgstr "Exporter…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "Importer au format « JSON »..."
+msgstr "Exporter au format « JSON »..."
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -459,10 +466,12 @@ msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Importer des salons"
+msgstr "Exporter les salons"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -517,49 +526,64 @@ msgid "Main Toolbar"
 msgstr "Barre principale d'outils"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
+#, fuzzy
+#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Ajouter la prise en charge d'instances pour Grok."
+msgstr "Ajouter la prise en charge d'instances."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Ajouter la prise en charge des retours utilisateurs."
+msgstr "Ajouter la prise en charge de la correction orthographique"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr "Permettre l'affichage des informations de modèle."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
+#, fuzzy
+#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Ajouter la prise en charge de l'importation de salons."
+msgstr "Ajouter la prise en charge des pièces jointes."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
+#, fuzzy
+#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "Ajoute la prise en charge de  Ollama en mode connecté"
+msgstr "Ajoute la prise en charge de « Quoi de neuf »"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
+#, fuzzy
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Ajoute la prise en charge de  Ollama en mode « Cloud »."
+msgstr "Ajouter la prise en charge du format « Markdown »."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
+#, fuzzy
+#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Autoriser la duplication du salon de discussions."
+msgstr "Autoriser le changement de taille de police."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr ""
-"Ajouter la prise en charge de la configuration d'entretien du mode connecté."
+msgstr "Ajouter la prise en charge de la correction orthographique"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr "Afficher le journal de Ollama"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr "Autoriser Ollama à s'exposer dans un réseau local."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "Ajouter la prise en charge intelligente."
+msgstr "Ajouter la prise en charge de la surbrillance"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -780,12 +804,12 @@ msgstr "Correction de l'appel à des modules externes multi-outils."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr "Informations de compte"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr "Retourner le nombre de comptes."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -802,6 +826,9 @@ msgstr "Ajouter un nouveau composant graphique « Quoi de neuf »."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Nouveau module externe : afficher la taille de la collection."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -870,9 +897,6 @@ msgstr "Nouveau module externe : afficher la taille de la collection."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Quelques corrections de bogues :"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Ouvrir la boîte de dialogue de requête rapide..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-02-22 08:27+0200\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"PO-Revision-Date: 2026-01-10 21:29+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -39,9 +39,10 @@ msgid "AI Chat"
 msgstr "שיחה עם בינה מלאכותית"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "כל הזכויות שמורות © 2025‎‏-2026 ללורנט מונטל"
+msgstr "כל הזכויות שמורות © 2025‎ ללורנט מונטל"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -180,23 +181,25 @@ msgstr "חזרה לפרטי תוספים"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "הצגת האפשרויות הזמינות למשוב משתמש"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "ייבוא שיחה"
+msgstr "ייצוא שיחות"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr "ייבוא"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr "Markdown"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -225,7 +228,7 @@ msgstr "כלי"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "טקסט"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -367,7 +370,7 @@ msgstr "תוספים"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "משוב משתמש"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -384,12 +387,12 @@ msgstr "ייצוא כ־JSON…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr "kaichat"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr "קובץ Json"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -404,16 +407,20 @@ msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "ייבוא…"
+msgstr "ייצוא…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "ייבוא כ־JSON…"
+msgstr "ייצוא כ־JSON…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -463,10 +470,12 @@ msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "ייבוא שיחות"
+msgstr "ייצוא שיחות"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -521,48 +530,64 @@ msgid "Main Toolbar"
 msgstr "סרגל כלים ראשי"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
+#, fuzzy
+#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "הוספת תמיכה במופע של Grok."
+msgstr "הוספת תמיכה במופעים."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "הוספת תמיכה במשוב משתמש."
+msgstr "הוספת תמיכה בבדיקת איות."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr "לאפשר את הצגת פרטי המודל."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
+#, fuzzy
+#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "הוספת תמיכה בייבוא שיחות."
+msgstr "הוספת תמיכה בצירוף קבצים."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
+#, fuzzy
+#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "הוספת תמיכה ב־Ollama מקוונת."
+msgstr "הוספת תמיכה ב„מה חדש”."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
+#, fuzzy
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "נוספה תמיכה בענן Ollama."
+msgstr "הוספת תמיכה ב־Markdown."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
+#, fuzzy
+#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "לאפשר שכפול שיחה."
+msgstr "לאפשר את שינוי גודל הכתב."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "הוספת תמיכה בהגדרת זמן אי־פעילות ב־Ollama מקוונת."
+msgstr "הוספת תמיכה בבדיקת איות."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr "הצגת היומן של Ollama."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr "לאפשר לחשוף את Ollama לרשת המקומית."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "נוספה תמיכה בחשיבה."
+msgstr "הוספת תמיכה בהדגשה."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -768,12 +793,12 @@ msgstr "תוקנות קריאת תוספים למגוון כלים."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr "פרטי החשבון"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr "החזרת מספר חשבון."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -788,6 +813,9 @@ msgstr "הוספת וידג׳ט חדש להצגת מה חדש."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "תוסף חדש: הצגת גודל אוסף."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "פתיחת שאלה מהירה..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -846,9 +874,6 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "תיקוני תקלות:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "פתיחת שאלה מהירה…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

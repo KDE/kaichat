@@ -1,16 +1,16 @@
 # Translation for kaichat.po to Euskara/Basque (eu).
-# Copyright (C) 2025-2026 This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: Iñigo Salvador Azurmendi <xalba@ni.eus>, 2025, 2026.
+# SPDX-FileCopyrightText: 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-01-05 10:13+0100\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"PO-Revision-Date: 2025-12-20 08:37+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -41,9 +41,10 @@ msgid "AI Chat"
 msgstr "AA berriketa"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025-2026 Laurent Montel"
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -170,7 +171,7 @@ msgstr "Erabilitako tresna definitu. Hau errepikatu daiteke"
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr "Tresnaren izena"
+msgstr "Tresna-izena"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -183,7 +184,6 @@ msgstr "Pluginen informazioa itzuli"
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr ""
-"Erabiltzailearen atzera-elikadura aukera erabilgarriak zerrendatzen ditu"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, fuzzy, kde-format
@@ -372,7 +372,7 @@ msgstr "Pluginak"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Erabiltzailearen atzera-elikadura"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -530,16 +530,20 @@ msgid "Main Toolbar"
 msgstr "Tresna-barra nagusia"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
+#, fuzzy
+#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Gork instantziaren euskarria gehitzea."
+msgstr "Instantzien euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Erabiltzailearen atzera-elikadura euskarria gehitzea."
+msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr "Ereduaren informazioa erakusteko aukera ematea."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 #, fuzzy
@@ -555,9 +559,9 @@ msgstr "Zer berri-ren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Markdown-en euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 #, fuzzy
@@ -567,9 +571,9 @@ msgstr "Letra-tipoa aldatzea baimendu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
@@ -796,12 +800,12 @@ msgstr "Tresna anitzen pluginek deia konpontzea."
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr "Kontuaren informazioa"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr "Kontuaren zenbakia itzuli."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -818,6 +822,9 @@ msgstr "Zerberri trepeta berria gehitzea."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Plugin berria: erakutsi bildumaren neurria."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -885,9 +892,6 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Akatsak konponketa batzuk:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

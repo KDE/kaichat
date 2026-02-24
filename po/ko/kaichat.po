@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
 "PO-Revision-Date: 2025-07-21 00:46+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -158,10 +158,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "인스턴스 지원을 추가했습니다."
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -560,9 +559,9 @@ msgstr "새로운 기능 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "새로운 기능 지원을 추가했습니다."
+msgstr "Markdown 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Allow to duplicate chat."
@@ -570,9 +569,9 @@ msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add Highlighting support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "새로운 기능 지원을 추가했습니다."
+msgstr "구문 강조 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."

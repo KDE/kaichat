@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Freek de Kruijf <freekdekruijf@kde.nl>
+# SPDX-FileCopyrightText: 2025 Freek de Kruijf <freekdekruijf@kde.nl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2026-02-20 13:39+0100\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"PO-Revision-Date: 2025-12-30 16:35+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -38,9 +38,10 @@ msgid "AI Chat"
 msgstr "AI-chat"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025-2026 Laurent Montel"
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -180,23 +181,24 @@ msgstr "Informatie van plug-ins teruggeven"
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr ""
-"Geeft een lijst met de beschikbare opties voor terugkoppeling van gebruiker"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Chat importeren"
+msgstr "Chats exporteren"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr "Importeren"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr "Markdown"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -225,7 +227,7 @@ msgstr "Hulpmiddel"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "Tekst"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -368,7 +370,7 @@ msgstr "Plug-ins"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Terugkoppeling van gebruiker"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -385,12 +387,12 @@ msgstr "Als JSON exporteren…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr "kaichat"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr "Json-bestand"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -405,13 +407,17 @@ msgid "Export as Text…"
 msgstr "Als tekst exporteren…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Importeren…"
+msgstr "Exporteren…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Als JSON exporteren…"
@@ -462,10 +468,12 @@ msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Chats importeren"
+msgstr "Chats exporteren"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -520,48 +528,64 @@ msgid "Main Toolbar"
 msgstr "Hoofdwerkbalk"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
+#, fuzzy
+#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Ondersteuning voor Grok-exemplaar toevoegen."
+msgstr "Ondersteuning voor exemplaar toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Ondersteuning terugkoppeling van gebruiker toevoegen."
+msgstr "Ondersteuning voor spellingcontrole toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr "Sta tonen van modelinformatie toe."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
+#, fuzzy
+#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Ondersteuning voor chat importeren toevoegen."
+msgstr "Ondersteuning voor bijlage toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
+#, fuzzy
+#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "Ondersteuning voor Ollama online toevoegen."
+msgstr "Ondersteuning voor Wat is nieuw toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
+#, fuzzy
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Ondersteuning voor Ollama Cloud toevoegen."
+msgstr "Ondersteuning voor Markdown toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
+#, fuzzy
+#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Sta dupliceren van chat toe."
+msgstr "Toestaan lettergrootte te wijzigingen"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
+#, fuzzy
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Ondersteuning voor instelling Ollama levend houden toevoegen."
+msgstr "Ondersteuning voor spellingcontrole toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr "Ollama-log tonen."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr "Sta toe dat Ollama blootgesteld wordt in het lokale netwerk."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
+#, fuzzy
+#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "Ondersteuning voor denken toevoegen."
+msgstr "Ondersteuning voor accentuering."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -591,17 +615,17 @@ msgstr "Toestaan chat te verwijderen repareren. Bug %1"
 #: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add Quick Ask Dialog."
-msgstr "Dialoog van Snel vragen toevoegen."
+msgstr "Dialoog Snel vragen openen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "Toestaan Ollama te downloaden op Windows/MacOs."
+msgstr "Toestaan Ollama op Windows/MacOs te downloaden."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Use prompt during chating."
-msgstr "Gebruik prompt tijdens chating."
+msgstr "Prompt tijdens chatten gebruiken."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
@@ -621,12 +645,12 @@ msgstr "Nieuw widget voor bijwerken toevoegen."
 #: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add progress indicator in chats list."
-msgstr "Voortgangsindicatie in chatlijst toevoegen."
+msgstr "Voortgangsindicator in chatlijst toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to change font size."
-msgstr "Sta wijzigen van tekengrootte toe."
+msgstr "Toestaan lettergrootte te wijzigingen"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
@@ -772,12 +796,12 @@ msgstr "Aanroepen van plug-ins van multi-hulpmiddelen repareren"
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr "Account-informatie"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr "Het nummer van het account teruggeven."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -793,6 +817,9 @@ msgstr "Nieuw widget Wat-is-nieuw toevoegen."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Nieuwe plug-in: grootte van verzameling tonen."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Snel vragen openen..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -856,12 +883,6 @@ msgstr "Nieuwe plug-in: grootte van verzameling tonen."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Enig repareren van bugs:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Snel vragen openen..."
-
-#~ msgid "The name of the city"
-#~ msgstr "De naam van de stad"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

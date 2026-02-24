@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
 "PO-Revision-Date: 2025-12-15 13:55+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -179,19 +179,19 @@ msgstr ""
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "Seznam dostupných voleb pro uživatelskou zpětnou vazbu"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
 #, fuzzy, kde-format
-#| msgid "Import"
+#| msgid "AI Chat"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Importovat"
+msgstr "Rozhovor s AI"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr "Importovat"
+msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -225,7 +225,7 @@ msgstr "Nástroj"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "Text"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -367,7 +367,7 @@ msgstr "Moduly"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Zpětná vazba uživatele"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -405,10 +405,11 @@ msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:15
 #, fuzzy, kde-format
-#| msgid "Import"
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Importovat"
+msgstr "Exportovat…"
 
 #: widgets/kaichatimportmenu.cpp:16
 #, kde-format
@@ -463,10 +464,10 @@ msgstr "Skrýt nabídku"
 
 #: widgets/kaichatmainwindow.cpp:346
 #, fuzzy, kde-format
-#| msgid "Import"
+#| msgid "AI Chat"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Importovat"
+msgstr "Rozhovor s AI"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -768,12 +769,12 @@ msgstr ""
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr "Informace o účtu"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr "Vrátit číslo účtu."
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."

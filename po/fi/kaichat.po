@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -527,8 +527,10 @@ msgid "Main Toolbar"
 msgstr "Päätyökalurivi"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
+#, fuzzy
+#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Lisää Grok-ilmentymätuki."
+msgstr "Lisää ilmentymätuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
 #, fuzzy
@@ -542,9 +544,9 @@ msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 #, fuzzy
-#| msgid "Add instance support."
+#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Lisää ilmentymätuki."
+msgstr "Lisää liitetuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 #, fuzzy
@@ -554,9 +556,9 @@ msgstr "Lisää mitä uutta -tuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Lisää mitä uutta -tuki."
+msgstr "Lisää Markdown-tuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 #, fuzzy
@@ -566,9 +568,9 @@ msgstr "Salli fonttikoon muuttaminen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Lisää mitä uutta -tuki."
+msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
@@ -813,6 +815,9 @@ msgstr "Lisää uusi mitäuutta-sovelma."
 msgid "New plugin: show collection size."
 msgstr "Uusi liitännäinen: näytä kokoelman koko."
 
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Avaa pikakysymys…"
+
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
 #~ msgstr "Poista versiontarkistus käytöstä"
@@ -872,9 +877,6 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Joitakin vikoja on korjattu:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Avaa pikakysymys…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-20 00:49+0000\n"
-"PO-Revision-Date: 2025-10-26 20:49+0100\n"
+"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"PO-Revision-Date: 2026-01-06 14:38+0100\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 25.08.2\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -65,11 +65,9 @@ msgid "List of Chats:"
 msgstr "Chattlista:"
 
 #: apps/main.cpp:129
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgid "Plugins:"
-msgstr "Insticksprogram"
+msgstr "Insticksprogram:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -84,11 +82,9 @@ msgid "Start with specific instance"
 msgstr "Starta med specifik instanser"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "Instanser"
+msgstr "Instansnamn"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -99,7 +95,7 @@ msgstr "Skapa ny chatt"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Ny chattitel"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -116,7 +112,7 @@ msgstr "Byt till chatt"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Chattnamn"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -125,11 +121,9 @@ msgid "Switch to Chat from identifier"
 msgstr "Byt till chatt från identifierare"
 
 #: core/kaichatcommandlineparser.cpp:33
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat from identifier"
+#, kde-format
 msgid "Chat Identifier"
-msgstr "Byt till chatt från identifierare"
+msgstr "Chattidentifierare"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -138,11 +132,9 @@ msgid "Ask Message"
 msgstr "Fråga efter meddelande"
 
 #: core/kaichatcommandlineparser.cpp:35
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Ask Message"
+#, kde-format
 msgid "Message"
-msgstr "Fråga efter meddelande"
+msgstr "Meddelande"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -154,39 +146,35 @@ msgstr "Returnera chattlista"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Aktivera felsökningsläge"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Lägg till en bilaga. Detta kan upprepas"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Lägg till instansstöd."
+msgstr "Bilagans webbadress"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Definiera använt verktyg, Detta kan upprepas."
 
 #: core/kaichatcommandlineparser.cpp:43
-#, fuzzy, kde-format
-#| msgid "Tool"
+#, kde-format
 msgid "Tool Name"
-msgstr "Verktyg"
+msgstr "Verktygsnamn"
 
 #: core/kaichatcommandlineparser.cpp:44
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Return lists of chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Returnera chattlista"
+msgstr "Returnerar Information om insticksprogram"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
@@ -288,17 +276,17 @@ msgstr "Ta reda på aktuellt datum och tid."
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr "Aktuell tid är %1 %1"
+msgstr "Aktuell tid är %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr "Aktuellt datum är %1 %1"
+msgstr "Aktuellt datum är %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr "Aktuellt datum och tid är %1 %1"
+msgstr "Aktuellt datum och tid är %1"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -556,9 +544,9 @@ msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
 #, fuzzy
-#| msgid "Add instance support."
+#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Lägg till instansstöd."
+msgstr "Lägg till stöd för bilagor."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
 #, fuzzy
@@ -568,9 +556,9 @@ msgstr "Lägg till stöd för Vad är nytt."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Lägg till stöd för Vad är nytt."
+msgstr "lägg till stöd för Markdown"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 #, fuzzy
@@ -580,9 +568,9 @@ msgstr "Tillåt att ändra teckenstorlek."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 #, fuzzy
-#| msgid "Add what's new support."
+#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Lägg till stöd för Vad är nytt."
+msgstr "Lägg till stöd för stavningskontroll"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
@@ -709,12 +697,12 @@ msgstr "Tillåt att byta från chattidentifierare."
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr "Lägg till verktyg för aktuellt datum och tid."
+msgstr "Lägg till verktyg för aktuellt datum och tid"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:68
 #, kde-format
 msgid "Add progress tool message info."
-msgstr "Lägg till meddelandeinformation i förloppsverktyg.."
+msgstr "Lägg till meddelandeinformation i förloppsverktyg."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
@@ -754,53 +742,53 @@ msgstr "Tillåt att anpassa text till tal."
 #: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "Lägg till insticksprogrammets ikonnamn."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:85
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Add attachment support."
-msgstr "Lägg till instansstöd."
+msgstr "Lägg till stöd för bilagor."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Add new icon."
-msgstr ""
+msgstr "Lägg till ny ikon."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Add debug command line."
-msgstr ""
+msgstr "Lägg till kommandorad för felsökning."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:88
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 msgstr ""
+"Lägg till Wkipedia, väderinsticksverktyg (tillhandahållna av kaichat-addons)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:89
 #, kde-format
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "Lagra väntande inskriven information i databasen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:90
 #, kde-format
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "Tillåt att bilägga filer från kommandoraden."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:91
 #, kde-format
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Lägg till ikon i inställda ollama-modeller."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:92
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "Tillåt användning av specifika Ollama-miljövariabler."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:96
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "Rätta flera anrop till insticksverktyg."
 
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
@@ -826,6 +814,9 @@ msgstr "Lägg till ny vad-är-nytt grafisk komponent."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Nytt insticksprogram: Visa samlingsstorlek."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Öppna snabbfråga..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -888,9 +879,6 @@ msgstr "Nytt insticksprogram: Visa samlingsstorlek."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "En del felrättning:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Öppna snabbfråga..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"
