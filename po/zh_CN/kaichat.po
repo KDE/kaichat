@@ -38,10 +38,9 @@ msgid "AI Chat"
 msgstr "AI 聊天"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr "Copyright © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -95,7 +94,7 @@ msgstr "创建新聊天"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "新聊天标题"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -112,7 +111,7 @@ msgstr "切换到聊天模式"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "聊天名称"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -123,7 +122,7 @@ msgstr "从标识符切换到聊天"
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
-msgstr ""
+msgstr "聊天标识符"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -134,7 +133,7 @@ msgstr "发送消息"
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -146,59 +145,57 @@ msgstr "返回聊天列表"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "激活调试模式"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "添加附件，可重复多次"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "附件"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "定义使用的工具，可重复多次"
 
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr ""
+msgstr "工具名称"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr ""
+msgstr "返回插件信息"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "列出用户反馈中的可用选项"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "导出聊天"
+msgstr "导入聊天"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "导入"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -227,7 +224,7 @@ msgstr "工具"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "文字"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -369,7 +366,7 @@ msgstr "插件"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "用户反馈"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -386,12 +383,12 @@ msgstr "以 JSON 形式导出..."
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "Json 文件"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -406,20 +403,16 @@ msgid "Export as Text…"
 msgstr "导出为文本..."
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "导出..."
+msgstr "导入"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "以 JSON 形式导出..."
+msgstr "以JSON形式导入..."
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -464,12 +457,10 @@ msgid "Hide menu bar"
 msgstr "隐藏菜单栏"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "导出聊天"
+msgstr "导入聊天"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -524,64 +515,48 @@ msgid "Main Toolbar"
 msgstr "主工具栏"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
 msgstr "添加实例支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "添加拼写检查支持。"
+msgstr "添加用户反馈支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "允许显示模型信息。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add import chat support."
-msgstr "添加实例支持。"
+msgstr "添加导入聊天支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "添加“新增功能”支持。"
+msgstr "添加 Ollama 在线支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "添加 Markdown 支持。"
+msgstr "添加 Olama 云端支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "允许更改字体大小。"
+msgstr "允许重复聊天。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "添加拼写检查支持。"
+msgstr "添加 Ollama 常启用设置支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "显示 Ollama 日志."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "添加高亮支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -742,42 +717,42 @@ msgstr "添加工具插件图标名称。"
 #: widgets/kaichatwhatsnewtranslations.cpp:85
 #, kde-format
 msgid "Add attachment support."
-msgstr ""
+msgstr "添加附件支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Add new icon."
-msgstr ""
+msgstr "新增图示."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Add debug command line."
-msgstr ""
+msgstr "添加调试命令行."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:88
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
+msgstr "添加 Wikipedia, 天气工具插件(由 kaichat-addon 提供)."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:89
 #, kde-format
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "在数据库中存储待输入信息."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:90
 #, kde-format
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "允许从命令行添加附件文件."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:91
 #, kde-format
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "在配置 ollama 模型中添加图标."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:92
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "允许使用特定的 Ollama 环境变量."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:96
 #, kde-format
@@ -787,12 +762,12 @@ msgstr "修复多工具插件调用。"
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "账户信息"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "返回帐号个数."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
