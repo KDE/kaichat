@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 00:49+0000\n"
+"POT-Creation-Date: 2026-02-28 00:48+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -513,6 +513,10 @@ msgstr "帮助(&H)"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具栏"
+
+#: widgets/kaichatwhatsnewtranslations.cpp:16
+msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format

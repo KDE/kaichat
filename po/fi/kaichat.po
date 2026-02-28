@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 00:49+0000\n"
+"POT-Creation-Date: 2026-02-28 00:48+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -525,6 +525,10 @@ msgstr "&Ohje"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Päätyökalurivi"
+
+#: widgets/kaichatwhatsnewtranslations.cpp:16
+msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
