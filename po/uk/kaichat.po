@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2025.
+# Yuri Chornoivan <yurchor@ukr.net>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-24 02:43+0000\n"
-"PO-Revision-Date: 2025-12-24 17:18+0200\n"
+"PO-Revision-Date: 2026-02-24 17:09+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -39,10 +39,9 @@ msgid "AI Chat"
 msgstr "Спілкування з ШІ"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "© Laurent Montel <montel@kde.org>, 2025"
+msgstr "© Laurent Montel <montel@kde.org>, 2025–2026"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -181,25 +180,23 @@ msgstr "Повернути відомості щодо додатків"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Показати доступні варіанти для відгуків користувача"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Експорт даних спілкування"
+msgstr "Імпортувати дані спілкування"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "Імпортувати"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Розмітка"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -228,7 +225,7 @@ msgstr "Інструмент"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -370,7 +367,7 @@ msgstr "Додатки"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Відгуки користувача"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -387,12 +384,12 @@ msgstr "Експортувати як JSON…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "Файл JSON"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -407,17 +404,13 @@ msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Експортувати…"
+msgstr "Імпортувати…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Експортувати як JSON…"
@@ -470,12 +463,10 @@ msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Експорт даних спілкування"
+msgstr "Імпорт даних спілкування"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -530,64 +521,48 @@ msgid "Main Toolbar"
 msgstr "Головна панель"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Додано підтримку екземплярів програми."
+msgstr "Додано підтримку екземплярів Grok."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Додано підтримку перевірки правопису."
+msgstr "Додано підтримку відгуків користувачів."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "Дозволити показувати відомості щодо моделі."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Додано підтримку долучень."
+msgstr "Додано підтримку імпортування даних спілкування."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "Додано підтримку показу новин щодо програми."
+msgstr "Додано підтримку Ollama Online."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Додано підтримку Markdown."
+msgstr "Додано підтримку Ollama Cloud."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Уможливлено зміну розміру шрифту."
+msgstr "Уможливлено дублювання спілкування."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Додано підтримку перевірки правопису."
+msgstr "Додано підтримку параметри підтримки зв'язку з Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Показати журнал Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Дозволити використання Ollama з локальної мережі."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "Додано підтримку підсвічування."
+msgstr "Додано підтримку обмірковування."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -797,12 +772,12 @@ msgstr "Виправлено виклик додатків із декілько
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Дані щодо облікового запису"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Повернути номер облікового запису."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
