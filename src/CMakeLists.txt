@@ -23,7 +23,7 @@ if(APPLE)
             MACOSX_BUNDLE_GUI_IDENTIFIER
                 "org.kde.kaichat"
             MACOSX_BUNDLE_COPYRIGHT
-                "2025 The KAIChat Developers"
+                "2025-2026 The KAIChat Developers"
     )
 endif()
 
