@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-24 02:43+0000\n"
-"PO-Revision-Date: 2025-12-23 04:14+0100\n"
+"PO-Revision-Date: 2026-03-01 04:49+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -39,10 +39,9 @@ msgid "AI Chat"
 msgstr "ხი-სთან ჩატი"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "© 2025 ლორან მონტელი, ყველა უფლება დაცულია"
+msgstr "© 2025-2026 ლორან მონტელი, ყველა უფლება დაცულია"
 
 #: apps/main.cpp:76
 #, kde-format
@@ -181,25 +180,23 @@ msgstr "დამატებების ინფორმაციის დ�
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "მომხმარებლის უკუკავშირის ხელმისაწვდომი ვარიანტები"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "ჩატების გატანა"
+msgstr "ჩატის შემოტანა"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "შემოტანა"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -228,7 +225,7 @@ msgstr "ხელსაწყო"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "ტექსტი"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -372,7 +369,7 @@ msgstr "დამატებები"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "მომხარებლის უკუკავშირი"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -389,12 +386,12 @@ msgstr "გატანა JSON-ში…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "Json ფაილი"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -409,20 +406,16 @@ msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "გატანა…"
+msgstr "შემოტანა…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "გატანა JSON-ში…"
+msgstr "შემოტანა JSON-ის სახით…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -470,12 +463,10 @@ msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "ჩატების გატანა"
+msgstr "ჩატების შემოტანა"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -530,64 +521,48 @@ msgid "Main Toolbar"
 msgstr "ხელსაწყოთა მთავარი ზოლი"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
+msgstr "დაემატა Grok-ის გაშვებული ასლების მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
+msgstr "დაემატა მომხმარებლის უკუკავშირის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "მოდელის ინფორმაციის ჩვენების დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "დაემატა ფაილების მიმაგრების მხარდაჭერა."
+msgstr "დაემატა ჩატის შემოტანის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "დაემატა მენიუ 'რა არის ახალი'."
+msgstr "დაემატა Ollama Online-ის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "დაემატა მარკდაუნის მხარდაჭერა."
+msgstr "დაემატა Ollama Cloud-ის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "ფონტის ზომის შეცვლის დაშვება."
+msgstr "ჩატის დუბლირების დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
+msgstr "დაემატა Ollama Keep Alive-ის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Ollama-ის ჟურნალის ჩვენება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Ollama-ის ლოკალურ ქსელში გამოჩენის დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "დაემატა გამოკვეთის მხარდაჭერა."
+msgstr "დაემატა ფიქრის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -795,12 +770,12 @@ msgstr "გასწორდა მულტიხელსაწყოს მ�
 #: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "ანგარიშის ინფორმაცია"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "ანგარიშების რაოდენობის დაბრუნება."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
