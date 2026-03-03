@@ -1,4 +1,4 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
@@ -105,7 +105,8 @@ int main(int argc, char *argv[])
         for (const QString &instanceName : lst) {
             const KConfigGroup grp = config.group(instanceName);
             const QString name = grp.readEntry("Name");
-            std::cout << "   " << name.toLocal8Bit().data() << '\n';
+            const QString pluginIdentifier = grp.readEntry("pluginIdentifier");
+            std::cout << "   " << name.toLocal8Bit().data() << " (" << pluginIdentifier.toLocal8Bit().data() << ")" << '\n';
         }
         return 0;
     }
