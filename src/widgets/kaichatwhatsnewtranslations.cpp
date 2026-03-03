@@ -1,4 +1,4 @@
-/*
+﻿/*
    SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
 
    SPDX-License-Identifier: LGPL-2.0-or-later
@@ -13,7 +13,7 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{kli18n("Add ChatGPT, Novita AI, DeepInfra, Qwen support.")};
+    const QList<KLazyLocalizedString> info{kli18n("Add ChatGPT, Novita AI, DeepInfra, Qwen support."), kli18n("Add CLI option for starting local Ollama.")};
     return info;
 }
 
