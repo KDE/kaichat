@@ -1,4 +1,4 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
@@ -33,6 +33,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack), u"feedback"_s);
 #endif
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat), u"import"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::StartOllamaProgram), u"start-ollama"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"

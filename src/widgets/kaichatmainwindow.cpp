@@ -1,4 +1,4 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
@@ -396,6 +396,9 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         if (!chatIdentifier.isEmpty()) {
             mManager->switchToChatId(chatIdentifier.toLatin1());
         }
+    }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::StartOllamaProgram))) {
+        mManager->askStartOllama();
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Debug))) {
         mManager->setDebug(true);

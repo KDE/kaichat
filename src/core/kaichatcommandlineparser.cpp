@@ -1,4 +1,4 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
@@ -46,6 +46,8 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
     parser->addOption(QCommandLineOption(optionParserFromEnum(OptionParser::FeedBack), i18nc("@info:shell", "Lists the available options for user feedback")));
 #endif
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ImportChat), i18nc("@info:shell", "Import Chat"), i18n("Import")));
+    parser->addOption(
+        QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::StartOllamaProgram), i18nc("@info:shell", "Start Ollama program")));
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -81,6 +83,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"plugin-info"_s;
     case OptionParser::ImportChat:
         return u"import"_s;
+    case OptionParser::StartOllamaProgram:
+        return u"start-ollama"_s;
     }
     return {};
 }
