@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-28 00:48+0000\n"
-"PO-Revision-Date: 2026-02-21 08:43+0100\n"
+"PO-Revision-Date: 2026-03-01 10:09+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -518,7 +518,7 @@ msgstr "Barre principale d'outils"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-msgstr ""
+msgstr "Ajout de la prise en charge de ChatGPT, Novita AI, DeepInfra et Qwen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
