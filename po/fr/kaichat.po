@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 00:48+0000\n"
+"POT-Creation-Date: 2026-03-04 00:48+0000\n"
 "PO-Revision-Date: 2026-03-01 10:09+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
@@ -55,12 +55,12 @@ msgstr "Mainteneur"
 msgid "The following instances are available:"
 msgstr "Les instances suivantes sont disponibles :"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:117
 #, kde-format
 msgid "List of Chats:"
 msgstr "Liste des salons de discussions :"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:130
 #, kde-format
 msgid "Plugins:"
 msgstr "Modules externes :"
@@ -188,6 +188,13 @@ msgstr "Importer un salon"
 #, kde-format
 msgid "Import"
 msgstr "Importer"
+
+#: core/kaichatcommandlineparser.cpp:50
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
+msgctxt "@info:shell"
+msgid "Start Ollama program"
+msgstr "Afficher le journal de Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -470,12 +477,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporter les salons"
 
-#: widgets/kaichatmainwindow.cpp:454
+#: widgets/kaichatmainwindow.cpp:457
 #, kde-format
 msgid "Model Download Done"
 msgstr "Téléchargement du modèle terminé"
 
-#: widgets/kaichatmainwindow.cpp:455
+#: widgets/kaichatmainwindow.cpp:458
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Le modèle %1 a été téléchargé."
@@ -519,6 +526,14 @@ msgstr "Barre principale d'outils"
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "Ajout de la prise en charge de ChatGPT, Novita AI, DeepInfra et Qwen."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:16
+#, fuzzy
+#| msgid "Add option for showing list of title chats."
+msgid "Add CLI option for starting local Ollama."
+msgstr ""
+"Ajouter une option pour l'affichage de la liste des salons de discussions "
+"avec titre."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format

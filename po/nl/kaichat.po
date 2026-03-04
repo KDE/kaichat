@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-28 00:48+0000\n"
+"POT-Creation-Date: 2026-03-04 00:48+0000\n"
 "PO-Revision-Date: 2026-02-28 12:48+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -58,12 +58,12 @@ msgstr "Onderhouder"
 msgid "The following instances are available:"
 msgstr "De volgende exemplaren zijn beschikbaar:"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:117
 #, kde-format
 msgid "List of Chats:"
 msgstr "Lijst met chats:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:130
 #, kde-format
 msgid "Plugins:"
 msgstr "Plug-ins:"
@@ -192,6 +192,13 @@ msgstr "Chat importeren"
 #, kde-format
 msgid "Import"
 msgstr "Importeren"
+
+#: core/kaichatcommandlineparser.cpp:50
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
+msgctxt "@info:shell"
+msgid "Start Ollama program"
+msgstr "Ollama-log tonen."
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -473,12 +480,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Chats exporteren"
 
-#: widgets/kaichatmainwindow.cpp:454
+#: widgets/kaichatmainwindow.cpp:457
 #, kde-format
 msgid "Model Download Done"
 msgstr "Downloaden van model gedaan"
 
-#: widgets/kaichatmainwindow.cpp:455
+#: widgets/kaichatmainwindow.cpp:458
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Model %1 was gedownload."
@@ -522,6 +529,12 @@ msgstr "Hoofdwerkbalk"
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "Ondersteuning voor ChatGPT, Novita AI, DeepInfra, Qwen toevoegen."
+
+#: widgets/kaichatwhatsnewtranslations.cpp:16
+#, fuzzy
+#| msgid "Add option for showing list of title chats."
+msgid "Add CLI option for starting local Ollama."
+msgstr "Optie toevoegen voor het tonen van de lijst met titels van chats."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
