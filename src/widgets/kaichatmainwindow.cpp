@@ -382,6 +382,11 @@ void KAIChatMainWindow::updateActions()
     mExportMenu->setEnabled(status && !mManager->currentChatId().isEmpty());
 }
 
+bool KAIChatMainWindow::hasChatInProgress() const
+{
+    return mManager->hasChatInProgress();
+}
+
 void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
 {
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SwitchToChat))) {

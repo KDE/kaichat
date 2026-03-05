@@ -1,4 +1,4 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
@@ -38,6 +38,8 @@ public:
     void slotActivateRequested(const QStringList &arguments, const QString &workingDirectory);
 
     void parseCommandLine(QCommandLineParser *parser);
+
+    [[nodiscard]] bool hasChatInProgress() const;
 
 private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs);

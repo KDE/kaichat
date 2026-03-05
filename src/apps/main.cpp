@@ -193,9 +193,12 @@ int main(int argc, char *argv[])
      */
     KSignalHandler::self()->watchSignal(SIGINT);
     KSignalHandler::self()->watchSignal(SIGTERM);
-    QObject::connect(KSignalHandler::self(), &KSignalHandler::signalReceived, &app, [](int signal) {
+    QObject::connect(KSignalHandler::self(), &KSignalHandler::signalReceived, &app, [mw](int signal) {
         if (signal == SIGINT || signal == SIGTERM) {
             printf("Shutting down...\n");
+            if (!mw->hasChatInProgress()) {
+                mw->close();
+            }
         }
     });
 #endif
