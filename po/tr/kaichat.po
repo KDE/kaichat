@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-04 00:48+0000\n"
-"PO-Revision-Date: 2026-02-28 10:44+0300\n"
+"PO-Revision-Date: 2026-03-04 13:00+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -193,11 +193,10 @@ msgid "Import"
 msgstr "İçe Aktar"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama günlüğünü göster"
+msgstr "Ollama programını göster"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -529,10 +528,8 @@ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "ChatGPT, Novita AI, DeepInfra, Qwen desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "Sohbet başlıkları listesini gösterme seçeneği ekle"
+msgstr "Yerel Ollama’yı başlatmak için komut satırı seçeneği ekle."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format

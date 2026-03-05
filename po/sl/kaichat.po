@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-04 00:48+0000\n"
-"PO-Revision-Date: 2026-02-28 08:54+0100\n"
+"PO-Revision-Date: 2026-03-04 07:34+0100\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -194,11 +194,10 @@ msgid "Import"
 msgstr "Uvozi"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Prikaži dnevnik Ollama."
+msgstr "Zaženi program Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -532,10 +531,8 @@ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "Dodaj podporo za ChatGPT, Novita AI, DeepInfra in Qwen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "Dodaj možnost za prikaz seznama naslovov klepetov."
+msgstr "Dodaj možnost CLI za zagon lokalne Ollame."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format

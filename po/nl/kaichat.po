@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-04 00:48+0000\n"
-"PO-Revision-Date: 2026-02-28 12:48+0100\n"
+"PO-Revision-Date: 2026-03-04 12:26+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -194,11 +194,10 @@ msgid "Import"
 msgstr "Importeren"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama-log tonen."
+msgstr "Ollama-programma starten"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -531,10 +530,8 @@ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "Ondersteuning voor ChatGPT, Novita AI, DeepInfra, Qwen toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "Optie toevoegen voor het tonen van de lijst met titels van chats."
+msgstr "CLI-optie toevoegen voor het starten van lokaal Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format

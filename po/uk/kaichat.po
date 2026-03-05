@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-04 00:48+0000\n"
-"PO-Revision-Date: 2026-02-28 15:31+0200\n"
+"PO-Revision-Date: 2026-03-04 14:42+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -194,11 +194,10 @@ msgid "Import"
 msgstr "Імпортувати"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Показати журнал Ollama."
+msgstr "Запустити програму Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -532,10 +531,8 @@ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "Додано пункт для показу списку спілкувань із заголовками."
+msgstr "Додано параметр командного інтерфейсу для запуску локальної Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 #, kde-format
