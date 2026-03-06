@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-04 00:48+0000\n"
+"POT-Creation-Date: 2026-03-06 00:47+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -486,12 +486,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Vie keskusteluja"
 
-#: widgets/kaichatmainwindow.cpp:457
+#: widgets/kaichatmainwindow.cpp:462
 #, kde-format
 msgid "Model Download Done"
 msgstr "Mallin lataus valmis"
 
-#: widgets/kaichatmainwindow.cpp:458
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model %1 was download."
 msgstr "Malli %1 ladattiin."
