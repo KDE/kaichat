@@ -194,7 +194,6 @@ msgstr "导入"
 
 #: core/kaichatcommandlineparser.cpp:50
 #, fuzzy, kde-format
-#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "显示 Ollama 日志."
@@ -231,7 +230,7 @@ msgstr "工具"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "文字"
+msgstr "文本"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -313,7 +312,7 @@ msgstr "缩小字体"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr "启用文字转语音"
+msgstr "启用文本转语音"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -527,7 +526,6 @@ msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 #, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
 msgstr "添加显示聊天列表标题的选项。"
 
@@ -680,7 +678,7 @@ msgstr "添加恢复配置设置的值。"
 #: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Allow to configure text to speech."
-msgstr "允许配置文字转语音功能。"
+msgstr "允许配置文本转语音功能。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:72
 #, kde-format
