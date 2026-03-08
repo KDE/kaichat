@@ -224,7 +224,7 @@ msgstr "工具"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr "文字"
+msgstr "文本"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -306,7 +306,7 @@ msgstr "缩小字体"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr "启用文字转语音"
+msgstr "启用文本转语音"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -707,7 +707,7 @@ msgstr "添加恢复配置设置的值。"
 #: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Allow to configure text to speech."
-msgstr "允许配置文字转语音功能。"
+msgstr "允许配置文本转语音功能。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
