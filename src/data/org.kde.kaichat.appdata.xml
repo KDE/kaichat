@@ -105,6 +105,7 @@
   </categories>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
+    <release version="0.7.0" date="2026-03-01"/>
     <release version="0.5.0" date="2025-10-11"/>
     <release version="0.4.1" date="2025-08-08"/>
     <release version="0.4.0" date="2025-08-03"/>
