@@ -40,4 +40,14 @@ void KAIChatAdaptor::createNewChat(const QString &title)
     mManager->createNewChat(title);
 }
 
+void KAIChatAdaptor::ask(const QString &message)
+{
+    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{
+        .message = message,
+        .attachments = {},
+        .tools = {},
+    };
+    mManager->ask(info);
+}
+
 #include "moc_kaichatadaptor.cpp"
