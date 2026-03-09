@@ -16,9 +16,17 @@ target_sources(
         kaichatexportchatastextjob.cpp
         kaichatcommandlineparser.h
         kaichatcommandlineparser.cpp
-    # kaichatadaptor.h
-    # kaichatadaptor.cpp
 )
+
+if(USE_DBUS)
+    target_link_libraries(libkaichatcore PUBLIC KF6::DBusAddons)
+    target_sources(
+        libkaichatcore
+        PRIVATE
+            kaichatadaptor.h
+            kaichatadaptor.cpp
+    )
+endif()
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(

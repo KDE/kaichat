@@ -5,7 +5,9 @@
  */
 
 #include "kaichatadaptor.h"
+#include <QApplication>
 
 KAIChatAdaptor::KAIChatAdaptor()
+    : QDBusAbstractAdaptor(qApp)
 {
 }
