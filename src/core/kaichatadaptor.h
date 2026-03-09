@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #pragma once
-
+#include "libkaichatcore_export.h"
 #include <QDBusAbstractAdaptor>
 
-class KAIChatAdaptor : public QDBusAbstractAdaptor
+class LIBKAICHATCORE_EXPORT KAIChatAdaptor : public QDBusAbstractAdaptor
 {
     Q_OBJECT
     Q_CLASSINFO("D-Bus Interface", "org.kde.kaichat.Application")
