@@ -57,26 +57,20 @@
 #include <KUserFeedback/NotificationPopup>
 #include <KUserFeedback/Provider>
 #endif
-#if WITH_DBUS
-#include "kaichatadaptor.h"
-#endif
 
 namespace
 {
 const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
 }
 using namespace Qt::Literals::StringLiterals;
-KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
+KAIChatMainWindow::KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KXmlGuiWindow(parent)
-    , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
-    , mMainWidget(new KAIChatCentralWidget(mManager, this))
+    , mManager(manager)
+    , mMainWidget(new KAIChatCentralWidget(manager, this))
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     , mVerifyNewVersionWidget(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
 {
-#if WITH_DBUS
-    new KAIChatAdaptor(mManager, this);
-#endif
     mMainWidget->setObjectName(u"mMainWidget"_s);
     setCentralWidget(mMainWidget);
     setupActions();

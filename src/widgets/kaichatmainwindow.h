@@ -32,7 +32,7 @@ class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
 {
     Q_OBJECT
 public:
-    explicit KAIChatMainWindow(QWidget *parent = nullptr);
+    explicit KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatMainWindow() override;
 
     void slotActivateRequested(const QStringList &arguments, const QString &workingDirectory);

@@ -33,6 +33,7 @@
 #endif
 
 #if WITH_DBUS
+#include "kaichatadaptor.h"
 #include <KDBusService>
 #else
 #include <KWindowSystem>
@@ -160,7 +161,11 @@ int main(int argc, char *argv[])
         return 0;
     }
 #endif
-    auto mw = new KAIChatMainWindow();
+    TextAutoGenerateText::TextAutoGenerateManager manager;
+#if WITH_DBUS
+    new KAIChatAdaptor(&manager, &app);
+#endif
+    auto mw = new KAIChatMainWindow(&manager);
 #if WITH_DBUS
     QObject::connect(&service, &KDBusService::activateRequested, mw, &KAIChatMainWindow::slotActivateRequested);
 #else
