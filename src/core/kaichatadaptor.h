@@ -6,6 +6,7 @@
 #pragma once
 #include "libkaichatcore_export.h"
 #include <QDBusAbstractAdaptor>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
 class LIBKAICHATCORE_EXPORT KAIChatAdaptor : public QDBusAbstractAdaptor
 {
@@ -13,6 +14,12 @@ class LIBKAICHATCORE_EXPORT KAIChatAdaptor : public QDBusAbstractAdaptor
     Q_CLASSINFO("D-Bus Interface", "org.kde.kaichat.Application")
 
 public:
-    explicit KAIChatAdaptor(QObject *parent = nullptr);
+    explicit KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent = nullptr);
     ~KAIChatAdaptor() override;
+
+public Q_SLOTS:
+    void showArchived(bool b);
+
+private:
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

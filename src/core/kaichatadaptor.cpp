@@ -7,11 +7,18 @@
 #include "kaichatadaptor.h"
 #include <QApplication>
 
-KAIChatAdaptor::KAIChatAdaptor(QObject *parent)
+KAIChatAdaptor::KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent)
     : QDBusAbstractAdaptor(parent)
+    , mManager(manager)
 {
+    qDebug() << " CVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV";
 }
 
 KAIChatAdaptor::~KAIChatAdaptor() = default;
+
+void KAIChatAdaptor::showArchived(bool b)
+{
+    mManager->setShowArchived(b);
+}
 
 #include "moc_kaichatadaptor.cpp"

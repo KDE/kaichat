@@ -57,6 +57,9 @@
 #include <KUserFeedback/NotificationPopup>
 #include <KUserFeedback/Provider>
 #endif
+#if WITH_DBUS
+#include "kaichatadaptor.h"
+#endif
 
 namespace
 {
@@ -71,6 +74,10 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
     , mVerifyNewVersionWidget(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
 {
+#if WITH_DBUS
+    qDebug() << " sdfsfqfqfqs";
+    new KAIChatAdaptor(mManager, this);
+#endif
     mMainWidget->setObjectName(u"mMainWidget"_s);
     setCentralWidget(mMainWidget);
     setupActions();
