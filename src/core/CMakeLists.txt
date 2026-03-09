@@ -16,6 +16,8 @@ target_sources(
         kaichatexportchatastextjob.cpp
         kaichatcommandlineparser.h
         kaichatcommandlineparser.cpp
+    # kaichatadaptor.h
+    # kaichatadaptor.cpp
 )
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
