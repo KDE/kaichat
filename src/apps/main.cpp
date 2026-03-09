@@ -165,8 +165,8 @@ int main(int argc, char *argv[])
     QObject::connect(&service, &KDBusService::activateRequested, mw, &KAIChatMainWindow::slotActivateRequested);
 #else
     QApplication::connect(&sapp, &KDSingleApplication::messageReceived, &app, [mw](const QByteArray &messageData) {
-        QJsonDocument doc = QJsonDocument::fromJson(messageData);
-        QJsonObject message = doc.object();
+        const QJsonDocument doc = QJsonDocument::fromJson(messageData);
+        const QJsonObject message = doc.object();
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_MACOS) && !defined(Q_OS_HAIKU)
         if (KWindowSystem::isPlatformWayland()) {
