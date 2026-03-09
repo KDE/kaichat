@@ -19,6 +19,10 @@ public:
 
 public Q_SLOTS:
     void showArchived(bool b);
+    void createNewChat(const QString &title);
+    QStringList chatsList();
+    void switchToChat(const QString &chatName);
+    void switchToChatId(const QByteArray &chatId);
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;

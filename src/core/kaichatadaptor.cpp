@@ -15,9 +15,29 @@ KAIChatAdaptor::KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *ma
 
 KAIChatAdaptor::~KAIChatAdaptor() = default;
 
+QStringList KAIChatAdaptor::chatsList()
+{
+    return mManager->chatsList();
+}
+
+void KAIChatAdaptor::switchToChat(const QString &chatName)
+{
+    mManager->switchToChat(chatName);
+}
+
+void KAIChatAdaptor::switchToChatId(const QByteArray &chatId)
+{
+    mManager->switchToChatId(chatId);
+}
+
 void KAIChatAdaptor::showArchived(bool b)
 {
     mManager->setShowArchived(b);
+}
+
+void KAIChatAdaptor::createNewChat(const QString &title)
+{
+    mManager->createNewChat(title);
 }
 
 #include "moc_kaichatadaptor.cpp"
