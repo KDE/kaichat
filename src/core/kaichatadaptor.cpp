@@ -11,7 +11,6 @@ KAIChatAdaptor::KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *ma
     : QDBusAbstractAdaptor(parent)
     , mManager(manager)
 {
-    qDebug() << " CVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV";
 }
 
 KAIChatAdaptor::~KAIChatAdaptor() = default;

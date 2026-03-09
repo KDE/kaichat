@@ -75,7 +75,6 @@ KAIChatMainWindow::KAIChatMainWindow(QWidget *parent)
 #endif
 {
 #if WITH_DBUS
-    qDebug() << " sdfsfqfqfqs";
     new KAIChatAdaptor(mManager, this);
 #endif
     mMainWidget->setObjectName(u"mMainWidget"_s);
