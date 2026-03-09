@@ -7,7 +7,9 @@
 #include "kaichatadaptor.h"
 #include <QApplication>
 
-KAIChatAdaptor::KAIChatAdaptor()
-    : QDBusAbstractAdaptor(qApp)
+KAIChatAdaptor::KAIChatAdaptor(QObject *parent)
+    : QDBusAbstractAdaptor(parent)
 {
 }
+
+KAIChatAdaptor::~KAIChatAdaptor() = default;

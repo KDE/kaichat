@@ -13,5 +13,6 @@ class KAIChatAdaptor : public QDBusAbstractAdaptor
     Q_CLASSINFO("D-Bus Interface", "org.kde.kaichat.Application")
 
 public:
-    KAIChatAdaptor();
+    explicit KAIChatAdaptor(QObject *parent = nullptr);
+    ~KAIChatAdaptor() override;
 };
