@@ -13,3 +13,5 @@ KAIChatAdaptor::KAIChatAdaptor(QObject *parent)
 }
 
 KAIChatAdaptor::~KAIChatAdaptor() = default;
+
+#include "moc_kaichatadaptor.cpp"
