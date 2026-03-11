@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-10 00:47+0000\n"
-"PO-Revision-Date: 2026-03-04 14:42+0200\n"
+"PO-Revision-Date: 2026-03-10 14:34+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -535,10 +535,8 @@ msgid "Add CLI option for starting local Ollama."
 msgstr "Додано параметр командного інтерфейсу для запуску локальної Ollama."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "Додано підтримку інструментів."
+msgstr "Додано підтримку DBus."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

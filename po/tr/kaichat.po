@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-10 00:47+0000\n"
-"PO-Revision-Date: 2026-03-09 21:44+0300\n"
+"PO-Revision-Date: 2026-03-10 13:52+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -532,10 +532,8 @@ msgid "Add CLI option for starting local Ollama."
 msgstr "Yerel Ollama’yı başlatmak için komut satırı seçeneği ekle."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "Araçlar desteği ekle"
+msgstr "D-Bus desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format

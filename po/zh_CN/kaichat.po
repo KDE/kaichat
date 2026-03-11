@@ -529,10 +529,8 @@ msgid "Add CLI option for starting local Ollama."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "添加工具支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
