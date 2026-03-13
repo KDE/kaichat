@@ -235,6 +235,11 @@ if(NOT USE_DBUS)
     find_package(KDSingleApplication-qt6 CONFIG REQUIRED)
 endif()
 
+option(USE_MCP_SERVER_SUPPORT "Add mcp servers (experimental)" OFF)
+if(USE_MCP_SERVER_SUPPORT)
+    set(HAVE_MPC_SERVER TRUE)
+endif()
+
 configure_file(config-kaichat.h.in ${CMAKE_CURRENT_BINARY_DIR}/config-kaichat.h)
 
 option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" OFF)
@@ -242,11 +247,6 @@ option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
 if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
-endif()
-
-option(USE_MCP_SERVER_SUPPORT "Add mcp servers (experimental)" OFF)
-if(USE_MCP_SERVER_SUPPORT)
-    set(HAVE_MPC_SERVER TRUE)
 endif()
 
 option(WARNINGS_AS_ERRORS "Warnings are errors -Werror" OFF)

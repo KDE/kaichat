@@ -14,6 +14,7 @@ class KAIChatConfigureFontWidget;
 class KAIChatConfigureSpellCheckingWidget;
 class KAIChatConfigureAccessibilityWidget;
 class KAIChatConfigureUserFeedbackWidget;
+class KAIChatConfigureMcpServersWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -50,4 +51,8 @@ private:
     KPageWidgetItem *mConfigureInstancesWidgetPage = nullptr;
     KPageWidgetItem *mConfigureSpellCheckWidgetPage = nullptr;
     KPageWidgetItem *mConfigurePluginsWidgetPage = nullptr;
+#if HAVE_MPC_SERVER
+    KAIChatConfigureMcpServersWidget *const mConfigureMcpServersWidget;
+    KPageWidgetItem *mConfigureMcpServersWidgetPage = nullptr;
+#endif
 };

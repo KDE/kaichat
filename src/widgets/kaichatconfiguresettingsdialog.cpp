@@ -9,6 +9,9 @@
 #include "kaichatconfigurefontwidget.h"
 #include "kaichatconfiguregeneralwidget.h"
 #include "kaichatconfigureinstanceswidget.h"
+#if HAVE_MPC_SERVER
+#include "kaichatconfiguremcpserverswidget.h"
+#endif
 #include "kaichatconfigurespellcheckingwidget.h"
 
 #include <KLocalizedString>
@@ -40,6 +43,9 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 #if HAVE_KUSERFEEDBACK
     , mConfigureUserFeedBackWidget(new KAIChatConfigureUserFeedbackWidget(this))
 #endif
+#if HAVE_MPC_SERVER
+    , mConfigureMcpServersWidget(new KAIChatConfigureMcpServersWidget(this))
+#endif
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -58,6 +64,13 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureInstancesWidgetPage = new KPageWidgetItem(mInstancesManagerWidget, instancesPageName);
     mConfigureInstancesWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-theme"_s));
     addPage(mConfigureInstancesWidgetPage);
+
+#if HAVE_MPC_SERVER
+    const QString mcpServersPageName = i18nc("@title Preferences page name", "MCP Servers");
+    mConfigureMcpServersWidgetPage = new KPageWidgetItem(mConfigureMcpServersWidget, mcpServersPageName);
+    mConfigureMcpServersWidgetPage->setIcon(QIcon::fromTheme(u"preferences-other"_s));
+    addPage(mConfigureMcpServersWidgetPage);
+#endif
 
     const QString spellCheckPageName = i18nc("@title Preferences page name", "Spell Checking");
     mConfigureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
@@ -124,6 +137,9 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
 #if HAVE_KUSERFEEDBACK
     mConfigureUserFeedBackWidget->save();
 #endif
+#if HAVE_MPC_SERVER
+    mConfigureMcpServersWidget->save();
+#endif
 }
 
 void KAIChatConfigureSettingsDialog::load()
@@ -137,6 +153,9 @@ void KAIChatConfigureSettingsDialog::load()
 #endif
 #if HAVE_KUSERFEEDBACK
     mConfigureUserFeedBackWidget->load();
+#endif
+#if HAVE_MPC_SERVER
+    mConfigureMcpServersWidget->load();
 #endif
 }
 
@@ -160,6 +179,10 @@ void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
 #endif
     } else if (currentPage() == mConfigurePluginsWidgetPage) {
         // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
+#if HAVE_MPC_SERVER
+    } else if (currentPage() == mConfigureMcpServersWidgetPage) {
+        mConfigureMcpServersWidget->restoreToDefaults();
+#endif
     } else {
         qCWarning(KAICHAT_WIDGET_LOG) << " slotRestoreDefault not implemented for current page";
     }
