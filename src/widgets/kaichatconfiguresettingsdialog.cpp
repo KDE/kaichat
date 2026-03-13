@@ -44,7 +44,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigureUserFeedBackWidget(new KAIChatConfigureUserFeedbackWidget(this))
 #endif
 #if HAVE_MPC_SERVER
-    , mConfigureMcpServersWidget(new KAIChatConfigureMcpServersWidget(this))
+    , mConfigureMcpServersWidget(new KAIChatConfigureMcpServersWidget(manager, this))
 #endif
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));

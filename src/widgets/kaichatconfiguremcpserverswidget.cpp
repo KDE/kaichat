@@ -6,14 +6,20 @@
 
 #include "kaichatconfiguremcpserverswidget.h"
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <TextAutoGenerateText/TextAutoGenerateTextMcpServerWidget>
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatConfigureMcpServersWidget::KAIChatConfigureMcpServersWidget(QWidget *parent)
+KAIChatConfigureMcpServersWidget::KAIChatConfigureMcpServersWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
+    , mMcpServerWidget(new TextAutoGenerateText::TextAutoGenerateTextMcpServerWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
     mainLayout->setContentsMargins({});
+
+    mMcpServerWidget->setObjectName(u"mMcpServerWidget"_s);
+    mainLayout->addWidget(mMcpServerWidget);
 }
 
 KAIChatConfigureMcpServersWidget::~KAIChatConfigureMcpServersWidget() = default;

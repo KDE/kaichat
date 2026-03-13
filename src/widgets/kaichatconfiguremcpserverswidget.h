@@ -7,15 +7,22 @@
 #pragma once
 
 #include <QWidget>
-
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateTextMcpServerWidget;
+class TextAutoGenerateManager;
+}
 class KAIChatConfigureMcpServersWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatConfigureMcpServersWidget(QWidget *parent = nullptr);
+    explicit KAIChatConfigureMcpServersWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatConfigureMcpServersWidget() override;
 
     void save();
     void load();
     void restoreToDefaults();
+
+private:
+    TextAutoGenerateText::TextAutoGenerateTextMcpServerWidget *const mMcpServerWidget;
 };
