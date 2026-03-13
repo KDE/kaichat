@@ -57,6 +57,15 @@ target_sources(
         kaichatwhatsnewtranslations.cpp
 )
 
+if(USE_MCP_SERVER_SUPPORT)
+    target_sources(
+        libkaichatwidgets
+        PRIVATE
+            kaichatconfiguremcpserverswidget.h
+            kaichatconfiguremcpserverswidget.cpp
+    )
+endif()
+
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
