@@ -121,7 +121,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.42")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.44")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 find_package(
@@ -242,6 +242,11 @@ option(USE_UNITY_CMAKE_SUPPORT "Use UNITY cmake support (speedup compile time)" 
 set(COMPILE_WITH_UNITY_CMAKE_SUPPORT OFF)
 if(USE_UNITY_CMAKE_SUPPORT)
     set(COMPILE_WITH_UNITY_CMAKE_SUPPORT ON)
+endif()
+
+option(USE_MCP_SERVER_SUPPORT "Add mcp servers (experimental)" OFF)
+if(USE_MCP_SERVER_SUPPORT)
+    set(HAVE_MPC_SERVER TRUE)
 endif()
 
 option(WARNINGS_AS_ERRORS "Warnings are errors -Werror" OFF)
