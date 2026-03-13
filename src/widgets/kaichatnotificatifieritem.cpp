@@ -5,9 +5,9 @@
  */
 
 #include "kaichatnotificatifieritem.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include <KLocalizedString>
+using namespace Qt::Literals::StringLiterals;
 KAIChatNotificatifierItem::KAIChatNotificatifierItem(QObject *parent)
     : KStatusNotifierItem{parent}
 {

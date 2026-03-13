@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfigureinstanceswidget.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManagerWidget>
+using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureInstancesWidget::KAIChatConfigureInstancesWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mInstancesManagerWidget(new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, this))
