@@ -68,7 +68,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
 #if HAVE_MPC_SERVER
     const QString mcpServersPageName = i18nc("@title Preferences page name", "MCP Servers");
     mConfigureMcpServersWidgetPage = new KPageWidgetItem(mConfigureMcpServersWidget, mcpServersPageName);
-    mConfigureMcpServersWidgetPage->setIcon(QIcon::fromTheme(u"preferences-other"_s));
+    mConfigureMcpServersWidgetPage->setIcon(QIcon::fromTheme(u"preferences-system-network-server"_s));
     addPage(mConfigureMcpServersWidgetPage);
 #endif
 
