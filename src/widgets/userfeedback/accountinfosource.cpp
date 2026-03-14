@@ -5,9 +5,10 @@
 */
 
 #include "accountinfosource.h"
+#include "textautogeneratetext_version.h"
 
-#include <KConfig>
 #include <KLocalizedString>
+#include <KSharedConfig>
 #include <QVariant>
 #include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 
@@ -31,8 +32,13 @@ QString AccountInfoSource::description() const
 
 QVariant AccountInfoSource::data()
 {
+#if TEXTAUTOGENERATETEXT_VERSION < QT_VERSION_CHECK(2, 0, 44)
     KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
     const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(&config);
+#else
+    const KSharedConfig::Ptr config = KSharedConfig::openConfig(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
+    const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(config);
+#endif
     const QVariantMap m{{u"value"_s, lst.count()}};
     return m;
 }
