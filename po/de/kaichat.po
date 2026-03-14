@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-10 00:47+0000\n"
+"POT-Creation-Date: 2026-03-14 00:47+0000\n"
 "PO-Revision-Date: 2025-07-28 17:44+0200\n"
 "Last-Translator: oneway <onewayme001@posteo.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -333,49 +333,55 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Systemleistensymbol aktivieren"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:44
+#: widgets/kaichatconfiguresettingsdialog.cpp:50
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "KAIChat einrichten"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:53
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Allgemein"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:52
+#: widgets/kaichatconfiguresettingsdialog.cpp:58
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr ""
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:57
+#: widgets/kaichatconfiguresettingsdialog.cpp:63
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instanzen"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:62
+#: widgets/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr ""
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:67
+#: widgets/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
 msgstr ""
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:73
+#: widgets/kaichatconfiguresettingsdialog.cpp:86
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
 msgstr ""
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:79
+#: widgets/kaichatconfiguresettingsdialog.cpp:92
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"

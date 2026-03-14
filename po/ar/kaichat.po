@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-10 00:47+0000\n"
+"POT-Creation-Date: 2026-03-14 00:47+0000\n"
 "PO-Revision-Date: 2026-03-10 22:58+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -327,49 +327,55 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "فَعِّل أيقونة صينية النظام"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:44
+#: widgets/kaichatconfiguresettingsdialog.cpp:50
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "اضبط كتشات"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:47
+#: widgets/kaichatconfiguresettingsdialog.cpp:53
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "عام"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:52
+#: widgets/kaichatconfiguresettingsdialog.cpp:58
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
 msgstr "الخط"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:57
+#: widgets/kaichatconfiguresettingsdialog.cpp:63
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "النُسخ"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:62
+#: widgets/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr ""
+
+#: widgets/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "التدقيق الإملائي"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:67
+#: widgets/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
 msgstr "الإتاحة"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:73
+#: widgets/kaichatconfiguresettingsdialog.cpp:86
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
 msgstr "المُلْحَقات"
 
-#: widgets/kaichatconfiguresettingsdialog.cpp:79
+#: widgets/kaichatconfiguresettingsdialog.cpp:92
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
