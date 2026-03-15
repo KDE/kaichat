@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"POT-Creation-Date: 2026-03-15 02:45+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -27,44 +27,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "translator@legisign.org"
 
-#: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:72 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:73
+#: apps/main.cpp:74
 #, kde-format
 msgid "AI Chat"
 msgstr "Tekoälykeskustelu"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:76
 #, fuzzy, kde-format
 #| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Tekijänoikeudet © 2025 Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgid "Maintainer"
 msgstr "Ylläpitäjä"
 
-#: apps/main.cpp:104
+#: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Seuraavat ilmentymät ovat käytettävissä:"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
 msgstr "Keskusteluluettelo:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
 msgstr "Liitännäiset:"
@@ -791,12 +791,12 @@ msgstr "Salli käyttää tarkkoja Ollama-ympäristömuuttujia."
 msgid "Fix multi tools plugins call."
 msgstr "Korjaa monityökaluliitännäisen kutsu."
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr ""
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
 msgstr ""

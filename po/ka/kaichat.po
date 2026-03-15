@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"POT-Creation-Date: 2026-03-15 02:45+0000\n"
 "PO-Revision-Date: 2026-03-01 04:49+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -28,43 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "temuri.doghonadze@gmail.com"
 
-#: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:72 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:73
+#: apps/main.cpp:74
 #, kde-format
 msgid "AI Chat"
 msgstr "ხი-სთან ჩატი"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:76
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "© 2025-2026 ლორან მონტელი, ყველა უფლება დაცულია"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "ლორან მონტელი"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgid "Maintainer"
 msgstr "წამყვანი პროგრამისტი"
 
-#: apps/main.cpp:104
+#: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
 msgstr "ხელმისაწვდომია შემდეგი გაშვებული ასლები:"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
 msgstr "ჩატების სია:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
 msgstr "დამატებები:"
@@ -767,12 +767,12 @@ msgstr "Ollama-ის მითითებული გარემოს ც�
 msgid "Fix multi tools plugins call."
 msgstr "გასწორდა მულტიხელსაწყოს მოდულების გამოძახება."
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr "ანგარიშის ინფორმაცია"
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
 msgstr "ანგარიშების რაოდენობის დაბრუნება."

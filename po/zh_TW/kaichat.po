@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"POT-Creation-Date: 2026-03-15 02:45+0000\n"
 "PO-Revision-Date: 2026-03-02 05:18+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -27,44 +27,44 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "mail@kisaragi-hiu.com"
 
-#: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:72 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:73
+#: apps/main.cpp:74
 #, kde-format
 msgid "AI Chat"
 msgstr "AI 聊天"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:76
 #, fuzzy, kde-format
 #| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025 Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgid "Maintainer"
 msgstr "維護者"
 
-#: apps/main.cpp:104
+#: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
 msgstr "以下實體可供使用："
 
-#: apps/main.cpp:116
+#: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
 msgstr "聊天列表："
 
-#: apps/main.cpp:129
+#: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
 msgstr "外掛程式："
@@ -776,12 +776,12 @@ msgstr "允許使用指定 Ollama 環境變數。"
 msgid "Fix multi tools plugins call."
 msgstr "修正多重工具外掛程式呼叫。"
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr ""
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
 msgstr ""

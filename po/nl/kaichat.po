@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"POT-Creation-Date: 2026-03-15 02:45+0000\n"
 "PO-Revision-Date: 2026-02-24 12:32+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,43 +27,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:72 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:73
+#: apps/main.cpp:74
 #, kde-format
 msgid "AI Chat"
 msgstr "AI-chat"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:76
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025-2026 Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgid "Maintainer"
 msgstr "Onderhouder"
 
-#: apps/main.cpp:104
+#: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
 msgstr "De volgende exemplaren zijn beschikbaar:"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
 msgstr "Lijst met chats:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
 msgstr "Plug-ins:"
@@ -769,12 +769,12 @@ msgstr "Sta het gebruik van specifieke Ollama omgevingsvariabelen toe."
 msgid "Fix multi tools plugins call."
 msgstr "Aanroepen van plug-ins van multi-hulpmiddelen repareren"
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr "Account-informatie"
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
 msgstr "Het nummer van het account teruggeven."

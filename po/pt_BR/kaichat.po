@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-24 02:43+0000\n"
+"POT-Creation-Date: 2026-03-15 02:45+0000\n"
 "PO-Revision-Date: 2026-02-24 09:14-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -28,43 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "marcus.gama@gmail.com"
 
-#: apps/main.cpp:71 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:72 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:73
+#: apps/main.cpp:74
 #, kde-format
 msgid "AI Chat"
 msgstr "Chat de IA"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:76
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Direitos autorais © 2025-2026 Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:76
+#: apps/main.cpp:77
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenedor"
 
-#: apps/main.cpp:104
+#: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
 msgstr "As seguintes instâncias estão disponíveis:"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
 msgstr "Lista de bate-papos:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
 msgstr "Plugins:"
@@ -769,12 +769,12 @@ msgstr "Permite o uso de variáveis ​​de ambiente específicas do Ollama."
 msgid "Fix multi tools plugins call."
 msgstr "Corrige a chamada de plugins de ferramentas múltiplas."
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr "Informações da conta"
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
 msgstr "Retorna o número da conta."
