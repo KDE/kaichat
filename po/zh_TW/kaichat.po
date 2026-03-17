@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2025-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 00:49+0000\n"
-"PO-Revision-Date: 2026-03-02 05:18+0900\n"
+"PO-Revision-Date: 2026-03-16 16:37+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 25.11.70\n"
+"X-Generator: Lokalize 26.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -193,11 +193,10 @@ msgid "Import"
 msgstr "匯入"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "顯示 Ollama 紀錄。"
+msgstr "啟動 Ollama 程式"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
@@ -355,7 +354,7 @@ msgstr "實體"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP 伺服器"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -532,16 +531,12 @@ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
 msgstr "新增 ChatGPT、Novita AI、DeepInfra、Qwen 支援。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "新增顯示標題聊天列表的選項。"
+msgstr "新增啟動本地 Ollama 用的指令列選項。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "新增工具支援。"
+msgstr "新增 DBus 支援。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
