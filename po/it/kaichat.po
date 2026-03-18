@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 00:49+0000\n"
-"PO-Revision-Date: 2026-03-04 14:55+0100\n"
+"PO-Revision-Date: 2026-03-16 07:47+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -355,7 +355,7 @@ msgstr "Istanze"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "Server MCP"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -539,10 +539,8 @@ msgid "Add CLI option for starting local Ollama."
 msgstr "Aggiunge l'opzione da riga di comando per avviare Ollama locale."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "Aggiunge il supporto per gli "
+msgstr "Aggiunge il supporto DBus."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
