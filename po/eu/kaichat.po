@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 00:49+0000\n"
-"PO-Revision-Date: 2026-01-05 10:13+0100\n"
+"PO-Revision-Date: 2026-03-21 15:44+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -186,28 +186,26 @@ msgstr ""
 "Erabiltzailearen atzera-elikadura aukera erabilgarriak zerrendatzen ditu"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Esportatu berriketak"
+msgstr "Inportatu berriketa"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "Inportatu"
 
 #: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr ""
+msgstr "Abiarazi Ollama programa"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -236,7 +234,7 @@ msgstr "Tresna"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Testua"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -360,7 +358,7 @@ msgstr "Instantziak"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP zerbitzariak"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -401,12 +399,12 @@ msgstr "Esportatu JSON gisa…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "JSON fitxategia"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -421,20 +419,16 @@ msgid "Export as Text…"
 msgstr "Esportatu testu gisa…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Esportatu…"
+msgstr "Inportatu…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "Esportatu JSON gisa…"
+msgstr "Inportatu JSON gisa…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -482,12 +476,10 @@ msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Esportatu berriketak"
+msgstr "Inportatu berriketak"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -543,19 +535,15 @@ msgstr "Tresna-barra nagusia"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:16
 msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-msgstr ""
+msgstr "ChatGPT, Novita AI, DeepInfra, Qwen euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add option for showing list of title chats."
 msgid "Add CLI option for starting local Ollama."
-msgstr "Izenburudun berriketak erakusteko aukera gehitu."
+msgstr "Ollama lokala abiarazteko CLI aukera gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add DBus support."
-msgstr "Tresnen euskarria gehitu."
+msgstr "DBus euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
 #, kde-format
@@ -781,50 +769,44 @@ msgid "Allow to show model info."
 msgstr "Ereduaren informazioa erakusteko aukera ematea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:96
-#, fuzzy, kde-format
-#| msgid "Add attachment support."
+#, kde-format
 msgid "Add import chat support."
-msgstr "Eranskin-euskarria gehitzea."
+msgstr "Berriketa inportatzeko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:97
-#, fuzzy, kde-format
-#| msgid "Add what's new support."
+#, kde-format
 msgid "Add Ollama Online support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Ollama lerroko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:98
-#, fuzzy, kde-format
-#| msgid "Add what's new support."
+#, kde-format
 msgid "Add Ollama Cloud support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Ollama hodeiko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:99
-#, fuzzy, kde-format
-#| msgid "Allow to change font size."
+#, kde-format
 msgid "Allow to duplicate chat."
-msgstr "Letra-tipoa aldatzea baimendu."
+msgstr "Berriketa bikoizteko aukera eman."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:100
-#, fuzzy, kde-format
-#| msgid "Add what's new support."
+#, kde-format
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Ollama-ren ‘Keep Alive’ ezarpenaren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:101
 #, kde-format
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Erakutsi Ollamaren egunkaria."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:102
 #, kde-format
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Ollama sare lokalean eskuragarri jartzea baimendu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:103
-#, fuzzy, kde-format
-#| msgid "Add Highlighting support."
+#, kde-format
 msgid "Add thinking support."
-msgstr "Nabarmentzeko euskarria gehitu."
+msgstr "Pentsamendu-moduaren euskarria gehitu."
 
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
