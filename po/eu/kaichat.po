@@ -1,16 +1,16 @@
 # Translation for kaichat.po to Euskara/Basque (eu).
-# Copyright (C) 2025 This file is copyright:
+# Copyright (C) 2025-2026 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
-# SPDX-FileCopyrightText: 2025 Iñigo Salvador Azurmendi <xalba@ni.eus>
+# SPDX-FileCopyrightText: Iñigo Salvador Azurmendi <xalba@ni.eus>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 02:45+0000\n"
-"PO-Revision-Date: 2025-12-20 08:37+0100\n"
+"PO-Revision-Date: 2026-03-21 15:45+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.0\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,10 +41,9 @@ msgid "AI Chat"
 msgstr "AA berriketa"
 
 #: apps/main.cpp:76
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr "Copyright © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:77
 #, kde-format
@@ -184,24 +183,23 @@ msgstr "Pluginen informazioa itzuli"
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr ""
+"Erabiltzailearen atzera-elikadura aukera erabilgarriak zerrendatzen ditu"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Esportatu berriketak"
+msgstr "Inportatu berriketa"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "Inportatu"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -230,7 +228,7 @@ msgstr "Tresna"
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Testua"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -372,7 +370,7 @@ msgstr "Pluginak"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Erabiltzailearen atzera-elikadura"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -389,12 +387,12 @@ msgstr "Esportatu JSON gisa…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "JSON fitxategia"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
@@ -409,20 +407,16 @@ msgid "Export as Text…"
 msgstr "Esportatu testu gisa…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Esportatu…"
+msgstr "Inportatu…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "Esportatu JSON gisa…"
+msgstr "Inportatu JSON gisa…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
@@ -470,12 +464,10 @@ msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Esportatu berriketak"
+msgstr "Inportatu berriketak"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -530,64 +522,48 @@ msgid "Main Toolbar"
 msgstr "Tresna-barra nagusia"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "Instantzien euskarria gehitu."
+msgstr "Gork instantziaren euskarria gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add User Feedback support."
-msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
+msgstr "Erabiltzailearen atzera-elikadura euskarria gehitzea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "Ereduaren informazioa erakusteko aukera ematea."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add import chat support."
-msgstr "Eranskin-euskarria gehitzea."
+msgstr "Berriketa inportatzeko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "Zer berri-ren euskarria gehitu."
+msgstr "Ollama lerroko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Markdown-en euskarria gehitu."
+msgstr "Ollama hodeiko euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to duplicate chat."
-msgstr "Letra-tipoa aldatzea baimendu."
+msgstr "Berriketa bikoizteko aukera eman."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add spell checking support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
+msgstr "Ollama-ren ‘Keep Alive’ ezarpenaren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Erakutsi Ollamaren egunkaria."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Ollama sare lokalean eskuragarri jartzea baimendu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "Nabarmentzeko euskarria gehitu."
+msgstr "Pentsamendu-moduaren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -800,12 +776,12 @@ msgstr "Tresna anitzen pluginek deia konpontzea."
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Kontuaren informazioa"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Kontuaren zenbakia itzuli."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
