@@ -13,9 +13,13 @@ KAIChatWhatsNewTranslations::~KAIChatWhatsNewTranslations() = default;
 // Use by newFeaturesMD5
 QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
 {
-    const QList<KLazyLocalizedString> info{kli18n("Add ChatGPT, Novita AI, DeepInfra, Qwen support."),
-                                           kli18n("Add CLI option for starting local Ollama."),
-                                           kli18n("Add DBus support.")};
+    const QList<KLazyLocalizedString> info{
+        kli18n("Add ChatGPT, Novita AI, DeepInfra, Qwen support."),
+        kli18n("Add CLI option for starting local Ollama."),
+        kli18n("Add DBus support."),
+        kli18n("Add Internal Plugin support."),
+        kli18n("Add MCP Server support."),
+    };
     return info;
 }
 
