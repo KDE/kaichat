@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-25 00:48+0000\n"
-"PO-Revision-Date: 2026-03-14 09:51-0300\n"
+"PO-Revision-Date: 2026-03-25 09:13-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -544,16 +544,12 @@ msgid "Add DBus support."
 msgstr "Adiciona suporte ao DBus."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Internal Plugin support."
-msgstr "Adiciona suporte à instância."
+msgstr "Adiciona suporte à plugin interno."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add MCP Server support."
-msgstr "Adiciona suporte ao Markdown."
+msgstr "Adiciona suporte ao servidor MCP."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

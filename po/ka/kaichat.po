@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-25 00:48+0000\n"
-"PO-Revision-Date: 2026-03-14 06:36+0100\n"
+"PO-Revision-Date: 2026-03-25 07:02+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -545,16 +545,12 @@ msgid "Add DBus support."
 msgstr "დაემატა DBus-ის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Internal Plugin support."
-msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
+msgstr "დაემატა შიდა დამატებების მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add MCP Server support."
-msgstr "დაემატა მარკდაუნის მხარდაჭერა."
+msgstr "დაემატა MCP სერვერის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format

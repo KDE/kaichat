@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-25 00:48+0000\n"
-"PO-Revision-Date: 2026-03-14 13:23+0200\n"
+"PO-Revision-Date: 2026-03-25 08:39+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -545,16 +545,12 @@ msgid "Add DBus support."
 msgstr "Додано підтримку DBus."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Internal Plugin support."
-msgstr "Додано підтримку екземплярів програми."
+msgstr "Додано підтримку вбудованих додатків."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add MCP Server support."
-msgstr "Додано підтримку Markdown."
+msgstr "Додано підтримку сервера MCP"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
