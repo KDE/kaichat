@@ -539,16 +539,12 @@ msgid "Add DBus support."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Internal Plugin support."
-msgstr "添加实例支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add MCP Server support."
-msgstr "添加 Markdown 支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
