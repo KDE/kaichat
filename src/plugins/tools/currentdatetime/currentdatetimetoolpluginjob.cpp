@@ -28,29 +28,26 @@ void CurrentDateTimeToolPluginJob::start()
     }
     Q_EMIT toolInProgress(i18n("Get Current Date Time."));
     QString result;
-    const QStringList lst = requiredArguments();
-    for (const auto &arg : lst) {
-        for (const auto &resultTool : std::as_const(mToolArguments)) {
-            if (resultTool.keyTool == arg) {
-                const QString value = resultTool.value;
-                if (arg == CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()) {
-                    const CurrentDateTimeToolPluginUtils::DateTimeEnum typeDateTime = CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(value);
-                    switch (typeDateTime) {
-                    case CurrentDateTimeToolPluginUtils::DateTimeEnum::Time:
-                        result = i18n("Current time is %1", QLocale().toString(QTime::currentTime()));
-                        break;
-                    case CurrentDateTimeToolPluginUtils::DateTimeEnum::Date:
-                        result = i18n("Current date is %1", QLocale().toString(QDate::currentDate()));
-                        break;
-                    case CurrentDateTimeToolPluginUtils::DateTimeEnum::DateTime:
-                        result = i18n("Current date time is %1", QLocale().toString(QDateTime::currentDateTime()));
-                        break;
-                    case CurrentDateTimeToolPluginUtils::DateTimeEnum::Unknown:
-                        qCWarning(KAICHAT_CURRENTDATETIME_LOG) << "Invalid date time argument" << value;
-                        break;
-                    }
-                }
+    for (const auto &resultTool : std::as_const(mToolArguments)) {
+        if (resultTool.keyTool == CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()) {
+            const QString value = resultTool.value;
+            const CurrentDateTimeToolPluginUtils::DateTimeEnum typeDateTime = CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(value);
+            switch (typeDateTime) {
+            case CurrentDateTimeToolPluginUtils::DateTimeEnum::Time:
+                result = i18n("Current time is %1", QLocale().toString(QTime::currentTime()));
+                break;
+            case CurrentDateTimeToolPluginUtils::DateTimeEnum::Date:
+                result = i18n("Current date is %1", QLocale().toString(QDate::currentDate()));
+                break;
+            case CurrentDateTimeToolPluginUtils::DateTimeEnum::DateTime:
+                result = i18n("Current date time is %1", QLocale().toString(QDateTime::currentDateTime()));
+                break;
+            case CurrentDateTimeToolPluginUtils::DateTimeEnum::Unknown:
+                qCWarning(KAICHAT_CURRENTDATETIME_LOG) << "Invalid date time argument" << value;
+                break;
             }
+        } else {
+            qCWarning(KAICHAT_CURRENTDATETIME_LOG) << "Invalid key " << resultTool.keyTool;
         }
     }
 
