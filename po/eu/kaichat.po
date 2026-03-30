@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-25 00:48+0000\n"
-"PO-Revision-Date: 2026-03-21 15:44+0100\n"
+"PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -546,16 +546,12 @@ msgid "Add DBus support."
 msgstr "DBus euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Internal Plugin support."
-msgstr "Instantzien euskarria gehitu."
+msgstr "Barne-pluginen euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add MCP Server support."
-msgstr "Markdown-en euskarria gehitu."
+msgstr "MCP zerbitzariaren euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:32
 #, kde-format
