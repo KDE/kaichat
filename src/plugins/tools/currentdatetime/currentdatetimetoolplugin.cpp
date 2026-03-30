@@ -27,6 +27,7 @@ CurrentDateTimeToolPlugin::CurrentDateTimeToolPlugin(QObject *parent, const QVar
                               CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(CurrentDateTimeToolPluginUtils::DateTime)});
         mProperties.append(prop);
     }
+    mRequired = {CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()};
 }
 
 CurrentDateTimeToolPlugin::~CurrentDateTimeToolPlugin() = default;
