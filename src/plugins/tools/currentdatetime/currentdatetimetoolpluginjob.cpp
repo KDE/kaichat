@@ -54,7 +54,7 @@ void CurrentDateTimeToolPluginJob::start()
         }
     }
 
-    qDebug() << " toolArguments " << toolArguments();
+    qCDebug(KAICHAT_CURRENTDATETIME_LOG) << " toolArguments " << toolArguments();
     const TextAutoGenerateText::TextAutoGenerateTextToolPlugin::TextToolPluginInfo info{
         .content = result,
         .messageUuid = mMessageUuid,
