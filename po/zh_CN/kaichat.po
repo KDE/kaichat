@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -256,12 +256,12 @@ msgstr "<qt>您的新请求位于：<br /><a href='%1'>%1</a> </qt>"
 msgid "The Current Date Time"
 msgstr "当前日期和时间"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "获取当前的日期和时间"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "使用此工具获取当前日期时间"
@@ -276,17 +276,17 @@ msgstr "配置日期时间工具"
 msgid "Get Current Date Time."
 msgstr "获取当前的日期和时间。"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "当前时间是 %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "当前时间是 %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "当前日期时间是 %1"

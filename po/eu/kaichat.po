@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -260,12 +260,12 @@ msgstr "<qt>Eskaera berria hemen aurki dezakezu:<br /><a href='%1'>%1</a></qt>"
 msgid "The Current Date Time"
 msgstr "Uneko data ordua"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Lortu Uneko Daata Ordua"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Erabili tresna hau uneko data ordua lortzeko"
@@ -280,17 +280,17 @@ msgstr "Konfiguratu Data Ordua tresna"
 msgid "Get Current Date Time."
 msgstr "Lortu Uneko Data Ordua."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "Uneko ordua %1 da"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "Uneko data %1 da"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Uneko data ordua %1 da"

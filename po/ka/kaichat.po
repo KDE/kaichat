@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2026-03-25 07:02+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -259,12 +259,12 @@ msgstr ""
 msgid "The Current Date Time"
 msgstr "მიმდინარე დრო და თარიღი"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "მიმდინარე დროის და თარიღის მიღება"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "გამოიყენეთ ეს ხელსაწყო მიმდინარე დროის და თარიღის მისაღებად"
@@ -279,17 +279,17 @@ msgstr "თარიღისა და დროის ხელსაწყო
 msgid "Get Current Date Time."
 msgstr "მიმდინარე დროის და თარიღის მიღება."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "მიმდინარე დროა %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "მიმდინარე თარიღია %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "მიმდინარე დრო და თარიღია: %1"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2026-03-26 12:26+0100\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: \n"
@@ -255,12 +255,12 @@ msgstr ""
 msgid "The Current Date Time"
 msgstr "L'heure et la date courante"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Obtenir l'heure et la date courantes"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Utilisez cet outil pour obtenir la date et l'heure courantes"
@@ -275,17 +275,17 @@ msgstr "Configurer l'outil « Date et heure »"
 msgid "Get Current Date Time."
 msgstr "Obtenir l'heure et la date courantes."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "L'heure courante est %1."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "La date courante est %1."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "L'heure et date courantes sont %1"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-03-25 00:48+0000\n"
+"POT-Creation-Date: 2026-03-31 00:48+0000\n"
 "PO-Revision-Date: 2026-03-25 06:43+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -256,12 +256,12 @@ msgstr "<qt>Yeni isteği şurada bulabilirsiniz:<br /><a href='%1'>%1</a> </qt>"
 msgid "The Current Date Time"
 msgstr "Geçerli Tarih ve Zaman"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Geçerli Tarihi ve Zamanı Al"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Şu anki tarihi ve zamanı almak için bu aracı kullanın"
@@ -276,17 +276,17 @@ msgstr "Tarih/Zaman Aracını Yapılandır"
 msgid "Get Current Date Time."
 msgstr "Geçerli Tarihi ve Zamanı Al"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "Geçerli zaman %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "Geçerli tarih %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Geçerli tarih ve zaman %1"
