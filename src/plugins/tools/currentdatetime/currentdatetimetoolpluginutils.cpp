@@ -20,7 +20,6 @@ QString CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(DateTimeEnum
         break;
     }
     Q_UNREACHABLE();
-    return {};
 }
 
 CurrentDateTimeToolPluginUtils::DateTimeEnum CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(const QString &str)
@@ -35,7 +34,6 @@ CurrentDateTimeToolPluginUtils::DateTimeEnum CurrentDateTimeToolPluginUtils::con
         qCWarning(KAICHAT_CURRENTDATETIME_LOG) << "Invalid date time type:" << str;
         return CurrentDateTimeToolPluginUtils::DateTimeEnum::Unknown;
     }
-    return CurrentDateTimeToolPluginUtils::DateTimeEnum::Unknown;
 }
 
 QString CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()
