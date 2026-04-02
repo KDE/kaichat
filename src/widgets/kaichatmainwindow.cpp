@@ -6,6 +6,7 @@
 
 #include "kaichatmainwindow.h"
 
+#include "kaichat_widget_debug.h"
 #include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
@@ -376,7 +377,7 @@ void KAIChatMainWindow::disableActions()
 void KAIChatMainWindow::updateActions()
 {
     const bool status = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
-    qDebug() << " void KAIChatMainWindow::updateActions()";
+    qCDebug(KAICHAT_WIDGET_LOG) << " void KAIChatMainWindow::updateActions()";
     mShowQuickAskAction->setEnabled(status);
     mExportMenu->setEnabled(status && !mManager->currentChatId().isEmpty());
 }
@@ -408,7 +409,7 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         mManager->setDebug(true);
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
-        qDebug() << " INSTANCE ***************";
+        qCDebug(KAICHAT_WIDGET_LOG) << " INSTANCE ***************";
         // TODO
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat))) {
