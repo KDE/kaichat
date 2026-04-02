@@ -460,7 +460,7 @@ void KAIChatMainWindow::slotDownloadModelFinished(const QString &modelName)
 {
     auto notification = new KNotification(u"download-done"_s, KNotification::CloseOnTimeout);
     notification->setTitle(i18n("Model Download Done"));
-    notification->setText(i18n("Model %1 was download.", modelName));
+    notification->setText(i18n("Model %1 was downloaded.", modelName));
     notification->sendEvent();
 }
 

@@ -19,7 +19,7 @@ KAIChatExportChatAsMardownJob::~KAIChatExportChatAsMardownJob() = default;
 
 QString KAIChatExportChatAsMardownJob::fileFilter()
 {
-    return u"%1 (*.md)"_s.arg(i18n("Mardown"));
+    return u"%1 (*.md)"_s.arg(i18n("Markdown"));
 }
 
 void KAIChatExportChatAsMardownJob::exportChat()
