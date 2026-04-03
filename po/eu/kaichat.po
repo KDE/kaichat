@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -203,8 +203,9 @@ msgid "Start Ollama program"
 msgstr "Abiarazi Ollama programa"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, kde-format
-msgid "Mardown"
+#, fuzzy, kde-format
+#| msgid "Mardown"
+msgid "Markdown"
 msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -430,37 +431,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Inportatu JSON gisa…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "Kate %1 aurkitu da."
 msgstr[1] "%1 kate aurkitu dira."
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr "Zer berri"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Erakutsi artxiboa"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Bilatu datu-basean…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Ireki Galdera azkarra…"
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -469,7 +470,7 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -493,8 +494,9 @@ msgid "Model Download Done"
 msgstr "Eredua zama-jaistea burutu da"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, kde-format
-msgid "Model %1 was download."
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr "%1 eredua zama-jaitsi da."
 
 #. i18n: ectx: Menu (settings)

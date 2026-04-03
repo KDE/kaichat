@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
-"PO-Revision-Date: 2026-03-25 07:02+0100\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"PO-Revision-Date: 2026-04-02 04:47+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -200,8 +200,9 @@ msgid "Start Ollama program"
 msgstr "Ollama-ის გაშვება"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, kde-format
-msgid "Mardown"
+#, fuzzy, kde-format
+#| msgid "Mardown"
+msgid "Markdown"
 msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -429,37 +430,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "შემოტანა JSON-ის სახით…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "ნაპოვნია %1 სტრიქონი."
 msgstr[1] "ნაპოვნია %1 სტრიქონი."
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr "რა არის ახალი"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "ძებნა მონაცემთა ბაზაში…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "სწრაფი კითხვის გახსნა…"
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -468,7 +469,7 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -492,8 +493,9 @@ msgid "Model Download Done"
 msgstr "მოდელის გადმოწერა დასრულდა"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, kde-format
-msgid "Model %1 was download."
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr "მოდელი %1 გადმოწერილია."
 
 #. i18n: ectx: Menu (settings)
@@ -554,7 +556,7 @@ msgstr "დაემატა MCP სერვერის მხარდაჭ
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "შიდა ხელსაწყოების მეტამონაცემების ჩვენება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
 "PO-Revision-Date: 2025-06-19 10:20+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -206,7 +206,7 @@ msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
-msgid "Mardown"
+msgid "Markdown"
 msgstr ""
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -438,44 +438,44 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Exportar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Amosar o arquivo"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>Isto agocha a barra de menú. Prema %1 para amosala de novo.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -504,7 +504,7 @@ msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:463
 #, kde-format
-msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr ""
 
 #. i18n: ectx: Menu (settings)

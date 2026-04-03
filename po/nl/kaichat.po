@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
-"PO-Revision-Date: 2026-03-25 16:11+0100\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"PO-Revision-Date: 2026-04-02 14:09+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -200,8 +200,9 @@ msgid "Start Ollama program"
 msgstr "Ollama-programma starten"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, kde-format
-msgid "Mardown"
+#, fuzzy, kde-format
+#| msgid "Mardown"
+msgid "Markdown"
 msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -428,37 +429,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Als JSON exporteren…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "%1 tekenreeks gevonden."
 msgstr[1] "%1 tekenreeksen gevonden."
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr "Wat is nieuw"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archief tonen"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "In database zoeken…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Snel vragen openen…"
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -467,7 +468,7 @@ msgstr ""
 "<qt>Hierdoor wordt de menubalk geheel verborgen. U kunt die weer zichtbaar "
 "maken door %1 te typen.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -491,8 +492,9 @@ msgid "Model Download Done"
 msgstr "Downloaden van model gedaan"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, kde-format
-msgid "Model %1 was download."
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr "Model %1 was gedownload."
 
 #. i18n: ectx: Menu (settings)
@@ -553,7 +555,7 @@ msgstr "Ondersteuning voor MCP-server toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "Toon metagegevens van interne hulpmiddelen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format

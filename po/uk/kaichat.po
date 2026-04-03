@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
-"PO-Revision-Date: 2026-03-25 08:39+0200\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"PO-Revision-Date: 2026-04-02 09:21+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -200,8 +200,9 @@ msgid "Start Ollama program"
 msgstr "Запустити програму Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, kde-format
-msgid "Mardown"
+#, fuzzy, kde-format
+#| msgid "Mardown"
+msgid "Markdown"
 msgstr "Розмітка"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -427,7 +428,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Експортувати як JSON…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -436,30 +437,30 @@ msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -468,7 +469,7 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -492,8 +493,9 @@ msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, kde-format
-msgid "Model %1 was download."
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr "Модель %1 отримано."
 
 #. i18n: ectx: Menu (settings)
@@ -554,7 +556,7 @@ msgstr "Додано підтримку сервера MCP"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "Показ метаданих зовнішніх інструментів."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format

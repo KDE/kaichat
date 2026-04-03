@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-02 00:47+0000\n"
-"PO-Revision-Date: 2026-03-25 12:30+0100\n"
+"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"PO-Revision-Date: 2026-04-02 11:27+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -201,8 +201,9 @@ msgid "Start Ollama program"
 msgstr "Iniciar el programa Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, kde-format
-msgid "Mardown"
+#, fuzzy, kde-format
+#| msgid "Mardown"
+msgid "Markdown"
 msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
@@ -429,37 +430,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:92
+#: widgets/kaichatmainwindow.cpp:93
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "Se ha encontrado %1 cadena."
 msgstr[1] "Se han encontrado %1 cadenas."
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:158
 #, kde-format
 msgid "What's new"
 msgstr "Novedades"
 
-#: widgets/kaichatmainwindow.cpp:161
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:175
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Buscar en la base de datos…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:213
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Abrir pregunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:306
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -468,7 +469,7 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:309
+#: widgets/kaichatmainwindow.cpp:310
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
@@ -492,8 +493,9 @@ msgid "Model Download Done"
 msgstr "Descarga de modelo terminada"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, kde-format
-msgid "Model %1 was download."
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
+msgid "Model %1 was downloaded."
 msgstr "Se ha descargado el modelo %1."
 
 #. i18n: ectx: Menu (settings)
@@ -554,7 +556,7 @@ msgstr "Se ha añadido compatibilidad con el servidor MCP."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "Mostrar metadatos de las herramientas internas."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
