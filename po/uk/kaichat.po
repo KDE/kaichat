@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-04-02 09:21+0300\n"
+"PO-Revision-Date: 2026-04-03 12:05+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -200,10 +200,9 @@ msgid "Start Ollama program"
 msgstr "Запустити програму Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Розмітка"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -493,10 +492,9 @@ msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
-msgstr "Модель %1 отримано."
+msgstr "Було отримано модель %1."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:15

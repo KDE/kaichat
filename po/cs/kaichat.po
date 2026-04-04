@@ -202,7 +202,7 @@ msgstr ""
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37

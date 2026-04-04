@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-04-02 10:30+0200\n"
+"PO-Revision-Date: 2026-04-03 08:17+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -201,10 +201,9 @@ msgid "Start Ollama program"
 msgstr "Inicia el programa de l'Ollama"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -492,8 +491,7 @@ msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "S'ha baixat el model %1."
 

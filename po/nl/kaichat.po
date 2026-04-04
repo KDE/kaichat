@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-04-02 14:09+0200\n"
+"PO-Revision-Date: 2026-04-03 11:24+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -200,8 +200,7 @@ msgid "Start Ollama program"
 msgstr "Ollama-programma starten"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -492,8 +491,7 @@ msgid "Model Download Done"
 msgstr "Downloaden van model gedaan"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 was gedownload."
 

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-04-02 14:29+0300\n"
+"PO-Revision-Date: 2026-04-03 10:13+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -199,8 +199,7 @@ msgid "Start Ollama program"
 msgstr "Ollama programını göster"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -490,8 +489,7 @@ msgid "Model Download Done"
 msgstr "Model İndirildi"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."
 
