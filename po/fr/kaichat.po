@@ -4,9 +4,9 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-03-26 12:26+0100\n"
+"PO-Revision-Date: 2026-04-03 10:04+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
-"Language-Team: \n"
+"Language-Team: fr\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -553,7 +553,7 @@ msgstr "Ajout de la prise en charge de serveurs « MCP »."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "Afficher les métadonnées des outils internes."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
