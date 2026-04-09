@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-03 00:47+0000\n"
-"PO-Revision-Date: 2026-03-25 14:14+0100\n"
+"PO-Revision-Date: 2026-04-04 08:08+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -199,10 +199,9 @@ msgid "Start Ollama program"
 msgstr "Avvia il programma Ollama."
 
 #: core/kaichatexportchatasmardownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -491,8 +490,7 @@ msgid "Model Download Done"
 msgstr "Scaricamento del modello completato"
 
 #: widgets/kaichatmainwindow.cpp:463
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Il modello %1 è stato scaricato."
 
@@ -554,7 +552,7 @@ msgstr "Aggiunge il supporto Server MCP."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
 msgid "Show internal tools metadata."
-msgstr ""
+msgstr "Mostra i metadati degli strumenti interni."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:33
 #, kde-format
