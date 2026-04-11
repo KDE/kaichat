@@ -30,6 +30,7 @@
   <name xml:lang="nl">KAIChat</name>
   <name xml:lang="pl">KAIChat</name>
   <name xml:lang="pt-BR">KAIChat</name>
+  <name xml:lang="sk">KAIChat</name>
   <name xml:lang="sl">KAIChat</name>
   <name xml:lang="sv">KAIChat</name>
   <name xml:lang="tr">KAIChat</name>
@@ -56,6 +57,7 @@
   <summary xml:lang="nl">AI-chat</summary>
   <summary xml:lang="pl">Okienko AI</summary>
   <summary xml:lang="pt-BR">Chat de IA</summary>
+  <summary xml:lang="sk">AI Chat</summary>
   <summary xml:lang="sl">Klepet z umetno inteligenco</summary>
   <summary xml:lang="sv">AI-chatt</summary>
   <summary xml:lang="tr">Yapay Zekâ Sohbeti</summary>
@@ -84,6 +86,7 @@
     <p xml:lang="nl">KAIChat is een AI-chat.</p>
     <p xml:lang="pl">KAIChat program do rozmawiania z AI.</p>
     <p xml:lang="pt-BR">O KAIChat é um Chat de IA.</p>
+    <p xml:lang="sk">KAIChat je AI chat.</p>
     <p xml:lang="sl">KAIChat je klepet z umetno inteligenco.</p>
     <p xml:lang="sv">KAIChat är en AI-chatt.</p>
     <p xml:lang="tr">KAIChat, bir yapay zekâ ile sohbet istemcisidir.</p>
