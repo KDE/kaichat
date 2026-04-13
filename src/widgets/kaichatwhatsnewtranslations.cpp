@@ -32,7 +32,7 @@ QList<TextAddonsWidgets::WhatsNewInfo> KAIChatWhatsNewTranslations::createWhatsN
         info.setNewFeatures({
             i18n("Add what's new support."),
             i18n("Add instance support."),
-            i18n("Add Mardown support."),
+            i18n("Add Markdown support."),
             i18n("Add Highlighting support."),
         });
         info.setVersion(u"0.4.0"_s);

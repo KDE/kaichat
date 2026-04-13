@@ -7,12 +7,12 @@
 #include "libkaichatcore_export.h"
 #include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
 
-class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMardownJob : public TextAutoGenerateText::TextAutoGenerateExportChatBaseJob
+class LIBKAICHATCORE_EXPORT KAIChatExportChatAsMarkdownJob : public TextAutoGenerateText::TextAutoGenerateExportChatBaseJob
 {
     Q_OBJECT
 public:
-    explicit KAIChatExportChatAsMardownJob(QObject *parent = nullptr);
-    ~KAIChatExportChatAsMardownJob() override;
+    explicit KAIChatExportChatAsMarkdownJob(QObject *parent = nullptr);
+    ~KAIChatExportChatAsMarkdownJob() override;
 
     [[nodiscard]] static QString fileFilter();
 

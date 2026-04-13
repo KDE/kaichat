@@ -6,7 +6,7 @@
 
 #include "kaichatexportmenu.h"
 #include "kaichat_widget_debug.h"
-#include "kaichatexportchatasmardownjob.h"
+#include "kaichatexportchatasmarkdownjob.h"
 #include "kaichatexportchatastextjob.h"
 #include <KLocalizedString>
 #include <TextAutoGenerateText/TextAutoGenerateExportChatAsJsonJob>
@@ -26,7 +26,7 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
     act = new QAction(i18nc("@action", "Export as Markdown…"), this);
     connect(act, &QAction::triggered, this, [this] {
         mConvertToType = ConvertToType::Markdown;
-        mFileFilter = KAIChatExportChatAsMardownJob::fileFilter();
+        mFileFilter = KAIChatExportChatAsMarkdownJob::fileFilter();
         Q_EMIT exportInfoRequested();
     });
     addAction(act);
@@ -58,7 +58,7 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         job = new TextAutoGenerateText::TextAutoGenerateExportChatAsJsonJob(this);
         break;
     case ConvertToType::Markdown:
-        job = new KAIChatExportChatAsMardownJob(this);
+        job = new KAIChatExportChatAsMarkdownJob(this);
         break;
     case ConvertToType::Text:
         job = new KAIChatExportChatAsTextJob(this);

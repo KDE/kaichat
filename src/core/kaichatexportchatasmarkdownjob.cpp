@@ -3,26 +3,26 @@
  *
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
-#include "kaichatexportchatasmardownjob.h"
+#include "kaichatexportchatasmarkdownjob.h"
 
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QFile>
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatExportChatAsMardownJob::KAIChatExportChatAsMardownJob(QObject *parent)
+KAIChatExportChatAsMarkdownJob::KAIChatExportChatAsMarkdownJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateExportChatBaseJob{parent}
 {
 }
 
-KAIChatExportChatAsMardownJob::~KAIChatExportChatAsMardownJob() = default;
+KAIChatExportChatAsMarkdownJob::~KAIChatExportChatAsMarkdownJob() = default;
 
-QString KAIChatExportChatAsMardownJob::fileFilter()
+QString KAIChatExportChatAsMarkdownJob::fileFilter()
 {
     return u"%1 (*.md)"_s.arg(i18n("Markdown"));
 }
 
-void KAIChatExportChatAsMardownJob::exportChat()
+void KAIChatExportChatAsMarkdownJob::exportChat()
 {
     QString txt;
     txt = u"# %1"_s.arg(mInfo.chatTitle);
@@ -58,4 +58,4 @@ void KAIChatExportChatAsMardownJob::exportChat()
     deleteLater();
 }
 
-#include "moc_kaichatexportchatasmardownjob.cpp"
+#include "moc_kaichatexportchatasmarkdownjob.cpp"

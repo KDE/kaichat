@@ -10,8 +10,8 @@ ecm_qt_declare_logging_category(libkaichatcore HEADER kaichat_core_debug.h IDENT
 target_sources(
     libkaichatcore
     PRIVATE
-        kaichatexportchatasmardownjob.h
-        kaichatexportchatasmardownjob.cpp
+        kaichatexportchatasmarkdownjob.h
+        kaichatexportchatasmarkdownjob.cpp
         kaichatexportchatastextjob.h
         kaichatexportchatastextjob.cpp
         kaichatcommandlineparser.h
