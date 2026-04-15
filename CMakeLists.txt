@@ -196,7 +196,7 @@ endif()
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
-ecm_set_disabled_deprecation_versions(QT 6.11.0
+ecm_set_disabled_deprecation_versions(QT 6.12.0
     KF 6.25.0
 )
 
