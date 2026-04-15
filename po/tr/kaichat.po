@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"POT-Creation-Date: 2026-04-15 00:50+0000\n"
 "PO-Revision-Date: 2026-04-03 10:13+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -198,30 +198,30 @@ msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Ollama programını göster"
 
-#: core/kaichatexportchatasmardownjob.cpp:22
+#: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
-#: core/kaichatexportchatasmardownjob.cpp:37
+#: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
 msgstr "Kullanıcı"
 
-#: core/kaichatexportchatasmardownjob.cpp:40
+#: core/kaichatexportchatasmarkdownjob.cpp:40
 #: core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
 msgstr "Yardımcı"
 
-#: core/kaichatexportchatasmardownjob.cpp:43
+#: core/kaichatexportchatasmarkdownjob.cpp:43
 #: core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
 msgstr "Sistem"
 
-#: core/kaichatexportchatasmardownjob.cpp:46
+#: core/kaichatexportchatasmarkdownjob.cpp:46
 #: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
@@ -564,8 +564,9 @@ msgid "Add instance support."
 msgstr "Örnek desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
-#, kde-format
-msgid "Add Mardown support."
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
+msgid "Add Markdown support."
 msgstr "Markdown desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-03 00:47+0000\n"
+"POT-Creation-Date: 2026-04-15 00:50+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -202,31 +202,31 @@ msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Abiarazi Ollama programa"
 
-#: core/kaichatexportchatasmardownjob.cpp:22
+#: core/kaichatexportchatasmarkdownjob.cpp:22
 #, fuzzy, kde-format
 #| msgid "Mardown"
 msgid "Markdown"
 msgstr "Mardown"
 
-#: core/kaichatexportchatasmardownjob.cpp:37
+#: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
 msgstr "Erabiltzailea"
 
-#: core/kaichatexportchatasmardownjob.cpp:40
+#: core/kaichatexportchatasmarkdownjob.cpp:40
 #: core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
 msgstr "Laguntzailea"
 
-#: core/kaichatexportchatasmardownjob.cpp:43
+#: core/kaichatexportchatasmarkdownjob.cpp:43
 #: core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
 msgstr "Sistema"
 
-#: core/kaichatexportchatasmardownjob.cpp:46
+#: core/kaichatexportchatasmarkdownjob.cpp:46
 #: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
@@ -570,8 +570,9 @@ msgid "Add instance support."
 msgstr "Instantzien euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
-#, kde-format
-msgid "Add Mardown support."
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
+msgid "Add Markdown support."
 msgstr "Markdown-en euskarria gehitu."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
