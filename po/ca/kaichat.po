@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-15 00:50+0000\n"
-"PO-Revision-Date: 2026-04-03 08:17+0200\n"
+"PO-Revision-Date: 2026-04-15 09:46+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -566,8 +566,7 @@ msgid "Add instance support."
 msgstr "Afegeix la implementació d'instàncies."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "Add Markdown support."
 msgstr "Afegeix la implementació del Markdown."
 

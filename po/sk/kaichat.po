@@ -564,8 +564,7 @@ msgid "Add instance support."
 msgstr "Pridaná podpora inštancií."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "Add Markdown support."
 msgstr "Pridaná podpora Markdown."
 

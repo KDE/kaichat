@@ -561,10 +561,9 @@ msgid "Add instance support."
 msgstr "添加实例支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "Add Markdown support."
-msgstr "添加 Markdown 支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format
