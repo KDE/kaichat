@@ -9,7 +9,7 @@
 
 void KAIChatUtils::createQuickAsk(QWidget *parent)
 {
-    auto *manager = new TextAutoGenerateText::TextAutoGenerateManager;
+    auto manager = new TextAutoGenerateText::TextAutoGenerateManager;
     auto quickAskdialog = new TextAutoGenerateText::TextAutoGenerateQuickAskDialog(manager, parent);
     manager->setParent(quickAskdialog);
     quickAskdialog->exec();
