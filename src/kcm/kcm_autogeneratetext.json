@@ -1,0 +1,14 @@
+{
+    "KPlugin": {
+        "Description": "Configure llm support",
+        "Icon": "kaichat",
+        "Name": "LLm support",
+        "ServiceTypes": [
+            "KCModule"
+        ]
+    },
+    "X-KDE-FactoryName": "kaichat",
+    "X-KDE-LocalUser": "false",
+    "X-KDE-ParentApp": "kcontrol",
+    "X-KDE-System-Settings-Parent-Category": "hardware"
+}
