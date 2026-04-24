@@ -20,6 +20,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Internal Plugin support."),
         kli18n("Add MCP Server support."),
         kli18n("Show internal tools metadata."),
+        kli18n("Add KCM support."),
     };
     return info;
 }
