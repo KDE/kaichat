@@ -7,14 +7,18 @@
 #include "kcmautogeneratetext.h"
 #include <KPluginFactory>
 #include <QVBoxLayout>
-
+#include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <TextAutoGenerateText/TextAutoGenerateTextInstancesManagerWidget>
 K_PLUGIN_CLASS_WITH_JSON(KCMAutoGenerateText, "kcm_autogeneratetext.json")
 
 KCMAutoGenerateText::KCMAutoGenerateText(QObject *parent, const KPluginMetaData &data)
     : KCModule(parent, data)
 {
     auto topLayout = new QVBoxLayout(widget());
-    // TODO
+    auto manager = new TextAutoGenerateText::TextAutoGenerateManager;
+
+    auto managerWidget = new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, widget());
+    topLayout->addWidget(managerWidget);
 }
 
 #include "kcmautogeneratetext.moc"
