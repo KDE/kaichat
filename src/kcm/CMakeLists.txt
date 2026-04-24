@@ -11,8 +11,10 @@ target_sources(
 
 target_link_libraries(
     kcm_autogeneratetext
-    Qt::Core
-    KF6::KCMUtils
+    PRIVATE
+        Qt::Core
+        KF6::KCMUtils
+        KF6::TextAutoGenerateText
 )
 
 kcmutils_generate_desktop_file(kcm_autogeneratetext)
