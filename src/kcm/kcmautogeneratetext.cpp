@@ -16,7 +16,7 @@ KCMAutoGenerateText::KCMAutoGenerateText(QObject *parent, const KPluginMetaData 
 {
     auto topLayout = new QVBoxLayout(widget());
     auto manager = new TextAutoGenerateText::TextAutoGenerateManager;
-
+    manager->loadEngine();
     auto managerWidget = new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, widget());
     topLayout->addWidget(managerWidget);
 }
