@@ -5,6 +5,7 @@ add_subdirectory(core)
 add_subdirectory(widgets)
 add_subdirectory(apps)
 add_subdirectory(plugins)
+add_subdirectory(kcm)
 
 if(APPLE)
     set_target_properties(
