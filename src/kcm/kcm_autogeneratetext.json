@@ -10,5 +10,5 @@
     "X-KDE-FactoryName": "kaichat",
     "X-KDE-LocalUser": "false",
     "X-KDE-ParentApp": "kcontrol",
-    "X-KDE-System-Settings-Parent-Category": "hardware"
+    "X-KDE-System-Settings-Parent-Category": "workspace"
 }
