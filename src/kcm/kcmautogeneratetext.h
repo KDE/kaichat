@@ -7,9 +7,21 @@
 
 #include <KCModule>
 
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateTextInstancesManagerWidget;
+}
 class KCMAutoGenerateText : public KCModule
 {
     Q_OBJECT
 public:
     explicit KCMAutoGenerateText(QObject *parent, const KPluginMetaData &data);
+
+public Q_SLOTS:
+    void load() override;
+    void save() override;
+    void defaults() override;
+
+private:
+    TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget *mManagerWidget = nullptr;
 };
