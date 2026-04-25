@@ -107,7 +107,7 @@ include(ECMQtDeclareLoggingCategory)
 include(GenerateExportHeader)
 include(ECMDeprecationSettings)
 include(ECMCheckOutboundLicense)
-
+add_compile_definitions(QT_ENABLE_STRICT_MODE_UP_TO=0x060B00)
 find_package(KF6DocTools ${KF_MIN_VERSION})
 set_package_properties(
     KF6DocTools
