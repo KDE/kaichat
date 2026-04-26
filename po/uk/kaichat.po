@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:48+0000\n"
-"PO-Revision-Date: 2026-04-15 08:13+0300\n"
+"PO-Revision-Date: 2026-04-25 07:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -557,10 +557,8 @@ msgid "Show internal tools metadata."
 msgstr "Показ метаданих зовнішніх інструментів."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Add DBus support."
 msgid "Add KCM support."
-msgstr "Додано підтримку DBus."
+msgstr "Додано підтримку KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format

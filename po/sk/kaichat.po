@@ -145,7 +145,7 @@ msgstr "Vrátiť zoznamy chatov"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr "Zadajte užívateľské meno"
+msgstr "Aktivovať režim ladenia"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
@@ -207,7 +207,7 @@ msgstr "Markdown"
 #: core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
-msgstr "Užívateľské meno:"
+msgstr "Používateľ"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
 #: core/kaichatexportchatastextjob.cpp:40
@@ -225,7 +225,7 @@ msgstr "Systém"
 #: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
-msgstr "Nástroje"
+msgstr "Nástroj"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -235,7 +235,7 @@ msgstr "Text"
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr "Názov kanála"
+msgstr "Zdieľať text…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
@@ -360,7 +360,7 @@ msgstr "MCP servery"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Spell Checking"
+msgstr "Kontrola pravopisu"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
@@ -378,7 +378,7 @@ msgstr "Moduly"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "User Feedback"
+msgstr "Spätná väzba používateľa"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -553,11 +553,10 @@ msgstr "Pridaná podpora MCP servera."
 msgid "Show internal tools metadata."
 msgstr "Zobraziť metadáta interných nástrojov."
 
+#
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Add DBus support."
 msgid "Add KCM support."
-msgstr "Pridaná podpora DBus."
+msgstr "Pridaná podpora KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
@@ -680,7 +679,7 @@ msgstr "Pridaná informačná správa o priebehu nástroja."
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Fix icon on windows."
-msgstr "Fix icon on windows."
+msgstr "Oprava ikony v systéme Windows."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:74
 #, kde-format
@@ -826,18 +825,18 @@ msgstr "Informácie o konte"
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr "Return the počet account."
+msgstr "Vrátiť počet kont."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Allow to export text in autogenerate editor plugins."
+msgstr "Umožniť exportovať text v automaticky generovaných moduloch editora."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Pridať novú identitu"
+msgstr "Pridaný nový widget noviniek."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr "New plugin: show collection size."
+msgstr "Nový modul: zobraziť veľkosť kolekcie."
