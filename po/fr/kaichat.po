@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-25 00:48+0000\n"
-"PO-Revision-Date: 2026-04-17 08:51+0200\n"
+"PO-Revision-Date: 2026-04-26 09:03+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -554,10 +554,8 @@ msgid "Show internal tools metadata."
 msgstr "Afficher les métadonnées des outils internes."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Add DBus support."
 msgid "Add KCM support."
-msgstr "Ajout de la prise en charge de DBus."
+msgstr "Ajout de la prise en charge de KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:34
 #, kde-format
