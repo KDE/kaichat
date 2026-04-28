@@ -67,6 +67,7 @@ if(USE_MCP_SERVER_SUPPORT)
 endif()
 
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
+install(FILES settings/kaichatglobalconfig.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 
 if(COMPILE_WITH_UNITY_CMAKE_SUPPORT)
     set_target_properties(
