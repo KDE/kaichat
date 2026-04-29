@@ -51,7 +51,7 @@ void KAIChatConfigureUserFeedbackWidget::load()
 void KAIChatConfigureUserFeedbackWidget::restoreToDefaults()
 {
 #if HAVE_KUSERFEEDBACK
-    // TODO
+    mUserFeedbackWidget->setFeedbackProvider(UserFeedBackManager::self()->userFeedbackProvider());
 #endif
 }
 
