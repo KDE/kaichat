@@ -10,14 +10,10 @@
 
 #include "libkaichatwidgets_private_export.h"
 
-#include "config-kaichat.h"
-
-#if HAVE_KUSERFEEDBACK
 namespace KUserFeedback
 {
 class FeedbackConfigWidget;
 }
-#endif
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureUserFeedbackWidget : public QWidget
 {
     Q_OBJECT
@@ -30,7 +26,5 @@ public:
     void restoreToDefaults();
 
 private:
-#if HAVE_KUSERFEEDBACK
     KUserFeedback::FeedbackConfigWidget *const mUserFeedbackWidget;
-#endif
 };
