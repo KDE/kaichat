@@ -21,6 +21,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add MCP Server support."),
         kli18n("Show internal tools metadata."),
         kli18n("Add KCM support."),
+        kli18n("Add Sarvam support."),
     };
     return info;
 }
