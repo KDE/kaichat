@@ -118,7 +118,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.53")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.56")
 
 find_package(Qt6 ${QT_REQUIRED_VERSION} REQUIRED NO_MODULE COMPONENTS Widgets)
 find_package(
@@ -166,6 +166,18 @@ set_package_properties(
             REQUIRED
         PURPOSE
             "Required for building AI plugins support"
+        DESCRIPTION
+            "Use AI plugin"
+)
+
+find_package(KF6TextAutoGenerateTextMcpProtocolWidgets ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(
+    KF6TextAutoGenerateTextMcpProtocolWidgets
+    PROPERTIES
+        TYPE
+            REQUIRED
+        PURPOSE
+            "Required for building mcp protocol support"
         DESCRIPTION
             "Use AI plugin"
 )

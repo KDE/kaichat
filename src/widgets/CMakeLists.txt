@@ -96,6 +96,10 @@ target_link_libraries(
     libkaichatcore
 )
 
+if(USE_MCP_SERVER_SUPPORT)
+    target_link_libraries(libkaichatwidgets KF6::TextAutoGenerateTextMcpProtocolWidgets)
+endif()
+
 if(TARGET KF6::UserFeedbackWidgets)
     target_link_libraries(libkaichatwidgets KF6::UserFeedbackWidgets)
 endif()
