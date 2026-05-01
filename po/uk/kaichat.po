@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-30 00:47+0000\n"
-"PO-Revision-Date: 2026-04-25 07:51+0300\n"
+"PO-Revision-Date: 2026-04-30 09:03+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -561,10 +561,8 @@ msgid "Add KCM support."
 msgstr "Додано підтримку KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add MCP Server support."
 msgid "Add Sarvam support."
-msgstr "Додано підтримку сервера MCP"
+msgstr "Додано підтримку Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

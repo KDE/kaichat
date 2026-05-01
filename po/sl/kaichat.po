@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-30 00:47+0000\n"
-"PO-Revision-Date: 2026-04-25 06:52+0200\n"
+"PO-Revision-Date: 2026-04-30 06:59+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -561,10 +561,8 @@ msgid "Add KCM support."
 msgstr "Dodaj podporo za KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add MCP Server support."
 msgid "Add Sarvam support."
-msgstr "Dodaj podporo za strežnik MCP."
+msgstr "Dodaj podporo za Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

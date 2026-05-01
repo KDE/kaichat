@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-30 00:47+0000\n"
-"PO-Revision-Date: 2026-04-16 09:32+0400\n"
+"PO-Revision-Date: 2026-04-30 09:32+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -557,10 +557,8 @@ msgid "Show internal tools metadata."
 msgstr "أظهر بيانات تعريف الأدوات الداخلية."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Add DBus support."
 msgid "Add KCM support."
-msgstr "إتاحة DBus."
+msgstr "إتاحة KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 #, fuzzy

@@ -559,11 +559,10 @@ msgstr "Zobraziť metadáta interných nástrojov."
 msgid "Add KCM support."
 msgstr "Pridaná podpora KCM."
 
+#
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add MCP Server support."
 msgid "Add Sarvam support."
-msgstr "Pridaná podpora MCP servera."
+msgstr "Pridaná podpora Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format

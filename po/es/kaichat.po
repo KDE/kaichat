@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-30 00:47+0000\n"
-"PO-Revision-Date: 2026-04-25 20:41+0100\n"
+"PO-Revision-Date: 2026-04-30 17:34+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -561,10 +561,8 @@ msgid "Add KCM support."
 msgstr "Añadir compatibilidad con KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add MCP Server support."
 msgid "Add Sarvam support."
-msgstr "Se ha añadido compatibilidad con el servidor MCP."
+msgstr "Se ha añadido compatibilidad con el Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
