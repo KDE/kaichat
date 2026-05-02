@@ -1,6 +1,7 @@
 {
     "KPlugin": {
         "Description": "Configure llm support",
+        "Description[ar]": "اضبط llm",
         "Description[ca@valencia]": "Configura la implementació de LLM",
         "Description[ca]": "Configura la implementació de LLM",
         "Description[es]": "Configurar la compatibilidad con LLM",
@@ -15,6 +16,7 @@
         "Description[uk]": "Налаштувати підтримку великих мовних моделей",
         "Icon": "kaichat",
         "Name": "LLm support",
+        "Name[ar]": "إتاحة LLm",
         "Name[ca@valencia]": "Implementació de LLM",
         "Name[ca]": "Implementació de LLM",
         "Name[es]": "Compatibilidad con LLM",
