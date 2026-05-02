@@ -28,7 +28,7 @@ CMakeLists.txt.user*
 /cmake-build*
 /Testing/
 /.vscode/
-
+/.qtcreator/
 .sentry-native/
 
 #for reuse on CI
