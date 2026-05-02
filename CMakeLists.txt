@@ -245,7 +245,7 @@ if(NOT USE_DBUS)
     find_package(KDSingleApplication-qt6 CONFIG REQUIRED)
 endif()
 
-option(USE_MCP_SERVER_SUPPORT "Add mcp servers (experimental)" OFF)
+option(USE_MCP_SERVER_SUPPORT "Add mcp servers (experimental)" ON)
 if(USE_MCP_SERVER_SUPPORT)
     set(HAVE_MPC_SERVER TRUE)
 endif()
