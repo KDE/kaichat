@@ -33,7 +33,6 @@ KCMAutoGenerateText::KCMAutoGenerateText(QObject *parent, const KPluginMetaData 
 
 void KCMAutoGenerateText::load()
 {
-    // TODO
 }
 
 void KCMAutoGenerateText::save()
@@ -43,7 +42,6 @@ void KCMAutoGenerateText::save()
 
 void KCMAutoGenerateText::defaults()
 {
-    // TODO
 }
 
 #include "kcmautogeneratetext.moc"

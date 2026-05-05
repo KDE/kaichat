@@ -27,14 +27,17 @@ KAIChatConfigureMcpServersWidget::~KAIChatConfigureMcpServersWidget() = default;
 
 void KAIChatConfigureMcpServersWidget::save()
 {
+    // Nothing we use model
 }
 
 void KAIChatConfigureMcpServersWidget::load()
 {
+    // Nothing we use model
 }
 
 void KAIChatConfigureMcpServersWidget::restoreToDefaults()
 {
+    // nothing
 }
 
 #include "moc_kaichatconfiguremcpserverswidget.cpp"
