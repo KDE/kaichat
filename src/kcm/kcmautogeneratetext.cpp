@@ -5,20 +5,30 @@
  */
 
 #include "kcmautogeneratetext.h"
+#include <KLocalizedString>
 #include <KPluginFactory>
+#include <QTabWidget>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManagerWidget>
+#include <TextAutoGenerateTextMcpProtocolCore/McpServerManager>
+#include <TextAutoGenerateTextMcpProtocolWidgets/McpServerWidget>
 K_PLUGIN_CLASS_WITH_JSON(KCMAutoGenerateText, "kcm_autogeneratetext.json")
 
 KCMAutoGenerateText::KCMAutoGenerateText(QObject *parent, const KPluginMetaData &data)
     : KCModule(parent, data)
 {
     auto topLayout = new QVBoxLayout(widget());
-    auto manager = new TextAutoGenerateText::TextAutoGenerateManager;
+    auto manager = new TextAutoGenerateText::TextAutoGenerateManager(this);
     manager->loadEngine();
+    auto tabWidget = new QTabWidget(widget());
+
     mManagerWidget = new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, widget());
-    topLayout->addWidget(mManagerWidget);
+    tabWidget->addTab(mManagerWidget, i18n("Instances"));
+    mMcpProtocolWidget =
+        new TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget(manager->textAutoGenerateTextMcpServerManager()->mcpServerModel(), widget());
+    tabWidget->addTab(mMcpProtocolWidget, i18n("MCP Server"));
+    topLayout->addWidget(tabWidget);
 }
 
 void KCMAutoGenerateText::load()

@@ -15,6 +15,7 @@ target_link_libraries(
         Qt::Core
         KF6::KCMUtils
         KF6::TextAutoGenerateText
+        KF6::TextAutoGenerateTextMcpProtocolWidgets
 )
 
 kcmutils_generate_desktop_file(kcm_autogeneratetext)

@@ -7,6 +7,11 @@
 
 #include <KCModule>
 
+namespace TextAutoGenerateTextMcpProtocolWidgets
+{
+class McpServerWidget;
+}
+
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateTextInstancesManagerWidget;
@@ -24,4 +29,5 @@ public Q_SLOTS:
 
 private:
     TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget *mManagerWidget = nullptr;
+    TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget *mMcpProtocolWidget = nullptr;
 };
