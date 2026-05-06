@@ -552,11 +552,11 @@ msgstr "显示 Ollama 日志."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "允许将 Ollama 暴露至本地网络。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
 msgid "Add thinking support."
-msgstr ""
+msgstr "添加思考支持。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
