@@ -59,10 +59,6 @@
 #include <KUserFeedback/Provider>
 #endif
 
-namespace
-{
-const char myKAIChatMainWindowGroupName[] = "KAIChatMainWindow";
-}
 using namespace Qt::Literals::StringLiterals;
 KAIChatMainWindow::KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KXmlGuiWindow(parent)
@@ -76,7 +72,6 @@ KAIChatMainWindow::KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManag
     setCentralWidget(mMainWidget);
     setupActions();
     setupGUI();
-    readConfig();
     createSystemTray();
     setupStatusBar();
     mShowMenuBarAction->setChecked(KAIChatGlobalConfig::self()->showMenuBar());
@@ -102,12 +97,7 @@ KAIChatMainWindow::KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManag
 #endif
 }
 
-KAIChatMainWindow::~KAIChatMainWindow()
-{
-    KSharedConfig::Ptr config = KSharedConfig::openStateConfig();
-    KConfigGroup group = config->group(QLatin1StringView(myKAIChatMainWindowGroupName));
-    group.writeEntry("Size", size());
-}
+KAIChatMainWindow::~KAIChatMainWindow() = default;
 
 void KAIChatMainWindow::setupStatusBar()
 {
@@ -120,16 +110,6 @@ void KAIChatMainWindow::setupStatusBar()
 void KAIChatMainWindow::slotStatusBarInfoChanged(const QString &str)
 {
     mToolProgressInfo->setText(str);
-}
-
-void KAIChatMainWindow::readConfig()
-{
-    KSharedConfig::Ptr config = KSharedConfig::openStateConfig();
-    KConfigGroup group = KConfigGroup(config, QLatin1StringView(myKAIChatMainWindowGroupName));
-    const QSize sizeDialog = group.readEntry("Size", QSize(800, 600));
-    if (sizeDialog.isValid()) {
-        resize(sizeDialog);
-    }
 }
 
 void KAIChatMainWindow::createSystemTray()
