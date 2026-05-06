@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-30 00:47+0000\n"
+"POT-Creation-Date: 2026-05-06 00:49+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -234,6 +234,19 @@ msgstr "Työkalu"
 #, kde-format
 msgid "Text"
 msgstr ""
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instances"
+msgstr "Ilmentymät"
+
+#: kcm/kcmautogeneratetext.cpp:30
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
+msgid "MCP Server"
+msgstr "Lisää Markdown-tuki."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format

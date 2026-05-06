@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-30 00:47+0000\n"
+"POT-Creation-Date: 2026-05-06 00:49+0000\n"
 "PO-Revision-Date: 2026-04-30 17:09+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -231,6 +231,20 @@ msgstr "Strumento"
 #, kde-format
 msgid "Text"
 msgstr "Testo"
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instances"
+msgstr "Istanze"
+
+#: kcm/kcmautogeneratetext.cpp:30
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
+msgid "MCP Server"
+msgstr "Server MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format

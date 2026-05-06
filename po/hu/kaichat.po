@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-30 00:47+0000\n"
+"POT-Creation-Date: 2026-05-06 00:49+0000\n"
 "PO-Revision-Date: 2025-08-06 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -238,6 +238,19 @@ msgstr "Eszköz"
 #, kde-format
 msgid "Text"
 msgstr ""
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instances"
+msgstr "Példányok"
+
+#: kcm/kcmautogeneratetext.cpp:30
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
+msgid "MCP Server"
+msgstr "Markdown támogatás."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format

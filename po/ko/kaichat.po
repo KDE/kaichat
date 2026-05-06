@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-30 00:47+0000\n"
+"POT-Creation-Date: 2026-05-06 00:49+0000\n"
 "PO-Revision-Date: 2025-07-21 00:46+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -238,6 +238,19 @@ msgstr ""
 #, kde-format
 msgid "Text"
 msgstr ""
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instances"
+msgstr "인스턴스"
+
+#: kcm/kcmautogeneratetext.cpp:30
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
+msgid "MCP Server"
+msgstr "Markdown 지원을 추가했습니다."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format

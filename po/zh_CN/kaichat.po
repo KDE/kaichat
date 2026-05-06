@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-30 00:47+0000\n"
+"POT-Creation-Date: 2026-05-06 00:49+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -231,6 +231,18 @@ msgstr "工具"
 #, kde-format
 msgid "Text"
 msgstr "文本"
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
+msgid "Instances"
+msgstr "实例"
+
+#: kcm/kcmautogeneratetext.cpp:30
+#, kde-format
+msgid "MCP Server"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -551,16 +563,12 @@ msgid "Show internal tools metadata."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add KCM support."
-msgstr "添加工具支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add attachment support."
 msgid "Add Sarvam support."
-msgstr "添加附件支持。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
@@ -811,12 +819,12 @@ msgstr "显示 Ollama 日志."
 #: widgets/kaichatwhatsnewtranslations.cpp:109
 #, kde-format
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "允许将 Ollama 暴露至本地网络。"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:110
 #, kde-format
 msgid "Add thinking support."
-msgstr ""
+msgstr "添加思考支持。"
 
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
