@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-06 00:49+0000\n"
-"PO-Revision-Date: 2026-04-30 07:10-0300\n"
+"POT-Creation-Date: 2026-05-07 00:48+0000\n"
+"PO-Revision-Date: 2026-05-06 09:10-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -234,18 +234,14 @@ msgid "Text"
 msgstr "Texto"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Instâncias"
 
 #: kcm/kcmautogeneratetext.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "Servidores MCP"
+msgstr "Servidor MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -442,37 +438,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:93
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "%1 string encontrado."
 msgstr[1] "%1 strings encontrados."
 
-#: widgets/kaichatmainwindow.cpp:158
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "O que há de novo"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar arquivo"
 
-#: widgets/kaichatmainwindow.cpp:175
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Pesquisar no banco de dados…"
 
-#: widgets/kaichatmainwindow.cpp:213
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Abrir pergunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -481,30 +477,30 @@ msgstr ""
 "<qt>Isso ocultará a barra de menu completamente. Você pode exibi-la "
 "novamente digitando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importar bate-papos"
 
-#: widgets/kaichatmainwindow.cpp:359
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar bate-papo"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:442
 #, kde-format
 msgid "Model Download Done"
 msgstr "Download do modelo concluído"
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:443
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "O modelo %1 foi baixado."

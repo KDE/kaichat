@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-06 00:49+0000\n"
-"PO-Revision-Date: 2026-04-30 10:35+0200\n"
+"POT-Creation-Date: 2026-05-07 00:48+0000\n"
+"PO-Revision-Date: 2026-05-06 16:53+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -234,18 +234,14 @@ msgid "Text"
 msgstr "Tekst"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Exemplaren"
 
 #: kcm/kcmautogeneratetext.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "MCP-servers"
+msgstr "MCP-server"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -442,37 +438,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Als JSON exporteren…"
 
-#: widgets/kaichatmainwindow.cpp:93
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "%1 tekenreeks gevonden."
 msgstr[1] "%1 tekenreeksen gevonden."
 
-#: widgets/kaichatmainwindow.cpp:158
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "Wat is nieuw"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Archief tonen"
 
-#: widgets/kaichatmainwindow.cpp:175
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "In database zoeken…"
 
-#: widgets/kaichatmainwindow.cpp:213
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Snel vragen openen…"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -481,30 +477,30 @@ msgstr ""
 "<qt>Hierdoor wordt de menubalk geheel verborgen. U kunt die weer zichtbaar "
 "maken door %1 te typen.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Chats importeren"
 
-#: widgets/kaichatmainwindow.cpp:359
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Chats exporteren"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:442
 #, kde-format
 msgid "Model Download Done"
 msgstr "Downloaden van model gedaan"
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:443
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 was gedownload."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-06 00:49+0000\n"
+"POT-Creation-Date: 2026-05-07 00:48+0000\n"
 "PO-Revision-Date: 2026-01-28 10:36+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -436,37 +436,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importa como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:93
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/kaichatmainwindow.cpp:158
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "Que es de novo"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:175
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:213
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -475,30 +475,30 @@ msgstr ""
 "<qt>Isto celera completemente le barra de menu. Tu pote monstrar lo de nove "
 "per typar %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Cela barra de menu"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:359
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:442
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:443
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr ""

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-06 00:49+0000\n"
-"PO-Revision-Date: 2026-04-30 13:43+0300\n"
+"POT-Creation-Date: 2026-05-07 00:48+0000\n"
+"PO-Revision-Date: 2026-05-06 21:21+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -234,18 +234,14 @@ msgid "Text"
 msgstr "טקסט"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "מופעים"
 
 #: kcm/kcmautogeneratetext.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "שרתי MCP"
+msgstr "שרת MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -441,7 +437,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "ייבוא כ־JSON…"
 
-#: widgets/kaichatmainwindow.cpp:93
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -450,30 +446,30 @@ msgstr[1] "נמצאו שתי מחרוזות."
 msgstr[2] "נמצאו %1 מחרוזות."
 msgstr[3] "נמצאו %1 מחרוזות."
 
-#: widgets/kaichatmainwindow.cpp:158
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "מה חדש"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
-#: widgets/kaichatmainwindow.cpp:175
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "חיפוש במסד הנתונים…"
 
-#: widgets/kaichatmainwindow.cpp:213
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "פתיחת שאלה מהירה…"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -482,30 +478,30 @@ msgstr ""
 "<qt>הפעולה הזת תסתיר את סרגל התפריטים לחלוטין. אפשר להציג אותו שוב בהקלדת %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "הסתרת סרגל תפריטים"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "ייבוא שיחות"
 
-#: widgets/kaichatmainwindow.cpp:359
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ייצוא שיחות"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:442
 #, kde-format
 msgid "Model Download Done"
 msgstr "הורדת המודל הסתיימה"
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:443
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "המודל %1 ירד."

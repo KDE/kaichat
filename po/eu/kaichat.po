@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-06 00:49+0000\n"
+"POT-Creation-Date: 2026-05-07 00:48+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -445,37 +445,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Inportatu JSON gisa…"
 
-#: widgets/kaichatmainwindow.cpp:93
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "Kate %1 aurkitu da."
 msgstr[1] "%1 kate aurkitu dira."
 
-#: widgets/kaichatmainwindow.cpp:158
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "Zer berri"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Erakutsi artxiboa"
 
-#: widgets/kaichatmainwindow.cpp:175
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Bilatu datu-basean…"
 
-#: widgets/kaichatmainwindow.cpp:213
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Ireki Galdera azkarra…"
 
-#: widgets/kaichatmainwindow.cpp:307
+#: widgets/kaichatmainwindow.cpp:287
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -484,30 +484,30 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatutako du. %1 tekleatuz berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:310
+#: widgets/kaichatmainwindow.cpp:290
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ezkutatu menu-barra"
 
-#: widgets/kaichatmainwindow.cpp:346
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Inportatu berriketak"
 
-#: widgets/kaichatmainwindow.cpp:359
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esportatu berriketak"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:442
 #, kde-format
 msgid "Model Download Done"
 msgstr "Eredua zama-jaistea burutu da"
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:443
 #, fuzzy, kde-format
 #| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
