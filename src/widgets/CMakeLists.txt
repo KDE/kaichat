@@ -55,6 +55,8 @@ target_sources(
         kaichatutils.cpp
         kaichatwhatsnewtranslations.h
         kaichatwhatsnewtranslations.cpp
+        databasedialog/kaichatdatabasedialog.h
+        databasedialog/kaichatdatabasedialog.cpp
 )
 
 if(USE_MCP_SERVER_SUPPORT)
