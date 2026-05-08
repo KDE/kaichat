@@ -4,25 +4,19 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 
-#include "kaichatdatabasewidget.h"
+#include "kaichatdatabasechatwidget.h"
 #include <KLocalizedString>
-#include <QTabWidget>
 #include <QVBoxLayout>
-
 using namespace Qt::Literals::StringLiterals;
-KAIChatDatabaseWidget::KAIChatDatabaseWidget(QWidget *parent)
+KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(QWidget *parent)
     : QWidget{parent}
-    , mTabWidget(new QTabWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
     mainLayout->setContentsMargins({});
     mainLayout->setSpacing(0);
 
-    mTabWidget->setObjectName("mTabWidget"_L1);
-    mainLayout->addWidget(mTabWidget);
+    // TODO
 }
 
-KAIChatDatabaseWidget::~KAIChatDatabaseWidget() = default;
-
-#include "moc_kaichatdatabasewidget.cpp"
+KAIChatDatabaseChatWidget::~KAIChatDatabaseChatWidget() = default;

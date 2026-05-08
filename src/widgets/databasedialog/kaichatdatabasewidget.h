@@ -7,11 +7,14 @@
 #pragma once
 
 #include <QWidget>
-
+class QTabWidget;
 class KAIChatDatabaseWidget : public QWidget
 {
     Q_OBJECT
 public:
     explicit KAIChatDatabaseWidget(QWidget *parent = nullptr);
     ~KAIChatDatabaseWidget() override;
+
+private:
+    QTabWidget *const mTabWidget;
 };

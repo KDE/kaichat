@@ -5,14 +5,19 @@
  */
 
 #include "kaichatdatabasedialog.h"
+#include "databasedialog/kaichatdatabasewidget.h"
 #include <QDialogButtonBox>
 #include <QVBoxLayout>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseDialog::KAIChatDatabaseDialog(QWidget *parent)
     : QDialog(parent)
+    , mDatabaseWidget(new KAIChatDatabaseWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
+
+    mDatabaseWidget->setObjectName(u"mDatabaseWidget"_s);
+    mainLayout->addWidget(mDatabaseWidget);
 
     auto button = new QDialogButtonBox(QDialogButtonBox::Close, this);
     button->setObjectName(u"button"_s);

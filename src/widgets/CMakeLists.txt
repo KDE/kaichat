@@ -6,6 +6,8 @@ add_library(
     libkaichatwidgets
     databasedialog/kaichatdatabasewidget.h
     databasedialog/kaichatdatabasewidget.cpp
+    databasedialog/kaichatdatabasechatwidget.h
+    databasedialog/kaichatdatabasechatwidget.cpp
 )
 ecm_qt_declare_logging_category(libkaichatwidgets HEADER kaichat_widget_debug.h IDENTIFIER KAICHAT_WIDGET_LOG
     CATEGORY_NAME org.kde.kaichat_widget DESCRIPTION "kaichat (widget lib)" EXPORT KAICHAT

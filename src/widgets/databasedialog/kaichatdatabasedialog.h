@@ -7,11 +7,14 @@
 #pragma once
 
 #include <QDialog>
-
+class KAIChatDatabaseWidget;
 class KAIChatDatabaseDialog : public QDialog
 {
     Q_OBJECT
 public:
     explicit KAIChatDatabaseDialog(QWidget *parent = nullptr);
     ~KAIChatDatabaseDialog() override;
+
+private:
+    KAIChatDatabaseWidget *const mDatabaseWidget;
 };
