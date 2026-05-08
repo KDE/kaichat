@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-07 00:48+0000\n"
-"PO-Revision-Date: 2026-04-30 09:32+0400\n"
+"PO-Revision-Date: 2026-05-07 13:10+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -234,18 +234,14 @@ msgid "Text"
 msgstr "نص"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "النُسخ"
 
 #: kcm/kcmautogeneratetext.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "خوادم MCP"
+msgstr "خادم MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -575,10 +571,8 @@ msgid "Add KCM support."
 msgstr "إتاحة KCM."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add MCP Server support."
 msgid "Add Sarvam support."
-msgstr "إضافة دعم خادم MCP."
+msgstr "أُضيف دعم Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:35
 #, kde-format
