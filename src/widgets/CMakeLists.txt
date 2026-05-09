@@ -63,6 +63,8 @@ target_sources(
         kaichatwhatsnewtranslations.cpp
         databasedialog/kaichatdatabasedialog.h
         databasedialog/kaichatdatabasedialog.cpp
+        databasedialog/jsonplaintexteditwidget.h
+        databasedialog/jsonplaintexteditwidget.cpp
 )
 
 if(USE_MCP_SERVER_SUPPORT)
@@ -101,6 +103,8 @@ target_link_libraries(
     KF6::NotifyConfig
     KF6::TextAddonsWidgets
     KF6::TextEditTextToSpeech
+    KF6::SyntaxHighlighting
+    KF6::TextCustomEditor
     libkaichatcore
 )
 

@@ -136,6 +136,7 @@ find_package(
         WindowSystem
         NotifyConfig
         KCMUtils
+        SyntaxHighlighting
 )
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
@@ -200,6 +201,16 @@ set_package_properties(
             "Required for building text to speech support"
         TYPE
             OPTIONAL
+)
+
+find_package(KF6TextCustomEditor ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+set_package_properties(
+    TextCustomEditor
+    PROPERTIES
+        DESCRIPTION
+            "Required for building text to speech support"
+        TYPE
+            REQUIRED
 )
 
 if(TARGET KF6::TextEditTextToSpeech)
