@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 
-#include "kaichatdatabasecbatpendingtypedinfowidget.h"
+#include "kaichatdatabasechatpendingtypedinfowidget.h"
 #include <KLocalizedString>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
-KAIChatDatabaseCbatPendingTypedInfoWidget::KAIChatDatabaseCbatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
+KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
@@ -22,6 +22,6 @@ KAIChatDatabaseCbatPendingTypedInfoWidget::KAIChatDatabaseCbatPendingTypedInfoWi
     // TODO
 }
 
-KAIChatDatabaseCbatPendingTypedInfoWidget::~KAIChatDatabaseCbatPendingTypedInfoWidget() = default;
+KAIChatDatabaseChatPendingTypedInfoWidget::~KAIChatDatabaseChatPendingTypedInfoWidget() = default;
 
-#include "moc_kaichatdatabasecbatpendingtypedinfowidget.cpp"
+#include "moc_kaichatdatabasechatpendingtypedinfowidget.cpp"

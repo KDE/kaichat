@@ -67,8 +67,8 @@ target_sources(
         databasedialog/jsonplaintexteditwidget.cpp
         databasedialog/exploredatabasebasestoragewidget.cpp
         databasedialog/exploredatabasebasestoragewidget.h
-        databasedialog/kaichatdatabasecbatpendingtypedinfowidget.cpp
-        databasedialog/kaichatdatabasecbatpendingtypedinfowidget.h
+        databasedialog/kaichatdatabasechatpendingtypedinfowidget.cpp
+        databasedialog/kaichatdatabasechatpendingtypedinfowidget.h
         databasedialog/kaichatdatabasemessageswidget.cpp
         databasedialog/kaichatdatabasemessageswidget.h
 )

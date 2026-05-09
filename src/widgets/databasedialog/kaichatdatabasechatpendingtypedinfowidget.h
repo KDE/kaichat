@@ -12,12 +12,12 @@ namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
 }
-class KAIChatDatabaseCbatPendingTypedInfoWidget : public ExploreDatabaseBaseStorageWidget
+class KAIChatDatabaseChatPendingTypedInfoWidget : public ExploreDatabaseBaseStorageWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseCbatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
-    ~KAIChatDatabaseCbatPendingTypedInfoWidget() override;
+    explicit KAIChatDatabaseChatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
+    ~KAIChatDatabaseChatPendingTypedInfoWidget() override;
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
