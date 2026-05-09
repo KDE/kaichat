@@ -11,10 +11,10 @@
 #include <QVBoxLayout>
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatDatabaseWidget::KAIChatDatabaseWidget(QWidget *parent)
+KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mTabWidget(new QTabWidget(this))
-    , mDatabaseChatWidget(new KAIChatDatabaseChatWidget(this))
+    , mDatabaseChatWidget(new KAIChatDatabaseChatWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);

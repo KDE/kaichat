@@ -9,9 +9,9 @@
 #include <QDialogButtonBox>
 #include <QVBoxLayout>
 using namespace Qt::Literals::StringLiterals;
-KAIChatDatabaseDialog::KAIChatDatabaseDialog(QWidget *parent)
+KAIChatDatabaseDialog::KAIChatDatabaseDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QDialog(parent)
-    , mDatabaseWidget(new KAIChatDatabaseWidget(this))
+    , mDatabaseWidget(new KAIChatDatabaseWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);

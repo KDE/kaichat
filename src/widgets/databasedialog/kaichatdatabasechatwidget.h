@@ -8,11 +8,14 @@
 
 #include "databasedialog/exploredatabasebasestoragewidget.h"
 #include <QWidget>
-
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatDatabaseChatWidget : public ExploreDatabaseBaseStorageWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseChatWidget(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseChatWidget() override;
 };

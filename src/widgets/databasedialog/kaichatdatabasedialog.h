@@ -8,11 +8,15 @@
 
 #include <QDialog>
 class KAIChatDatabaseWidget;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatDatabaseDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseDialog(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseDialog() override;
 
 private:

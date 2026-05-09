@@ -7,8 +7,9 @@
 #include "kaichatdatabasechatwidget.h"
 #include <KLocalizedString>
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
-KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(QWidget *parent)
+KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : ExploreDatabaseBaseStorageWidget{parent}
 {
     auto mainLayout = new QVBoxLayout(this);

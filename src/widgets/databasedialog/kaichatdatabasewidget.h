@@ -9,11 +9,15 @@
 #include <QWidget>
 class QTabWidget;
 class KAIChatDatabaseChatWidget;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatDatabaseWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseWidget(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseWidget() override;
 
 private:
