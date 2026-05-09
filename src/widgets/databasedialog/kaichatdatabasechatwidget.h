@@ -6,9 +6,10 @@
 
 #pragma once
 
+#include "databasedialog/exploredatabasebasestoragewidget.h"
 #include <QWidget>
 
-class KAIChatDatabaseChatWidget : public QWidget
+class KAIChatDatabaseChatWidget : public ExploreDatabaseBaseStorageWidget
 {
     Q_OBJECT
 public:

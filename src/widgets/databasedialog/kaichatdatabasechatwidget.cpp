@@ -9,7 +9,7 @@
 #include <QVBoxLayout>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(QWidget *parent)
-    : QWidget{parent}
+    : ExploreDatabaseBaseStorageWidget{parent}
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
