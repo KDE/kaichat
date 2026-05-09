@@ -8,6 +8,7 @@
 
 #include <QWidget>
 class QTabWidget;
+class KAIChatDatabaseChatWidget;
 class KAIChatDatabaseWidget : public QWidget
 {
     Q_OBJECT
@@ -17,4 +18,5 @@ public:
 
 private:
     QTabWidget *const mTabWidget;
+    KAIChatDatabaseChatWidget *const mDatabaseChatWidget;
 };

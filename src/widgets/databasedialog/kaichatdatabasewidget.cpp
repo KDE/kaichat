@@ -5,6 +5,7 @@
  */
 
 #include "kaichatdatabasewidget.h"
+#include "databasedialog/kaichatdatabasechatwidget.h"
 #include <KLocalizedString>
 #include <QTabWidget>
 #include <QVBoxLayout>
@@ -13,6 +14,7 @@ using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseWidget::KAIChatDatabaseWidget(QWidget *parent)
     : QWidget{parent}
     , mTabWidget(new QTabWidget(this))
+    , mDatabaseChatWidget(new KAIChatDatabaseChatWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
@@ -21,6 +23,9 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(QWidget *parent)
 
     mTabWidget->setObjectName("mTabWidget"_L1);
     mainLayout->addWidget(mTabWidget);
+
+    mDatabaseChatWidget->setObjectName("mDatabaseChatWidget"_L1);
+    mTabWidget->addTab(mDatabaseChatWidget, i18n("Chat"));
 }
 
 KAIChatDatabaseWidget::~KAIChatDatabaseWidget() = default;
