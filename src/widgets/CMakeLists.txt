@@ -65,6 +65,8 @@ target_sources(
         databasedialog/kaichatdatabasedialog.cpp
         databasedialog/jsonplaintexteditwidget.h
         databasedialog/jsonplaintexteditwidget.cpp
+        databasedialog/exploredatabasebasestoragewidget.cpp
+        databasedialog/exploredatabasebasestoragewidget.h
 )
 
 if(USE_MCP_SERVER_SUPPORT)
@@ -93,6 +95,7 @@ target_link_libraries(
     libkaichatwidgets
     Qt::Gui
     Qt::Widgets
+    Qt::Sql
     KF6::XmlGui
     KF6::I18n
     KF6::WindowSystem
