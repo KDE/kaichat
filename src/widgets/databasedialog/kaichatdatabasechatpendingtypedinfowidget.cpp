@@ -19,7 +19,12 @@ KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWi
     mainLayout->setContentsMargins({});
     mainLayout->setSpacing(0);
 
-    // TODO
+    /*
+    mModel = mManager->databaseManager()->createRoomsModel(accountName);
+    if (mModel) {
+        setModel(mModel.get());
+    }
+    */
 }
 
 KAIChatDatabaseChatPendingTypedInfoWidget::~KAIChatDatabaseChatPendingTypedInfoWidget() = default;
