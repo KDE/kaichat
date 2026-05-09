@@ -7,6 +7,7 @@
 #include "kaichatdatabasechatwidget.h"
 #include <KLocalizedString>
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
