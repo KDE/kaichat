@@ -18,4 +18,7 @@ class KAIChatDatabaseChatWidget : public ExploreDatabaseBaseStorageWidget
 public:
     explicit KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseChatWidget() override;
+
+private:
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
