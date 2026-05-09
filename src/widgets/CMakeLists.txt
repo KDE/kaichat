@@ -67,6 +67,10 @@ target_sources(
         databasedialog/jsonplaintexteditwidget.cpp
         databasedialog/exploredatabasebasestoragewidget.cpp
         databasedialog/exploredatabasebasestoragewidget.h
+        databasedialog/kaichatdatabasecbatpendingtypedinfowidget.cpp
+        databasedialog/kaichatdatabasecbatpendingtypedinfowidget.h
+        databasedialog/kaichatdatabasemessageswidget.cpp
+        databasedialog/kaichatdatabasemessageswidget.h
 )
 
 if(USE_MCP_SERVER_SUPPORT)
