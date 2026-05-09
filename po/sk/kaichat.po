@@ -233,18 +233,14 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Inštancie"
 
 #: kcm/kcmautogeneratetext.cpp:30
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "MCP servery"
+msgstr "MCP server"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -568,12 +564,10 @@ msgstr "Pridaná podpora MCP servera."
 msgid "Show internal tools metadata."
 msgstr "Zobraziť metadáta interných nástrojov."
 
-#
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Add KCM support."
 msgstr "Pridaná podpora KCM."
 
-#
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 msgid "Add Sarvam support."
 msgstr "Pridaná podpora Sarvam."

@@ -233,11 +233,9 @@ msgid "Text"
 msgstr "文本"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
-msgstr "实例"
+msgstr ""
 
 #: kcm/kcmautogeneratetext.cpp:30
 #, kde-format
