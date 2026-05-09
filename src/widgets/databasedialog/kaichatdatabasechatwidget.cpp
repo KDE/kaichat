@@ -20,3 +20,5 @@ KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(QWidget *parent)
 }
 
 KAIChatDatabaseChatWidget::~KAIChatDatabaseChatWidget() = default;
+
+#include "moc_kaichatdatabasechatwidget.cpp"
