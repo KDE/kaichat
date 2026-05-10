@@ -62,6 +62,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void setupStatusBar();
     LIBKAICHATWIDGETS_NO_EXPORT void slotStatusBarInfoChanged(const QString &str);
     LIBKAICHATWIDGETS_NO_EXPORT void slotImportInfoRequested();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotShowDatabaseMessages();
     bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
@@ -78,4 +79,6 @@ private:
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     TextAddonsWidgets::VerifyNewVersionWidget *const mVerifyNewVersionWidget;
 #endif
+    QAction *mMenuDebug = nullptr;
+    QAction *mShowDatabaseMessages = nullptr;
 };

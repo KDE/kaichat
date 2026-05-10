@@ -204,6 +204,20 @@ void KAIChatMainWindow::setupActions()
     auto verifyNewVersionAction = mVerifyNewVersionWidget->verifyNewVersionAction();
     ac->addAction(u"verify_check_version"_s, verifyNewVersionAction);
 #endif
+
+    mMenuDebug = new QAction(u"Debug"_s, this);
+    mMenuDebug->setVisible(false);
+    ac->addAction(u"debug_menu"_s, mMenuDebug);
+    auto menu = new QMenu(this);
+    mMenuDebug->setMenu(menu);
+    mShowDatabaseMessages = new QAction(u"Show Database Messages…"_s, this);
+    connect(mShowDatabaseMessages, &QAction::triggered, this, &KAIChatMainWindow::slotShowDatabaseMessages);
+    ac->addAction(u"show_database_messages"_s, mShowDatabaseMessages);
+    menu->addAction(mShowDatabaseMessages);
+}
+
+void KAIChatMainWindow::slotShowDatabaseMessages()
+{
 }
 
 void KAIChatMainWindow::slotQuickAsk()
@@ -387,6 +401,7 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Debug))) {
         mManager->setDebug(true);
+        mMenuDebug->setVisible(true);
     }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
         qCDebug(KAICHAT_WIDGET_LOG) << " INSTANCE ***************";
