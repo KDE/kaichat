@@ -16,20 +16,20 @@ KAIChatDatabaseMessagesWidget::KAIChatDatabaseMessagesWidget(TextAutoGenerateTex
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
+}
+
+KAIChatDatabaseMessagesWidget::~KAIChatDatabaseMessagesWidget() = default;
+
+void KAIChatDatabaseMessagesWidget::loadMessageFromChatId(const QString &chatId)
+{
     if (mManager) {
-        // TODO fix identifier
-        mModel = mManager->databaseManager()->messagesDatabase()->createMessageModel({});
-#if 0
+        mModel = mManager->databaseManager()->messagesDatabase()->createMessageModel(chatId);
         if (mModel) {
             setModel(mModel.get());
         } else {
             qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined";
         }
-#endif
     }
-    // TODO
 }
-
-KAIChatDatabaseMessagesWidget::~KAIChatDatabaseMessagesWidget() = default;
 
 #include "moc_kaichatdatabasemessageswidget.cpp"
