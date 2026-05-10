@@ -5,7 +5,9 @@
  */
 
 #include "kaichatdatabasechatwidget.h"
+#include "kaichat_widget_debug.h"
 #include <KLocalizedString>
+#include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
@@ -13,6 +15,14 @@ KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextA
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
+    if (mManager) {
+        mModel = mManager->databaseManager()->chatsDatabase()->createChatsModel();
+        if (mModel) {
+            setModel(mModel.get());
+        } else {
+            qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined";
+        }
+    }
 }
 
 KAIChatDatabaseChatWidget::~KAIChatDatabaseChatWidget() = default;
