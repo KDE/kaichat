@@ -10,6 +10,7 @@
 #include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
+#include "databasedialog/kaichatdatabasedialog.h"
 #include "kaichatcentralwidget.h"
 #include "kaichatchangefontsizemenu.h"
 #include "kaichatcommandlineparser.h"
@@ -218,6 +219,9 @@ void KAIChatMainWindow::setupActions()
 
 void KAIChatMainWindow::slotShowDatabaseMessages()
 {
+    QPointer<KAIChatDatabaseDialog> dlg = new KAIChatDatabaseDialog(mManager, this);
+    dlg->exec();
+    delete dlg;
 }
 
 void KAIChatMainWindow::slotQuickAsk()
