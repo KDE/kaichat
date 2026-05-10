@@ -27,7 +27,7 @@ void KAIChatDatabaseMessagesWidget::loadMessageFromChatId(const QString &chatId)
         if (mModel) {
             setModel(mModel.get());
         } else {
-            qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined";
+            qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined from chatId: " << chatId;
         }
     }
 }
