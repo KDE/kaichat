@@ -8,23 +8,21 @@
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
 #include <QVBoxLayout>
+#include <TextAutoGenerateText/TextAutoGenerateLocalChatPendingTypedInfoDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
-#include <textautogeneratetext/textautogeneratelocalchatsdatabase.h>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
     if (mManager) {
-#if 0
-        mModel = mManager->databaseManager()->chatsDatabase()->;
+        mModel = mManager->databaseManager()->chatPendingTypedInfoDatabase()->createChatPendingInfoModel();
         if (mModel) {
             setModel(mModel.get());
         } else {
             qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined";
         }
-#endif
     }
 }
 
