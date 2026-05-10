@@ -5,6 +5,7 @@
  */
 
 #include "kaichatdatabasemessageswidget.h"
+#include "kaichat_widget_debug.h"
 #include <KLocalizedString>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
@@ -14,6 +15,16 @@ KAIChatDatabaseMessagesWidget::KAIChatDatabaseMessagesWidget(TextAutoGenerateTex
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
+    if (mManager) {
+#if 0
+        mModel = mManager->databaseManager()->chatPendingTypedInfoDatabase()->createChatPendingInfoModel();
+        if (mModel) {
+            setModel(mModel.get());
+        } else {
+            qCWarning(KAICHAT_WIDGET_LOG) << "Model is not defined";
+        }
+#endif
+    }
     // TODO
 }
 
