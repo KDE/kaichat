@@ -6,7 +6,6 @@
 
 #include "kaichatdatabasechatwidget.h"
 #include <KLocalizedString>
-#include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
@@ -14,12 +13,6 @@ KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextA
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
-    auto mainLayout = new QVBoxLayout(this);
-    mainLayout->setObjectName("mainLayout"_L1);
-    mainLayout->setContentsMargins({});
-    mainLayout->setSpacing(0);
-
-    // TODO
 }
 
 KAIChatDatabaseChatWidget::~KAIChatDatabaseChatWidget() = default;
