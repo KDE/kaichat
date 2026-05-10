@@ -22,6 +22,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Show internal tools metadata."),
         kli18n("Add KCM support."),
         kli18n("Add Sarvam support."),
+        kli18n("Add Database Debug Dialogbox."),
     };
     return info;
 }
