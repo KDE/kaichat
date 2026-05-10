@@ -9,6 +9,7 @@
 #include <KLocalizedString>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
+#include <TextAutoGenerateText/TextAutoGenerateLocalMessagesDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseMessagesWidget::KAIChatDatabaseMessagesWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
@@ -16,8 +17,9 @@ KAIChatDatabaseMessagesWidget::KAIChatDatabaseMessagesWidget(TextAutoGenerateTex
     , mManager(manager)
 {
     if (mManager) {
+        // TODO fix identifier
+        mModel = mManager->databaseManager()->messagesDatabase()->createMessageModel({});
 #if 0
-        mModel = mManager->databaseManager()->chatPendingTypedInfoDatabase()->createChatPendingInfoModel();
         if (mModel) {
             setModel(mModel.get());
         } else {
