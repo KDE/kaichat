@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 00:48+0000\n"
+"POT-Creation-Date: 2026-05-10 00:46+0000\n"
 "PO-Revision-Date: 2026-05-06 10:53+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -301,6 +301,18 @@ msgstr "Поточна дата: %1"
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Поточна дата і час: %1"
+
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:28
+#, fuzzy, kde-format
+#| msgid "KAIChat"
+msgid "Chat"
+msgstr "KAIChat"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format

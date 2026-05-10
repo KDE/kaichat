@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-07 00:48+0000\n"
+"POT-Creation-Date: 2026-05-10 00:46+0000\n"
 "PO-Revision-Date: 2026-01-28 10:36+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -300,6 +300,18 @@ msgstr ""
 #, kde-format
 msgid "Current date time is %1"
 msgstr ""
+
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:28
+#, fuzzy, kde-format
+#| msgid "KAIChat"
+msgid "Chat"
+msgstr "KAIChat"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
