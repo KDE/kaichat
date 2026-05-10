@@ -9,6 +9,8 @@
 #include <QWidget>
 class QTabWidget;
 class KAIChatDatabaseChatWidget;
+class KAIChatDatabaseMessagesWidget;
+class KAIChatDatabaseChatPendingTypedInfoWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -23,4 +25,6 @@ public:
 private:
     QTabWidget *const mTabWidget;
     KAIChatDatabaseChatWidget *const mDatabaseChatWidget;
+    KAIChatDatabaseChatPendingTypedInfoWidget *const mDatabaseChatPendingTypedInfoWidget;
+    KAIChatDatabaseMessagesWidget *const mDatabaseMessagesWidget;
 };

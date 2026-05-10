@@ -14,11 +14,6 @@ KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWi
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
-    auto mainLayout = new QVBoxLayout(this);
-    mainLayout->setObjectName("mainLayout"_L1);
-    mainLayout->setContentsMargins({});
-    mainLayout->setSpacing(0);
-
     /*
     mModel = mManager->databaseManager()->createRoomsModel(accountName);
     if (mModel) {
