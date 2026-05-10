@@ -6,6 +6,7 @@
 
 #include "kaichatdatabasedialog.h"
 #include "databasedialog/kaichatdatabasewidget.h"
+#include <KLocalizedString>
 #include <KSharedConfig>
 #include <KWindowConfig>
 #include <QDialogButtonBox>
@@ -20,6 +21,8 @@ KAIChatDatabaseDialog::KAIChatDatabaseDialog(TextAutoGenerateText::TextAutoGener
     : QDialog(parent)
     , mDatabaseWidget(new KAIChatDatabaseWidget(manager, this))
 {
+    setWindowTitle(i18nc("@title:window", "Debug Database"));
+
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
 
