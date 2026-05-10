@@ -20,5 +20,7 @@ public:
     ~KAIChatDatabaseDialog() override;
 
 private:
+    void readConfig();
+    void writeConfig();
     KAIChatDatabaseWidget *const mDatabaseWidget;
 };

@@ -6,8 +6,15 @@
 
 #include "kaichatdatabasedialog.h"
 #include "databasedialog/kaichatdatabasewidget.h"
+#include <KSharedConfig>
+#include <KWindowConfig>
 #include <QDialogButtonBox>
 #include <QVBoxLayout>
+#include <QWindow>
+namespace
+{
+const char myConfigGroupName[] = "KAIChatDatabaseDialog";
+}
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseDialog::KAIChatDatabaseDialog(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QDialog(parent)
@@ -23,8 +30,27 @@ KAIChatDatabaseDialog::KAIChatDatabaseDialog(TextAutoGenerateText::TextAutoGener
     button->setObjectName(u"button"_s);
     mainLayout->addWidget(button);
     connect(button, &QDialogButtonBox::rejected, this, &KAIChatDatabaseDialog::reject);
+    readConfig();
 }
 
-KAIChatDatabaseDialog::~KAIChatDatabaseDialog() = default;
+KAIChatDatabaseDialog::~KAIChatDatabaseDialog()
+{
+    writeConfig();
+}
+
+void KAIChatDatabaseDialog::readConfig()
+{
+    create(); // ensure a window is created
+    windowHandle()->resize(QSize(800, 600));
+    const KConfigGroup group(KSharedConfig::openStateConfig(), QLatin1StringView(myConfigGroupName));
+    KWindowConfig::restoreWindowSize(windowHandle(), group);
+    resize(windowHandle()->size()); // workaround for QTBUG-40584
+}
+
+void KAIChatDatabaseDialog::writeConfig()
+{
+    KConfigGroup group(KSharedConfig::openStateConfig(), QLatin1StringView(myConfigGroupName));
+    KWindowConfig::saveWindowSize(windowHandle(), group);
+}
 
 #include "moc_kaichatdatabasedialog.cpp"
