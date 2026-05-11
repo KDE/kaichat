@@ -17,16 +17,18 @@ K_PLUGIN_CLASS_WITH_JSON(KCMAutoGenerateText, "kcm_autogeneratetext.json")
 
 KCMAutoGenerateText::KCMAutoGenerateText(QObject *parent, const KPluginMetaData &data)
     : KCModule(parent, data)
+    , mManager(new TextAutoGenerateText::TextAutoGenerateManager(this))
 {
     auto topLayout = new QVBoxLayout(widget());
-    auto manager = new TextAutoGenerateText::TextAutoGenerateManager(this);
-    manager->loadEngine();
+    mManager->loadEngine();
     auto tabWidget = new QTabWidget(widget());
 
-    mManagerWidget = new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(manager, widget());
+    mManagerWidget = new TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget(mManager, widget());
     tabWidget->addTab(mManagerWidget, i18n("Instances"));
+    connect(mManagerWidget, &TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget::settingsChanged, this, &KCModule::needsSaveChanged);
     mMcpProtocolWidget =
-        new TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget(manager->textAutoGenerateTextMcpServerManager()->mcpServerModel(), widget());
+        new TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget(mManager->textAutoGenerateTextMcpServerManager()->mcpServerModel(), widget());
+    connect(mMcpProtocolWidget, &TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget::settingsChanged, this, &KCModule::needsSaveChanged);
     tabWidget->addTab(mMcpProtocolWidget, i18n("MCP Server"));
     topLayout->addWidget(tabWidget);
 }
@@ -38,6 +40,7 @@ void KCMAutoGenerateText::load()
 void KCMAutoGenerateText::save()
 {
     mManagerWidget->save();
+    mManager->textAutoGenerateTextMcpServerManager()->saveServers();
 }
 
 void KCMAutoGenerateText::defaults()

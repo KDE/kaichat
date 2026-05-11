@@ -15,6 +15,7 @@ class McpServerWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateTextInstancesManagerWidget;
+class TextAutoGenerateManager;
 }
 class KCMAutoGenerateText : public KCModule
 {
@@ -30,4 +31,5 @@ public Q_SLOTS:
 private:
     TextAutoGenerateText::TextAutoGenerateTextInstancesManagerWidget *mManagerWidget = nullptr;
     TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget *mMcpProtocolWidget = nullptr;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
