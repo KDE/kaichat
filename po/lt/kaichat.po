@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
 "PO-Revision-Date: 2025-08-31 00:45+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -238,7 +238,7 @@ msgstr ""
 msgid "Instances"
 msgstr ""
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr ""

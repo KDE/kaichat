@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-10 19:32-0300\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"PO-Revision-Date: 2026-05-11 06:57-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -238,7 +238,7 @@ msgstr "Texto"
 msgid "Instances"
 msgstr "Instâncias"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr "Servidor MCP"
@@ -313,7 +313,7 @@ msgstr "Pesquisar…"
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Depurar banco de dados"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:32
 #, kde-format
@@ -321,16 +321,14 @@ msgid "Chat"
 msgstr "Bate-papo"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Mensagem"
+msgstr "Mensagens"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Armazenar informações digitadas pendentes no banco de dados."
+msgstr "Informações digitadas pendentes"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -604,7 +602,7 @@ msgstr "Adiciona suporte ao Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "Adicionar caixa de diálogo de depuração do banco de dados."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format

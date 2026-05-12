@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -244,7 +244,7 @@ msgstr "Testua"
 msgid "Instances"
 msgstr "Instantziak"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, fuzzy, kde-format
 #| msgctxt "@title Preferences page name"
 #| msgid "MCP Servers"

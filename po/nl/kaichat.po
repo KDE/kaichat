@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-10 18:11+0200\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"PO-Revision-Date: 2026-05-11 12:13+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -238,7 +238,7 @@ msgstr "Tekst"
 msgid "Instances"
 msgstr "Exemplaren"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr "MCP-server"
@@ -313,7 +313,7 @@ msgstr "Zoeken…"
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Foutopsporing in database"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:32
 #, kde-format
@@ -321,16 +321,14 @@ msgid "Chat"
 msgstr "Chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Bericht"
+msgstr "Berichten"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Sla wachtende getypte informatie op in de database."
+msgstr "Wacht op getypte informatie"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -604,7 +602,7 @@ msgstr "Ondersteuning voor Sarvam toevoegen."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "Voeg een dialoogvenster voor databasefoutopsporing toe."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format

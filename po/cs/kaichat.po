@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
 "PO-Revision-Date: 2025-12-15 13:55+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -239,7 +239,7 @@ msgstr "Text"
 msgid "Instances"
 msgstr "Název instance"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr ""
@@ -321,10 +321,9 @@ msgid "Chat"
 msgstr "Rozhovor"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Zpráva"
+msgstr "Zprávy"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
 #, kde-format

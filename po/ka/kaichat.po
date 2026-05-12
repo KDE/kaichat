@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-10 06:04+0200\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"PO-Revision-Date: 2026-05-11 05:59+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -238,7 +238,7 @@ msgstr "ტექსტი"
 msgid "Instances"
 msgstr "გაშვებული ასლები"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr "MCP სერვერი"
@@ -314,7 +314,7 @@ msgstr "ძებნა…"
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "მონაცემთა ბაზის გამართვა"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:32
 #, kde-format
@@ -322,16 +322,14 @@ msgid "Chat"
 msgstr "ჩატი"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "შეტყობინება"
+msgstr "შეტყობინებები"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "რიგში მყოფი აკრეფილი ინფორმაციის მონაცემთა ბაზაში შენახვა."
+msgstr "რიგში მყოფი აკრეფილი ინფორმაცია"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -605,7 +603,7 @@ msgstr "დაემატა Sarvam-ის მხარდაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "დაემატა მონაცემთა ბაზის გამართვის დიალოგური ფანჯარა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format

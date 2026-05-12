@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-01-28 10:36+0100\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"PO-Revision-Date: 2026-05-11 10:25+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 23.08.5\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -237,7 +237,7 @@ msgstr "Texto"
 msgid "Instances"
 msgstr ""
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr ""
@@ -314,16 +314,14 @@ msgid "Debug Database"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:32
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Message"
+msgstr "Messages"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
 #, kde-format

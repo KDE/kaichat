@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-10 08:00+0200\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
+"PO-Revision-Date: 2026-05-11 06:53+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -238,7 +238,7 @@ msgstr "Besedilo"
 msgid "Instances"
 msgstr "Pojavki"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr "Strežnik MCP"
@@ -312,7 +312,7 @@ msgstr "Išči…"
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Zbirka podatkov za odpravljanje napak"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:32
 #, kde-format
@@ -320,16 +320,14 @@ msgid "Chat"
 msgstr "Klepet"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Sporočilo"
+msgstr "Sporočila"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Shrani čakajoče vnesene informacije v zbirko podatkov."
+msgstr "Čakajoče vnesene informacije"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -605,7 +603,7 @@ msgstr "Dodaj podporo za Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "Dodaj pogovorno okno za zbirko podatkov za odpravljanje napak."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format

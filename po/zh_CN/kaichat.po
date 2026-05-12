@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-11 00:47+0000\n"
+"POT-Creation-Date: 2026-05-12 00:48+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -237,7 +237,7 @@ msgstr "文本"
 msgid "Instances"
 msgstr "实例"
 
-#: kcm/kcmautogeneratetext.cpp:30
+#: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
 msgstr "MCP 服务器"
@@ -319,16 +319,14 @@ msgid "Chat"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "消息"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:38
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "在数据库中存储待输入信息."
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
