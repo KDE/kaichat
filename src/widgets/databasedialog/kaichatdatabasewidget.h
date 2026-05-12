@@ -10,6 +10,7 @@
 class QTabWidget;
 class KAIChatDatabaseChatWidget;
 class KAIChatDatabaseMessagesWidget;
+class KAIChatDatabaseMessageJsonWidget;
 class KAIChatDatabaseChatPendingTypedInfoWidget;
 namespace TextAutoGenerateText
 {
@@ -27,4 +28,5 @@ private:
     KAIChatDatabaseChatWidget *const mDatabaseChatWidget;
     KAIChatDatabaseChatPendingTypedInfoWidget *const mDatabaseChatPendingTypedInfoWidget;
     KAIChatDatabaseMessagesWidget *const mDatabaseMessagesWidget;
+    KAIChatDatabaseMessageJsonWidget *const mDatabaseMessageJsonWidget;
 };
