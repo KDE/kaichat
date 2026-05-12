@@ -28,4 +28,5 @@ public:
 
 private:
     TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget *const mMcpServerWidget;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

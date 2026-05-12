@@ -14,6 +14,7 @@ using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureMcpServersWidget::KAIChatConfigureMcpServersWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mMcpServerWidget(new TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget(manager->textAutoGenerateTextMcpServerManager()->mcpServerModel(), this))
+    , mManager(manager)
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
@@ -21,18 +22,21 @@ KAIChatConfigureMcpServersWidget::KAIChatConfigureMcpServersWidget(TextAutoGener
 
     mMcpServerWidget->setObjectName(u"mMcpServerWidget"_s);
     mainLayout->addWidget(mMcpServerWidget);
+    connect(mMcpServerWidget, &TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget::settingsChanged, this, &KAIChatConfigureMcpServersWidget::save);
+    load();
 }
 
 KAIChatConfigureMcpServersWidget::~KAIChatConfigureMcpServersWidget() = default;
 
 void KAIChatConfigureMcpServersWidget::save()
 {
-    // Nothing we use model
+    qDebug() << " void KAIChatConfigureMcpServersWidget::save()*";
+    mManager->textAutoGenerateTextMcpServerManager()->saveServers();
 }
 
 void KAIChatConfigureMcpServersWidget::load()
 {
-    // Nothing we use model
+    mManager->textAutoGenerateTextMcpServerManager()->loadServers();
 }
 
 void KAIChatConfigureMcpServersWidget::restoreToDefaults()
