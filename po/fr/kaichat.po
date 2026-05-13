@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: 2025, 2026 Xavier Besnard <xavier.besnard@kde.org>
+# SPDX-FileCopyrightText: 2025-2026 Xavier Besnard <xavier.besnard@kde.org>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
-"PO-Revision-Date: 2026-05-07 18:17+0200\n"
+"POT-Creation-Date: 2026-05-13 00:49+0000\n"
+"PO-Revision-Date: 2026-05-11 14:42+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -304,7 +304,7 @@ msgstr "L'heure et date courantes sont %1"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Rechercher…"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -312,19 +312,24 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:32
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Discussion"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:35
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
 #, fuzzy, kde-format
 #| msgid "Message"
 msgid "Messages"
 msgstr "Message"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:38
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
+#, fuzzy, kde-format
+#| msgid "Message"
+msgid "Messages JSON"
+msgstr "Message"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
 #, fuzzy, kde-format
 #| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"

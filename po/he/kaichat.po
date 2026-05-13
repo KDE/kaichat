@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-12 00:48+0000\n"
-"PO-Revision-Date: 2026-05-06 21:21+0300\n"
+"POT-Creation-Date: 2026-05-13 00:49+0000\n"
+"PO-Revision-Date: 2026-05-12 08:29+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -306,31 +306,34 @@ msgstr "התאריך והשעה כרגע הם %1"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "חיפוש…"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "ניפוי שגיאות מסד נתונים"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:32
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "שיחה"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:35
-#, fuzzy, kde-format
-#| msgid "Message"
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
+#, kde-format
 msgid "Messages"
-msgstr "הודעה"
+msgstr "הודעות"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:38
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
 #, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#| msgid "Messages"
+msgid "Messages JSON"
+msgstr "הודעות"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "אחסון נתונים ממתינים שהוקלדו למסד הנתונים."
+msgstr "נתונים מוקלדים ממתינים"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -606,7 +609,7 @@ msgstr "נוספה תמיכה ב־Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "הוספת חלונית ניפוי שגיאות במסד נתונים"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format
