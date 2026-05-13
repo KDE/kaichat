@@ -30,7 +30,6 @@ KAIChatConfigureMcpServersWidget::~KAIChatConfigureMcpServersWidget() = default;
 
 void KAIChatConfigureMcpServersWidget::save()
 {
-    qDebug() << " void KAIChatConfigureMcpServersWidget::save()*";
     mManager->textAutoGenerateTextMcpServerManager()->saveServers();
 }
 
