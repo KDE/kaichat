@@ -25,8 +25,8 @@ if(TARGET KF6::UserFeedbackWidgets)
             userfeedback/kaichatuserfeedbackprovider.h
             userfeedback/accountinfosource.cpp
             userfeedback/accountinfosource.h
-            kaichatconfigureuserfeedbackwidget.cpp
-            kaichatconfigureuserfeedbackwidget.h
+            configure/kaichatconfigureuserfeedbackwidget.cpp
+            configure/kaichatconfigureuserfeedbackwidget.h
     )
 endif()
 
@@ -45,20 +45,20 @@ target_sources(
         kaichatchangefontsizemenu.cpp
         libkaichatwidgets_private_export.h
         kaichatwidgets.qrc
-        kaichatconfiguresettingsdialog.h
-        kaichatconfiguresettingsdialog.cpp
-        kaichatconfiguregeneralwidget.h
-        kaichatconfiguregeneralwidget.cpp
-        kaichatconfigurefontwidget.cpp
-        kaichatconfigurefontwidget.h
-        kaichatconfigurespellcheckingwidget.cpp
-        kaichatconfigurespellcheckingwidget.h
-        kaichatconfigureaccessibilitywidget.cpp
-        kaichatconfigureaccessibilitywidget.h
+        configure/kaichatconfiguresettingsdialog.h
+        configure/kaichatconfiguresettingsdialog.cpp
+        configure/kaichatconfiguregeneralwidget.h
+        configure/kaichatconfiguregeneralwidget.cpp
+        configure/kaichatconfigurefontwidget.cpp
+        configure/kaichatconfigurefontwidget.h
+        configure/kaichatconfigurespellcheckingwidget.cpp
+        configure/kaichatconfigurespellcheckingwidget.h
+        configure/kaichatconfigureaccessibilitywidget.cpp
+        configure/kaichatconfigureaccessibilitywidget.h
+        configure/kaichatconfigureinstanceswidget.h
+        configure/kaichatconfigureinstanceswidget.cpp
         kaichatexportmenu.h
         kaichatexportmenu.cpp
-        kaichatconfigureinstanceswidget.h
-        kaichatconfigureinstanceswidget.cpp
         kaichatutils.h
         kaichatutils.cpp
         kaichatwhatsnewtranslations.h
@@ -79,8 +79,8 @@ if(USE_MCP_SERVER_SUPPORT)
     target_sources(
         libkaichatwidgets
         PRIVATE
-            kaichatconfiguremcpserverswidget.h
-            kaichatconfiguremcpserverswidget.cpp
+            configure/kaichatconfiguremcpserverswidget.h
+            configure/kaichatconfiguremcpserverswidget.cpp
     )
 endif()
 

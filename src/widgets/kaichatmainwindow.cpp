@@ -10,11 +10,11 @@
 #include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
+#include "configure/kaichatconfiguresettingsdialog.h"
 #include "databasedialog/kaichatdatabasedialog.h"
 #include "kaichatcentralwidget.h"
 #include "kaichatchangefontsizemenu.h"
 #include "kaichatcommandlineparser.h"
-#include "kaichatconfiguresettingsdialog.h"
 #include "kaichatexportmenu.h"
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
