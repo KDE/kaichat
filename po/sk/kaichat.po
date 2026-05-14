@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 00:49+0000\n"
+"POT-Creation-Date: 2026-05-14 00:47+0000\n"
 "PO-Revision-Date: 2026-04-03 00:47+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -301,41 +301,109 @@ msgstr "Aktuálny dátum je %1"
 msgid "Current date time is %1"
 msgstr "Aktuálny dátum a čas je %1"
 
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr "Enable Text To Speech"
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "Použiť &vlastné písma"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Povoliť ikonu v systémovej lište"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Nastaviť KAIChat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Všeobecné"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:58
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr "Písmo"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:63
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Inštancie"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr "MCP servery"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Kontrola pravopisu"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Accessibility"
+msgstr "Prístupnosť"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr "Moduly"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "User Feedback"
+msgstr "Spätná väzba používateľa"
+
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Hľadať…"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Ladiť databázu"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:37
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Správa"
+msgstr "Správy"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:40
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Správa"
+msgstr "Správy JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:43
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Ukladanie čakajúcich napísaných informácií do databázy."
+msgstr "Čakajúce napísané informácie"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -353,78 +421,6 @@ msgstr "Increase Font"
 msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Decrease Font"
-
-#: widgets/kaichatconfigureaccessibilitywidget.cpp:23
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable Text To Speech"
-msgstr "Enable Text To Speech"
-
-#: widgets/kaichatconfigurefontwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "&Use custom fonts"
-msgstr "Použiť &vlastné písma"
-
-#: widgets/kaichatconfiguregeneralwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable system tray icon"
-msgstr "Povoliť ikonu v systémovej lište"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:50
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure KAIChat"
-msgstr "Nastaviť KAIChat"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:53
-#, kde-format
-msgctxt "@title General page name"
-msgid "General"
-msgstr "Všeobecné"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:58
-#, kde-format
-msgctxt "@title General page name"
-msgid "Font"
-msgstr "Písmo"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:63
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Instances"
-msgstr "Inštancie"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:69
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "MCP Servers"
-msgstr "MCP servery"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:75
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Spell Checking"
-msgstr "Kontrola pravopisu"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:80
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Accessibility"
-msgstr "Prístupnosť"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:86
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Plugins"
-msgstr "Moduly"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:92
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "User Feedback"
-msgstr "Spätná väzba používateľa"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -610,7 +606,7 @@ msgstr "Pridaná podpora Sarvam."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Add Database Debug Dialogbox."
-msgstr ""
+msgstr "Pridať dialógové okno ladenia databázy."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:36
 #, kde-format

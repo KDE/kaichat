@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 00:49+0000\n"
-"PO-Revision-Date: 2026-05-11 09:28+0200\n"
+"POT-Creation-Date: 2026-05-14 00:47+0000\n"
+"PO-Revision-Date: 2026-05-13 07:48+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -303,6 +303,78 @@ msgstr "La data actual és %1"
 msgid "Current date time is %1"
 msgstr "La data i hora actual és %1"
 
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr "Activa el text a veu"
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Empra lletres personalitzades"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Activa la icona a la safata del sistema"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Configura el KAIChat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "General"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:58
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr "Lletra"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:63
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Instàncies"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr "Servidors MCP"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Verificació ortogràfica"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Accessibility"
+msgstr "Accessibilitat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr "Connectors"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "User Feedback"
+msgstr "Comentaris de l'usuari"
+
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
@@ -326,10 +398,9 @@ msgid "Messages"
 msgstr "Missatges"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:40
-#, fuzzy, kde-format
-#| msgid "Messages"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Missatges"
+msgstr "Missatges JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:43
 #, kde-format
@@ -352,78 +423,6 @@ msgstr "Augmenta la mida de la lletra"
 msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Disminueix la mida de la lletra"
-
-#: widgets/kaichatconfigureaccessibilitywidget.cpp:23
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable Text To Speech"
-msgstr "Activa el text a veu"
-
-#: widgets/kaichatconfigurefontwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "&Use custom fonts"
-msgstr "&Empra lletres personalitzades"
-
-#: widgets/kaichatconfiguregeneralwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable system tray icon"
-msgstr "Activa la icona a la safata del sistema"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:50
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure KAIChat"
-msgstr "Configura el KAIChat"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:53
-#, kde-format
-msgctxt "@title General page name"
-msgid "General"
-msgstr "General"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:58
-#, kde-format
-msgctxt "@title General page name"
-msgid "Font"
-msgstr "Lletra"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:63
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Instances"
-msgstr "Instàncies"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:69
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "MCP Servers"
-msgstr "Servidors MCP"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:75
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Spell Checking"
-msgstr "Verificació ortogràfica"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:80
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Accessibility"
-msgstr "Accessibilitat"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:86
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Plugins"
-msgstr "Connectors"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:92
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "User Feedback"
-msgstr "Comentaris de l'usuari"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format

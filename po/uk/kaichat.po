@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 00:49+0000\n"
-"PO-Revision-Date: 2026-05-11 08:18+0300\n"
+"POT-Creation-Date: 2026-05-14 00:47+0000\n"
+"PO-Revision-Date: 2026-05-13 08:44+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -302,6 +302,78 @@ msgstr "Поточна дата: %1"
 msgid "Current date time is %1"
 msgstr "Поточна дата і час: %1"
 
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr "Увімкнути озвучення тексту"
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Використовувати нетипові шрифти"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Увімкнути піктограму системного лотка"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Налаштовування KAIChat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Загальне"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:58
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr "Шрифт"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:63
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Екземляри"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr "Сервери MCP"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Перевірка правопису"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Accessibility"
+msgstr "Доступність"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr "Додатки"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "User Feedback"
+msgstr "Відгуки користувача"
+
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
@@ -325,10 +397,9 @@ msgid "Messages"
 msgstr "Повідомлення"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:40
-#, fuzzy, kde-format
-#| msgid "Messages"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Повідомлення"
+msgstr "JOSN повідомлень"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:43
 #, kde-format
@@ -351,78 +422,6 @@ msgstr "Збільшити розмір шрифту"
 msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Зменшити розмір шрифту"
-
-#: widgets/kaichatconfigureaccessibilitywidget.cpp:23
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable Text To Speech"
-msgstr "Увімкнути озвучення тексту"
-
-#: widgets/kaichatconfigurefontwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "&Use custom fonts"
-msgstr "&Використовувати нетипові шрифти"
-
-#: widgets/kaichatconfiguregeneralwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable system tray icon"
-msgstr "Увімкнути піктограму системного лотка"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:50
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure KAIChat"
-msgstr "Налаштовування KAIChat"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:53
-#, kde-format
-msgctxt "@title General page name"
-msgid "General"
-msgstr "Загальне"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:58
-#, kde-format
-msgctxt "@title General page name"
-msgid "Font"
-msgstr "Шрифт"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:63
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Instances"
-msgstr "Екземляри"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:69
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "MCP Servers"
-msgstr "Сервери MCP"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:75
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Spell Checking"
-msgstr "Перевірка правопису"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:80
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Accessibility"
-msgstr "Доступність"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:86
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Plugins"
-msgstr "Додатки"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:92
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "User Feedback"
-msgstr "Відгуки користувача"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format

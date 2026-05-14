@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-13 00:49+0000\n"
+"POT-Creation-Date: 2026-05-14 00:47+0000\n"
 "PO-Revision-Date: 2025-12-15 13:55+0100\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -303,6 +303,78 @@ msgstr ""
 msgid "Current date time is %1"
 msgstr ""
 
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr ""
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Použít vlastní písma"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Povolit ikonu v systémové části panelu"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Obecné"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:58
+#, kde-format
+msgctxt "@title General page name"
+msgid "Font"
+msgstr "Písmo"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:63
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "MCP Servers"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Kontrola pravopisu"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Accessibility"
+msgstr "Zpřístupnění"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Plugins"
+msgstr "Moduly"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "User Feedback"
+msgstr "Zpětná vazba uživatele"
+
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
@@ -352,78 +424,6 @@ msgstr "Zvětšit písmo"
 msgctxt "@action"
 msgid "Decrease Font"
 msgstr "Zmenšit písmo"
-
-#: widgets/kaichatconfigureaccessibilitywidget.cpp:23
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable Text To Speech"
-msgstr ""
-
-#: widgets/kaichatconfigurefontwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "&Use custom fonts"
-msgstr "&Použít vlastní písma"
-
-#: widgets/kaichatconfiguregeneralwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable system tray icon"
-msgstr "Povolit ikonu v systémové části panelu"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:50
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure KAIChat"
-msgstr ""
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:53
-#, kde-format
-msgctxt "@title General page name"
-msgid "General"
-msgstr "Obecné"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:58
-#, kde-format
-msgctxt "@title General page name"
-msgid "Font"
-msgstr "Písmo"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:63
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Instances"
-msgstr ""
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:69
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "MCP Servers"
-msgstr ""
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:75
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Spell Checking"
-msgstr "Kontrola pravopisu"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:80
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "Accessibility"
-msgstr "Zpřístupnění"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:86
-#, kde-format
-msgctxt "@title Instances page name"
-msgid "Plugins"
-msgstr "Moduly"
-
-#: widgets/kaichatconfiguresettingsdialog.cpp:92
-#, kde-format
-msgctxt "@title Preferences page name"
-msgid "User Feedback"
-msgstr "Zpětná vazba uživatele"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
