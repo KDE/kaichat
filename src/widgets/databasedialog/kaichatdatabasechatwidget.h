@@ -19,6 +19,9 @@ public:
     explicit KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseChatWidget() override;
 
+Q_SIGNALS:
+    void showMessageFromChatIdRequested(const QByteArray &chatId);
+
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

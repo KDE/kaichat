@@ -41,6 +41,10 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
 
     mDatabaseChatPendingTypedInfoWidget->setObjectName("mDatabaseChatPendingTypedInfoWidget"_L1);
     mTabWidget->addTab(mDatabaseChatPendingTypedInfoWidget, i18n("Pending Typed Info"));
+    connect(mDatabaseChatWidget, &KAIChatDatabaseChatWidget::showMessageFromChatIdRequested, this, [this](const QByteArray &chatId) {
+        // TODO
+        mDatabaseMessagesWidget->loadMessageFromChatId(QString::fromLatin1(chatId));
+    });
 }
 
 KAIChatDatabaseWidget::~KAIChatDatabaseWidget() = default;
