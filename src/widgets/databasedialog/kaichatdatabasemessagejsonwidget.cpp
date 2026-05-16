@@ -21,4 +21,9 @@ KAIChatDatabaseMessageJsonWidget::KAIChatDatabaseMessageJsonWidget(QWidget *pare
 
 KAIChatDatabaseMessageJsonWidget::~KAIChatDatabaseMessageJsonWidget() = default;
 
+void KAIChatDatabaseMessageJsonWidget::setJson(const QString &json)
+{
+    mJsonPlainTextEditWidget->setPlainText(json);
+}
+
 #include "moc_kaichatdatabasemessagejsonwidget.cpp"

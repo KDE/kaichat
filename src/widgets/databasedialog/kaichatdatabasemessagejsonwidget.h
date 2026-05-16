@@ -14,6 +14,8 @@ public:
     explicit KAIChatDatabaseMessageJsonWidget(QWidget *parent = nullptr);
     ~KAIChatDatabaseMessageJsonWidget() override;
 
+    void setJson(const QString &json);
+
 private:
     JsonPlainTextEditWidget *const mJsonPlainTextEditWidget;
 };
