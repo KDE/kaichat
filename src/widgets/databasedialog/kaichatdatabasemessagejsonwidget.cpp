@@ -20,3 +20,5 @@ KAIChatDatabaseMessageJsonWidget::KAIChatDatabaseMessageJsonWidget(QWidget *pare
 }
 
 KAIChatDatabaseMessageJsonWidget::~KAIChatDatabaseMessageJsonWidget() = default;
+
+#include "moc_kaichatdatabasemessagejsonwidget.cpp"
