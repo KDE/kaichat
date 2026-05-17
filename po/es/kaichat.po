@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-13 20:28+0100\n"
+"PO-Revision-Date: 2026-05-16 17:31+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -613,6 +613,7 @@ msgstr "Se ha añadido un diálogo de depuración de base de datos."
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
 msgstr ""
+"Mostrar información de respuesta sobre duración, número de tókenes, etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

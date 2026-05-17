@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-13 07:48+0200\n"
+"PO-Revision-Date: 2026-05-16 11:43+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -612,6 +612,8 @@ msgstr "Afig un diàleg de depuració de la base de dades."
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
 msgstr ""
+"Mostra informació de resposta sobre la duració, nombre de segments textuals, "
+"etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

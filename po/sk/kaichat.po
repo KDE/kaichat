@@ -610,7 +610,7 @@ msgstr "Pridať dialógové okno ladenia databázy."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
-msgstr ""
+msgstr "Zobraziť informácie o odpovedi: trvanie, počet tokenov a pod."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-13 12:53+0300\n"
+"PO-Revision-Date: 2026-05-16 20:25+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -609,7 +609,7 @@ msgstr "Veri tabanı hata ayıklama iletişim kutusu ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
-msgstr ""
+msgstr "Süre, jeton sayısı vb. hakkında bilgi görüntüle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-13 05:21-0300\n"
+"PO-Revision-Date: 2026-05-16 05:54-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -611,7 +611,7 @@ msgstr "Adicionar caixa de diálogo de depuração do banco de dados."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
-msgstr ""
+msgstr "Exibir informações da resposta sobre a duração, número de tokens, etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format

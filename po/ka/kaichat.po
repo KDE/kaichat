@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-13 08:34+0200\n"
+"PO-Revision-Date: 2026-05-16 04:41+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -613,6 +613,8 @@ msgstr "დაემატა მონაცემთა ბაზის გა
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
 msgstr ""
+"პასუხის ინფორმაციის ჩვენება ხანგრძლივობის, ტოკენების რაოდენობის და ა.შ. "
+"შესახებ."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
