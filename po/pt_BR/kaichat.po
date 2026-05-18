@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-16 05:54-0300\n"
+"PO-Revision-Date: 2026-05-17 07:48-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -180,7 +180,7 @@ msgstr "Retorna informações de plugins"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "Lista as opções disponíveis para os comentários dos usuários"
+msgstr "Lista as opções disponíveis para o feedback do usuário"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
@@ -373,7 +373,7 @@ msgstr "Plugins"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Comentários do usuário"
+msgstr "Feedback do usuário"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
@@ -827,7 +827,7 @@ msgstr "Adiciona suporte à instância do Grok."
 #: widgets/kaichatwhatsnewtranslations.cpp:103
 #, kde-format
 msgid "Add User Feedback support."
-msgstr "Adiciona suporte a comentários do usuário."
+msgstr "Adiciona suporte a feedback do usuário."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:104
 #, kde-format
