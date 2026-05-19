@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-16 00:46+0000\n"
-"PO-Revision-Date: 2026-05-14 21:30+0200\n"
+"PO-Revision-Date: 2026-05-17 12:50+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -610,6 +610,8 @@ msgstr "Ajouter une boîte de dialogue de débogage de la base de données."
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Display reply info about duration, number of tokens etc."
 msgstr ""
+"Afficher les informations de réponse concernant la durée, le nombre de "
+"jetons, etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:37
 #, kde-format
