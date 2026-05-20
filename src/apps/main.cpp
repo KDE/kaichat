@@ -16,6 +16,7 @@
 #include <KLocalizedString>
 #include <QApplication>
 #include <QCommandLineParser>
+#include <QPointer>
 #include <QTimer>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGeneratePluginTextManager>
@@ -176,7 +177,7 @@ int main(int argc, char *argv[])
 #if WITH_DBUS
     new KAIChatAdaptor(&manager, &app);
 #endif
-    auto mw = new KAIChatMainWindow(&manager);
+    QPointer<KAIChatMainWindow> mw{new KAIChatMainWindow(&manager)};
 #if WITH_DBUS
     QObject::connect(&service, &KDBusService::activateRequested, mw, &KAIChatMainWindow::slotActivateRequested);
 #else
@@ -228,5 +229,6 @@ int main(int argc, char *argv[])
     }
 
     const int val = app.exec();
+    delete mw;
     return val;
 }
