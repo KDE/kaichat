@@ -221,7 +221,10 @@ int main(int argc, char *argv[])
 
     mw->show();
     if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
-        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, [mw, &app]() {
+            delete mw;
+            app.quit();
+        });
     }
 
     const int val = app.exec();
