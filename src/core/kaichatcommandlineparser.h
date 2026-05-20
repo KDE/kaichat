@@ -29,6 +29,7 @@ public:
 #endif
         ImportChat,
         StartOllamaProgram,
+        SelfTest,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

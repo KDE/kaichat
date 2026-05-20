@@ -16,6 +16,7 @@
 #include <KLocalizedString>
 #include <QApplication>
 #include <QCommandLineParser>
+#include <QTimer>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGeneratePluginTextManager>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPluginManager>
@@ -219,6 +220,10 @@ int main(int argc, char *argv[])
 #endif
 
     mw->show();
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
+        QTimer::singleShot(std::chrono::milliseconds(250), &app, &QCoreApplication::quit);
+    }
+
     const int val = app.exec();
     return val;
 }

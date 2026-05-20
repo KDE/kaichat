@@ -48,6 +48,9 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ImportChat), i18nc("@info:shell", "Import Chat"), i18n("Import")));
     parser->addOption(
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::StartOllamaProgram), i18nc("@info:shell", "Start Ollama program")));
+    QCommandLineOption selfTestOption(optionParserFromEnum(OptionParser::SelfTest), QStringLiteral("internal, for automated testing"));
+    selfTestOption.setFlags(QCommandLineOption::HiddenFromHelp);
+    parser->addOption(selfTestOption);
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
@@ -85,6 +88,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"import"_s;
     case OptionParser::StartOllamaProgram:
         return u"start-ollama"_s;
+    case OptionParser::SelfTest:
+        return u"self-test"_s;
     }
     return {};
 }
