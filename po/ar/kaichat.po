@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-16 00:46+0000\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
 "PO-Revision-Date: 2026-05-07 13:10+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,43 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
 
-#: apps/main.cpp:73 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:75 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "كتشات"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:77
 #, kde-format
 msgid "AI Chat"
 msgstr "دردشة للذكاء الاصطناعي"
 
-#: apps/main.cpp:77
+#: apps/main.cpp:79
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "حقوق النشر © 2025-2026 لوران مونتيل"
 
-#: apps/main.cpp:78
+#: apps/main.cpp:80
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "لوران مونتيل"
 
-#: apps/main.cpp:78
+#: apps/main.cpp:80
 #, kde-format
 msgid "Maintainer"
 msgstr "المُحافظ"
 
-#: apps/main.cpp:111
+#: apps/main.cpp:113
 #, kde-format
 msgid "The following instances are available:"
 msgstr "النُسخ التالية متوفِّرة:"
 
-#: apps/main.cpp:128
+#: apps/main.cpp:130
 #, kde-format
 msgid "List of Chats:"
 msgstr "قائمة الدردشات:"
 
-#: apps/main.cpp:141
+#: apps/main.cpp:143
 #, kde-format
 msgid "Plugins:"
 msgstr "الملحقات:"

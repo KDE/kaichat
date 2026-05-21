@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-16 00:46+0000\n"
+"POT-Creation-Date: 2026-05-21 00:48+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -27,43 +27,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com, azusa@shiroazusa.net"
 
-#: apps/main.cpp:73 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:75 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:77
 #, kde-format
 msgid "AI Chat"
 msgstr "AI 聊天"
 
-#: apps/main.cpp:77
+#: apps/main.cpp:79
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025-2026 Laurent Montel"
 
-#: apps/main.cpp:78
+#: apps/main.cpp:80
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:78
+#: apps/main.cpp:80
 #, kde-format
 msgid "Maintainer"
 msgstr "维护人员"
 
-#: apps/main.cpp:111
+#: apps/main.cpp:113
 #, kde-format
 msgid "The following instances are available:"
 msgstr "下列实例可用："
 
-#: apps/main.cpp:128
+#: apps/main.cpp:130
 #, kde-format
 msgid "List of Chats:"
 msgstr "聊天列表："
 
-#: apps/main.cpp:141
+#: apps/main.cpp:143
 #, kde-format
 msgid "Plugins:"
 msgstr "插件:"
