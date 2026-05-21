@@ -147,6 +147,7 @@ void KAIChatMainWindow::setupActions()
     mExportMenu = new KAIChatExportMenu(this);
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
+    connect(mExportMenu, &KAIChatExportMenu::exportDone, this, &KAIChatMainWindow::slotExportDone);
 
     mImportMenu = new KAIChatImportMenu(this);
     ac->addAction(u"import_menu"_s, mImportMenu);
@@ -222,6 +223,14 @@ void KAIChatMainWindow::slotShowDatabaseMessages()
     QPointer<KAIChatDatabaseDialog> dlg = new KAIChatDatabaseDialog(mManager, this);
     dlg->exec();
     delete dlg;
+}
+
+void KAIChatMainWindow::slotExportDone(const QString &fileName)
+{
+    // TODO fix type
+    if (mManager) {
+        Q_EMIT mManager->openSavedFileFolderDone({QUrl::fromLocalFile(fileName)}, TextAutoGenerateText::TextAutoGenerateManager::FileType::Pdf);
+    }
 }
 
 void KAIChatMainWindow::slotQuickAsk()

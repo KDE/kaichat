@@ -76,8 +76,9 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         job = new KAIChatExportChatAsPdfJob(this);
         break;
     }
-    connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportDone, this, []() {
+    connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportDone, this, [this](const QString &fileName) {
         qCDebug(KAICHAT_WIDGET_LOG) << "Export job done";
+        Q_EMIT exportDone(fileName);
     });
 
     job->setInfo(newInfo);

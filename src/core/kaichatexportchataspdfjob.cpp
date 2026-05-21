@@ -93,6 +93,7 @@ void KAIChatExportChatAsPdfJob::exportChat()
         pageTop += pageSize.height();
     }
     painter.end();
+    Q_EMIT exportDone(mInfo.filename);
     deleteLater();
 }
 

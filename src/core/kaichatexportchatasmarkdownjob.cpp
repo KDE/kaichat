@@ -54,6 +54,7 @@ void KAIChatExportChatAsMarkdownJob::exportChat()
     if (data.open(QFile::WriteOnly)) {
         QTextStream out(&data);
         out << txt;
+        Q_EMIT exportDone(mInfo.filename);
     } else {
         qCWarning(KAICHAT_CORE_LOG) << "Impossible to open file " << mInfo.filename;
     }
