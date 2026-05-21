@@ -50,9 +50,29 @@ void KAIChatExportChatAsPdfJob::exportChat()
     QFont f;
     f.setPointSize(24);
     doc.setDefaultFont(f);
-    QString txt = mInfo.chatTitle;
+    QString txt = u"<h1><b>%1</b></h1>"_s.arg(mInfo.chatTitle) + u"<br/>"_s;
+    const QString senderStr = u"<h2><b>%1</b></h2>"_s;
     for (const auto &message : std::as_const(mInfo.listMessages)) {
+        switch (message.sender()) {
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Unknown:
+            qCWarning(KAICHAT_CORE_LOG) << "Sender invalid";
+            continue;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::User:
+            txt += senderStr.arg(i18n("User"));
+            break;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Assistant:
+            txt += senderStr.arg(i18n("Assistant"));
+            break;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::System:
+            txt += senderStr.arg(i18n("System"));
+            break;
+        case TextAutoGenerateText::TextAutoGenerateMessage::Sender::Tool:
+            txt += senderStr.arg(i18n("Tool"));
+            break;
+        }
+
         txt += message.htmlGenerated();
+        txt += u"<br/>"_s;
     }
     doc.setHtml(txt);
 
