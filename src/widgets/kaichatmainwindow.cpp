@@ -227,9 +227,8 @@ void KAIChatMainWindow::slotShowDatabaseMessages()
 
 void KAIChatMainWindow::slotExportDone(const QString &fileName)
 {
-    // TODO fix type
     if (mManager) {
-        Q_EMIT mManager->openSavedFileFolderDone({QUrl::fromLocalFile(fileName)}, TextAutoGenerateText::TextAutoGenerateManager::FileType::Pdf);
+        Q_EMIT mManager->openSavedFileFolderDone({QUrl::fromLocalFile(fileName)}, TextAutoGenerateText::TextAutoGenerateManager::FileType::File);
     }
 }
 
