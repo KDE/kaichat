@@ -7,6 +7,7 @@
 #include "kaichatexportmenu.h"
 #include "kaichat_widget_debug.h"
 #include "kaichatexportchatasmarkdownjob.h"
+#include "kaichatexportchataspdfjob.h"
 #include "kaichatexportchatastextjob.h"
 #include <KLocalizedString>
 #include <TextAutoGenerateText/TextAutoGenerateExportChatAsJsonJob>
@@ -38,6 +39,14 @@ KAIChatExportMenu::KAIChatExportMenu(QObject *parent)
         Q_EMIT exportInfoRequested();
     });
     addAction(act);
+
+    act = new QAction(i18nc("@action", "Export as Pdf…"), this);
+    connect(act, &QAction::triggered, this, [this] {
+        mConvertToType = ConvertToType::Pdf;
+        mFileFilter = KAIChatExportChatAsPdfJob::fileFilter();
+        Q_EMIT exportInfoRequested();
+    });
+    addAction(act);
 }
 
 KAIChatExportMenu::~KAIChatExportMenu() = default;
@@ -62,6 +71,9 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         break;
     case ConvertToType::Text:
         job = new KAIChatExportChatAsTextJob(this);
+        break;
+    case ConvertToType::Pdf:
+        job = new KAIChatExportChatAsPdfJob(this);
         break;
     }
     connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportDone, this, []() {

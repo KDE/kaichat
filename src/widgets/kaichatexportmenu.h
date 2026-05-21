@@ -26,6 +26,7 @@ private:
         Json,
         Markdown,
         Text,
+        Pdf,
     };
     void convertChat(const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo &newInfo);
     ConvertToType mConvertToType = ConvertToType::Unknown;

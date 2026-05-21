@@ -13,7 +13,9 @@ target_sources(
         kaichatexportchatasmarkdownjob.h
         kaichatexportchatasmarkdownjob.cpp
         kaichatexportchatastextjob.h
+        kaichatexportchataspdfjob.h
         kaichatexportchatastextjob.cpp
+        kaichatexportchataspdfjob.cpp
         kaichatcommandlineparser.h
         kaichatcommandlineparser.cpp
 )
