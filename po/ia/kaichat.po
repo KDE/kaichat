@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-22 00:47+0000\n"
-"PO-Revision-Date: 2026-05-13 12:10+0200\n"
+"PO-Revision-Date: 2026-05-22 12:08+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -230,7 +230,7 @@ msgstr "Instrumento"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -462,12 +462,10 @@ msgid "Export as Text…"
 msgstr "Exporta como Texto…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exporta como JSON…"
+msgstr "Exporta como PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format

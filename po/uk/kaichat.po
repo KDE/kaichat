@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-22 00:47+0000\n"
-"PO-Revision-Date: 2026-05-16 11:30+0300\n"
+"PO-Revision-Date: 2026-05-22 09:29+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -231,7 +231,7 @@ msgstr "Інструмент"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -463,12 +463,10 @@ msgid "Export as Text…"
 msgstr "Експортувати як текст…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Експортувати як JSON…"
+msgstr "Експортувати як PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -630,10 +628,8 @@ msgstr ""
 "параметрів відповіді"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "Уможливлено зміну розміру шрифту."
+msgstr "Уможливлено експортування даних до PDF."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

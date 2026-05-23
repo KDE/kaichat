@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-22 00:47+0000\n"
-"PO-Revision-Date: 2026-05-16 11:43+0200\n"
+"PO-Revision-Date: 2026-05-22 09:28+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -232,7 +232,7 @@ msgstr "Eina"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -464,12 +464,10 @@ msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exporta com a JSON…"
+msgstr "Exporta com a PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -629,10 +627,8 @@ msgstr ""
 "etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "Permet canviar la mida de la lletra."
+msgstr "Permet exportar com a PDF."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

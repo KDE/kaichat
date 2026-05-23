@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-22 00:47+0000\n"
-"PO-Revision-Date: 2026-05-16 11:07+0200\n"
+"PO-Revision-Date: 2026-05-22 11:14+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -231,7 +231,7 @@ msgstr "Hulpmiddel"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "Pdf"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -464,12 +464,10 @@ msgid "Export as Text…"
 msgstr "Als tekst exporteren…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Als JSON exporteren…"
+msgstr "Als Pdf exporteren…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -627,10 +625,8 @@ msgid "Display reply info about duration, number of tokens etc."
 msgstr "Toon antwoordinformatie over de duur, het aantal tokens, enz."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "Sta wijzigen van tekengrootte toe."
+msgstr "Sta exporteren als PDF toe."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

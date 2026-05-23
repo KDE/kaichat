@@ -462,12 +462,10 @@ msgid "Export as Text…"
 msgstr "导出为文本..."
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "以 JSON 形式导出..."
+msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -622,10 +620,8 @@ msgid "Display reply info about duration, number of tokens etc."
 msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "允许更改字体大小。"
+msgstr ""
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
