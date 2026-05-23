@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Emir SARI <emir_sari@îcloud.com>
+# SPDX-FileCopyrightText: 2025-2026 Emir SARI <emir_sari@îcloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 02:45+0000\n"
-"PO-Revision-Date: 2026-03-09 21:44+0300\n"
+"PO-Revision-Date: 2026-05-22 12:08+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -544,7 +544,7 @@ msgstr "Ollama Bulut desteği ekle"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Allow to duplicate chat."
-msgstr "Sohbeti çoğaltmaya izin ver"
+msgstr "Sohbeti çoğaltmaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
 msgid "Add Ollama Keep Alive setting support."
@@ -612,7 +612,7 @@ msgstr "Paylaşılan metin ve web kısayolu eklentisini ekle"
 #: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Allow to configure plugins."
-msgstr "Eklentileri yapılandırmaya izin ver"
+msgstr "Eklentileri yapılandırmaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
@@ -627,7 +627,7 @@ msgstr "Sohbetler listesine ilerleme göstergesi ekle"
 #: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to change font size."
-msgstr "Yazıtipi puntosunu değiştirmeye izin ver"
+msgstr "Yazıtipi puntosunu değiştirmeye olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
@@ -650,12 +650,12 @@ msgstr "Model indirmesi tamamlandığında bildirim göster"
 #: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
-msgstr "Metin ve sarma çubuğu konumunu geri yüklemeye izin ver"
+msgstr "Metin ve sarma çubuğu konumunu geri yüklemeye olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Allow to save and restore current chat."
-msgstr "Geçerli sohbeti kaydetmeye ve geri yüklemeye izin ver"
+msgstr "Geçerli sohbeti kaydetmeye ve geri yüklemeye olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
@@ -762,7 +762,7 @@ msgstr "Ollama modellerini yapılandırma simgesini ekle"
 #: widgets/kaichatwhatsnewtranslations.cpp:92
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
-msgstr "Belirli Ollama çevre değişkenlerini kullanmaya izin ver"
+msgstr "Belirli Ollama çevre değişkenlerini kullanmaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:96
 #, kde-format
