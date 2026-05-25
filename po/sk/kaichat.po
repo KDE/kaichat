@@ -230,7 +230,7 @@ msgstr "Nástroj"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -462,12 +462,10 @@ msgid "Export as Text…"
 msgstr "Exportovať ako text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exportovať ako JSON…"
+msgstr "Exportovať ako PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -626,10 +624,8 @@ msgid "Display reply info about duration, number of tokens etc."
 msgstr "Zobraziť informácie o odpovedi: trvanie, počet tokenov a pod."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "Umožnenie zmeny veľkosti písma."
+msgstr "Umožnenie exportu do PDF."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format

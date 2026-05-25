@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-22 00:47+0000\n"
-"PO-Revision-Date: 2026-05-17 12:50+0200\n"
+"PO-Revision-Date: 2026-05-23 09:57+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
 "Language: fr\n"
@@ -227,7 +227,7 @@ msgstr "Outil"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -461,12 +461,10 @@ msgid "Export as Text…"
 msgstr "Exporter au format « Texte »..."
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exporter au format « JSON »..."
+msgstr "Exporter au format « PDF »..."
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -627,10 +625,8 @@ msgstr ""
 "jetons, etc."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
 msgid "Allow to export as PDF."
-msgstr "Autoriser le changement de taille de police."
+msgstr "Autoriser l'exportation au format « PDF »."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
