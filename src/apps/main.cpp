@@ -64,6 +64,7 @@ int main(int argc, char *argv[])
     KIconTheme::initTheme();
     QApplication app(argc, argv);
     app.setWindowIcon(QIcon(u":/kaichat/kaichat.svg"_s));
+    app.setDesktopFileName(u"org.kde.kaichat"_s);
 
     KStyleManager::initStyle();
 #if !WITH_DBUS
