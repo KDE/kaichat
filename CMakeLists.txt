@@ -115,7 +115,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.65")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.66")
 
 find_package(
     Qt6
@@ -143,6 +143,9 @@ find_package(
         KCMUtils
         SyntaxHighlighting
 )
+if(${KF6CoreAddons_VERSION} VERSION_GREATER_EQUAL 6.26.0)
+    set(WHATSNEWSNGSUPPORT TRUE)
+endif()
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)
