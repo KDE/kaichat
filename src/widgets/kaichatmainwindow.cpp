@@ -5,6 +5,7 @@
  */
 
 #include "kaichatmainwindow.h"
+#include "config-kaichat.h"
 
 #include "kaichat_widget_debug.h"
 #include "kaichatimportmenu.h"
@@ -20,11 +21,15 @@
 #include "kaichatnotificatifieritem.h"
 #include "kaichatutils.h"
 #include <QLabel>
+#if WHATSNEWSNGSUPPORT
+#include <TextAddonsWidgets/WhatsNewNgDialog>
+#else
+#include "kaichatwhatsnewtranslations.h"
 #include <TextAddonsWidgets/WhatsNewDialog>
+#endif
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 #include <TextAddonsWidgets/VerifyNewVersionWidget>
 #endif
-#include "kaichatwhatsnewtranslations.h"
 #include <TextAutoGenerateText/TextAutoGenerateImportChatAsJsonJob>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
@@ -239,10 +244,15 @@ void KAIChatMainWindow::slotQuickAsk()
 
 void KAIChatMainWindow::slotWhatsNew()
 {
+#if WHATSNEWSNGSUPPORT
+    TextAddonsWidgets::WhatsNewNgDialog dlg(this);
+    dlg.exec();
+#else
     KAIChatWhatsNewTranslations translations;
     TextAddonsWidgets::WhatsNewDialog dlg(translations.createWhatsNewInfo(), this);
     dlg.updateInformations();
     dlg.exec();
+#endif
 }
 
 void KAIChatMainWindow::updateHamburgerMenu()

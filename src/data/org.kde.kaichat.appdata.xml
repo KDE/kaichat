@@ -114,9 +114,80 @@
   </categories>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
-    <release version="0.7.0" date="2026-03-01"/>
-    <release version="0.5.0" date="2025-10-11"/>
+    <release version="0.7.0" date="2026-03-01">
+      <description>
+        <ul>
+          <li>Add Grok instance support.</li>
+          <li>Add User Feedback support.</li>
+          <li>Allow to show model info.</li>
+          <li>Add import chat support.</li>
+          <li>Add Ollama Online support.</li>
+          <li>Add Ollama Cloud support.</li>
+          <li>Allow to duplicate chat.</li>
+          <li>Add Ollama Keep Alive setting support.</li>
+          <li>Show Ollama log.</li>
+          <li>Allow to expose Ollama to local network.</li>
+          <li>Add thinking support.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.0" date="2026-01-11">
+      <description>
+        <ul>
+          <li>Allow to copy block code to clipboard.</li>
+          <li>Show number of string found in statusbar.</li>
+          <li>Implement quick search.</li>
+          <li>Add quick search bar in quick ask dialog.</li>
+          <li>Add restore configure settings value.</li>
+          <li>Allow to configure text to speech.</li>
+          <li>Add tool plugin icon name.</li>
+          <li>Add attachment support.</li>
+          <li>Add new icon.</li>
+          <li>Add debug command line.</li>
+          <li>Add wikipedia, weather tools plugins (provided by kaichat-addons).</li>
+          <li>Store Pending Typed Info in Database.</li>
+          <li>Allow to add attachment files from command line.</li>
+          <li>Add icon in configure ollama models.</li>
+          <li>Allow to use specific Ollama environment variables.</li>
+          <li>Fix multi tools plugins call.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.0" date="2025-10-11">
+      <description>
+        <ul>
+          <li>Add Quick Ask Dialog.</li>
+          <li>Allow to download Ollama on Windows/MacOs.</li>
+          <li>Use prompt during chating.</li>
+          <li>Add shared text and webshorcut plugin.</li>
+          <li>Allow to configure plugins.</li>
+          <li>Add new update widget.</li>
+          <li>Add progress indicator in chats list.</li>
+          <li>Allow to change font size.</li>
+          <li>Add command line for adding new chat room, displaying list of instances.</li>
+          <li>Add spell checking support.</li>
+          <li>Add Notification popup when model download done.</li>
+          <li>Allow to save and restore text and scrollbar position.</li>
+          <li>Allow to save and restore current chat.</li>
+          <li>Add option for showing list of title chats.</li>
+          <li>Add tools support.</li>
+          <li>Allow to switch from chat identifier.</li>
+          <li>Add Current Date Time tool.</li>
+          <li>Add progress tool message info.</li>
+          <li>"Fix icon on windows.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.4.1" date="2025-08-08"/>
-    <release version="0.4.0" date="2025-08-03"/>
-  </releases>
+    <release version="0.4.0" date="2025-08-03">
+    <description>
+      <ul>
+        <li>Add what's new support.</li>
+        <li>Add instance support.</li>
+        <li>Add Markdown support.</li>
+        <li>Add Highlighting support.</li>
+      </ul>
+    </description>
+  </release>
+</releases>
 </component>
