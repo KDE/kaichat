@@ -246,6 +246,7 @@ void KAIChatMainWindow::slotWhatsNew()
 {
 #if WHATSNEWSNGSUPPORT
     TextAddonsWidgets::WhatsNewNgDialog dlg(this);
+    dlg.setReleases(mMainWidget->releases());
     dlg.exec();
 #else
     KAIChatWhatsNewTranslations translations;

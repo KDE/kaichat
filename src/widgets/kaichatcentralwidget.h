@@ -7,6 +7,7 @@
 #pragma once
 
 #include "libkaichatwidgets_private_export.h"
+#include <KAboutData>
 #include <QWidget>
 #include <TextAutoGenerateText/TextAutoGenerateMessage>
 namespace TextAutoGenerateText
@@ -28,7 +29,10 @@ public:
 
     [[nodiscard]] QString chatCurrentTitle() const;
 
+    QList<KAboutRelease> releases() const;
+
 private:
     TextAutoGenerateText::TextAutoGenerateStackWidget *const mTextAutogenerateWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
+    QList<KAboutRelease> mReleases;
 };

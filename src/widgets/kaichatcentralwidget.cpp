@@ -34,8 +34,9 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     QString newFeaturesMD5;
 #if WHATSNEWSNGSUPPORT
     const KAboutData aboutData = KAboutData::fromAppStreamForApplication();
-    if (!aboutData.releases().isEmpty()) {
-        newFeaturesMD5 = aboutData.releases().constFirst().untranslatedDescription();
+    mReleases = aboutData.releases();
+    if (!mReleases.isEmpty()) {
+        newFeaturesMD5 = mReleases.constFirst().untranslatedDescription();
     }
 #else
     KAIChatWhatsNewTranslations translations;
@@ -48,6 +49,7 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
             if (hasNewFeature) {
 #if WHATSNEWSNGSUPPORT
                 auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageNgWidget(this);
+                whatsNewMessageWidget->setReleases(mReleases);
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
@@ -95,6 +97,11 @@ void KAIChatCentralWidget::searchText()
 QString KAIChatCentralWidget::chatCurrentTitle() const
 {
     return mManager->textAutoGenerateChatsModel()->title(mManager->currentChatId());
+}
+
+QList<KAboutRelease> KAIChatCentralWidget::releases() const
+{
+    return mReleases;
 }
 
 QList<TextAutoGenerateText::TextAutoGenerateMessage> KAIChatCentralWidget::messagesFromCurrentChat() const
