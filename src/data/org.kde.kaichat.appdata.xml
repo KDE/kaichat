@@ -114,6 +114,23 @@
   </categories>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
+    <release version="0.8.0">
+      <description>
+        <ul>
+        <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
+        <li>Add CLI option for starting local Ollama.</li>
+        <li>Add DBus support.</li>
+        <li>Add Internal Plugin support.</li>
+        <li>Add MCP Server support.</li>
+        <li>Show internal tools metadata.</li>
+        <li>Add KCM support.</li>
+        <li>Add Sarvam support.</li>
+        <li>Add Database Debug Dialogbox.</li>
+        <li>Display reply info about duration, number of tokens etc.</li>
+        <li>Allow to export as PDF.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.7.0" date="2026-03-01">
       <description>
         <ul>
