@@ -114,7 +114,7 @@
   </categories>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
-    <release version="0.8.0">
+    <release version="0.8.0" type="snapshot">
       <description>
         <ul>
         <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
