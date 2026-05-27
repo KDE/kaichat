@@ -180,14 +180,14 @@
     </release>
     <release version="0.4.1" date="2025-08-08"/>
     <release version="0.4.0" date="2025-08-03">
-    <description>
-      <ul>
-        <li>Add what's new support.</li>
-        <li>Add instance support.</li>
-        <li>Add Markdown support.</li>
-        <li>Add Highlighting support.</li>
-      </ul>
-    </description>
-  </release>
-</releases>
+      <description>
+        <ul>
+          <li>Add what's new support.</li>
+          <li>Add instance support.</li>
+          <li>Add Markdown support.</li>
+          <li>Add Highlighting support.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
 </component>
