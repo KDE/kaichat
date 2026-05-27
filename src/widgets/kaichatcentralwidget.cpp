@@ -7,10 +7,15 @@
 #include "kaichatcentralwidget.h"
 #include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
+#if WHATSNEWSNGSUPPORT
+#include <KAboutData>
+#include <TextAddonsWidgets/WhatsNewMessageNgWidget>
+#else
 #include "kaichatwhatsnewtranslations.h"
+#include <TextAddonsWidgets/WhatsNewMessageWidget>
+#endif
 #include <QVBoxLayout>
 #include <TextAddonsWidgets/NeedUpdateVersionWidget>
-#include <TextAddonsWidgets/WhatsNewMessageWidget>
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
@@ -26,19 +31,35 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
     mainLayout->setContentsMargins({});
     mainLayout->setSpacing(0);
 
+    QString newFeaturesMD5;
+#if WHATSNEWSNGSUPPORT
+    const KAboutData aboutData = KAboutData::fromAppStreamForApplication();
+    if (!aboutData.releases().isEmpty()) {
+        newFeaturesMD5 = aboutData.releases().constFirst().untranslatedDescription();
+    }
+#else
     KAIChatWhatsNewTranslations translations;
-    const QString newFeaturesMD5 = translations.newFeaturesMD5();
+    newFeaturesMD5 = translations.newFeaturesMD5();
+#endif
     if (!newFeaturesMD5.isEmpty()) {
         const QString previousNewFeaturesMD5 = KAIChatGlobalConfig::self()->previousNewFeaturesMD5();
         if (!previousNewFeaturesMD5.isEmpty()) {
             const bool hasNewFeature = (previousNewFeaturesMD5 != newFeaturesMD5);
             if (hasNewFeature) {
+#if WHATSNEWSNGSUPPORT
+                auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageNgWidget(this);
+                whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
+                mainLayout->addWidget(whatsNewMessageWidget);
+                KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
+                whatsNewMessageWidget->animatedShow();
+#else
                 auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageWidget(this);
                 whatsNewMessageWidget->setWhatsNewInfos(translations.createWhatsNewInfo());
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
                 whatsNewMessageWidget->animatedShow();
+#endif
             }
         } else {
             KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
