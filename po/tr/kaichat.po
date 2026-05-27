@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-22 00:47+0000\n"
+"POT-Creation-Date: 2026-05-27 00:49+0000\n"
 "PO-Revision-Date: 2026-05-22 12:08+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -27,43 +27,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
-#: apps/main.cpp:75 widgets/kaichatnotificatifieritem.cpp:21
+#: apps/main.cpp:76 widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
 msgstr "KAIChat"
 
-#: apps/main.cpp:77
+#: apps/main.cpp:78
 #, kde-format
 msgid "AI Chat"
 msgstr "Yapay Zekâ Sohbeti"
 
-#: apps/main.cpp:79
+#: apps/main.cpp:80
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "© 2025–2026 Laurent Montel"
 
-#: apps/main.cpp:80
+#: apps/main.cpp:81
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:80
+#: apps/main.cpp:81
 #, kde-format
 msgid "Maintainer"
 msgstr "Bakımcı"
 
-#: apps/main.cpp:113
+#: apps/main.cpp:114
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Aşağıdaki örnekler kullanılabilir:"
 
-#: apps/main.cpp:130
+#: apps/main.cpp:131
 #, kde-format
 msgid "List of Chats:"
 msgstr "Sohbet listeleri:"
 
-#: apps/main.cpp:143
+#: apps/main.cpp:144
 #, kde-format
 msgid "Plugins:"
 msgstr "Eklentiler:"
@@ -479,37 +479,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "JSON Olarak İçe Aktar…"
 
-#: widgets/kaichatmainwindow.cpp:89
+#: widgets/kaichatmainwindow.cpp:94
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "%1 dizi bulundu."
 msgstr[1] "%1 dizi bulundu."
 
-#: widgets/kaichatmainwindow.cpp:139
+#: widgets/kaichatmainwindow.cpp:144
 #, kde-format
 msgid "What's new"
 msgstr "Neler Yeni"
 
-#: widgets/kaichatmainwindow.cpp:143
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Arşivi Göster"
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:162
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Veri Tabanında Ara…"
 
-#: widgets/kaichatmainwindow.cpp:195
+#: widgets/kaichatmainwindow.cpp:200
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Tez Sorguyu Aç…"
 
-#: widgets/kaichatmainwindow.cpp:313
+#: widgets/kaichatmainwindow.cpp:323
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -518,30 +518,30 @@ msgstr ""
 "<qt>Bu, menü çubuğunu tümüyle gizleyecektir. %1 yazarak onu yeniden "
 "gösterebilirsiniz.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:316
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
-#: widgets/kaichatmainwindow.cpp:352
+#: widgets/kaichatmainwindow.cpp:362
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Sohbetler İçe Aktar"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:375
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:469
+#: widgets/kaichatmainwindow.cpp:479
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:470
+#: widgets/kaichatmainwindow.cpp:480
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."
