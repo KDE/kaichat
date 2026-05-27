@@ -53,8 +53,6 @@ target_sources(
         kaichatexportmenu.cpp
         kaichatutils.h
         kaichatutils.cpp
-        kaichatwhatsnewtranslations.h
-        kaichatwhatsnewtranslations.cpp
         databasedialog/kaichatdatabasedialog.h
         databasedialog/kaichatdatabasedialog.cpp
         databasedialog/jsonplaintexteditwidget.h
@@ -72,6 +70,15 @@ target_sources(
         databasedialog/kaichatdatabasemessagejsonwidget.h
         databasedialog/kaichatdatabasemessagejsonwidget.cpp
 )
+
+if(NOT WHATSNEWSNGSUPPORT)
+    target_sources(
+        libkaichatwidgets
+        PRIVATE
+            kaichatwhatsnewtranslations.h
+            kaichatwhatsnewtranslations.cpp
+    )
+endif()
 
 if(USE_MCP_SERVER_SUPPORT)
     target_sources(

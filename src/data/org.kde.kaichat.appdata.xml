@@ -124,7 +124,7 @@
         <li>Add MCP Server support.</li>
         <li>Show internal tools metadata.</li>
         <li>Add KCM support.</li>
-        <li>Add Sarvam support.</li>
+        <li>Add Sarvam instance support.</li>
         <li>Add Database Debug Dialogbox.</li>
         <li>Display reply info about duration, number of tokens etc.</li>
         <li>Allow to export as PDF.</li>
