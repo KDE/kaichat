@@ -10,6 +10,7 @@
 #if WHATSNEWSNGSUPPORT
 #include <KAboutData>
 #include <TextAddonsWidgets/WhatsNewMessageNgWidget>
+#include <TextAddonsWidgets/WhatsNewNgUtils>
 #else
 #include "kaichatwhatsnewtranslations.h"
 #include <TextAddonsWidgets/WhatsNewMessageWidget>
@@ -21,10 +22,18 @@
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
 #include <TextAutoGenerateText/TextAutoGenerateStackWidget>
 using namespace Qt::Literals::StringLiterals;
-KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
+KAIChatCentralWidget::KAIChatCentralWidget(
+#if WHATSNEWSNGSUPPORT
+    const QList<KAboutRelease> &releases,
+#endif
+    TextAutoGenerateText::TextAutoGenerateManager *manager,
+    QWidget *parent)
     : QWidget{parent}
     , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateStackWidget(manager, this))
     , mManager(manager)
+#if WHATSNEWSNGSUPPORT
+    , mReleases(releases)
+#endif
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
@@ -33,10 +42,8 @@ KAIChatCentralWidget::KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerat
 
     QString newFeaturesMD5;
 #if WHATSNEWSNGSUPPORT
-    const KAboutData aboutData = KAboutData::fromAppStreamForApplication();
-    mReleases = aboutData.releases();
     if (!mReleases.isEmpty()) {
-        newFeaturesMD5 = mReleases.constFirst().untranslatedDescription();
+        newFeaturesMD5 = TextAddonsWidgets::WhatsNewNgUtils::createMD5(mReleases.constFirst().untranslatedDescription());
     }
 #else
     KAIChatWhatsNewTranslations translations;

@@ -5,7 +5,7 @@
  */
 
 #pragma once
-
+#include "config-kaichat.h"
 #include "libkaichatwidgets_private_export.h"
 #include <KAboutData>
 #include <QWidget>
@@ -19,7 +19,12 @@ class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatCentralWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
+    explicit KAIChatCentralWidget(
+#if WHATSNEWSNGSUPPORT
+        const QList<KAboutRelease> &releases,
+#endif
+        TextAutoGenerateText::TextAutoGenerateManager *manager,
+        QWidget *parent = nullptr);
     ~KAIChatCentralWidget() override;
 
     void showArchive(bool checked);
@@ -29,10 +34,12 @@ public:
 
     [[nodiscard]] QString chatCurrentTitle() const;
 
-    QList<KAboutRelease> releases() const;
+    [[nodiscard]] QList<KAboutRelease> releases() const;
 
 private:
     TextAutoGenerateText::TextAutoGenerateStackWidget *const mTextAutogenerateWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
+#if WHATSNEWSNGSUPPORT
     QList<KAboutRelease> mReleases;
+#endif
 };

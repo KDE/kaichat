@@ -66,10 +66,22 @@
 #endif
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatMainWindow::KAIChatMainWindow(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
+KAIChatMainWindow::KAIChatMainWindow(
+#if WHATSNEWSNGSUPPORT
+    const QList<KAboutRelease> &releases,
+#endif
+
+    TextAutoGenerateText::TextAutoGenerateManager *manager,
+    QWidget *parent)
     : KXmlGuiWindow(parent)
     , mManager(manager)
-    , mMainWidget(new KAIChatCentralWidget(manager, this))
+    , mMainWidget(new KAIChatCentralWidget(
+#if WHATSNEWSNGSUPPORT
+          releases,
+#endif
+
+          manager,
+          this))
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     , mVerifyNewVersionWidget(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
