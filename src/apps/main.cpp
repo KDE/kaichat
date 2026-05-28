@@ -7,7 +7,6 @@
 #include "config-kaichat.h"
 #include "kaichatcommandlineparser.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
-#include "textautogeneratetext_version.h"
 
 #include "kaichatmainwindow.h"
 #include "kaichatutils.h"
