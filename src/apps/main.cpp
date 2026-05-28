@@ -112,20 +112,11 @@ int main(int argc, char *argv[])
 #endif
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
-#if TEXTAUTOGENERATETEXT_VERSION < QT_VERSION_CHECK(2, 0, 44)
-        KConfig config(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
-        const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(&config);
-#else
         const KSharedConfig::Ptr config = KSharedConfig::openConfig(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
         const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(config);
-#endif
         std::cout << qPrintable(i18n("The following instances are available:")) << '\n';
         for (const QString &instanceName : lst) {
-#if TEXTAUTOGENERATETEXT_VERSION < QT_VERSION_CHECK(2, 0, 44)
-            const KConfigGroup grp = config.group(instanceName);
-#else
             const KConfigGroup grp = config->group(instanceName);
-#endif
             const QString name = grp.readEntry("Name");
             const QString pluginIdentifier = grp.readEntry("pluginIdentifier");
             std::cout << "   " << name.toLocal8Bit().data() << " (" << pluginIdentifier.toLocal8Bit().data() << ")" << '\n';
