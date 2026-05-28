@@ -25,6 +25,7 @@ QList<KLazyLocalizedString> KAIChatWhatsNewTranslations::lastNewFeatures() const
         kli18n("Add Database Debug Dialogbox."),
         kli18n("Display reply info about duration, number of tokens etc."),
         kli18n("Allow to export as PDF."),
+        kli18n("Add LMStudio support."),
     };
     return info;
 }

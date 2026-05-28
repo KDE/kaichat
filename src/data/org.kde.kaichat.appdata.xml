@@ -128,6 +128,7 @@
           <li>Add Database Debug Dialogbox.</li>
           <li>Display reply info about duration, number of tokens etc.</li>
           <li>Allow to export as PDF.</li>
+	  <li>Add LMStudio support.</li>
         </ul>
       </description>
     </release>
