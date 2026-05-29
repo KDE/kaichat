@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 02:45+0000\n"
-"PO-Revision-Date: 2026-02-24 09:02+0100\n"
+"PO-Revision-Date: 2026-05-28 09:09+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -783,12 +783,12 @@ msgstr "Retorna el nombre de comptes."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Permet exportar text als connectors d'editor generats automàticament."
+msgstr "Permet exportar text en connectors d'editor de generació automàtica."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Afig un giny nou què hi ha de nou."
+msgstr "Afig un giny nou «Què hi ha de nou»."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
