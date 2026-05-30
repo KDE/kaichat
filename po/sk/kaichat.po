@@ -628,10 +628,8 @@ msgid "Allow to export as PDF."
 msgstr "Umožnenie exportu do PDF."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add LMStudio support."
-msgstr "Pridaná podpora nástrojov."
+msgstr "Pridaná podpora LMStudio."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:39
 #, kde-format

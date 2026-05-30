@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-29 00:46+0000\n"
-"PO-Revision-Date: 2026-05-22 12:08+0300\n"
+"PO-Revision-Date: 2026-05-29 13:09+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -627,10 +627,8 @@ msgid "Allow to export as PDF."
 msgstr "PDF olarak dışa aktarmaya olanak tanı"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add LMStudio support."
-msgstr "Araçlar desteği ekle"
+msgstr "LMStudio desteği"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:39
 #, kde-format

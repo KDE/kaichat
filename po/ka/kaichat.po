@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-05-29 00:46+0000\n"
-"PO-Revision-Date: 2026-05-22 03:49+0200\n"
+"PO-Revision-Date: 2026-05-29 06:07+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -632,10 +632,8 @@ msgid "Allow to export as PDF."
 msgstr "PDF-ში გატანის დაშვება."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:28
-#, fuzzy
-#| msgid "Add tools support."
 msgid "Add LMStudio support."
-msgstr "დაემატა ხელსაწყოების მხადაჭერა."
+msgstr "დაემატა LMStudio-ის მხადაჭერა."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:39
 #, kde-format
