@@ -71,15 +71,6 @@ target_sources(
         databasedialog/kaichatdatabasemessagejsonwidget.cpp
 )
 
-if(NOT WHATSNEWSNGSUPPORT)
-    target_sources(
-        libkaichatwidgets
-        PRIVATE
-            kaichatwhatsnewtranslations.h
-            kaichatwhatsnewtranslations.cpp
-    )
-endif()
-
 if(USE_MCP_SERVER_SUPPORT)
     target_sources(
         libkaichatwidgets

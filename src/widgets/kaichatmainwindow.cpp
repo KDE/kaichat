@@ -21,12 +21,7 @@
 #include "kaichatnotificatifieritem.h"
 #include "kaichatutils.h"
 #include <QLabel>
-#if WHATSNEWSNGSUPPORT
 #include <TextAddonsWidgets/WhatsNewNgDialog>
-#else
-#include "kaichatwhatsnewtranslations.h"
-#include <TextAddonsWidgets/WhatsNewDialog>
-#endif
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
 #include <TextAddonsWidgets/VerifyNewVersionWidget>
 #endif
@@ -66,22 +61,10 @@
 #endif
 
 using namespace Qt::Literals::StringLiterals;
-KAIChatMainWindow::KAIChatMainWindow(
-#if WHATSNEWSNGSUPPORT
-    const QList<KAboutRelease> &releases,
-#endif
-
-    TextAutoGenerateText::TextAutoGenerateManager *manager,
-    QWidget *parent)
+KAIChatMainWindow::KAIChatMainWindow(const QList<KAboutRelease> &releases, TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : KXmlGuiWindow(parent)
     , mManager(manager)
-    , mMainWidget(new KAIChatCentralWidget(
-#if WHATSNEWSNGSUPPORT
-          releases,
-#endif
-
-          manager,
-          this))
+    , mMainWidget(new KAIChatCentralWidget(releases, manager, this))
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     , mVerifyNewVersionWidget(new TextAddonsWidgets::VerifyNewVersionWidget(this))
 #endif
@@ -256,16 +239,9 @@ void KAIChatMainWindow::slotQuickAsk()
 
 void KAIChatMainWindow::slotWhatsNew()
 {
-#if WHATSNEWSNGSUPPORT
     TextAddonsWidgets::WhatsNewNgDialog dlg(this);
     dlg.setReleases(mMainWidget->releases());
     dlg.exec();
-#else
-    KAIChatWhatsNewTranslations translations;
-    TextAddonsWidgets::WhatsNewDialog dlg(translations.createWhatsNewInfo(), this);
-    dlg.updateInformations();
-    dlg.exec();
-#endif
 }
 
 void KAIChatMainWindow::updateHamburgerMenu()

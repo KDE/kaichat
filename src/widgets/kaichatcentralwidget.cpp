@@ -7,33 +7,21 @@
 #include "kaichatcentralwidget.h"
 #include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
-#if WHATSNEWSNGSUPPORT
 #include <KAboutData>
-#include <TextAddonsWidgets/WhatsNewMessageNgWidget>
-#include <TextAddonsWidgets/WhatsNewNgUtils>
-#else
-#include "kaichatwhatsnewtranslations.h"
-#include <TextAddonsWidgets/WhatsNewMessageWidget>
-#endif
 #include <QVBoxLayout>
 #include <TextAddonsWidgets/NeedUpdateVersionWidget>
+#include <TextAddonsWidgets/WhatsNewMessageNgWidget>
+#include <TextAddonsWidgets/WhatsNewNgUtils>
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateMessagesModel>
 #include <TextAutoGenerateText/TextAutoGenerateStackWidget>
 using namespace Qt::Literals::StringLiterals;
-KAIChatCentralWidget::KAIChatCentralWidget(
-#if WHATSNEWSNGSUPPORT
-    const QList<KAboutRelease> &releases,
-#endif
-    TextAutoGenerateText::TextAutoGenerateManager *manager,
-    QWidget *parent)
+KAIChatCentralWidget::KAIChatCentralWidget(const QList<KAboutRelease> &releases, TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mTextAutogenerateWidget(new TextAutoGenerateText::TextAutoGenerateStackWidget(manager, this))
     , mManager(manager)
-#if WHATSNEWSNGSUPPORT
     , mReleases(releases)
-#endif
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
@@ -41,34 +29,20 @@ KAIChatCentralWidget::KAIChatCentralWidget(
     mainLayout->setSpacing(0);
 
     QString newFeaturesMD5;
-#if WHATSNEWSNGSUPPORT
     if (!mReleases.isEmpty()) {
         newFeaturesMD5 = TextAddonsWidgets::WhatsNewNgUtils::createMD5(mReleases.constFirst().untranslatedDescription());
     }
-#else
-    KAIChatWhatsNewTranslations translations;
-    newFeaturesMD5 = translations.newFeaturesMD5();
-#endif
     if (!newFeaturesMD5.isEmpty()) {
         const QString previousNewFeaturesMD5 = KAIChatGlobalConfig::self()->previousNewFeaturesMD5();
         if (!previousNewFeaturesMD5.isEmpty()) {
             const bool hasNewFeature = (previousNewFeaturesMD5 != newFeaturesMD5);
             if (hasNewFeature) {
-#if WHATSNEWSNGSUPPORT
                 auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageNgWidget(this);
                 whatsNewMessageWidget->setReleases(mReleases);
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
                 whatsNewMessageWidget->animatedShow();
-#else
-                auto whatsNewMessageWidget = new TextAddonsWidgets::WhatsNewMessageWidget(this);
-                whatsNewMessageWidget->setWhatsNewInfos(translations.createWhatsNewInfo());
-                whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
-                mainLayout->addWidget(whatsNewMessageWidget);
-                KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
-                whatsNewMessageWidget->animatedShow();
-#endif
             }
         } else {
             KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);

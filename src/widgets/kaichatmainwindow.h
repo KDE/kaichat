@@ -7,6 +7,7 @@
 #pragma once
 #include "config-kaichat.h"
 #include "libkaichatwidgets_export.h"
+#include <KAboutData>
 #include <KXmlGuiWindow>
 class KAIChatCentralWidget;
 class KToggleAction;
@@ -24,9 +25,6 @@ namespace TextAddonsWidgets
 class VerifyNewVersionWidget;
 }
 #endif
-#if WHATSNEWSNGSUPPORT
-#include <KAboutData>
-#endif
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateMessage;
@@ -36,12 +34,7 @@ class LIBKAICHATWIDGETS_EXPORT KAIChatMainWindow : public KXmlGuiWindow
 {
     Q_OBJECT
 public:
-    explicit KAIChatMainWindow(
-#if WHATSNEWSNGSUPPORT
-        const QList<KAboutRelease> &releases,
-#endif
-        TextAutoGenerateText::TextAutoGenerateManager *manager,
-        QWidget *parent = nullptr);
+    explicit KAIChatMainWindow(const QList<KAboutRelease> &releases, TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatMainWindow() override;
 
     void slotActivateRequested(const QStringList &arguments, const QString &workingDirectory);

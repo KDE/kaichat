@@ -71,19 +71,10 @@ int main(int argc, char *argv[])
 #endif
     KLocalizedString::setApplicationDomain("kaichat"_ba);
 
-#if WHATSNEWSNGSUPPORT
     KAboutData aboutData = KAboutData::fromAppStreamForApplication();
     aboutData.setCopyrightStatement(i18n("Copyright © 2025-2026 Laurent Montel"));
     aboutData.setVersion(KAICHAT_VERSION);
     aboutData.setComponentName(u"kaichat"_s);
-#else
-    KAboutData aboutData(u"kaichat"_s,
-                         i18n("KAIChat"),
-                         QStringLiteral(KAICHAT_VERSION),
-                         i18n("AI Chat"),
-                         KAboutLicense::GPL_V2,
-                         i18n("Copyright © 2025-2026 Laurent Montel"));
-#endif
 
     aboutData.addAuthor(i18nc("@info:credit", "Laurent Montel"), i18n("Maintainer"), u"montel@kde.org"_s);
     aboutData.setOrganizationDomain("kde.org"_ba);
@@ -176,11 +167,7 @@ int main(int argc, char *argv[])
 #if WITH_DBUS
     new KAIChatAdaptor(&manager, &app);
 #endif
-    QPointer<KAIChatMainWindow> mw{new KAIChatMainWindow(
-#if WHATSNEWSNGSUPPORT
-        aboutData.releases(),
-#endif
-        &manager)};
+    QPointer<KAIChatMainWindow> mw{new KAIChatMainWindow(aboutData.releases(), &manager)};
 #if WITH_DBUS
     QObject::connect(&service, &KDBusService::activateRequested, mw, &KAIChatMainWindow::slotActivateRequested);
 #else

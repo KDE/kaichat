@@ -142,9 +142,6 @@ find_package(
         KCMUtils
         SyntaxHighlighting
 )
-if(${KF6CoreAddons_VERSION} VERSION_GREATER_EQUAL 6.26.0)
-    set(WHATSNEWSNGSUPPORT TRUE)
-endif()
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)

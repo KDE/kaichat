@@ -19,12 +19,7 @@ class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatCentralWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatCentralWidget(
-#if WHATSNEWSNGSUPPORT
-        const QList<KAboutRelease> &releases,
-#endif
-        TextAutoGenerateText::TextAutoGenerateManager *manager,
-        QWidget *parent = nullptr);
+    explicit KAIChatCentralWidget(const QList<KAboutRelease> &releases, TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatCentralWidget() override;
 
     void showArchive(bool checked);
@@ -39,7 +34,5 @@ public:
 private:
     TextAutoGenerateText::TextAutoGenerateStackWidget *const mTextAutogenerateWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
-#if WHATSNEWSNGSUPPORT
     QList<KAboutRelease> mReleases;
-#endif
 };
