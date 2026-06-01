@@ -42,10 +42,12 @@ KAIChatCentralWidget::KAIChatCentralWidget(const QList<KAboutRelease> &releases,
                 whatsNewMessageWidget->setObjectName(u"whatsNewMessageWidget"_s);
                 mainLayout->addWidget(whatsNewMessageWidget);
                 KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
+                KAIChatGlobalConfig::self()->save();
                 whatsNewMessageWidget->animatedShow();
             }
         } else {
             KAIChatGlobalConfig::self()->setPreviousNewFeaturesMD5(newFeaturesMD5);
+            KAIChatGlobalConfig::self()->save();
         }
     }
 
