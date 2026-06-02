@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-29 00:46+0000\n"
+"POT-Creation-Date: 2026-06-02 00:47+0000\n"
 "PO-Revision-Date: 2026-05-21 12:13+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -28,43 +28,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "zayed.alsaidi@gmail.com"
 
-#: apps/main.cpp:76 apps/main.cpp:85
+#: apps/main.cpp:75
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "حقوق النشر © 2025-2026 لوران مونتيل"
 
-#: apps/main.cpp:81 widgets/kaichatnotificatifieritem.cpp:21
-#, kde-format
-msgid "KAIChat"
-msgstr "كتشات"
-
-#: apps/main.cpp:83
-#, kde-format
-msgid "AI Chat"
-msgstr "دردشة للذكاء الاصطناعي"
-
-#: apps/main.cpp:88
+#: apps/main.cpp:79
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "لوران مونتيل"
 
-#: apps/main.cpp:88
+#: apps/main.cpp:79
 #, kde-format
 msgid "Maintainer"
 msgstr "المُحافظ"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:107
 #, kde-format
 msgid "The following instances are available:"
 msgstr "النُسخ التالية متوفِّرة:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:120
 #, kde-format
 msgid "List of Chats:"
 msgstr "قائمة الدردشات:"
 
-#: apps/main.cpp:142
+#: apps/main.cpp:133
 #, kde-format
 msgid "Plugins:"
 msgstr "الملحقات:"
@@ -482,7 +472,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "استورد بصيغة JSON…"
 
-#: widgets/kaichatmainwindow.cpp:106
+#: widgets/kaichatmainwindow.cpp:89
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -493,63 +483,68 @@ msgstr[3] "عُثِر على %1 سلاسل."
 msgstr[4] "عُثِر على %1 سلسلة."
 msgstr[5] "عُثِر على %1 سلسلة."
 
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgid "What's new"
 msgstr "ما الجديد"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:143
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "أَرِشِف"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "البحث في قاعدة البيانات…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:195
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "اِفتح السؤال السريع…"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:312
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>سيُخفِي هذا شريط القوائم كُليًّا. أَظهِره مُجدَّدًا بِطِباعَة %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:339
+#: widgets/kaichatmainwindow.cpp:315
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "أَخفِ شريط القوائم"
 
-#: widgets/kaichatmainwindow.cpp:375
+#: widgets/kaichatmainwindow.cpp:351
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "استورد دردشات"
 
-#: widgets/kaichatmainwindow.cpp:388
+#: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "صَدِّر الدردشات"
 
-#: widgets/kaichatmainwindow.cpp:492
+#: widgets/kaichatmainwindow.cpp:468
 #, kde-format
 msgid "Model Download Done"
 msgstr "نَزِّل النموذج"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:469
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "نموذج %1 مُنزّل."
+
+#: widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "كتشات"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:15
@@ -587,314 +582,6 @@ msgstr "المُساعدة"
 msgid "Main Toolbar"
 msgstr "شريط الأدوات الرئيسي"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:17
-msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-msgstr "إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:18
-msgid "Add CLI option for starting local Ollama."
-msgstr "إضافة خيار CLI لبدء تشغيل Ollama المحلي."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:19
-msgid "Add DBus support."
-msgstr "إتاحة DBus."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:20
-msgid "Add Internal Plugin support."
-msgstr "إضافة دعم المُلحقات الداخلية."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:21
-msgid "Add MCP Server support."
-msgstr "إضافة دعم خادم MCP."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:22
-msgid "Show internal tools metadata."
-msgstr "أظهر بيانات تعريف الأدوات الداخلية."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:23
-msgid "Add KCM support."
-msgstr "إتاحة KCM."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:24
-msgid "Add Sarvam support."
-msgstr "أُضيف دعم Sarvam."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:25
-msgid "Add Database Debug Dialogbox."
-msgstr "إضافة قاعدة بيانات التنقيح."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:26
-msgid "Display reply info about duration, number of tokens etc."
-msgstr "عرض معلومات الرد حول المدة، عدد الرموز، إلخ."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Allow to change font size."
-msgid "Allow to export as PDF."
-msgstr "اِسمح بتغيير حجم الخط."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:28
-#, fuzzy
-#| msgid "Add tools support."
-msgid "Add LMStudio support."
-msgstr "أَضِف دعم الأدوات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:39
-#, kde-format
-msgid "Add what's new support."
-msgstr "أَضِف دعم ما الجديد."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:40
-#, kde-format
-msgid "Add instance support."
-msgstr "أَضِف دعم النُسخ."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:41
-#, kde-format
-msgid "Add Markdown support."
-msgstr "أَضِف دعم مارك داون."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:42
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "أَضِف دعم التمييز."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:45
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "اِصلح السماح بِحَذف الدردشة. علة %1"
-
-#: widgets/kaichatwhatsnewtranslations.cpp:52
-#, kde-format
-msgid "Add Quick Ask Dialog."
-msgstr "أَضِف حوار السؤال السريع."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:53
-#, kde-format
-msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "اِسمح بتنزيل Ollama على ويندوز/ماك أو إس."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:54
-#, kde-format
-msgid "Use prompt during chating."
-msgstr "اِستخدم مُوّجِّهًا أثناء الدردشة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:55
-#, kde-format
-msgid "Add shared text and webshorcut plugin."
-msgstr "أَضِف مُلْحَق النص المُشارَك واِختصار الويب."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:56
-#, kde-format
-msgid "Allow to configure plugins."
-msgstr "اِسمح بضبط المُلْحَقات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:57
-#, kde-format
-msgid "Add new update widget."
-msgstr "أَضِف وَجيهة تحديث جديدة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:58
-#, kde-format
-msgid "Add progress indicator in chats list."
-msgstr "أَضِف مُؤشِّر تقدُّم في قائمة الدردشات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:59
-#, kde-format
-msgid "Allow to change font size."
-msgstr "اِسمح بتغيير حجم الخط."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:60
-#, kde-format
-msgid ""
-"Add command line for adding new chat room, displaying list of instances."
-msgstr "أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:61
-#, kde-format
-msgid "Add spell checking support."
-msgstr "أَضِف دعم التدقيق الإملائي."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:62
-#, kde-format
-msgid "Add Notification popup when model download done."
-msgstr "أَضِف نافذة مُنبَثِقة للإشعارات عند تنزيل النموذج."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:63
-#, kde-format
-msgid "Allow to save and restore text and scrollbar position."
-msgstr "اِسمح بِحِفظ واستِعادَة النص ومَوضِع شريط التمرير."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:64
-#, kde-format
-msgid "Allow to save and restore current chat."
-msgstr "اِسمح بِحِفظ واستِعادَة الدردشة الحالية."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:65
-#, kde-format
-msgid "Add option for showing list of title chats."
-msgstr "أَضِف خيارًا لِعَرض قائمة عناوين الدردشات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:66
-#, kde-format
-msgid "Add tools support."
-msgstr "أَضِف دعم الأدوات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:67
-#, kde-format
-msgid "Allow to switch from chat identifier."
-msgstr "اِسمح بالانتقال من مُعرِّف الدردشة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:68
-#, kde-format
-msgid "Add Current Date Time tool."
-msgstr "أَضِف أداة الوقت والتاريخ الحالي."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:69
-#, kde-format
-msgid "Add progress tool message info."
-msgstr "أَضِف معلومات رسالة أداة التقدُّم."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:72
-#, kde-format
-msgid "Fix icon on windows."
-msgstr "اِصلح الأيقونة على ويندوز."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:79
-#, kde-format
-msgid "Allow to copy block code to clipboard."
-msgstr "اسمح بنسخ كتلة الرمز إلى الحافظة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:80
-#, kde-format
-msgid "Show number of string found in statusbar."
-msgstr "أظهر عدد السلاسل الموجودة في شريط الحالة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:81
-#, kde-format
-msgid "Implement quick search."
-msgstr "تنفيذ البحث السريع."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:82
-#, kde-format
-msgid "Add quick search bar in quick ask dialog."
-msgstr "أَضِف شريط بحث سريع في حوار السؤال السريع."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:83
-#, kde-format
-msgid "Add restore configure settings value."
-msgstr "إضافة قيمة إعادة ضبط الإعدادات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:84
-#, kde-format
-msgid "Allow to configure text to speech."
-msgstr "اِسمح بضبط نطق النص."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:85
-#, kde-format
-msgid "Add tool plugin icon name."
-msgstr "أضف اسم أيقونة الملحقة للأداة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:86
-#, kde-format
-msgid "Add attachment support."
-msgstr "إضافة دعم المرفقات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:87
-#, kde-format
-msgid "Add new icon."
-msgstr "إضافة أيقونة جديدة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:88
-#, kde-format
-msgid "Add debug command line."
-msgstr "إضافة سطر أوامر تنقيح."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:89
-#, kde-format
-msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr "إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons)."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:90
-#, kde-format
-msgid "Store Pending Typed Info in Database."
-msgstr "خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:91
-#, kde-format
-msgid "Allow to add attachment files from command line."
-msgstr "اسمح بإضافة ملفات مرفقة من سطر الأوامر."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:92
-#, kde-format
-msgid "Add icon in configure ollama models."
-msgstr "أضف أيقونة لضبط نماذج أولاما"
-
-#: widgets/kaichatwhatsnewtranslations.cpp:93
-#, kde-format
-msgid "Allow to use specific Ollama environment variables."
-msgstr "السماح باستخدام متغيرات بيئة أولااما محددة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:97
-#, kde-format
-msgid "Fix multi tools plugins call."
-msgstr "إصلاح استدعاء محلقات متعددة الأدوات."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:104
-#, kde-format
-msgid "Add Grok instance support."
-msgstr "إتاحة نسخة غروك."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:105
-#, kde-format
-msgid "Add User Feedback support."
-msgstr "إضافة تعليقات المستخدمين."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:106
-#, kde-format
-msgid "Allow to show model info."
-msgstr "اسمح بعرض معلومات النموذج."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:107
-#, kde-format
-msgid "Add import chat support."
-msgstr "إتاحة استيراد الدردشة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:108
-#, kde-format
-msgid "Add Ollama Online support."
-msgstr "إضافة دعم أولاما عبر الإنترنت."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:109
-#, kde-format
-msgid "Add Ollama Cloud support."
-msgstr "إضافة دعم سحابة أولاما."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:110
-#, kde-format
-msgid "Allow to duplicate chat."
-msgstr "اسمح بتكرار الدردشة."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:111
-#, kde-format
-msgid "Add Ollama Keep Alive setting support."
-msgstr "إضافة إعداد استبقاء أولاما."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:112
-#, kde-format
-msgid "Show Ollama log."
-msgstr "أظهر سجل أولاما."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:113
-#, kde-format
-msgid "Allow to expose Ollama to local network."
-msgstr "اسمح بتعريض أولاما للشبكة المحلية."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:114
-#, kde-format
-msgid "Add thinking support."
-msgstr "أضف دعم التفكير."
-
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
@@ -918,6 +605,204 @@ msgstr "إضافة ودجة ما الجديد"
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "ملحقة جديدة: عرض حجم التجميعة"
+
+#~ msgid "AI Chat"
+#~ msgstr "دردشة للذكاء الاصطناعي"
+
+#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgstr "إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen."
+
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "إضافة خيار CLI لبدء تشغيل Ollama المحلي."
+
+#~ msgid "Add DBus support."
+#~ msgstr "إتاحة DBus."
+
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "إضافة دعم المُلحقات الداخلية."
+
+#~ msgid "Add MCP Server support."
+#~ msgstr "إضافة دعم خادم MCP."
+
+#~ msgid "Show internal tools metadata."
+#~ msgstr "أظهر بيانات تعريف الأدوات الداخلية."
+
+#~ msgid "Add KCM support."
+#~ msgstr "إتاحة KCM."
+
+#~ msgid "Add Sarvam support."
+#~ msgstr "أُضيف دعم Sarvam."
+
+#~ msgid "Add Database Debug Dialogbox."
+#~ msgstr "إضافة قاعدة بيانات التنقيح."
+
+#~ msgid "Display reply info about duration, number of tokens etc."
+#~ msgstr "عرض معلومات الرد حول المدة، عدد الرموز، إلخ."
+
+#, fuzzy
+#~| msgid "Allow to change font size."
+#~ msgid "Allow to export as PDF."
+#~ msgstr "اِسمح بتغيير حجم الخط."
+
+#, fuzzy
+#~| msgid "Add tools support."
+#~ msgid "Add LMStudio support."
+#~ msgstr "أَضِف دعم الأدوات."
+
+#~ msgid "Add what's new support."
+#~ msgstr "أَضِف دعم ما الجديد."
+
+#~ msgid "Add instance support."
+#~ msgstr "أَضِف دعم النُسخ."
+
+#~ msgid "Add Markdown support."
+#~ msgstr "أَضِف دعم مارك داون."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "أَضِف دعم التمييز."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "اِصلح السماح بِحَذف الدردشة. علة %1"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "أَضِف حوار السؤال السريع."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "اِسمح بتنزيل Ollama على ويندوز/ماك أو إس."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "اِستخدم مُوّجِّهًا أثناء الدردشة."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "أَضِف مُلْحَق النص المُشارَك واِختصار الويب."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "اِسمح بضبط المُلْحَقات."
+
+#~ msgid "Add new update widget."
+#~ msgstr "أَضِف وَجيهة تحديث جديدة."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "أَضِف مُؤشِّر تقدُّم في قائمة الدردشات."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "اِسمح بتغيير حجم الخط."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr "أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "أَضِف دعم التدقيق الإملائي."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr "أَضِف نافذة مُنبَثِقة للإشعارات عند تنزيل النموذج."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr "اِسمح بِحِفظ واستِعادَة النص ومَوضِع شريط التمرير."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "اِسمح بِحِفظ واستِعادَة الدردشة الحالية."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "أَضِف خيارًا لِعَرض قائمة عناوين الدردشات."
+
+#~ msgid "Add tools support."
+#~ msgstr "أَضِف دعم الأدوات."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "اِسمح بالانتقال من مُعرِّف الدردشة."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "أَضِف أداة الوقت والتاريخ الحالي."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "أَضِف معلومات رسالة أداة التقدُّم."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "اِصلح الأيقونة على ويندوز."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "اسمح بنسخ كتلة الرمز إلى الحافظة."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "أظهر عدد السلاسل الموجودة في شريط الحالة."
+
+#~ msgid "Implement quick search."
+#~ msgstr "تنفيذ البحث السريع."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr "أَضِف شريط بحث سريع في حوار السؤال السريع."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "إضافة قيمة إعادة ضبط الإعدادات."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "اِسمح بضبط نطق النص."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "أضف اسم أيقونة الملحقة للأداة."
+
+#~ msgid "Add attachment support."
+#~ msgstr "إضافة دعم المرفقات."
+
+#~ msgid "Add new icon."
+#~ msgstr "إضافة أيقونة جديدة."
+
+#~ msgid "Add debug command line."
+#~ msgstr "إضافة سطر أوامر تنقيح."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons)."
+
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "اسمح بإضافة ملفات مرفقة من سطر الأوامر."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "أضف أيقونة لضبط نماذج أولاما"
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "السماح باستخدام متغيرات بيئة أولااما محددة."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "إصلاح استدعاء محلقات متعددة الأدوات."
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "إتاحة نسخة غروك."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "إضافة تعليقات المستخدمين."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "اسمح بعرض معلومات النموذج."
+
+#~ msgid "Add import chat support."
+#~ msgstr "إتاحة استيراد الدردشة."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "إضافة دعم أولاما عبر الإنترنت."
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "إضافة دعم سحابة أولاما."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "اسمح بتكرار الدردشة."
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "إضافة إعداد استبقاء أولاما."
+
+#~ msgid "Show Ollama log."
+#~ msgstr "أظهر سجل أولاما."
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "اسمح بتعريض أولاما للشبكة المحلية."
+
+#~ msgid "Add thinking support."
+#~ msgstr "أضف دعم التفكير."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

@@ -1,37 +1,37 @@
-# Copyright (C) 2025 This file is copyright:
+# Uyghur translation for kaichat.
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Shinjo Park <kde@peremen.name>
+# Abduqadir Abliz <sahranbay@gmail.com>, 2026., YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-02 00:47+0000\n"
-"PO-Revision-Date: 2025-07-21 00:46+0200\n"
-"Last-Translator: Shinjo Park <kde@peremen.name>\n"
-"Language-Team: Korean <kde-kr@kde.org>\n"
-"Language: ko\n"
+"PO-Revision-Date: 2026-05-30 16:42-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
+"Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
+"Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "박신조"
+msgstr "ئابدۇقادىر ئابلىز، غەيرەت كەنجى"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde@peremen.name"
+msgstr "sahranbay@gmail.com, gheyret@gmail.com"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr ""
 
 #: apps/main.cpp:79
 #, kde-format
@@ -42,7 +42,7 @@ msgstr "Laurent Montel"
 #: apps/main.cpp:79
 #, kde-format
 msgid "Maintainer"
-msgstr "관리자"
+msgstr "ئاسرىغۇچى"
 
 #: apps/main.cpp:107
 #, kde-format
@@ -57,7 +57,7 @@ msgstr ""
 #: apps/main.cpp:133
 #, kde-format
 msgid "Plugins:"
-msgstr ""
+msgstr "قىستۇرما:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
@@ -72,11 +72,9 @@ msgid "Start with specific instance"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "인스턴스"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
@@ -126,7 +124,7 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
-msgstr ""
+msgstr "ئۇچۇر"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
@@ -147,10 +145,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "인스턴스 지원을 추가했습니다."
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -174,19 +171,19 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr ""
+"ئىشلەتكۈچى قايتۇرما ئىنكاسىنىڭ ئىشلەتكىلى بولىدىغان تاللانما تىزىمىنى "
+"كۆرسىتىدۇ"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "대화 내보내기"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "ئەكىر"
 
 #: core/kaichatcommandlineparser.cpp:50
 #, kde-format
@@ -197,31 +194,31 @@ msgstr ""
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
-msgstr "사용자"
+msgstr "ئىشلەتكۈچى"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
 #: core/kaichatexportchataspdfjob.cpp:64 core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
-msgstr "도우미"
+msgstr "ياردەمچى"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:43
 #: core/kaichatexportchataspdfjob.cpp:67 core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
-msgstr "시스템"
+msgstr "سىستېما"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:46
 #: core/kaichatexportchataspdfjob.cpp:70 core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "قورال"
 
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
@@ -231,20 +228,17 @@ msgstr ""
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "تېكىست"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
-msgstr "인스턴스"
+msgstr ""
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "MCP Server"
-msgstr "Markdown 지원을 추가했습니다."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -254,17 +248,17 @@ msgstr ""
 #: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "پۈتۈكنى ھەمبەھىرلەشتە مەسىلە كۆرۈلگەن: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "ھۆججەت ھەمبەھىرلەنگەن."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:72
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr ""
+msgstr "<qt>يېڭى ئىلتىماسىڭىزنىڭ ئورنى:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
@@ -293,7 +287,7 @@ msgstr ""
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "نۆۋەتتىكى ۋاقىت %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
@@ -321,31 +315,31 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable system tray icon"
-msgstr "시스템 트레이 아이콘 사용"
+msgstr "سىستېما قونداق سىنبەلگىسىنى قوزغىتىدۇ"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:50
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr "KAIChat 설정"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
-msgstr "일반"
+msgstr "ئادەتتىكى"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:58
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "خەت نۇسخا"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:63
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr "인스턴스"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
 #, kde-format
@@ -357,31 +351,31 @@ msgstr ""
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "ئىملا تەكشۈرۈش"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "قولايلىق"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "قىستۇرما"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "ئىشلەتكۈچى قايتۇرما ئىنكاسى"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "ئىزدە…"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -390,15 +384,14 @@ msgid "Debug Database"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:34
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "سۆھبەت"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:37
 #, kde-format
 msgid "Messages"
-msgstr ""
+msgstr "ئۇچۇرلار"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:40
 #, kde-format
@@ -413,7 +406,7 @@ msgstr ""
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "خەت چوڭلۇقى"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
@@ -431,15 +424,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "내보내기…"
+msgstr "چىقار…"
 
 #: widgets/kaichatexportmenu.cpp:19
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "JSON으로 내보내기…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
 #, kde-format
@@ -455,37 +446,31 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "Markdown으로 내보내기…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "텍스트로 내보내기…"
+msgstr ""
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "JSON으로 내보내기…"
+msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "내보내기…"
+msgstr "ئەكىر…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "JSON으로 내보내기…"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:89
 #, kde-format
@@ -496,19 +481,19 @@ msgstr[0] ""
 #: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgid "What's new"
-msgstr "새로운 기능"
+msgstr "يېڭىلىق"
 
 #: widgets/kaichatmainwindow.cpp:143
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr "과거 기록 표시"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "سانداندىن ئىزدە…"
 
 #: widgets/kaichatmainwindow.cpp:195
 #, kde-format
@@ -522,27 +507,26 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>메뉴 표시줄을 완전히 숨깁니다. %1 키를 눌러서 다시 볼 수 있습니다.</qt>"
+"<qt>بۇ مەشغۇلات تىزىملىك بالداقنى پۈتۈنلەي يوشۇرىدۇ. %1 نى بېسىپ قايتا "
+"كۆرسىتەلەيسىز.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:315
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
-msgstr "메뉴 표시줄 숨기기"
+msgstr "تىزىملىك بالداقنى يوشۇر"
 
 #: widgets/kaichatmainwindow.cpp:351
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "대화 내보내기"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "대화 내보내기"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:468
 #, kde-format
@@ -557,48 +541,48 @@ msgstr ""
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
 msgid "KAIChat"
-msgstr "KAIChat"
+msgstr ""
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:15
 #, kde-format
 msgid "&Settings"
-msgstr "설정(&S)"
+msgstr "تەڭشەك(&S)"
 
 #. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:19
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "تەھرىر(&E)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:23
 #, kde-format
 msgid "View"
-msgstr "보기"
+msgstr "كۆرۈنۈش"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:29
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "قورال"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:35
 #, kde-format
 msgid "&Help"
-msgstr "도움말(&H)"
+msgstr "ياردەم(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: widgets/kaichatui.rc:42
 #, kde-format
 msgid "Main Toolbar"
-msgstr "주 도구 모음"
+msgstr "ئاساسىي قورال بالداق"
 
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "ھېسابات ئۇچۇرلىرى"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
@@ -610,150 +594,14 @@ msgid "Allow to export text in autogenerate editor plugins."
 msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add what's new support."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "새로운 기능 지원을 추가했습니다."
+msgstr "يېڭىلىق ئەپچە قوشىدۇ."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr ""
 
-#, fuzzy
-#~| msgid "KAIChat"
 #~ msgid "AI Chat"
-#~ msgstr "KAIChat"
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add DBus support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "인스턴스 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add MCP Server support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add KCM support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Sarvam support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#~ msgid "Add what's new support."
-#~ msgstr "새로운 기능 지원을 추가했습니다."
-
-#~ msgid "Add instance support."
-#~ msgstr "인스턴스 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#~ msgid "Add Highlighting support."
-#~ msgstr "구문 강조 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add spell checking support."
-#~ msgstr "구문 강조 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add tools support."
-#~ msgstr "Markdown 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add attachment support."
-#~ msgstr "인스턴스 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add Grok instance support."
-#~ msgstr "인스턴스 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add User Feedback support."
-#~ msgstr "구문 강조 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add import chat support."
-#~ msgstr "인스턴스 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Online support."
-#~ msgstr "새로운 기능 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "새로운 기능 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "새로운 기능 지원을 추가했습니다."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "구문 강조 지원을 추가했습니다."
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "버전:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "%1의 새로운 기능"
-
-#~ msgid "(Show News)"
-#~ msgstr "(뉴스 표시)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "%2의 새로운 기능. %1"
-
-#, fuzzy
-#~| msgid "All Version"
-#~ msgid "All Versions"
-#~ msgstr "모든 버전"
-
-#~ msgid "Version %1"
-#~ msgstr "버전 %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "마지막 버전 이후 중요 변경 사항:"
-
-#, fuzzy
-#~| msgid "Some of the new features in this release of Ruqola include:"
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "이 Ruqola 릴리스에 추가된 주요 기능:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "일부 버그 수정:"
-
-#~ msgid "KAiChat"
-#~ msgstr "KAIChat"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket Chat 클라이언트"
+#~ msgstr "سۈنئىي ئەقىل سۆھبەت"

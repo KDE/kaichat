@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-05-29 00:46+0000\n"
+"POT-Creation-Date: 2026-06-02 00:47+0000\n"
 "PO-Revision-Date: 2026-04-03 00:47+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -27,43 +27,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "wizzardsk@gmail.com"
 
-#: apps/main.cpp:76 apps/main.cpp:85
+#: apps/main.cpp:75
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025-2026 Laurent Montel"
 
-#: apps/main.cpp:81 widgets/kaichatnotificatifieritem.cpp:21
-#, kde-format
-msgid "KAIChat"
-msgstr "KAIChat"
-
-#: apps/main.cpp:83
-#, kde-format
-msgid "AI Chat"
-msgstr "AI Chat"
-
-#: apps/main.cpp:88
+#: apps/main.cpp:79
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:88
+#: apps/main.cpp:79
 #, kde-format
 msgid "Maintainer"
 msgstr "Správca"
 
-#: apps/main.cpp:116
+#: apps/main.cpp:107
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Dostupné sú nasledujúce inštancie:"
 
-#: apps/main.cpp:129
+#: apps/main.cpp:120
 #, kde-format
 msgid "List of Chats:"
 msgstr "Zoznam chatov:"
 
-#: apps/main.cpp:142
+#: apps/main.cpp:133
 #, kde-format
 msgid "Plugins:"
 msgstr "Moduly:"
@@ -479,7 +469,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importovať ako JSON…"
 
-#: widgets/kaichatmainwindow.cpp:106
+#: widgets/kaichatmainwindow.cpp:89
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -487,30 +477,30 @@ msgstr[0] "%1 reťazec nájdený."
 msgstr[1] "%1 reťazce nájdené."
 msgstr[2] "%1 reťazcov nájdených."
 
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:139
 #, kde-format
 msgid "What's new"
 msgstr "Čo je nové"
 
-#: widgets/kaichatmainwindow.cpp:160
+#: widgets/kaichatmainwindow.cpp:143
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Zobraziť archív"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:157
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Hľadať v databáze…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:195
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Otvoriť rýchly dotaz…"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:312
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -519,33 +509,38 @@ msgstr ""
 "<qt>Toto úplne skryje panel ponuky. Môžete ho znova zobraziť stlačením %1.</"
 "qt>"
 
-#: widgets/kaichatmainwindow.cpp:339
+#: widgets/kaichatmainwindow.cpp:315
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skryť panel ponuky"
 
-#: widgets/kaichatmainwindow.cpp:375
+#: widgets/kaichatmainwindow.cpp:351
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importovať chaty"
 
-#: widgets/kaichatmainwindow.cpp:388
+#: widgets/kaichatmainwindow.cpp:364
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportovať chaty"
 
-#: widgets/kaichatmainwindow.cpp:492
+#: widgets/kaichatmainwindow.cpp:468
 #, kde-format
 msgid "Model Download Done"
 msgstr "Stiahnutie modelu dokončené"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:469
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 bol stiahnutý."
+
+#: widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:15
@@ -583,313 +578,6 @@ msgstr "&Pomocník"
 msgid "Main Toolbar"
 msgstr "Hlavný panel nástrojov"
 
-#: widgets/kaichatwhatsnewtranslations.cpp:17
-msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-msgstr "Pridaná podpora ChatGPT, Novita AI, DeepInfra, Qwen."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:18
-msgid "Add CLI option for starting local Ollama."
-msgstr "Pridaná možnosť príkazového riadka na spustenie lokálnej Ollama."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:19
-msgid "Add DBus support."
-msgstr "Pridaná podpora DBus."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:20
-msgid "Add Internal Plugin support."
-msgstr "Pridaná podpora interných modulov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:21
-msgid "Add MCP Server support."
-msgstr "Pridaná podpora MCP servera."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:22
-msgid "Show internal tools metadata."
-msgstr "Zobraziť metadáta interných nástrojov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:23
-msgid "Add KCM support."
-msgstr "Pridaná podpora KCM."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:24
-msgid "Add Sarvam support."
-msgstr "Pridaná podpora Sarvam."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:25
-msgid "Add Database Debug Dialogbox."
-msgstr "Pridať dialógové okno ladenia databázy."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:26
-msgid "Display reply info about duration, number of tokens etc."
-msgstr "Zobraziť informácie o odpovedi: trvanie, počet tokenov a pod."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:27
-msgid "Allow to export as PDF."
-msgstr "Umožnenie exportu do PDF."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:28
-msgid "Add LMStudio support."
-msgstr "Pridaná podpora LMStudio."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:39
-#, kde-format
-msgid "Add what's new support."
-msgstr "Pridaná podpora noviniek."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:40
-#, kde-format
-msgid "Add instance support."
-msgstr "Pridaná podpora inštancií."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:41
-#, kde-format
-msgid "Add Markdown support."
-msgstr "Pridaná podpora Markdown."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:42
-#, kde-format
-msgid "Add Highlighting support."
-msgstr "Pridaná podpora zvýrazňovania."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:45
-#, kde-format
-msgid "Fix allow delete chat. Bug %1"
-msgstr "Oprava umožnenia zmazať chat. Chyba %1"
-
-#: widgets/kaichatwhatsnewtranslations.cpp:52
-#, kde-format
-msgid "Add Quick Ask Dialog."
-msgstr "Pridaný dialóg rýchleho dotazu."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:53
-#, kde-format
-msgid "Allow to download Ollama on Windows/MacOs."
-msgstr "Umožnenie stiahnuť Ollama na Windows/MacOs."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:54
-#, kde-format
-msgid "Use prompt during chating."
-msgstr "Použitie výzvy počas chatovania."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:55
-#, kde-format
-msgid "Add shared text and webshorcut plugin."
-msgstr "Pridaný modul zdieľaného textu a webovej skratky."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:56
-#, kde-format
-msgid "Allow to configure plugins."
-msgstr "Umožnenie konfigurácie modulov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:57
-#, kde-format
-msgid "Add new update widget."
-msgstr "Pridaný nový widget aktualizácie."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:58
-#, kde-format
-msgid "Add progress indicator in chats list."
-msgstr "Pridaný indikátor priebehu v zozname chatov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:59
-#, kde-format
-msgid "Allow to change font size."
-msgstr "Umožnenie zmeny veľkosti písma."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:60
-#, kde-format
-msgid ""
-"Add command line for adding new chat room, displaying list of instances."
-msgstr ""
-"Pridaný príkazový riadok na pridanie novej miestnosti chatu a zobrazenie "
-"zoznamu inštancií."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:61
-#, kde-format
-msgid "Add spell checking support."
-msgstr "Pridaná podpora kontroly pravopisu."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:62
-#, kde-format
-msgid "Add Notification popup when model download done."
-msgstr "Pridané vyskakovacie oznámenie po dokončení stiahnutia modelu."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:63
-#, kde-format
-msgid "Allow to save and restore text and scrollbar position."
-msgstr "Umožnenie uložiť a obnoviť text a pozíciu posúvača."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:64
-#, kde-format
-msgid "Allow to save and restore current chat."
-msgstr "Umožnenie uložiť a obnoviť aktuálny chat."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:65
-#, kde-format
-msgid "Add option for showing list of title chats."
-msgstr "Pridaná možnosť zobraziť zoznam názvov chatov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:66
-#, kde-format
-msgid "Add tools support."
-msgstr "Pridaná podpora nástrojov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:67
-#, kde-format
-msgid "Allow to switch from chat identifier."
-msgstr "Umožnenie prepnúť podľa identifikátora chatu."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:68
-#, kde-format
-msgid "Add Current Date Time tool."
-msgstr "Pridaný nástroj aktuálneho dátumu a času."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:69
-#, kde-format
-msgid "Add progress tool message info."
-msgstr "Pridaná informačná správa o priebehu nástroja."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:72
-#, kde-format
-msgid "Fix icon on windows."
-msgstr "Oprava ikony v systéme Windows."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:79
-#, kde-format
-msgid "Allow to copy block code to clipboard."
-msgstr "Umožnenie kopírovať blok kódu do schránky."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:80
-#, kde-format
-msgid "Show number of string found in statusbar."
-msgstr "Zobrazenie počtu nájdených reťazcov v stavovom riadku."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:81
-#, kde-format
-msgid "Implement quick search."
-msgstr "Implementácia rýchleho vyhľadávania."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:82
-#, kde-format
-msgid "Add quick search bar in quick ask dialog."
-msgstr "Pridaný panel rýchleho vyhľadávania v dialógu rýchleho dotazu."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:83
-#, kde-format
-msgid "Add restore configure settings value."
-msgstr "Pridané obnovenie hodnôt nastavení konfigurácie."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:84
-#, kde-format
-msgid "Allow to configure text to speech."
-msgstr "Umožnenie konfigurácie textu na reč."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:85
-#, kde-format
-msgid "Add tool plugin icon name."
-msgstr "Pridaný názov ikony modulu nástroja."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:86
-#, kde-format
-msgid "Add attachment support."
-msgstr "Pridaná podpora príloh."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:87
-#, kde-format
-msgid "Add new icon."
-msgstr "Pridaná nová ikona."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:88
-#, kde-format
-msgid "Add debug command line."
-msgstr "Pridaný ladiaci príkazový riadok."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:89
-#, kde-format
-msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
-"Pridané moduly nástrojov Wikipedia a počasie (poskytované kaichat-addons)."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:90
-#, kde-format
-msgid "Store Pending Typed Info in Database."
-msgstr "Ukladanie čakajúcich napísaných informácií do databázy."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:91
-#, kde-format
-msgid "Allow to add attachment files from command line."
-msgstr "Umožnenie pridať súbory príloh z príkazového riadku."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:92
-#, kde-format
-msgid "Add icon in configure ollama models."
-msgstr "Pridaná ikona v konfigurácii modelov Ollama."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:93
-#, kde-format
-msgid "Allow to use specific Ollama environment variables."
-msgstr "Umožnenie použiť špecifické premenné prostredia Ollama."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:97
-#, kde-format
-msgid "Fix multi tools plugins call."
-msgstr "Oprava volania viacerých modulov nástrojov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:104
-#, kde-format
-msgid "Add Grok instance support."
-msgstr "Pridaná podpora inštancie Grok."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:105
-#, kde-format
-msgid "Add User Feedback support."
-msgstr "Pridaná podpora spätnej väzby používateľov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:106
-#, kde-format
-msgid "Allow to show model info."
-msgstr "Umožnenie zobraziť informácie o modeli."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:107
-#, kde-format
-msgid "Add import chat support."
-msgstr "Pridaná podpora importu chatov."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:108
-#, kde-format
-msgid "Add Ollama Online support."
-msgstr "Pridaná podpora Ollama Online."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:109
-#, kde-format
-msgid "Add Ollama Cloud support."
-msgstr "Pridaná podpora Ollama Cloud."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:110
-#, kde-format
-msgid "Allow to duplicate chat."
-msgstr "Umožnenie duplikovať chat."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:111
-#, kde-format
-msgid "Add Ollama Keep Alive setting support."
-msgstr "Pridaná podpora nastavenia Ollama Keep Alive."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:112
-#, kde-format
-msgid "Show Ollama log."
-msgstr "Zobrazenie záznamu Ollama."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:113
-#, kde-format
-msgid "Allow to expose Ollama to local network."
-msgstr "Umožnenie sprístupniť Ollama v lokálnej sieti."
-
-#: widgets/kaichatwhatsnewtranslations.cpp:114
-#, kde-format
-msgid "Add thinking support."
-msgstr "Pridaná podpora premýšľania."
-
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
@@ -913,3 +601,199 @@ msgstr "Pridaný nový widget noviniek."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Nový modul: zobraziť veľkosť kolekcie."
+
+#~ msgid "AI Chat"
+#~ msgstr "AI Chat"
+
+#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgstr "Pridaná podpora ChatGPT, Novita AI, DeepInfra, Qwen."
+
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "Pridaná možnosť príkazového riadka na spustenie lokálnej Ollama."
+
+#~ msgid "Add DBus support."
+#~ msgstr "Pridaná podpora DBus."
+
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "Pridaná podpora interných modulov."
+
+#~ msgid "Add MCP Server support."
+#~ msgstr "Pridaná podpora MCP servera."
+
+#~ msgid "Show internal tools metadata."
+#~ msgstr "Zobraziť metadáta interných nástrojov."
+
+#~ msgid "Add KCM support."
+#~ msgstr "Pridaná podpora KCM."
+
+#~ msgid "Add Sarvam support."
+#~ msgstr "Pridaná podpora Sarvam."
+
+#~ msgid "Add Database Debug Dialogbox."
+#~ msgstr "Pridať dialógové okno ladenia databázy."
+
+#~ msgid "Display reply info about duration, number of tokens etc."
+#~ msgstr "Zobraziť informácie o odpovedi: trvanie, počet tokenov a pod."
+
+#~ msgid "Allow to export as PDF."
+#~ msgstr "Umožnenie exportu do PDF."
+
+#~ msgid "Add LMStudio support."
+#~ msgstr "Pridaná podpora LMStudio."
+
+#~ msgid "Add what's new support."
+#~ msgstr "Pridaná podpora noviniek."
+
+#~ msgid "Add instance support."
+#~ msgstr "Pridaná podpora inštancií."
+
+#~ msgid "Add Markdown support."
+#~ msgstr "Pridaná podpora Markdown."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "Pridaná podpora zvýrazňovania."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "Oprava umožnenia zmazať chat. Chyba %1"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "Pridaný dialóg rýchleho dotazu."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "Umožnenie stiahnuť Ollama na Windows/MacOs."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "Použitie výzvy počas chatovania."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "Pridaný modul zdieľaného textu a webovej skratky."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "Umožnenie konfigurácie modulov."
+
+#~ msgid "Add new update widget."
+#~ msgstr "Pridaný nový widget aktualizácie."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "Pridaný indikátor priebehu v zozname chatov."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "Umožnenie zmeny veľkosti písma."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr ""
+#~ "Pridaný príkazový riadok na pridanie novej miestnosti chatu a zobrazenie "
+#~ "zoznamu inštancií."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "Pridaná podpora kontroly pravopisu."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr "Pridané vyskakovacie oznámenie po dokončení stiahnutia modelu."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr "Umožnenie uložiť a obnoviť text a pozíciu posúvača."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "Umožnenie uložiť a obnoviť aktuálny chat."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "Pridaná možnosť zobraziť zoznam názvov chatov."
+
+#~ msgid "Add tools support."
+#~ msgstr "Pridaná podpora nástrojov."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "Umožnenie prepnúť podľa identifikátora chatu."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "Pridaný nástroj aktuálneho dátumu a času."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "Pridaná informačná správa o priebehu nástroja."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "Oprava ikony v systéme Windows."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "Umožnenie kopírovať blok kódu do schránky."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "Zobrazenie počtu nájdených reťazcov v stavovom riadku."
+
+#~ msgid "Implement quick search."
+#~ msgstr "Implementácia rýchleho vyhľadávania."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr "Pridaný panel rýchleho vyhľadávania v dialógu rýchleho dotazu."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "Pridané obnovenie hodnôt nastavení konfigurácie."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "Umožnenie konfigurácie textu na reč."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "Pridaný názov ikony modulu nástroja."
+
+#~ msgid "Add attachment support."
+#~ msgstr "Pridaná podpora príloh."
+
+#~ msgid "Add new icon."
+#~ msgstr "Pridaná nová ikona."
+
+#~ msgid "Add debug command line."
+#~ msgstr "Pridaný ladiaci príkazový riadok."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "Pridané moduly nástrojov Wikipedia a počasie (poskytované kaichat-addons)."
+
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "Ukladanie čakajúcich napísaných informácií do databázy."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "Umožnenie pridať súbory príloh z príkazového riadku."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "Pridaná ikona v konfigurácii modelov Ollama."
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "Umožnenie použiť špecifické premenné prostredia Ollama."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "Oprava volania viacerých modulov nástrojov."
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "Pridaná podpora inštancie Grok."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Pridaná podpora spätnej väzby používateľov."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Umožnenie zobraziť informácie o modeli."
+
+#~ msgid "Add import chat support."
+#~ msgstr "Pridaná podpora importu chatov."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Pridaná podpora Ollama Online."
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Pridaná podpora Ollama Cloud."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Umožnenie duplikovať chat."
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Pridaná podpora nastavenia Ollama Keep Alive."
+
+#~ msgid "Show Ollama log."
+#~ msgstr "Zobrazenie záznamu Ollama."
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Umožnenie sprístupniť Ollama v lokálnej sieti."
+
+#~ msgid "Add thinking support."
+#~ msgstr "Pridaná podpora premýšľania."
