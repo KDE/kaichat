@@ -225,7 +225,7 @@ add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.12.0
-    KF 6.26.0
+    KF 6.27.0
 )
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
