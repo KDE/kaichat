@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025 Shinjo Park <kde@peremen.name>
+# SPDX-FileCopyrightText: 2025, 2026 Shinjo Park <kde@peremen.name>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-03-15 02:45+0000\n"
-"PO-Revision-Date: 2025-07-21 00:46+0200\n"
+"PO-Revision-Date: 2026-05-26 21:47+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 24.12.3\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -33,16 +33,14 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #: apps/main.cpp:74
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "AI Chat"
-msgstr "KAIChat"
+msgstr "AI 채팅"
 
 #: apps/main.cpp:76
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025 Laurent Montel"
+msgstr "Copyright © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:77
 #, kde-format
@@ -58,150 +56,146 @@ msgstr "관리자"
 #: apps/main.cpp:110
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "다음 인스턴스를 사용할 수 있습니다:"
 
 #: apps/main.cpp:126
 #, kde-format
 msgid "List of Chats:"
-msgstr ""
+msgstr "대화 목록:"
 
 #: apps/main.cpp:139
 #, kde-format
 msgid "Plugins:"
-msgstr ""
+msgstr "플러그인:"
 
 #: core/kaichatcommandlineparser.cpp:22
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr ""
+msgstr "인스턴스 목록 반환"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr ""
+msgstr "지정한 인스턴스로 시작"
 
 #: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instance Name"
-msgstr "인스턴스"
+msgstr "인스턴스 이름"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "새 대화 만들기"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "새 대화 제목"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr ""
+msgstr "빠른 질문 열기"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "대화로 전환"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "대화 이름"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr ""
+msgstr "식별자로 지정한 대화로 전환"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
-msgstr ""
+msgstr "대화 식별자"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr ""
+msgstr "질문 메시지"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
-msgstr ""
+msgstr "메시지"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr ""
+msgstr "대화 목록 반환"
 
 #: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "디버그 모드 활성화"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "첨부 파일 추가. 반복할 수 있음"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "첨부 URL"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "사용할 도구 정의. 반복할 수 있음"
 
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr ""
+msgstr "도구 이름"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr ""
+msgstr "플러그인 정보 반환"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "사용자 피드백 옵션 표시"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "대화 내보내기"
+msgstr "대화 가져오기"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "가져오기"
 
 #: core/kaichatexportchatasmardownjob.cpp:22
 #, kde-format
 msgid "Mardown"
-msgstr ""
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmardownjob.cpp:37
 #: core/kaichatexportchatastextjob.cpp:37
@@ -225,100 +219,100 @@ msgstr "시스템"
 #: core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
-msgstr ""
+msgstr "도구"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "텍스트"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr ""
+msgstr "텍스트 공유…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr ""
+msgstr "문서 공유 중 문제 발생: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "File was shared."
-msgstr ""
+msgstr "파일을 공유했습니다."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:72
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr ""
+msgstr "<qt>다음에서 새 요청을 찾을 수 있습니다:<br /><a href='%1'>%1</a></qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "현재 날짜와 시간"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "현재 날짜와 시간 가져오기"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "이 도구를 사용하여 현재 날짜와 시간 가져오기"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "날짜와 시간 도구 설정"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr ""
+msgstr "현재 날짜와 시간을 가져옵니다."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current time is %1"
-msgstr ""
+msgstr "현재 시간은 %1입니다"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "현재 날짜는 %1입니다"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:46
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "현재 날짜와 시간은 %1입니다"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr ""
+msgstr "글꼴 크기"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr ""
+msgstr "글꼴 크기 증가"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr ""
+msgstr "글꼴 크기 감소"
 
 #: widgets/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "텍스트 읽어주기 활성화"
 
 #: widgets/kaichatconfigurefontwidget.cpp:19
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "사용자 정의 글꼴 사용(&U)"
 
 #: widgets/kaichatconfiguregeneralwidget.cpp:19
 #, kde-format
@@ -342,7 +336,7 @@ msgstr "일반"
 #, kde-format
 msgctxt "@title General page name"
 msgid "Font"
-msgstr ""
+msgstr "글꼴"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:57
 #, kde-format
@@ -354,25 +348,25 @@ msgstr "인스턴스"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr ""
+msgstr "맞춤법 검사"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:67
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "접근성"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:73
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Plugins"
-msgstr ""
+msgstr "플러그인"
 
 #: widgets/kaichatconfiguresettingsdialog.cpp:79
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "사용자 피드백"
 
 #: widgets/kaichatexportmenu.cpp:17
 #, kde-format
@@ -381,9 +375,7 @@ msgid "Export…"
 msgstr "내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:18
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
 msgstr "JSON으로 내보내기…"
@@ -391,18 +383,18 @@ msgstr "JSON으로 내보내기…"
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:21 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "JSON 파일"
 
 #: widgets/kaichatexportmenu.cpp:26
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "Markdown으로 내보내기…"
+msgstr "마크다운으로 내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:34
 #, kde-format
@@ -411,26 +403,22 @@ msgid "Export as Text…"
 msgstr "텍스트로 내보내기…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "내보내기…"
+msgstr "가져오기…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as Json…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "JSON으로 내보내기…"
+msgstr "JSON으로 가져오기…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
+msgstr[0] "문자열 %1개를 찾았습니다."
 
 #: widgets/kaichatmainwindow.cpp:157
 #, kde-format
@@ -447,13 +435,13 @@ msgstr "과거 기록 표시"
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "데이터베이스에서 검색…"
 
 #: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr ""
+msgstr "빠른 질문 열기…"
 
 #: widgets/kaichatmainwindow.cpp:306
 #, kde-format
@@ -470,12 +458,10 @@ msgid "Hide menu bar"
 msgstr "메뉴 표시줄 숨기기"
 
 #: widgets/kaichatmainwindow.cpp:346
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "대화 내보내기"
+msgstr "대화 가져오기"
 
 #: widgets/kaichatmainwindow.cpp:359
 #, kde-format
@@ -486,12 +472,12 @@ msgstr "대화 내보내기"
 #: widgets/kaichatmainwindow.cpp:454
 #, kde-format
 msgid "Model Download Done"
-msgstr ""
+msgstr "모델 다운로드 완료됨"
 
 #: widgets/kaichatmainwindow.cpp:455
 #, kde-format
 msgid "Model %1 was download."
-msgstr ""
+msgstr "%1 모델을 다운로드했습니다."
 
 #. i18n: ectx: Menu (settings)
 #: widgets/kaichatui.rc:15
@@ -503,7 +489,7 @@ msgstr "설정(&S)"
 #: widgets/kaichatui.rc:19
 #, kde-format
 msgid "&Edit"
-msgstr ""
+msgstr "편집(&E)"
 
 #. i18n: ectx: Menu (view)
 #: widgets/kaichatui.rc:23
@@ -515,7 +501,7 @@ msgstr "보기"
 #: widgets/kaichatui.rc:29
 #, kde-format
 msgid "Tools"
-msgstr ""
+msgstr "도구"
 
 #. i18n: ectx: Menu (help)
 #: widgets/kaichatui.rc:33
@@ -530,62 +516,48 @@ msgid "Main Toolbar"
 msgstr "주 도구 모음"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:17
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add Grok instance support."
-msgstr "인스턴스 지원을 추가했습니다."
+msgstr "그록 인스턴스 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:18
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add User Feedback support."
-msgstr "구문 강조 지원을 추가했습니다."
+msgstr "사용자 피드백 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:19
 msgid "Allow to show model info."
-msgstr ""
+msgstr "모델 정보를 볼 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:20
-#, fuzzy
-#| msgid "Add instance support."
 msgid "Add import chat support."
-msgstr "인스턴스 지원을 추가했습니다."
+msgstr "대화 가져오기 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:21
-#, fuzzy
-#| msgid "Add what's new support."
 msgid "Add Ollama Online support."
-msgstr "새로운 기능 지원을 추가했습니다."
+msgstr "Ollama 온라인 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:22
-#, fuzzy
-#| msgid "Add Mardown support."
 msgid "Add Ollama Cloud support."
-msgstr "Markdown 지원을 추가했습니다."
+msgstr "Ollama 클라우드 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:23
 msgid "Allow to duplicate chat."
-msgstr ""
+msgstr "대화를 복제하는 것을 허용합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:24
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add Ollama Keep Alive setting support."
-msgstr "구문 강조 지원을 추가했습니다."
+msgstr "Ollama Keep Alive 설정 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:25
 msgid "Show Ollama log."
-msgstr ""
+msgstr "Ollama 로그를 표시합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:26
 msgid "Allow to expose Ollama to local network."
-msgstr ""
+msgstr "Ollama를 로컬 네트워크에서 탐색할 수 있도록 허용합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:27
-#, fuzzy
-#| msgid "Add Highlighting support."
 msgid "Add thinking support."
-msgstr "구문 강조 지원을 추가했습니다."
+msgstr "생각 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:38
 #, kde-format
@@ -600,7 +572,7 @@ msgstr "인스턴스 지원을 추가했습니다."
 #: widgets/kaichatwhatsnewtranslations.cpp:40
 #, kde-format
 msgid "Add Mardown support."
-msgstr "Markdown 지원을 추가했습니다."
+msgstr "Mardown 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:41
 #, kde-format
@@ -610,211 +582,208 @@ msgstr "구문 강조 지원을 추가했습니다."
 #: widgets/kaichatwhatsnewtranslations.cpp:44
 #, kde-format
 msgid "Fix allow delete chat. Bug %1"
-msgstr ""
+msgstr "대화 삭제 허용 문제를 수정했습니다. 버그 %1"
 
 #: widgets/kaichatwhatsnewtranslations.cpp:51
 #, kde-format
 msgid "Add Quick Ask Dialog."
-msgstr ""
+msgstr "빠른 질문 대화 상자를 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:52
 #, kde-format
 msgid "Allow to download Ollama on Windows/MacOs."
-msgstr ""
+msgstr "Windows/macOS에서 Ollama를 다운로드할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:53
 #, kde-format
 msgid "Use prompt during chating."
-msgstr ""
+msgstr "대화 중에 프롬프트를 사용할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:54
 #, kde-format
 msgid "Add shared text and webshorcut plugin."
-msgstr ""
+msgstr "공유된 텍스트와 웹 바로 가기 플러그인을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:55
 #, kde-format
 msgid "Allow to configure plugins."
-msgstr ""
+msgstr "플러그인을 설정할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:56
 #, kde-format
 msgid "Add new update widget."
-msgstr ""
+msgstr "새 업데이트 위젯을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:57
 #, kde-format
 msgid "Add progress indicator in chats list."
-msgstr ""
+msgstr "대화 목록에 진행 표시기를 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:58
 #, kde-format
 msgid "Allow to change font size."
-msgstr ""
+msgstr "글꼴 크기를 변경할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:59
 #, kde-format
 msgid ""
 "Add command line for adding new chat room, displaying list of instances."
 msgstr ""
+"새 대화방을 추가하고 인스턴스 목록을 표시하는 명령행 옵션을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:60
-#, fuzzy, kde-format
-#| msgid "Add Highlighting support."
+#, kde-format
 msgid "Add spell checking support."
-msgstr "구문 강조 지원을 추가했습니다."
+msgstr "맞춤법 검사 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:61
 #, kde-format
 msgid "Add Notification popup when model download done."
-msgstr ""
+msgstr "모델 다운로드가 완료되었을 때 알림 팝업을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:62
 #, kde-format
 msgid "Allow to save and restore text and scrollbar position."
-msgstr ""
+msgstr "텍스트와 스크롤바 위치 저장과 복원을 지원합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:63
 #, kde-format
 msgid "Allow to save and restore current chat."
-msgstr ""
+msgstr "현재 대화를 저장하고 복원할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:64
 #, kde-format
 msgid "Add option for showing list of title chats."
-msgstr ""
+msgstr "전체 대화의 제목 목록을 가져오는 옵션을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:65
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "Add tools support."
-msgstr "Markdown 지원을 추가했습니다."
+msgstr "도구 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:66
 #, kde-format
 msgid "Allow to switch from chat identifier."
-msgstr ""
+msgstr "대화 식별자를 사용하여 전환을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:67
 #, kde-format
 msgid "Add Current Date Time tool."
-msgstr ""
+msgstr "현재 날짜와 시간 도구를 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:68
 #, kde-format
 msgid "Add progress tool message info."
-msgstr ""
+msgstr "진행 도구 메시지 정보를 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:71
 #, kde-format
 msgid "Fix icon on windows."
-msgstr ""
+msgstr "Windows에서의 아이콘을 수정했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:78
 #, kde-format
 msgid "Allow to copy block code to clipboard."
-msgstr ""
+msgstr "블록 코드를 클립보드에 복사할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:79
 #, kde-format
 msgid "Show number of string found in statusbar."
-msgstr ""
+msgstr "상태 표시줄에 찾은 문자열 개수를 표시합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:80
 #, kde-format
 msgid "Implement quick search."
-msgstr ""
+msgstr "빠른 검색을 구현했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:81
 #, kde-format
 msgid "Add quick search bar in quick ask dialog."
-msgstr ""
+msgstr "빠른 질문 대화 상자에 빠른 검색 표시줄을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:82
 #, kde-format
 msgid "Add restore configure settings value."
-msgstr ""
+msgstr "설정 값 복원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:83
 #, kde-format
 msgid "Allow to configure text to speech."
-msgstr ""
+msgstr "텍스트 읽어주기 옵션을 설정할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:84
 #, kde-format
 msgid "Add tool plugin icon name."
-msgstr ""
+msgstr "도구 플러그인 아이콘 이름을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:85
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Add attachment support."
-msgstr "인스턴스 지원을 추가했습니다."
+msgstr "첨부 지원을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:86
 #, kde-format
 msgid "Add new icon."
-msgstr ""
+msgstr "새 아이콘을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:87
 #, kde-format
 msgid "Add debug command line."
-msgstr ""
+msgstr "디버그 명령행을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:88
 #, kde-format
 msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-msgstr ""
+msgstr "위키백과, 날씨 도구 플러그인(kaichat-addons에서 제공)을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:89
 #, kde-format
 msgid "Store Pending Typed Info in Database."
-msgstr ""
+msgstr "대기 중인 형식 정보를 데이터베이스에 저장합니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:90
 #, kde-format
 msgid "Allow to add attachment files from command line."
-msgstr ""
+msgstr "명령행에서 첨부 파일을 추가할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:91
 #, kde-format
 msgid "Add icon in configure ollama models."
-msgstr ""
+msgstr "Ollama 모델 설정 아이콘을 추가했습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:92
 #, kde-format
 msgid "Allow to use specific Ollama environment variables."
-msgstr ""
+msgstr "특정한 Ollama 환경 변수를 지정할 수 있습니다."
 
 #: widgets/kaichatwhatsnewtranslations.cpp:96
 #, kde-format
 msgid "Fix multi tools plugins call."
-msgstr ""
+msgstr "다중 도구 플러그인 호출을 수정했습니다."
 
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "계정 정보"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "계정 개수를 반환합니다."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "자동 생성 편집기 플러그인에서 텍스트 내보내기를 허용합니다."
 
 #: widgets/whatsnewtranslations.cpp:25
-#, fuzzy, kde-format
-#| msgid "Add what's new support."
+#, kde-format
 msgid "Add new whatsnew widget."
-msgstr "새로운 기능 지원을 추가했습니다."
+msgstr "새 새로운 항목 위젯을 추가합니다."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "새 플러그인: 모음집 크기 표시."
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"
