@@ -6,9 +6,12 @@
 #include "exploredatabasechatiddelegate.h"
 #include <QHelpEvent>
 #include <QToolTip>
+#include <TextAutoGenerateText/TextAutoGenerateChatsModel>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
-ExploreDatabaseChatIdDelegate::ExploreDatabaseChatIdDelegate(QObject *parent)
+ExploreDatabaseChatIdDelegate::ExploreDatabaseChatIdDelegate(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent)
     : QStyledItemDelegate{parent}
+    , mManager(manager)
 {
 }
 
@@ -16,13 +19,9 @@ ExploreDatabaseChatIdDelegate::~ExploreDatabaseChatIdDelegate() = default;
 
 QString ExploreDatabaseChatIdDelegate::displayText(const QVariant &value, const QLocale &locale) const
 {
-#if 0
-    if (mRocketChatAccount) {
-        if (auto r = mRocketChatAccount->room(value.toByteArray()); r) {
-            return r->displayRoomName();
-        }
+    if (mManager) {
+        return mManager->textAutoGenerateChatsModel()->title(value.toByteArray());
     }
-#endif
     return QStyledItemDelegate::displayText(value, locale);
 }
 

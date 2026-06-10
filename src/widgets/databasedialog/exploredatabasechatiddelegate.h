@@ -6,15 +6,21 @@
 #pragma once
 #include "libkaichatwidgets_private_export.h"
 #include <QStyledItemDelegate>
-class RocketChatAccount;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class LIBKAICHATWIDGETS_TESTS_EXPORT ExploreDatabaseChatIdDelegate : public QStyledItemDelegate
 {
     Q_OBJECT
 public:
-    explicit ExploreDatabaseChatIdDelegate(QObject *parent = nullptr);
+    explicit ExploreDatabaseChatIdDelegate(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent = nullptr);
     ~ExploreDatabaseChatIdDelegate() override;
 
     [[nodiscard]] QString displayText(const QVariant &value, const QLocale &locale) const override;
 
     [[nodiscard]] bool helpEvent(QHelpEvent *event, QAbstractItemView *view, const QStyleOptionViewItem &option, const QModelIndex &index) override;
+
+private:
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

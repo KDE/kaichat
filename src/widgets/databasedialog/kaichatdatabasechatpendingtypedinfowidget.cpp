@@ -5,6 +5,7 @@
  */
 
 #include "kaichatdatabasechatpendingtypedinfowidget.h"
+#include "exploredatabasechatiddelegate.h"
 #include "exploredatabasetooltipdelegate.h"
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
@@ -20,6 +21,7 @@ KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWi
 {
     mTableView->setItemDelegateForColumn(1, new ExploreDatabaseTooltipDelegate(this));
     if (mManager) {
+        mTableView->setItemDelegateForColumn(0, new ExploreDatabaseChatIdDelegate(mManager, this));
         mModel = mManager->databaseManager()->chatPendingTypedInfoDatabase()->createChatPendingInfoModel();
         if (mModel) {
             setModel(mModel.get());
