@@ -34,7 +34,7 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     mTabWidget->addTab(mDatabaseChatWidget, i18n("Chat"));
 
     mDatabaseMessagesWidget->setObjectName("mDatabaseMessagesWidget"_L1);
-    mTabWidget->addTab(mDatabaseMessagesWidget, i18n("Messages"));
+    mTabWidget->addTab(mDatabaseMessagesWidget, i18n("Messages in Database"));
 
     mDatabaseMessageJsonWidget->setObjectName("mDatabaseMessageJsonWidget"_L1);
     mTabWidget->addTab(mDatabaseMessageJsonWidget, i18n("Messages JSON"));
