@@ -9,6 +9,7 @@
 #include "databasedialog/kaichatdatabasechatwidget.h"
 #include "databasedialog/kaichatdatabasemessagejsonwidget.h"
 #include "databasedialog/kaichatdatabasemessageswidget.h"
+#include "databasedialog/kaichatdatabaseselectchatwidget.h"
 #include <KLocalizedString>
 #include <QTabWidget>
 #include <QVBoxLayout>
@@ -21,6 +22,7 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     , mDatabaseChatPendingTypedInfoWidget(new KAIChatDatabaseChatPendingTypedInfoWidget(manager, this))
     , mDatabaseMessagesWidget(new KAIChatDatabaseMessagesWidget(manager, this))
     , mDatabaseMessageJsonWidget(new KAIChatDatabaseMessageJsonWidget(this))
+    , mDatabaseSelectChatWidget(new KAIChatDatabaseSelectChatWidget(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
@@ -33,6 +35,9 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     mDatabaseChatWidget->setObjectName("mDatabaseChatWidget"_L1);
     mTabWidget->addTab(mDatabaseChatWidget, i18n("Chat"));
 
+    mDatabaseSelectChatWidget->setObjectName("mDatabaseSelectChatWidget"_L1);
+    mTabWidget->addTab(mDatabaseSelectChatWidget, i18n("Messages"));
+
     mDatabaseMessagesWidget->setObjectName("mDatabaseMessagesWidget"_L1);
     mTabWidget->addTab(mDatabaseMessagesWidget, i18n("Messages in Database"));
 
@@ -42,7 +47,6 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     mDatabaseChatPendingTypedInfoWidget->setObjectName("mDatabaseChatPendingTypedInfoWidget"_L1);
     mTabWidget->addTab(mDatabaseChatPendingTypedInfoWidget, i18n("Pending Typed Info"));
     connect(mDatabaseChatWidget, &KAIChatDatabaseChatWidget::showMessageFromChatIdRequested, this, [this](const QByteArray &chatId) {
-        // TODO
         mDatabaseMessagesWidget->loadMessageFromChatId(QString::fromLatin1(chatId));
     });
 }

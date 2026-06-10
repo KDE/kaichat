@@ -12,6 +12,7 @@ class KAIChatDatabaseChatWidget;
 class KAIChatDatabaseMessagesWidget;
 class KAIChatDatabaseMessageJsonWidget;
 class KAIChatDatabaseChatPendingTypedInfoWidget;
+class KAIChatDatabaseSelectChatWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -29,4 +30,5 @@ private:
     KAIChatDatabaseChatPendingTypedInfoWidget *const mDatabaseChatPendingTypedInfoWidget;
     KAIChatDatabaseMessagesWidget *const mDatabaseMessagesWidget;
     KAIChatDatabaseMessageJsonWidget *const mDatabaseMessageJsonWidget;
+    KAIChatDatabaseSelectChatWidget *const mDatabaseSelectChatWidget;
 };
