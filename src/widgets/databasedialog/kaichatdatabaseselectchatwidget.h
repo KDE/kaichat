@@ -6,11 +6,18 @@
 #pragma once
 
 #include <QWidget>
-
+class KAIChatDatabaseMessagesListView;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatDatabaseSelectChatWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseSelectChatWidget(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseSelectChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatWidget() override;
+
+private:
+    KAIChatDatabaseMessagesListView *const mMessagesListView;
 };

@@ -22,7 +22,7 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     , mDatabaseChatPendingTypedInfoWidget(new KAIChatDatabaseChatPendingTypedInfoWidget(manager, this))
     , mDatabaseMessagesWidget(new KAIChatDatabaseMessagesWidget(manager, this))
     , mDatabaseMessageJsonWidget(new KAIChatDatabaseMessageJsonWidget(this))
-    , mDatabaseSelectChatWidget(new KAIChatDatabaseSelectChatWidget(this))
+    , mDatabaseSelectChatWidget(new KAIChatDatabaseSelectChatWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName("mainLayout"_L1);
