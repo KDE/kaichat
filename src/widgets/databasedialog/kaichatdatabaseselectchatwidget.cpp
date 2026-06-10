@@ -11,3 +11,5 @@ KAIChatDatabaseSelectChatWidget::KAIChatDatabaseSelectChatWidget(QWidget *parent
 }
 
 KAIChatDatabaseSelectChatWidget::~KAIChatDatabaseSelectChatWidget() = default;
+
+#include "moc_kaichatdatabaseselectchatwidget.cpp"
