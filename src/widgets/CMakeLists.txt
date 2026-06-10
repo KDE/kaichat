@@ -69,6 +69,8 @@ target_sources(
         databasedialog/kaichatdatabasechatwidget.cpp
         databasedialog/kaichatdatabasemessagejsonwidget.h
         databasedialog/kaichatdatabasemessagejsonwidget.cpp
+        databasedialog/exploredatabasetooltipdelegate.h
+        databasedialog/exploredatabasetooltipdelegate.cpp
 )
 
 if(USE_MCP_SERVER_SUPPORT)

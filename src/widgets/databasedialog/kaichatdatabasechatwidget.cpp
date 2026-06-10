@@ -5,8 +5,10 @@
  */
 
 #include "kaichatdatabasechatwidget.h"
+#include "exploredatabasetooltipdelegate.h"
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
+#include <QTableWidget>
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
@@ -15,6 +17,7 @@ KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextA
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)
 {
+    mTableView->setItemDelegateForColumn(1, new ExploreDatabaseTooltipDelegate(this));
     if (mManager) {
         mModel = mManager->databaseManager()->chatsDatabase()->createChatsModel();
         if (mModel) {
