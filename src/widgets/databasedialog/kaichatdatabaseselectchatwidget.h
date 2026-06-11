@@ -19,6 +19,9 @@ public:
     explicit KAIChatDatabaseSelectChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatWidget() override;
 
+Q_SIGNALS:
+    void selectChatId(const QByteArray &chatId);
+
 private:
     KAIChatDatabaseMessagesListView *const mMessagesListView;
     KAIChatDatabaseSelectChatLineEdit *const mLineEdit;

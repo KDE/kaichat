@@ -23,6 +23,8 @@ KAIChatDatabaseSelectChatWidget::KAIChatDatabaseSelectChatWidget(TextAutoGenerat
 
     mMessagesListView->setObjectName(u"mMessagesListView"_s);
     mainLayout->addWidget(mMessagesListView);
+
+    connect(mLineEdit, &KAIChatDatabaseSelectChatLineEdit::selectChatId, this, &KAIChatDatabaseSelectChatWidget::selectChatId);
 }
 
 KAIChatDatabaseSelectChatWidget::~KAIChatDatabaseSelectChatWidget() = default;

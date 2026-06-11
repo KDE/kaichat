@@ -13,4 +13,7 @@ class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public 
 public:
     explicit KAIChatDatabaseSelectChatLineEdit(QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatLineEdit() override;
+
+Q_SIGNALS:
+    void selectChatId(const QByteArray &chatId);
 };
