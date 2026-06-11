@@ -17,7 +17,7 @@ KAIChatDatabaseMessagesListView::KAIChatDatabaseMessagesListView(TextAutoGenerat
 
 KAIChatDatabaseMessagesListView::~KAIChatDatabaseMessagesListView() = default;
 
-QString KAIChatDatabaseMessagesListView::originalMessage(const QModelIndex &index) const
+QString KAIChatDatabaseMessagesListView::originalMessage([[maybe_unused]] const QModelIndex &index) const
 {
     // TODO
     return {};
