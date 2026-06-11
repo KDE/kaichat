@@ -2,13 +2,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 add_subdirectory(icons)
 
-add_library(
-    libkaichatwidgets
-    databasedialog/kaichatdatabasemessageslistview.h
-    databasedialog/kaichatdatabasemessageslistview.cpp
-    databasedialog/kaichatdatabaseselectchatlineedit.h
-    databasedialog/kaichatdatabaseselectchatlineedit.cpp
-)
+add_library(libkaichatwidgets)
 ecm_qt_declare_logging_category(libkaichatwidgets HEADER kaichat_widget_debug.h IDENTIFIER KAICHAT_WIDGET_LOG
     CATEGORY_NAME org.kde.kaichat_widget DESCRIPTION "kaichat (widget lib)" EXPORT KAICHAT
 )
@@ -81,6 +75,10 @@ target_sources(
         databasedialog/exploredatabasechatiddelegate.h
         databasedialog/kaichatdatabaseselectchatwidget.h
         databasedialog/kaichatdatabaseselectchatwidget.cpp
+        databasedialog/kaichatdatabasemessageslistview.h
+        databasedialog/kaichatdatabasemessageslistview.cpp
+        databasedialog/kaichatdatabaseselectchatlineedit.h
+        databasedialog/kaichatdatabaseselectchatlineedit.cpp
 )
 
 if(USE_MCP_SERVER_SUPPORT)

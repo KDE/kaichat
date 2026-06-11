@@ -8,3 +8,5 @@ macro(add_kaichat_widgets_unittest _source)
         LINK_LIBRARIES Qt::Test libkaichatwidgets
     )
 endmacro()
+
+add_kaichat_widgets_unittest(kaichatdatabaseselectchatlineedittest.cpp)

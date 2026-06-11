@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #pragma once
-
+#include "libkaichatwidgets_private_export.h"
 #include <QLineEdit>
 
-class KAIChatDatabaseSelectChatLineEdit : public QLineEdit
+class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public QLineEdit
 {
     Q_OBJECT
 public:
