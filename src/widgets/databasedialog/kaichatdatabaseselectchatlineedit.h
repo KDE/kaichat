@@ -16,4 +16,7 @@ public:
 
 Q_SIGNALS:
     void selectChatId(const QByteArray &chatId);
+
+private:
+    QByteArray mChatIdSelected;
 };
