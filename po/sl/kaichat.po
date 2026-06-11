@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:47+0000\n"
+"POT-Creation-Date: 2026-06-11 00:47+0000\n"
 "PO-Revision-Date: 2026-05-29 06:29+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -381,22 +381,29 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "Zbirka podatkov za odpravljanje napak"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
 msgstr "Klepet"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, kde-format
 msgid "Messages"
 msgstr "Sporočila"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
+msgid "Messages in Database"
+msgstr "Išči v podatkovni zbirki…"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
 msgid "Messages JSON"
 msgstr "Sporočila JSON"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, kde-format
 msgid "Pending Typed Info"
 msgstr "Čakajoče vnesene informacije"

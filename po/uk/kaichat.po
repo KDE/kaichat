@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:47+0000\n"
+"POT-Creation-Date: 2026-06-11 00:47+0000\n"
 "PO-Revision-Date: 2026-05-29 19:14+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -381,22 +381,29 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "Діагностика бази даних"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
 msgstr "Спілкування"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, kde-format
 msgid "Messages"
 msgstr "Повідомлення"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
+msgid "Messages in Database"
+msgstr "Шукати у базі даних…"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
 msgid "Messages JSON"
 msgstr "JOSN повідомлень"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, kde-format
 msgid "Pending Typed Info"
 msgstr "Дані щодо черги введення"

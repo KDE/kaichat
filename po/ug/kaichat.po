@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:47+0000\n"
+"POT-Creation-Date: 2026-06-11 00:47+0000\n"
 "PO-Revision-Date: 2026-05-30 16:42-0400\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -383,22 +383,29 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
 msgstr "سۆھبەت"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, kde-format
 msgid "Messages"
 msgstr "ئۇچۇرلار"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
+msgid "Messages in Database"
+msgstr "سانداندىن ئىزدە…"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
 msgid "Messages JSON"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, kde-format
 msgid "Pending Typed Info"
 msgstr ""

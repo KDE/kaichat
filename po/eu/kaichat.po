@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-02 00:47+0000\n"
+"POT-Creation-Date: 2026-06-11 00:47+0000\n"
 "PO-Revision-Date: 2026-03-29 21:00+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -389,25 +389,32 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:34
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, fuzzy, kde-format
 #| msgid "KAIChat"
 msgid "Chat"
 msgstr "KAIChat"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:37
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, fuzzy, kde-format
 #| msgid "Message"
 msgid "Messages"
 msgstr "Mezua"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:40
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
+msgid "Messages in Database"
+msgstr "Bilatu datu-basean…"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, fuzzy, kde-format
 #| msgid "Message"
 msgid "Messages JSON"
 msgstr "Mezua"
 
-#: widgets/databasedialog/kaichatdatabasewidget.cpp:43
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, fuzzy, kde-format
 #| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
