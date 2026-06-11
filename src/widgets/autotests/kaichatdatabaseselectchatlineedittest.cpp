@@ -18,3 +18,5 @@ void KAIChatDatabaseSelectChatLineEditTest::shouldHaveDefaultValues()
     const KAIChatDatabaseSelectChatLineEdit w;
     QVERIFY(w.isClearButtonEnabled());
 }
+
+#include "moc_kaichatdatabaseselectchatlineedittest.cpp"
