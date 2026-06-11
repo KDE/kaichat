@@ -11,7 +11,27 @@ KAIChatDatabaseSelectChatLineEdit::KAIChatDatabaseSelectChatLineEdit(QWidget *pa
 {
     setClearButtonEnabled(true);
     setPlaceholderText(i18nc("@info:placeholder", "Select Chat Name"));
+    connect(this, &QLineEdit::returnPressed, this, &KAIChatDatabaseSelectChatLineEdit::slotSelectChatId);
 }
 
 KAIChatDatabaseSelectChatLineEdit::~KAIChatDatabaseSelectChatLineEdit() = default;
+
+QByteArray KAIChatDatabaseSelectChatLineEdit::chatIdSelected() const
+{
+    return mChatIdSelected;
+}
+
+void KAIChatDatabaseSelectChatLineEdit::setChatIdSelected(const QByteArray &newChatIdSelected)
+{
+    mChatIdSelected = newChatIdSelected;
+}
+
+void KAIChatDatabaseSelectChatLineEdit::slotSelectChatId()
+{
+    if (!mChatIdSelected.isEmpty()) {
+        Q_EMIT selectChatId(mChatIdSelected);
+    }
+    // TODO
+}
+
 #include "moc_kaichatdatabaseselectchatlineedit.cpp"

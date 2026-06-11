@@ -14,9 +14,13 @@ public:
     explicit KAIChatDatabaseSelectChatLineEdit(QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatLineEdit() override;
 
+    [[nodiscard]] QByteArray chatIdSelected() const;
+    void setChatIdSelected(const QByteArray &newChatIdSelected);
+
 Q_SIGNALS:
     void selectChatId(const QByteArray &chatId);
 
 private:
+    void slotSelectChatId();
     QByteArray mChatIdSelected;
 };
