@@ -5,16 +5,21 @@
  */
 #include "kaichatdatabaseselectchatwidget.h"
 #include "databasedialog/kaichatdatabasemessageslistview.h"
+#include "databasedialog/kaichatdatabaseselectchatlineedit.h"
 #include <QVBoxLayout>
 
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseSelectChatWidget::KAIChatDatabaseSelectChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mMessagesListView(new KAIChatDatabaseMessagesListView(manager, this))
+    , mLineEdit(new KAIChatDatabaseSelectChatLineEdit(this))
 {
     auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
     mainLayout->setContentsMargins({});
+
+    mLineEdit->setObjectName(u"mLineEdit"_s);
+    mainLayout->addWidget(mLineEdit);
 
     mMessagesListView->setObjectName(u"mMessagesListView"_s);
     mainLayout->addWidget(mMessagesListView);

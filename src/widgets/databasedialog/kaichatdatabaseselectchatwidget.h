@@ -7,6 +7,7 @@
 
 #include <QWidget>
 class KAIChatDatabaseMessagesListView;
+class KAIChatDatabaseSelectChatLineEdit;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -20,4 +21,5 @@ public:
 
 private:
     KAIChatDatabaseMessagesListView *const mMessagesListView;
+    KAIChatDatabaseSelectChatLineEdit *const mLineEdit;
 };
