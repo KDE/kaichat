@@ -151,3 +151,7 @@ install(
     LIBRARY
         NAMELINK_SKIP
 )
+
+if(BUILD_TESTING)
+    add_subdirectory(autotests)
+endif()
