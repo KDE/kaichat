@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-11 00:47+0000\n"
+"POT-Creation-Date: 2026-06-12 00:47+0000\n"
 "PO-Revision-Date: 2026-05-26 21:47+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -379,6 +379,13 @@ msgstr "검색…"
 msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "디버그 데이터베이스"
+
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgctxt "@info:placeholder"
+msgid "Select Chat Name"
+msgstr "대화 이름"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format

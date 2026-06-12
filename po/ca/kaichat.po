@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-11 00:47+0000\n"
-"PO-Revision-Date: 2026-05-29 10:27+0200\n"
+"POT-Creation-Date: 2026-06-12 00:47+0000\n"
+"PO-Revision-Date: 2026-06-11 08:51+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -382,6 +382,13 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "Depura la base de dades"
 
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgctxt "@info:placeholder"
+msgid "Select Chat Name"
+msgstr "Nom del xat"
+
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
@@ -393,11 +400,9 @@ msgid "Messages"
 msgstr "Missatges"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Cerca a la base de dades…"
+msgstr "Missatges a la base de dades"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
