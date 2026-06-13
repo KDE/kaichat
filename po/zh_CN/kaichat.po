@@ -381,11 +381,10 @@ msgid "Debug Database"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "聊天名称"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
