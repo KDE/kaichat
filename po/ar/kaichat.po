@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-12 00:47+0000\n"
-"PO-Revision-Date: 2026-06-05 14:04+0400\n"
+"PO-Revision-Date: 2026-06-13 19:37+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -382,11 +382,10 @@ msgid "Debug Database"
 msgstr "قاعدة بيانات التنقيح"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "اسم الدردشة"
+msgstr "اختر اسم الدردشة"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
@@ -399,11 +398,9 @@ msgid "Messages"
 msgstr "الرسائل"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "البحث في قاعدة البيانات…"
+msgstr "الرسائل في قاعدة البيانات"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
