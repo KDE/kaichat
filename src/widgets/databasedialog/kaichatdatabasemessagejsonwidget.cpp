@@ -25,10 +25,10 @@ KAIChatDatabaseMessageJsonWidget::KAIChatDatabaseMessageJsonWidget(TextAutoGener
 
 KAIChatDatabaseMessageJsonWidget::~KAIChatDatabaseMessageJsonWidget() = default;
 
-void KAIChatDatabaseMessageJsonWidget::setJson(const QByteArray &chatId)
+void KAIChatDatabaseMessageJsonWidget::loadJsonMessages(const QString &chatId)
 {
     if (mManager) {
-        const auto messages = mManager->databaseManager()->messagesDatabase()->loadMessages(QString::fromLatin1(chatId));
+        const auto messages = mManager->databaseManager()->messagesDatabase()->loadMessages(chatId);
         QByteArray str;
         for (const auto &m : messages) {
             str += TextAutoGenerateText::TextAutoGenerateMessage::serialize(m, false);

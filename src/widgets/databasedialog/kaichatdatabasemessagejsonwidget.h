@@ -18,7 +18,7 @@ public:
     explicit KAIChatDatabaseMessageJsonWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseMessageJsonWidget() override;
 
-    void setJson(const QByteArray &chatId);
+    void loadJsonMessages(const QString &chatId);
 
 private:
     JsonPlainTextEditWidget *const mJsonPlainTextEditWidget;

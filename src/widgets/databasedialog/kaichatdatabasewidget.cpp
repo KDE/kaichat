@@ -54,8 +54,10 @@ KAIChatDatabaseWidget::~KAIChatDatabaseWidget() = default;
 
 void KAIChatDatabaseWidget::loadMessagesFromChatId(const QByteArray &chatId)
 {
-    mDatabaseMessagesWidget->loadMessagesFromChatId(QString::fromLatin1(chatId));
-    mDatabaseMessageJsonWidget->setJson(chatId);
+    const QString chatIdStr = QString::fromLatin1(chatId);
+    mDatabaseMessagesWidget->loadMessagesFromChatId(chatIdStr);
+    mDatabaseMessageJsonWidget->loadJsonMessages(chatIdStr);
+    mDatabaseSelectChatWidget->loadMessages(chatIdStr);
 }
 
 #include "moc_kaichatdatabasewidget.cpp"
