@@ -118,6 +118,8 @@
     <release version="0.8.0" type="snapshot">
       <description>
         <ul>
+          <li>Add fork discussion support</li>
+          <li>Add llamacpp instance</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
           <li xml:lang="ca">Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
