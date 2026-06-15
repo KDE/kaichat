@@ -33,7 +33,7 @@ void KAIChatDatabaseMessageJsonWidget::loadJsonMessages(const QString &chatId)
         for (const auto &m : messages) {
             str += TextAutoGenerateText::TextAutoGenerateMessage::serialize(m, false);
         }
-        mJsonPlainTextEditWidget->setPlainText(QString::fromLatin1(str));
+        mJsonPlainTextEditWidget->setPlainText(QString::fromUtf8(str));
     }
 }
 
