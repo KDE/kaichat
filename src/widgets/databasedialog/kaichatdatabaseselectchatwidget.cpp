@@ -37,9 +37,7 @@ void KAIChatDatabaseSelectChatWidget::loadMessages(const QString &chatId)
 {
     if (mManager) {
         const auto messages = mManager->databaseManager()->messagesDatabase()->loadMessages(chatId);
-        Q_UNUSED(messages);
-        // TODO
-        // mMessagesListView->model()->
+        mMessagesListView->setMessages(messages);
     }
 }
 
