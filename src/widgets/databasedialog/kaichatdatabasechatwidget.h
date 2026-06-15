@@ -23,5 +23,6 @@ Q_SIGNALS:
     void showMessageFromChatIdRequested(const QByteArray &chatId);
 
 private:
+    void slotShowContextMenu(const QPoint &pos);
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
