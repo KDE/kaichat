@@ -7,15 +7,20 @@
 
 #include <QWidget>
 class JsonPlainTextEditWidget;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatDatabaseMessageJsonWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseMessageJsonWidget(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseMessageJsonWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseMessageJsonWidget() override;
 
-    void setJson(const QString &json);
+    void setJson(const QByteArray &chatId);
 
 private:
     JsonPlainTextEditWidget *const mJsonPlainTextEditWidget;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };

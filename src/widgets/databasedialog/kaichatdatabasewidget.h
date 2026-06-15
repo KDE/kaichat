@@ -25,7 +25,7 @@ public:
     ~KAIChatDatabaseWidget() override;
 
 private:
-    void loadMessageFromChatId(const QByteArray &chatId);
+    void loadMessagesFromChatId(const QByteArray &chatId);
     QTabWidget *const mTabWidget;
     KAIChatDatabaseChatWidget *const mDatabaseChatWidget;
     KAIChatDatabaseChatPendingTypedInfoWidget *const mDatabaseChatPendingTypedInfoWidget;

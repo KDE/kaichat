@@ -20,7 +20,7 @@ KAIChatDatabaseMessagesWidget::KAIChatDatabaseMessagesWidget(TextAutoGenerateTex
 
 KAIChatDatabaseMessagesWidget::~KAIChatDatabaseMessagesWidget() = default;
 
-void KAIChatDatabaseMessagesWidget::loadMessageFromChatId(const QString &chatId)
+void KAIChatDatabaseMessagesWidget::loadMessagesFromChatId(const QString &chatId)
 {
     if (mManager) {
         mModel = mManager->databaseManager()->messagesDatabase()->createMessageModel(chatId);

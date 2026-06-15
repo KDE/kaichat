@@ -44,7 +44,12 @@ void KAIChatDatabaseChatWidget::slotShowContextMenu(const QPoint &pos)
 
     QMenu menu(this);
     auto selectChat = new QAction(i18nc("@action", "Select Chat"), &menu);
-    connect(selectChat, &QAction::triggered, this, [this, qmi]() { });
+    connect(selectChat, &QAction::triggered, this, [this, qmi]() {
+        const QModelIndex chatIdModelIndex = mModel->index(qmi.row(), 0);
+        const QByteArray chatId = chatIdModelIndex.data().toByteArray();
+        // qDebug() << " chatId  " << chatId;
+        Q_EMIT showMessageFromChatIdRequested(chatId);
+    });
     menu.addAction(selectChat);
     menu.exec(mTableView->viewport()->mapToGlobal(pos));
 }

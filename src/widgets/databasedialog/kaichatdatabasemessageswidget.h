@@ -19,7 +19,7 @@ public:
     explicit KAIChatDatabaseMessagesWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseMessagesWidget() override;
 
-    void loadMessageFromChatId(const QString &chatId);
+    void loadMessagesFromChatId(const QString &chatId);
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;

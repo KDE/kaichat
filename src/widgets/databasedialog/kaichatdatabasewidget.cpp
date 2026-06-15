@@ -21,7 +21,7 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
     , mDatabaseChatWidget(new KAIChatDatabaseChatWidget(manager, this))
     , mDatabaseChatPendingTypedInfoWidget(new KAIChatDatabaseChatPendingTypedInfoWidget(manager, this))
     , mDatabaseMessagesWidget(new KAIChatDatabaseMessagesWidget(manager, this))
-    , mDatabaseMessageJsonWidget(new KAIChatDatabaseMessageJsonWidget(this))
+    , mDatabaseMessageJsonWidget(new KAIChatDatabaseMessageJsonWidget(manager, this))
     , mDatabaseSelectChatWidget(new KAIChatDatabaseSelectChatWidget(manager, this))
 {
     auto mainLayout = new QVBoxLayout(this);
@@ -46,15 +46,16 @@ KAIChatDatabaseWidget::KAIChatDatabaseWidget(TextAutoGenerateText::TextAutoGener
 
     mDatabaseChatPendingTypedInfoWidget->setObjectName("mDatabaseChatPendingTypedInfoWidget"_L1);
     mTabWidget->addTab(mDatabaseChatPendingTypedInfoWidget, i18n("Pending Typed Info"));
-    connect(mDatabaseChatWidget, &KAIChatDatabaseChatWidget::showMessageFromChatIdRequested, this, &KAIChatDatabaseWidget::loadMessageFromChatId);
-    connect(mDatabaseSelectChatWidget, &KAIChatDatabaseSelectChatWidget::selectChatId, this, &KAIChatDatabaseWidget::loadMessageFromChatId);
+    connect(mDatabaseChatWidget, &KAIChatDatabaseChatWidget::showMessageFromChatIdRequested, this, &KAIChatDatabaseWidget::loadMessagesFromChatId);
+    connect(mDatabaseSelectChatWidget, &KAIChatDatabaseSelectChatWidget::selectChatId, this, &KAIChatDatabaseWidget::loadMessagesFromChatId);
 }
 
 KAIChatDatabaseWidget::~KAIChatDatabaseWidget() = default;
 
-void KAIChatDatabaseWidget::loadMessageFromChatId(const QByteArray &chatId)
+void KAIChatDatabaseWidget::loadMessagesFromChatId(const QByteArray &chatId)
 {
-    mDatabaseMessagesWidget->loadMessageFromChatId(QString::fromLatin1(chatId));
+    mDatabaseMessagesWidget->loadMessagesFromChatId(QString::fromLatin1(chatId));
+    mDatabaseMessageJsonWidget->setJson(chatId);
 }
 
 #include "moc_kaichatdatabasewidget.cpp"
