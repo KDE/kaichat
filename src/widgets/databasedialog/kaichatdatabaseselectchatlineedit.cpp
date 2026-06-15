@@ -31,7 +31,6 @@ void KAIChatDatabaseSelectChatLineEdit::slotSelectChatId()
     if (!mChatIdSelected.isEmpty()) {
         Q_EMIT selectChatId(mChatIdSelected);
     }
-    // TODO
 }
 
 #include "moc_kaichatdatabaseselectchatlineedit.cpp"
