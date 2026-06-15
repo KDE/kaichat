@@ -6,9 +6,9 @@
 #include "kaichatdatabasemessagejsonwidget.h"
 #include "databasedialog/jsonplaintexteditwidget.h"
 #include <QVBoxLayout>
-#include <textautogeneratetext/textautogeneratelocaldatabasemanager.h>
-#include <textautogeneratetext/textautogeneratelocalmessagesdatabase.h>
-#include <textautogeneratetext/textautogeneratemanager.h>
+#include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
+#include <TextAutoGenerateText/TextAutoGenerateLocalMessagesDatabase>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseMessageJsonWidget::KAIChatDatabaseMessageJsonWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}

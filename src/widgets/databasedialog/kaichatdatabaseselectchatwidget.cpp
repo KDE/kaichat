@@ -7,9 +7,9 @@
 #include "databasedialog/kaichatdatabasemessageslistview.h"
 #include "databasedialog/kaichatdatabaseselectchatlineedit.h"
 #include <QVBoxLayout>
-#include <textautogeneratetext/textautogeneratelocaldatabasemanager.h>
-#include <textautogeneratetext/textautogeneratelocalmessagesdatabase.h>
-#include <textautogeneratetext/textautogeneratemanager.h>
+#include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
+#include <TextAutoGenerateText/TextAutoGenerateLocalMessagesDatabase>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
 using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseSelectChatWidget::KAIChatDatabaseSelectChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
