@@ -5,7 +5,6 @@
  */
 
 #include "kaichatmainwindow.h"
-#include "config-kaichat.h"
 
 #include "kaichat_widget_debug.h"
 #include "kaichatimportmenu.h"

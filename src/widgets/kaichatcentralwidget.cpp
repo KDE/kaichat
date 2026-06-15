@@ -5,9 +5,7 @@
  */
 
 #include "kaichatcentralwidget.h"
-#include "config-kaichat.h"
 #include "kaichatglobalconfig.h"
-#include <KAboutData>
 #include <QVBoxLayout>
 #include <TextAddonsWidgets/NeedUpdateVersionWidget>
 #include <TextAddonsWidgets/WhatsNewMessageNgWidget>
