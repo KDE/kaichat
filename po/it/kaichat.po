@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-12 00:47+0000\n"
-"PO-Revision-Date: 2026-05-23 07:59+0200\n"
+"PO-Revision-Date: 2026-06-12 17:12+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.04.1\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -382,11 +382,10 @@ msgid "Debug Database"
 msgstr "Debug del database"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Nome chat"
+msgstr "Seleziona il nome della chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
@@ -399,11 +398,9 @@ msgid "Messages"
 msgstr "Messaggi"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Cerca nella banca dati…"
+msgstr "Messaggi nella banca dati"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
