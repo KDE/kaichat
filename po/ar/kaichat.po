@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-12 00:47+0000\n"
+"POT-Creation-Date: 2026-06-16 00:48+0000\n"
 "PO-Revision-Date: 2026-06-13 19:37+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -375,6 +375,14 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "ابحث…"
 
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#, fuzzy, kde-format
+#| msgctxt "@info:placeholder"
+#| msgid "Select Chat Name"
+msgctxt "@action"
+msgid "Select Chat"
+msgstr "اختر اسم الدردشة"
+
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
@@ -481,7 +489,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "استورد بصيغة JSON…"
 
-#: widgets/kaichatmainwindow.cpp:89
+#: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -492,60 +500,60 @@ msgstr[3] "عُثِر على %1 سلاسل."
 msgstr[4] "عُثِر على %1 سلسلة."
 msgstr[5] "عُثِر على %1 سلسلة."
 
-#: widgets/kaichatmainwindow.cpp:139
+#: widgets/kaichatmainwindow.cpp:138
 #, kde-format
 msgid "What's new"
 msgstr "ما الجديد"
 
-#: widgets/kaichatmainwindow.cpp:143
+#: widgets/kaichatmainwindow.cpp:142
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "أَرِشِف"
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "البحث في قاعدة البيانات…"
 
-#: widgets/kaichatmainwindow.cpp:195
+#: widgets/kaichatmainwindow.cpp:194
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "اِفتح السؤال السريع…"
 
-#: widgets/kaichatmainwindow.cpp:312
+#: widgets/kaichatmainwindow.cpp:311
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>سيُخفِي هذا شريط القوائم كُليًّا. أَظهِره مُجدَّدًا بِطِباعَة %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:315
+#: widgets/kaichatmainwindow.cpp:314
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "أَخفِ شريط القوائم"
 
-#: widgets/kaichatmainwindow.cpp:351
+#: widgets/kaichatmainwindow.cpp:350
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "استورد دردشات"
 
-#: widgets/kaichatmainwindow.cpp:364
+#: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "صَدِّر الدردشات"
 
-#: widgets/kaichatmainwindow.cpp:468
+#: widgets/kaichatmainwindow.cpp:467
 #, kde-format
 msgid "Model Download Done"
 msgstr "نَزِّل النموذج"
 
-#: widgets/kaichatmainwindow.cpp:469
+#: widgets/kaichatmainwindow.cpp:468
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "نموذج %1 مُنزّل."
