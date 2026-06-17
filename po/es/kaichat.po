@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-16 00:48+0000\n"
-"PO-Revision-Date: 2026-06-12 14:11+0100\n"
+"PO-Revision-Date: 2026-06-16 15:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -378,12 +378,10 @@ msgid "Search…"
 msgstr "Buscar…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:placeholder"
-#| msgid "Select Chat Name"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Seleccione nombre de la conversación"
+msgstr "Seleccionar conversación"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
