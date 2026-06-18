@@ -375,12 +375,10 @@ msgid "Search…"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "切换到聊天模式"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
