@@ -119,7 +119,23 @@
       <description>
         <ul>
           <li>Add fork discussion support</li>
+          <li xml:lang="ca">Afegeix la implementació de bifurcació de debat</li>
+          <li xml:lang="ca-valencia">Afig la implementació de bifurcació de debat</li>
+          <li xml:lang="es">Añadir compatibilidad con bifurcación de discusiones.</li>
+          <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
+          <li xml:lang="nl">Ondersteuning voor Markdown toevoegen.</li>
+          <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
+          <li xml:lang="sl">Doda razcepitev podpore debate</li>
+          <li xml:lang="tr">Tartışma çatallama desteği</li>
           <li>Add llamacpp instance</li>
+          <li xml:lang="ca">Afegeix una instància «llamacpp»</li>
+          <li xml:lang="ca-valencia">Afig una instància «llamacpp»</li>
+          <li xml:lang="es">Añadir instancia de llamacpp.</li>
+          <li xml:lang="ka">დაემატა llamacpp-ის გაშვებული ასლების მხარდაჭერა</li>
+          <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
+          <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
+          <li xml:lang="sl">Doda pojavek llamacpp</li>
+          <li xml:lang="tr">llamacpp örneği desteği</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
           <li xml:lang="ca">Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
