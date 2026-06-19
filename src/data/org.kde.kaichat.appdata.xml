@@ -127,6 +127,7 @@
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
           <li xml:lang="sl">Doda razcepitev podpore debate</li>
           <li xml:lang="tr">Tartışma çatallama desteği</li>
+          <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
           <li>Add llamacpp instance</li>
           <li xml:lang="ca">Afegeix una instància «llamacpp»</li>
           <li xml:lang="ca-valencia">Afig una instància «llamacpp»</li>
@@ -136,6 +137,7 @@
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
           <li xml:lang="sl">Doda pojavek llamacpp</li>
           <li xml:lang="tr">llamacpp örneği desteği</li>
+          <li xml:lang="uk">Додано екземпляр llamacpp</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
           <li xml:lang="ca">Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
