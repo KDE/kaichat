@@ -1,36 +1,37 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 # SPDX-FileCopyrightText: 2025 Vit Pelcak <vit@pelcak.org>
+# SPDX-FileCopyrightText: 2026 Libor Filípek <libor.filipek@gmail.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-06-16 00:48+0000\n"
-"PO-Revision-Date: 2025-12-15 13:55+0100\n"
-"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"PO-Revision-Date: 2026-06-21 23:08+0200\n"
+"Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Vít Pelčák"
+msgstr "Vít Pelčák,Libor Filípek"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "vit@pelcak.org"
+msgstr "vit@pelcak.org,libor.filipek@gmail.com"
 
 #: apps/main.cpp:75
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr ""
+msgstr "Autorská práva © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:79
 #, kde-format
@@ -46,12 +47,12 @@ msgstr "Správce"
 #: apps/main.cpp:107
 #, kde-format
 msgid "The following instances are available:"
-msgstr ""
+msgstr "K dispozici jsou následující instance:"
 
 #: apps/main.cpp:120
 #, kde-format
 msgid "List of Chats:"
-msgstr ""
+msgstr "Seznam konverzací:"
 
 #: apps/main.cpp:133
 #, kde-format
@@ -62,13 +63,13 @@ msgstr "Moduly:"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
-msgstr ""
+msgstr "Zobrazit seznamy instancí"
 
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start with specific instance"
-msgstr ""
+msgstr "Začít s konkrétní instancí"
 
 #: core/kaichatcommandlineparser.cpp:25
 #, kde-format
@@ -79,46 +80,46 @@ msgstr "Název instance"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr ""
+msgstr "Vytvořit novou konverzaci"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr ""
+msgstr "Nový název konverzace"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr ""
+msgstr "Otevřít rychlý dotaz"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr ""
+msgstr "Přepnout na konverzaci"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr ""
+msgstr "Název konverzace"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr ""
+msgstr "Přepnout na konverzaci z identifikátoru"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
-msgstr ""
+msgstr "Identifikátor konverzace"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr ""
+msgstr "Zpráva s dotazem"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -129,30 +130,30 @@ msgstr "Zpráva"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
-msgstr ""
+msgstr "Zobrazit seznamy konverzací"
 
 #: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr ""
+msgstr "Zapnout ladicí režim"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
-msgstr ""
+msgstr "Přidejte přílohu. Tento krok lze opakovat"
 
 #: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
-msgstr ""
+msgstr "Url přílohy"
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
-msgstr ""
+msgstr "Uveďte použitý nástroj. Toto lze zopakovat"
 
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
@@ -163,7 +164,7 @@ msgstr "Název nástroje"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr ""
+msgstr "Zobrazit informace o modulech"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
@@ -172,11 +173,10 @@ msgid "Lists the available options for user feedback"
 msgstr "Seznam dostupných voleb pro uživatelskou zpětnou vazbu"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgid "Import"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Importovat"
+msgstr "Importovat konverzaci"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
@@ -187,7 +187,7 @@ msgstr "Importovat"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr ""
+msgstr "Spustit program Ollama"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -221,7 +221,7 @@ msgstr "Nástroj"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -229,15 +229,14 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgid "Instance Name"
+#, kde-format
 msgid "Instances"
-msgstr "Název instance"
+msgstr "Instance"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP server"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -261,27 +260,27 @@ msgstr "<qt>Nový požadavek naleznete na:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
 msgid "The Current Date Time"
-msgstr ""
+msgstr "Aktuální datum a čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
-msgstr ""
+msgstr "Zjistit aktuální datum a čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr ""
+msgstr "Tento nástroj použijte k získání aktuálního data a času"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr ""
+msgstr "Nastavení nástroje pro datum a čas"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr ""
+msgstr "Zjistit aktuální datum a čas."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
@@ -291,18 +290,18 @@ msgstr "Aktuální čas je %1"
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
-msgstr ""
+msgstr "Aktuální datum je %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
-msgstr ""
+msgstr "Aktuální datum a čas je %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Text To Speech"
-msgstr ""
+msgstr "Zapnout funkci převodu textu na řeč"
 
 #: widgets/configure/kaichatconfigurefontwidget.cpp:19
 #, kde-format
@@ -320,7 +319,7 @@ msgstr "Povolit ikonu v systémové části panelu"
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
-msgstr ""
+msgstr "Nastavení KAIChatu"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:53
 #, kde-format
@@ -338,13 +337,13 @@ msgstr "Písmo"
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
-msgstr ""
+msgstr "Instance"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:69
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP server"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -380,24 +379,24 @@ msgstr "Hledat…"
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr ""
+msgstr "Vybrat konverzaci"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Databáze ladění"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:13
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr ""
+msgstr "Vyberte název konverzace"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
-msgstr "Rozhovor"
+msgstr "Konverzace"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, kde-format
@@ -407,18 +406,17 @@ msgstr "Zprávy"
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
 #, kde-format
 msgid "Messages in Database"
-msgstr ""
+msgstr "Zprávy v databázi"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Messages"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Zprávy"
+msgstr "Zprávy JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, kde-format
 msgid "Pending Typed Info"
-msgstr ""
+msgstr "Čekající typové informace"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -447,57 +445,55 @@ msgstr "Exportovat…"
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr ""
+msgstr "Exportovat jako JSON…"
 
 #: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "Json File"
-msgstr ""
+msgstr "Soubor json"
 
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr ""
+msgstr "Exportovat jako Markdown…"
 
 #: widgets/kaichatexportmenu.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr ""
+msgstr "Exportovat jako text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exportovat…"
+msgstr "Exportovat jako PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgid "Import"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Importovat"
+msgstr "Importovat…"
 
 #: widgets/kaichatimportmenu.cpp:16
 #, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr ""
+msgstr "Importovat jako JSON…"
 
 #: widgets/kaichatmainwindow.cpp:88
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nalezen %1 řetězec."
+msgstr[1] "Nalezeny %1 řetězce."
+msgstr[2] "Nalezeno %1 řetězců."
 
 #: widgets/kaichatmainwindow.cpp:138
 #, kde-format
@@ -508,19 +504,19 @@ msgstr "Co je nového"
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
-msgstr ""
+msgstr "Zobrazit archiv"
 
 #: widgets/kaichatmainwindow.cpp:156
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr ""
+msgstr "Vyhledat v databázi…"
 
 #: widgets/kaichatmainwindow.cpp:194
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr ""
+msgstr "Otevřít rychlý dotaz…"
 
 #: widgets/kaichatmainwindow.cpp:311
 #, kde-format
@@ -538,17 +534,16 @@ msgid "Hide menu bar"
 msgstr "Skrýt nabídku"
 
 #: widgets/kaichatmainwindow.cpp:350
-#, fuzzy, kde-format
-#| msgid "Import"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Importovat"
+msgstr "Importovat konverzace"
 
 #: widgets/kaichatmainwindow.cpp:363
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr ""
+msgstr "Exportovat konverzace"
 
 #: widgets/kaichatmainwindow.cpp:467
 #, kde-format
@@ -556,10 +551,9 @@ msgid "Model Download Done"
 msgstr "Stahování modelu bylo dokončeno"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model Download Done"
+#, kde-format
 msgid "Model %1 was downloaded."
-msgstr "Stahování modelu bylo dokončeno"
+msgstr "Model %1 byl stažen."
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -610,21 +604,21 @@ msgstr "Informace o účtu"
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr "Vrátit číslo účtu."
+msgstr "Zobrazit číslo účtu."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
+msgstr "Povolit export textu v modulech pro automatické generování v editoru."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Přidat nový widget „Co je nového“."
+msgstr "Přidán nový widget \"Co je nového\"."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr ""
+msgstr "Nový modul: zobrazení velikosti sbírky."
 
 #~ msgid "AI Chat"
 #~ msgstr "Rozhovor s AI"
