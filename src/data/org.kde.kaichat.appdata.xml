@@ -41,7 +41,7 @@
   <summary xml:lang="ar">دردشة للذكاء الاصطناعي</summary>
   <summary xml:lang="ca">Xat d'IA</summary>
   <summary xml:lang="ca-valencia">Xat d'IA</summary>
-  <summary xml:lang="cs">Rozhovor s AI</summary>
+  <summary xml:lang="cs">Konverzace s AI</summary>
   <summary xml:lang="de">KI-Chat</summary>
   <summary xml:lang="es">Chat con IA</summary>
   <summary xml:lang="eu">AA berriketa</summary>
@@ -72,7 +72,7 @@
     <p xml:lang="ar">كتشات عميل دردشة للذكاء الاصطناعي.</p>
     <p xml:lang="ca">KAIChat és un xat d'IA.</p>
     <p xml:lang="ca-valencia">KAIChat és un xat d'IA.</p>
-    <p xml:lang="cs">KAIChat je rozhovor s AI.</p>
+    <p xml:lang="cs">KAIChat je konverzace s AI.</p>
     <p xml:lang="de">KAIChat ist ein KI-Chat.</p>
     <p xml:lang="es">KAIChat es un chat con IA.</p>
     <p xml:lang="eu">KAIChat AA berriketa-aplikazio bat da.</p>
@@ -119,8 +119,10 @@
       <description>
         <ul>
           <li>Add fork discussion support</li>
+          <li xml:lang="ar">إضافة دعم تفريع نقاش.</li>
           <li xml:lang="ca">Afegeix la implementació de bifurcació de debat</li>
           <li xml:lang="ca-valencia">Afig la implementació de bifurcació de debat</li>
+          <li xml:lang="cs">Přidána podpora diskusí ve větvích</li>
           <li xml:lang="es">Añadir compatibilidad con bifurcación de discusiones.</li>
           <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor Markdown toevoegen.</li>
@@ -129,8 +131,10 @@
           <li xml:lang="tr">Tartışma çatallama desteği</li>
           <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
           <li>Add llamacpp instance</li>
+          <li xml:lang="ar">إضافة نسخ llamacpp.</li>
           <li xml:lang="ca">Afegeix una instància «llamacpp»</li>
           <li xml:lang="ca-valencia">Afig una instància «llamacpp»</li>
+          <li xml:lang="cs">Přidána instance llamacpp</li>
           <li xml:lang="es">Añadir instancia de llamacpp.</li>
           <li xml:lang="ka">დაემატა llamacpp-ის გაშვებული ასლების მხარდაჭერა</li>
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
@@ -142,6 +146,7 @@
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
           <li xml:lang="ca">Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="ca-valencia">Afig el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
+          <li xml:lang="cs">Přidána podpora pro ChatGPT, Novita AI, DeepInfra a Qwen.</li>
           <li xml:lang="es">Añadir compatibilidad con ChatGPT, Novita AI, DeepInfra y Qwen.</li>
           <li xml:lang="he">נוספה תמיכה ב־ChatGPT,‏ Novita AI,‏ DeepInfra ו־Qwen.</li>
           <li xml:lang="it">Aggiunge il supporto per ChatGPT, Novita AI, DeepInfra, Qwen.</li>
@@ -156,6 +161,7 @@
           <li xml:lang="ar">إضافة خيار CLI لبدء تشغيل Ollama المحلي.</li>
           <li xml:lang="ca">Afegeix una opció per a iniciar l'Ollama local.</li>
           <li xml:lang="ca-valencia">Afig una opció per a iniciar Ollama local.</li>
+          <li xml:lang="cs">Přidána možnost CLI pro spuštění lokální instance Ollamy.</li>
           <li xml:lang="es">Añadir opción de la línea de órdenes para lanzar Ollama localmente.</li>
           <li xml:lang="he">נוספה אפשרות דרך השורת הפקודות להפעיל Ollama מקומית.</li>
           <li xml:lang="it">Aggiunge l'opzione da riga di comando per avviare Ollama locale.</li>
@@ -170,6 +176,7 @@
           <li xml:lang="ar">إتاحة DBus.</li>
           <li xml:lang="ca">Afegeix la implementació del DBus.</li>
           <li xml:lang="ca-valencia">Afig la implementació de D-Bus.</li>
+          <li xml:lang="cs">Přidána podpora DBus.</li>
           <li xml:lang="es">Añadir compatibilidad con DBus.</li>
           <li xml:lang="he">נוספה תמיכה ב־DBus.</li>
           <li xml:lang="it">Aggiunge il supporto DBus.</li>
@@ -184,6 +191,7 @@
           <li xml:lang="ar">إضافة دعم المُلحقات الداخلية.</li>
           <li xml:lang="ca">Afegeix la implementació de connectors interns.</li>
           <li xml:lang="ca-valencia">Afig la implementació de connectors interns.</li>
+          <li xml:lang="cs">Přidána podpora interních modulů.</li>
           <li xml:lang="es">Añadir implementación de complementos internos.</li>
           <li xml:lang="he">נוספה תמיכה בתוספים פנימיים.</li>
           <li xml:lang="it">Aggiunge il supporto per le estensioni interne.</li>
@@ -198,6 +206,7 @@
           <li xml:lang="ar">إضافة دعم خادم MCP.</li>
           <li xml:lang="ca">Afegeix la implementació del servidor MCP.</li>
           <li xml:lang="ca-valencia">Afig la implementació del servidor MCP.</li>
+          <li xml:lang="cs">Přidána podpora serveru MCP.</li>
           <li xml:lang="es">Añadir compatibilidad con servidor MCP.</li>
           <li xml:lang="he">נוספה תמיכה בשרתי MCP.</li>
           <li xml:lang="it">Aggiunge il supporto Server MCP.</li>
@@ -212,6 +221,7 @@
           <li xml:lang="ar">أظهر بيانات تعريف الأدوات الداخلية.</li>
           <li xml:lang="ca">Mostra les metadades de les eines internes.</li>
           <li xml:lang="ca-valencia">Mostra les metadades de les eines internes.</li>
+          <li xml:lang="cs">Zobrazení metadat interních nástrojů.</li>
           <li xml:lang="es">Mostrar metadatos internos de las herramientas.</li>
           <li xml:lang="he">מוצגים נתוני על של כלים פנימיים.</li>
           <li xml:lang="it">Mostra i metadati degli strumenti interni.</li>
@@ -226,6 +236,7 @@
           <li xml:lang="ar">إتاحة KCM.</li>
           <li xml:lang="ca">Afegeix la implementació del KCM.</li>
           <li xml:lang="ca-valencia">Afig la implementació de KCM.</li>
+          <li xml:lang="cs">Přidána podpora KCM.</li>
           <li xml:lang="es">Añadir compatibilidad con KCM.</li>
           <li xml:lang="he">נוספה תמיכה ב־KCM.</li>
           <li xml:lang="it">Aggiunge il supporto KCM.</li>
@@ -240,6 +251,7 @@
           <li xml:lang="ar">أضف دعم نسخ Sarvam.</li>
           <li xml:lang="ca">Afegeix la implementació de la instància Sarvam.</li>
           <li xml:lang="ca-valencia">Afig la implementació de la instància Sarvam.</li>
+          <li xml:lang="cs">Přidána podpora instance Sarvam.</li>
           <li xml:lang="es">Añadir compatibilidad con la instancia de Sarvam.</li>
           <li xml:lang="he">נוספה תמיכה בעותקי Sarvam.</li>
           <li xml:lang="it">Aggiunge il supporto dell'istanza Sarvam.</li>
@@ -254,6 +266,7 @@
           <li xml:lang="ar">إضافة قاعدة بيانات التنقيح.</li>
           <li xml:lang="ca">Afegeix un quadre de diàleg de depuració de la base de dades.</li>
           <li xml:lang="ca-valencia">Afig un diàleg de depuració de la base de dades.</li>
+          <li xml:lang="cs">Přidáno dialogové okno pro ladění databáze.</li>
           <li xml:lang="es">Añadir diálogo de depuración de la base de datos.</li>
           <li xml:lang="he">נוספה חלונית ניפוי שגיאות במסד נתונים</li>
           <li xml:lang="it">Aggiunge la finestra di debug del database.</li>
@@ -268,6 +281,7 @@
           <li xml:lang="ar">عرض معلومات الرد حول المدة، عدد الرموز، إلخ.</li>
           <li xml:lang="ca">Mostra informació de resposta sobre la durada, nombre de segments textuals, etc.</li>
           <li xml:lang="ca-valencia">Mostra informació de resposta sobre la duració, nombre de segments textuals, etc.</li>
+          <li xml:lang="cs">Zobrazení informace o odpovědi, jako je doba trvání, počet tokenů atd.</li>
           <li xml:lang="es">Mostrar información de respuesta sobre duración, número de tókenes, etc.</li>
           <li xml:lang="he">נוספה הצגת פרטי תגובה על משך, מספר אסימונים ועוד.</li>
           <li xml:lang="it">Visualizza le informazioni di risposta relative alla durata, al numero di token, ecc.</li>
@@ -282,6 +296,7 @@
           <li xml:lang="ar">السماح بالتصدير بصيغة PDF.</li>
           <li xml:lang="ca">Permet exportar com a PDF.</li>
           <li xml:lang="ca-valencia">Permet exportar com a PDF.</li>
+          <li xml:lang="cs">Povolen export do formátu PDF.</li>
           <li xml:lang="es">Permitir exportar como PDF.</li>
           <li xml:lang="he">נוספה אפשרות לייצא כ־Pdf.</li>
           <li xml:lang="it">Consente l'esportazione in formato PDF.</li>
@@ -296,6 +311,7 @@
           <li xml:lang="ar">إتاحة LMStudio.</li>
           <li xml:lang="ca">Afegeix la implementació del LMStudio.</li>
           <li xml:lang="ca-valencia">Afig la implementació de LMStudio.</li>
+          <li xml:lang="cs">Přidána podpora pro LMStudio.</li>
           <li xml:lang="es">Añadir compatibilidad con LMStudio.</li>
           <li xml:lang="he">נוספה תמיכה ב־LMStudio.</li>
           <li xml:lang="it">Aggiunge il supporto per LMStudio</li>
@@ -316,6 +332,7 @@
           <li xml:lang="ar">إتاحة نسخة غروك.</li>
           <li xml:lang="ca">Afegeix la implementació d'instàncies Grok.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'instàncies Grok.</li>
+          <li xml:lang="cs">Přidána podpora instance Grok.</li>
           <li xml:lang="es">Se ha añadido la implementación de Grok.</li>
           <li xml:lang="he">נוספה תמיכה בעותק של Grok.</li>
           <li xml:lang="it">Aggiunge il supporto per l'istanza Grok.</li>
@@ -330,6 +347,7 @@
           <li xml:lang="ar">إضافة تعليقات المستخدمين.</li>
           <li xml:lang="ca">Afegeix la implementació dels comentaris de l'usuari.</li>
           <li xml:lang="ca-valencia">Afig la implementació dels comentaris de l'usuari.</li>
+          <li xml:lang="cs">Přidána podpora zpětné vazby od uživatelů.</li>
           <li xml:lang="es">Añadir compatibilidad con comentarios del usuario.</li>
           <li xml:lang="he">נוספה תמיכה במשוב משתמש.</li>
           <li xml:lang="it">Aggiunge il supporto per le segnalazioni degli utenti.</li>
@@ -344,6 +362,7 @@
           <li xml:lang="ar">اسمح بعرض معلومات النموذج.</li>
           <li xml:lang="ca">Permet mostrar la informació del model.</li>
           <li xml:lang="ca-valencia">Permet mostrar la informació del model.</li>
+          <li xml:lang="cs">Povoleno zobrazovat informace o modelu.</li>
           <li xml:lang="es">Permitir que se muestre información del modelo.</li>
           <li xml:lang="he">נוספה אפשרות להצגת פרטי המודל.</li>
           <li xml:lang="it">Consente di mostrare le informazioni sul modello.</li>
@@ -358,6 +377,7 @@
           <li xml:lang="ar">إتاحة استيراد الدردشة.</li>
           <li xml:lang="ca">Afegeix la implementació d'importació de xats.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'importació de xats.</li>
+          <li xml:lang="cs">Přidána podpora importu konverzace.</li>
           <li xml:lang="es">Se ha añadido la posibilidad de importar conversaciones.</li>
           <li xml:lang="he">נוספה תמיכה בייבוא שיחות.</li>
           <li xml:lang="it">Aggiungere il supporto per l'importazione delle chat.</li>
@@ -372,6 +392,7 @@
           <li xml:lang="ar">إضافة دعم أولاما عبر الإنترنت.</li>
           <li xml:lang="ca">Afegeix la implementació d'Ollama en línia.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'Ollama en línia.</li>
+          <li xml:lang="cs">Přidána podpora pro Ollama Online.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Online.</li>
           <li xml:lang="he">נוספה תמיכה ב־Ollama מקוונת.</li>
           <li xml:lang="it">Aggiunge il supporto per Ollama in linea.</li>
@@ -386,6 +407,7 @@
           <li xml:lang="ar">إضافة دعم سحابة أولاما.</li>
           <li xml:lang="ca">Afegeix la implementació d'Ollama Cloud.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'Ollama al núvol.</li>
+          <li xml:lang="cs">Přidána podpora pro Ollama Cloud.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Cloud.</li>
           <li xml:lang="he">נוספה תמיכה בענן Ollama.</li>
           <li xml:lang="it">Aggiunge il supporto per Ollama Cloud.</li>
@@ -400,6 +422,7 @@
           <li xml:lang="ar">اسمح بتكرار الدردشة.</li>
           <li xml:lang="ca">Permet duplicar el xat.</li>
           <li xml:lang="ca-valencia">Permet duplicar el xat.</li>
+          <li xml:lang="cs">Povoleno duplikování konverzace.</li>
           <li xml:lang="es">Permitir duplicar la conversación.</li>
           <li xml:lang="he">נוספה אפשרות לשכפול שיחה.</li>
           <li xml:lang="it">Consente di duplicare la chat.</li>
@@ -414,6 +437,7 @@
           <li xml:lang="ar">إضافة إعداد استبقاء أولاما.</li>
           <li xml:lang="ca">Afegeix la implementació del paràmetre «Keep Alive» d'Ollama.</li>
           <li xml:lang="ca-valencia">Afig la implementació del paràmetre «Keep Alive» d'Ollama.</li>
+          <li xml:lang="cs">Přidána podpora nastavení Keep Alive pro Ollamu.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con los ajustes de mantener activo Ollama.</li>
           <li xml:lang="he">נוספה תמיכה בהגדרת זמן אי־פעילות ב־Ollama מקוונת.</li>
           <li xml:lang="it">Aggiunge il supporto per l'impostazione Keep Alive di Ollama.</li>
@@ -428,6 +452,7 @@
           <li xml:lang="ar">أظهر سجل أولاما.</li>
           <li xml:lang="ca">Mostra el registre de l'Ollama.</li>
           <li xml:lang="ca-valencia">Mostra el registre d'Ollama.</li>
+          <li xml:lang="cs">Zobrazení protokolu Ollama.</li>
           <li xml:lang="es">Mostrar el registro de Ollama.</li>
           <li xml:lang="he">הצגת היומן של Ollama.</li>
           <li xml:lang="it">Mostra il registro di Ollama.</li>
@@ -442,6 +467,7 @@
           <li xml:lang="ar">اسمح بتعريض أولاما للشبكة المحلية.</li>
           <li xml:lang="ca">Permet exposar l'Ollama a la xarxa local.</li>
           <li xml:lang="ca-valencia">Permet exposar Ollama a la xarxa local.</li>
+          <li xml:lang="cs">Povoleno zpřístupnit Ollamu v místní síti.</li>
           <li xml:lang="es">Permitir la exposición de Ollama a la red local.</li>
           <li xml:lang="he">נוספה אפשרות לחשוף את Ollama לרשת המקומית.</li>
           <li xml:lang="it">Consente di esporre Ollama alla rete locale.</li>
@@ -456,6 +482,7 @@
           <li xml:lang="ar">أضف دعم التفكير.</li>
           <li xml:lang="ca">Afegeix la implementació de pensament.</li>
           <li xml:lang="ca-valencia">Afig la implementació de pensament.</li>
+          <li xml:lang="cs">Přidána podpora uvažování.</li>
           <li xml:lang="es">Se ha añadido la compatibilidad con el pensamiento.</li>
           <li xml:lang="he">נוספה תמיכה בחשיבה.</li>
           <li xml:lang="it">Aggiunge supporto al pensiero.</li>
@@ -476,6 +503,7 @@
           <li xml:lang="ar">اسمح بنسخ كتلة الرمز إلى الحافظة.</li>
           <li xml:lang="ca">Permet copiar blocs de codi al porta-retalls.</li>
           <li xml:lang="ca-valencia">Permet copiar blocs de codi al porta-retalls.</li>
+          <li xml:lang="cs">Povoleno kopírovat blok kódu do schránky.</li>
           <li xml:lang="es">Permitir copiar código de bloque al portapapeles.</li>
           <li xml:lang="he">נוספה אפשרות להעתקת קטעי קוד ללוח הגזירים.</li>
           <li xml:lang="it">Consenti di copiare il codice del blocco negli appunti.</li>
@@ -490,6 +518,7 @@
           <li xml:lang="ar">أظهر عدد السلاسل الموجودة في شريط الحالة.</li>
           <li xml:lang="ca">Mostra el nombre de cadenes trobades a la barra d'estat.</li>
           <li xml:lang="ca-valencia">Mostra el nombre de cadenes trobades a la barra d'estat.</li>
+          <li xml:lang="cs">Zobrazení počtu nalezených řetězců na stavové liště.</li>
           <li xml:lang="es">Mostrar el número de cadenas encontradas en la barra de estado.</li>
           <li xml:lang="he">הצגת כמות המחרוזות שנמצאו בשורת המצב.</li>
           <li xml:lang="it">Mostra il numero di stringhe trovate nella barra di stato.</li>
@@ -504,6 +533,7 @@
           <li xml:lang="ar">تنفيذ البحث السريع.</li>
           <li xml:lang="ca">Implementa la cerca ràpida.</li>
           <li xml:lang="ca-valencia">Implementa la busca ràpida.</li>
+          <li xml:lang="cs">Implementace rychlého hledání.</li>
           <li xml:lang="es">Implementación de la búsqueda rápida.</li>
           <li xml:lang="he">מימוש חיפוש מהיר.</li>
           <li xml:lang="it">Implementa la ricerca rapida.</li>
@@ -518,6 +548,7 @@
           <li xml:lang="ar">أَضِف شريط بحث سريع في حوار السؤال السريع.</li>
           <li xml:lang="ca">Afegeix la barra de cerca ràpida al diàleg de pregunta ràpida.</li>
           <li xml:lang="ca-valencia">Afig la barra de busca ràpida al diàleg de pregunta ràpida.</li>
+          <li xml:lang="cs">Do dialogového okna rychlého dotazu přidán panel pro rychlé vyhledávání.</li>
           <li xml:lang="es">Añadir la barra de búsqueda rápida en el diálogo de pregunta rápida.</li>
           <li xml:lang="he">נוסף סרגל חיפוש מהיר בסרגל השאלה המהירה.</li>
           <li xml:lang="it">Aggiunge una barra di ricerca rapida nella finestra di richiesta rapida.</li>
@@ -532,6 +563,7 @@
           <li xml:lang="ar">إضافة قيمة إعادة ضبط الإعدادات.</li>
           <li xml:lang="ca">Afegeix la restauració de la configuració del valor de les opcions.</li>
           <li xml:lang="ca-valencia">Afig la restauració de la configuració del valor de les opcions.</li>
+          <li xml:lang="cs">Přidána hodnota pro obnovení nastavení konfigurace.</li>
           <li xml:lang="es">Añadir valor para restaurar la configuración.</li>
           <li xml:lang="he">נוסף ערך הגדרות לשחזור תצורה.</li>
           <li xml:lang="it">Aggiunge il valore di configurazione delle impostazioni di ripristino.</li>
@@ -546,6 +578,7 @@
           <li xml:lang="ar">اِسمح بضبط نطق النص.</li>
           <li xml:lang="ca">Permet configurar el text a veu.</li>
           <li xml:lang="ca-valencia">Permet configurar el text a veu.</li>
+          <li xml:lang="cs">Umožněno nastavit funkci převodu textu na řeč.</li>
           <li xml:lang="es">Permitir la configuración de texto a voz.</li>
           <li xml:lang="he">נוספה אפשרות להגדיר הקראה.</li>
           <li xml:lang="it">Consenti di configurare la conversione da testo a voce.</li>
@@ -560,6 +593,7 @@
           <li xml:lang="ar">أضف اسم أيقونة الملحقة للأداة.</li>
           <li xml:lang="ca">Afegeix el nom d'icona del connector d'eina.</li>
           <li xml:lang="ca-valencia">Afig el nom d'icona del connector d'eina.</li>
+          <li xml:lang="cs">Přidán název ikony modulu nástroje.</li>
           <li xml:lang="es">Añadir nombre de icono de complemento.</li>
           <li xml:lang="he">נוסף שם סמל תוסף כלי.</li>
           <li xml:lang="it">Aggiungi il nome dell'icona dell'estensione.</li>
@@ -574,6 +608,7 @@
           <li xml:lang="ar">إضافة دعم المرفقات.</li>
           <li xml:lang="ca">Afegeix la implementació d'adjunts.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'adjunts.</li>
+          <li xml:lang="cs">Přidána podpora příloh.</li>
           <li xml:lang="es">Se ha añadido la implementación de adjuntar.</li>
           <li xml:lang="he">נוספה תמיכה בצירוף קבצים.</li>
           <li xml:lang="it">Aggiunge il supporto degli allegati.</li>
@@ -588,6 +623,7 @@
           <li xml:lang="ar">إضافة أيقونة جديدة.</li>
           <li xml:lang="ca">Afegeix una icona nova.</li>
           <li xml:lang="ca-valencia">Afig una icona nova.</li>
+          <li xml:lang="cs">Přidána nová ikona.</li>
           <li xml:lang="es">Añadir nuevo icono.</li>
           <li xml:lang="he">נוסף סמל חדש.</li>
           <li xml:lang="it">Aggiunge una nuova icona.</li>
@@ -602,6 +638,7 @@
           <li xml:lang="ar">إضافة سطر أوامر تنقيح.</li>
           <li xml:lang="ca">Afegeix una línia d'ordres de depuració.</li>
           <li xml:lang="ca-valencia">Afig una línia d'ordres de depuració.</li>
+          <li xml:lang="cs">Přidán příkazový řádek pro ladění.</li>
           <li xml:lang="es">Añadir línea de órdenes de depuración.</li>
           <li xml:lang="he">נוסף ניפוי שגיאות דרך שורת פקודה.</li>
           <li xml:lang="it">Aggiunge la riga di comando per il debug.</li>
@@ -616,6 +653,7 @@
           <li xml:lang="ar">إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons).</li>
           <li xml:lang="ca">Afegeix els connectors d'eines de la Viquipèdia, meteorologia (proporcionades per kaichat-addons).</li>
           <li xml:lang="ca-valencia">Afig els connectors d'eines de la Viquipèdia, meteorologia (proporcionades per kaichat-addons).</li>
+          <li xml:lang="cs">Přidány moduly pro Wikipedii a nástroje pro předpověď počasí (poskytované kaichat-addons).</li>
           <li xml:lang="es">Añadir wikipedia, complementos de herramientas meteorológicas (proporcionados por kaichat-addons).</li>
           <li xml:lang="he">נוספו תוספים לוויקיפדיה, כלי מזג אוויר (מסופקים על ידי kaichat-addons)</li>
           <li xml:lang="it">Aggiunge le estensioni per gli strumenti wikipedia, meteo (forniti da kaichat-addons).</li>
@@ -630,6 +668,7 @@
           <li xml:lang="ar">خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات.</li>
           <li xml:lang="ca">Emmagatzema la informació teclejada pendent a la base de dades.</li>
           <li xml:lang="ca-valencia">Emmagatzema la informació teclejada pendent a la base de dades.</li>
+          <li xml:lang="cs">Ukládání informace o čekajících zadáních do databáze.</li>
           <li xml:lang="es">Guardar información escrita pendiente en la base de datos.</li>
           <li xml:lang="he">אחסון נתונים ממתינים שהוקלדו למסד הנתונים.</li>
           <li xml:lang="it">Memorizza le informazioni digitate in sospeso nella banca dati.</li>
@@ -644,6 +683,7 @@
           <li xml:lang="ar">اسمح بإضافة ملفات مرفقة من سطر الأوامر.</li>
           <li xml:lang="ca">Permet afegir fitxers adjunts des de la línia d'ordres.</li>
           <li xml:lang="ca-valencia">Permet afegir fitxers adjunts des de la línia d'ordres.</li>
+          <li xml:lang="cs">Povoleno přidávat přílohy z příkazového řádku.</li>
           <li xml:lang="es">Permitir adjuntar archivos en la línea de la orden.</li>
           <li xml:lang="he">נוספה אפשרות להוסיף צרופות משורת הפקודות.</li>
           <li xml:lang="it">Consente di aggiungere allegati dalla riga di comando.</li>
@@ -658,6 +698,7 @@
           <li xml:lang="ar">أضف أيقونة لضبط نماذج أولاما</li>
           <li xml:lang="ca">Afegeix la icona a la configuració dels models Ollama.</li>
           <li xml:lang="ca-valencia">Afig la icona a la configuració dels models Ollama.</li>
+          <li xml:lang="cs">Do nastavení modelů Ollama přidána ikona.</li>
           <li xml:lang="es">Añadir icono en la configuración de modelos de Ollama.</li>
           <li xml:lang="he">נוסף סמל בהגדרת מודלים של ollama.</li>
           <li xml:lang="it">Aggiunge l'icona nella configurazione dei modelli ollama.</li>
@@ -672,6 +713,7 @@
           <li xml:lang="ar">السماح باستخدام متغيرات بيئة أولااما محددة.</li>
           <li xml:lang="ca">Permet utilitzar variables d'entorn específiques d'Ollama.</li>
           <li xml:lang="ca-valencia">Permet utilitzar variables d'entorn específiques d'Ollama.</li>
+          <li xml:lang="cs">Povoleno používat specifické proměnné prostředí Ollama.</li>
           <li xml:lang="es">Permitir el uso de variables de entorno específicas de Ollama.</li>
           <li xml:lang="he">נוספה אפשרות להשתמש במשתני סביבה מסוימים של Ollama.</li>
           <li xml:lang="it">Consentire l'uso di variabili d'ambiente specifiche di Ollama.</li>
@@ -686,6 +728,7 @@
           <li xml:lang="ar">إصلاح استدعاء محلقات متعددة الأدوات.</li>
           <li xml:lang="ca">Corregeix la crida als connectors multieines.</li>
           <li xml:lang="ca-valencia">Corregix la crida als connectors multieines.</li>
+          <li xml:lang="cs">Opraveno volání modulů pro multifunkční nástroje.</li>
           <li xml:lang="es">Corregir llamada de múltiples complementos.</li>
           <li xml:lang="he">תוקנה קריאת תוספים למגוון כלים.</li>
           <li xml:lang="it">Corregge l'invocazione delle estensioni multi-strumento.</li>
@@ -706,6 +749,7 @@
           <li xml:lang="ar">أَضِف حوار السؤال السريع.</li>
           <li xml:lang="ca">Afegeix el diàleg de pregunta ràpida.</li>
           <li xml:lang="ca-valencia">Afig el diàleg de pregunta ràpida.</li>
+          <li xml:lang="cs">Přidáno dialogové okno pro rychlý dotaz.</li>
           <li xml:lang="es">Añadir diálogo de pregunta rápida.</li>
           <li xml:lang="he">נוספה חלונית שאלה מהירה.</li>
           <li xml:lang="it">Aggiunge finestra Domanda rapida.</li>
@@ -720,6 +764,7 @@
           <li xml:lang="ar">اِسمح بتنزيل Ollama على ويندوز/ماك أو إس.</li>
           <li xml:lang="ca">Permet baixar l'Ollama en Windows/MacOs.</li>
           <li xml:lang="ca-valencia">Permet baixar Ollama en Windows/MacOs.</li>
+          <li xml:lang="cs">Umožněno stahování aplikace Ollama na Windows/MacOS.</li>
           <li xml:lang="es">Permitir la descarga de Ollama en Windows/macOS.</li>
           <li xml:lang="he">נוספה אפשרות להוריד Ollama על Windows/macOS.</li>
           <li xml:lang="it">Consente di scaricare Ollama su Windows/MacOs.</li>
@@ -734,6 +779,7 @@
           <li xml:lang="ar">اِستخدم مُوّجِّهًا أثناء الدردشة.</li>
           <li xml:lang="ca">Usa un indicador durant el xat.</li>
           <li xml:lang="ca-valencia">Utilitza un indicador durant el xat.</li>
+          <li xml:lang="cs">Použití promptů během konverzace.</li>
           <li xml:lang="es">Usar instrucciones durante la conversación.</li>
           <li xml:lang="he">נעשה שימוש בבקשה במהלך השיחה.</li>
           <li xml:lang="it">Utilizzo del prompt durante la chat.</li>
@@ -748,6 +794,7 @@
           <li xml:lang="ar">أَضِف مُلْحَق النص المُشارَك واِختصار الويب.</li>
           <li xml:lang="ca">Afegit el text compartit i el connector de dreceres web.</li>
           <li xml:lang="ca-valencia">Afegit el text compartit i el connector de dreceres web.</li>
+          <li xml:lang="cs">Přidán modul pro sdílení textu a webových odkazů.</li>
           <li xml:lang="es">Añadir el complemento de texto compartido y atajo web.</li>
           <li xml:lang="he">נוסף תוסף טקסט משותף וקיצורי דפדפן.</li>
           <li xml:lang="it">Aggiunge testo condiviso e l'estensione di collegamento web.</li>
@@ -762,6 +809,7 @@
           <li xml:lang="ar">اِسمح بضبط المُلْحَقات.</li>
           <li xml:lang="ca">Permet configurar connectors.</li>
           <li xml:lang="ca-valencia">Permet configurar connectors.</li>
+          <li xml:lang="cs">Povoleno nastavení modulů.</li>
           <li xml:lang="es">Permitir la configuración de complementos.</li>
           <li xml:lang="he">נוספה האפשרות להגדיר תוספים.</li>
           <li xml:lang="it">Consente di configurare le estensioni.</li>
@@ -776,6 +824,7 @@
           <li xml:lang="ar">أَضِف وَجيهة تحديث جديدة.</li>
           <li xml:lang="ca">Afegeix un giny nou d'actualització.</li>
           <li xml:lang="ca-valencia">Afig un giny nou d'actualització.</li>
+          <li xml:lang="cs">Přidán nový aktualizační widget.</li>
           <li xml:lang="es">Añadir nuevo elemento de actualización.</li>
           <li xml:lang="he">נוסף וידג׳ט עדכון חדש.</li>
           <li xml:lang="it">Aggiunge un nuovo oggetto di aggiornamento.</li>
@@ -790,6 +839,7 @@
           <li xml:lang="ar">أَضِف مُؤشِّر تقدُّم في قائمة الدردشات.</li>
           <li xml:lang="ca">Afegeix un indicador de progrés a la llista de xats.</li>
           <li xml:lang="ca-valencia">Afig un indicador de progrés a la llista de xats.</li>
+          <li xml:lang="cs">Do seznamu konverzace přidán indikátor průběhu.</li>
           <li xml:lang="es">Añadir indicador de avance en la lista de conversaciones.</li>
           <li xml:lang="he">נוסף מחוון התקדמות לרשימת השיחות.</li>
           <li xml:lang="it">Aggiunge un indicatore di avanzamento nell'elenco delle chat.</li>
@@ -804,6 +854,7 @@
           <li xml:lang="ar">اِسمح بتغيير حجم الخط.</li>
           <li xml:lang="ca">Permet canviar la mida de la lletra.</li>
           <li xml:lang="ca-valencia">Permet canviar la mida de la lletra.</li>
+          <li xml:lang="cs">Povoleno měnit velikost písma.</li>
           <li xml:lang="es">Permitir el cambio del tamaño del texto.</li>
           <li xml:lang="he">נוספה אפשרות לשנות גודל כתב.</li>
           <li xml:lang="it">Consente di configurare la dimensione del carattere.</li>
@@ -818,6 +869,7 @@
           <li xml:lang="ar">أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ.</li>
           <li xml:lang="ca">Afegeix una línia d'ordres per afegir una sala de xat nova, mostrant la llista d'instàncies.</li>
           <li xml:lang="ca-valencia">Afig una línia d'ordres per a afegir una sala de xat nova, mostrant la llista d'instàncies.</li>
+          <li xml:lang="cs">Přidán příkaz pro vytvoření nové místnosti a zobrazení seznamu instancí.</li>
           <li xml:lang="es">Añadir línea de órdenes para añadir nueva sala de charla, mostrando la lista de instancias.</li>
           <li xml:lang="he">נוספה פקודה לשורת הפקודות להוספת חדר שיחה חדש, שמציגה רשימת מופעים.</li>
           <li xml:lang="it">Aggiunge la riga di comando per aggiungere una nuova stanza di chat, visualizzando l'elenco delle istanze.</li>
@@ -832,6 +884,7 @@
           <li xml:lang="ar">أَضِف دعم التدقيق الإملائي.</li>
           <li xml:lang="ca">Afegeix la implementació de la verificació ortogràfica.</li>
           <li xml:lang="ca-valencia">Afig la implementació de la verificació ortogràfica.</li>
+          <li xml:lang="cs">Přidána podpora kontroly pravopisu.</li>
           <li xml:lang="es">Añadir Corrección ortográfica.</li>
           <li xml:lang="he">נוספה תמיכה בבדיקת איות.</li>
           <li xml:lang="it">Aggiunge il supporto per il controllo ortografico.</li>
@@ -846,6 +899,7 @@
           <li xml:lang="ar">أَضِف نافذة مُنبَثِقة للإشعارات عند تنزيل النموذج.</li>
           <li xml:lang="ca">Afegeix una finestra emergent de notificació quan s'ha efectuat la baixada del model.</li>
           <li xml:lang="ca-valencia">Afig una finestra emergent de notificació quan s'ha efectuat la baixada del model.</li>
+          <li xml:lang="cs">Přidáno vyskakovací okno s oznámením po dokončení stahování modelu.</li>
           <li xml:lang="es">Añadir ventana emergente de notificación cuando termine la descarga del modelo.</li>
           <li xml:lang="he">הוספת חלונית הודעה כשהורדת מודל מסתיימת.</li>
           <li xml:lang="it">Aggiunge una finestra a comparsa di notifica al termine dello scaricamento del modello.</li>
@@ -860,6 +914,7 @@
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة النص ومَوضِع شريط التمرير.</li>
           <li xml:lang="ca">Permet desar i restaurar el text i la posició de la barra de desplaçament.</li>
           <li xml:lang="ca-valencia">Permet guardar i restaurar el text i la posició de la barra de desplaçament.</li>
+          <li xml:lang="cs">Umožněno ukládat a obnovovat text a polohu posuvníku.</li>
           <li xml:lang="es">Permitir guardar y restaurar texto y posición en la barra de desplazamiento.</li>
           <li xml:lang="he">מעכשיו יש אפשרות לשמור ולשחזר את הטקסט ומקום פס הגלילה.</li>
           <li xml:lang="it">Consente di salvare e ripristinare il testo e la posizione della barra di scorrimento.</li>
@@ -874,6 +929,7 @@
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة الدردشة الحالية.</li>
           <li xml:lang="ca">Permet desar i restaurar el xat actual.</li>
           <li xml:lang="ca-valencia">Permet guardar i restaurar el xat actual.</li>
+          <li xml:lang="cs">Umožněno uložení a obnovení aktuální konverzace.</li>
           <li xml:lang="es">Permitir guardar y restaurar la conversación actual.</li>
           <li xml:lang="he">נוספה אפשרות לשמור ולשחזר את השיחה הנוכחית.</li>
           <li xml:lang="it">Consente di salvare e ripristinare la chat attuale.</li>
@@ -888,6 +944,7 @@
           <li xml:lang="ar">أَضِف خيارًا لِعَرض قائمة عناوين الدردشات.</li>
           <li xml:lang="ca">Afegeix una opció per a mostrar la llista dels títols dels xats.</li>
           <li xml:lang="ca-valencia">Afig una opció per a mostrar la llista dels títols dels xats.</li>
+          <li xml:lang="cs">Přidána možnost zobrazení seznamu konverzací podle názvu.</li>
           <li xml:lang="es">Añadir opción para mostrar la lista de títulos de conversaciones.</li>
           <li xml:lang="he">נוספה אפשרות להצגת רשימת כותרות של שיחות.</li>
           <li xml:lang="it">Aggiunge l'opzione per mostrare delle chat dei titoli.</li>
@@ -902,6 +959,7 @@
           <li xml:lang="ar">أَضِف دعم الأدوات.</li>
           <li xml:lang="ca">Afegeix la implementació d'eines.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'eines.</li>
+          <li xml:lang="cs">Přidána podpora nástrojů.</li>
           <li xml:lang="es">Añadir uso de herramientas.</li>
           <li xml:lang="he">נוספה תמיכה בכלים.</li>
           <li xml:lang="it">Aggiunge il supporto per gli </li>
@@ -916,6 +974,7 @@
           <li xml:lang="ar">اِسمح بالانتقال من مُعرِّف الدردشة.</li>
           <li xml:lang="ca">Permet canviar a partir d'un identificador de xat.</li>
           <li xml:lang="ca-valencia">Permet canviar a partir d'un identificador de xat.</li>
+          <li xml:lang="cs">Umožněno přepnutí z identifikátoru konverzace.</li>
           <li xml:lang="es">Permitir cambiar a identificador de conversación.</li>
           <li xml:lang="he">נוספה אפשרות לעבור ממזהה שיחה.</li>
           <li xml:lang="it">Consente di passare dall'identificatore di chat.</li>
@@ -930,6 +989,7 @@
           <li xml:lang="ar">أَضِف أداة الوقت والتاريخ الحالي.</li>
           <li xml:lang="ca">Afegeix l'eina de data i hora actuals.</li>
           <li xml:lang="ca-valencia">Afig l'eina de data i hora actuals.</li>
+          <li xml:lang="cs">Přidán nástroj pro zobrazení aktuálního data a času.</li>
           <li xml:lang="es">Añadir herramienta de fecha y hora actual.</li>
           <li xml:lang="he">נוסף כלי תאריך ושעה נוכחיים.</li>
           <li xml:lang="it">Aggiungi lo strumento Data e ora attuali.</li>
@@ -944,6 +1004,7 @@
           <li xml:lang="ar">أَضِف معلومات رسالة أداة التقدُّم.</li>
           <li xml:lang="ca">Afegeix informació del missatge de progrés de l'eina.</li>
           <li xml:lang="ca-valencia">Afig informació del missatge de progrés de l'eina.</li>
+          <li xml:lang="cs">Přidány informace o stavových hlášeních.</li>
           <li xml:lang="es">Añadir mensaje informativo de avance.</li>
           <li xml:lang="he">נוספה הודעה מפורטת לכלי תהליך.</li>
           <li xml:lang="it">Aggiungi informazioni sul messaggio dello strumento di avanzamento.</li>
@@ -958,6 +1019,7 @@
           <li xml:lang="ar">"إصلاح أيقونة في ويندوز</li>
           <li xml:lang="ca">Corregeix una icona al Windows.</li>
           <li xml:lang="ca-valencia">Corregix una icona en Windows.</li>
+          <li xml:lang="cs">Opravena ikona ve Windows.</li>
           <li xml:lang="es">Corregir icono de Windows.</li>
           <li xml:lang="he">תוקן הסמל ב־Windows.</li>
           <li xml:lang="it">Corregge l'icona sulle finestre.</li>
@@ -979,6 +1041,7 @@
           <li xml:lang="ar">أَضِف دعم ما الجديد.</li>
           <li xml:lang="ca">Afegeix la implementació de Què hi ha de nou.</li>
           <li xml:lang="ca-valencia">Afig la implementació de Què hi ha de nou.</li>
+          <li xml:lang="cs">Přidána podpora pro novinky.</li>
           <li xml:lang="es">Se ha añadido la implementación de novedades.</li>
           <li xml:lang="he">נוספה תמיכה ב„מה חדש”.</li>
           <li xml:lang="it">Aggiungi il supporto per le novità.</li>
@@ -993,6 +1056,7 @@
           <li xml:lang="ar">أَضِف دعم النُسخ.</li>
           <li xml:lang="ca">Afegeix la implementació d'instàncies.</li>
           <li xml:lang="ca-valencia">Afig la implementació d'instàncies.</li>
+          <li xml:lang="cs">Přidána podpora instancí.</li>
           <li xml:lang="es">Se ha añadido la implementación de instancias.</li>
           <li xml:lang="he">נוספה תמיכה בעותקים.</li>
           <li xml:lang="it">Aggiunge il supporto delle istanze.</li>
@@ -1007,6 +1071,7 @@
           <li xml:lang="ar">أَضِف دعم مارك داون.</li>
           <li xml:lang="ca">Afegeix la implementació del Markdown.</li>
           <li xml:lang="ca-valencia">Afig la implementació de Markdown.</li>
+          <li xml:lang="cs">Přidána podpora Markdown.</li>
           <li xml:lang="es">Añadir compatibilidad con Markdown.</li>
           <li xml:lang="he">נוספה תמיכה ב־Markdown.</li>
           <li xml:lang="it">Aggiunge il supporto Markdown.</li>
@@ -1021,6 +1086,7 @@
           <li xml:lang="ar">أَضِف دعم التمييز.</li>
           <li xml:lang="ca">Afegeix la implementació del ressaltat.</li>
           <li xml:lang="ca-valencia">Afig la implementació del ressaltat.</li>
+          <li xml:lang="cs">Přidána podpora zvýrazňování.</li>
           <li xml:lang="es">Se ha añadido la implementación de resaltado.</li>
           <li xml:lang="he">נוספה תמיכה בהדגשה.</li>
           <li xml:lang="it">Aggiunge il supporto per l'evidenziazione.</li>
