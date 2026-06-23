@@ -114,7 +114,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.0.90")
+set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.1.0")
 
 find_package(
     Qt6
