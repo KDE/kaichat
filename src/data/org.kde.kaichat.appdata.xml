@@ -124,6 +124,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de bifurcació de debat</li>
           <li xml:lang="cs">Přidána podpora diskusí ve větvích</li>
           <li xml:lang="es">Añadir compatibilidad con bifurcación de discusiones.</li>
+          <li xml:lang="he">נוספה תמיכה בפיצול דיונים</li>
           <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor Markdown toevoegen.</li>
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
@@ -136,6 +137,7 @@
           <li xml:lang="ca-valencia">Afig una instància «llamacpp»</li>
           <li xml:lang="cs">Přidána instance llamacpp</li>
           <li xml:lang="es">Añadir instancia de llamacpp.</li>
+          <li xml:lang="he">נוסף עותק של llamacpp</li>
           <li xml:lang="ka">დაემატა llamacpp-ის გაშვებული ასლების მხარდაჭერა</li>
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
