@@ -5,9 +5,9 @@
  */
 #pragma once
 #include "libkaichatwidgets_private_export.h"
-#include <QLineEdit>
+#include <TextAddonsWidgets/CompletionLineEdit>
 
-class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public QLineEdit
+class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public TextAddonsWidgets::CompletionLineEdit
 {
     Q_OBJECT
 public:
@@ -21,6 +21,7 @@ Q_SIGNALS:
     void selectChatId(const QByteArray &chatId);
 
 private:
-    void slotSelectChatId();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotSelectChatId();
+    LIBKAICHATWIDGETS_NO_EXPORT void slotComplete(const QModelIndex &index);
     QByteArray mChatIdSelected;
 };

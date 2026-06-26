@@ -7,14 +7,34 @@
 #include <KLocalizedString>
 
 KAIChatDatabaseSelectChatLineEdit::KAIChatDatabaseSelectChatLineEdit(QWidget *parent)
-    : QLineEdit(parent)
+    : TextAddonsWidgets::CompletionLineEdit(parent)
 {
     setClearButtonEnabled(true);
     setPlaceholderText(i18nc("@info:placeholder", "Select Chat Name"));
-    connect(this, &QLineEdit::returnPressed, this, &KAIChatDatabaseSelectChatLineEdit::slotSelectChatId);
+
+    // TODO setCompletionModel(mJoinedChannelModel);
+    connect(this, &KAIChatDatabaseSelectChatLineEdit::complete, this, &KAIChatDatabaseSelectChatLineEdit::slotComplete);
 }
 
 KAIChatDatabaseSelectChatLineEdit::~KAIChatDatabaseSelectChatLineEdit() = default;
+
+void KAIChatDatabaseSelectChatLineEdit::slotComplete([[maybe_unused]] const QModelIndex &index)
+{
+    // TODO
+#if 0
+    const QString completerName = index.data(JoinedChannelModel::Name).toString();
+    const QByteArray roomId = index.data(JoinedChannelModel::ChannelId).toByteArray();
+    if (completerName.isEmpty() || roomId.isEmpty()) {
+        return;
+    }
+    const JoinedChannelCompletionInfo info{
+        .name = completerName,
+        .channelId = roomId,
+    };
+    mCompletionListView->hide();
+    Q_EMIT joinedChannelFound(std::move(info));
+#endif
+}
 
 QByteArray KAIChatDatabaseSelectChatLineEdit::chatIdSelected() const
 {
