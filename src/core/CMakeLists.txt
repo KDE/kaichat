@@ -1,7 +1,11 @@
 # SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 
-add_library(libkaichatcore)
+add_library(
+    libkaichatcore
+    kaichatcompletionlistmodel.h
+    kaichatcompletionlistmodel.cpp
+)
 
 ecm_qt_declare_logging_category(libkaichatcore HEADER kaichat_core_debug.h IDENTIFIER KAICHAT_CORE_LOG
     CATEGORY_NAME org.kde.kaichat_core DESCRIPTION "kaichat (core lib)" EXPORT KAICHAT

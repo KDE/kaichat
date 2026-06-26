@@ -9,7 +9,9 @@
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
+class TextAutoGenerateChat;
 }
+class KAIChatCompletionListModel;
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public TextAddonsWidgets::CompletionLineEdit
 {
     Q_OBJECT
@@ -26,5 +28,9 @@ Q_SIGNALS:
 private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotSelectChatId();
     LIBKAICHATWIDGETS_NO_EXPORT void slotComplete(const QModelIndex &index);
+    LIBKAICHATWIDGETS_NO_EXPORT void slotSearchTextEdited(const QString &str);
+    QList<TextAutoGenerateText::TextAutoGenerateChat> mChats;
     QByteArray mChatIdSelected;
+    KAIChatCompletionListModel *const mCompletionListModel;
+    TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
