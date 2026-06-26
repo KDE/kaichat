@@ -54,15 +54,8 @@ void KAIChatDatabaseSelectChatLineEdit::slotComplete([[maybe_unused]] const QMod
     if (completerName.isEmpty() || roomId.isEmpty()) {
         return;
     }
-    // TODO
     mCompletionListView->hide();
-#if 0
-    const JoinedChannelCompletionInfo info{
-        .name = completerName,
-        .channelId = roomId,
-    };
-    Q_EMIT joinedChannelFound(std::move(info));
-#endif
+    Q_EMIT selectChatId(roomId);
 }
 
 QByteArray KAIChatDatabaseSelectChatLineEdit::chatIdSelected() const
