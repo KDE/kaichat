@@ -62,3 +62,5 @@ void KAIChatCompletionListModel::clear()
         endResetModel();
     }
 }
+
+#include "moc_kaichatcompletionlistmodel.cpp"
