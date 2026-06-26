@@ -58,21 +58,4 @@ void KAIChatDatabaseSelectChatLineEdit::slotComplete([[maybe_unused]] const QMod
     Q_EMIT selectChatId(roomId);
 }
 
-QByteArray KAIChatDatabaseSelectChatLineEdit::chatIdSelected() const
-{
-    return mChatIdSelected;
-}
-
-void KAIChatDatabaseSelectChatLineEdit::setChatIdSelected(const QByteArray &newChatIdSelected)
-{
-    mChatIdSelected = newChatIdSelected;
-}
-
-void KAIChatDatabaseSelectChatLineEdit::slotSelectChatId()
-{
-    if (!mChatIdSelected.isEmpty()) {
-        Q_EMIT selectChatId(mChatIdSelected);
-    }
-}
-
 #include "moc_kaichatdatabaseselectchatlineedit.cpp"

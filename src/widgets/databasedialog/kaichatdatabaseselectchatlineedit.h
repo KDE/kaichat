@@ -19,18 +19,13 @@ public:
     explicit KAIChatDatabaseSelectChatLineEdit(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatLineEdit() override;
 
-    [[nodiscard]] QByteArray chatIdSelected() const;
-    void setChatIdSelected(const QByteArray &newChatIdSelected);
-
 Q_SIGNALS:
     void selectChatId(const QByteArray &chatId);
 
 private:
-    LIBKAICHATWIDGETS_NO_EXPORT void slotSelectChatId();
     LIBKAICHATWIDGETS_NO_EXPORT void slotComplete(const QModelIndex &index);
     LIBKAICHATWIDGETS_NO_EXPORT void slotSearchTextEdited(const QString &str);
     QList<TextAutoGenerateText::TextAutoGenerateChat> mChats;
-    QByteArray mChatIdSelected;
     KAIChatCompletionListModel *const mCompletionListModel;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
 };
