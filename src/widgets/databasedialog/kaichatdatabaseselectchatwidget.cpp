@@ -15,7 +15,7 @@ using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseSelectChatWidget::KAIChatDatabaseSelectChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
     , mMessagesListView(new KAIChatDatabaseMessagesListView(manager, this))
-    , mLineEdit(new KAIChatDatabaseSelectChatLineEdit(this))
+    , mLineEdit(new KAIChatDatabaseSelectChatLineEdit(manager, this))
     , mManager(manager)
 {
     auto mainLayout = new QVBoxLayout(this);

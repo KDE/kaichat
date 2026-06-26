@@ -6,12 +6,15 @@
 #pragma once
 #include "libkaichatwidgets_private_export.h"
 #include <TextAddonsWidgets/CompletionLineEdit>
-
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatDatabaseSelectChatLineEdit : public TextAddonsWidgets::CompletionLineEdit
 {
     Q_OBJECT
 public:
-    explicit KAIChatDatabaseSelectChatLineEdit(QWidget *parent = nullptr);
+    explicit KAIChatDatabaseSelectChatLineEdit(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatDatabaseSelectChatLineEdit() override;
 
     [[nodiscard]] QByteArray chatIdSelected() const;

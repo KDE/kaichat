@@ -5,15 +5,27 @@
  */
 #include "kaichatdatabaseselectchatlineedit.h"
 #include <KLocalizedString>
+#include <TextAddonsWidgets/CompletionListView>
+#include <TextAutoGenerateText/TextAutoGenerateChatsModel>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
-KAIChatDatabaseSelectChatLineEdit::KAIChatDatabaseSelectChatLineEdit(QWidget *parent)
+using namespace Qt::Literals::StringLiterals;
+KAIChatDatabaseSelectChatLineEdit::KAIChatDatabaseSelectChatLineEdit(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : TextAddonsWidgets::CompletionLineEdit(parent)
 {
     setClearButtonEnabled(true);
     setPlaceholderText(i18nc("@info:placeholder", "Select Chat Name"));
 
-    // TODO setCompletionModel(mJoinedChannelModel);
+    if (manager) {
+        setCompletionModel(manager->textAutoGenerateChatsModel());
+    }
     connect(this, &KAIChatDatabaseSelectChatLineEdit::complete, this, &KAIChatDatabaseSelectChatLineEdit::slotComplete);
+    // connect(this, &QLineEdit::textChanged, this, &KAIChatDatabaseSelectChatLineEdit::slotSearchTextEdited);
+    // auto joinedChannelCompletionDelegate = new JoinedChannelCompletionDelegate(mCompletionListView);
+    // joinedChannelCompletionDelegate->setObjectName(u"joinedChannelCompletionDelegate"_s);
+    // joinedChannelCompletionDelegate->setRocketChatAccount(account);
+    // mCompletionListView->setItemDelegate(joinedChannelCompletionDelegate);
+    mCompletionListView->setTextWidget(this);
 }
 
 KAIChatDatabaseSelectChatLineEdit::~KAIChatDatabaseSelectChatLineEdit() = default;

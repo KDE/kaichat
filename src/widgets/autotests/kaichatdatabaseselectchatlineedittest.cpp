@@ -15,7 +15,7 @@ KAIChatDatabaseSelectChatLineEditTest::KAIChatDatabaseSelectChatLineEditTest(QOb
 
 void KAIChatDatabaseSelectChatLineEditTest::shouldHaveDefaultValues()
 {
-    const KAIChatDatabaseSelectChatLineEdit w;
+    const KAIChatDatabaseSelectChatLineEdit w(nullptr);
     QVERIFY(w.isClearButtonEnabled());
 }
 
