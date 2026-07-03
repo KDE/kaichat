@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
 "PO-Revision-Date: 2025-08-06 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -147,10 +147,9 @@ msgid "Add an attachment. This can be repeated"
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Add instance support."
+#, kde-format
 msgid "Attachment Url"
-msgstr "Példányok támogatása."
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:42
 #, kde-format
@@ -242,10 +241,9 @@ msgid "Instances"
 msgstr "Példányok"
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "MCP Server"
-msgstr "Markdown támogatás."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -645,34 +643,39 @@ msgstr ""
 #~ msgstr "AI csevegő"
 
 #, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add DBus support."
-#~ msgstr "Markdown támogatás."
-
-#, fuzzy
 #~| msgid "Add instance support."
-#~ msgid "Add Internal Plugin support."
+#~ msgid "Add Grok instance support."
 #~ msgstr "Példányok támogatása."
 
 #, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add MCP Server support."
-#~ msgstr "Markdown támogatás."
+#~| msgid "Add Highlighting support."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Kiemelés támogatás."
+
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add import chat support."
+#~ msgstr "Példányok támogatása."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Újdonságok megjelenítése."
 
 #, fuzzy
 #~| msgid "Add Mardown support."
-#~ msgid "Add KCM support."
+#~ msgid "Add Ollama Cloud support."
 #~ msgstr "Markdown támogatás."
 
 #, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Sarvam support."
-#~ msgstr "Markdown támogatás."
+#~| msgid "Add Highlighting support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Kiemelés támogatás."
 
 #, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Markdown támogatás."
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "Kiemelés támogatás."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Újdonságok megjelenítése."
@@ -680,9 +683,7 @@ msgstr ""
 #~ msgid "Add instance support."
 #~ msgstr "Példányok támogatása."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Markdown támogatás."
 
 #~ msgid "Add Highlighting support."
@@ -705,41 +706,6 @@ msgstr ""
 #~| msgid "Add instance support."
 #~ msgid "Add attachment support."
 #~ msgstr "Példányok támogatása."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add Grok instance support."
-#~ msgstr "Példányok támogatása."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add User Feedback support."
-#~ msgstr "Kiemelés támogatás."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add import chat support."
-#~ msgstr "Példányok támogatása."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Újdonságok megjelenítése."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Újdonságok megjelenítése."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Újdonságok megjelenítése."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "Kiemelés támogatás."
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"

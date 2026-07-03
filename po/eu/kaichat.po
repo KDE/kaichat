@@ -1,7 +1,7 @@
 # Translation for kaichat.po to Euskara/Basque (eu).
 # Copyright (C) 2025-2026 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
-# SPDX-FileCopyrightText: 2025, 2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
+# SPDX-FileCopyrightText: 2025-2026 KDE euskaratzeko proiektuaren arduraduna <xalba@ni.eus>
 #
 # Translators:
 # SPDX-FileCopyrightText: Iñigo Salvador Azurmendi <xalba@ni.eus>, 2025, 2026.
@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-03-29 21:00+0200\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-07-02 08:26+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.12.3\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -160,7 +160,7 @@ msgstr "Erabilitako tresna definitu. Hau errepikatu daiteke"
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr "Tresnaren izena"
+msgstr "Tresna-izena"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -187,10 +187,11 @@ msgid "Import"
 msgstr "Inportatu"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Abiarazi Ollama programa"
+msgstr "Erakutsi Ollamaren egunkaria."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, fuzzy, kde-format
@@ -240,11 +241,9 @@ msgid "Instances"
 msgstr "Instantziak"
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgid "MCP Server"
-msgstr "MCP zerbitzariak"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -351,7 +350,7 @@ msgstr "Instantziak"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP zerbitzariak"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -385,10 +384,11 @@ msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
-#| msgid "Chat Name"
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Berriketaren izena"
+msgstr "Aldatu berriketara"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -626,14 +626,12 @@ msgstr "Kontuaren zenbakia itzuli."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
-"Editorearen automatikoki sortzeko plugineko testua esportatzeko aukera "
-"ematea."
+msgstr "Automatikoki sortzeko editore-pluginetako testua esportatzea baimendu."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Zerberri trepeta berria gehitzea."
+msgstr "Zerberri trepeta berria gehitu."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
@@ -643,40 +641,35 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 #~ msgid "AI Chat"
 #~ msgstr "AA berriketa"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "ChatGPT, Novita AI, DeepInfra, Qwen euskarria gehitu."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Gork instantziaren euskarria gehitzea."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Ollama lokala abiarazteko CLI aukera gehitu."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Erabiltzailearen atzera-elikadura euskarria gehitzea."
 
-#~ msgid "Add DBus support."
-#~ msgstr "DBus euskarria gehitu."
+#~ msgid "Allow to show model info."
+#~ msgstr "Ereduaren informazioa erakusteko aukera ematea."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Barne-pluginen euskarria gehitu."
+#~ msgid "Add import chat support."
+#~ msgstr "Berriketa inportatzeko euskarria gehitu."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "MCP zerbitzariaren euskarria gehitu."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ollama lerroko euskarria gehitu."
 
-#, fuzzy
-#~| msgid "Add DBus support."
-#~ msgid "Add KCM support."
-#~ msgstr "DBus euskarria gehitu."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ollama hodeiko euskarria gehitu."
 
-#, fuzzy
-#~| msgid "Add MCP Server support."
-#~ msgid "Add Sarvam support."
-#~ msgstr "MCP zerbitzariaren euskarria gehitu."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Berriketa bikoizteko aukera eman."
 
-#, fuzzy
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Letra-tipoa aldatzea baimendu."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Ollama-ren ‘Keep Alive’ ezarpenaren euskarria gehitu."
 
-#, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Tresnen euskarria gehitu."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Ollama sare lokalean eskuragarri jartzea baimendu."
+
+#~ msgid "Add thinking support."
+#~ msgstr "Pentsamendu-moduaren euskarria gehitu."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Zer berri-ren euskarria gehitu."
@@ -684,9 +677,7 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 #~ msgid "Add instance support."
 #~ msgstr "Instantzien euskarria gehitu."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Markdown-en euskarria gehitu."
 
 #~ msgid "Add Highlighting support."
@@ -795,9 +786,6 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 #~ "Wikipedia, eguraldi tresna pluginak gehitzea (kaichat-addons bidez "
 #~ "hornitua)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "\"Tekleatutakoa zain\" informazioa datu-basean gordetzea."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Eranskin fitxategiak komando-lerrotik gehitzea baimentzea."
 
@@ -810,38 +798,8 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Tresna anitzen pluginek deia konpontzea."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Gork instantziaren euskarria gehitzea."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Erabiltzailearen atzera-elikadura euskarria gehitzea."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Ereduaren informazioa erakusteko aukera ematea."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Berriketa inportatzeko euskarria gehitu."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ollama lerroko euskarria gehitu."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ollama hodeiko euskarria gehitu."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Berriketa bikoizteko aukera eman."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ollama-ren ‘Keep Alive’ ezarpenaren euskarria gehitu."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Erakutsi Ollamaren egunkaria."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Ollama sare lokalean eskuragarri jartzea baimendu."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Pentsamendu-moduaren euskarria gehitu."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -909,9 +867,6 @@ msgstr "Plugin berria: erakutsi bildumaren neurria."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Akatsak konponketa batzuk:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

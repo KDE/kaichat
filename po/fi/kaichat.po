@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
 "PO-Revision-Date: 2026-01-05 15:46+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -238,10 +238,9 @@ msgid "Instances"
 msgstr "Ilmentymät"
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "MCP Server"
-msgstr "Lisää Markdown-tuki."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -382,10 +381,11 @@ msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
-#| msgid "Chat Name"
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Keskustelun nimi"
+msgstr "Vaihda keskusteluun"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -645,44 +645,44 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 #~ msgstr "Tekoälykeskustelu"
 
 #, fuzzy
-#~| msgid "Add option for showing list of title chats."
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Lisää valinta keskusteluotsikoiden näyttämiseksi."
-
-#, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add DBus support."
-#~ msgstr "Lisää työkalutuki."
-
-#, fuzzy
 #~| msgid "Add instance support."
-#~ msgid "Add Internal Plugin support."
+#~ msgid "Add Grok instance support."
 #~ msgstr "Lisää ilmentymätuki."
 
 #, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add MCP Server support."
-#~ msgstr "Lisää Markdown-tuki."
+#~| msgid "Add spell checking support."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
 
 #, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add KCM support."
-#~ msgstr "Lisää työkalutuki."
+#~| msgid "Add attachment support."
+#~ msgid "Add import chat support."
+#~ msgstr "Lisää liitetuki."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Lisää mitä uutta -tuki."
 
 #, fuzzy
 #~| msgid "Add Mardown support."
-#~ msgid "Add Sarvam support."
+#~ msgid "Add Ollama Cloud support."
 #~ msgstr "Lisää Markdown-tuki."
 
 #, fuzzy
 #~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
+#~ msgid "Allow to duplicate chat."
 #~ msgstr "Salli fonttikoon muuttaminen."
 
 #, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Lisää työkalutuki."
+#~| msgid "Add spell checking support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
+
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "Lisää korostustuki."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Lisää mitä uutta -tuki."
@@ -690,9 +690,7 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 #~ msgid "Add instance support."
 #~ msgstr "Lisää ilmentymätuki."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Lisää Markdown-tuki."
 
 #~ msgid "Add Highlighting support."
@@ -796,9 +794,6 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 #~ msgstr ""
 #~ "Lisää Wikipedia- ja säätyökaluliitännäiset (jotka tarjoaa kaichat-addons)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Talleta odottava tyyppitieto tietokantaan."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Salli liitetiedostojen lisääminen komentoriviltä."
 
@@ -811,43 +806,8 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Korjaa monityökaluliitännäisen kutsu."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Lisää Grok-ilmentymätuki."
-
-#, fuzzy
-#~| msgid "Add spell checking support."
-#~ msgid "Add User Feedback support."
-#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add import chat support."
-#~ msgstr "Lisää ilmentymätuki."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Lisää mitä uutta -tuki."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Lisää mitä uutta -tuki."
-
-#, fuzzy
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Salli fonttikoon muuttaminen."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Lisää mitä uutta -tuki."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "Lisää korostustuki."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Avaa pikakysymys…"
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -908,9 +868,6 @@ msgstr "Uusi liitännäinen: näytä kokoelman koko."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Joitakin vikoja on korjattu:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Avaa pikakysymys…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

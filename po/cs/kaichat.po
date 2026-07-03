@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
 "PO-Revision-Date: 2026-06-21 23:08+0200\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -184,13 +184,15 @@ msgid "Import"
 msgstr "Importovat"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Spustit program Ollama"
+msgstr "Zobrazení protokolu Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -221,7 +223,7 @@ msgstr "Nástroj"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -229,14 +231,16 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Instance"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "MCP server"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -343,7 +347,7 @@ msgstr "Instance"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP server"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -373,50 +377,59 @@ msgstr "Zpětná vazba uživatele"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Hledat…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Vybrat konverzaci"
+msgstr "Přepnout na konverzaci"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Databáze ladění"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Vyberte název konverzace"
+msgstr "Název konverzace"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Konverzace"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "Zprávy"
+msgstr "Zpráva"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "Zprávy v databázi"
+msgstr "Vyhledat v databázi…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "Zprávy JSON"
+msgstr "Zpráva"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Čekající typové informace"
+msgstr "Ukládání informace o čekajících zadáních do databáze."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -470,10 +483,12 @@ msgid "Export as Text…"
 msgstr "Exportovat jako text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exportovat jako PDF…"
+msgstr "Exportovat jako JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -551,7 +566,8 @@ msgid "Model Download Done"
 msgstr "Stahování modelu bylo dokončeno"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "Model %1 byl stažen."
 
@@ -621,4 +637,156 @@ msgid "New plugin: show collection size."
 msgstr "Nový modul: zobrazení velikosti sbírky."
 
 #~ msgid "AI Chat"
-#~ msgstr "Rozhovor s AI"
+#~ msgstr "Konverzace s AI"
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "Přidána podpora instance Grok."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Přidána podpora zpětné vazby od uživatelů."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Povoleno zobrazovat informace o modelu."
+
+#~ msgid "Add import chat support."
+#~ msgstr "Přidána podpora importu konverzace."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Přidána podpora pro Ollama Online."
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Přidána podpora pro Ollama Cloud."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Povoleno duplikování konverzace."
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Přidána podpora nastavení Keep Alive pro Ollamu."
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Povoleno zpřístupnit Ollamu v místní síti."
+
+#~ msgid "Add thinking support."
+#~ msgstr "Přidána podpora uvažování."
+
+#~ msgid "Add what's new support."
+#~ msgstr "Přidána podpora pro novinky."
+
+#~ msgid "Add instance support."
+#~ msgstr "Přidána podpora instancí."
+
+#~ msgid "Add Mardown support."
+#~ msgstr "Přidána podpora Markdown."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "Přidána podpora zvýrazňování."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "Opraveno mazání konverzace. Chyba %1"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "Přidáno dialogové okno pro rychlý dotaz."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "Umožněno stahování aplikace Ollama na Windows/MacOS."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "Použití promptů během konverzace."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "Přidán modul pro sdílení textu a webových odkazů."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "Povoleno nastavení modulů."
+
+#~ msgid "Add new update widget."
+#~ msgstr "Přidán nový aktualizační widget."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "Do seznamu konverzace přidán indikátor průběhu."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "Povoleno měnit velikost písma."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr ""
+#~ "Přidán příkaz pro vytvoření nové místnosti a zobrazení seznamu instancí."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "Přidána podpora kontroly pravopisu."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr "Přidáno vyskakovací okno s oznámením po dokončení stahování modelu."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr "Umožněno ukládat a obnovovat text a polohu posuvníku."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "Umožněno uložení a obnovení aktuální konverzace."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "Přidána možnost zobrazení seznamu konverzací podle názvu."
+
+#~ msgid "Add tools support."
+#~ msgstr "Přidána podpora nástrojů."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "Umožněno přepnutí z identifikátoru konverzace."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "Přidán nástroj pro zobrazení aktuálního data a času."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "Přidány informace o stavových hlášeních."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "Opravena ikona ve Windows."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "Povoleno kopírovat blok kódu do schránky."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "Zobrazení počtu nalezených řetězců na stavové liště."
+
+#~ msgid "Implement quick search."
+#~ msgstr "Implementace rychlého hledání."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr ""
+#~ "Do dialogového okna rychlého dotazu přidán panel pro rychlé vyhledávání."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "Přidána hodnota pro obnovení nastavení konfigurace."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "Umožněno nastavit funkci převodu textu na řeč."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "Přidán název ikony modulu nástroje."
+
+#~ msgid "Add attachment support."
+#~ msgstr "Přidána podpora příloh."
+
+#~ msgid "Add new icon."
+#~ msgstr "Přidána nová ikona."
+
+#~ msgid "Add debug command line."
+#~ msgstr "Přidán příkazový řádek pro ladění."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "Přidány moduly pro Wikipedii a nástroje pro předpověď počasí (poskytované "
+#~ "kaichat-addons)."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "Povoleno přidávat přílohy z příkazového řádku."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "Do nastavení modelů Ollama přidána ikona."
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "Povoleno používat specifické proměnné prostředí Ollama."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "Opraveno volání modulů pro multifunkční nástroje."

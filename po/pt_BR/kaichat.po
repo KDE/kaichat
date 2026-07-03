@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-06-16 06:15-0300\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-05-17 07:39-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -85,7 +85,7 @@ msgstr "Criar novo bate-papo"
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Chat Title"
-msgstr "Título novo do chat"
+msgstr "Novo título do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -97,12 +97,12 @@ msgstr "Abrir pergunta rápida"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "Mudar para o bate-papo"
+msgstr "Alternar para bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr "Nome do chat"
+msgstr "Nome do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -113,7 +113,7 @@ msgstr "Mudar para o bate-papo do identificador"
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
-msgstr "Identificador do chat"
+msgstr "Identificador do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
@@ -158,13 +158,13 @@ msgstr "Defina a ferramenta utilizada. Isso pode ser repetido."
 #: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
-msgstr "Noma da ferramenta"
+msgstr "Nome da ferramenta"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
-msgstr "Retorna informações de plugins"
+msgstr "Retornar informações dos plugins"
 
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
@@ -184,13 +184,15 @@ msgid "Import"
 msgstr "Importar"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Iniciar programa do Ollama"
+msgstr "Mostra registro do Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -221,7 +223,7 @@ msgstr "Ferramenta"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -229,14 +231,16 @@ msgid "Text"
 msgstr "Texto"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Instâncias"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "Servidor MCP"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -266,7 +270,7 @@ msgstr "A data e hora atual"
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
 #, kde-format
 msgid "Get Current Date Time"
-msgstr "Obter a data e hora atual"
+msgstr "Obter data e hora atual"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
 #, kde-format
@@ -276,27 +280,27 @@ msgstr "Use essa ferramenta para obter a data e hora atual"
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
 msgid "Configure Date Time Tool"
-msgstr "Configurar a ferramenta de data e hora"
+msgstr "Configurar ferramenta de data e hora"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
 #, kde-format
 msgid "Get Current Date Time."
-msgstr "Obter a data e hora atual."
+msgstr "Obter data e hora atual."
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
-msgstr "Hora atual é %1"
+msgstr "A hora atual é %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
-msgstr "Data atual é %1"
+msgstr "A data atual é %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
-msgstr "Data e hora atual é %1"
+msgstr "A data e hora atual é %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -344,7 +348,7 @@ msgstr "Instâncias"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "Servidores MCP"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -374,50 +378,59 @@ msgstr "Feedback do usuário"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Pesquisar…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Selecionar bate-papo"
+msgstr "Alternar para bate-papo"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Depurar banco de dados"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Selecionar nome do bate-papo"
+msgstr "Nome do bate-papo"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Bate-papo"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "Mensagens"
+msgstr "Mensagem"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "Mensagens no banco de dados"
+msgstr "Pesquisar no banco de dados…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "Mensagens JSON"
+msgstr "Mensagem"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Informações digitadas pendentes"
+msgstr "Armazena informações digitadas pendentes no banco de dados."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -471,10 +484,12 @@ msgid "Export as Text…"
 msgstr "Exportar como texto…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exportar como PDF…"
+msgstr "Exportar como JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -551,7 +566,8 @@ msgid "Model Download Done"
 msgstr "Download do modelo concluído"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "O modelo %1 foi baixado."
 
@@ -608,12 +624,12 @@ msgstr "Retorna o número da conta."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Permitir exportar texto em plugins de edição de geração automática."
+msgstr "Permite exportar texto em plugins de edição de geração automática."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Adicionar novo elemento 'O que há de novo?'."
+msgstr "Adiciona novo elemento 'O que há de novo?'."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
@@ -623,42 +639,35 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgid "AI Chat"
 #~ msgstr "Chat de IA"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "Adicionado suporte à ChatGPT, Novita AI, DeepInfra e Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Adiciona suporte à instância do Grok."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Adiciona opção de CLI para iniciar o Ollama localmente."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Adiciona suporte a feedback do usuário."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Adiciona suporte ao DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "Permite mostrar informações do modelo."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Adiciona suporte à plugin interno."
+#~ msgid "Add import chat support."
+#~ msgstr "Adiciona suporte a importação de bate-papo."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Adiciona suporte ao servidor MCP."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Adiciona suporte ao Ollama Online."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Mostrar metadados das ferramentas internas."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Adiciona suporte ao Ollama Cloud."
 
-#~ msgid "Add KCM support."
-#~ msgstr "Adiciona suporte ao KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Permite duplicar o bate-papo."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Adiciona suporte ao Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Adicionada a opção \"Manter vivo\" para o Ollama."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Adicionada caixa de diálogo de depuração do banco de dados."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Permitir que o Ollama seja exposto à rede local."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr ""
-#~ "Exibir informações da resposta sobre a duração, número de tokens, etc."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Permite exportar como PDF."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "Adiciona suporte ao LMStudio."
+#~ msgid "Add thinking support."
+#~ msgstr "Adiciona suporte ao raciocínio."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Adiciona suporte a 'O que há de novo'."
@@ -666,7 +675,7 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgid "Add instance support."
 #~ msgstr "Adiciona suporte à instância."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Adiciona suporte ao Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -679,7 +688,7 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgstr "Adiciona diálogo de pergunta rápida."
 
 #~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Permitir o download do Ollama no Windows/MacOs."
+#~ msgstr "Permite o download do Ollama no Windows/MacOs."
 
 #~ msgid "Use prompt during chating."
 #~ msgstr "Uso do prompt durante o bate-papo."
@@ -719,7 +728,7 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgstr "Permite salvar e restaurar o bate-papo atual."
 
 #~ msgid "Add option for showing list of title chats."
-#~ msgstr "Adicionar opção para mostrar lista de títulos de bate-papos."
+#~ msgstr "Adiciona opção para mostrar lista de títulos de bate-papos."
 
 #~ msgid "Add tools support."
 #~ msgstr "Adiciona suporte à ferramentas."
@@ -728,10 +737,10 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgstr "Permite alternar entre identificador de bate-papo."
 
 #~ msgid "Add Current Date Time tool."
-#~ msgstr "Adiciona ferramenta de data e hora atual"
+#~ msgstr "Adiciona ferramenta de data e hora atual."
 
 #~ msgid "Add progress tool message info."
-#~ msgstr "Adiciona mensagem informativa do progresso de ferramenta"
+#~ msgstr "Adiciona mensagem informativa do progresso de ferramenta."
 
 #~ msgid "Fix icon on windows."
 #~ msgstr "Correção do ícone no Windows."
@@ -753,13 +762,13 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgstr "Adiciona o valor de restauração das configurações."
 
 #~ msgid "Allow to configure text to speech."
-#~ msgstr "Permite configurar texto para fala."
+#~ msgstr "Permite configurar o texto para fala."
 
 #~ msgid "Add tool plugin icon name."
 #~ msgstr "Adiciona nome do ícone do plugin de ferramenta."
 
 #~ msgid "Add attachment support."
-#~ msgstr "Adiciona suporte a anexos."
+#~ msgstr "Adiciona suporte à anexo."
 
 #~ msgid "Add new icon."
 #~ msgstr "Adiciona novo ícone."
@@ -769,14 +778,11 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 
 #~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 #~ msgstr ""
-#~ "Adicionada wikipedia, plug-ins de ferramentas meteorológicas (fornecidos "
-#~ "por kaichat-addons)."
-
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Armazenar informações digitadas pendentes no banco de dados."
+#~ "Adiciona wikipedia, plugins de ferramentas meteorológicas (fornecidos por "
+#~ "kaichat-addons)."
 
 #~ msgid "Allow to add attachment files from command line."
-#~ msgstr "Permitir adicionar arquivos anexos a partir da linha de comando."
+#~ msgstr "Permite adicionar arquivos anexos a partir da linha de comando."
 
 #~ msgid "Add icon in configure ollama models."
 #~ msgstr "Adicionado ícone na configuração dos modelos ollama."
@@ -787,38 +793,8 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Corrige a chamada de plugins de ferramentas múltiplas."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Adiciona suporte à instância do Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Adiciona suporte a feedback do usuário."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Permite mostrar informações do modelo."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Adiciona suporte a importação de bate-papo."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Adiciona suporte ao Ollama Online."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Adiciona suporte ao Ollama Cloud."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Permite duplicar o bate-papo."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Adicionada a opção \"Manter vivo\" para o Ollama."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Mostra registro do Ollama."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Permitir que o Ollama seja exposto à rede local."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Adiciona suporte ao raciocínio."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Abrir pergunta rápida..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -881,12 +857,6 @@ msgstr "Novo plugin: mostrar tamanho da coleção."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Algumas correções de erro:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Abrir pergunta rápida..."
-
-#~ msgid "The name of the city"
-#~ msgstr "O nome da cidade"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

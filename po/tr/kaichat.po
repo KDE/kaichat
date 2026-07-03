@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-06-16 19:15+0300\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-05-22 12:08+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +28,8 @@ msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025-2026 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "© 2025–2026 Laurent Montel"
 
@@ -186,10 +187,11 @@ msgstr "İçe Aktar"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama programını göster"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -220,7 +222,7 @@ msgstr "Araç"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -228,14 +230,16 @@ msgid "Text"
 msgstr "Metin"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Örnekler"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "MCP Sunucusu"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -342,7 +346,7 @@ msgstr "Örnekler"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP Sunucuları"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -372,50 +376,59 @@ msgstr "Kullanıcı Geri Bildirimi"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Ara…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Sohbet Seç"
+msgstr "Sohbete geç"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Veri Tabanında Hata Ayıkla"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Sohbet adı seç…"
+msgstr "Sohbet Adı"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Sohbet"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "İletiler"
+msgstr "İleti"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "Veri Tabanındaki İletiler"
+msgstr "Veri Tabanında Ara…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "İleti JSON’u"
+msgstr "İleti"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Bekleyen Girilmiş Bilgi"
+msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -469,10 +482,12 @@ msgid "Export as Text…"
 msgstr "Metin Olarak Dışa Aktar…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "PDF Olarak Dışa Aktar…"
+msgstr "JSON Olarak Dışa Aktar…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -549,7 +564,8 @@ msgid "Model Download Done"
 msgstr "Model İndirildi"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."
 
@@ -622,41 +638,34 @@ msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 #~ msgid "AI Chat"
 #~ msgstr "Yapay Zekâ Sohbeti"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "ChatGPT, Novita AI, DeepInfra, Qwen desteği ekle"
+#~ msgid "Add Grok instance support."
+#~ msgstr "Grok örneği desteği ekle"
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Yerel Ollama’yı başlatmak için komut satırı seçeneği ekle."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Kullanıcı geri bildirimi desteği ekle"
 
-#~ msgid "Add DBus support."
-#~ msgstr "D-Bus desteği ekle"
+#~ msgid "Allow to show model info."
+#~ msgstr "Model bilgisini göstermeye olanak tanı"
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "İçsel eklenti desteği ekle"
+#~ msgid "Add import chat support."
+#~ msgstr "Sohbet içe aktarma desteği ekle"
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "MCP sunucusu desteği ekle"
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ollama Çevrim İçi desteği ekle"
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "İçsel araçların üst verisini göster"
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ollama Bulut desteği ekle"
 
-#~ msgid "Add KCM support."
-#~ msgstr "KCM desteği ekle"
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Sohbeti çoğaltmaya olanak tanı"
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Sarvam desteği ekle"
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Ollama Keep Alive ayarı desteği ekle"
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Veri tabanı hata ayıklama iletişim kutusu ekle"
-
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "Süre, jeton sayısı vb. hakkında bilgi görüntüle"
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "PDF olarak dışa aktarmaya olanak tanı"
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "LMStudio desteği"
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "Vurgu desteği ekle"
 
 #~ msgid "Add what's new support."
 #~ msgstr "Neler Yeni desteği ekle"
@@ -664,7 +673,7 @@ msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 #~ msgid "Add instance support."
 #~ msgstr "Örnek desteği ekle"
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Markdown desteği ekle"
 
 #~ msgid "Add Highlighting support."
@@ -768,9 +777,6 @@ msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 #~ "Vikipedi ve hava durumu araçları eklentileri ekle (kaichat-addons "
 #~ "tarafından sağlanır)"
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Komut satırından ilişik eklemeye olanak tanı"
 
@@ -782,39 +788,6 @@ msgstr "Yeni eklenti: Koleksiyon büyüklüğünü göster"
 
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Çoklu araçlar eklentileri çağrısını düzelt"
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "Grok örneği desteği ekle"
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Kullanıcı geri bildirimi desteği ekle"
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Model bilgisini göstermeye olanak tanı"
-
-#~ msgid "Add import chat support."
-#~ msgstr "Sohbet içe aktarma desteği ekle"
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ollama Çevrim İçi desteği ekle"
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ollama Bulut desteği ekle"
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Sohbeti çoğaltmaya olanak tanı"
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ollama Keep Alive ayarı desteği ekle"
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Ollama günlüğünü göster"
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Ollama’yı yerel ağa tanıtmaya olanak tanı"
-
-#~ msgid "Add thinking support."
-#~ msgstr "Düşünme desteği ekle"
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

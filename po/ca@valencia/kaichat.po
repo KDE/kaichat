@@ -1,15 +1,15 @@
 # Translation of kaichat.po to Catalan (Valencian)
-# Copyright (C) 2025 This_file_is_part_of_KDE
+# Copyright (C) 2025-2026 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2025-2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-06-16 08:52+0200\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-05-28 09:09+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -185,15 +185,17 @@ msgid "Import"
 msgstr "Importa"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Inicia el programa d'Ollama"
+msgstr "Mostra el registre d'Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
-msgstr "Markdown"
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -222,7 +224,7 @@ msgstr "Eina"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -230,14 +232,16 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Instàncies"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "Servidor MCP"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -344,7 +348,7 @@ msgstr "Instàncies"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "Servidors MCP"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -374,50 +378,59 @@ msgstr "Comentaris de l'usuari"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Busca…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Selecció de xat"
+msgstr "Canvia a xat"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Depura la base de dades"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Trieu el nom del xat"
+msgstr "Nom del xat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Xat"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "Missatges"
+msgstr "Missatge"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "Missatges a la base de dades"
+msgstr "Busca en la base de dades…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "Missatges JSON"
+msgstr "Missatge"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Informació teclejada pendent"
+msgstr "Emmagatzema la informació teclejada pendent a la base de dades."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -471,10 +484,12 @@ msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exporta com a PDF…"
+msgstr "Exporta com a JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -551,7 +566,8 @@ msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "S'ha baixat el model %1."
 
@@ -619,3 +635,162 @@ msgstr "Afig un giny nou «Què hi ha de nou»."
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "Connector nou: mostra la mida de la col·lecció."
+
+#~ msgid "AI Chat"
+#~ msgstr "Xat d'IA"
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "Afig la implementació d'instàncies Grok."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Afig la implementació dels comentaris de l'usuari."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Permet mostrar la informació del model."
+
+#~ msgid "Add import chat support."
+#~ msgstr "Afig la implementació d'importació de xats."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Afig la implementació d'Ollama en línia."
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Afig la implementació d'Ollama al núvol."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Permet duplicar el xat."
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Afig la implementació del paràmetre «Keep Alive» d'Ollama."
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Permet exposar Ollama a la xarxa local."
+
+#~ msgid "Add thinking support."
+#~ msgstr "Afig la implementació de pensament."
+
+#~ msgid "Add what's new support."
+#~ msgstr "Afig la implementació de Què hi ha de nou."
+
+#~ msgid "Add instance support."
+#~ msgstr "Afig la implementació d'instàncies."
+
+#~ msgid "Add Mardown support."
+#~ msgstr "Afig la implementació de Markdown."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "Afig la implementació del ressaltat."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "Corregix permetre la supressió de xat. Error %1"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "Afig el diàleg de pregunta ràpida."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "Permet baixar Ollama en Windows/MacOs."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "Utilitza un indicador durant el xat."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "Afegit el text compartit i el connector de dreceres web."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "Permet configurar connectors."
+
+#~ msgid "Add new update widget."
+#~ msgstr "Afig un giny nou d'actualització."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "Afig un indicador de progrés a la llista de xats."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "Permet canviar la mida de la lletra."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr ""
+#~ "Afig una línia d'ordres per a afegir una sala de xat nova, mostrant la "
+#~ "llista d'instàncies."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "Afig la implementació de la verificació ortogràfica."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr ""
+#~ "Afig una finestra emergent de notificació quan s'ha efectuat la baixada "
+#~ "del model."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr ""
+#~ "Permet guardar i restaurar el text i la posició de la barra de "
+#~ "desplaçament."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "Permet guardar i restaurar el xat actual."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "Afig una opció per a mostrar la llista dels títols dels xats."
+
+#~ msgid "Add tools support."
+#~ msgstr "Afig la implementació d'eines."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "Permet canviar a partir d'un identificador de xat."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "Afig l'eina de data i hora actuals."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "Afig informació del missatge de progrés de l'eina."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "Corregix una icona en Windows."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "Permet copiar blocs de codi al porta-retalls."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "Mostra el nombre de cadenes trobades a la barra d'estat."
+
+#~ msgid "Implement quick search."
+#~ msgstr "Implementa la busca ràpida."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr "Afig la barra de busca ràpida al diàleg de pregunta ràpida."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "Afig la restauració de la configuració del valor de les opcions."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "Permet configurar el text a veu."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "Afig el nom d'icona del connector d'eina."
+
+#~ msgid "Add attachment support."
+#~ msgstr "Afig la implementació d'adjunts."
+
+#~ msgid "Add new icon."
+#~ msgstr "Afig una icona nova."
+
+#~ msgid "Add debug command line."
+#~ msgstr "Afig una línia d'ordres de depuració."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "Afig els connectors d'eines de la Viquipèdia, meteorologia "
+#~ "(proporcionades per kaichat-addons)."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "Permet afegir fitxers adjunts des de la línia d'ordres."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "Afig la icona a la configuració dels models Ollama."
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "Permet utilitzar variables d'entorn específiques d'Ollama."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "Corregix la crida als connectors multieines."

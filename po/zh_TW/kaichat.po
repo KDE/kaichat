@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025-2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
+# SPDX-FileCopyrightText: 2025, 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-05-21 22:25+0900\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-03-02 05:18+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 26.07.70\n"
+"X-Generator: Lokalize 25.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -28,9 +28,10 @@ msgid "Your emails"
 msgstr "mail@kisaragi-hiu.com"
 
 #: apps/main.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Copyright © 2025 Laurent Montel"
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025-2026 Laurent Montel"
+msgstr "Copyright © 2025 Laurent Montel"
 
 #: apps/main.cpp:79
 #, kde-format
@@ -169,27 +170,31 @@ msgstr "回傳外掛程式資訊"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "列出能用於使用者回饋的選項"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "匯入聊天紀錄"
+msgstr "匯出聊天"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr "匯入"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "啟動 Ollama 程式"
+msgstr "顯示 Ollama 紀錄。"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -228,14 +233,16 @@ msgid "Text"
 msgstr "文字"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "實體"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "MCP 伺服器"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -342,7 +349,7 @@ msgstr "實體"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP 伺服器"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -366,26 +373,27 @@ msgstr "外掛程式"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "使用者回饋"
+msgstr ""
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "搜尋…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
-#| msgid "Chat Name"
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "聊天名稱"
+msgstr "切換到聊天"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "除錯資料庫"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
 #, fuzzy, kde-format
@@ -395,12 +403,14 @@ msgid "Select Chat Name"
 msgstr "聊天名稱"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "聊天"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
 msgstr "訊息"
 
@@ -412,14 +422,16 @@ msgid "Messages in Database"
 msgstr "在資料庫中搜尋…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "訊息 JSON"
+msgstr "訊息"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "待處理輸入資訊"
+msgstr "在資料庫儲存待處理輸入資訊。"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -481,10 +493,12 @@ msgid "Export as Pdf…"
 msgstr "匯出為 JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Export…"
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "匯入…"
+msgstr "匯出…"
 
 #: widgets/kaichatimportmenu.cpp:16
 #, kde-format
@@ -535,10 +549,12 @@ msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
 #: widgets/kaichatmainwindow.cpp:350
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "匯入聊天紀錄"
+msgstr "匯出聊天"
 
 #: widgets/kaichatmainwindow.cpp:363
 #, kde-format
@@ -552,7 +568,8 @@ msgid "Model Download Done"
 msgstr "模型下載完成"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "模型 %1 已下載完成。"
 
@@ -600,12 +617,12 @@ msgstr "主工具列"
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
-msgstr "帳戶資訊"
+msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr "回傳帳戶數量。"
+msgstr ""
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
@@ -624,45 +641,42 @@ msgstr "新外掛程式：顯示收藏大小。"
 #~ msgid "AI Chat"
 #~ msgstr "AI 聊天"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "新增 ChatGPT、Novita AI、DeepInfra、Qwen 支援。"
-
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "新增啟動本地 Ollama 用的指令列選項。"
-
-#~ msgid "Add DBus support."
-#~ msgstr "新增 DBus 支援。"
-
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "新增內部外掛程式支援。"
-
-#~ msgid "Add MCP Server support."
-#~ msgstr "新增 MCP 伺服器支援。"
-
-#~ msgid "Show internal tools metadata."
-#~ msgstr "顯示內部工具中繼資料。"
-
-#~ msgid "Add KCM support."
-#~ msgstr "新增 KCM 支援。"
-
-#~ msgid "Add Sarvam support."
-#~ msgstr "新增 Sarvam 支援。"
-
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "新增資料庫除錯對話框。"
-
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "顯示回覆時長、token 數等等資訊。"
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add Grok instance support."
+#~ msgstr "新增實體支援。"
 
 #, fuzzy
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
-#~ msgstr "允許變更字型大小。"
+#~| msgid "Add spell checking support."
+#~ msgid "Add User Feedback support."
+#~ msgstr "新增拼字檢查支援。"
 
 #, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "新增工具支援。"
+#~| msgid "Add attachment support."
+#~ msgid "Add import chat support."
+#~ msgstr "新增附件支援。"
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "新增 Ollama Online 支援。"
+
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "新增 Markdown 支援。"
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "允許建立聊天複本。"
+
+#, fuzzy
+#~| msgid "Add spell checking support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "新增拼字檢查支援。"
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "允許讓本地網路存取 Ollama。"
+
+#~ msgid "Add thinking support."
+#~ msgstr "新增思考支援。"
 
 #~ msgid "Add what's new support."
 #~ msgstr "新增「新功能」列表支援。"
@@ -670,7 +684,7 @@ msgstr "新外掛程式：顯示收藏大小。"
 #~ msgid "Add instance support."
 #~ msgstr "新增實體支援。"
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "新增 Markdown 支援。"
 
 #~ msgid "Add Highlighting support."
@@ -770,9 +784,6 @@ msgstr "新外掛程式：顯示收藏大小。"
 #~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 #~ msgstr "新增維基百科、天氣工具外掛程式（由 kaichat-addons 提供）。"
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "在資料庫儲存待處理輸入資訊。"
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "允許從命令列新增附件檔案。"
 
@@ -784,68 +795,6 @@ msgstr "新外掛程式：顯示收藏大小。"
 
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "修正多重工具外掛程式呼叫。"
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "新增 Grok 實體支援。"
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "新增使用者回饋支援。"
-
-#~ msgid "Allow to show model info."
-#~ msgstr "允許顯示模型資訊。"
-
-#~ msgid "Add import chat support."
-#~ msgstr "新增匯入聊天紀錄的功能。"
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "新增 Ollama Online 支援。"
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "新增 Ollama Cloud 支援。"
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "允許建立聊天複本。"
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "新增 Ollama \"Keep Alive\" 設定值支援。"
-
-#~ msgid "Show Ollama log."
-#~ msgstr "顯示 Ollama 紀錄。"
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "允許讓本地網路存取 Ollama。"
-
-#~ msgid "Add thinking support."
-#~ msgstr "新增思考支援。"
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "停用版本檢查"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "檢查新版本"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr "您的版本已釋出超過 6 個月，我們鼓勵您更新。"
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr "您的版本已釋出超過 1 年，我們強烈建議您更新。"
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "檢查新版本"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr "已找到新版本。點擊<a href=\"%1\">此處</a>來下載它。"
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr "沒有找到新版本。建構版可以<a href=\"%1\">在此</a>找到。"
-
-#~ msgid "Check New Version"
-#~ msgstr "檢查新版本"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"
@@ -870,17 +819,8 @@ msgstr "新外掛程式：顯示收藏大小。"
 #~ msgid "Important changes since last version:"
 #~ msgstr "上一個版本以來的重要變更："
 
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "KAIchat 這一個版本包含一些新功能："
-
 #~ msgid "Some bug fixing:"
 #~ msgstr "一些錯誤修正："
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "開啟快速詢問…"
-
-#~ msgid "The name of the city"
-#~ msgstr "城市的名稱"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

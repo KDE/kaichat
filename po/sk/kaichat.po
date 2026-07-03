@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-04-03 00:47+0000\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-03-15 02:45+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: sk\n"
@@ -135,7 +135,7 @@ msgstr "Vrátiť zoznamy chatov"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
-msgstr "Aktivovať režim ladenia"
+msgstr "Zadajte užívateľské meno"
 
 #: core/kaichatcommandlineparser.cpp:39
 #, kde-format
@@ -183,13 +183,15 @@ msgid "Import"
 msgstr "Importovať"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Spustiť program Ollama"
+msgstr "Zobrazenie záznamu Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -197,7 +199,7 @@ msgstr "Markdown"
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
-msgstr "Používateľ"
+msgstr "Užívateľské meno:"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
 #: core/kaichatexportchataspdfjob.cpp:64 core/kaichatexportchatastextjob.cpp:40
@@ -215,12 +217,12 @@ msgstr "Systém"
 #: core/kaichatexportchataspdfjob.cpp:70 core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
-msgstr "Nástroj"
+msgstr "Nástroje"
 
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -228,19 +230,21 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Inštancie"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "MCP server"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
 msgid "Share Text…"
-msgstr "Zdieľať text…"
+msgstr "Názov kanála"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:66
 #, kde-format
@@ -342,13 +346,13 @@ msgstr "Inštancie"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP servery"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Kontrola pravopisu"
+msgstr "Spell Checking"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
@@ -366,26 +370,27 @@ msgstr "Moduly"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr "Spätná väzba používateľa"
+msgstr "User Feedback"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Hľadať…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
-#| msgid "Chat Name"
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Názov chatu"
+msgstr "Prepnúť na chat"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Ladiť databázu"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
 #, fuzzy, kde-format
@@ -395,14 +400,16 @@ msgid "Select Chat Name"
 msgstr "Názov chatu"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Chat"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "Správy"
+msgstr "Správa"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
 #, fuzzy, kde-format
@@ -412,14 +419,16 @@ msgid "Messages in Database"
 msgstr "Hľadať v databáze…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "Správy JSON"
+msgstr "Správa"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Čakajúce napísané informácie"
+msgstr "Ukladanie čakajúcich napísaných informácií do databázy."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -473,10 +482,12 @@ msgid "Export as Text…"
 msgstr "Exportovať ako text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exportovať ako PDF…"
+msgstr "Exportovať ako JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -554,7 +565,8 @@ msgid "Model Download Done"
 msgstr "Stiahnutie modelu dokončené"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "Model %1 bol stiahnutý."
 
@@ -607,60 +619,54 @@ msgstr "Informácie o konte"
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr "Vrátiť počet kont."
+msgstr "Return the počet account."
 
 #: widgets/whatsnewtranslations.cpp:16
 msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Umožniť exportovať text v automaticky generovaných moduloch editora."
+msgstr "Allow to export text in autogenerate editor plugins."
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "Add new whatsnew widget."
-msgstr "Pridaný nový widget noviniek."
+msgstr "Pridať novú identitu"
 
 #: widgets/whatsnewtranslations.cpp:25
 #, kde-format
 msgid "New plugin: show collection size."
-msgstr "Nový modul: zobraziť veľkosť kolekcie."
+msgstr "New plugin: show collection size."
 
 #~ msgid "AI Chat"
 #~ msgstr "AI Chat"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "Pridaná podpora ChatGPT, Novita AI, DeepInfra, Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Pridaná podpora inštancie Grok."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Pridaná možnosť príkazového riadka na spustenie lokálnej Ollama."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Pridaná podpora spätnej väzby používateľov."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Pridaná podpora DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "Umožnenie zobraziť informácie o modeli."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Pridaná podpora interných modulov."
+#~ msgid "Add import chat support."
+#~ msgstr "Pridaná podpora importu chatov."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Pridaná podpora MCP servera."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Pridaná podpora Ollama Online."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Zobraziť metadáta interných nástrojov."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Pridaná podpora Ollama Cloud."
 
-#~ msgid "Add KCM support."
-#~ msgstr "Pridaná podpora KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Umožnenie duplikovať chat."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Pridaná podpora Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Pridaná podpora nastavenia Ollama Keep Alive."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Pridať dialógové okno ladenia databázy."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Umožnenie sprístupniť Ollama v lokálnej sieti."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "Zobraziť informácie o odpovedi: trvanie, počet tokenov a pod."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Umožnenie exportu do PDF."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "Pridaná podpora LMStudio."
+#~ msgid "Add thinking support."
+#~ msgstr "Pridaná podpora premýšľania."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Pridaná podpora noviniek."
@@ -668,7 +674,7 @@ msgstr "Nový modul: zobraziť veľkosť kolekcie."
 #~ msgid "Add instance support."
 #~ msgstr "Pridaná podpora inštancií."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Pridaná podpora Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -735,7 +741,7 @@ msgstr "Nový modul: zobraziť veľkosť kolekcie."
 #~ msgstr "Pridaná informačná správa o priebehu nástroja."
 
 #~ msgid "Fix icon on windows."
-#~ msgstr "Oprava ikony v systéme Windows."
+#~ msgstr "Fix icon on windows."
 
 #~ msgid "Allow to copy block code to clipboard."
 #~ msgstr "Umožnenie kopírovať blok kódu do schránky."
@@ -771,9 +777,6 @@ msgstr "Nový modul: zobraziť veľkosť kolekcie."
 #~ msgstr ""
 #~ "Pridané moduly nástrojov Wikipedia a počasie (poskytované kaichat-addons)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Ukladanie čakajúcich napísaných informácií do databázy."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Umožnenie pridať súbory príloh z príkazového riadku."
 
@@ -785,36 +788,3 @@ msgstr "Nový modul: zobraziť veľkosť kolekcie."
 
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Oprava volania viacerých modulov nástrojov."
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "Pridaná podpora inštancie Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Pridaná podpora spätnej väzby používateľov."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Umožnenie zobraziť informácie o modeli."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Pridaná podpora importu chatov."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Pridaná podpora Ollama Online."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Pridaná podpora Ollama Cloud."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Umožnenie duplikovať chat."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Pridaná podpora nastavenia Ollama Keep Alive."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Zobrazenie záznamu Ollama."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Umožnenie sprístupniť Ollama v lokálnej sieti."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Pridaná podpora premýšľania."

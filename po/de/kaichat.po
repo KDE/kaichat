@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
 "PO-Revision-Date: 2026-05-09 12:31+0200\n"
 "Last-Translator: Frank Steinmetzger <dev-kde@felsenfleischer.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -185,15 +185,17 @@ msgid "Import"
 msgstr "Importieren"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama-Programm starten"
+msgstr "Ollama-Protokoll anzeigen."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -237,10 +239,9 @@ msgid "Instances"
 msgstr "Instanzen"
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgid "MCP Server"
-msgstr "Markdown-Unterstützung hinzugefügt."
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -349,7 +350,7 @@ msgstr "Instanzen"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "MCP-Server"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -383,10 +384,11 @@ msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
-#| msgid "Chat Name"
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Name der Unterhaltung"
+msgstr "Zu Unterhaltung wechseln"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -408,9 +410,10 @@ msgid "Chat"
 msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr ""
+msgstr "Nachricht"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
 #, fuzzy, kde-format
@@ -564,9 +567,10 @@ msgid "Model Download Done"
 msgstr "Das Herunterladen des Modells ist abgeschlossen"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
-msgstr ""
+msgstr "Modell %1 wurde heruntergeladen."
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -636,43 +640,36 @@ msgstr "Neues Modul: Sammlungsgröße anzeigen."
 #~ msgid "AI Chat"
 #~ msgstr "KI-Unterhaltungen"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr ""
-#~ "Unterstützung für ChatGPT, Novita AI, DeepInfra und Qwen hinzugefügt."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Unterstützung von Grok-Instanzen hinzugefügt."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr ""
-#~ "Befehlszeilenoption für das Starten einer lokalen Ollama-Instanz "
-#~ "hinzugefügt."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Unterstützung von Benutzerrückmeldungen hinzugefügt."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Unterstützung für D-Bus hinzugefügt."
+#~ msgid "Allow to show model info."
+#~ msgstr "Anzeige von Modell-Informationen hinzugefügt."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Unterstützung für interne Module hinzugefügt."
+#~ msgid "Add import chat support."
+#~ msgstr "Import von Unterhaltungen hinzugefügt."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Unterstützung für MCP-Server hinzugefügt."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Unterstützung für Ollama Online hinzugefügt."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add KCM support."
-#~ msgstr "Markdown-Unterstützung hinzugefügt."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Unterstützung für Ollama Cloud hinzugefügt."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Sarvam support."
-#~ msgstr "Markdown-Unterstützung hinzugefügt."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Duplizieren von Unterhaltungen ermöglicht."
 
-#, fuzzy
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Schriftgröße veränderbar."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Unterstützung für Einstellungen von Ollama Keep Alive hinzugefügt."
 
-#, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Unterstützung für Werkzeuge hinzugefügt."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Freigabe von Ollama im lokalen Netzwerk hinzugefügt."
+
+# Eigenname?
+#~ msgid "Add thinking support."
+#~ msgstr "Unterstützung von thinking hinzugefügt."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Unterstützung für die Anzeige von Neuigkeiten hinzugefügt."
@@ -680,9 +677,7 @@ msgstr "Neues Modul: Sammlungsgröße anzeigen."
 #~ msgid "Add instance support."
 #~ msgstr "Unterstützung von Instanzen hinzugefügt."
 
-#, fuzzy
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Markdown-Unterstützung hinzugefügt."
 
 #~ msgid "Add Highlighting support."
@@ -785,40 +780,6 @@ msgstr "Neues Modul: Sammlungsgröße anzeigen."
 
 #~ msgid "Allow to use specific Ollama environment variables."
 #~ msgstr "Verwendung bestimmter Umgebungsvariablen für Ollama ermöglicht."
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "Unterstützung von Grok-Instanzen hinzugefügt."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Unterstützung von Benutzerrückmeldungen hinzugefügt."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Anzeige von Modell-Informationen hinzugefügt."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Import von Unterhaltungen hinzugefügt."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Unterstützung für Ollama Online hinzugefügt."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Unterstützung für Ollama Cloud hinzugefügt."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Duplizieren von Unterhaltungen ermöglicht."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Unterstützung für Einstellungen von Ollama Keep Alive hinzugefügt."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Ollama-Protokoll anzeigen."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Freigabe von Ollama im lokalen Netzwerk hinzugefügt."
-
-# Eigenname?
-#~ msgid "Add thinking support."
-#~ msgstr "Unterstützung von thinking hinzugefügt."
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"

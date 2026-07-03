@@ -3,13 +3,13 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# SPDX-FileCopyrightText: 2025-2026 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2025, 2026 Josep M. Ferrer <txemaq@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-06-16 08:52+0200\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-05-28 09:09+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -185,15 +185,17 @@ msgid "Import"
 msgstr "Importa"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Inicia el programa de l'Ollama"
+msgstr "Mostra el registre de l'Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
-msgstr "Markdown"
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -222,7 +224,7 @@ msgstr "Eina"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "PDF"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -230,14 +232,16 @@ msgid "Text"
 msgstr "Text"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "Instàncies"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "Servidor MCP"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -344,7 +348,7 @@ msgstr "Instàncies"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "Servidors MCP"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -374,50 +378,59 @@ msgstr "Comentaris de l'usuari"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "Cerca…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Selecció de xat"
+msgstr "Canvia a xat"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "Depura la base de dades"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Selecció del nom del xat"
+msgstr "Nom del xat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "Xat"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "Missatges"
+msgstr "Missatge"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "Missatges a la base de dades"
+msgstr "Cerca a la base de dades…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "Missatges JSON"
+msgstr "Missatge"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "Informació teclejada pendent"
+msgstr "Emmagatzema la informació teclejada pendent a la base de dades."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -471,10 +484,12 @@ msgid "Export as Text…"
 msgstr "Exporta com a text…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Exporta com a PDF…"
+msgstr "Exporta com a JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -551,7 +566,8 @@ msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
 msgstr "S'ha baixat el model %1."
 
@@ -623,43 +639,35 @@ msgstr "Connector nou: mostra la mida de la col·lecció."
 #~ msgid "AI Chat"
 #~ msgstr "Xat d'IA"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Afegeix la implementació d'instàncies Grok."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Afegeix una opció per a iniciar l'Ollama local."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Afegeix la implementació dels comentaris de l'usuari."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Afegeix la implementació del DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "Permet mostrar la informació del model."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Afegeix la implementació de connectors interns."
+#~ msgid "Add import chat support."
+#~ msgstr "Afegeix la implementació d'importació de xats."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Afegeix la implementació del servidor MCP."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Afegeix la implementació d'Ollama en línia."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Mostra les metadades de les eines internes."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Afegeix la implementació d'Ollama Cloud."
 
-#~ msgid "Add KCM support."
-#~ msgstr "Afegeix la implementació del KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Permet duplicar el xat."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Afegeix la implementació del Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Afegeix la implementació del paràmetre «Keep Alive» d'Ollama."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Afegeix un quadre de diàleg de depuració de la base de dades."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Permet exposar l'Ollama a la xarxa local."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr ""
-#~ "Mostra informació de resposta sobre la durada, nombre de segments "
-#~ "textuals, etc."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Permet exportar com a PDF."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "Afegeix la implementació del LMStudio."
+#~ msgid "Add thinking support."
+#~ msgstr "Afegeix la implementació de pensament."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Afegeix la implementació de Què hi ha de nou."
@@ -667,7 +675,7 @@ msgstr "Connector nou: mostra la mida de la col·lecció."
 #~ msgid "Add instance support."
 #~ msgstr "Afegeix la implementació d'instàncies."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Afegeix la implementació del Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -774,9 +782,6 @@ msgstr "Connector nou: mostra la mida de la col·lecció."
 #~ "Afegeix els connectors d'eines de la Viquipèdia, meteorologia "
 #~ "(proporcionades per kaichat-addons)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Emmagatzema la informació teclejada pendent a la base de dades."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Permet afegir fitxers adjunts des de la línia d'ordres."
 
@@ -788,116 +793,3 @@ msgstr "Connector nou: mostra la mida de la col·lecció."
 
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Corregeix la crida als connectors multieines."
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "Afegeix la implementació d'instàncies Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Afegeix la implementació dels comentaris de l'usuari."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Permet mostrar la informació del model."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Afegeix la implementació d'importació de xats."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Afegeix la implementació d'Ollama en línia."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Afegeix la implementació d'Ollama Cloud."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Permet duplicar el xat."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Afegeix la implementació del paràmetre «Keep Alive» d'Ollama."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Mostra el registre de l'Ollama."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Permet exposar l'Ollama a la xarxa local."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Afegeix la implementació de pensament."
-
-#~ msgctxt "@action"
-#~ msgid "Disable version check"
-#~ msgstr "Desactiva la comprovació de la versió"
-
-#~ msgctxt "@action"
-#~ msgid "Check new Version"
-#~ msgstr "Comprova si hi ha una versió nova"
-
-#~ msgid "Your version is older than 6 months, we encourage you to upgrade."
-#~ msgstr ""
-#~ "Aquesta versió té més de 6 mesos d'antiguitat, us animem que "
-#~ "l'actualitzeu."
-
-#~ msgid ""
-#~ "Your version is older than 1 year, we strongly encourage you to upgrade."
-#~ msgstr ""
-#~ "Aquesta versió té més d'un any d'antiguitat, us animem completament que "
-#~ "l'actualitzeu."
-
-#~ msgctxt "@title:window"
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgid ""
-#~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
-#~ msgstr ""
-#~ "S'ha trobat una versió nova. Feu clic <a href=\"%1\">aquí</a> per a "
-#~ "baixar-la."
-
-#~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
-#~ msgstr ""
-#~ "No s'ha trobat cap versió nova. La construcció es pot trobar <a href="
-#~ "\"%1\">aquí</a>."
-
-#~ msgid "Check New Version"
-#~ msgstr "Comprovació de versió nova"
-
-#~ msgctxt "@label:textbox"
-#~ msgid "Version:"
-#~ msgstr "Versió:"
-
-#~ msgctxt "@title:window"
-#~ msgid "What's new in %1"
-#~ msgstr "Què hi ha de nou al %1"
-
-#~ msgid "(Show News)"
-#~ msgstr "(Mostra les novetats)"
-
-#~ msgid "What's new in %2. %1"
-#~ msgstr "Què hi ha de nou al %2. %1"
-
-#~ msgid "All Versions"
-#~ msgstr "Totes les versions"
-
-#~ msgid "Version %1"
-#~ msgstr "Versió %1"
-
-#~ msgid "Important changes since last version:"
-#~ msgstr "Canvis importants des de la darrera versió:"
-
-#~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr ""
-#~ "Algunes de les característiques noves d'aquesta versió del KAIchat "
-#~ "inclouen:"
-
-#~ msgid "Some bug fixing:"
-#~ msgstr "Correcció d'errors:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Obre una pregunta ràpida..."
-
-#~ msgid "The name of the city"
-#~ msgstr "El nom de la ciutat"
-
-#~ msgid "KAiChat"
-#~ msgstr "KAiChat"
-
-#~ msgid "Rocket Chat Client"
-#~ msgstr "Client de xat del Rocket"

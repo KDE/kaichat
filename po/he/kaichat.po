@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-06-27 00:47+0000\n"
-"PO-Revision-Date: 2026-06-16 09:56+0300\n"
+"POT-Creation-Date: 2026-07-03 02:45+0000\n"
+"PO-Revision-Date: 2026-05-28 08:46+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -184,13 +184,15 @@ msgid "Import"
 msgstr "ייבוא"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show Ollama log."
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "הפעלת התוכנית Ollama"
+msgstr "הצגת היומן של Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mardown"
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -221,7 +223,7 @@ msgstr "כלי"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr "Pdf"
+msgstr ""
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -229,14 +231,16 @@ msgid "Text"
 msgstr "טקסט"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Instances"
 msgid "Instances"
 msgstr "מופעים"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr "שרת MCP"
+msgstr ""
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -343,7 +347,7 @@ msgstr "מופעים"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr "שרתי MCP"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -373,50 +377,59 @@ msgstr "משוב משתמש"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr "חיפוש…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Switch to Chat"
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "בחירת שיחה"
+msgstr "העברה לשיחה"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr "ניפוי שגיאות מסד נתונים"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Chat Name"
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "נא לבחור שם לשיחה"
+msgstr "שם השיחה"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KAIChat"
 msgid "Chat"
-msgstr "שיחה"
+msgstr "KAIChat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages"
-msgstr "הודעות"
+msgstr "הודעה"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Search in Database…"
 msgid "Messages in Database"
-msgstr "הודעות במסד הנתונים"
+msgstr "חיפוש במסד הנתונים…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Message"
 msgid "Messages JSON"
-msgstr "JSON הודעות"
+msgstr "הודעה"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Store Pending Typed Info in Database."
 msgid "Pending Typed Info"
-msgstr "נתונים מוקלדים ממתינים"
+msgstr "אחסון נתונים ממתינים שהוקלדו למסד הנתונים."
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -470,10 +483,12 @@ msgid "Export as Text…"
 msgstr "ייצוא כטקסט…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Export as JSON…"
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "ייצוא כ־Pdf…"
+msgstr "ייצוא כ־JSON…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -552,9 +567,10 @@ msgid "Model Download Done"
 msgstr "הורדת המודל הסתיימה"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
-msgstr "המודל %1 ירד."
+msgstr "הורדת המודל %1 הסתיימה."
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -624,41 +640,35 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 #~ msgid "AI Chat"
 #~ msgstr "שיחה עם בינה מלאכותית"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "נוספה תמיכה ב־ChatGPT,‏ Novita AI,‏ DeepInfra ו־Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "הוספת תמיכה במופע של Grok."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "נוספה אפשרות שורת פקודות להפעלת Ollama מקומית."
+#~ msgid "Add User Feedback support."
+#~ msgstr "הוספת תמיכה במשוב משתמש."
 
-#~ msgid "Add DBus support."
-#~ msgstr "נוספה תמיכה ב־DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "לאפשר את הצגת פרטי המודל."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "הוספת תמיכה בתוספים פנימיים."
+#~ msgid "Add import chat support."
+#~ msgstr "הוספת תמיכה בייבוא שיחות."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "הוספת תמיכה בשרתי MCP."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "הוספת תמיכה ב־Ollama מקוונת."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "הצגת נתוני על של כלים פנימיים."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "נוספה תמיכה בענן Ollama."
 
-#~ msgid "Add KCM support."
-#~ msgstr "נוספה תמיכה ב־KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "לאפשר שכפול שיחה."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "נוספה תמיכה ב־Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "הוספת תמיכה בהגדרת זמן אי־פעילות ב־Ollama מקוונת."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "הוספת חלונית ניפוי שגיאות במסד נתונים"
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "לאפשר לחשוף את Ollama לרשת המקומית."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "הצגת פרטי תגובה על משך, מספר אסימונים ועוד."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "לאפשר לייצא כ־Pdf."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "נוספה תמיכה ב־LMStudio."
+#~ msgid "Add thinking support."
+#~ msgstr "נוספה תמיכה בחשיבה."
 
 #~ msgid "Add what's new support."
 #~ msgstr "הוספת תמיכה ב„מה חדש”."
@@ -666,7 +676,7 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 #~ msgid "Add instance support."
 #~ msgstr "הוספת תמיכה במופעים."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "הוספת תמיכה ב־Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -767,9 +777,6 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 #~ msgstr ""
 #~ "הוספת תוספים לוויקיפדיה, כלי מזג אוויר (מסופקים על ידי kaichat-addons)"
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "אחסון נתונים ממתינים שהוקלדו למסד הנתונים."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "לאפשר להוסיף צרופות משורת הפקודות."
 
@@ -780,40 +787,10 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 #~ msgstr "לאפשר להשתמש במשתני סביבה מסוימים של Ollama."
 
 #~ msgid "Fix multi tools plugins call."
-#~ msgstr "תוקנות קריאת תוספים למגוון כלים."
+#~ msgstr "תוקנה קריאת תוספים למגוון כלים."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "הוספת תמיכה במופע של Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "הוספת תמיכה במשוב משתמש."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "לאפשר את הצגת פרטי המודל."
-
-#~ msgid "Add import chat support."
-#~ msgstr "הוספת תמיכה בייבוא שיחות."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "הוספת תמיכה ב־Ollama מקוונת."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "נוספה תמיכה בענן Ollama."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "לאפשר שכפול שיחה."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "הוספת תמיכה בהגדרת זמן אי־פעילות ב־Ollama מקוונת."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "הצגת היומן של Ollama."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "לאפשר לחשוף את Ollama לרשת המקומית."
-
-#~ msgid "Add thinking support."
-#~ msgstr "נוספה תמיכה בחשיבה."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "פתיחת שאלה מהירה..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -872,9 +849,6 @@ msgstr "תוסף חדש: הצגת גודל אוסף."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "תיקוני תקלות:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "פתיחת שאלה מהירה…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"
