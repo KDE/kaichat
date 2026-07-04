@@ -1,8 +1,10 @@
 {
     "KPlugin": {
         "Description": "Configure llm support",
+        "Description[fr]": "Configurer la prise en charge de LLM",
         "Icon": "kaichat",
         "Name": "LLm support",
+        "Name[fr]": "Prise en charge de LLM",
         "ServiceTypes": [
             "KCModule"
         ]
