@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Matjaž Jeran <matjaz.jeran@amis.net>
+# SPDX-FileCopyrightText: 2025-2026 Matjaž Jeran <matjaz.jeran@amis.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-03 02:45+0000\n"
-"PO-Revision-Date: 2026-02-24 07:33+0100\n"
+"PO-Revision-Date: 2026-07-03 07:22+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Lokalize 25.12.2\n"
+"X-Generator: Lokalize 26.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -184,17 +184,15 @@ msgid "Import"
 msgstr "Uvozi"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Prikaži dnevnik Ollama."
+msgstr "Zaženi program Ollama"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -223,7 +221,7 @@ msgstr "Orodje"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "Pdf"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -231,16 +229,14 @@ msgid "Text"
 msgstr "Besedilo"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Pojavki"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "Strežnik MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -347,7 +343,7 @@ msgstr "Pojavki"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "Strežniki MCP"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -377,59 +373,50 @@ msgstr "Povratne informacije uporabnikov"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Išči…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Preklopi na klepet"
+msgstr "Izberite klepet"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Zbirka podatkov za odpravljanje napak"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Ime klepeta"
+msgstr "Izberite ime klepeta"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Klepet"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Sporočilo"
+msgstr "Sporočila"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Išči v podatkovni zbirki…"
+msgstr "Sporočila v podatkovni zbirki"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Sporočilo"
+msgstr "Sporočila JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Shrani čakajoče vnesene informacije v zbirko podatkov."
+msgstr "Čakajoče vnesene informacije"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -483,12 +470,10 @@ msgid "Export as Text…"
 msgstr "Izvozi kot besedilo…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Izvozi kot JSON…"
+msgstr "Izvozi kot Pdf…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -567,10 +552,9 @@ msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
-msgstr "Model %1 je bi prenesen."
+msgstr "Model %1 je bil prenesen."
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
