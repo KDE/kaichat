@@ -183,17 +183,15 @@ msgid "Import"
 msgstr "导入"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "显示 Ollama 日志."
+msgstr "启动 Ollama"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -230,16 +228,14 @@ msgid "Text"
 msgstr "文本"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "实例"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP 服务器"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -346,7 +342,7 @@ msgstr "实例"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP服务器"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -379,12 +375,10 @@ msgid "Search…"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "切换到聊天模式"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
@@ -393,42 +387,35 @@ msgid "Debug Database"
 msgstr ""
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "聊天名称"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "消息"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "在数据库中搜索..."
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "消息"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "在数据库中存储待输入信息."
+msgstr ""
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -482,12 +469,10 @@ msgid "Export as Text…"
 msgstr "导出为文本..."
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "以 JSON 形式导出..."
+msgstr ""
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -561,8 +546,7 @@ msgid "Model Download Done"
 msgstr "模型下载完成"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "模型 %1 已下载。"
 
@@ -630,154 +614,3 @@ msgstr "添加新的 “whatsnew” 小部件。"
 #, kde-format
 msgid "New plugin: show collection size."
 msgstr "新插件：显示集合大小。"
-
-#~ msgid "AI Chat"
-#~ msgstr "AI 聊天"
-
-#~ msgid "Add Grok instance support."
-#~ msgstr "添加实例支持。"
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "添加用户反馈支持。"
-
-#~ msgid "Allow to show model info."
-#~ msgstr "允许显示模型信息。"
-
-#~ msgid "Add import chat support."
-#~ msgstr "添加导入聊天支持。"
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "添加 Ollama 在线支持。"
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "添加 Olama 云端支持。"
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "允许重复聊天。"
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "添加 Ollama 常启用设置支持。"
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "允许将 Ollama 暴露至本地网络。"
-
-#~ msgid "Add thinking support."
-#~ msgstr "添加思考支持。"
-
-#~ msgid "Add what's new support."
-#~ msgstr "添加“新增功能”支持。"
-
-#~ msgid "Add instance support."
-#~ msgstr "添加实例支持。"
-
-#~ msgid "Add Mardown support."
-#~ msgstr "添加 Markdown 支持。"
-
-#~ msgid "Add Highlighting support."
-#~ msgstr "添加高亮支持。"
-
-#~ msgid "Fix allow delete chat. Bug %1"
-#~ msgstr "修复了允许删除聊天的问题。Bug %1"
-
-#~ msgid "Add Quick Ask Dialog."
-#~ msgstr "添加 Quick Ask 对话框"
-
-#~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "允许在 Windows/MacOs 上下载 Ollama。"
-
-#~ msgid "Use prompt during chating."
-#~ msgstr "在聊天时使用提示词。"
-
-#~ msgid "Add shared text and webshorcut plugin."
-#~ msgstr "添加共享文本和网页快捷方式插件。"
-
-#~ msgid "Allow to configure plugins."
-#~ msgstr "允许配置插件。"
-
-#~ msgid "Add new update widget."
-#~ msgstr "添加新的“更新”小部件。"
-
-#~ msgid "Add progress indicator in chats list."
-#~ msgstr "在聊天列表中添加进度指示器。"
-
-#~ msgid "Allow to change font size."
-#~ msgstr "允许更改字体大小。"
-
-#~ msgid ""
-#~ "Add command line for adding new chat room, displaying list of instances."
-#~ msgstr "添加创建新聊天室的命令，显示实例列表。"
-
-#~ msgid "Add spell checking support."
-#~ msgstr "添加拼写检查支持。"
-
-#~ msgid "Add Notification popup when model download done."
-#~ msgstr "模型下载完成时添加通知弹窗。"
-
-#~ msgid "Allow to save and restore text and scrollbar position."
-#~ msgstr "允许保存和恢复文本及滚动条位置。"
-
-#~ msgid "Allow to save and restore current chat."
-#~ msgstr "允许保存和恢复当前聊天。"
-
-#~ msgid "Add option for showing list of title chats."
-#~ msgstr "添加显示聊天列表标题的选项。"
-
-#~ msgid "Add tools support."
-#~ msgstr "添加工具支持。"
-
-#~ msgid "Allow to switch from chat identifier."
-#~ msgstr "允许从聊天标识符切换。"
-
-#~ msgid "Add Current Date Time tool."
-#~ msgstr "添加当前日期时间工具。"
-
-#~ msgid "Add progress tool message info."
-#~ msgstr "添加进度工具消息信息。"
-
-#~ msgid "Fix icon on windows."
-#~ msgstr "修复窗口上的图标。"
-
-#~ msgid "Allow to copy block code to clipboard."
-#~ msgstr "允许复制代码块到剪贴板。"
-
-#~ msgid "Show number of string found in statusbar."
-#~ msgstr "在状态栏中显示找到的字符串数量。"
-
-#~ msgid "Implement quick search."
-#~ msgstr "执行快速搜索。"
-
-#~ msgid "Add quick search bar in quick ask dialog."
-#~ msgstr "在 Quick Ask 对话框中添加快速搜索栏。"
-
-#~ msgid "Add restore configure settings value."
-#~ msgstr "添加恢复配置设置的值。"
-
-#~ msgid "Allow to configure text to speech."
-#~ msgstr "允许配置文本转语音功能。"
-
-#~ msgid "Add tool plugin icon name."
-#~ msgstr "添加工具插件图标名称。"
-
-#~ msgid "Add attachment support."
-#~ msgstr "添加附件支持。"
-
-#~ msgid "Add new icon."
-#~ msgstr "新增图示."
-
-#~ msgid "Add debug command line."
-#~ msgstr "添加调试命令行."
-
-#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-#~ msgstr "添加 Wikipedia, 天气工具插件(由 kaichat-addon 提供)."
-
-#~ msgid "Allow to add attachment files from command line."
-#~ msgstr "允许从命令行添加附件文件."
-
-#~ msgid "Add icon in configure ollama models."
-#~ msgstr "在配置 ollama 模型中添加图标."
-
-#~ msgid "Allow to use specific Ollama environment variables."
-#~ msgstr "允许使用特定的 Ollama 环境变量."
-
-#~ msgid "Fix multi tools plugins call."
-#~ msgstr "修复多工具插件调用。"
