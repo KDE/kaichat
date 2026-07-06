@@ -185,11 +185,10 @@ msgid "Import"
 msgstr "Importieren"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama-Protokoll anzeigen."
+msgstr "Ollama-Programm starten"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, fuzzy, kde-format
@@ -350,7 +349,7 @@ msgstr "Instanzen"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP-Server"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
