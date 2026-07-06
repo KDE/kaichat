@@ -1,24 +1,32 @@
 {
     "KPlugin": {
         "Description": "Configure llm support",
+        "Description[ar]": "اضبط llm",
         "Description[ca@valencia]": "Configura la implementació de LLM",
         "Description[ca]": "Configura la implementació de LLM",
         "Description[cs]": "Nastavit podporu LLM",
+        "Description[es]": "Configurar la compatibilidad con LLM",
         "Description[fr]": "Configurer la prise en charge de LLM",
         "Description[nl]": "LLm-ondersteuning configureren",
         "Description[pt_BR]": "Configurar suporte ao llm",
         "Description[sl]": "Konfiguriraj podporo llm",
+        "Description[sv]": "Anpassa LLM-stöd",
         "Description[uk]": "Налаштувати підтримку великих мовних моделей",
+        "Description[zh_CN]": "支持配置 llm",
         "Icon": "kaichat",
         "Name": "LLm support",
+        "Name[ar]": "إتاحة LLm",
         "Name[ca@valencia]": "Implementació de LLM",
         "Name[ca]": "Implementació de LLM",
         "Name[cs]": "Podpora LLm",
+        "Name[es]": "Compatibilidad con LLM",
         "Name[fr]": "Prise en charge de LLM",
         "Name[nl]": "LLm-ondersteuning",
         "Name[pt_BR]": "Suporte ao LLm",
         "Name[sl]": "Podpora LLm",
+        "Name[sv]": "LLM-stöd",
         "Name[uk]": "Підтримка великих мовних моделей",
+        "Name[zh_CN]": "LLm 支持",
         "ServiceTypes": [
             "KCModule"
         ]
