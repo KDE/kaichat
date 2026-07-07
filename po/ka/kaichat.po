@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-03 02:45+0000\n"
-"PO-Revision-Date: 2026-03-01 04:49+0100\n"
+"PO-Revision-Date: 2026-07-06 12:39+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -184,17 +184,15 @@ msgid "Import"
 msgstr "შემოტანა"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama-ის ჟურნალის ჩვენება."
+msgstr "Ollama-ის პროგრამის გაშვება"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -223,7 +221,7 @@ msgstr "ხელსაწყო"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "Pdf"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -231,16 +229,14 @@ msgid "Text"
 msgstr "ტექსტი"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "გაშვებული ასლები"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP სერვერი"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -349,7 +345,7 @@ msgstr "გაშვებული ასლები"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP სერვერები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -379,59 +375,50 @@ msgstr "მომხარებლის უკუკავშირი"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "ძებნა…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "ჩატზე გადართვა"
+msgstr "ჩატის არჩევა"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "მონაცემთა ბაზის გამართვა"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "ჩატის სახელი"
+msgstr "აირჩიეთ ჩატის სახელი"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "ჩატი"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "შეტყობინება"
+msgstr "შეტყობინებები"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "ძებნა მონაცემთა ბაზაში…"
+msgstr "შეტყობინებები მონაცემთა ბაზაში"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "შეტყობინება"
+msgstr "შეტყობინებების JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "დარჩენილი აკრეფილი ინფორმაციის შენახვა მონაცემთა ბაზაში."
+msgstr "რიგში მყოფი აკრეფილი ინფორმაცია"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -485,12 +472,10 @@ msgid "Export as Text…"
 msgstr "გატანა ტექსტის სახით…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "გატანა JSON-ში…"
+msgstr "გატანა PDF-ში…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -567,8 +552,7 @@ msgid "Model Download Done"
 msgstr "მოდელის გადმოწერა დასრულდა"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "მოდელი %1 გადმოწერილია."
 
