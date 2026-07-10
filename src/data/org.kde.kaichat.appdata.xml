@@ -516,6 +516,7 @@
           <li xml:lang="pt-BR">Permite copiar código de bloco para a área de transferência.</li>
           <li xml:lang="sk">Umožnenie kopírovania bloku kódu do schránky.</li>
           <li xml:lang="sl">Dovoli kopiranje blokovne kode v odložišče.</li>
+          <li xml:lang="sv">Tillåt att kopiera kodblock till klippbordet.</li>
           <li xml:lang="tr">Kod bloklarını panoya kopyalama desteği</li>
           <li xml:lang="uk">Уможливлено копіювання блоків коду до буфера обміну даними.</li>
           <li>Show number of string found in statusbar.</li>
@@ -531,6 +532,7 @@
           <li xml:lang="pt-BR">Mostra o número de strings encontrados na barra de status.</li>
           <li xml:lang="sk">Zobrazenie počtu nájdených reťazcov v stavovom riadku.</li>
           <li xml:lang="sl">Prikazuje število najdenih nizov v statusni vrstici.</li>
+          <li xml:lang="sv">Visa antal hittade strängar på statusraden.</li>
           <li xml:lang="tr">Bulunan dizi sayısını durum çubuğunda gösterme desteği</li>
           <li xml:lang="uk">Реалізовано показ кількості знайдених рядків на смужці стану.</li>
           <li>Implement quick search.</li>
@@ -546,6 +548,7 @@
           <li xml:lang="pt-BR">Implementa a pesquisa rápida.</li>
           <li xml:lang="sk">Implementácia rýchleho hľadania.</li>
           <li xml:lang="sl">Izvede hitro iskanje.</li>
+          <li xml:lang="sv">Implementera snabbsökning.</li>
           <li xml:lang="tr">Tez arama</li>
           <li xml:lang="uk">Реалізовано швидкий пошук.</li>
           <li>Add quick search bar in quick ask dialog.</li>
@@ -561,6 +564,7 @@
           <li xml:lang="pt-BR">Adiciona uma barra de pesquisa rápida na janela de perguntas rápidas.</li>
           <li xml:lang="sk">Pridanie panela rýchleho hľadania do dialógu rýchlej otázky.</li>
           <li xml:lang="sl">Doda vrstico za hitro iskanje v pogovorno okno za hitro vprašanje.</li>
+          <li xml:lang="sv">Lägg till snabbsökrad i frågedialogruta.</li>
           <li xml:lang="tr">Tez sor iletişim kutusuna tez arama çubuğu</li>
           <li xml:lang="uk">Додано панель швидкого пошуку у вікні швидкого запиту.</li>
           <li>Add restore configure settings value.</li>
@@ -576,6 +580,7 @@
           <li xml:lang="pt-BR">Adiciona o valor de restauração das configurações.</li>
           <li xml:lang="sk">Pridanie obnovenia hodnoty nastavení.</li>
           <li xml:lang="sl">Doda vrednost za obnovo nastavitev konfiguracije.</li>
+          <li xml:lang="sv">Lägg till återställning av inställningsvärde.</li>
           <li xml:lang="tr">Yapılandırma ayarları değerini geri yükleme desteği</li>
           <li xml:lang="uk">Додано значення для відновлення параметрів налаштувань.</li>
           <li>Allow to configure text to speech.</li>
@@ -591,6 +596,7 @@
           <li xml:lang="pt-BR">Permite configurar texto para fala.</li>
           <li xml:lang="sk">Umožnenie nastavenia prevodu textu na reč.</li>
           <li xml:lang="sl">Dovoljuje konfiguriranje pretvorbe besedila v govor.</li>
+          <li xml:lang="sv">Tillåt att anpassa text till tal.</li>
           <li xml:lang="tr">Konuşma ayarlarını yapılandırma desteği</li>
           <li xml:lang="uk">Уможливлено налаштовування озвучення тексту.</li>
           <li>Add tool plugin icon name.</li>
@@ -606,6 +612,7 @@
           <li xml:lang="pt-BR">Adiciona nome do ícone do plugin de ferramenta.</li>
           <li xml:lang="sk">Pridanie názvu ikony pre modul nástroja.</li>
           <li xml:lang="sl">Doda ime ikone vtičnika orodja.</li>
+          <li xml:lang="sv">Lägg till insticksprogrammets ikonnamn.</li>
           <li xml:lang="tr">Araç eklenti simge adı</li>
           <li xml:lang="uk">Додано назву піктограми додатка інструменту.</li>
           <li>Add attachment support.</li>
@@ -621,6 +628,7 @@
           <li xml:lang="pt-BR">Adiciona suporte a anexos.</li>
           <li xml:lang="sk">Pridanie podpory pre prílohy.</li>
           <li xml:lang="sl">Doda podporo za priloge.</li>
+          <li xml:lang="sv">Lägg till stöd för bilagor.</li>
           <li xml:lang="tr">İlişik desteği</li>
           <li xml:lang="uk">Додано підтримку долучень.</li>
           <li>Add new icon.</li>
@@ -636,6 +644,7 @@
           <li xml:lang="pt-BR">Adiciona novo ícone.</li>
           <li xml:lang="sk">Pridanie novej ikony.</li>
           <li xml:lang="sl">Doda novo ikono.</li>
+          <li xml:lang="sv">Lägg till ny ikon.</li>
           <li xml:lang="tr">Yeni simge</li>
           <li xml:lang="uk">Додано нову піктограму.</li>
           <li>Add debug command line.</li>
@@ -651,6 +660,7 @@
           <li xml:lang="pt-BR">Adiciona depuração da linha de comando.</li>
           <li xml:lang="sk">Pridanie ladiaceho príkazového riadka.</li>
           <li xml:lang="sl">Doda ukazno vrstico za odpravljanje napak.</li>
+          <li xml:lang="sv">Lägg till kommandorad för felsökning.</li>
           <li xml:lang="tr">Hata ayıklama komut satırı</li>
           <li xml:lang="uk">Додано параметр командного рядка для діагностики.</li>
           <li>Add wikipedia, weather tools plugins (provided by kaichat-addons).</li>
@@ -666,6 +676,7 @@
           <li xml:lang="pt-BR">Adicionada wikipedia, plug-ins de ferramentas meteorológicas (fornecidos por kaichat-addons).</li>
           <li xml:lang="sk">Pridanie modulov nástrojov pre wikipédiu a počasie (poskytované kaichat-addons).</li>
           <li xml:lang="sl">Doda vtičnike wikipedia, weather tools (zagotavlja kaichat-addons).</li>
+          <li xml:lang="sv">Lägg till Wkipedia, väderinsticksverktyg (tillhandahållna av kaichat-addons).</li>
           <li xml:lang="tr">Vikipedi, hava durumu araçları desteği (kaichat-addons ile)</li>
           <li xml:lang="uk">Додано додатки Вікіпедії та прогнозу погоди (є частиною kaichat-addons).</li>
           <li>Store Pending Typed Info in Database.</li>
@@ -681,6 +692,7 @@
           <li xml:lang="pt-BR">Armazenar informações digitadas pendentes no banco de dados.</li>
           <li xml:lang="sk">Uloženie čakajúcich napísaných informácií do databázy.</li>
           <li xml:lang="sl">Shrani čakajoče vnesene podatke v zbirko podatkov.</li>
+          <li xml:lang="sv">Lagra väntande inskriven information i databasen.</li>
           <li xml:lang="tr">Bekleyen yazılanları veri tabanında tutma desteği</li>
           <li xml:lang="uk">Реалізовано збереження даних щодо черги введення у базі даних.</li>
           <li>Allow to add attachment files from command line.</li>
@@ -696,6 +708,7 @@
           <li xml:lang="pt-BR">Permitir adicionar arquivos anexos a partir da linha de comando.</li>
           <li xml:lang="sk">Umožnenie pridávania súborov príloh z príkazového riadka.</li>
           <li xml:lang="sl">Dovoli dodajanje prilog iz ukazne vrstice.</li>
+          <li xml:lang="sv">Tillåt att bilägga filer från kommandoraden.</li>
           <li xml:lang="tr">Komut satırından ilişikler ekleme desteği</li>
           <li xml:lang="uk">Дозволено додавання файлів долучень з командного рядка.</li>
           <li>Add icon in configure ollama models.</li>
@@ -711,6 +724,7 @@
           <li xml:lang="pt-BR">Adicionado ícone na configuração dos modelos ollama.</li>
           <li xml:lang="sk">Pridanie ikony do nastavenia modelov Ollamy.</li>
           <li xml:lang="sl">Doda ikono v konfiguracijo modelov Ollama.</li>
+          <li xml:lang="sv">Lägg till ikon i inställda ollama-modeller.</li>
           <li xml:lang="tr">Ollama modellerini yapılandırma simgesi</li>
           <li xml:lang="uk">Додано піктограму для налаштовування моделей ollama.</li>
           <li>Allow to use specific Ollama environment variables.</li>
@@ -726,6 +740,7 @@
           <li xml:lang="pt-BR">Permite o uso de variáveis ​​de ambiente específicas do Ollama.</li>
           <li xml:lang="sk">Umožnenie použitia konkrétnych premenných prostredia Ollamy.</li>
           <li xml:lang="sl">Dovoli uporabo določenih okoljskih spremenljivk Ollama.</li>
+          <li xml:lang="sv">Tillåt användning av specifika Ollama-miljövariabler.</li>
           <li xml:lang="tr">Belirli Ollama çevre değişkenlerini kullanma desteği</li>
           <li xml:lang="uk">Надає змогу скористатися специфічними змінними середовища Ollama.</li>
           <li>Fix multi tools plugins call.</li>
@@ -741,6 +756,7 @@
           <li xml:lang="pt-BR">Corrige a chamada de plugins de ferramentas múltiplas.</li>
           <li xml:lang="sk">Oprava volania modulov viacerých nástrojov.</li>
           <li xml:lang="sl">Popravi klic vtičnikov za več orodij.</li>
+          <li xml:lang="sv">Rätta flera anrop till insticksverktyg.</li>
           <li xml:lang="tr">Çoklu araçlar eklentileri çağrısı düzeltmesi</li>
           <li xml:lang="uk">Виправлено виклик додатків із декількома інструментами</li>
         </ul>
@@ -762,6 +778,7 @@
           <li xml:lang="pt-BR">Adiciona diálogo de pergunta rápida.</li>
           <li xml:lang="sk">Pridanie dialógu rýchlej otázky.</li>
           <li xml:lang="sl">Doda pogovorno okno za hitro vprašanje.</li>
+          <li xml:lang="sv">Lägg till snabbfrågedialogruta.</li>
           <li xml:lang="tr">Tez sorma iletişim kutusu</li>
           <li xml:lang="uk">Додано вікно швидкого питання.</li>
           <li>Allow to download Ollama on Windows/MacOs.</li>
@@ -777,6 +794,7 @@
           <li xml:lang="pt-BR">Permitir o download do Ollama no Windows/MacOs.</li>
           <li xml:lang="sk">Umožnenie stiahnutia Ollamy v systémoch Windows/MacOs.</li>
           <li xml:lang="sl">Dovoljuje prenos Ollame v sistemih Windows/MacOs.</li>
+          <li xml:lang="sv">Tillåt nerladdning av Ollama på Windows och MacOs.</li>
           <li xml:lang="tr">Windows/macOS üzerinde Ollama’yı indirme olanağı</li>
           <li xml:lang="uk">Уможливлено отримання Ollama у Windows/MacOs.</li>
           <li>Use prompt during chating.</li>
@@ -792,6 +810,7 @@
           <li xml:lang="pt-BR">Uso do prompt durante o bate-papo.</li>
           <li xml:lang="sk">Použitie výzvy počas chatovania.</li>
           <li xml:lang="sl">Uporablja poziv Med klepetom.</li>
+          <li xml:lang="sv">Använd prompt under chatt.</li>
           <li xml:lang="tr">Sohbet sırasında istem kullanma desteği</li>
           <li xml:lang="uk">Реалізовано використання запиту під час спілкування.</li>
           <li>Add shared text and webshorcut plugin.</li>
@@ -807,6 +826,7 @@
           <li xml:lang="pt-BR">Adição dos plugins de texto compartilhado e de atalho da web.</li>
           <li xml:lang="sk">Pridanie modulu zdieľaného textu a webovej skratky.</li>
           <li xml:lang="sl">Doda vtičnik za skupno besedilo in spletne bližnjice.</li>
+          <li xml:lang="sv">Lägg till insticksprogram för delad text och webbgenvägar.</li>
           <li xml:lang="tr">Paylaşılan metin ve web kısayolu eklentisi desteği</li>
           <li xml:lang="uk">Додано додаток оприлюднення тексту та вебскорочень.</li>
           <li>Allow to configure plugins.</li>
@@ -822,6 +842,7 @@
           <li xml:lang="pt-BR">Permite configurar plugins.</li>
           <li xml:lang="sk">Umožnenie nastavenia modulov.</li>
           <li xml:lang="sl">Dovoljuje konfiguriranje vtičnikov.</li>
+          <li xml:lang="sv">Tillåt att anpassa insticksprogram.</li>
           <li xml:lang="tr">Eklentileri yapılandırma desteği</li>
           <li xml:lang="uk">Уможливлено налаштовування додатків.</li>
           <li>Add new update widget.</li>
@@ -837,6 +858,7 @@
           <li xml:lang="pt-BR">Adiciona novo widget atualizado.</li>
           <li xml:lang="sk">Pridanie nového widgetu aktualizácie.</li>
           <li xml:lang="sl">Doda nov gradnik za posodobitve.</li>
+          <li xml:lang="sv">Lägg till ny grafisk uppdateringskomponent.</li>
           <li xml:lang="tr">Yeni güncelleme araç takımı</li>
           <li xml:lang="uk">Додано новий віджет оновлення.</li>
           <li>Add progress indicator in chats list.</li>
@@ -852,6 +874,7 @@
           <li xml:lang="pt-BR">Adiciona indicador de progresso na lista de bate-papos.</li>
           <li xml:lang="sk">Pridanie indikátora priebehu do zoznamu chatov.</li>
           <li xml:lang="sl">Doda kazalnik napredka na seznam klepetov.</li>
+          <li xml:lang="sv">Lägg till förloppsindikering i chattlistan.</li>
           <li xml:lang="tr">Sohbetler listesinde durum belirteci</li>
           <li xml:lang="uk">У списки спілкувань додано індикатор поступу.</li>
           <li>Allow to change font size.</li>
@@ -867,6 +890,7 @@
           <li xml:lang="pt-BR">Permite alterar o tamanho da fonte.</li>
           <li xml:lang="sk">Umožnenie zmeny veľkosti písma.</li>
           <li xml:lang="sl">Dovoljuje spreminjanje velikosti pisave.</li>
+          <li xml:lang="sv">Tillåt att ändra teckenstorlek.</li>
           <li xml:lang="tr">Yazıtipi puntosunu değiştirme desteği</li>
           <li xml:lang="uk">Уможливлено зміну розміру шрифту.</li>
           <li>Add command line for adding new chat room, displaying list of instances.</li>
@@ -882,6 +906,7 @@
           <li xml:lang="pt-BR">Adiciona item de linha de comando para adicionar nova sala de bate-papo, exibindo lista de instâncias.</li>
           <li xml:lang="sk">Pridanie príkazového riadka na pridanie novej chatovacej miestnosti a zobrazenie zoznamu inštancií.</li>
           <li xml:lang="sl">Doda ukazno vrstico za dodajanje nove klepetalnice in prikaz seznama pojavkov.</li>
+          <li xml:lang="sv">Lägg till kommandorad för att lägga till nytt chattrum, som visar en lista över instanser.</li>
           <li xml:lang="tr">Yeni sohbet odası ve var olan örneklerin listesini görüntülemek için komut satırı seçeneği</li>
           <li xml:lang="uk">Додано параметр командного рядка для додавання нової кімнати спілкування, показу списку екземплярів.</li>
           <li>Add spell checking support.</li>
@@ -897,6 +922,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à verificação ortográfica.</li>
           <li xml:lang="sk">Pridanie podpory pre kontrolu pravopisu.</li>
           <li xml:lang="sl">Doda podporo za preverjanje črkovanja.</li>
+          <li xml:lang="sv">Lägg till stöd för stavningskontroll</li>
           <li xml:lang="tr">Yazım denetimi desteği</li>
           <li xml:lang="uk">Додано підтримку перевірки правопису.</li>
           <li>Add Notification popup when model download done.</li>
@@ -912,6 +938,7 @@
           <li xml:lang="pt-BR">Adicionar pop-up de notificação quando o download do modelo for concluído.</li>
           <li xml:lang="sk">Pridanie vyskakovacieho oznámenia po dokončení sťahovania modelu.</li>
           <li xml:lang="sl">Doda pojavno okno z obvestili, ko je prenos modela končan.</li>
+          <li xml:lang="sv">Lägg till underrättelsemeddelande när modellnerladdning klar.</li>
           <li xml:lang="tr">İndirme tamamlandığında bildirim</li>
           <li xml:lang="uk">Додано контекстне сповіщення щодо завершення отримання моделі.</li>
           <li>Allow to save and restore text and scrollbar position.</li>
@@ -927,6 +954,7 @@
           <li xml:lang="pt-BR">Permite salvar e restaurar texto e posição da barra de rolagem.</li>
           <li xml:lang="sk">Umožnenie uloženia a obnovenia textu a polohy posuvníka.</li>
           <li xml:lang="sl">Dovoljuje shranjevanje in obnavljanje besedila in položaja drsnika.</li>
+          <li xml:lang="sv">Tillåt att spara och återställa text och rullningslistposition.</li>
           <li xml:lang="tr">Metin ve sarma çubuğu konumunu kaydetme ve geri yükleme desteği</li>
           <li xml:lang="uk">Дозволити збереження і відновлення тексту і позиції на смужці гортання.</li>
           <li>Allow to save and restore current chat.</li>
@@ -942,6 +970,7 @@
           <li xml:lang="pt-BR">Permite salvar e restaurar o bate-papo atual.</li>
           <li xml:lang="sk">Umožnenie uloženia a obnovenia aktuálneho chatu.</li>
           <li xml:lang="sl">Dovoljuje shranjevanje in obnovo trenutnega klepeta.</li>
+          <li xml:lang="sv">Tillåt att spara och återställa aktuell chatt.</li>
           <li xml:lang="tr">Geçerli sohbeti kaydetme ve yeniden yükleme desteği</li>
           <li xml:lang="uk">Дозволити збереження і відновлення поточного спілкування.</li>
           <li>Add option for showing list of title chats.</li>
@@ -957,6 +986,7 @@
           <li xml:lang="pt-BR">Adicionar opção para mostrar lista de títulos de bate-papos.</li>
           <li xml:lang="sk">Pridanie voľby na zobrazenie zoznamu názvov chatov.</li>
           <li xml:lang="sl">Doda možnost za prikaz seznama naslovov klepetov.</li>
+          <li xml:lang="sv">Lägg till alternativ för att visa lista över chattitlar.</li>
           <li xml:lang="tr">Sohbet başlıklarını listeleme desteği</li>
           <li xml:lang="uk">Додано пункт для показу списку спілкувань із заголовками.</li>
           <li>Add tools support.</li>
@@ -972,6 +1002,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à ferramentas.</li>
           <li xml:lang="sk">Pridanie podpory pre nástroje.</li>
           <li xml:lang="sl">Doda podporo za orodja.</li>
+          <li xml:lang="sv">Lägg till verktygsstöd.</li>
           <li xml:lang="tr">Araçlar desteği</li>
           <li xml:lang="uk">Додано підтримку інструментів.</li>
           <li>Allow to switch from chat identifier.</li>
@@ -987,6 +1018,7 @@
           <li xml:lang="pt-BR">Permite alternar entre identificador de bate-papo.</li>
           <li xml:lang="sk">Umožnenie prepínania podľa identifikátora chatu.</li>
           <li xml:lang="sl">Dovoljuje preklop z identifikatorja klepeta.</li>
+          <li xml:lang="sv">Tillåt att byta från chattidentifierare.</li>
           <li xml:lang="tr">Sohbet tanımlayıcısından geçiş yapma desteği</li>
           <li xml:lang="uk">Уможливлено перемикання з ідентифікатора спілкування.</li>
           <li>Add Current Date Time tool.</li>
@@ -1002,6 +1034,7 @@
           <li xml:lang="pt-BR">Adiciona ferramenta de data e hora atual</li>
           <li xml:lang="sk">Pridanie nástroja aktuálneho dátumu a času.</li>
           <li xml:lang="sl">Doda orodje za trenutni datum in čas.</li>
+          <li xml:lang="sv">Lägg till verktyg för aktuellt datum och tid.</li>
           <li xml:lang="tr">Şu anki tarihi/zamanı ekleme aracı</li>
           <li xml:lang="uk">Додано інструмент поточної дати і часу.</li>
           <li>Add progress tool message info.</li>
@@ -1017,6 +1050,7 @@
           <li xml:lang="pt-BR">Adiciona mensagem informativa do progresso de ferramenta</li>
           <li xml:lang="sk">Pridanie informácie o priebehu nástroja do správy.</li>
           <li xml:lang="sl">Doda informacije o sporočilu orodja za napredek.</li>
+          <li xml:lang="sv">Lägg till meddelandeinformation i förloppsverktyg..</li>
           <li xml:lang="tr">İlerleme aracı iletisi bilgisi</li>
           <li xml:lang="uk">Додано інструмент поступу до відомостей щодо повідомлень.</li>
           <li>"Fix icon on windows.</li>
@@ -1032,6 +1066,7 @@
           <li xml:lang="pt-BR">"Correção do ícone no Windows.</li>
           <li xml:lang="sk">Oprava ikony v systéme Windows.</li>
           <li xml:lang="sl">"Popravi ikono na sistemu Windows."</li>
+          <li xml:lang="sv">"Rätta ikon på Windows.</li>
           <li xml:lang="tr">Windows üzerinde simge onarımı</li>
           <li xml:lang="uk">Виправлено піктограму у Windows.</li>
         </ul>
@@ -1054,6 +1089,7 @@
           <li xml:lang="pt-BR">Adiciona suporte a 'O que há de novo'.</li>
           <li xml:lang="sk">Pridanie podpory pre prehľad noviniek.</li>
           <li xml:lang="sl">Doda podporo za novosti.</li>
+          <li xml:lang="sv">Lägg till stöd för Vad är nytt.</li>
           <li xml:lang="tr">“Neler Yeni” desteği</li>
           <li xml:lang="uk">Додано підтримку показу новин щодо програми.</li>
           <li>Add instance support.</li>
@@ -1069,6 +1105,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à instância.</li>
           <li xml:lang="sk">Pridanie podpory pre inštancie.</li>
           <li xml:lang="sl">Doda podporo za pojavke.</li>
+          <li xml:lang="sv">Lägg till instansstöd.</li>
           <li xml:lang="tr">Örnek desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів програми.</li>
           <li>Add Markdown support.</li>
@@ -1084,6 +1121,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao Markdown.</li>
           <li xml:lang="sk">Pridanie podpory pre Markdown.</li>
           <li xml:lang="sl">Doda podporo za Markdown.</li>
+          <li xml:lang="sv">Lägg till stöd för Markdown.</li>
           <li xml:lang="tr">Markdown desteği</li>
           <li xml:lang="uk">Додано підтримку Markdown.</li>
           <li>Add Highlighting support.</li>
@@ -1099,6 +1137,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao realce.</li>
           <li xml:lang="sk">Pridanie podpory pre zvýrazňovanie.</li>
           <li xml:lang="sl">Doda podporo za označevanje.</li>
+          <li xml:lang="sv">Lägg till stöd för syntaxfärgläggning.</li>
           <li xml:lang="tr">Vurgulama desteği</li>
           <li xml:lang="uk">Додано підтримку підсвічування.</li>
         </ul>
