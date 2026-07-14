@@ -130,6 +130,7 @@
           <li xml:lang="nl">Ondersteuning voor fork-discussie toevoegen.</li>
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
           <li xml:lang="sl">Doda razcepitev podpore debate</li>
+          <li xml:lang="sv">Tillägg av stöd för delning av diskussioner</li>
           <li xml:lang="tr">Tartışma çatallama desteği</li>
           <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
           <li>Add llamacpp instance</li>
@@ -144,6 +145,7 @@
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
           <li xml:lang="sl">Doda pojavek llamacpp</li>
+          <li xml:lang="sv">Tillägg av llamacpp-instans</li>
           <li xml:lang="tr">llamacpp örneği desteği</li>
           <li xml:lang="uk">Додано екземпляр llamacpp</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
@@ -159,6 +161,7 @@
           <li xml:lang="pt-BR">Adicionado suporte à ChatGPT, Novita AI, DeepInfra e Qwen.</li>
           <li xml:lang="sk">Pridanie podpory pre ChatGPT, Novita AI, DeepInfra a Qwen.</li>
           <li xml:lang="sl">Doda podporo za ChatGPT, Novita AI, DeepInfra, Qwen.</li>
+          <li xml:lang="sv">Tillägg av stöd för ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="tr">ChatGPT, Novita AI, DeepInfra, Qwen desteği</li>
           <li xml:lang="uk">Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li>Add CLI option for starting local Ollama.</li>
@@ -174,6 +177,7 @@
           <li xml:lang="pt-BR">Adiciona opção de CLI para iniciar o Ollama localmente.</li>
           <li xml:lang="sk">Pridanie voľby príkazového riadka na spustenie lokálnej Ollamy.</li>
           <li xml:lang="sl">Doda možnost ukazne vrstice za zagon lokalne Ollama.</li>
+          <li xml:lang="sv">Tillägg av kommandoradsväljare för att starta lokal Ollama.</li>
           <li xml:lang="tr">Yerel Ollama başlatma için komut satırı seçeneği</li>
           <li xml:lang="uk">Додано параметр командного інтерфейсу для запуску локальної Ollama.</li>
           <li>Add DBus support.</li>
@@ -189,6 +193,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao DBus.</li>
           <li xml:lang="sk">Pridanie podpory pre DBus.</li>
           <li xml:lang="sl">Doda podporo za DBus.</li>
+          <li xml:lang="sv">Tillägg av stöd för DBus.</li>
           <li xml:lang="tr">D-Bus desteği</li>
           <li xml:lang="uk">Додано підтримку DBus.</li>
           <li>Add Internal Plugin support.</li>
@@ -204,6 +209,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à plugin interno.</li>
           <li xml:lang="sk">Pridanie podpory pre interné moduly.</li>
           <li xml:lang="sl">Doda podporo za notranjega vtičnika.</li>
+          <li xml:lang="sv">Tillägg av stöd för interna insticksprogram.</li>
           <li xml:lang="tr">İçsel eklenti desteği</li>
           <li xml:lang="uk">Додано підтримку вбудованих додатків.</li>
           <li>Add MCP Server support.</li>
@@ -219,6 +225,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao servidor MCP.</li>
           <li xml:lang="sk">Pridanie podpory pre server MCP.</li>
           <li xml:lang="sl">Doda podporo za strežnik MCP..</li>
+          <li xml:lang="sv">Tillägg av stöd för MCP-server</li>
           <li xml:lang="tr">MCP sunucusu desteği</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
           <li>Show internal tools metadata.</li>
@@ -234,6 +241,7 @@
           <li xml:lang="pt-BR">Mostrar metadados das ferramentas internas.</li>
           <li xml:lang="sk">Zobrazenie metadát interných nástrojov.</li>
           <li xml:lang="sl">Prikazuje metapodatke notranjih orodij.</li>
+          <li xml:lang="sv">Visa metadata för interna verktyg.</li>
           <li xml:lang="tr">İçsel araçlar üst verisini göster</li>
           <li xml:lang="uk">Показ метаданих зовнішніх інструментів.</li>
           <li>Add KCM support.</li>
@@ -249,6 +257,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao KCM.</li>
           <li xml:lang="sk">Pridanie podpory pre KCM.</li>
           <li xml:lang="sl">Doda podporo za KCM.</li>
+          <li xml:lang="sv">Tillägg av stöd för KCM.</li>
           <li xml:lang="tr">KCM desteği</li>
           <li xml:lang="uk">Додано підтримку KCM.</li>
           <li>Add Sarvam instance support.</li>
@@ -264,6 +273,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à instância do Sarvam.</li>
           <li xml:lang="sk">Pridanie podpory pre inštanciu Sarvam.</li>
           <li xml:lang="sl">Doda podporo za pojavek Sarvam.</li>
+          <li xml:lang="sv">Tillägg av stöd för Sarvam-instans</li>
           <li xml:lang="tr">Sarvam örneği desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів Sarvam.</li>
           <li>Add Database Debug Dialogbox.</li>
@@ -279,6 +289,7 @@
           <li xml:lang="pt-BR">Adicionada caixa de diálogo de depuração do banco de dados.</li>
           <li xml:lang="sk">Pridanie ladiaceho dialógového okna databázy.</li>
           <li xml:lang="sl">Doda pogovorno okno za odpravljanje napak v zbirki podatkov.</li>
+          <li xml:lang="sv">Tillägg av dialogruta för databasfelsökning</li>
           <li xml:lang="tr">Veri tabanı hata ayıklama iletişim kutusu</li>
           <li xml:lang="uk">Додано діалогове вікно діагностики бази даних.</li>
           <li>Display reply info about duration, number of tokens etc.</li>
@@ -294,6 +305,7 @@
           <li xml:lang="pt-BR">Exibir informações da resposta sobre a duração, número de tokens, etc.</li>
           <li xml:lang="sk">Zobrazenie informácií o odpovedi ako trvanie, počet tokenov a podobne.</li>
           <li xml:lang="sl">Prikazue informacije o odgovoru o trajanju, številu žetonov itd.</li>
+          <li xml:lang="sv">Visa svarsinformation om längd, antal token, etc.</li>
           <li xml:lang="tr">Süre, jeton sayısı vb. hakkında bilgi görüntüleme</li>
           <li xml:lang="uk">Реалізовано показ даних щодо тривалості, кількості жетонів та інших параметрів відповіді</li>
           <li>Allow to export as PDF.</li>
@@ -309,6 +321,7 @@
           <li xml:lang="pt-BR">Permite exportar como PDF.</li>
           <li xml:lang="sk">Umožnenie exportu do PDF.</li>
           <li xml:lang="sl">Dovoljuje izvoz kot PDF.</li>
+          <li xml:lang="sv">Tillåt att exportera som PDF</li>
           <li xml:lang="tr">PDF olarak dışa aktarma desteği</li>
           <li xml:lang="uk">Уможливлено експортування даних до PDF.</li>
           <li>Add LMStudio support.</li>
@@ -324,6 +337,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao LMStudio.</li>
           <li xml:lang="sk">Pridanie podpory pre LMStudio.</li>
           <li xml:lang="sl">Doda podporo za LMStudio.</li>
+          <li xml:lang="sv">Tillägg av stöd för LMStudio</li>
           <li xml:lang="tr">LMStudio desteği</li>
           <li xml:lang="uk">Додано підтримку LMStudio.</li>
         </ul>
@@ -345,6 +359,7 @@
           <li xml:lang="pt-BR">Adiciona suporte à instância do Grok.</li>
           <li xml:lang="sk">Pridanie podpory pre inštanciu Grok.</li>
           <li xml:lang="sl">Doda podporo za instanco Grok.</li>
+          <li xml:lang="sv">Tillägg av stöd för Grok-instans</li>
           <li xml:lang="tr">Grok örneği desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів Grok.</li>
           <li>Add User Feedback support.</li>
@@ -360,6 +375,7 @@
           <li xml:lang="pt-BR">Adiciona suporte a feedback do usuário.</li>
           <li xml:lang="sk">Pridanie podpory pre spätnú väzbu používateľov.</li>
           <li xml:lang="sl">Doda podporo za povratne informacije uporabnikov.</li>
+          <li xml:lang="sv">Tillägg av stöd för användaråterkoppling.</li>
           <li xml:lang="tr">Kullanıcı Geri Bildirimi desteği</li>
           <li xml:lang="uk">Додано підтримку відгуків користувачів.</li>
           <li>Allow to show model info.</li>
@@ -375,6 +391,7 @@
           <li xml:lang="pt-BR">Permite mostrar informações do modelo.</li>
           <li xml:lang="sk">Umožnenie zobrazenia informácií o modeli.</li>
           <li xml:lang="sl">Dovoli prikaz informacij o modelu.</li>
+          <li xml:lang="sv">Tillåt visning av modellinformation</li>
           <li xml:lang="tr">Model bilgilerinin gösterilmesi desteği</li>
           <li xml:lang="uk">Дозволити показувати відомості щодо моделі.</li>
           <li>Add import chat support.</li>
@@ -390,6 +407,7 @@
           <li xml:lang="pt-BR">Adiciona suporte a importação de bate-papo.</li>
           <li xml:lang="sk">Pridanie podpory pre import chatu.</li>
           <li xml:lang="sl">Doda podporo za uvoz klepeta.</li>
+          <li xml:lang="sv">Tillägg av stöd för chattimport</li>
           <li xml:lang="tr">Sohbet içe aktarma desteği</li>
           <li xml:lang="uk">Додано підтримку імпортування даних спілкування.</li>
           <li>Add Ollama Online support.</li>
@@ -405,6 +423,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Online.</li>
           <li xml:lang="sk">Pridanie podpory pre Ollama Online.</li>
           <li xml:lang="sl">Doda podporo za Ollama online.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama på nätet.</li>
           <li xml:lang="tr">Ollama Online desteği</li>
           <li xml:lang="uk">Додано підтримку Ollama Online.</li>
           <li>Add Ollama Cloud support.</li>
@@ -420,6 +439,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Cloud.</li>
           <li xml:lang="sk">Pridanie podpory pre Ollama Cloud.</li>
           <li xml:lang="sl">Doda podporo za Ollama cloud.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama moln.</li>
           <li xml:lang="tr">Ollama Cloud desteği</li>
           <li xml:lang="uk">Додано підтримку Ollama Cloud.</li>
           <li>Allow to duplicate chat.</li>
@@ -435,6 +455,7 @@
           <li xml:lang="pt-BR">Permite duplicar o bate-papo.</li>
           <li xml:lang="sk">Umožnenie duplikovania chatu.</li>
           <li xml:lang="sl">Dovoli podvajanje klepeta.</li>
+          <li xml:lang="sv">Tillåt att duplicera chatt.</li>
           <li xml:lang="tr">Sohbetleri çoğaltma desteği</li>
           <li xml:lang="uk">Уможливлено дублювання спілкування.</li>
           <li>Add Ollama Keep Alive setting support.</li>
@@ -450,6 +471,7 @@
           <li xml:lang="pt-BR">Adicionada a opção "Manter vivo" para o Ollama.</li>
           <li xml:lang="sk">Pridanie podpory pre nastavenie Ollama Keep Alive.</li>
           <li xml:lang="sl">Doda podporo za nastavitev Ollama Keep Alive.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama håll igång inställning.</li>
           <li xml:lang="tr">Ollama Canlı Tut ayarı desteği</li>
           <li xml:lang="uk">Додано підтримку параметри підтримки зв'язку з Ollama.</li>
           <li>Show Ollama log.</li>
@@ -465,6 +487,7 @@
           <li xml:lang="pt-BR">Mostra registro do Ollama.</li>
           <li xml:lang="sk">Zobrazenie záznamu Ollamy.</li>
           <li xml:lang="sl">Prikazuje dnevnik Ollame.</li>
+          <li xml:lang="sv">Visa Ollama-logg.</li>
           <li xml:lang="tr">Ollama günlüğünü gösterme desteği</li>
           <li xml:lang="uk">Показати журнал Ollama.</li>
           <li>Allow to expose Ollama to local network.</li>
@@ -480,6 +503,7 @@
           <li xml:lang="pt-BR">Permitir que o Ollama seja exposto à rede local.</li>
           <li xml:lang="sk">Umožnenie sprístupnenia Ollamy v lokálnej sieti.</li>
           <li xml:lang="sl">Dovoljuje izpostavitev Ollame lokalnemu omrežju.</li>
+          <li xml:lang="sv">Tillåt att exponera Ollama på det lokala nätverket.</li>
           <li xml:lang="tr">Ollama’yı yerel ağa gösterme desteği</li>
           <li xml:lang="uk">Дозволити використання Ollama з локальної мережі.</li>
           <li>Add thinking support.</li>
@@ -495,6 +519,7 @@
           <li xml:lang="pt-BR">Adiciona suporte ao raciocínio.</li>
           <li xml:lang="sk">Pridanie podpory pre uvažovanie.</li>
           <li xml:lang="sl">Doda podporo za razmišljanje.</li>
+          <li xml:lang="sv">Lägg till tankestöd.</li>
           <li xml:lang="tr">Düşünme desteği</li>
           <li xml:lang="uk">Додано підтримку обмірковування.</li>
         </ul>
