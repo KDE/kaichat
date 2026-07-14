@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-03 02:45+0000\n"
-"PO-Revision-Date: 2026-03-01 08:04+0100\n"
+"PO-Revision-Date: 2026-06-17 11:59+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -183,17 +183,15 @@ msgid "Import"
 msgstr "Importa"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Mostra il registro di Ollama."
+msgstr "Avvia il programma Ollama."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -222,7 +220,7 @@ msgstr "Strumento"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "Pdf"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -230,16 +228,14 @@ msgid "Text"
 msgstr "Testo"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Istanze"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "Server MCP"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -347,7 +343,7 @@ msgstr "Istanze"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "Server MCP"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -377,59 +373,50 @@ msgstr "Segnalazioni degli utenti"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Cerca…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Passa a Chat"
+msgstr "Seleziona chat"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Debug del database"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Nome chat"
+msgstr "Seleziona il nome della chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Chat"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Messaggio"
+msgstr "Messaggi"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Cerca nella banca dati…"
+msgstr "Messaggi nella banca dati"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Messaggio"
+msgstr "JSON dei messaggi"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Memorizza le informazioni digitate in sospeso nella banca dati."
+msgstr "Informazioni digitate in sospeso"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -483,12 +470,10 @@ msgid "Export as Text…"
 msgstr "Esporta come testo…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Esporta come JSON…"
+msgstr "Esporta come Pdf…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -565,8 +550,7 @@ msgid "Model Download Done"
 msgstr "Scaricamento del modello completato"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Il modello %1 è stato scaricato."
 
