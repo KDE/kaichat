@@ -124,6 +124,7 @@
           <li xml:lang="nl">Ondersteuning voor fork-discussie toevoegen</li>
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
           <li xml:lang="sl">Doda razcepitev podpore debate</li>
+          <li xml:lang="sv">Tillägg av stöd för delning av diskussioner</li>
           <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
           <li>Add llamacpp instance</li>
           <li xml:lang="ar">إضافة نسخ llamacpp.</li>
@@ -135,6 +136,7 @@
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
           <li xml:lang="sl">Doda pojavek llamacpp</li>
+          <li xml:lang="sv">Tillägg av llamacpp-instans</li>
           <li xml:lang="uk">Додано екземпляр llamacpp</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
@@ -146,6 +148,7 @@
           <li xml:lang="nl">Ondersteuning voor ChatGPT, Novita AI, DeepInfra, Qwen toevoegen.</li>
           <li xml:lang="pt-BR">Adicionado suporte à ChatGPT, Novita AI, DeepInfra e Qwen.</li>
           <li xml:lang="sl">Doda podporo za ChatGPT, Novita AI, DeepInfra, Qwen.</li>
+          <li xml:lang="sv">Tillägg av stöd för ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="uk">Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li>Add CLI option for starting local Ollama.</li>
           <li xml:lang="ar">إضافة خيار CLI لبدء تشغيل Ollama المحلي.</li>
@@ -157,6 +160,7 @@
           <li xml:lang="nl">CLI-optie toevoegen voor het starten van lokaal Ollama.</li>
           <li xml:lang="pt-BR">Adiciona opção de CLI para iniciar o Ollama localmente.</li>
           <li xml:lang="sl">Doda možnost ukazne vrstice za zagon lokalne Ollama.</li>
+          <li xml:lang="sv">Tillägg av kommandoradsväljare för att starta lokal Ollama.</li>
           <li xml:lang="uk">Додано параметр командного інтерфейсу для запуску локальної Ollama.</li>
           <li>Add DBus support.</li>
           <li xml:lang="ar">إتاحة DBus.</li>
@@ -168,6 +172,7 @@
           <li xml:lang="nl">Ondersteuning voor DBus toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao DBus.</li>
           <li xml:lang="sl">Doda podporo za DBus.</li>
+          <li xml:lang="sv">Tillägg av stöd för DBus.</li>
           <li xml:lang="uk">Додано підтримку DBus.</li>
           <li>Add Internal Plugin support.</li>
           <li xml:lang="ar">إضافة دعم المُلحقات الداخلية.</li>
@@ -179,6 +184,7 @@
           <li xml:lang="nl">Ondersteuning voor interne plug-in toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à plugin interno.</li>
           <li xml:lang="sl">Doda podporo za notranjega vtičnika.</li>
+          <li xml:lang="sv">Tillägg av stöd för interna insticksprogram.</li>
           <li xml:lang="uk">Додано підтримку вбудованих додатків.</li>
           <li>Add MCP Server support.</li>
           <li xml:lang="ar">إضافة دعم خادم MCP.</li>
@@ -190,6 +196,7 @@
           <li xml:lang="nl">Ondersteuning voor MCP-server toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao servidor MCP.</li>
           <li xml:lang="sl">Doda podporo za strežnik MCP..</li>
+          <li xml:lang="sv">Tillägg av stöd för MCP-server</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
           <li>Show internal tools metadata.</li>
           <li xml:lang="ar">أظهر بيانات تعريف الأدوات الداخلية.</li>
@@ -201,6 +208,7 @@
           <li xml:lang="nl">Toon metagegevens van interne hulpmiddelen.</li>
           <li xml:lang="pt-BR">Mostrar metadados das ferramentas internas.</li>
           <li xml:lang="sl">Prikazuje metapodatke notranjih orodij.</li>
+          <li xml:lang="sv">Visa metadata för interna verktyg.</li>
           <li xml:lang="uk">Показ метаданих зовнішніх інструментів.</li>
           <li>Add KCM support.</li>
           <li xml:lang="ar">إتاحة KCM.</li>
@@ -212,6 +220,7 @@
           <li xml:lang="nl">KCM-ondersteuning toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao KCM.</li>
           <li xml:lang="sl">Doda podporo za KCM.</li>
+          <li xml:lang="sv">Tillägg av stöd för KCM.</li>
           <li xml:lang="uk">Додано підтримку KCM.</li>
           <li>Add Sarvam instance support.</li>
           <li xml:lang="ar">أضف دعم نسخ Sarvam.</li>
@@ -223,6 +232,7 @@
           <li xml:lang="nl">Ondersteuning voor Sarvam-exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância do Sarvam.</li>
           <li xml:lang="sl">Doda podporo za pojavek Sarvam.</li>
+          <li xml:lang="sv">Tillägg av stöd för Sarvam-instans</li>
           <li xml:lang="uk">Додано підтримку екземплярів Sarvam.</li>
           <li>Add Database Debug Dialogbox.</li>
           <li xml:lang="ar">إضافة قاعدة بيانات التنقيح.</li>
@@ -234,6 +244,7 @@
           <li xml:lang="nl">Voeg een dialoogvenster voor databasefoutopsporing toe.</li>
           <li xml:lang="pt-BR">Adicionada caixa de diálogo de depuração do banco de dados.</li>
           <li xml:lang="sl">Doda pogovorno okno za odpravljanje napak v zbirki podatkov.</li>
+          <li xml:lang="sv">Tillägg av dialogruta för databasfelsökning</li>
           <li xml:lang="uk">Додано діалогове вікно діагностики бази даних.</li>
           <li>Display reply info about duration, number of tokens etc.</li>
           <li xml:lang="ar">عرض معلومات الرد حول المدة، عدد الرموز، إلخ.</li>
@@ -245,6 +256,7 @@
           <li xml:lang="nl">Toon antwoordinformatie over de duur, het aantal tokens, enz.</li>
           <li xml:lang="pt-BR">Exibir informações da resposta sobre a duração, número de tokens, etc.</li>
           <li xml:lang="sl">Prikazue informacije o odgovoru o trajanju, številu žetonov itd.</li>
+          <li xml:lang="sv">Visa svarsinformation om längd, antal token, etc.</li>
           <li xml:lang="uk">Реалізовано показ даних щодо тривалості, кількості жетонів та інших параметрів відповіді</li>
           <li>Allow to export as PDF.</li>
           <li xml:lang="ar">السماح بالتصدير بصيغة PDF.</li>
@@ -256,6 +268,7 @@
           <li xml:lang="nl">Sta exporteren als PDF toe.</li>
           <li xml:lang="pt-BR">Permite exportar como PDF.</li>
           <li xml:lang="sl">Dovoljuje izvoz kot PDF.</li>
+          <li xml:lang="sv">Tillåt att exportera som PDF</li>
           <li xml:lang="uk">Уможливлено експортування даних до PDF.</li>
           <li>Add LMStudio support.</li>
           <li xml:lang="ar">إتاحة LMStudio.</li>
@@ -267,6 +280,7 @@
           <li xml:lang="nl">Ondersteuning voor LMStudio toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao LMStudio.</li>
           <li xml:lang="sl">Doda podporo za LMStudio.</li>
+          <li xml:lang="sv">Tillägg av stöd för LMStudio</li>
           <li xml:lang="uk">Додано підтримку LMStudio.</li>
         </ul>
       </description>
@@ -284,6 +298,7 @@
           <li xml:lang="nl">Ondersteuning voor Grok-exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância do Grok.</li>
           <li xml:lang="sl">Doda podporo za instanco Grok.</li>
+          <li xml:lang="sv">Tillägg av stöd för Grok-instans</li>
           <li xml:lang="uk">Додано підтримку екземплярів Grok.</li>
           <li>Add User Feedback support.</li>
           <li xml:lang="ar">إضافة تعليقات المستخدمين.</li>
@@ -295,6 +310,7 @@
           <li xml:lang="nl">Ondersteuning terugkoppeling van gebruiker toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a feedback do usuário.</li>
           <li xml:lang="sl">Doda podporo za povratne informacije uporabnikov.</li>
+          <li xml:lang="sv">Tillägg av stöd för användaråterkoppling.</li>
           <li xml:lang="uk">Додано підтримку відгуків користувачів.</li>
           <li>Allow to show model info.</li>
           <li xml:lang="ar">اسمح بعرض معلومات النموذج.</li>
@@ -306,6 +322,7 @@
           <li xml:lang="nl">Sta tonen van modelinformatie toe.</li>
           <li xml:lang="pt-BR">Permite mostrar informações do modelo.</li>
           <li xml:lang="sl">Dovoli prikaz informacij o modelu.</li>
+          <li xml:lang="sv">Tillåt visning av modellinformation</li>
           <li xml:lang="uk">Дозволити показувати відомості щодо моделі.</li>
           <li>Add import chat support.</li>
           <li xml:lang="ar">إتاحة استيراد الدردشة.</li>
@@ -317,6 +334,7 @@
           <li xml:lang="nl">Ondersteuning voor chat importeren toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a importação de bate-papo.</li>
           <li xml:lang="sl">Doda podporo za uvoz klepeta.</li>
+          <li xml:lang="sv">Tillägg av stöd för chattimport</li>
           <li xml:lang="uk">Додано підтримку імпортування даних спілкування.</li>
           <li>Add Ollama Online support.</li>
           <li xml:lang="ar">إضافة دعم أولاما عبر الإنترنت.</li>
@@ -328,6 +346,7 @@
           <li xml:lang="nl">Ondersteuning voor Ollama online toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Online.</li>
           <li xml:lang="sl">Doda podporo za Ollama online.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama på nätet.</li>
           <li xml:lang="uk">Додано підтримку Ollama Online.</li>
           <li>Add Ollama Cloud support.</li>
           <li xml:lang="ar">إضافة دعم سحابة أولاما.</li>
@@ -339,6 +358,7 @@
           <li xml:lang="nl">Ondersteuning voor Ollama Cloud toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Cloud.</li>
           <li xml:lang="sl">Doda podporo za Ollama cloud.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama moln.</li>
           <li xml:lang="uk">Додано підтримку Ollama Cloud.</li>
           <li>Allow to duplicate chat.</li>
           <li xml:lang="ar">اسمح بتكرار الدردشة.</li>
@@ -350,6 +370,7 @@
           <li xml:lang="nl">Sta dupliceren van chat toe.</li>
           <li xml:lang="pt-BR">Permite duplicar o bate-papo.</li>
           <li xml:lang="sl">Dovoli podvajanje klepeta.</li>
+          <li xml:lang="sv">Tillåt att duplicera chatt.</li>
           <li xml:lang="uk">Уможливлено дублювання спілкування.</li>
           <li>Add Ollama Keep Alive setting support.</li>
           <li xml:lang="ar">إضافة إعداد استبقاء أولاما.</li>
@@ -361,6 +382,7 @@
           <li xml:lang="nl">Ondersteuning voor instelling Ollama levend houden toevoegen.</li>
           <li xml:lang="pt-BR">Adicionada a opção "Manter vivo" para o Ollama.</li>
           <li xml:lang="sl">Doda podporo za nastavitev Ollama Keep Alive.</li>
+          <li xml:lang="sv">Tillägg av stöd för Ollama håll igång inställning.</li>
           <li xml:lang="uk">Додано підтримку параметри підтримки зв'язку з Ollama.</li>
           <li>Show Ollama log.</li>
           <li xml:lang="ar">أظهر سجل أولاما.</li>
@@ -372,6 +394,7 @@
           <li xml:lang="nl">Ollama-log tonen.</li>
           <li xml:lang="pt-BR">Mostra registro do Ollama.</li>
           <li xml:lang="sl">Prikazuje dnevnik Ollame.</li>
+          <li xml:lang="sv">Visa Ollama-logg.</li>
           <li xml:lang="uk">Показати журнал Ollama.</li>
           <li>Allow to expose Ollama to local network.</li>
           <li xml:lang="ar">اسمح بتعريض أولاما للشبكة المحلية.</li>
@@ -383,6 +406,7 @@
           <li xml:lang="nl">Sta toe dat Ollama blootgesteld wordt in het lokale netwerk.</li>
           <li xml:lang="pt-BR">Permitir que o Ollama seja exposto à rede local.</li>
           <li xml:lang="sl">Dovoljuje izpostavitev Ollame lokalnemu omrežju.</li>
+          <li xml:lang="sv">Tillåt att exponera Ollama på det lokala nätverket.</li>
           <li xml:lang="uk">Дозволити використання Ollama з локальної мережі.</li>
           <li>Add thinking support.</li>
           <li xml:lang="ar">أضف دعم التفكير.</li>
@@ -394,6 +418,7 @@
           <li xml:lang="nl">Ondersteuning voor denken toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao raciocínio.</li>
           <li xml:lang="sl">Doda podporo za razmišljanje.</li>
+          <li xml:lang="sv">Lägg till tankestöd.</li>
           <li xml:lang="uk">Додано підтримку обмірковування.</li>
         </ul>
       </description>
@@ -411,6 +436,7 @@
           <li xml:lang="nl">Toestaan blokcode naar klembord te kopiëren.</li>
           <li xml:lang="pt-BR">Permite copiar código de bloco para a área de transferência.</li>
           <li xml:lang="sl">Dovoli kopiranje blokovne kode v odložišče.</li>
+          <li xml:lang="sv">Tillåt att kopiera kodblock till klippbordet.</li>
           <li xml:lang="uk">Уможливлено копіювання блоків коду до буфера обміну даними.</li>
           <li>Show number of string found in statusbar.</li>
           <li xml:lang="ar">أظهر عدد السلاسل الموجودة في شريط الحالة.</li>
@@ -422,6 +448,7 @@
           <li xml:lang="nl">Toon het aantal gevonden tekenreeksen in de statusbalk.</li>
           <li xml:lang="pt-BR">Mostra o número de strings encontrados na barra de status.</li>
           <li xml:lang="sl">Prikazuje število najdenih nizov v statusni vrstici.</li>
+          <li xml:lang="sv">Visa antal hittade strängar på statusraden.</li>
           <li xml:lang="uk">Реалізовано показ кількості знайдених рядків на смужці стану.</li>
           <li>Implement quick search.</li>
           <li xml:lang="ar">تنفيذ البحث السريع.</li>
@@ -433,6 +460,7 @@
           <li xml:lang="nl">Snelle zoekactie implementeren.</li>
           <li xml:lang="pt-BR">Implementa a pesquisa rápida.</li>
           <li xml:lang="sl">Izvede hitro iskanje.</li>
+          <li xml:lang="sv">Implementera snabbsökning.</li>
           <li xml:lang="uk">Реалізовано швидкий пошук.</li>
           <li>Add quick search bar in quick ask dialog.</li>
           <li xml:lang="ar">أَضِف شريط بحث سريع في حوار السؤال السريع.</li>
@@ -444,6 +472,7 @@
           <li xml:lang="nl">Voeg een snelle zoekbalk toe in de dialoog snelle vraag.</li>
           <li xml:lang="pt-BR">Adiciona uma barra de pesquisa rápida na janela de perguntas rápidas.</li>
           <li xml:lang="sl">Doda vrstico za hitro iskanje v pogovorno okno za hitro vprašanje.</li>
+          <li xml:lang="sv">Lägg till snabbsökrad i frågedialogruta.</li>
           <li xml:lang="uk">Додано панель швидкого пошуку у вікні швидкого запиту.</li>
           <li>Add restore configure settings value.</li>
           <li xml:lang="ar">إضافة قيمة إعادة ضبط الإعدادات.</li>
@@ -455,6 +484,7 @@
           <li xml:lang="nl">Voeg waarde van instellingen van herstelconfiguratie.</li>
           <li xml:lang="pt-BR">Adiciona o valor de restauração das configurações.</li>
           <li xml:lang="sl">Doda vrednost za obnovo nastavitev konfiguracije.</li>
+          <li xml:lang="sv">Lägg till återställning av inställningsvärde.</li>
           <li xml:lang="uk">Додано значення для відновлення параметрів налаштувань.</li>
           <li>Allow to configure text to speech.</li>
           <li xml:lang="ar">اِسمح بضبط نطق النص.</li>
@@ -466,6 +496,7 @@
           <li xml:lang="nl">Sta configureren van tekst-naar-spraak toe.</li>
           <li xml:lang="pt-BR">Permite configurar texto para fala.</li>
           <li xml:lang="sl">Dovoljuje konfiguriranje pretvorbe besedila v govor.</li>
+          <li xml:lang="sv">Tillåt att anpassa text till tal.</li>
           <li xml:lang="uk">Уможливлено налаштовування озвучення тексту.</li>
           <li>Add tool plugin icon name.</li>
           <li xml:lang="ar">أضف اسم أيقونة الملحقة للأداة.</li>
@@ -477,6 +508,7 @@
           <li xml:lang="nl">Pictogramnaam van hulpmiddelplug-in toevoegen</li>
           <li xml:lang="pt-BR">Adiciona nome do ícone do plugin de ferramenta.</li>
           <li xml:lang="sl">Doda ime ikone vtičnika orodja.</li>
+          <li xml:lang="sv">Lägg till insticksprogrammets ikonnamn.</li>
           <li xml:lang="uk">Додано назву піктограми додатка інструменту.</li>
           <li>Add attachment support.</li>
           <li xml:lang="ar">إضافة دعم المرفقات.</li>
@@ -488,6 +520,7 @@
           <li xml:lang="nl">Ondersteuning voor bijlage toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a anexos.</li>
           <li xml:lang="sl">Doda podporo za priloge.</li>
+          <li xml:lang="sv">Lägg till stöd för bilagor.</li>
           <li xml:lang="uk">Додано підтримку долучень.</li>
           <li>Add new icon.</li>
           <li xml:lang="ar">إضافة أيقونة جديدة.</li>
@@ -499,6 +532,7 @@
           <li xml:lang="nl">Nieuw pictogram toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona novo ícone.</li>
           <li xml:lang="sl">Doda novo ikono.</li>
+          <li xml:lang="sv">Lägg till ny ikon.</li>
           <li xml:lang="uk">Додано нову піктограму.</li>
           <li>Add debug command line.</li>
           <li xml:lang="ar">إضافة سطر أوامر تنقيح.</li>
@@ -510,6 +544,7 @@
           <li xml:lang="nl">Opdrachtregel voor debuggen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona depuração da linha de comando.</li>
           <li xml:lang="sl">Doda ukazno vrstico za odpravljanje napak.</li>
+          <li xml:lang="sv">Lägg till kommandorad för felsökning.</li>
           <li xml:lang="uk">Додано параметр командного рядка для діагностики.</li>
           <li>Add wikipedia, weather tools plugins (provided by kaichat-addons).</li>
           <li xml:lang="ar">إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons).</li>
@@ -521,6 +556,7 @@
           <li xml:lang="nl">Voeg wikipedia toe, hulpmiddelplug-ins voor weer (geleverd door kaichat-addons).</li>
           <li xml:lang="pt-BR">Adicionada wikipedia, plug-ins de ferramentas meteorológicas (fornecidos por kaichat-addons).</li>
           <li xml:lang="sl">Doda vtičnike wikipedia, weather tools (zagotavlja kaichat-addons).</li>
+          <li xml:lang="sv">Lägg till Wkipedia, väderinsticksverktyg (tillhandahållna av kaichat-addons).</li>
           <li xml:lang="uk">Додано додатки Вікіпедії та прогнозу погоди (є частиною kaichat-addons).</li>
           <li>Store Pending Typed Info in Database.</li>
           <li xml:lang="ar">خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات.</li>
@@ -532,6 +568,7 @@
           <li xml:lang="nl">Sla wachtende getypte informatie op in de database.</li>
           <li xml:lang="pt-BR">Armazenar informações digitadas pendentes no banco de dados.</li>
           <li xml:lang="sl">Shrani čakajoče vnesene podatke v zbirko podatkov.</li>
+          <li xml:lang="sv">Lagra väntande inskriven information i databasen.</li>
           <li xml:lang="uk">Реалізовано збереження даних щодо черги введення у базі даних.</li>
           <li>Allow to add attachment files from command line.</li>
           <li xml:lang="ar">اسمح بإضافة ملفات مرفقة من سطر الأوامر.</li>
@@ -543,6 +580,7 @@
           <li xml:lang="nl">Sta het toevoegen van bestanden als bijlage toe vanaf de opdrachtregel.</li>
           <li xml:lang="pt-BR">Permitir adicionar arquivos anexos a partir da linha de comando.</li>
           <li xml:lang="sl">Dovoli dodajanje prilog iz ukazne vrstice.</li>
+          <li xml:lang="sv">Tillåt att bilägga filer från kommandoraden.</li>
           <li xml:lang="uk">Дозволено додавання файлів долучень з командного рядка.</li>
           <li>Add icon in configure ollama models.</li>
           <li xml:lang="ar">أضف أيقونة لضبط نماذج أولاما</li>
@@ -554,6 +592,7 @@
           <li xml:lang="nl">Pictogram toevoegen in configureren van ollama-modellen.</li>
           <li xml:lang="pt-BR">Adicionado ícone na configuração dos modelos ollama.</li>
           <li xml:lang="sl">Doda ikono v konfiguracijo modelov Ollama.</li>
+          <li xml:lang="sv">Lägg till ikon i inställda ollama-modeller.</li>
           <li xml:lang="uk">Додано піктограму для налаштовування моделей ollama.</li>
           <li>Allow to use specific Ollama environment variables.</li>
           <li xml:lang="ar">السماح باستخدام متغيرات بيئة أولااما محددة.</li>
@@ -565,6 +604,7 @@
           <li xml:lang="nl">Sta het gebruik van specifieke Ollama omgevingsvariabelen toe.</li>
           <li xml:lang="pt-BR">Permite o uso de variáveis ​​de ambiente específicas do Ollama.</li>
           <li xml:lang="sl">Dovoli uporabo določenih okoljskih spremenljivk Ollama.</li>
+          <li xml:lang="sv">Tillåt användning av specifika Ollama-miljövariabler.</li>
           <li xml:lang="uk">Надає змогу скористатися специфічними змінними середовища Ollama.</li>
           <li>Fix multi tools plugins call.</li>
           <li xml:lang="ar">إصلاح استدعاء محلقات متعددة الأدوات.</li>
@@ -576,6 +616,7 @@
           <li xml:lang="nl">Aanroepen van plug-ins van multi-hulpmiddelen repareren</li>
           <li xml:lang="pt-BR">Corrige a chamada de plugins de ferramentas múltiplas.</li>
           <li xml:lang="sl">Popravi klic vtičnikov za več orodij.</li>
+          <li xml:lang="sv">Rätta flera anrop till insticksverktyg.</li>
           <li xml:lang="uk">Виправлено виклик додатків із декількома інструментами</li>
         </ul>
       </description>
@@ -593,6 +634,7 @@
           <li xml:lang="nl">Dialoog van Snel vragen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona diálogo de pergunta rápida.</li>
           <li xml:lang="sl">Doda pogovorno okno za hitro vprašanje.</li>
+          <li xml:lang="sv">Lägg till snabbfrågedialogruta.</li>
           <li xml:lang="uk">Додано вікно швидкого питання.</li>
           <li>Allow to download Ollama on Windows/MacOs.</li>
           <li xml:lang="ar">اِسمح بتنزيل Ollama على ويندوز/ماك أو إس.</li>
@@ -604,6 +646,7 @@
           <li xml:lang="nl">Toestaan Ollama te downloaden op Windows/MacOs.</li>
           <li xml:lang="pt-BR">Permitir o download do Ollama no Windows/MacOs.</li>
           <li xml:lang="sl">Dovoljuje prenos Ollame v sistemih Windows/MacOs.</li>
+          <li xml:lang="sv">Tillåt nerladdning av Ollama på Windows och MacOs.</li>
           <li xml:lang="uk">Уможливлено отримання Ollama у Windows/MacOs.</li>
           <li>Use prompt during chating.</li>
           <li xml:lang="ar">اِستخدم مُوّجِّهًا أثناء الدردشة.</li>
@@ -615,6 +658,7 @@
           <li xml:lang="nl">Gebruik prompt tijdens chating.</li>
           <li xml:lang="pt-BR">Uso do prompt durante o bate-papo.</li>
           <li xml:lang="sl">Uporablja poziv Med klepetom.</li>
+          <li xml:lang="sv">Använd prompt under chatt.</li>
           <li xml:lang="uk">Реалізовано використання запиту під час спілкування.</li>
           <li>Add shared text and webshorcut plugin.</li>
           <li xml:lang="ar">أَضِف مُلْحَق النص المُشارَك واِختصار الويب.</li>
@@ -626,6 +670,7 @@
           <li xml:lang="nl">Plug-in voor gedeelde tekst en websneltoets toevoegen.</li>
           <li xml:lang="pt-BR">Adição dos plugins de texto compartilhado e de atalho da web.</li>
           <li xml:lang="sl">Doda vtičnik za skupno besedilo in spletne bližnjice.</li>
+          <li xml:lang="sv">Lägg till insticksprogram för delad text och webbgenvägar.</li>
           <li xml:lang="uk">Додано додаток оприлюднення тексту та вебскорочень.</li>
           <li>Allow to configure plugins.</li>
           <li xml:lang="ar">اِسمح بضبط المُلْحَقات.</li>
@@ -637,6 +682,7 @@
           <li xml:lang="nl">Sta configureren van plug-ins toe.</li>
           <li xml:lang="pt-BR">Permite configurar plugins.</li>
           <li xml:lang="sl">Dovoljuje konfiguriranje vtičnikov.</li>
+          <li xml:lang="sv">Tillåt att anpassa insticksprogram.</li>
           <li xml:lang="uk">Уможливлено налаштовування додатків.</li>
           <li>Add new update widget.</li>
           <li xml:lang="ar">أَضِف وَجيهة تحديث جديدة.</li>
@@ -648,6 +694,7 @@
           <li xml:lang="nl">Nieuw widget voor bijwerken toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona novo widget atualizado.</li>
           <li xml:lang="sl">Doda nov gradnik za posodobitve.</li>
+          <li xml:lang="sv">Lägg till ny grafisk uppdateringskomponent.</li>
           <li xml:lang="uk">Додано новий віджет оновлення.</li>
           <li>Add progress indicator in chats list.</li>
           <li xml:lang="ar">أَضِف مُؤشِّر تقدُّم في قائمة الدردشات.</li>
@@ -659,6 +706,7 @@
           <li xml:lang="nl">Voortgangsindicatie in chatlijst toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona indicador de progresso na lista de bate-papos.</li>
           <li xml:lang="sl">Doda kazalnik napredka na seznam klepetov.</li>
+          <li xml:lang="sv">Lägg till förloppsindikering i chattlistan.</li>
           <li xml:lang="uk">У списки спілкувань додано індикатор поступу.</li>
           <li>Allow to change font size.</li>
           <li xml:lang="ar">اِسمح بتغيير حجم الخط.</li>
@@ -670,6 +718,7 @@
           <li xml:lang="nl">Sta wijzigen van tekengrootte toe.</li>
           <li xml:lang="pt-BR">Permite alterar o tamanho da fonte.</li>
           <li xml:lang="sl">Dovoljuje spreminjanje velikosti pisave.</li>
+          <li xml:lang="sv">Tillåt att ändra teckenstorlek.</li>
           <li xml:lang="uk">Уможливлено зміну розміру шрифту.</li>
           <li>Add command line for adding new chat room, displaying list of instances.</li>
           <li xml:lang="ar">أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ.</li>
@@ -681,6 +730,7 @@
           <li xml:lang="nl">Opdrachtregel toevoegen voor toevoegen van nieuwe chatroom, die lijst met exemplaren toont.</li>
           <li xml:lang="pt-BR">Adiciona item de linha de comando para adicionar nova sala de bate-papo, exibindo lista de instâncias.</li>
           <li xml:lang="sl">Doda ukazno vrstico za dodajanje nove klepetalnice in prikaz seznama pojavkov.</li>
+          <li xml:lang="sv">Lägg till kommandorad för att lägga till nytt chattrum, som visar en lista över instanser.</li>
           <li xml:lang="uk">Додано параметр командного рядка для додавання нової кімнати спілкування, показу списку екземплярів.</li>
           <li>Add spell checking support.</li>
           <li xml:lang="ar">أَضِف دعم التدقيق الإملائي.</li>
@@ -692,6 +742,7 @@
           <li xml:lang="nl">Ondersteuning voor spellingcontrole toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à verificação ortográfica.</li>
           <li xml:lang="sl">Doda podporo za preverjanje črkovanja.</li>
+          <li xml:lang="sv">Lägg till stöd för stavningskontroll</li>
           <li xml:lang="uk">Додано підтримку перевірки правопису.</li>
           <li>Add Notification popup when model download done.</li>
           <li xml:lang="ar">أَضِف نافذة مُنبَثِقة للإشعارات عند تنزيل النموذج.</li>
@@ -703,6 +754,7 @@
           <li xml:lang="nl">Voeg opkomende melding toe wanneer downloaden van het model is gedaan.</li>
           <li xml:lang="pt-BR">Adicionar pop-up de notificação quando o download do modelo for concluído.</li>
           <li xml:lang="sl">Doda pojavno okno z obvestili, ko je prenos modela končan.</li>
+          <li xml:lang="sv">Lägg till underrättelsemeddelande när modellnerladdning klar.</li>
           <li xml:lang="uk">Додано контекстне сповіщення щодо завершення отримання моделі.</li>
           <li>Allow to save and restore text and scrollbar position.</li>
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة النص ومَوضِع شريط التمرير.</li>
@@ -714,6 +766,7 @@
           <li xml:lang="nl">Sta het opslaan en herstellen van tekst en schuifbalkpositie toe.</li>
           <li xml:lang="pt-BR">Permite salvar e restaurar texto e posição da barra de rolagem.</li>
           <li xml:lang="sl">Dovoljuje shranjevanje in obnavljanje besedila in položaja drsnika.</li>
+          <li xml:lang="sv">Tillåt att spara och återställa text och rullningslistposition.</li>
           <li xml:lang="uk">Дозволити збереження і відновлення тексту і позиції на смужці гортання.</li>
           <li>Allow to save and restore current chat.</li>
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة الدردشة الحالية.</li>
@@ -725,6 +778,7 @@
           <li xml:lang="nl">Sta het opslaan en herstellen van huidige chat toe.</li>
           <li xml:lang="pt-BR">Permite salvar e restaurar o bate-papo atual.</li>
           <li xml:lang="sl">Dovoljuje shranjevanje in obnovo trenutnega klepeta.</li>
+          <li xml:lang="sv">Tillåt att spara och återställa aktuell chatt.</li>
           <li xml:lang="uk">Дозволити збереження і відновлення поточного спілкування.</li>
           <li>Add option for showing list of title chats.</li>
           <li xml:lang="ar">أَضِف خيارًا لِعَرض قائمة عناوين الدردشات.</li>
@@ -736,6 +790,7 @@
           <li xml:lang="nl">Optie toevoegen voor het tonen van de lijst met titels van chats.</li>
           <li xml:lang="pt-BR">Adicionar opção para mostrar lista de títulos de bate-papos.</li>
           <li xml:lang="sl">Doda možnost za prikaz seznama naslovov klepetov.</li>
+          <li xml:lang="sv">Lägg till alternativ för att visa lista över chattitlar.</li>
           <li xml:lang="uk">Додано пункт для показу списку спілкувань із заголовками.</li>
           <li>Add tools support.</li>
           <li xml:lang="ar">أَضِف دعم الأدوات.</li>
@@ -747,6 +802,7 @@
           <li xml:lang="nl">Ondersteuning voor hulpmiddelen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à ferramentas.</li>
           <li xml:lang="sl">Doda podporo za orodja.</li>
+          <li xml:lang="sv">Lägg till verktygsstöd.</li>
           <li xml:lang="uk">Додано підтримку інструментів.</li>
           <li>Allow to switch from chat identifier.</li>
           <li xml:lang="ar">اِسمح بالانتقال من مُعرِّف الدردشة.</li>
@@ -758,6 +814,7 @@
           <li xml:lang="nl">Sta toe om te schakelen van identifier van chat.</li>
           <li xml:lang="pt-BR">Permite alternar entre identificador de bate-papo.</li>
           <li xml:lang="sl">Dovoljuje preklop z identifikatorja klepeta.</li>
+          <li xml:lang="sv">Tillåt att byta från chattidentifierare.</li>
           <li xml:lang="uk">Уможливлено перемикання з ідентифікатора спілкування.</li>
           <li>Add Current Date Time tool.</li>
           <li xml:lang="ar">أَضِف أداة الوقت والتاريخ الحالي.</li>
@@ -769,6 +826,7 @@
           <li xml:lang="nl">Voeg hulpmiddel datum tijd toe.</li>
           <li xml:lang="pt-BR">Adiciona ferramenta de data e hora atual</li>
           <li xml:lang="sl">Doda orodje za trenutni datum in čas.</li>
+          <li xml:lang="sv">Lägg till verktyg för aktuellt datum och tid.</li>
           <li xml:lang="uk">Додано інструмент поточної дати і часу.</li>
           <li>Add progress tool message info.</li>
           <li xml:lang="ar">أَضِف معلومات رسالة أداة التقدُّم.</li>
@@ -780,6 +838,7 @@
           <li xml:lang="nl">Hulpmiddel voor voortgangsbericht toevoegen</li>
           <li xml:lang="pt-BR">Adiciona mensagem informativa do progresso de ferramenta</li>
           <li xml:lang="sl">Doda informacije o sporočilu orodja za napredek.</li>
+          <li xml:lang="sv">Lägg till meddelandeinformation i förloppsverktyg..</li>
           <li xml:lang="uk">Додано інструмент поступу до відомостей щодо повідомлень.</li>
           <li>"Fix icon on windows.</li>
           <li xml:lang="ar">"إصلاح أيقونة في ويندوز</li>
@@ -791,6 +850,7 @@
           <li xml:lang="nl">"Pictogram op vensters repareren.</li>
           <li xml:lang="pt-BR">"Correção do ícone no Windows.</li>
           <li xml:lang="sl">"Popravi ikono na sistemu Windows."</li>
+          <li xml:lang="sv">"Rätta ikon på Windows.</li>
           <li xml:lang="uk">Виправлено піктограму у Windows.</li>
         </ul>
       </description>
@@ -809,6 +869,7 @@
           <li xml:lang="nl">Ondersteuning voor Wat is nieuw toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a 'O que há de novo'.</li>
           <li xml:lang="sl">Doda podporo za novosti.</li>
+          <li xml:lang="sv">Lägg till stöd för Vad är nytt.</li>
           <li xml:lang="uk">Додано підтримку показу новин щодо програми.</li>
           <li>Add instance support.</li>
           <li xml:lang="ar">أَضِف دعم النُسخ.</li>
@@ -820,6 +881,7 @@
           <li xml:lang="nl">Ondersteuning voor exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância.</li>
           <li xml:lang="sl">Doda podporo za pojavke.</li>
+          <li xml:lang="sv">Lägg till instansstöd.</li>
           <li xml:lang="uk">Додано підтримку екземплярів програми.</li>
           <li>Add Markdown support.</li>
           <li xml:lang="ar">أَضِف دعم مارك داون.</li>
@@ -831,6 +893,7 @@
           <li xml:lang="nl">Ondersteuning voor Markdown toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Markdown.</li>
           <li xml:lang="sl">Doda podporo za Markdown.</li>
+          <li xml:lang="sv">Lägg till stöd för Markdown.</li>
           <li xml:lang="uk">Додано підтримку Markdown.</li>
           <li>Add Highlighting support.</li>
           <li xml:lang="ar">أَضِف دعم التمييز.</li>
@@ -842,6 +905,7 @@
           <li xml:lang="nl">Ondersteuning voor accentuering.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao realce.</li>
           <li xml:lang="sl">Doda podporo za označevanje.</li>
+          <li xml:lang="sv">Lägg till stöd för syntaxfärgläggning.</li>
           <li xml:lang="uk">Додано підтримку підсвічування.</li>
         </ul>
       </description>
