@@ -120,6 +120,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de bifurcació de debat</li>
           <li xml:lang="cs">Přidána podpora diskusí ve větvích</li>
           <li xml:lang="es">Añadir compatibilidad con bifurcación de discusiones.</li>
+          <li xml:lang="it">Aggiunge il supporto per il fork delle discussioni.</li>
           <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor fork-discussie toevoegen</li>
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
@@ -132,6 +133,7 @@
           <li xml:lang="ca-valencia">Afig una instància «llamacpp»</li>
           <li xml:lang="cs">Přidána instance llamacpp</li>
           <li xml:lang="es">Añadir instancia de llamacpp.</li>
+          <li xml:lang="it">Aggiunge istanza llamacpp</li>
           <li xml:lang="ka">დაემატა გაშვებული ასლი llamacpp</li>
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
@@ -144,6 +146,7 @@
           <li xml:lang="ca-valencia">Afig el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="cs">Přidána podpora pro ChatGPT, Novita AI, DeepInfra a Qwen.</li>
           <li xml:lang="es">Añadir compatibilidad con ChatGPT, Novita AI, DeepInfra y Qwen.</li>
+          <li xml:lang="it">Aggiunge il supporto per ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="ka">დაემატა ChatGPT-ის, Novita AI-ის, DeepInfra-ის და Qwen-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor ChatGPT, Novita AI, DeepInfra, Qwen toevoegen.</li>
           <li xml:lang="pt-BR">Adicionado suporte à ChatGPT, Novita AI, DeepInfra e Qwen.</li>
@@ -156,6 +159,7 @@
           <li xml:lang="ca-valencia">Afig una opció per a iniciar Ollama local.</li>
           <li xml:lang="cs">Přidána možnost CLI pro spuštění lokální instance Ollamy.</li>
           <li xml:lang="es">Añadir opción de la línea de órdenes para lanzar Ollama localmente.</li>
+          <li xml:lang="it">Aggiunge l'opzione da riga di comando per avviare Ollama locale.</li>
           <li xml:lang="ka">დაემატა CLI-ის პარამეტრი ლოკალური Ollama-ის გასაშვებად.</li>
           <li xml:lang="nl">CLI-optie toevoegen voor het starten van lokaal Ollama.</li>
           <li xml:lang="pt-BR">Adiciona opção de CLI para iniciar o Ollama localmente.</li>
@@ -168,6 +172,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de D-Bus.</li>
           <li xml:lang="cs">Přidána podpora DBus.</li>
           <li xml:lang="es">Añadir compatibilidad con DBus.</li>
+          <li xml:lang="it">Aggiunge il supporto DBus.</li>
           <li xml:lang="ka">დაემატა DBus-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor DBus toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao DBus.</li>
@@ -180,6 +185,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de connectors interns.</li>
           <li xml:lang="cs">Přidána podpora interních modulů.</li>
           <li xml:lang="es">Añadir implementación de complementos internos.</li>
+          <li xml:lang="it">Aggiunge il supporto per le estensioni interne.</li>
           <li xml:lang="ka">დაემატა შიდა დამატების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor interne plug-in toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à plugin interno.</li>
@@ -192,6 +198,7 @@
           <li xml:lang="ca-valencia">Afig la implementació del servidor MCP.</li>
           <li xml:lang="cs">Přidána podpora serveru MCP.</li>
           <li xml:lang="es">Añadir compatibilidad con servidor MCP.</li>
+          <li xml:lang="it">Aggiunge il supporto Server MCP.</li>
           <li xml:lang="ka">დაემატა MCP სერვერის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor MCP-server toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao servidor MCP.</li>
@@ -204,6 +211,7 @@
           <li xml:lang="ca-valencia">Mostra les metadades de les eines internes.</li>
           <li xml:lang="cs">Zobrazení metadat interních nástrojů.</li>
           <li xml:lang="es">Mostrar metadatos internos de las herramientas.</li>
+          <li xml:lang="it">Mostra i metadati degli strumenti interni.</li>
           <li xml:lang="ka">შიდა ხელსაწყოების მეტამონაცემთა ჩვენება.</li>
           <li xml:lang="nl">Toon metagegevens van interne hulpmiddelen.</li>
           <li xml:lang="pt-BR">Mostrar metadados das ferramentas internas.</li>
@@ -216,6 +224,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de KCM.</li>
           <li xml:lang="cs">Přidána podpora KCM.</li>
           <li xml:lang="es">Añadir compatibilidad con KCM.</li>
+          <li xml:lang="it">Aggiunge il supporto KCM.</li>
           <li xml:lang="ka">დაემატა KCM-ის მხარდაჭერა.</li>
           <li xml:lang="nl">KCM-ondersteuning toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao KCM.</li>
@@ -228,6 +237,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de la instància Sarvam.</li>
           <li xml:lang="cs">Přidána podpora instance Sarvam.</li>
           <li xml:lang="es">Añadir compatibilidad con la instancia de Sarvam.</li>
+          <li xml:lang="it">Aggiunge il supporto dell'istanza Sarvam.</li>
           <li xml:lang="ka">დაემატა Sarvam-ის გაშვებული ასლების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor Sarvam-exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância do Sarvam.</li>
@@ -240,6 +250,7 @@
           <li xml:lang="ca-valencia">Afig un diàleg de depuració de la base de dades.</li>
           <li xml:lang="cs">Přidáno dialogové okno pro ladění databáze.</li>
           <li xml:lang="es">Añadir diálogo de depuración de la base de datos.</li>
+          <li xml:lang="it">Aggiunge la finestra di debug del database.</li>
           <li xml:lang="ka">დაემატა მონაცემთა ბაზის გამართვის დიალოგური ფანჯარა.</li>
           <li xml:lang="nl">Voeg een dialoogvenster voor databasefoutopsporing toe.</li>
           <li xml:lang="pt-BR">Adicionada caixa de diálogo de depuração do banco de dados.</li>
@@ -252,6 +263,7 @@
           <li xml:lang="ca-valencia">Mostra informació de resposta sobre la duració, nombre de segments textuals, etc.</li>
           <li xml:lang="cs">Zobrazení informace o odpovědi, jako je doba trvání, počet tokenů atd.</li>
           <li xml:lang="es">Mostrar información de respuesta sobre duración, número de tókenes, etc.</li>
+          <li xml:lang="it">Visualizza le informazioni di risposta relative alla durata, al numero di token, ecc.</li>
           <li xml:lang="ka">პასუხის ინფორმაციის ჩვენება ხანგრძლივობის, ტოკენების რაოდენობის და ა.შ. ჩვენება.</li>
           <li xml:lang="nl">Toon antwoordinformatie over de duur, het aantal tokens, enz.</li>
           <li xml:lang="pt-BR">Exibir informações da resposta sobre a duração, número de tokens, etc.</li>
@@ -264,6 +276,7 @@
           <li xml:lang="ca-valencia">Permet exportar com a PDF.</li>
           <li xml:lang="cs">Povolen export do formátu PDF.</li>
           <li xml:lang="es">Permitir exportar como PDF.</li>
+          <li xml:lang="it">Consente l'esportazione in formato PDF.</li>
           <li xml:lang="ka">PDF-ში გატანის დაშვება.</li>
           <li xml:lang="nl">Sta exporteren als PDF toe.</li>
           <li xml:lang="pt-BR">Permite exportar como PDF.</li>
@@ -276,6 +289,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de LMStudio.</li>
           <li xml:lang="cs">Přidána podpora pro LMStudio.</li>
           <li xml:lang="es">Añadir compatibilidad con LMStudio.</li>
+          <li xml:lang="it">Aggiunge il supporto per LMStudio</li>
           <li xml:lang="ka">დაემატა LMStudio-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor LMStudio toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao LMStudio.</li>
@@ -294,6 +308,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'instàncies Grok.</li>
           <li xml:lang="cs">Přidána podpora instance Grok.</li>
           <li xml:lang="es">Se ha añadido la implementación de Grok.</li>
+          <li xml:lang="it">Aggiunge il supporto per l'istanza Grok.</li>
           <li xml:lang="ka">დაემატა Grok-ის გაშვებული ასლების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor Grok-exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância do Grok.</li>
@@ -306,6 +321,7 @@
           <li xml:lang="ca-valencia">Afig la implementació dels comentaris de l'usuari.</li>
           <li xml:lang="cs">Přidána podpora zpětné vazby od uživatelů.</li>
           <li xml:lang="es">Añadir compatibilidad con comentarios del usuario.</li>
+          <li xml:lang="it">Aggiunge il supporto per le segnalazioni degli utenti.</li>
           <li xml:lang="ka">დაემატა მომხმარებლის უკუკავშირის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning terugkoppeling van gebruiker toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a feedback do usuário.</li>
@@ -318,6 +334,7 @@
           <li xml:lang="ca-valencia">Permet mostrar la informació del model.</li>
           <li xml:lang="cs">Povoleno zobrazovat informace o modelu.</li>
           <li xml:lang="es">Permitir que se muestre información del modelo.</li>
+          <li xml:lang="it">Consente di mostrare le informazioni sul modello.</li>
           <li xml:lang="ka">მოდელის ინფორმაციის ჩვენების დაშვება.</li>
           <li xml:lang="nl">Sta tonen van modelinformatie toe.</li>
           <li xml:lang="pt-BR">Permite mostrar informações do modelo.</li>
@@ -330,6 +347,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'importació de xats.</li>
           <li xml:lang="cs">Přidána podpora importu konverzace.</li>
           <li xml:lang="es">Se ha añadido la posibilidad de importar conversaciones.</li>
+          <li xml:lang="it">Aggiungere il supporto per l'importazione delle chat.</li>
           <li xml:lang="ka">დაემატა ჩატის შემოტანის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor chat importeren toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a importação de bate-papo.</li>
@@ -342,6 +360,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'Ollama en línia.</li>
           <li xml:lang="cs">Přidána podpora pro Ollama Online.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Online.</li>
+          <li xml:lang="it">Aggiunge il supporto per Ollama in linea.</li>
           <li xml:lang="ka">დაემატა Ollama Online-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor Ollama online toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Online.</li>
@@ -354,6 +373,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'Ollama al núvol.</li>
           <li xml:lang="cs">Přidána podpora pro Ollama Cloud.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Cloud.</li>
+          <li xml:lang="it">Aggiunge il supporto per Ollama Cloud.</li>
           <li xml:lang="ka">დაემატა Ollama Cloud-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor Ollama Cloud toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Ollama Cloud.</li>
@@ -366,6 +386,7 @@
           <li xml:lang="ca-valencia">Permet duplicar el xat.</li>
           <li xml:lang="cs">Povoleno duplikování konverzace.</li>
           <li xml:lang="es">Permitir duplicar la conversación.</li>
+          <li xml:lang="it">Consente di duplicare la chat.</li>
           <li xml:lang="ka">ჩატის დუბლირების დაშვება.</li>
           <li xml:lang="nl">Sta dupliceren van chat toe.</li>
           <li xml:lang="pt-BR">Permite duplicar o bate-papo.</li>
@@ -378,6 +399,7 @@
           <li xml:lang="ca-valencia">Afig la implementació del paràmetre «Keep Alive» d'Ollama.</li>
           <li xml:lang="cs">Přidána podpora nastavení Keep Alive pro Ollamu.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con los ajustes de mantener activo Ollama.</li>
+          <li xml:lang="it">Aggiunge il supporto per l'impostazione Keep Alive di Ollama.</li>
           <li xml:lang="ka">დაემატა Ollama Keep Alive-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor instelling Ollama levend houden toevoegen.</li>
           <li xml:lang="pt-BR">Adicionada a opção "Manter vivo" para o Ollama.</li>
@@ -390,6 +412,7 @@
           <li xml:lang="ca-valencia">Mostra el registre d'Ollama.</li>
           <li xml:lang="cs">Zobrazení protokolu Ollama.</li>
           <li xml:lang="es">Mostrar el registro de Ollama.</li>
+          <li xml:lang="it">Mostra il registro di Ollama.</li>
           <li xml:lang="ka">Ollama-ის ჟურნალის ჩვენება.</li>
           <li xml:lang="nl">Ollama-log tonen.</li>
           <li xml:lang="pt-BR">Mostra registro do Ollama.</li>
@@ -402,6 +425,7 @@
           <li xml:lang="ca-valencia">Permet exposar Ollama a la xarxa local.</li>
           <li xml:lang="cs">Povoleno zpřístupnit Ollamu v místní síti.</li>
           <li xml:lang="es">Permitir la exposición de Ollama a la red local.</li>
+          <li xml:lang="it">Consente di esporre Ollama alla rete locale.</li>
           <li xml:lang="ka">Ollama-ის ლოკალურ ქსელში გამოჩენის დაშვება.</li>
           <li xml:lang="nl">Sta toe dat Ollama blootgesteld wordt in het lokale netwerk.</li>
           <li xml:lang="pt-BR">Permitir que o Ollama seja exposto à rede local.</li>
@@ -414,6 +438,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de pensament.</li>
           <li xml:lang="cs">Přidána podpora uvažování.</li>
           <li xml:lang="es">Se ha añadido la compatibilidad con el pensamiento.</li>
+          <li xml:lang="it">Aggiunge supporto al pensiero.</li>
           <li xml:lang="ka">დაემატა ფიქრის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor denken toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao raciocínio.</li>
@@ -432,6 +457,7 @@
           <li xml:lang="ca-valencia">Permet copiar blocs de codi al porta-retalls.</li>
           <li xml:lang="cs">Povoleno kopírovat blok kódu do schránky.</li>
           <li xml:lang="es">Permitir copiar código de bloque al portapapeles.</li>
+          <li xml:lang="it">Consenti di copiare il codice del blocco negli appunti.</li>
           <li xml:lang="ka">ბლოკის კოდის ბუფერში კოპირების დაშვება.</li>
           <li xml:lang="nl">Toestaan blokcode naar klembord te kopiëren.</li>
           <li xml:lang="pt-BR">Permite copiar código de bloco para a área de transferência.</li>
@@ -444,6 +470,7 @@
           <li xml:lang="ca-valencia">Mostra el nombre de cadenes trobades a la barra d'estat.</li>
           <li xml:lang="cs">Zobrazení počtu nalezených řetězců na stavové liště.</li>
           <li xml:lang="es">Mostrar el número de cadenas encontradas en la barra de estado.</li>
+          <li xml:lang="it">Mostra il numero di stringhe trovate nella barra di stato.</li>
           <li xml:lang="ka">ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში.</li>
           <li xml:lang="nl">Toon het aantal gevonden tekenreeksen in de statusbalk.</li>
           <li xml:lang="pt-BR">Mostra o número de strings encontrados na barra de status.</li>
@@ -456,6 +483,7 @@
           <li xml:lang="ca-valencia">Implementa la busca ràpida.</li>
           <li xml:lang="cs">Implementace rychlého hledání.</li>
           <li xml:lang="es">Implementación de la búsqueda rápida.</li>
+          <li xml:lang="it">Implementa la ricerca rapida.</li>
           <li xml:lang="ka">განხორციელდა სწრაფი ძებნა.</li>
           <li xml:lang="nl">Snelle zoekactie implementeren.</li>
           <li xml:lang="pt-BR">Implementa a pesquisa rápida.</li>
@@ -468,6 +496,7 @@
           <li xml:lang="ca-valencia">Afig la barra de busca ràpida al diàleg de pregunta ràpida.</li>
           <li xml:lang="cs">Do dialogového okna rychlého dotazu přidán panel pro rychlé vyhledávání.</li>
           <li xml:lang="es">Añadir la barra de búsqueda rápida en el diálogo de pregunta rápida.</li>
+          <li xml:lang="it">Aggiunge una barra di ricerca rapida nella finestra di richiesta rapida.</li>
           <li xml:lang="ka">დაემატა სწრაფი ძებნის პანელი სწრაფი კითხვის დიალოგში.</li>
           <li xml:lang="nl">Voeg een snelle zoekbalk toe in de dialoog snelle vraag.</li>
           <li xml:lang="pt-BR">Adiciona uma barra de pesquisa rápida na janela de perguntas rápidas.</li>
@@ -480,6 +509,7 @@
           <li xml:lang="ca-valencia">Afig la restauració de la configuració del valor de les opcions.</li>
           <li xml:lang="cs">Přidána hodnota pro obnovení nastavení konfigurace.</li>
           <li xml:lang="es">Añadir valor para restaurar la configuración.</li>
+          <li xml:lang="it">Aggiunge il valore di configurazione delle impostazioni di ripristino.</li>
           <li xml:lang="ka">დაემატა პარამეტრების კონფიგურაციის მნიშვნელობის აღდგენა.</li>
           <li xml:lang="nl">Voeg waarde van instellingen van herstelconfiguratie.</li>
           <li xml:lang="pt-BR">Adiciona o valor de restauração das configurações.</li>
@@ -492,6 +522,7 @@
           <li xml:lang="ca-valencia">Permet configurar el text a veu.</li>
           <li xml:lang="cs">Umožněno nastavit funkci převodu textu na řeč.</li>
           <li xml:lang="es">Permitir la configuración de texto a voz.</li>
+          <li xml:lang="it">Consenti di configurare la conversione da testo a voce.</li>
           <li xml:lang="ka">ტექსტის წარმოთქმის მორგების დაშვება.</li>
           <li xml:lang="nl">Sta configureren van tekst-naar-spraak toe.</li>
           <li xml:lang="pt-BR">Permite configurar texto para fala.</li>
@@ -504,6 +535,7 @@
           <li xml:lang="ca-valencia">Afig el nom d'icona del connector d'eina.</li>
           <li xml:lang="cs">Přidán název ikony modulu nástroje.</li>
           <li xml:lang="es">Añadir nombre de icono de complemento.</li>
+          <li xml:lang="it">Aggiungi il nome dell'icona dell'estensione.</li>
           <li xml:lang="ka">დაემატა ხელსაწყოს დამატების ხატულას სახელი.</li>
           <li xml:lang="nl">Pictogramnaam van hulpmiddelplug-in toevoegen</li>
           <li xml:lang="pt-BR">Adiciona nome do ícone do plugin de ferramenta.</li>
@@ -516,6 +548,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'adjunts.</li>
           <li xml:lang="cs">Přidána podpora příloh.</li>
           <li xml:lang="es">Se ha añadido la implementación de adjuntar.</li>
+          <li xml:lang="it">Aggiunge il supporto degli allegati.</li>
           <li xml:lang="ka">დაემატა ფაილების მიმაგრების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor bijlage toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a anexos.</li>
@@ -528,6 +561,7 @@
           <li xml:lang="ca-valencia">Afig una icona nova.</li>
           <li xml:lang="cs">Přidána nová ikona.</li>
           <li xml:lang="es">Añadir nuevo icono.</li>
+          <li xml:lang="it">Aggiunge una nuova icona.</li>
           <li xml:lang="ka">დაემატა ახალი ხატულა.</li>
           <li xml:lang="nl">Nieuw pictogram toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona novo ícone.</li>
@@ -540,6 +574,7 @@
           <li xml:lang="ca-valencia">Afig una línia d'ordres de depuració.</li>
           <li xml:lang="cs">Přidán příkazový řádek pro ladění.</li>
           <li xml:lang="es">Añadir línea de órdenes de depuración.</li>
+          <li xml:lang="it">Aggiunge la riga di comando per il debug.</li>
           <li xml:lang="ka">დაემატა გამართვის ბრძანების სტრიქონი.</li>
           <li xml:lang="nl">Opdrachtregel voor debuggen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona depuração da linha de comando.</li>
@@ -552,6 +587,7 @@
           <li xml:lang="ca-valencia">Afig els connectors d'eines de la Viquipèdia, meteorologia (proporcionades per kaichat-addons).</li>
           <li xml:lang="cs">Přidány moduly pro Wikipedii a nástroje pro předpověď počasí (poskytované kaichat-addons).</li>
           <li xml:lang="es">Añadir wikipedia, complementos de herramientas meteorológicas (proporcionados por kaichat-addons).</li>
+          <li xml:lang="it">Aggiunge le estensioni per gli strumenti wikipedia, meteo (forniti da kaichat-addons).</li>
           <li xml:lang="ka">დაემატა ვიკიპედიის და ამინდის დამატებები (მოგაწოდებთ kaichat-addons).</li>
           <li xml:lang="nl">Voeg wikipedia toe, hulpmiddelplug-ins voor weer (geleverd door kaichat-addons).</li>
           <li xml:lang="pt-BR">Adicionada wikipedia, plug-ins de ferramentas meteorológicas (fornecidos por kaichat-addons).</li>
@@ -564,6 +600,7 @@
           <li xml:lang="ca-valencia">Emmagatzema la informació teclejada pendent a la base de dades.</li>
           <li xml:lang="cs">Ukládání informace o čekajících zadáních do databáze.</li>
           <li xml:lang="es">Guardar información escrita pendiente en la base de datos.</li>
+          <li xml:lang="it">Memorizza le informazioni digitate in sospeso nella banca dati.</li>
           <li xml:lang="ka">დარჩენილი აკრეფილი ინფორმაციის შენახვა მონაცემთა ბაზაში.</li>
           <li xml:lang="nl">Sla wachtende getypte informatie op in de database.</li>
           <li xml:lang="pt-BR">Armazenar informações digitadas pendentes no banco de dados.</li>
@@ -576,6 +613,7 @@
           <li xml:lang="ca-valencia">Permet afegir fitxers adjunts des de la línia d'ordres.</li>
           <li xml:lang="cs">Povoleno přidávat přílohy z příkazového řádku.</li>
           <li xml:lang="es">Permitir adjuntar archivos en la línea de la orden.</li>
+          <li xml:lang="it">Consente di aggiungere allegati dalla riga di comando.</li>
           <li xml:lang="ka">ბრძანების სტრიქონიდან მიმაგრებული ფაილების დამატების დაშვება.</li>
           <li xml:lang="nl">Sta het toevoegen van bestanden als bijlage toe vanaf de opdrachtregel.</li>
           <li xml:lang="pt-BR">Permitir adicionar arquivos anexos a partir da linha de comando.</li>
@@ -588,6 +626,7 @@
           <li xml:lang="ca-valencia">Afig la icona a la configuració dels models Ollama.</li>
           <li xml:lang="cs">Do nastavení modelů Ollama přidána ikona.</li>
           <li xml:lang="es">Añadir icono en la configuración de modelos de Ollama.</li>
+          <li xml:lang="it">Aggiunge l'icona nella configurazione dei modelli ollama.</li>
           <li xml:lang="ka">დაემატა ხატულა ollama-ის მოდელების მოსარგებად.</li>
           <li xml:lang="nl">Pictogram toevoegen in configureren van ollama-modellen.</li>
           <li xml:lang="pt-BR">Adicionado ícone na configuração dos modelos ollama.</li>
@@ -600,6 +639,7 @@
           <li xml:lang="ca-valencia">Permet utilitzar variables d'entorn específiques d'Ollama.</li>
           <li xml:lang="cs">Povoleno používat specifické proměnné prostředí Ollama.</li>
           <li xml:lang="es">Permitir el uso de variables de entorno específicas de Ollama.</li>
+          <li xml:lang="it">Consentire l'uso di variabili d'ambiente specifiche di Ollama.</li>
           <li xml:lang="ka">Ollama-ის მითითებული გარემოს ცვლადების გამოყენების დაშვება.</li>
           <li xml:lang="nl">Sta het gebruik van specifieke Ollama omgevingsvariabelen toe.</li>
           <li xml:lang="pt-BR">Permite o uso de variáveis ​​de ambiente específicas do Ollama.</li>
@@ -612,6 +652,7 @@
           <li xml:lang="ca-valencia">Corregix la crida als connectors multieines.</li>
           <li xml:lang="cs">Opraveno volání modulů pro multifunkční nástroje.</li>
           <li xml:lang="es">Corregir llamada de múltiples complementos.</li>
+          <li xml:lang="it">Corregge l'invocazione delle estensioni multi-strumento.</li>
           <li xml:lang="ka">გასწორდა ერთზე მეტი ხელსაწყოს დამატების გამოძახება.</li>
           <li xml:lang="nl">Aanroepen van plug-ins van multi-hulpmiddelen repareren</li>
           <li xml:lang="pt-BR">Corrige a chamada de plugins de ferramentas múltiplas.</li>
@@ -630,6 +671,7 @@
           <li xml:lang="ca-valencia">Afig el diàleg de pregunta ràpida.</li>
           <li xml:lang="cs">Přidáno dialogové okno pro rychlý dotaz.</li>
           <li xml:lang="es">Añadir diálogo de pregunta rápida.</li>
+          <li xml:lang="it">Aggiunge finestra Domanda rapida.</li>
           <li xml:lang="ka">სწრაფი კითხვის დიალოგის დამატება.</li>
           <li xml:lang="nl">Dialoog van Snel vragen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona diálogo de pergunta rápida.</li>
@@ -642,6 +684,7 @@
           <li xml:lang="ca-valencia">Permet baixar Ollama en Windows/MacOs.</li>
           <li xml:lang="cs">Umožněno stahování aplikace Ollama na Windows/MacOS.</li>
           <li xml:lang="es">Permitir la descarga de Ollama en Windows/macOS.</li>
+          <li xml:lang="it">Consente di scaricare Ollama su Windows/MacOs.</li>
           <li xml:lang="ka">Ollama-ის გადმოწერის დაშვება Windows/macOS-ზე.</li>
           <li xml:lang="nl">Toestaan Ollama te downloaden op Windows/MacOs.</li>
           <li xml:lang="pt-BR">Permitir o download do Ollama no Windows/MacOs.</li>
@@ -654,6 +697,7 @@
           <li xml:lang="ca-valencia">Utilitza un indicador durant el xat.</li>
           <li xml:lang="cs">Použití promptů během konverzace.</li>
           <li xml:lang="es">Usar instrucciones durante la conversación.</li>
+          <li xml:lang="it">Utilizzo del prompt durante la chat.</li>
           <li xml:lang="ka">მოთხოვნის ზოლის გამოყენება ჩატისას.</li>
           <li xml:lang="nl">Gebruik prompt tijdens chating.</li>
           <li xml:lang="pt-BR">Uso do prompt durante o bate-papo.</li>
@@ -666,6 +710,7 @@
           <li xml:lang="ca-valencia">Afegit el text compartit i el connector de dreceres web.</li>
           <li xml:lang="cs">Přidán modul pro sdílení textu a webových odkazů.</li>
           <li xml:lang="es">Añadir el complemento de texto compartido y atajo web.</li>
+          <li xml:lang="it">Aggiunge testo condiviso e l'estensione di collegamento web.</li>
           <li xml:lang="ka">დაემატა გაზიარებული ტექსტის და ვებ-მალსახმობის დამატება.</li>
           <li xml:lang="nl">Plug-in voor gedeelde tekst en websneltoets toevoegen.</li>
           <li xml:lang="pt-BR">Adição dos plugins de texto compartilhado e de atalho da web.</li>
@@ -678,6 +723,7 @@
           <li xml:lang="ca-valencia">Permet configurar connectors.</li>
           <li xml:lang="cs">Povoleno nastavení modulů.</li>
           <li xml:lang="es">Permitir la configuración de complementos.</li>
+          <li xml:lang="it">Consente di configurare le estensioni.</li>
           <li xml:lang="ka">დამატებების მორგების დაშვება.</li>
           <li xml:lang="nl">Sta configureren van plug-ins toe.</li>
           <li xml:lang="pt-BR">Permite configurar plugins.</li>
@@ -690,6 +736,7 @@
           <li xml:lang="ca-valencia">Afig un giny nou d'actualització.</li>
           <li xml:lang="cs">Přidán nový aktualizační widget.</li>
           <li xml:lang="es">Añadir nuevo elemento de actualización.</li>
+          <li xml:lang="it">Aggiunge un nuovo oggetto di aggiornamento.</li>
           <li xml:lang="ka">ახალი განახლების ვიჯეტის დამატება.</li>
           <li xml:lang="nl">Nieuw widget voor bijwerken toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona novo widget atualizado.</li>
@@ -702,6 +749,7 @@
           <li xml:lang="ca-valencia">Afig un indicador de progrés a la llista de xats.</li>
           <li xml:lang="cs">Do seznamu konverzace přidán indikátor průběhu.</li>
           <li xml:lang="es">Añadir indicador de avance en la lista de conversaciones.</li>
+          <li xml:lang="it">Aggiunge un indicatore di avanzamento nell'elenco delle chat.</li>
           <li xml:lang="ka">მიმდინარეობის მაჩვენების დამატება ჩატების სიასი.</li>
           <li xml:lang="nl">Voortgangsindicatie in chatlijst toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona indicador de progresso na lista de bate-papos.</li>
@@ -714,6 +762,7 @@
           <li xml:lang="ca-valencia">Permet canviar la mida de la lletra.</li>
           <li xml:lang="cs">Povoleno měnit velikost písma.</li>
           <li xml:lang="es">Permitir el cambio del tamaño del texto.</li>
+          <li xml:lang="it">Consente di configurare la dimensione del carattere.</li>
           <li xml:lang="ka">ფონტის ზომის შეცვლის დაშვება.</li>
           <li xml:lang="nl">Sta wijzigen van tekengrootte toe.</li>
           <li xml:lang="pt-BR">Permite alterar o tamanho da fonte.</li>
@@ -726,6 +775,7 @@
           <li xml:lang="ca-valencia">Afig una línia d'ordres per a afegir una sala de xat nova, mostrant la llista d'instàncies.</li>
           <li xml:lang="cs">Přidán příkaz pro vytvoření nové místnosti a zobrazení seznamu instancí.</li>
           <li xml:lang="es">Añadir línea de órdenes para añadir nueva sala de charla, mostrando la lista de instancias.</li>
+          <li xml:lang="it">Aggiunge la riga di comando per aggiungere una nuova stanza di chat, visualizzando l'elenco delle istanze.</li>
           <li xml:lang="ka">დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და გაშვებული ასლების სიის გამოსატანად.</li>
           <li xml:lang="nl">Opdrachtregel toevoegen voor toevoegen van nieuwe chatroom, die lijst met exemplaren toont.</li>
           <li xml:lang="pt-BR">Adiciona item de linha de comando para adicionar nova sala de bate-papo, exibindo lista de instâncias.</li>
@@ -738,6 +788,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de la verificació ortogràfica.</li>
           <li xml:lang="cs">Přidána podpora kontroly pravopisu.</li>
           <li xml:lang="es">Añadir Corrección ortográfica.</li>
+          <li xml:lang="it">Aggiunge il supporto per il controllo ortografico.</li>
           <li xml:lang="ka">დაემატა მართლწერის შემოწმების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor spellingcontrole toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à verificação ortográfica.</li>
@@ -750,6 +801,7 @@
           <li xml:lang="ca-valencia">Afig una finestra emergent de notificació quan s'ha efectuat la baixada del model.</li>
           <li xml:lang="cs">Přidáno vyskakovací okno s oznámením po dokončení stahování modelu.</li>
           <li xml:lang="es">Añadir ventana emergente de notificación cuando termine la descarga del modelo.</li>
+          <li xml:lang="it">Aggiunge una finestra a comparsa di notifica al termine dello scaricamento del modello.</li>
           <li xml:lang="ka">გაფრთხილების მხტუნარას დამატება მოდელის გადმოწერის დასრულებსიას.</li>
           <li xml:lang="nl">Voeg opkomende melding toe wanneer downloaden van het model is gedaan.</li>
           <li xml:lang="pt-BR">Adicionar pop-up de notificação quando o download do modelo for concluído.</li>
@@ -762,6 +814,7 @@
           <li xml:lang="ca-valencia">Permet guardar i restaurar el text i la posició de la barra de desplaçament.</li>
           <li xml:lang="cs">Umožněno ukládat a obnovovat text a polohu posuvníku.</li>
           <li xml:lang="es">Permitir guardar y restaurar texto y posición en la barra de desplazamiento.</li>
+          <li xml:lang="it">Consente di salvare e ripristinare il testo e la posizione della barra di scorrimento.</li>
           <li xml:lang="ka">ტექსტისა და ჩოჩიას მდებარეობის შენახვისა და აღდგენის დაშვება.</li>
           <li xml:lang="nl">Sta het opslaan en herstellen van tekst en schuifbalkpositie toe.</li>
           <li xml:lang="pt-BR">Permite salvar e restaurar texto e posição da barra de rolagem.</li>
@@ -774,6 +827,7 @@
           <li xml:lang="ca-valencia">Permet guardar i restaurar el xat actual.</li>
           <li xml:lang="cs">Umožněno uložení a obnovení aktuální konverzace.</li>
           <li xml:lang="es">Permitir guardar y restaurar la conversación actual.</li>
+          <li xml:lang="it">Consente di salvare e ripristinare la chat attuale.</li>
           <li xml:lang="ka">მიმდინარე ჩატის შენახვისა და აღდგენის დაშვება.</li>
           <li xml:lang="nl">Sta het opslaan en herstellen van huidige chat toe.</li>
           <li xml:lang="pt-BR">Permite salvar e restaurar o bate-papo atual.</li>
@@ -786,6 +840,7 @@
           <li xml:lang="ca-valencia">Afig una opció per a mostrar la llista dels títols dels xats.</li>
           <li xml:lang="cs">Přidána možnost zobrazení seznamu konverzací podle názvu.</li>
           <li xml:lang="es">Añadir opción para mostrar la lista de títulos de conversaciones.</li>
+          <li xml:lang="it">Aggiunge l'opzione per mostrare delle chat dei titoli.</li>
           <li xml:lang="ka">დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად.</li>
           <li xml:lang="nl">Optie toevoegen voor het tonen van de lijst met titels van chats.</li>
           <li xml:lang="pt-BR">Adicionar opção para mostrar lista de títulos de bate-papos.</li>
@@ -798,6 +853,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'eines.</li>
           <li xml:lang="cs">Přidána podpora nástrojů.</li>
           <li xml:lang="es">Añadir uso de herramientas.</li>
+          <li xml:lang="it">Aggiunge il supporto per gli </li>
           <li xml:lang="ka">დაემატა ხელსაწყოების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor hulpmiddelen toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à ferramentas.</li>
@@ -810,6 +866,7 @@
           <li xml:lang="ca-valencia">Permet canviar a partir d'un identificador de xat.</li>
           <li xml:lang="cs">Umožněno přepnutí z identifikátoru konverzace.</li>
           <li xml:lang="es">Permitir cambiar a identificador de conversación.</li>
+          <li xml:lang="it">Consente di passare dall'identificatore di chat.</li>
           <li xml:lang="ka">ჩატის იდენტიფიკატორიდან გადართვის დაშვება.</li>
           <li xml:lang="nl">Sta toe om te schakelen van identifier van chat.</li>
           <li xml:lang="pt-BR">Permite alternar entre identificador de bate-papo.</li>
@@ -822,6 +879,7 @@
           <li xml:lang="ca-valencia">Afig l'eina de data i hora actuals.</li>
           <li xml:lang="cs">Přidán nástroj pro zobrazení aktuálního data a času.</li>
           <li xml:lang="es">Añadir herramienta de fecha y hora actual.</li>
+          <li xml:lang="it">Aggiungi lo strumento Data e ora attuali.</li>
           <li xml:lang="ka">დაემატა მიმდინარე თარიღისა და დროის ხელსაწყო.</li>
           <li xml:lang="nl">Voeg hulpmiddel datum tijd toe.</li>
           <li xml:lang="pt-BR">Adiciona ferramenta de data e hora atual</li>
@@ -834,6 +892,7 @@
           <li xml:lang="ca-valencia">Afig informació del missatge de progrés de l'eina.</li>
           <li xml:lang="cs">Přidány informace o stavových hlášeních.</li>
           <li xml:lang="es">Añadir mensaje informativo de avance.</li>
+          <li xml:lang="it">Aggiungi informazioni sul messaggio dello strumento di avanzamento.</li>
           <li xml:lang="ka">დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია.</li>
           <li xml:lang="nl">Hulpmiddel voor voortgangsbericht toevoegen</li>
           <li xml:lang="pt-BR">Adiciona mensagem informativa do progresso de ferramenta</li>
@@ -846,6 +905,7 @@
           <li xml:lang="ca-valencia">Corregix una icona en Windows.</li>
           <li xml:lang="cs">Opravena ikona ve Windows.</li>
           <li xml:lang="es">Corregir icono de Windows.</li>
+          <li xml:lang="it">Corregge l'icona sulle finestre.</li>
           <li xml:lang="ka">* გასწორდა ხატულა Windows-ზე.</li>
           <li xml:lang="nl">"Pictogram op vensters repareren.</li>
           <li xml:lang="pt-BR">"Correção do ícone no Windows.</li>
@@ -865,6 +925,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de Què hi ha de nou.</li>
           <li xml:lang="cs">Přidána podpora pro novinky.</li>
           <li xml:lang="es">Se ha añadido la implementación de novedades.</li>
+          <li xml:lang="it">Aggiungi il supporto per le novità.</li>
           <li xml:lang="ka">დაემატა მენიუ 'რა არის ახალი'.</li>
           <li xml:lang="nl">Ondersteuning voor Wat is nieuw toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte a 'O que há de novo'.</li>
@@ -877,6 +938,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'instàncies.</li>
           <li xml:lang="cs">Přidána podpora instancí.</li>
           <li xml:lang="es">Se ha añadido la implementación de instancias.</li>
+          <li xml:lang="it">Aggiunge il supporto delle istanze.</li>
           <li xml:lang="ka">დაემატა გაშვებული ასლების მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância.</li>
@@ -889,6 +951,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de Markdown.</li>
           <li xml:lang="cs">Přidána podpora Markdown.</li>
           <li xml:lang="es">Añadir compatibilidad con Markdown.</li>
+          <li xml:lang="it">Aggiunge il supporto Markdown.</li>
           <li xml:lang="ka">დაემატა Markdown-ის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor Markdown toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao Markdown.</li>
@@ -901,6 +964,7 @@
           <li xml:lang="ca-valencia">Afig la implementació del ressaltat.</li>
           <li xml:lang="cs">Přidána podpora zvýrazňování.</li>
           <li xml:lang="es">Se ha añadido la implementación de resaltado.</li>
+          <li xml:lang="it">Aggiunge il supporto per l'evidenziazione.</li>
           <li xml:lang="ka">დაემატა გამოკვეთის მხარდაჭერა.</li>
           <li xml:lang="nl">Ondersteuning voor accentuering.</li>
           <li xml:lang="pt-BR">Adiciona suporte ao realce.</li>
