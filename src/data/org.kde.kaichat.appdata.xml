@@ -115,7 +115,8 @@
   </categories>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
-    <release version="0.8.0" type="snapshot">
+    <release version="0.9.0" type="snapshot"/>
+    <release version="0.8.0" date="2026-07-03">
       <description>
         <ul>
           <li>Add fork discussion support</li>
