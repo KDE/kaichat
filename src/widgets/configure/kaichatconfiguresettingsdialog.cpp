@@ -19,8 +19,8 @@
 #include <KWindowConfig>
 #include <QPushButton>
 #include <QWindow>
+#include <TextAddonsWidgets/LoadDialogSizeUtils>
 #include <TextAutoGenerateText/TextAutoGenerateTextConfigurePluginsWidget>
-
 #if HAVE_KUSERFEEDBACK
 #include "kaichatconfigureuserfeedbackwidget.h"
 #endif
@@ -112,10 +112,7 @@ KAIChatConfigureSettingsDialog::~KAIChatConfigureSettingsDialog()
 void KAIChatConfigureSettingsDialog::readConfig()
 {
     create(); // ensure a window is created
-    windowHandle()->resize(QSize(800, 600));
-    const KConfigGroup group(KSharedConfig::openStateConfig(), QLatin1StringView(myConfigGroupName));
-    KWindowConfig::restoreWindowSize(windowHandle(), group);
-    resize(windowHandle()->size()); // workaround for QTBUG-40584
+    TextAddonsWidgets::LoadDialogSizeUtils::loadDialogSizeScaled(this, QLatin1StringView(myConfigGroupName), 800, 600);
 }
 
 void KAIChatConfigureSettingsDialog::writeConfig()
