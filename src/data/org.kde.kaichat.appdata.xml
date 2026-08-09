@@ -119,6 +119,16 @@
       <description>
         <ul>
           <li>Add OrcaRouter</li>
+          <li xml:lang="ca">Afegeix OrcaRouter</li>
+          <li xml:lang="ca-valencia">Afig OrcaRouter</li>
+          <li xml:lang="cs">Přidán OrcaRouter</li>
+          <li xml:lang="ka">დაემატა OrcaRouter</li>
+          <li xml:lang="nl">OrcaRouter toevoegen</li>
+          <li xml:lang="pt-BR">Adicionar OrcaRouter</li>
+          <li xml:lang="sl">Dodaj OrcaRouter</li>
+          <li xml:lang="sv">Lägg till OrcaRouter</li>
+          <li xml:lang="tr">OrcaRouter’ı Ekle</li>
+          <li xml:lang="uk">Додано OrcaRouter</li>
         </ul>
       </description>
     </release>
