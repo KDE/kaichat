@@ -102,7 +102,6 @@
                     "type": "git",
                     "url": "https://invent.kde.org/utilities/kaichat.git",
                     "branch": "master"
-
                 }
             ],
             "config-opts": [
