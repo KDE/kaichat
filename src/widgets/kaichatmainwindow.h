@@ -47,7 +47,6 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs);
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowArchive(bool checked);
     LIBKAICHATWIDGETS_NO_EXPORT void setupActions();
-    LIBKAICHATWIDGETS_NO_EXPORT void slotClose();
     LIBKAICHATWIDGETS_NO_EXPORT void slotConfigure();
     LIBKAICHATWIDGETS_NO_EXPORT void slotToggleMenubar(bool dontShowWarning);
     LIBKAICHATWIDGETS_NO_EXPORT void updateHamburgerMenu();
@@ -66,7 +65,6 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotImportInfoRequested();
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowDatabaseMessages();
     LIBKAICHATWIDGETS_NO_EXPORT void slotExportDone(const QString &fileName);
-    bool mReallyClose{false};
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
     KToggleFullScreenAction *mShowFullScreenAction = nullptr;

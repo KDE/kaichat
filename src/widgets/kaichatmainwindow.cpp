@@ -162,7 +162,7 @@ void KAIChatMainWindow::setupActions()
     auto manager = KColorSchemeManager::instance();
     ac->addAction(u"colorscheme_menu"_s, KColorSchemeMenu::createMenu(manager, this));
 
-    KStandardActions::quit(this, &KAIChatMainWindow::slotClose, ac);
+    KStandardActions::quit(this, &KAIChatMainWindow::close, ac);
     KStandardActions::preferences(this, &KAIChatMainWindow::slotConfigure, ac);
 
     KStandardActions::configureNotifications(this, &KAIChatMainWindow::slotConfigureNotifications, ac);
@@ -249,12 +249,6 @@ void KAIChatMainWindow::updateHamburgerMenu()
     auto menu = new QMenu(this);
     menu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Quit)));
     mHamburgerMenu->setMenu(menu);
-}
-
-void KAIChatMainWindow::slotClose()
-{
-    mReallyClose = true;
-    close();
 }
 
 void KAIChatMainWindow::slotFullScreen(bool t)
