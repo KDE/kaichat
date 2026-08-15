@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-04 00:48+0000\n"
+"POT-Creation-Date: 2026-08-15 00:49+0000\n"
 "PO-Revision-Date: 2025-06-19 10:20+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -532,20 +532,20 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:305
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>Isto agocha a barra de menú. Prema %1 para amosala de novo.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:308
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Agochar a barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:344
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Export as Json…"
@@ -553,7 +553,7 @@ msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Exportar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:357
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Export as Json…"
@@ -561,12 +561,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:467
+#: widgets/kaichatmainwindow.cpp:461
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:468
+#: widgets/kaichatmainwindow.cpp:462
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr ""

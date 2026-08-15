@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-04 00:48+0000\n"
+"POT-Creation-Date: 2026-08-15 00:49+0000\n"
 "PO-Revision-Date: 2026-05-26 21:47+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -519,7 +519,7 @@ msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "빠른 질문 열기…"
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:305
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -527,30 +527,30 @@ msgid ""
 msgstr ""
 "<qt>메뉴 표시줄을 완전히 숨깁니다. %1 키를 눌러서 다시 볼 수 있습니다.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:308
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "메뉴 표시줄 숨기기"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:344
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "대화 가져오기"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:357
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "대화 내보내기"
 
-#: widgets/kaichatmainwindow.cpp:467
+#: widgets/kaichatmainwindow.cpp:461
 #, kde-format
 msgid "Model Download Done"
 msgstr "모델 다운로드 완료됨"
 
-#: widgets/kaichatmainwindow.cpp:468
+#: widgets/kaichatmainwindow.cpp:462
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 모델을 다운로드했습니다."
