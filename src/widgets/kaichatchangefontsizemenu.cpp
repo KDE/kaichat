@@ -40,13 +40,15 @@ void KAIChatChangeFontSizeMenu::changeFontSize(int offset)
     if (TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
         f = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->generalFont();
     } else {
-        TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setUseCustomFont(true);
         f = qApp->font();
     }
     const int newSize = f.pointSize() + offset;
     if (newSize < 5 || newSize > 30) {
         qCDebug(KAICHAT_WIDGET_LOG) << " We can't use font size < 5 or > 30";
         return;
+    }
+    if (!TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useCustomFont()) {
+        TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setUseCustomFont(true);
     }
     f.setPointSize(newSize);
     TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setGeneralFont(f);
