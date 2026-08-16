@@ -129,6 +129,7 @@
           <li xml:lang="ka">დაემატა OrcaRouter</li>
           <li xml:lang="nl">OrcaRouter toevoegen</li>
           <li xml:lang="pt-BR">Adicionar OrcaRouter</li>
+          <li xml:lang="sk">Pridaný OrcaRouter</li>
           <li xml:lang="sl">Dodaj OrcaRouter</li>
           <li xml:lang="sv">Lägg till OrcaRouter</li>
           <li xml:lang="tr">OrcaRouter’ı Ekle</li>
@@ -150,6 +151,7 @@
           <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor fork-discussie toevoegen.</li>
           <li xml:lang="pt-BR">Adicionar suporte para discussão sobre forks</li>
+          <li xml:lang="sk">Podpora rozvetvenia diskusie</li>
           <li xml:lang="sl">Doda razcepitev podpore debate</li>
           <li xml:lang="sv">Tillägg av stöd för delning av diskussioner</li>
           <li xml:lang="tr">Tartışma çatallama desteği</li>
@@ -165,6 +167,7 @@
           <li xml:lang="ka">დაემატა llamacpp-ის გაშვებული ასლების მხარდაჭერა</li>
           <li xml:lang="nl">llamacpp-exemplaar toevoegen</li>
           <li xml:lang="pt-BR">Adiciona instância do llamacpp</li>
+          <li xml:lang="sk">Pridaná inštancia llamacpp</li>
           <li xml:lang="sl">Doda pojavek llamacpp</li>
           <li xml:lang="sv">Tillägg av llamacpp-instans</li>
           <li xml:lang="tr">llamacpp örneği desteği</li>
