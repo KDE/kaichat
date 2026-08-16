@@ -50,9 +50,12 @@ void PurposeMenuWidget::slotInitializeShareMenu()
     mTemporaryShareFile = new QTemporaryFile();
     if (!mTemporaryShareFile->open()) {
         qWarning() << "Impossible to open temporary file";
+        delete mTemporaryShareFile;
+        mTemporaryShareFile = nullptr;
+        return;
     }
-    mTemporaryShareFile->setPermissions(QFile::ReadUser);
     mTemporaryShareFile->write(text());
+    mTemporaryShareFile->setPermissions(QFile::ReadUser);
     mTemporaryShareFile->close();
     mShareMenu->model()->setInputData(
         QJsonObject{{u"urls"_s, QJsonArray{{QUrl::fromLocalFile(mTemporaryShareFile->fileName()).toString()}}}, {u"mimeType"_s, {u"text/plain"_s}}});
