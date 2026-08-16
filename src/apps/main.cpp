@@ -202,9 +202,10 @@ int main(int argc, char *argv[])
     KSignalHandler::self()->watchSignal(SIGTERM);
     QObject::connect(KSignalHandler::self(), &KSignalHandler::signalReceived, &app, [mw](int signal) {
         if (signal == SIGINT || signal == SIGTERM) {
-            printf("Shutting down...\n");
             if (!mw->hasChatInProgress()) {
                 mw->close();
+            } else {
+                printf("Don't close during an active chat...\n");
             }
         }
     });
