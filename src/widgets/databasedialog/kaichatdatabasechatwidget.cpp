@@ -10,6 +10,7 @@
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
 #include <QMenu>
+#include <QSortFilterProxyModel>
 #include <QTableWidget>
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
@@ -45,7 +46,9 @@ void KAIChatDatabaseChatWidget::slotShowContextMenu(const QPoint &pos)
     QMenu menu(this);
     auto selectChat = new QAction(i18nc("@action", "Select Chat"), &menu);
     connect(selectChat, &QAction::triggered, this, [this, qmi]() {
-        const QModelIndex chatIdModelIndex = mModel->index(qmi.row(), 0);
+        const QModelIndex newModelIndex = mSortFilterProxyModel->mapToSource(qmi);
+
+        const QModelIndex chatIdModelIndex = mModel->index(newModelIndex.row(), 0);
         const QByteArray chatId = chatIdModelIndex.data().toByteArray();
         // qDebug() << " chatId  " << chatId;
         Q_EMIT showMessageFromChatIdRequested(chatId);
