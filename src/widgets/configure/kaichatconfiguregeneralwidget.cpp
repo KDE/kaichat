@@ -35,6 +35,7 @@ void KAIChatConfigureGeneralWidget::save()
 {
     KAIChatGlobalConfig::self()->setEnableSystemTray(mEnableSystemTray->isChecked());
     mManager->setSystemPrompt(mConfigurePromptWidget->systemPrompt());
+    KAIChatGlobalConfig::self()->save();
 }
 
 void KAIChatConfigureGeneralWidget::load()
