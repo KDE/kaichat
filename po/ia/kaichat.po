@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-05-22 12:08+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
@@ -242,17 +242,17 @@ msgstr ""
 msgid "Share Text…"
 msgstr "Compartir texto…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Il ha un problema a impartir le documento: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "File esseva compartite."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Tu pote trovar le nove requesta a:<br /><a href='%1'>%1</a> </qt>"
@@ -374,7 +374,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Cerca…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -604,19 +604,14 @@ msgstr "Information de conto"
 msgid "Return the number of account."
 msgstr "Rtorna le numero de conto."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Permitte exportar texto in plugins de editor autogenerate."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr "Permitte exportar texto in plugins de editor autogenerate."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "Un nove widget de cosa es nove."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Un nove widget de cosa es nove."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "Nove plugin: monstra grandor de collection."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Nove plugin: monstra grandor de collection."
 
 #~ msgid "AI Chat"
 #~ msgstr "Chat (Conversation in directo) de AI (IA)"

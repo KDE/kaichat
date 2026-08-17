@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-07-09 13:56+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -239,17 +239,17 @@ msgstr "Serveur MCP"
 msgid "Share Text…"
 msgstr "Partager du texte..."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Un problème est survenu lors du partage du document : %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "Le fichier a été partagé."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
@@ -373,7 +373,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Rechercher…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -603,21 +603,16 @@ msgstr "Informations de compte"
 msgid "Return the number of account."
 msgstr "Retourner le nombre de comptes."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
-"Autoriser l'exportation de texte dans les modules externes de l'éditeur de "
-"génération automatique."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr ""
+#~ "Autoriser l'exportation de texte dans les modules externes de l'éditeur "
+#~ "de génération automatique."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "Ajouter un nouveau composant graphique « Quoi de neuf »."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Ajouter un nouveau composant graphique « Quoi de neuf »."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "Nouveau module externe : afficher la taille de la collection."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Nouveau module externe : afficher la taille de la collection."
 
 #~ msgid "AI Chat"
 #~ msgstr "Discussion avec une IA"

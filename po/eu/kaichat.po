@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-07-02 08:26+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -251,17 +251,17 @@ msgstr "MCP zerbitzariak"
 msgid "Share Text…"
 msgstr "Partekatu testua..."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Arazoa bat egon da dokumentua partekatzean: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "Fitxategia partekatu da."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Eskaera berria hemen aurki dezakezu:<br /><a href='%1'>%1</a></qt>"
@@ -383,7 +383,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, fuzzy, kde-format
 #| msgid "Chat Name"
 msgctxt "@action"
@@ -624,19 +624,15 @@ msgstr "Kontuaren informazioa"
 msgid "Return the number of account."
 msgstr "Kontuaren zenbakia itzuli."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Automatikoki sortzeko editore-pluginetako testua esportatzea baimendu."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr ""
+#~ "Automatikoki sortzeko editore-pluginetako testua esportatzea baimendu."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "Zerberri trepeta berria gehitu."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Zerberri trepeta berria gehitu."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "Plugin berria: erakutsi bildumaren neurria."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Plugin berria: erakutsi bildumaren neurria."
 
 #~ msgid "AI Chat"
 #~ msgstr "AA berriketa"

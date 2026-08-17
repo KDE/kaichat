@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-06-16 08:52+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -244,17 +244,17 @@ msgstr "Servidor MCP"
 msgid "Share Text…"
 msgstr "Compartix el text…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "S'ha produït un problema mentre es compartia el document: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "S'ha compartit el fitxer."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Trobareu la sol·licitud nova a:<br /><a href='%1'>%1</a></qt>"
@@ -376,7 +376,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Busca…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -606,16 +606,12 @@ msgstr "Informació del compte"
 msgid "Return the number of account."
 msgstr "Retorna el nombre de comptes."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "Permet exportar text en connectors d'editor de generació automàtica."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr ""
+#~ "Permet exportar text en connectors d'editor de generació automàtica."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "Afig un giny nou «Què hi ha de nou»."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Afig un giny nou «Què hi ha de nou»."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "Connector nou: mostra la mida de la col·lecció."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Connector nou: mostra la mida de la col·lecció."

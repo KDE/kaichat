@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -242,17 +242,17 @@ msgstr "MCP 服务器"
 msgid "Share Text…"
 msgstr "分享文本..."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "分享文档时出错：%1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "文件已分享。"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>您的新请求位于：<br /><a href='%1'>%1</a> </qt>"
@@ -374,7 +374,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -601,16 +601,11 @@ msgstr "账户信息"
 msgid "Return the number of account."
 msgstr "返回帐号个数."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "允许在自动生成编辑器插件中导出文本。"
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr "允许在自动生成编辑器插件中导出文本。"
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "添加新的 “whatsnew” 小部件。"
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "添加新的 “whatsnew” 小部件。"
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "新插件：显示集合大小。"
+#~ msgid "New plugin: show collection size."
+#~ msgstr "新插件：显示集合大小。"

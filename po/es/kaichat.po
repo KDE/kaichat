@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-06-16 15:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -244,17 +244,17 @@ msgstr "Servidor MCP"
 msgid "Share Text…"
 msgstr "Compartir texto…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Ha ocurrido un problema al compartir el documento: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "El archivo se ha compartido."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
@@ -377,7 +377,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Buscar…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -607,18 +607,13 @@ msgstr "Información de la cuenta"
 msgid "Return the number of account."
 msgstr "Devolver el número de la cuenta."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr ""
-"Permitir exportación de texto en los complementos de generación automática "
-"del editor."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr ""
+#~ "Permitir exportación de texto en los complementos de generación "
+#~ "automática del editor."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "Añadir nuevo elemento de novedades."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Añadir nuevo elemento de novedades."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "Nuevo complemento: mostrar el tamaño de la colección."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Nuevo complemento: mostrar el tamaño de la colección."

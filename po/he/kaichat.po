@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-06-16 09:56+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -243,17 +243,17 @@ msgstr "שרת MCP"
 msgid "Share Text…"
 msgstr "שיתוף טקסט…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "אירעה בעיה בשיתוף המסמך: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "הקובץ שותף."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>אפשר למצוא את הבקשה החדשה תחת:<br /><a href='%1'>%1</a> </qt>"
@@ -375,7 +375,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "חיפוש…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -607,19 +607,14 @@ msgstr "פרטי החשבון"
 msgid "Return the number of account."
 msgstr "החזרת מספר חשבון."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "לאפשר לייצא טקסט בתוספי עורך ליצירה אוטומטית."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr "לאפשר לייצא טקסט בתוספי עורך ליצירה אוטומטית."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "הוספת וידג׳ט חדש להצגת מה חדש."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "הוספת וידג׳ט חדש להצגת מה חדש."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "תוסף חדש: הצגת גודל אוסף."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "תוסף חדש: הצגת גודל אוסף."
 
 #~ msgid "AI Chat"
 #~ msgstr "שיחה עם בינה מלאכותית"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-06-16 07:22+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -243,17 +243,17 @@ msgstr "MCP სერვერი"
 msgid "Share Text…"
 msgstr "ტექსტის გაზიარება…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "პრობლემა დოკუმენტის გაზიარებისას: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "ფაილი გაზიარდა."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
@@ -377,7 +377,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "ძებნა…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -607,19 +607,14 @@ msgstr "ანგარიშის ინფორმაცია"
 msgid "Return the number of account."
 msgstr "ანგარიშების რაოდენობის დაბრუნება."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "ტექსტის გატანის დაშვება ავტოგენერაციის რედაქტორის დამატებებში."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr "ტექსტის გატანის დაშვება ავტოგენერაციის რედაქტორის დამატებებში."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "ახალი სიახლეების ვიჯეტის დამატება."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "ახალი სიახლეების ვიჯეტის დამატება."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "ახალი დამატება: კოლექციის ზომის ჩვენება."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "ახალი დამატება: კოლექციის ზომის ჩვენება."
 
 #~ msgid "AI Chat"
 #~ msgstr "ხი-სთან ჩატი"

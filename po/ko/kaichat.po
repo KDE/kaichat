@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:49+0000\n"
+"POT-Creation-Date: 2026-08-17 00:49+0000\n"
 "PO-Revision-Date: 2026-05-26 21:47+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -242,17 +242,17 @@ msgstr "MCP 서버"
 msgid "Share Text…"
 msgstr "텍스트 공유…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:66
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "문서 공유 중 문제 발생: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:70
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
 msgstr "파일을 공유했습니다."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:72
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>다음에서 새 요청을 찾을 수 있습니다:<br /><a href='%1'>%1</a></qt>"
@@ -374,7 +374,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "검색…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, fuzzy, kde-format
 #| msgid "Chat Name"
 msgctxt "@action"
@@ -606,19 +606,14 @@ msgstr "계정 정보"
 msgid "Return the number of account."
 msgstr "계정 개수를 반환합니다."
 
-#: widgets/whatsnewtranslations.cpp:16
-msgid "Allow to export text in autogenerate editor plugins."
-msgstr "자동 생성 편집기 플러그인에서 텍스트 내보내기를 허용합니다."
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr "자동 생성 편집기 플러그인에서 텍스트 내보내기를 허용합니다."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "Add new whatsnew widget."
-msgstr "새 새로운 항목 위젯을 추가합니다."
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "새 새로운 항목 위젯을 추가합니다."
 
-#: widgets/whatsnewtranslations.cpp:25
-#, kde-format
-msgid "New plugin: show collection size."
-msgstr "새 플러그인: 모음집 크기 표시."
+#~ msgid "New plugin: show collection size."
+#~ msgstr "새 플러그인: 모음집 크기 표시."
 
 #, fuzzy
 #~| msgid "KAIChat"
