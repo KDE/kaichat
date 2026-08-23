@@ -10,7 +10,6 @@
 #include "currentdatetimetoolpluginutils.h"
 #include <KLocalizedString>
 #include <KPluginFactory>
-#include <QPointer>
 K_PLUGIN_CLASS_WITH_JSON(CurrentDateTimeToolPlugin, "textautogeneratetext_currentdatetimeplugin.json")
 
 using namespace Qt::Literals::StringLiterals;
