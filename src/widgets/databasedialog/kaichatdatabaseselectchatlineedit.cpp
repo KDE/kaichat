@@ -41,8 +41,9 @@ void KAIChatDatabaseSelectChatLineEdit::slotSearchTextEdited(const QString &str)
             });
         }
     }
-    mCompletionListModel->setCompletionInfos(lstInfos);
-    if (lstInfos.isEmpty()) {
+    const bool hasNoCompletion = lstInfos.isEmpty();
+    mCompletionListModel->setCompletionInfos(std::move(lstInfos));
+    if (hasNoCompletion) {
         mCompletionListView->hide();
     }
 }

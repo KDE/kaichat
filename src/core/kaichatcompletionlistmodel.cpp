@@ -44,12 +44,12 @@ QList<KAIChatCompletionListModel::CompletionInfo> KAIChatCompletionListModel::co
     return mCompletionInfos;
 }
 
-void KAIChatCompletionListModel::setCompletionInfos(const QList<CompletionInfo> &newCompletionInfos)
+void KAIChatCompletionListModel::setCompletionInfos(QList<CompletionInfo> newCompletionInfos)
 {
     clear();
     if (!newCompletionInfos.isEmpty()) {
         beginInsertRows(QModelIndex(), 0, newCompletionInfos.count() - 1);
-        mCompletionInfos = newCompletionInfos;
+        mCompletionInfos = std::move(newCompletionInfos);
         endInsertRows();
     }
 }

@@ -341,12 +341,12 @@ void KAIChatMainWindow::slotSearchText()
 
 void KAIChatMainWindow::slotImportInfoRequested()
 {
-    const QString fileName = QFileDialog::getOpenFileName(this, i18nc("@title:window", "Import Chats"), QDir::homePath(), mImportMenu->fileFilter());
+    QString fileName = QFileDialog::getOpenFileName(this, i18nc("@title:window", "Import Chats"), QDir::homePath(), mImportMenu->fileFilter());
     if (fileName.isEmpty()) {
         return;
     }
     const TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{
-        .filename = fileName,
+        .filename = std::move(fileName),
         .chatTitle = {} // TODO ?
     };
     mImportMenu->setImportChatInfo(std::move(info));
@@ -354,12 +354,12 @@ void KAIChatMainWindow::slotImportInfoRequested()
 
 void KAIChatMainWindow::slotExportInfoRequested()
 {
-    const QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Chats"), QDir::homePath(), mExportMenu->fileFilter());
+    QString fileName = QFileDialog::getSaveFileName(this, i18nc("@title:window", "Export Chats"), QDir::homePath(), mExportMenu->fileFilter());
     if (fileName.isEmpty()) {
         return;
     }
     const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo info{
-        .filename = fileName,
+        .filename = std::move(fileName),
         .chatTitle = mMainWidget->chatCurrentTitle(),
         .listMessages = mMainWidget->messagesFromCurrentChat(),
     };
@@ -432,10 +432,10 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     }
 
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat))) {
-        const QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
+        QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
         auto job = new TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob(this);
         const TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::ImportChatInfo info{
-            .filename = importFileName,
+            .filename = std::move(importFileName),
             .chatTitle = {},
         };
         job->setInfo(info);
@@ -449,7 +449,9 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         job->start();
     }
 
-    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = message, .attachments = lstAttachments, .tools = tools};
+    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = std::move(message),
+                                                                             .attachments = std::move(lstAttachments),
+                                                                             .tools = std::move(tools)};
     if (info.isValid()) {
         mManager->ask(info);
     }

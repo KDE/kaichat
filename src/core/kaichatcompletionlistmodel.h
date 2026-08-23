@@ -34,7 +34,7 @@ public:
     [[nodiscard]] QVariant data(const QModelIndex &index, int role) const override;
 
     [[nodiscard]] QList<CompletionInfo> completionInfos() const;
-    void setCompletionInfos(const QList<CompletionInfo> &newCompletionInfos);
+    void setCompletionInfos(QList<CompletionInfo> newCompletionInfos);
 
 private:
     LIBKAICHATCORE_NO_EXPORT void clear();
