@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-17 00:49+0000\n"
+"POT-Creation-Date: 2026-08-24 00:48+0000\n"
 "PO-Revision-Date: 2026-06-16 11:07+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -259,16 +259,16 @@ msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
 "<qt>Het nieuwe verzoek kunt u vinden op:<br /><a href='%1'>%1</a> </qt>"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
 msgstr "De huidige datum tijd"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Huidige datum tijd ophalen"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Dit hulpmiddel gebruiken om de huidige datum tijd op te halen"
@@ -453,11 +453,6 @@ msgstr "Als JSON exporteren…"
 msgid "kaichat"
 msgstr "kaichat"
 
-#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
-#, kde-format
-msgid "Json File"
-msgstr "Json-bestand"
-
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
 msgctxt "@action"
@@ -545,12 +540,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Chats exporteren"
 
-#: widgets/kaichatmainwindow.cpp:461
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model Download Done"
 msgstr "Downloaden van model gedaan"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:464
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 was gedownload."
@@ -605,6 +600,9 @@ msgstr "Account-informatie"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Het nummer van het account teruggeven."
+
+#~ msgid "Json File"
+#~ msgstr "Json-bestand"
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr ""

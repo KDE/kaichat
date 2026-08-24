@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-17 00:49+0000\n"
+"POT-Creation-Date: 2026-08-24 00:48+0000\n"
 "PO-Revision-Date: 2026-06-16 06:15-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -259,16 +259,16 @@ msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr ""
 "<qt>Você pode encontrar a nova solicitação em:<br /><a href='%1'>%1</a> </qt>"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
 msgstr "A data e hora atual"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Obter a data e hora atual"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Use essa ferramenta para obter a data e hora atual"
@@ -453,11 +453,6 @@ msgstr "Exportar como JSON…"
 msgid "kaichat"
 msgstr "kaichat"
 
-#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
-#, kde-format
-msgid "Json File"
-msgstr "Arquivo json"
-
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
 msgctxt "@action"
@@ -545,12 +540,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar bate-papo"
 
-#: widgets/kaichatmainwindow.cpp:461
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model Download Done"
 msgstr "Download do modelo concluído"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:464
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "O modelo %1 foi baixado."
@@ -605,6 +600,9 @@ msgstr "Informações da conta"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Retorna o número da conta."
+
+#~ msgid "Json File"
+#~ msgstr "Arquivo json"
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr "Permitir exportar texto em plugins de edição de geração automática."

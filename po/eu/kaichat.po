@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-17 00:49+0000\n"
+"POT-Creation-Date: 2026-08-24 00:48+0000\n"
 "PO-Revision-Date: 2026-07-02 08:26+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -266,16 +266,16 @@ msgstr "Fitxategia partekatu da."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Eskaera berria hemen aurki dezakezu:<br /><a href='%1'>%1</a></qt>"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
 msgstr "Uneko data ordua"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Lortu Uneko Daata Ordua"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Erabili tresna hau uneko data ordua lortzeko"
@@ -468,11 +468,6 @@ msgstr "Esportatu JSON gisa…"
 msgid "kaichat"
 msgstr "kaichat"
 
-#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
-#, kde-format
-msgid "Json File"
-msgstr "JSON fitxategia"
-
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
 msgctxt "@action"
@@ -562,12 +557,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esportatu berriketak"
 
-#: widgets/kaichatmainwindow.cpp:461
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model Download Done"
 msgstr "Eredua zama-jaistea burutu da"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:464
 #, fuzzy, kde-format
 #| msgid "Model %1 was download."
 msgid "Model %1 was downloaded."
@@ -623,6 +618,9 @@ msgstr "Kontuaren informazioa"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Kontuaren zenbakia itzuli."
+
+#~ msgid "Json File"
+#~ msgstr "JSON fitxategia"
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr ""

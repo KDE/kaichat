@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-17 00:49+0000\n"
+"POT-Creation-Date: 2026-08-24 00:48+0000\n"
 "PO-Revision-Date: 2026-06-16 06:06+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -258,16 +258,16 @@ msgstr "Datoteka je bila dana v skupno rabo."
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Novo zahtevo najdete na:<br /><a href='%1'>%1</a> </qt>"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:23
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
 msgstr "Trenutni datum in čas"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
 msgstr "Dobi trenutni datum in čas"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:42
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
 msgstr "Uporabite to orodje za pridobitev trenutnega datuma in časa"
@@ -452,11 +452,6 @@ msgstr "Izvozi kot JSON…"
 msgid "kaichat"
 msgstr "kaichat"
 
-#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
-#, kde-format
-msgid "Json File"
-msgstr "datoteka Json"
-
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
 msgctxt "@action"
@@ -546,12 +541,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:461
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
-#: widgets/kaichatmainwindow.cpp:462
+#: widgets/kaichatmainwindow.cpp:464
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 je bil prenesen."
@@ -606,6 +601,9 @@ msgstr "Podatki o računu"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Vrni številko računa."
+
+#~ msgid "Json File"
+#~ msgstr "datoteka Json"
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr ""
