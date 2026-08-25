@@ -595,6 +595,3 @@ msgstr "账户信息"
 #, kde-format
 msgid "Return the number of account."
 msgstr "返回帐号个数."
-
-#~ msgid "Json File"
-#~ msgstr "Json 文件"

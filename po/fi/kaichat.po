@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-08-24 00:48+0000\n"
-"PO-Revision-Date: 2026-01-05 15:46+0200\n"
+"PO-Revision-Date: 2026-04-14 20:33+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -28,10 +28,9 @@ msgid "Your emails"
 msgstr "translator@legisign.org"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Tekijänoikeudet © 2025 Laurent Montel"
+msgstr "Tekijänoikeudet © 2025–2026 Laurent Montel"
 
 #: apps/main.cpp:79
 #, kde-format
@@ -170,20 +169,18 @@ msgstr "Palauta liitännäisen tiedot"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr ""
+msgstr "Luettelee käyttäjäpalautteelle käytettävissä olevat valinnat"
 
 #: core/kaichatcommandlineparser.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "Vie keskusteluja"
+msgstr "Tuo keskustelu"
 
 #: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
-msgstr ""
+msgstr "Tuo"
 
 #: core/kaichatcommandlineparser.cpp:50
 #, kde-format
@@ -228,7 +225,7 @@ msgstr ""
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
 msgid "Text"
-msgstr ""
+msgstr "Teksti"
 
 #: kcm/kcmautogeneratetext.cpp:27
 #, fuzzy, kde-format
@@ -372,7 +369,7 @@ msgstr "Liitännäiset"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "Käyttäjäpalaute"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
 #, kde-format
@@ -463,7 +460,7 @@ msgstr "Vie JSONiksi…"
 #: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
 #, kde-format
 msgid "kaichat"
-msgstr ""
+msgstr "kaichat"
 
 #: widgets/kaichatexportmenu.cpp:27
 #, kde-format
@@ -486,20 +483,16 @@ msgid "Export as Pdf…"
 msgstr "Vie JSONiksi…"
 
 #: widgets/kaichatimportmenu.cpp:15
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "Vie…"
+msgstr "Tuo…"
 
 #: widgets/kaichatimportmenu.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "Vie JSONiksi…"
+msgstr "Tuo JSONina…"
 
 #: widgets/kaichatmainwindow.cpp:88
 #, kde-format
@@ -547,12 +540,10 @@ msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
 
 #: widgets/kaichatmainwindow.cpp:344
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "Vie keskusteluja"
+msgstr "Tuo keskusteluja"
 
 #: widgets/kaichatmainwindow.cpp:357
 #, kde-format
@@ -615,12 +606,12 @@ msgstr "Päätyökalurivi"
 #: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
-msgstr ""
+msgstr "Tilitiedot"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Return the number of account."
-msgstr ""
+msgstr "Palauta tilien lukumäärä."
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr "Salli viedä tekstiä muokkaimen automaattituottoliitännäisiin."
