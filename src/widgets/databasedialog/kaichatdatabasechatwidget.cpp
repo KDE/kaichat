@@ -11,6 +11,7 @@
 #include <KLocalizedString>
 #include <QMenu>
 #include <QSortFilterProxyModel>
+#include <QSqlTableModel>
 #include <QTableWidget>
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>

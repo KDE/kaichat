@@ -13,6 +13,7 @@ class JsonPlainTextEditWidget;
 class QLineEdit;
 class QSortFilterProxyModel;
 class QSqlTableModel;
+class QAbstractItemModel;
 class LIBKAICHATWIDGETS_TESTS_EXPORT ExploreDatabaseBaseStorageWidget : public QWidget
 {
     Q_OBJECT

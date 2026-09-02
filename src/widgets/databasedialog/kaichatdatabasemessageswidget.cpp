@@ -7,6 +7,7 @@
 #include "kaichatdatabasemessageswidget.h"
 #include "kaichat_widget_debug.h"
 #include <KLocalizedString>
+#include <QSqlTableModel>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateLocalMessagesDatabase>
