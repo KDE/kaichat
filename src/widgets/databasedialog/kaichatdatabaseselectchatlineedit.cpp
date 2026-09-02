@@ -34,9 +34,10 @@ void KAIChatDatabaseSelectChatLineEdit::slotSearchTextEdited(const QString &str)
 {
     QList<KAIChatCompletionListModel::CompletionInfo> lstInfos;
     for (const auto &c : std::as_const(mChats)) {
-        if (c.title().contains(str)) {
+        const QString title = c.title();
+        if (title.contains(str)) {
             lstInfos.append({
-                .chatName = c.title(),
+                .chatName = title,
                 .chatId = c.identifier(),
             });
         }
