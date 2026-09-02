@@ -11,6 +11,7 @@
 #include <QLineEdit>
 #include <QSortFilterProxyModel>
 #include <QSplitter>
+#include <QSqlTableModel>
 #include <QTableView>
 #include <QVBoxLayout>
 
