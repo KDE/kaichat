@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-24 00:48+0000\n"
+"POT-Creation-Date: 2026-09-03 00:46+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -368,13 +368,13 @@ msgctxt "@title Preferences page name"
 msgid "User Feedback"
 msgstr "用户反馈"
 
-#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr ""
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-24 00:48+0000\n"
+"POT-Creation-Date: 2026-09-03 00:46+0000\n"
 "PO-Revision-Date: 2026-06-16 06:15-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -370,13 +370,13 @@ msgctxt "@title Preferences page name"
 msgid "User Feedback"
 msgstr "Feedback do usuário"
 
-#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:52
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Pesquisar…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
