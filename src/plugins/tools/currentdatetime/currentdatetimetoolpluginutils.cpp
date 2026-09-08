@@ -17,7 +17,7 @@ QString CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(DateTimeEnum
     case DateTime:
         return u"date and time"_s;
     case Unknown:
-        break;
+        return {};
     }
     Q_UNREACHABLE();
 }
