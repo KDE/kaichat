@@ -12,7 +12,7 @@
 #include <QMenu>
 #include <QSortFilterProxyModel>
 #include <QSqlTableModel>
-#include <QTableWidget>
+#include <QTableView>
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>

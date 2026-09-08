@@ -5,7 +5,6 @@
 */
 
 #include "accountinfosource.h"
-#include "textautogeneratetext_version.h"
 
 #include <KLocalizedString>
 #include <KSharedConfig>

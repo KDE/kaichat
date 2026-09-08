@@ -26,7 +26,6 @@
 #endif
 #include <TextAutoGenerateText/TextAutoGenerateImportChatAsJsonJob>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
-#include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 #include <TextAutoGenerateText/TextAutoGenerateTextInstancesManager>
 
 #include <KActionCollection>

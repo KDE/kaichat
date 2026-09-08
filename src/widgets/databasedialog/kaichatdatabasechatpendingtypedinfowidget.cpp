@@ -8,10 +8,8 @@
 #include "exploredatabasechatiddelegate.h"
 #include "exploredatabasetooltipdelegate.h"
 #include "kaichat_widget_debug.h"
-#include <KLocalizedString>
 #include <QSqlTableModel>
-#include <QTableWidget>
-#include <QVBoxLayout>
+#include <QTableView>
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatPendingTypedInfoDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
