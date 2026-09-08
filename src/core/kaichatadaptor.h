@@ -23,7 +23,7 @@ public Q_SLOTS:
     QStringList chatsList();
     void switchToChat(const QString &chatName);
     void switchToChatId(const QByteArray &chatId);
-    void ask(const QString &chatId);
+    void ask(const QString &message);
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
