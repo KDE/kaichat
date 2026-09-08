@@ -49,7 +49,7 @@ void KAIChatDatabaseSelectChatLineEdit::slotSearchTextEdited(const QString &str)
     }
 }
 
-void KAIChatDatabaseSelectChatLineEdit::slotComplete([[maybe_unused]] const QModelIndex &index)
+void KAIChatDatabaseSelectChatLineEdit::slotComplete(const QModelIndex &index)
 {
     const QString completerName = index.data(KAIChatCompletionListModel::ChatName).toString();
     const QByteArray roomId = index.data(KAIChatCompletionListModel::ChatUuid).toByteArray();
