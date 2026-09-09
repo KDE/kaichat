@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-03 00:46+0000\n"
+"POT-Creation-Date: 2026-09-09 00:53+0000\n"
 "PO-Revision-Date: 2026-06-16 15:32+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
@@ -484,37 +484,37 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importar como JSON…"
 
-#: widgets/kaichatmainwindow.cpp:88
+#: widgets/kaichatmainwindow.cpp:87
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "Se ha encontrado %1 cadena."
 msgstr[1] "Se han encontrado %1 cadenas."
 
-#: widgets/kaichatmainwindow.cpp:138
+#: widgets/kaichatmainwindow.cpp:137
 #, kde-format
 msgid "What's new"
 msgstr "Novedades"
 
-#: widgets/kaichatmainwindow.cpp:142
+#: widgets/kaichatmainwindow.cpp:141
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar el archivo"
 
-#: widgets/kaichatmainwindow.cpp:156
+#: widgets/kaichatmainwindow.cpp:155
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Buscar en la base de datos…"
 
-#: widgets/kaichatmainwindow.cpp:194
+#: widgets/kaichatmainwindow.cpp:193
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Abrir pregunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:305
+#: widgets/kaichatmainwindow.cpp:304
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -523,30 +523,30 @@ msgstr ""
 "<qt>Esto ocultará la barra de menú completamente. Puede volver a mostrarla "
 "pulsando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:308
+#: widgets/kaichatmainwindow.cpp:307
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar la barra de menú"
 
-#: widgets/kaichatmainwindow.cpp:344
+#: widgets/kaichatmainwindow.cpp:343
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importar conversaciones"
 
-#: widgets/kaichatmainwindow.cpp:357
+#: widgets/kaichatmainwindow.cpp:356
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar conversaciones"
 
-#: widgets/kaichatmainwindow.cpp:463
+#: widgets/kaichatmainwindow.cpp:462
 #, kde-format
 msgid "Model Download Done"
 msgstr "Descarga de modelo terminada"
 
-#: widgets/kaichatmainwindow.cpp:464
+#: widgets/kaichatmainwindow.cpp:463
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Se ha descargado el modelo %1."
@@ -592,12 +592,12 @@ msgstr "A&yuda"
 msgid "Main Toolbar"
 msgstr "Barra de herramientas principal"
 
-#: widgets/userfeedback/accountinfosource.cpp:25
+#: widgets/userfeedback/accountinfosource.cpp:24
 #, kde-format
 msgid "Account information"
 msgstr "Información de la cuenta"
 
-#: widgets/userfeedback/accountinfosource.cpp:30
+#: widgets/userfeedback/accountinfosource.cpp:29
 #, kde-format
 msgid "Return the number of account."
 msgstr "Devolver el número de la cuenta."
