@@ -11,6 +11,7 @@
         "Description[sl]": "Konfiguriraj ozadja LLM",
         "Description[sv]": "Anpassa LLM-gränssnitt",
         "Description[tr]": "Büyük dil modeli arka uçlarını yapılandırın",
+        "Description[uk]": "Налаштувати модулі ВММ",
         "Icon": "kaichat",
         "Name": "LLM Backends",
         "Name[ar]": "خلفيات LLM",
@@ -23,6 +24,7 @@
         "Name[sl]": "Ozadja LLM",
         "Name[sv]": "LLM-gränssnitt",
         "Name[tr]": "Büyük Dil Modeli Arka Uçları",
+        "Name[uk]": "Модулі ВММ",
         "ServiceTypes": [
             "KCModule"
         ]
