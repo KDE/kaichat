@@ -43,7 +43,7 @@ QString CurrentDateTimeToolPlugin::description() const
 
 void CurrentDateTimeToolPlugin::showConfigureDialog(QWidget *parent)
 {
-    auto dlg = CurrentDateTimeToolPluginDialog(this, parent);
+    CurrentDateTimeToolPluginDialog dlg(this, parent);
     dlg.exec();
 }
 
