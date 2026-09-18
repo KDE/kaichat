@@ -5,9 +5,8 @@
 */
 
 #pragma once
-#include <TextAutoGenerateText/TextAutoGeneratePluginText>
-class QObject;
 #include <QVariant>
+#include <TextAutoGenerateText/TextAutoGeneratePluginText>
 
 class ShareTextPlugin : public TextAutoGenerateText::TextAutoGeneratePluginText
 {

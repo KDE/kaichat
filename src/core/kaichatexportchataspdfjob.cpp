@@ -8,7 +8,6 @@
 
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
-#include <QFile>
 #include <QPageLayout>
 #include <QPageSize>
 #include <QPainter>

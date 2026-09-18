@@ -5,7 +5,7 @@
  */
 #pragma once
 #include "libkaichatwidgets_export.h"
-#include <QWidget>
+class QWidget;
 namespace KAIChatUtils
 {
 LIBKAICHATWIDGETS_EXPORT void createQuickAsk(QWidget *parent = nullptr);

@@ -7,7 +7,6 @@
 #pragma once
 
 #include "databasedialog/exploredatabasebasestoragewidget.h"
-#include <QWidget>
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
