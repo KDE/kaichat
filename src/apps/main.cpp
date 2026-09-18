@@ -124,12 +124,12 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
+    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
         KAIChatUtils::createQuickAsk();
         return 0;
     }
 
-    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
+    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
         std::cout << qPrintable(i18n("Plugins:")) << '\n';
         std::cout << qPrintable(TextAutoGenerateText::TextAutoGeneratePluginTextManager::self()->generatePluginsInformation()) << '\n';
         std::cout << qPrintable(TextAutoGenerateText::TextAutoGenerateTextToolPluginManager::self()->generatePluginsInformation()) << '\n';
@@ -212,7 +212,7 @@ int main(int argc, char *argv[])
 #endif
 
     mw->show();
-    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
+    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
         QTimer::singleShot(std::chrono::milliseconds(250), &app, [mw, &app]() {
             delete mw;
             app.quit();
