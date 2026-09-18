@@ -344,7 +344,7 @@ void KAIChatMainWindow::slotImportInfoRequested()
     if (fileName.isEmpty()) {
         return;
     }
-    const TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{
+    TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{
         .filename = std::move(fileName),
         .chatTitle = {} // TODO ?
     };
@@ -357,7 +357,7 @@ void KAIChatMainWindow::slotExportInfoRequested()
     if (fileName.isEmpty()) {
         return;
     }
-    const TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo info{
+    TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::ExportChatInfo info{
         .filename = std::move(fileName),
         .chatTitle = mMainWidget->chatCurrentTitle(),
         .listMessages = mMainWidget->messagesFromCurrentChat(),
