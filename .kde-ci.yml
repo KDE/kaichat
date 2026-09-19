@@ -22,6 +22,7 @@ Dependencies:
     'frameworks/kuserfeedback': '@latest-kf6'
     'frameworks/kcmutils': '@latest-kf6'
     'frameworks/syntax-highlighting': '@latest-kf6'
+    'frameworks/kglobalaccel': '@latest-kf6'
 
  - 'on': ['Linux', 'FreeBSD']
    'require':
