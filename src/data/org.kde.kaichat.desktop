@@ -61,3 +61,4 @@ StartupNotify=true
 Categories=Qt;KDE;Network;
 SingleMainWindow=true
 Version=1.5
+Keywords=AI;LLM;Ollama;Chat;Assistant…
