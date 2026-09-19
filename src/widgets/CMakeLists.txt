@@ -120,6 +120,7 @@ target_link_libraries(
     KF6::TextEditTextToSpeech
     KF6::SyntaxHighlighting
     KF6::TextCustomEditor
+    KF6::GlobalAccel
     libkaichatcore
 )
 

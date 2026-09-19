@@ -19,6 +19,7 @@
 #include "kaichatglobalconfig.h"
 #include "kaichatnotificatifieritem.h"
 #include "kaichatutils.h"
+#include <KGlobalAccel>
 #include <QLabel>
 #include <TextAddonsWidgets/WhatsNewNgDialog>
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
@@ -193,6 +194,7 @@ void KAIChatMainWindow::setupActions()
     mShowQuickAskAction = new QAction(i18nc("@action", "Open Quick Ask…"), this);
     ac->addAction(u"show_quick_ask"_s, mShowQuickAskAction);
     connect(mShowQuickAskAction, &QAction::triggered, this, &KAIChatMainWindow::slotQuickAsk);
+    KGlobalAccel::setGlobalShortcut(mShowQuickAskAction, QKeySequence(Qt::META | Qt::Key_Space));
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
     const QString stableBranch = u"0.8"_s;
