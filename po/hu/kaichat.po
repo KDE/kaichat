@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-09 00:53+0000\n"
+"POT-Creation-Date: 2026-09-19 00:48+0000\n"
 "PO-Revision-Date: 2025-08-06 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -201,30 +201,30 @@ msgid "Markdown"
 msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
-#: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
 #, kde-format
 msgid "User"
 msgstr "Felhasználó"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
-#: core/kaichatexportchataspdfjob.cpp:64 core/kaichatexportchatastextjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
 #, kde-format
 msgid "Assistant"
 msgstr "Asszisztens"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:43
-#: core/kaichatexportchataspdfjob.cpp:67 core/kaichatexportchatastextjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
 #, kde-format
 msgid "System"
 msgstr "Rendszer"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:46
-#: core/kaichatexportchataspdfjob.cpp:70 core/kaichatexportchatastextjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
 #, kde-format
 msgid "Tool"
 msgstr "Eszköz"
 
-#: core/kaichatexportchataspdfjob.cpp:28
+#: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
 msgid "Pdf"
 msgstr ""
