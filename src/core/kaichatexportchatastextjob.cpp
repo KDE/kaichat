@@ -46,7 +46,7 @@ void KAIChatExportChatAsTextJob::exportChat()
             txt += i18n("Tool");
             break;
         }
-        txt += u"------------------------"_s;
+        txt += u"\n------------------------"_s;
         txt += u'\n';
         txt += message.content();
         txt += u'\n';
