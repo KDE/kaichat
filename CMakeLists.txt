@@ -150,7 +150,7 @@ if(NOT APPLE)
     find_package(KF6Purpose ${KF_MIN_VERSION} CONFIG)
 endif()
 
-if(NOT WIN32 AND NOT HAIKU)
+if(NOT WIN32 AND NOT HAIKU AND NOT APPLE)
     find_package(KF6 REQUIRED GlobalAccel)
 endif()
 
