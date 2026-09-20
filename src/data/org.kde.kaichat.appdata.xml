@@ -108,6 +108,7 @@
   </content_rating>
   <provides>
     <binary>kaichat</binary>
+    <mediatype>application/vnd.kde.kaichat</mediatype>
   </provides>
   <launchable type="desktop-id">org.kde.kaichat.desktop</launchable>
   <categories>

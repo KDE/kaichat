@@ -433,10 +433,29 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
     }
 
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat))) {
-        QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
+        const QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
+        importChatFile(importFileName);
+    }
+
+    const QStringList files = parser->positionalArguments();
+    for (const QString &file : files) {
+        importChatFile(file);
+    }
+
+    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = std::move(message),
+                                                                             .attachments = std::move(lstAttachments),
+                                                                             .tools = std::move(tools)};
+    if (info.isValid()) {
+        mManager->ask(info);
+    }
+}
+
+void KAIChatMainWindow::importChatFile(const QString &filename)
+{
+    if (!filename.isEmpty()) {
         auto job = new TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob(this);
         const TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::ImportChatInfo info{
-            .filename = std::move(importFileName),
+            .filename = filename,
             .chatTitle = {},
         };
         job->setInfo(info);
@@ -448,13 +467,6 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
                     mManager->importChat(title, msgs);
                 });
         job->start();
-    }
-
-    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = std::move(message),
-                                                                             .attachments = std::move(lstAttachments),
-                                                                             .tools = std::move(tools)};
-    if (info.isValid()) {
-        mManager->ask(info);
     }
 }
 

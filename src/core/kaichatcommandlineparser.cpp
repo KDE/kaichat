@@ -51,6 +51,7 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
     QCommandLineOption selfTestOption(optionParserFromEnum(OptionParser::SelfTest), QStringLiteral("internal, for automated testing"));
     selfTestOption.setFlags(QCommandLineOption::HiddenFromHelp);
     parser->addOption(selfTestOption);
+    parser->addPositionalArgument(u"file"_s, i18nc("@info:shell", "Chat file to import"), u"[file…]"_s);
 }
 
 QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)

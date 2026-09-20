@@ -7,6 +7,11 @@ set(icons
     32-apps-kaichat.png
     48-apps-kaichat.png
     sc-apps-kaichat.svg
+    16-mimetypes-application-vnd.kde.kaichat.png
+    22-mimetypes-application-vnd.kde.kaichat.png
+    24-mimetypes-application-vnd.kde.kaichat.png
+    32-mimetypes-application-vnd.kde.kaichat.png
+    48-mimetypes-application-vnd.kde.kaichat.png
 )
 
 set(all_icons ${icons})

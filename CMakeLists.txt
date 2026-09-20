@@ -217,6 +217,8 @@ set_package_properties(
         TYPE
             REQUIRED
 )
+set(SharedMimeInfo_MINIMUM_VERSION "1.10")
+find_package(SharedMimeInfo ${SharedMimeInfo_MINIMUM_VERSION} REQUIRED)
 
 if(TARGET KF6::TextEditTextToSpeech)
     set(HAVE_TEXT_TO_SPEECH TRUE)
