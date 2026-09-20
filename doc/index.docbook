@@ -28,12 +28,13 @@
 
 <copyright>
 <year>2025</year>
+<year>2026</year>
 <holder>Laurent Montel</holder>
 </copyright>
 
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2025-08-08</date>
+<date>2026-09-20</date>
 <releaseinfo></releaseinfo>
 
 <abstract>
@@ -45,22 +46,362 @@
 <keywordset>
 <keyword>KDE</keyword>
 <keyword>AI</keyword>
+<keyword>chat</keyword>
+<keyword>Ollama</keyword>
+<keyword>LLM</keyword>
 </keywordset>
 </bookinfo>
 
 <chapter id="introduction">
 <title>Introduction</title>
+
 <para>&i18n-kapplication; is a chat application that lets you talk with AI language
 models, either running locally with Ollama or provided by an online AI service.</para>
 
-<sect1 id="using-kapp">
-<title>Using &i18n-kapplication;</title>
+<para>Conversations are stored in a local database on your computer, so they are
+still there the next time you start the application. You can browse them, search
+through them, archive the ones you do not need any more, and export them to a file.</para>
 
-<para>&i18n-kapplication; can connect either to a local Ollama server or to an online
-AI service. Once a connection is configured, you can type your questions in the input
-field and the model's answers are shown in the conversation view.</para>
+<para>&i18n-kapplication; does not provide a model of its own: it talks to a model
+provider that you configure. Nothing is sent anywhere until you have set up such a
+provider and asked a question.</para>
+
+</chapter>
+
+<chapter id="getting-started">
+<title>Getting Started</title>
+
+<para>Before you can ask anything, &i18n-kapplication; needs at least one
+<emphasis>instance</emphasis>. An instance is a configured connection to a model
+provider: a local server running on your own machine, or an online service.</para>
+
+<para>The first time you start the application without any instance, it offers to
+create one. You can also open
+<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure
+&i18n-kapplication;…</guimenuitem></menuchoice> and go to the
+<guilabel>Instances</guilabel> page.</para>
+
+<sect1 id="local-model">
+<title>Using a local model</title>
+
+<para>Running the model on your own computer keeps your questions on your machine.
+&i18n-kapplication; can use local servers such as
+<application>Ollama</application>, <application>llama.cpp</application> or
+<application>LM Studio</application>.</para>
+
+<para>Install and start the server first, then add an instance of the matching type.
+The default address of a local <application>Ollama</application> server is already
+filled in. If <application>Ollama</application> is installed but not running,
+&i18n-kapplication; offers to start it for you; you can also do this from the command
+line with <userinput><command>kaichat</command>
+<option>--start-ollama</option></userinput>.</para>
+
+<para>Once the instance is connected you still need a model. Models can be
+downloaded from within the instance configuration, and &i18n-kapplication; notifies
+you when a download is finished.</para>
 
 </sect1>
+
+<sect1 id="online-service">
+<title>Using an online service</title>
+
+<para>&i18n-kapplication; can also talk to hosted services, among them
+Ollama Cloud, OpenAI, Anthropic, Mistral AI, Groq, Grok, Qwen, OpenRouter,
+DeepInfra, Novita AI, Cerebras and other providers with an OpenAI-compatible
+interface. The exact list depends on the plugins installed on your system; run
+<userinput><command>kaichat</command> <option>--plugin-info</option></userinput> to
+see it.</para>
+
+<para>Create an instance of the matching type and paste the API key given to you by
+the service. Be aware that with an online service your questions, and any file you
+attach, are sent to that provider and are subject to its own privacy policy.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="using-kapp">
+<title>Using &i18n-kapplication;</title>
+
+<sect1 id="main-window">
+<title>The main window</title>
+
+<para>The window is split in three parts:</para>
+
+<itemizedlist>
+<listitem><para>the list of your chats, on the left. It can be collapsed with the
+button on the splitter;</para></listitem>
+<listitem><para>the conversation itself, on the right, where your questions and the
+answers of the model are shown;</para></listitem>
+<listitem><para>the input field at the bottom, where you type your
+question.</para></listitem>
+</itemizedlist>
+
+<para>Above them, a header bar lets you start a new chat and search in the current
+conversation. The status bar at the bottom shows what the model is currently doing,
+for instance which tool it is calling.</para>
+
+</sect1>
+
+<sect1 id="chatting">
+<title>Asking questions</title>
+
+<para>Type your question in the input field and validate it. The answer appears in
+the conversation view as it is being generated, and a notification is shown when a
+long answer is finished.</para>
+
+<para>You can attach files to a question, and enable the tools the model is allowed
+to call while answering it. Each chat keeps its own history, which is sent along
+with your new question so that the model knows the context.</para>
+
+</sect1>
+
+<sect1 id="managing-chats">
+<title>Managing chats</title>
+
+<para>Chats are created from the header bar, or with
+<userinput><command>kaichat</command> <option>--new-chat</option>
+<replaceable>title</replaceable></userinput>.</para>
+
+<para>A chat you do not need any more can be archived instead of being deleted.
+Archived chats are hidden from the list; show them again with
+<menuchoice><guimenu>View</guimenu><guimenuitem>Show
+Archive</guimenuitem></menuchoice>.</para>
+
+<para>To look for something you asked or read some time ago, use
+<menuchoice><shortcut><keycombo action="simul">&Ctrl;<keycap>F</keycap></keycombo></shortcut>
+<guimenu>Edit</guimenu><guimenuitem>Search in Database…</guimenuitem></menuchoice>.
+This searches the whole stored history, not only the chat you are looking at. The
+number of matches is shown in the status bar.</para>
+
+</sect1>
+
+<sect1 id="quick-ask">
+<title>Quick Ask</title>
+
+<para>Quick Ask is a small dialog for a single question, without opening the main
+window. Open it with
+<menuchoice><guimenu>Tools</guimenu><guimenuitem>Open Quick
+Ask…</guimenuitem></menuchoice>, with the
+<keycombo action="simul">&Meta;<keycap>Space</keycap></keycombo> global shortcut, or
+with <userinput><command>kaichat</command> <option>--quick-ask</option></userinput>.
+Questions asked this way are not added to your chats.</para>
+
+</sect1>
+
+<sect1 id="import-export">
+<title>Importing and exporting chats</title>
+
+<para>The current chat can be saved to a file with
+<menuchoice><guimenu>File</guimenu><guimenuitem>Export…</guimenuitem></menuchoice>,
+in one of four formats:</para>
+
+<variablelist>
+<varlistentry>
+<term><guimenuitem>Export as JSON…</guimenuitem></term>
+<listitem><para>A <filename class="extension">.kaichat</filename> file. This is the
+only format that &i18n-kapplication; can read back.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Export as Markdown…</guimenuitem></term>
+<listitem><para>A text file keeping the formatting of the answers.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Export as Text…</guimenuitem></term>
+<listitem><para>Plain text.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Export as Pdf…</guimenuitem></term>
+<listitem><para>A printable document.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>A previously exported <filename class="extension">.kaichat</filename> file is
+read back with
+<menuchoice><guimenu>File</guimenu><guimenuitem>Import…</guimenuitem></menuchoice>.
+You can also open such a file from your file manager, or pass it on the command
+line.</para>
+
+</sect1>
+
+<sect1 id="appearance">
+<title>Adjusting the display</title>
+
+<para>The text of the whole application can be made bigger or smaller with
+<menuchoice><guimenu>View</guimenu><guisubmenu>Font Size</guisubmenu></menuchoice>,
+or with <keycombo action="simul">&Ctrl;<keycap>+</keycap></keycombo> and
+<keycombo action="simul">&Ctrl;<keycap>-</keycap></keycombo>. A fixed font can be
+chosen in the configuration dialog instead.</para>
+
+<para><menuchoice><guimenu>Settings</guimenu><guisubmenu>Color
+Scheme</guisubmenu></menuchoice> switches the colors of the window without changing
+your desktop settings, and <keycap>F11</keycap> switches to full screen.</para>
+
+<para>The menu bar can be hidden with
+<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show
+Menubar</guimenuitem></menuchoice>; the actions stay available through the hamburger
+button of the toolbar.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="configuring">
+<title>Configuring &i18n-kapplication;</title>
+
+<para>The configuration dialog is opened with
+<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure
+&i18n-kapplication;…</guimenuitem></menuchoice>. Depending on how the application was
+built, it has the following pages.</para>
+
+<variablelist>
+<varlistentry>
+<term><guilabel>General</guilabel></term>
+<listitem><para>Whether the system tray icon is shown, and the system prompt sent to
+the model at the beginning of every conversation.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Font</guilabel></term>
+<listitem><para>Use a font of your choice instead of the system one.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Instances</guilabel></term>
+<listitem><para>Add, remove and configure the connections to your model providers,
+and manage the models available on them.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>MCP Servers</guilabel></term>
+<listitem><para>Model Context Protocol servers, which give the model access to
+external data and actions. This support is still experimental.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Spell Checking</guilabel></term>
+<listitem><para>Spell checking of what you type.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Accessibility</guilabel></term>
+<listitem><para>Text-to-speech settings, when the application was built with
+text-to-speech support.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Plugins</guilabel></term>
+<listitem><para>Enable or disable the installed plugins and configure the tools the
+model may use.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>User Feedback</guilabel></term>
+<listitem><para>How much information, if any, you want to send to the developers.
+Nothing is sent unless you ask for it here.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>Notifications are configured with
+<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure
+Notifications…</guimenuitem></menuchoice>.</para>
+
+<para>Instances and MCP servers can also be configured outside of the application,
+from the <guilabel>AI</guilabel> module of &systemsettings;.</para>
+
+<sect1 id="files">
+<title>Files used</title>
+
+<variablelist>
+<varlistentry>
+<term><filename>~/.config/kaichatrc</filename></term>
+<listitem><para>The settings of the application.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><filename class="directory">~/.local/share/kaichat/ai-database/</filename></term>
+<listitem><para>The databases holding your chats and their messages.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>The configuration of your instances contains the API keys of the online
+services you use. Treat these files as you would treat a password.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="command-line">
+<title>Command Line Options</title>
+
+<para>&i18n-kapplication; runs as a single instance: starting it again while it is
+already running passes the options to the window that is already open instead of
+opening a second one.</para>
+
+<variablelist>
+<varlistentry>
+<term><option>--list-instances</option></term>
+<listitem><para>Print the configured instances and exit.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--list-chats</option></term>
+<listitem><para>Print the titles of the stored chats and exit.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--plugin-info</option></term>
+<listitem><para>Print the available text and tool plugins and exit.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--instance</option> <replaceable>name</replaceable></term>
+<listitem><para>Start with a specific instance.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--new-chat</option> <replaceable>title</replaceable></term>
+<listitem><para>Create a new chat with this title.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--switch-to-chat</option> <replaceable>name</replaceable></term>
+<listitem><para>Switch to an existing chat, by title.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--switch-to-chat-from-id</option> <replaceable>id</replaceable></term>
+<listitem><para>Switch to an existing chat, by identifier.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--ask-message</option> <replaceable>message</replaceable></term>
+<listitem><para>Ask this question straight away.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--attach</option> <replaceable>url</replaceable></term>
+<listitem><para>Attach a file to the question. Can be repeated.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--tool</option> <replaceable>name</replaceable></term>
+<listitem><para>Allow the model to use this tool. Can be repeated.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--quick-ask</option></term>
+<listitem><para>Open the Quick Ask dialog.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--import</option> <replaceable>file</replaceable></term>
+<listitem><para>Import a chat from a JSON file.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--start-ollama</option></term>
+<listitem><para>Start the local <application>Ollama</application> program.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--debug</option></term>
+<listitem><para>Enable debug mode, which adds a <guimenu>Debug</guimenu> menu
+showing the content of the database.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--feedback</option></term>
+<listitem><para>List the information that can be sent as user feedback.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><replaceable>file…</replaceable></term>
+<listitem><para>Chat files to import.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>On systems with &DBus;, a running &i18n-kapplication; also exposes the
+<interfacename>org.kde.kaichat.Application</interfacename> interface, which offers
+the same operations as the options above: listing chats, creating one, switching to
+one, showing archived chats and asking a question.</para>
 
 </chapter>
 
@@ -70,7 +411,7 @@ field and the model's answers are shown in the conversation view.</para>
 
 <para>&i18n-kapplication;</para>
 <para>
-Program copyright 2025 &Laurent.Montel; &Laurent.Montel.mail;
+Program copyright 2025-2026 &Laurent.Montel; &Laurent.Montel.mail;
 </para>
 <para>
 Documentation Copyright &copy; &Laurent.Montel; &Laurent.Montel.mail;
