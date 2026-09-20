@@ -120,9 +120,12 @@ target_link_libraries(
     KF6::TextEditTextToSpeech
     KF6::SyntaxHighlighting
     KF6::TextCustomEditor
-    KF6::GlobalAccel
     libkaichatcore
 )
+
+if(TARGET KF6::GlobalAccel)
+    target_link_libraries(libkaichatwidgets KF6::GlobalAccel)
+endif()
 
 if(USE_MCP_SERVER_SUPPORT)
     target_link_libraries(libkaichatwidgets KF6::TextAutoGenerateTextMcpProtocolWidgets)
