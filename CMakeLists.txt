@@ -141,7 +141,6 @@ find_package(
         NotifyConfig
         KCMUtils
         SyntaxHighlighting
-        GlobalAccel
 )
 find_package(KF6KIO ${KF_MIN_VERSION} CONFIG REQUIRED)
 find_package(KF6Sonnet ${KF_MIN_VERSION} CONFIG REQUIRED)
@@ -149,6 +148,14 @@ find_package(KF6StatusNotifierItem ${KF_MIN_VERSION} REQUIRED)
 find_package(KF6Notifications ${KF_MIN_VERSION} REQUIRED)
 if(NOT APPLE)
     find_package(KF6Purpose ${KF_MIN_VERSION} CONFIG)
+endif()
+
+if(NOT WIN32 AND NOT HAIKU)
+    find_package(KF6 REQUIRED GlobalAccel)
+endif()
+
+if(TARGET KF6::GlobalAccel)
+    set(HAVE_KGLOBALACCEL TRUE)
 endif()
 
 find_package(KF6UserFeedback ${KF_MIN_VERSION} CONFIG)
