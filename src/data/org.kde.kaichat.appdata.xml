@@ -121,6 +121,7 @@
         <ul>
           <li>Add KAIChat mimetype</li>
           <li>Allow to start quick chat with a global shortcut</li>
+          <li xml:lang="ka">გლობალური მალსახმობით ჩატის სწრაფად დაწყება</li>
           <li>Add OrcaRouter</li>
           <li xml:lang="ar">إضافة OrcaRouter</li>
           <li xml:lang="ca">Afegeix OrcaRouter</li>
