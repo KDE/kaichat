@@ -38,7 +38,7 @@
 
 <abstract>
 <para>
-&i18n-kapplication; is an AI chat.
+&i18n-kapplication; is a chat client for AI language models.
 </para>
 </abstract>
 
@@ -50,12 +50,15 @@
 
 <chapter id="introduction">
 <title>Introduction</title>
-<para>&i18n-kapplication; is a chat application for accessing to Ollama or network AI service.</para>
+<para>&i18n-kapplication; is a chat application that lets you talk with AI language
+models, either running locally with Ollama or provided by an online AI service.</para>
 
 <sect1 id="using-kapp">
 <title>Using &i18n-kapplication;</title>
 
-<para>&i18n-kapplication; allows to connect to Ollama local server or network AI service.</para>
+<para>&i18n-kapplication; can connect either to a local Ollama server or to an online
+AI service. Once a connection is configured, you can type your questions in the input
+field and the model's answers are shown in the conversation view.</para>
 
 </sect1>
 
