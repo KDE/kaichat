@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 12:56+0000\n"
-"PO-Revision-Date: 2026-06-16 06:06+0200\n"
+"PO-Revision-Date: 2026-09-20 20:20+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -193,7 +193,7 @@ msgstr "Zaženi program Ollama"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "Datoteka klepeta za uvoz"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
