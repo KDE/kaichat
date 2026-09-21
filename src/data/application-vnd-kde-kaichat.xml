@@ -6,6 +6,9 @@
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
   <mime-type type="application/vnd.kde.kaichat">
     <comment>KAIChat document</comment>
+    <comment xml:lang="nl">KAIChat-document</comment>
+    <comment xml:lang="tr">KAIChat belgesi</comment>
+    <comment xml:lang="uk">документ KAIChat</comment>
     <sub-class-of type="application/json"/>
     <glob pattern="*.kaichat"/>
   </mime-type>

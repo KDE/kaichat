@@ -120,13 +120,18 @@
       <description>
         <ul>
           <li>Add KAIChat mimetype</li>
+          <li xml:lang="nl">Mimetype van KAIChat toevoegen</li>
+          <li xml:lang="tr">KAIChat MIME türünü ekle</li>
+          <li xml:lang="uk">Додано тип MIME KAIChat</li>
           <li>Allow to start quick chat with a global shortcut</li>
           <li xml:lang="ca">Permet començar un xat ràpid amb una drecera global</li>
           <li xml:lang="cs">Umožnit spuštění rychlé konverzace pomocí globální klávesové zkratky</li>
           <li xml:lang="ka">გლობალური მალსახმობით ჩატის სწრაფად დაწყება</li>
+          <li xml:lang="nl">Een snelle chat starten met een wereldwijde sneltoets mogelijk maken</li>
           <li xml:lang="pt-BR">Permitir iniciar um chat rápido com um atalho global</li>
           <li xml:lang="sl">Dovoli začetek hitrega klepeta z globalno bližnjico</li>
           <li xml:lang="sv">Tillåt start av snabbchatt med en global genväg</li>
+          <li xml:lang="tr">Global bir kısayol ile tez sohbete başla</li>
           <li xml:lang="uk">Уможливлено започаткування спрощеного спілкування за допомогою загального клавіатурного скорочення</li>
           <li>Add OrcaRouter</li>
           <li xml:lang="ar">إضافة OrcaRouter</li>
