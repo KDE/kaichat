@@ -120,12 +120,16 @@
       <description>
         <ul>
           <li>Add KAIChat mimetype</li>
+          <li xml:lang="cs">Přidán MIME typ KAIChat</li>
+          <li xml:lang="es">Se ha añadido el tipo MIME para KAIChat.</li>
           <li xml:lang="nl">Mimetype van KAIChat toevoegen</li>
+          <li xml:lang="sl">Dodaj vrsto mime KAIChat</li>
           <li xml:lang="tr">KAIChat MIME türünü ekle</li>
           <li xml:lang="uk">Додано тип MIME KAIChat</li>
           <li>Allow to start quick chat with a global shortcut</li>
           <li xml:lang="ca">Permet començar un xat ràpid amb una drecera global</li>
           <li xml:lang="cs">Umožnit spuštění rychlé konverzace pomocí globální klávesové zkratky</li>
+          <li xml:lang="es">Permitir empezar a chatear rápidamente con un atajo de teclado global</li>
           <li xml:lang="ka">გლობალური მალსახმობით ჩატის სწრაფად დაწყება</li>
           <li xml:lang="nl">Een snelle chat starten met een wereldwijde sneltoets mogelijk maken</li>
           <li xml:lang="pt-BR">Permitir iniciar um chat rápido com um atalho global</li>
@@ -1190,7 +1194,7 @@
           <li xml:lang="nl">"Pictogram op vensters repareren.</li>
           <li xml:lang="pt-BR">"Correção do ícone no Windows.</li>
           <li xml:lang="sk">Oprava ikony v systéme Windows.</li>
-          <li xml:lang="sl">"Popravi ikono na sistemu Windows."</li>
+          <li xml:lang="sl">"Popravi ikono na sistemu Windows.</li>
           <li xml:lang="sv">"Rätta ikon på Windows.</li>
           <li xml:lang="tr">Windows üzerinde simge onarımı</li>
           <li xml:lang="uk">Виправлено піктограму у Windows.</li>
@@ -1231,7 +1235,7 @@
           <li xml:lang="nl">Ondersteuning voor exemplaar toevoegen.</li>
           <li xml:lang="pt-BR">Adiciona suporte à instância.</li>
           <li xml:lang="sk">Pridanie podpory pre inštancie.</li>
-          <li xml:lang="sl">Doda podporo za pojavke.</li>
+          <li xml:lang="sl">Doda podporo pojavku.</li>
           <li xml:lang="sv">Lägg till instansstöd.</li>
           <li xml:lang="tr">Örnek desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів програми.</li>
