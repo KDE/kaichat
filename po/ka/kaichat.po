@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 12:56+0000\n"
-"PO-Revision-Date: 2026-06-16 07:22+0200\n"
+"PO-Revision-Date: 2026-09-21 04:15+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -193,7 +193,7 @@ msgstr "Ollama-ის გაშვება"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "შემოსატანი ჩატის ფაილი"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
