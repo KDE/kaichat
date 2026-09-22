@@ -81,7 +81,7 @@ Comment[zh_TW]=模型下載完成
 Action=Popup
 Urgency=Normal
 
-[Event/anwser-done]
+[Event/answer-done]
 Name=Answer done
 Name[ar]=اكتمل الجواب
 Name[ca]=S'ha respost
