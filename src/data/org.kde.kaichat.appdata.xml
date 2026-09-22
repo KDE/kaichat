@@ -114,6 +114,12 @@
   <categories>
     <category>Utility</category>
   </categories>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="1920" height="1026">https://cdn.kde.org/screenshots/kaichat/kaichat.png</image>
+      <caption>KAIChat main window.</caption>
+    </screenshot>
+  </screenshots>
   <icon type="stock">org.kde.kaichat</icon>
   <releases>
     <release version="0.9.0" type="snapshot">
