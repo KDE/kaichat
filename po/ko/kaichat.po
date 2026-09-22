@@ -183,17 +183,15 @@ msgid "Import"
 msgstr "가져오기"
 
 #: core/kaichatcommandlineparser.cpp:50
-#, fuzzy, kde-format
-#| msgid "Show Ollama log."
+#, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama 로그를 표시합니다."
+msgstr "Ollama 프로그램 시작"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
-msgstr "Mardown"
+msgstr "마크다운"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -222,7 +220,7 @@ msgstr "도구"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -230,16 +228,14 @@ msgid "Text"
 msgstr "텍스트"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "인스턴스"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP 서버"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -346,7 +342,7 @@ msgstr "인스턴스"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP 서버"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -376,7 +372,7 @@ msgstr "사용자 피드백"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "검색…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
 #, fuzzy, kde-format
@@ -390,7 +386,7 @@ msgstr "대화로 전환"
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "디버그 데이터베이스"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
 #, fuzzy, kde-format
@@ -400,14 +396,12 @@ msgid "Select Chat Name"
 msgstr "대화 이름"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "대화"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
 msgstr "메시지"
 
@@ -419,16 +413,14 @@ msgid "Messages in Database"
 msgstr "데이터베이스에서 검색…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "메시지"
+msgstr "메시지 JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "대기 중인 형식 정보를 데이터베이스에 저장합니다."
+msgstr "형식 있는 정보 대기 중"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -482,12 +474,10 @@ msgid "Export as Text…"
 msgstr "텍스트로 내보내기…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "JSON으로 내보내기…"
+msgstr "PDF로 내보내기…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -562,8 +552,7 @@ msgid "Model Download Done"
 msgstr "모델 다운로드 완료됨"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 모델을 다운로드했습니다."
 
