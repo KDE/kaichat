@@ -130,6 +130,7 @@
           <li xml:lang="sl">Doda razcepitev podpore debate</li>
           <li xml:lang="sv">Tillägg av stöd för delning av diskussioner</li>
           <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
+          <li xml:lang="zh-TW">新增討論分支功能</li>
           <li>Add llamacpp instance</li>
           <li xml:lang="ar">إضافة نسخ llamacpp.</li>
           <li xml:lang="ca">Afegeix una instància «llamacpp»</li>
@@ -146,6 +147,7 @@
           <li xml:lang="sl">Doda pojavek llamacpp</li>
           <li xml:lang="sv">Tillägg av llamacpp-instans</li>
           <li xml:lang="uk">Додано екземпляр llamacpp</li>
+          <li xml:lang="zh-TW">新增 llamacpp 實體</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
           <li xml:lang="ca">Afegeix el suport de ChatGPT, Novita AI, DeepInfra, Qwen.</li>
@@ -162,6 +164,7 @@
           <li xml:lang="sl">Doda podporo za ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="sv">Tillägg av stöd för ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="uk">Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen.</li>
+          <li xml:lang="zh-TW">新增 ChatGPT、Novita AI、DeepInfra、Qwen 支援。</li>
           <li>Add CLI option for starting local Ollama.</li>
           <li xml:lang="ar">إضافة خيار CLI لبدء تشغيل Ollama المحلي.</li>
           <li xml:lang="ca">Afegeix una opció per a iniciar l'Ollama local.</li>
@@ -178,6 +181,7 @@
           <li xml:lang="sl">Doda možnost ukazne vrstice za zagon lokalne Ollama.</li>
           <li xml:lang="sv">Tillägg av kommandoradsväljare för att starta lokal Ollama.</li>
           <li xml:lang="uk">Додано параметр командного інтерфейсу для запуску локальної Ollama.</li>
+          <li xml:lang="zh-TW">新增啟動本地 Ollama 用的命令列選項。</li>
           <li>Add DBus support.</li>
           <li xml:lang="ar">إتاحة DBus.</li>
           <li xml:lang="ca">Afegeix la implementació del DBus.</li>
@@ -194,6 +198,7 @@
           <li xml:lang="sl">Doda podporo za DBus.</li>
           <li xml:lang="sv">Tillägg av stöd för DBus.</li>
           <li xml:lang="uk">Додано підтримку DBus.</li>
+          <li xml:lang="zh-TW">新增 DBus 支援。</li>
           <li>Add Internal Plugin support.</li>
           <li xml:lang="ar">إضافة دعم المُلحقات الداخلية.</li>
           <li xml:lang="ca">Afegeix la implementació de connectors interns.</li>
@@ -210,6 +215,7 @@
           <li xml:lang="sl">Doda podporo za notranjega vtičnika.</li>
           <li xml:lang="sv">Tillägg av stöd för interna insticksprogram.</li>
           <li xml:lang="uk">Додано підтримку вбудованих додатків.</li>
+          <li xml:lang="zh-TW">新增內部外掛程式支援。</li>
           <li>Add MCP Server support.</li>
           <li xml:lang="ar">إضافة دعم خادم MCP.</li>
           <li xml:lang="ca">Afegeix la implementació del servidor MCP.</li>
@@ -226,6 +232,7 @@
           <li xml:lang="sl">Doda podporo za strežnik MCP..</li>
           <li xml:lang="sv">Tillägg av stöd för MCP-server</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
+          <li xml:lang="zh-TW">新增 MCP 伺服器支援。</li>
           <li>Show internal tools metadata.</li>
           <li xml:lang="ar">أظهر بيانات تعريف الأدوات الداخلية.</li>
           <li xml:lang="ca">Mostra les metadades de les eines internes.</li>
@@ -242,6 +249,7 @@
           <li xml:lang="sl">Prikazuje metapodatke notranjih orodij.</li>
           <li xml:lang="sv">Visa metadata för interna verktyg.</li>
           <li xml:lang="uk">Показ метаданих зовнішніх інструментів.</li>
+          <li xml:lang="zh-TW">顯示內部工具中繼資料。</li>
           <li>Add KCM support.</li>
           <li xml:lang="ar">إتاحة KCM.</li>
           <li xml:lang="ca">Afegeix la implementació del KCM.</li>
@@ -258,6 +266,7 @@
           <li xml:lang="sl">Doda podporo za KCM.</li>
           <li xml:lang="sv">Tillägg av stöd för KCM.</li>
           <li xml:lang="uk">Додано підтримку KCM.</li>
+          <li xml:lang="zh-TW">新增 KCM 支援。</li>
           <li>Add Sarvam instance support.</li>
           <li xml:lang="ar">أضف دعم نسخ Sarvam.</li>
           <li xml:lang="ca">Afegeix la implementació de la instància Sarvam.</li>
@@ -274,6 +283,7 @@
           <li xml:lang="sl">Doda podporo za pojavek Sarvam.</li>
           <li xml:lang="sv">Tillägg av stöd för Sarvam-instans</li>
           <li xml:lang="uk">Додано підтримку екземплярів Sarvam.</li>
+          <li xml:lang="zh-TW">新增 Sarvam 實體支援。</li>
           <li>Add Database Debug Dialogbox.</li>
           <li xml:lang="ar">إضافة قاعدة بيانات التنقيح.</li>
           <li xml:lang="ca">Afegeix un quadre de diàleg de depuració de la base de dades.</li>
@@ -290,6 +300,7 @@
           <li xml:lang="sl">Doda pogovorno okno za odpravljanje napak v zbirki podatkov.</li>
           <li xml:lang="sv">Tillägg av dialogruta för databasfelsökning</li>
           <li xml:lang="uk">Додано діалогове вікно діагностики бази даних.</li>
+          <li xml:lang="zh-TW">新增資料庫除錯對話框。</li>
           <li>Display reply info about duration, number of tokens etc.</li>
           <li xml:lang="ar">عرض معلومات الرد حول المدة، عدد الرموز، إلخ.</li>
           <li xml:lang="ca">Mostra informació de resposta sobre la durada, nombre de segments textuals, etc.</li>
@@ -306,6 +317,7 @@
           <li xml:lang="sl">Prikazue informacije o odgovoru o trajanju, številu žetonov itd.</li>
           <li xml:lang="sv">Visa svarsinformation om längd, antal token, etc.</li>
           <li xml:lang="uk">Реалізовано показ даних щодо тривалості, кількості жетонів та інших параметрів відповіді</li>
+          <li xml:lang="zh-TW">顯示時長、token 數等回覆資訊。</li>
           <li>Allow to export as PDF.</li>
           <li xml:lang="ar">السماح بالتصدير بصيغة PDF.</li>
           <li xml:lang="ca">Permet exportar com a PDF.</li>
@@ -322,6 +334,7 @@
           <li xml:lang="sl">Dovoljuje izvoz kot PDF.</li>
           <li xml:lang="sv">Tillåt att exportera som PDF</li>
           <li xml:lang="uk">Уможливлено експортування даних до PDF.</li>
+          <li xml:lang="zh-TW">允許匯出為 PDF。</li>
           <li>Add LMStudio support.</li>
           <li xml:lang="ar">إتاحة LMStudio.</li>
           <li xml:lang="ca">Afegeix la implementació del LMStudio.</li>
@@ -338,6 +351,7 @@
           <li xml:lang="sl">Doda podporo za LMStudio.</li>
           <li xml:lang="sv">Tillägg av stöd för LMStudio</li>
           <li xml:lang="uk">Додано підтримку LMStudio.</li>
+          <li xml:lang="zh-TW">新增 LMStudio 支援。</li>
         </ul>
       </description>
     </release>
@@ -360,6 +374,7 @@
           <li xml:lang="sl">Doda podporo za instanco Grok.</li>
           <li xml:lang="sv">Tillägg av stöd för Grok-instans</li>
           <li xml:lang="uk">Додано підтримку екземплярів Grok.</li>
+          <li xml:lang="zh-TW">新增 Grok 實體支援。</li>
           <li>Add User Feedback support.</li>
           <li xml:lang="ar">إضافة تعليقات المستخدمين.</li>
           <li xml:lang="ca">Afegeix la implementació dels comentaris de l'usuari.</li>
@@ -376,6 +391,7 @@
           <li xml:lang="sl">Doda podporo za povratne informacije uporabnikov.</li>
           <li xml:lang="sv">Tillägg av stöd för användaråterkoppling.</li>
           <li xml:lang="uk">Додано підтримку відгуків користувачів.</li>
+          <li xml:lang="zh-TW">新增使用者回饋支援。</li>
           <li>Allow to show model info.</li>
           <li xml:lang="ar">اسمح بعرض معلومات النموذج.</li>
           <li xml:lang="ca">Permet mostrar la informació del model.</li>
@@ -392,6 +408,7 @@
           <li xml:lang="sl">Dovoli prikaz informacij o modelu.</li>
           <li xml:lang="sv">Tillåt visning av modellinformation</li>
           <li xml:lang="uk">Дозволити показувати відомості щодо моделі.</li>
+          <li xml:lang="zh-TW">允許顯示模型資訊。</li>
           <li>Add import chat support.</li>
           <li xml:lang="ar">إتاحة استيراد الدردشة.</li>
           <li xml:lang="ca">Afegeix la implementació d'importació de xats.</li>
@@ -408,6 +425,7 @@
           <li xml:lang="sl">Doda podporo za uvoz klepeta.</li>
           <li xml:lang="sv">Tillägg av stöd för chattimport</li>
           <li xml:lang="uk">Додано підтримку імпортування даних спілкування.</li>
+          <li xml:lang="zh-TW">新增聊天匯入的功能。</li>
           <li>Add Ollama Online support.</li>
           <li xml:lang="ar">إضافة دعم أولاما عبر الإنترنت.</li>
           <li xml:lang="ca">Afegeix la implementació d'Ollama en línia.</li>
@@ -424,6 +442,7 @@
           <li xml:lang="sl">Doda podporo za Ollama online.</li>
           <li xml:lang="sv">Tillägg av stöd för Ollama på nätet.</li>
           <li xml:lang="uk">Додано підтримку Ollama Online.</li>
+          <li xml:lang="zh-TW">新增 Ollama Online 支援。</li>
           <li>Add Ollama Cloud support.</li>
           <li xml:lang="ar">إضافة دعم سحابة أولاما.</li>
           <li xml:lang="ca">Afegeix la implementació d'Ollama Cloud.</li>
@@ -440,6 +459,7 @@
           <li xml:lang="sl">Doda podporo za Ollama cloud.</li>
           <li xml:lang="sv">Tillägg av stöd för Ollama moln.</li>
           <li xml:lang="uk">Додано підтримку Ollama Cloud.</li>
+          <li xml:lang="zh-TW">新增 Ollama Cloud 支援。</li>
           <li>Allow to duplicate chat.</li>
           <li xml:lang="ar">اسمح بتكرار الدردشة.</li>
           <li xml:lang="ca">Permet duplicar el xat.</li>
@@ -456,6 +476,7 @@
           <li xml:lang="sl">Dovoli podvajanje klepeta.</li>
           <li xml:lang="sv">Tillåt att duplicera chatt.</li>
           <li xml:lang="uk">Уможливлено дублювання спілкування.</li>
+          <li xml:lang="zh-TW">允許重製聊天。</li>
           <li>Add Ollama Keep Alive setting support.</li>
           <li xml:lang="ar">إضافة إعداد استبقاء أولاما.</li>
           <li xml:lang="ca">Afegeix la implementació del paràmetre «Keep Alive» d'Ollama.</li>
@@ -488,6 +509,7 @@
           <li xml:lang="sl">Prikazuje dnevnik Ollame.</li>
           <li xml:lang="sv">Visa Ollama-logg.</li>
           <li xml:lang="uk">Показати журнал Ollama.</li>
+          <li xml:lang="zh-TW">顯示 Ollama 紀錄。</li>
           <li>Allow to expose Ollama to local network.</li>
           <li xml:lang="ar">اسمح بتعريض أولاما للشبكة المحلية.</li>
           <li xml:lang="ca">Permet exposar l'Ollama a la xarxa local.</li>
@@ -654,6 +676,7 @@
           <li xml:lang="sl">Doda podporo za priloge.</li>
           <li xml:lang="sv">Lägg till stöd för bilagor.</li>
           <li xml:lang="uk">Додано підтримку долучень.</li>
+          <li xml:lang="zh-TW">新增附件支援。</li>
           <li>Add new icon.</li>
           <li xml:lang="ar">إضافة أيقونة جديدة.</li>
           <li xml:lang="ca">Afegeix una icona nova.</li>
@@ -670,6 +693,7 @@
           <li xml:lang="sl">Doda novo ikono.</li>
           <li xml:lang="sv">Lägg till ny ikon.</li>
           <li xml:lang="uk">Додано нову піктограму.</li>
+          <li xml:lang="zh-TW">新圖示。</li>
           <li>Add debug command line.</li>
           <li xml:lang="ar">إضافة سطر أوامر تنقيح.</li>
           <li xml:lang="ca">Afegeix una línia d'ordres de depuració.</li>
@@ -916,6 +940,7 @@
           <li xml:lang="sl">Dovoljuje spreminjanje velikosti pisave.</li>
           <li xml:lang="sv">Tillåt att ändra teckenstorlek.</li>
           <li xml:lang="uk">Уможливлено зміну розміру шрифту.</li>
+          <li xml:lang="zh-TW">允許改變字型大小。</li>
           <li>Add command line for adding new chat room, displaying list of instances.</li>
           <li xml:lang="ar">أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ.</li>
           <li xml:lang="ca">Afegeix una línia d'ordres per afegir una sala de xat nova, mostrant la llista d'instàncies.</li>
@@ -1028,6 +1053,7 @@
           <li xml:lang="sl">Doda podporo za orodja.</li>
           <li xml:lang="sv">Lägg till verktygsstöd.</li>
           <li xml:lang="uk">Додано підтримку інструментів.</li>
+          <li xml:lang="zh-TW">新增工具支援。</li>
           <li>Allow to switch from chat identifier.</li>
           <li xml:lang="ar">اِسمح بالانتقال من مُعرِّف الدردشة.</li>
           <li xml:lang="ca">Permet canviar a partir d'un identificador de xat.</li>
@@ -1060,6 +1086,7 @@
           <li xml:lang="sl">Doda orodje za trenutni datum in čas.</li>
           <li xml:lang="sv">Lägg till verktyg för aktuellt datum och tid.</li>
           <li xml:lang="uk">Додано інструмент поточної дати і часу.</li>
+          <li xml:lang="zh-TW">新增「目前日期與時間」工具。</li>
           <li>Add progress tool message info.</li>
           <li xml:lang="ar">أَضِف معلومات رسالة أداة التقدُّم.</li>
           <li xml:lang="ca">Afegeix informació del missatge de progrés de l'eina.</li>
@@ -1092,6 +1119,7 @@
           <li xml:lang="sl">"Popravi ikono na sistemu Windows."</li>
           <li xml:lang="sv">"Rätta ikon på Windows.</li>
           <li xml:lang="uk">Виправлено піктограму у Windows.</li>
+          <li xml:lang="zh-TW">修正 Windows 上的圖示。</li>
         </ul>
       </description>
     </release>
