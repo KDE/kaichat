@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-20 12:56+0000\n"
-"PO-Revision-Date: 2026-05-30 16:42-0400\n"
+"PO-Revision-Date: 2026-09-22 18:03+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
 "Language: ug\n"
@@ -37,7 +37,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
-msgstr "Laurent Montel"
+msgstr ""
 
 #: apps/main.cpp:79
 #, kde-format
@@ -200,7 +200,7 @@ msgstr ""
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
 msgid "Markdown"
-msgstr "Markdown"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
@@ -412,11 +412,9 @@ msgid "Messages"
 msgstr "ئۇچۇرلار"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "سانداندىن ئىزدە…"
+msgstr ""
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
@@ -527,8 +525,6 @@ msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
-"<qt>بۇ مەشغۇلات تىزىملىك بالداقنى پۈتۈنلەي يوشۇرىدۇ. %1 نى بېسىپ قايتا "
-"كۆرسىتەلەيسىز.</qt>"
 
 #: widgets/kaichatmainwindow.cpp:314
 #, kde-format
