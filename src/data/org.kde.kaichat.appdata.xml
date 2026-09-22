@@ -125,6 +125,7 @@
     <release version="0.9.0" type="snapshot">
       <description>
         <ul>
+          <li>Add tags support</li>
           <li>Add KAIChat mimetype</li>
           <li xml:lang="cs">Přidán MIME typ KAIChat</li>
           <li xml:lang="es">Se ha añadido el tipo MIME para KAIChat.</li>
