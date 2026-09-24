@@ -43,7 +43,7 @@ repos:
    rev: v2.4.2
    hooks:
     - id: codespell
-      exclude: (.json|.appdata.xml|.svg|src/data/kaichat.notifyrc)
+      exclude: (.json|.appdata.xml|.svg|src/data/kaichat.notifyrc|src/data/application-vnd-kde-kaichat.xml)
  - repo: https://github.com/BlankSpruce/gersemi
    rev: 0.25.4
    hooks:
