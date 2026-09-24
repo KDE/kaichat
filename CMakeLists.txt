@@ -115,7 +115,7 @@ set_package_properties(
 )
 
 set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.1.81")
-
+set(KTEXTADDONS_WITH_SPEECH_TO_TEXT_VERSION "2.2.0")
 find_package(
     Qt6
     ${QT_REQUIRED_VERSION}
@@ -224,6 +224,20 @@ set_package_properties(
         TYPE
             REQUIRED
 )
+
+find_package(KF6TextSpeechToText ${KTEXTADDONS_WITH_SPEECH_TO_TEXT_VERSION} CONFIG)
+set_package_properties(
+    KF6TextSpeechToText
+    PROPERTIES
+        DESCRIPTION
+            "Add support for speech to text (ktextaddons)"
+        TYPE
+            OPTIONAL
+)
+if(TARGET KF6::TextSpeechToText)
+    set(HAVE_SPEECH_TO_TEXT TRUE)
+endif()
+
 set(SharedMimeInfo_MINIMUM_VERSION "1.10")
 find_package(SharedMimeInfo ${SharedMimeInfo_MINIMUM_VERSION} REQUIRED)
 
