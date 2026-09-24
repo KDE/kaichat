@@ -2,6 +2,7 @@
     "KPlugin": {
         "Description": "Configure LLM Backends",
         "Description[ar]": "ضبط خلفيات LLM",
+        "Description[ca@valencia]": "Configureu els dorsals de LLM",
         "Description[ca]": "Configuració dels dorsals de LLM",
         "Description[cs]": "Nastavit podpůrné vrstvy LLM",
         "Description[es]": "Configurar motores LLM",
@@ -17,6 +18,7 @@
         "Icon": "kaichat",
         "Name": "LLM Backends",
         "Name[ar]": "خلفيات LLM",
+        "Name[ca@valencia]": "Dorsals de LLM",
         "Name[ca]": "Dorsals de LLM",
         "Name[cs]": "Podpůrné vrstvy LLM",
         "Name[es]": "Motores LLM",
