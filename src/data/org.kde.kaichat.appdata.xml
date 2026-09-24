@@ -118,6 +118,7 @@
     <screenshot type="default">
       <image type="source" width="1920" height="1026">https://cdn.kde.org/screenshots/kaichat/kaichat.png</image>
       <caption>KAIChat main window.</caption>
+      <caption xml:lang="es">Ventana principal de KAIChat</caption>
     </screenshot>
   </screenshots>
   <icon type="stock">org.kde.kaichat</icon>
@@ -127,8 +128,10 @@
         <ul>
           <li>Add project support</li>
           <li>Add tags support</li>
+          <li xml:lang="es">Añadir compatibilidad con etiquetas.</li>
           <li>Add KAIChat mimetype</li>
           <li xml:lang="ca">S'ha afegit el tipus MIME del KAIChat</li>
+          <li xml:lang="ca-valencia">S'ha afegit el tipus MIME de KAIChat</li>
           <li xml:lang="cs">Přidán MIME typ KAIChat</li>
           <li xml:lang="es">Se ha añadido el tipo MIME para KAIChat.</li>
           <li xml:lang="he">נוסף סוג תוכן KAIChat</li>
@@ -142,6 +145,7 @@
           <li xml:lang="zh-TW">新增 KAIChat 的 MIME 類型</li>
           <li>Allow to start quick chat with a global shortcut</li>
           <li xml:lang="ca">Permet començar un xat ràpid amb una drecera global</li>
+          <li xml:lang="ca-valencia">Permet començar un xat ràpid amb una drecera global</li>
           <li xml:lang="cs">Umožnit spuštění rychlé konverzace pomocí globální klávesové zkratky</li>
           <li xml:lang="es">Permitir empezar a chatear rápidamente con un atajo de teclado global</li>
           <li xml:lang="he">אפשרות להפעיל שיחה מהירה עם קיצור מקשים מקיף</li>
