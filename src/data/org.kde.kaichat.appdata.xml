@@ -118,7 +118,16 @@
     <screenshot type="default">
       <image type="source" width="1920" height="1026">https://cdn.kde.org/screenshots/kaichat/kaichat.png</image>
       <caption>KAIChat main window.</caption>
+      <caption xml:lang="ar">النافذة الرئيسة لكتشات</caption>
+      <caption xml:lang="ca">Finestra principal del KAIChat.</caption>
+      <caption xml:lang="cs">Hlavní okno KAIChatu.</caption>
       <caption xml:lang="es">Ventana principal de KAIChat</caption>
+      <caption xml:lang="ka">KAIChat-ის მთავარი ფანჯარა.</caption>
+      <caption xml:lang="nl">KAIChat hoofdvenster.</caption>
+      <caption xml:lang="pt-BR">Janela principal do KAIChat.</caption>
+      <caption xml:lang="sl">KAIChat glavno okno.</caption>
+      <caption xml:lang="tr">KAIChat ana penceresi</caption>
+      <caption xml:lang="uk">Головне вікно KAIChat.</caption>
     </screenshot>
   </screenshots>
   <icon type="stock">org.kde.kaichat</icon>
@@ -127,9 +136,29 @@
       <description>
         <ul>
           <li>Add project support</li>
+          <li xml:lang="ar">إتاحة إضافة مشروع</li>
+          <li xml:lang="ca">Afegeix la implementació de projectes</li>
+          <li xml:lang="cs">Přidána podpora projektů</li>
+          <li xml:lang="es">Se ha implementado el uso de proyectos.</li>
+          <li xml:lang="ka">დაემატა პროექტის მხარდაჭერა</li>
+          <li xml:lang="nl">Ondersteuning voor project toevoegen</li>
+          <li xml:lang="pt-BR">Adicionado suporte a projeto</li>
+          <li xml:lang="sl">Doda podporo projekta</li>
+          <li xml:lang="tr">Proje desteği ekle</li>
+          <li xml:lang="uk">Додано підтримку проєктів</li>
           <li>Add tags support</li>
+          <li xml:lang="ar">إتاحة إضافة وسوم</li>
+          <li xml:lang="ca">Afegeix la implementació d'etiquetes</li>
+          <li xml:lang="cs">Přidána podpora značek</li>
           <li xml:lang="es">Añadir compatibilidad con etiquetas.</li>
+          <li xml:lang="ka">დაემატა ჭდეების მხარდაჭერა</li>
+          <li xml:lang="nl">Ondersteuning voor tags toevoegen</li>
+          <li xml:lang="pt-BR">Adicionado suporte a etiquetas</li>
+          <li xml:lang="sl">Doda podporo značkam</li>
+          <li xml:lang="tr">Künyeler desteği ekle</li>
+          <li xml:lang="uk">Додано підтримку міток</li>
           <li>Add KAIChat mimetype</li>
+          <li xml:lang="ar">إضافة نوع Mime لمستندات كتشات</li>
           <li xml:lang="ca">S'ha afegit el tipus MIME del KAIChat</li>
           <li xml:lang="ca-valencia">S'ha afegit el tipus MIME de KAIChat</li>
           <li xml:lang="cs">Přidán MIME typ KAIChat</li>
@@ -144,6 +173,7 @@
           <li xml:lang="uk">Додано тип MIME KAIChat</li>
           <li xml:lang="zh-TW">新增 KAIChat 的 MIME 類型</li>
           <li>Allow to start quick chat with a global shortcut</li>
+          <li xml:lang="ar">السماح ببدء محادثة سريعة باستخدام اختصار عام</li>
           <li xml:lang="ca">Permet començar un xat ràpid amb una drecera global</li>
           <li xml:lang="ca-valencia">Permet començar un xat ràpid amb una drecera global</li>
           <li xml:lang="cs">Umožnit spuštění rychlé konverzace pomocí globální klávesové zkratky</li>
