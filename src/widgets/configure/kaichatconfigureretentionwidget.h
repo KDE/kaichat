@@ -18,4 +18,8 @@ public:
     void save();
     void load();
     void restoreToDefaults();
+
+private:
+    QCheckBox *const mExcludeFavoriteChats;
+    QSpinBox *const mHistoryRetentionDays;
 };
