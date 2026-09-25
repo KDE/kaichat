@@ -46,3 +46,5 @@ void KAIChatConfigureRetentionWidget::restoreToDefaults()
     load();
     TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useDefaults(bUseDefaults);
 }
+
+#include "moc_kaichatconfigureretentionwidget.cpp"
