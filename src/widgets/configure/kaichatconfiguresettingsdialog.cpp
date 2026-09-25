@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguresettingsdialog.h"
+#include "configure/kaichatconfigureretentionwidget.h"
 #include "kaichat_widget_debug.h"
 #include "kaichatconfigureaccessibilitywidget.h"
 #include "kaichatconfigurefontwidget.h"
@@ -37,6 +38,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigurePluginsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget(this))
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
     , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
+    , mConfigureRetentionWidget(new KAIChatConfigureRetentionWidget(this))
 #if HAVE_TEXT_TO_SPEECH
     , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
 #endif
@@ -95,6 +97,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     addPage(mConfigureUserFeedBackWidgetPage);
 #endif
 
+    const QString retentionPageName = i18nc("@title Retention page name", "Retention");
+    mConfigureRetentionWidgetPage = new KPageWidgetItem(mConfigureRetentionWidget, retentionPageName);
+    mConfigureRetentionWidgetPage->setIcon(QIcon::fromTheme(u"view-history"_s));
+    addPage(mConfigureRetentionWidgetPage);
+
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
 
     connect(buttonBox()->button(QDialogButtonBox::Ok), &QPushButton::clicked, this, &KAIChatConfigureSettingsDialog::slotAccepted);
@@ -137,6 +144,7 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
 #if HAVE_MPC_SERVER
     mConfigureMcpServersWidget->save();
 #endif
+    mConfigureRetentionWidget->save();
 }
 
 void KAIChatConfigureSettingsDialog::load()
@@ -154,6 +162,7 @@ void KAIChatConfigureSettingsDialog::load()
 #if HAVE_MPC_SERVER
     mConfigureMcpServersWidget->load();
 #endif
+    mConfigureRetentionWidget->load();
 }
 
 void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
@@ -162,6 +171,8 @@ void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
         mConfigureGeneralWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureFontWidgetPage) {
         mConfigureFontWidget->restoreToDefaults();
+    } else if (currentPage() == mConfigureRetentionWidgetPage) {
+        mConfigureRetentionWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureInstancesWidgetPage) {
         mInstancesManagerWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureSpellCheckWidgetPage) {

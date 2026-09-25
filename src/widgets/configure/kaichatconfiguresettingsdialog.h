@@ -15,6 +15,7 @@ class KAIChatConfigureSpellCheckingWidget;
 class KAIChatConfigureAccessibilityWidget;
 class KAIChatConfigureUserFeedbackWidget;
 class KAIChatConfigureMcpServersWidget;
+class KAIChatConfigureRetentionWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -38,6 +39,7 @@ private:
     TextAutoGenerateText::TextAutoGenerateTextConfigurePluginsWidget *const mConfigurePluginsWidget;
     KAIChatConfigureFontWidget *const mConfigureFontWidget;
     KAIChatConfigureSpellCheckingWidget *const mConfigureSpellCheckingWidget;
+    KAIChatConfigureRetentionWidget *const mConfigureRetentionWidget;
 #if HAVE_TEXT_TO_SPEECH
     KAIChatConfigureAccessibilityWidget *const mConfigureAccessibilityWidget;
     KPageWidgetItem *mConfigureTextToSpeechWidgetPage = nullptr;
@@ -55,4 +57,5 @@ private:
     KAIChatConfigureMcpServersWidget *const mConfigureMcpServersWidget;
     KPageWidgetItem *mConfigureMcpServersWidgetPage = nullptr;
 #endif
+    KPageWidgetItem *mConfigureRetentionWidgetPage = nullptr;
 };
