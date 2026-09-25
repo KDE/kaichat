@@ -135,6 +135,7 @@
     <release version="0.9.0" type="snapshot">
       <description>
         <ul>
+          <li>Add ephemeral discussion</li>
           <li>Add project support</li>
           <li xml:lang="ar">إتاحة إضافة مشروع</li>
           <li xml:lang="ca">Afegeix la implementació de projectes</li>
