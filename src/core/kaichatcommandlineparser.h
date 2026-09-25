@@ -30,6 +30,7 @@ public:
         ImportChat,
         StartOllamaProgram,
         SelfTest,
+        EphemeralChat,
     };
     explicit KAIChatCommandLineParser(QCommandLineParser *parser);
     ~KAIChatCommandLineParser();

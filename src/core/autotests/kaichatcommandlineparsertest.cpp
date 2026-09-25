@@ -35,6 +35,7 @@ void KAIChatCommandLineParserTest::shouldVerifyOptionParserFromEnumValues()
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat), u"import"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::StartOllamaProgram), u"start-ollama"_s);
     QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest), u"self-test"_s);
+    QCOMPARE(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::EphemeralChat), u"ephemeral-chat"_s);
 }
 
 #include "moc_kaichatcommandlineparsertest.cpp"

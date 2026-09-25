@@ -421,6 +421,10 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
         mManager->createNewChat(newChatName);
     }
+    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::EphemeralChat))) {
+        const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::EphemeralChat));
+        mManager->createNewChat(newChatName, TextAutoGenerateText::TextAutoGenerateChat::Persistence::Ephemeral);
+    }
     QString message;
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage))) {
         message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));

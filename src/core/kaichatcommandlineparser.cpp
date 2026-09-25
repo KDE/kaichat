@@ -25,6 +25,9 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          i18n("Instance Name")));
     parser->addOption(
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::NewChat), i18nc("@info:shell", "Create new chat"), i18n("New Chat Title")));
+    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::EphemeralChat),
+                                         i18nc("@info:shell", "Create new ephemeral chat"),
+                                         i18n("New Ephemeral Chat")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::QuickAsk), i18nc("@info:shell", "Open Quick Ask")));
     parser->addOption(
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::SwitchToChat), i18nc("@info:shell", "Switch to Chat"), i18n("Chat Name")));
@@ -91,6 +94,8 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"start-ollama"_s;
     case OptionParser::SelfTest:
         return u"self-test"_s;
+    case OptionParser::EphemeralChat:
+        return u"ephemeral-chat"_s;
     }
     return {};
 }
