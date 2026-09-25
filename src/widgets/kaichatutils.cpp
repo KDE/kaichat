@@ -7,11 +7,13 @@
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 
-void KAIChatUtils::createQuickAsk(QWidget *parent)
+void KAIChatUtils::createQuickAsk(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
 {
-    auto manager = new TextAutoGenerateText::TextAutoGenerateManager;
-    auto quickAskdialog = new TextAutoGenerateText::TextAutoGenerateQuickAskDialog(manager, parent);
-    manager->setParent(quickAskdialog);
+    auto quickManager = manager ? manager : new TextAutoGenerateText::TextAutoGenerateManager;
+    auto quickAskdialog = new TextAutoGenerateText::TextAutoGenerateQuickAskDialog(quickManager, parent);
+    if (!manager) {
+        quickManager->setParent(quickAskdialog);
+    }
     quickAskdialog->exec();
     delete quickAskdialog;
 }

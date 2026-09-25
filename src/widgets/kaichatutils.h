@@ -6,7 +6,11 @@
 #pragma once
 #include "libkaichatwidgets_export.h"
 class QWidget;
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 namespace KAIChatUtils
 {
-LIBKAICHATWIDGETS_EXPORT void createQuickAsk(QWidget *parent = nullptr);
+LIBKAICHATWIDGETS_EXPORT void createQuickAsk(TextAutoGenerateText::TextAutoGenerateManager *manager = nullptr, QWidget *parent = nullptr);
 };

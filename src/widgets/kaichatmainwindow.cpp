@@ -239,7 +239,7 @@ void KAIChatMainWindow::slotExportDone(const QString &fileName)
 
 void KAIChatMainWindow::slotQuickAsk()
 {
-    KAIChatUtils::createQuickAsk(this);
+    KAIChatUtils::createQuickAsk(mManager, this);
 }
 
 void KAIChatMainWindow::slotWhatsNew()
