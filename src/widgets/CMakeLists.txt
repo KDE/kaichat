@@ -2,11 +2,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 add_subdirectory(icons)
 
-add_library(
-    libkaichatwidgets
-    configure/kaichatconfigureretentionwidget.h
-    configure/kaichatconfigureretentionwidget.cpp
-)
+add_library(libkaichatwidgets)
 ecm_qt_declare_logging_category(libkaichatwidgets HEADER kaichat_widget_debug.h IDENTIFIER KAICHAT_WIDGET_LOG
     CATEGORY_NAME org.kde.kaichat_widget DESCRIPTION "kaichat (widget lib)" EXPORT KAICHAT
 )
@@ -53,6 +49,10 @@ target_sources(
         configure/kaichatconfigureaccessibilitywidget.h
         configure/kaichatconfigureinstanceswidget.h
         configure/kaichatconfigureinstanceswidget.cpp
+        configure/kaichatconfigureretentionwidget.h
+        configure/kaichatconfigureretentionwidget.cpp
+        configure/kaichatconfigureprivacywidget.h
+        configure/kaichatconfigureprivacywidget.cpp
         kaichatexportmenu.h
         kaichatexportmenu.cpp
         kaichatutils.h

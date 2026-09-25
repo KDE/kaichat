@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatconfiguresettingsdialog.h"
+#include "configure/kaichatconfigureprivacywidget.h"
 #include "configure/kaichatconfigureretentionwidget.h"
 #include "kaichat_widget_debug.h"
 #include "kaichatconfigureaccessibilitywidget.h"
@@ -39,6 +40,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
     , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
     , mConfigureRetentionWidget(new KAIChatConfigureRetentionWidget(this))
+    , mConfigurePrivacyWidget(new KAIChatConfigurePrivacyWidget(this))
 #if HAVE_TEXT_TO_SPEECH
     , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
 #endif
@@ -101,6 +103,11 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureRetentionWidgetPage = new KPageWidgetItem(mConfigureRetentionWidget, retentionPageName);
     mConfigureRetentionWidgetPage->setIcon(QIcon::fromTheme(u"view-history"_s));
     addPage(mConfigureRetentionWidgetPage);
+
+    const QString privacyPageName = i18nc("@title Privacy page name", "Privacy");
+    auto configurePrivacyWidgetPage = new KPageWidgetItem(mConfigurePrivacyWidget, privacyPageName);
+    configurePrivacyWidgetPage->setIcon(QIcon::fromTheme(u"view-private"_s));
+    addPage(configurePrivacyWidgetPage);
 
     buttonBox()->setStandardButtons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel | QDialogButtonBox::RestoreDefaults);
 

@@ -18,7 +18,6 @@ KAIChatConfigureRetentionWidget::KAIChatConfigureRetentionWidget(QWidget *parent
 {
     auto mainLayout = new QFormLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
-    mainLayout->setContentsMargins({});
     mExcludeFavoriteChats->setObjectName(u"mExcludeFavoriteChats"_s);
     mHistoryRetentionDays->setObjectName(u"mHistoryRetentionDays"_s);
     mainLayout->addWidget(mExcludeFavoriteChats);
