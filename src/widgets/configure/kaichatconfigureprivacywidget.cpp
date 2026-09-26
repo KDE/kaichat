@@ -4,6 +4,8 @@
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 #include "kaichatconfigureprivacywidget.h"
+#include <QApplication>
+#include <QClipboard>
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QToolButton>
@@ -20,10 +22,23 @@ KAIChatConfigurePrivacyWidget::KAIChatConfigurePrivacyWidget(TextAutoGenerateTex
     label->setObjectName(u"label"_s);
     mainLayout->addWidget(label);
 
-    auto labelPath = new QLabel(manager->localDatabasePath(), this);
+    const QString path = manager->localDatabasePath();
+    auto labelPath = new QLabel(path, this);
     labelPath->setObjectName(u"labelPath"_s);
     mainLayout->addWidget(labelPath, 1);
     labelPath->setTextInteractionFlags(Qt::TextSelectableByMouse);
+
+    auto copyToolButton = new QToolButton(this);
+    copyToolButton->setObjectName(u"copyToolButton"_s);
+    copyToolButton->setAutoRaise(true);
+    copyToolButton->setIcon(QIcon::fromTheme(u"edit-copy"_s));
+    mainLayout->addWidget(copyToolButton, 1);
+
+    connect(copyToolButton, &QToolButton::clicked, this, [path]() {
+        QClipboard *cb = QApplication::clipboard();
+        cb->setText(path, QClipboard::Clipboard);
+        cb->setText(path, QClipboard::Selection);
+    });
 }
 
 KAIChatConfigurePrivacyWidget::~KAIChatConfigurePrivacyWidget() = default;
