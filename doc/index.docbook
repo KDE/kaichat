@@ -34,7 +34,7 @@
 
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2026-09-20</date>
+<date>2026-09-26</date>
 <releaseinfo></releaseinfo>
 
 <abstract>
@@ -49,6 +49,7 @@
 <keyword>chat</keyword>
 <keyword>Ollama</keyword>
 <keyword>LLM</keyword>
+<keyword>privacy</keyword>
 </keywordset>
 </bookinfo>
 
@@ -60,7 +61,9 @@ models, either running locally with Ollama or provided by an online AI service.<
 
 <para>Conversations are stored in a local database on your computer, so they are
 still there the next time you start the application. You can browse them, search
-through them, archive the ones you do not need any more, and export them to a file.</para>
+through them, organize them in projects and with tags, archive the ones you do not
+need any more, and export them to a file. When you do not want a conversation to be
+kept at all, you can use an ephemeral discussion instead.</para>
 
 <para>&i18n-kapplication; does not provide a model of its own: it talks to a model
 provider that you configure. Nothing is sent anywhere until you have set up such a
@@ -137,8 +140,8 @@ answers of the model are shown;</para></listitem>
 question.</para></listitem>
 </itemizedlist>
 
-<para>Above them, a header bar lets you start a new chat and search in the current
-conversation. The status bar at the bottom shows what the model is currently doing,
+<para>Above them, a header bar lets you start a new chat or an ephemeral discussion,
+mark the current chat as a favorite and search in the current conversation. The status bar at the bottom shows what the model is currently doing,
 for instance which tool it is calling.</para>
 
 </sect1>
@@ -163,6 +166,51 @@ with your new question so that the model knows the context.</para>
 <userinput><command>kaichat</command> <option>--new-chat</option>
 <replaceable>title</replaceable></userinput>.</para>
 
+<para>Right-click a chat in the list to act on it:</para>
+
+<variablelist>
+<varlistentry>
+<term><guimenuitem>Modify…</guimenuitem></term>
+<listitem><para>Change the title of the chat.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Duplicate…</guimenuitem></term>
+<listitem><para>Create a copy of the chat, for instance to try another direction
+without losing the original conversation.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Set as Favorite</guimenuitem></term>
+<listitem><para>Show the chat in the <guilabel>Favorite</guilabel> section at the top
+of the list. The same can be done with the <guibutton>Favorite</guibutton> button of
+the header bar.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guisubmenu>Project</guisubmenu></term>
+<listitem><para>Move the chat into a project, or out of it with
+<guimenuitem>No Project</guimenuitem>.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guisubmenu>Tags</guisubmenu></term>
+<listitem><para>Add tags to the chat or remove them.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Archive</guimenuitem></term>
+<listitem><para>Hide the chat from the list without deleting it.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guimenuitem>Remove…</guimenuitem></term>
+<listitem><para>Delete the chat and its messages for good.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>The other chats are grouped by age: today, the last seven days, the last thirty
+days and older.</para>
+
+<para>A conversation can also be forked from one of its messages with the
+<guibutton>Fork</guibutton> button shown next to it. This starts a new chat
+containing the conversation up to that message, and leaves the original chat
+untouched.</para>
+
 <para>A chat you do not need any more can be archived instead of being deleted.
 Archived chats are hidden from the list; show them again with
 <menuchoice><guimenu>View</guimenu><guimenuitem>Show
@@ -176,6 +224,43 @@ number of matches is shown in the status bar.</para>
 
 </sect1>
 
+<sect1 id="projects-tags">
+<title>Projects and tags</title>
+
+<para>Projects and tags are two ways of organizing your chats. A chat belongs to at
+most one project, which is useful to keep together the conversations about the same
+piece of work. A chat can have any number of tags.</para>
+
+<para>Both are created, renamed and removed with <guimenuitem>Manage
+Projects…</guimenuitem> and <guimenuitem>Manage Tags…</guimenuitem>, in the
+<guisubmenu>Project</guisubmenu> and <guisubmenu>Tags</guisubmenu> submenus of the
+context menu of the chat list. Removing a project does not remove its chats: they are
+kept, outside of any project.</para>
+
+<para>The tag selector above the chat list only shows the chats which have one of the
+selected tags. Select no tag to see all of them again.</para>
+
+</sect1>
+
+<sect1 id="ephemeral-chats">
+<title>Ephemeral discussions</title>
+
+<para>An ephemeral discussion is a chat which is never written to the database. Use
+it for a question you do not want to keep: once you close &i18n-kapplication;, it is
+gone. Start one with the <guibutton>Ephemeral Discussion</guibutton> button of the
+header bar, or with <userinput><command>kaichat</command>
+<option>--ephemeral-chat</option> <replaceable>title</replaceable></userinput>.
+Ephemeral discussions are shown in their own section at the top of the chat
+list.</para>
+
+<para>If you change your mind, the <guibutton>Save Discussion in
+Database</guibutton> button of the header bar turns it into a normal chat.</para>
+
+<para>Keep in mind that this only concerns what is stored on your computer: with an
+online service, your questions are still sent to that provider.</para>
+
+</sect1>
+
 <sect1 id="quick-ask">
 <title>Quick Ask</title>
 
@@ -185,7 +270,8 @@ window. Open it with
 Ask…</guimenuitem></menuchoice>, with the
 <keycombo action="simul">&Meta;<keycap>Space</keycap></keycombo> global shortcut, or
 with <userinput><command>kaichat</command> <option>--quick-ask</option></userinput>.
-Questions asked this way are not added to your chats.</para>
+Questions asked this way are not added to your chats, unless you keep the discussion
+with the <guibutton>Save Discussion in Database</guibutton> button.</para>
 
 </sect1>
 
@@ -293,6 +379,20 @@ model may use.</para></listitem>
 <listitem><para>How much information, if any, you want to send to the developers.
 Nothing is sent unless you ask for it here.</para></listitem>
 </varlistentry>
+
+<varlistentry>
+<term><guilabel>Retention</guilabel></term>
+<listitem><para>How long your chats are kept. <guilabel>Retention Days</guilabel> is
+the number of days after which old chats are removed; with the default value of 0,
+they are kept for ever. <guilabel>Exclude Favorite Chats</guilabel>, enabled by
+default, keeps your favorite chats whatever their age.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Privacy</guilabel></term>
+<listitem><para>Shows where your chats are stored on disk. The path can be copied to
+the clipboard with the button next to it, for instance to back up or delete the
+database.</para></listitem>
+</varlistentry>
 </variablelist>
 
 <para>Notifications are configured with
@@ -312,7 +412,9 @@ from the <guilabel>AI</guilabel> module of &systemsettings;.</para>
 </varlistentry>
 <varlistentry>
 <term><filename class="directory">~/.local/share/kaichat/ai-database/</filename></term>
-<listitem><para>The databases holding your chats and their messages.</para></listitem>
+<listitem><para>The databases holding your chats and their messages. The exact
+location is shown on the <guilabel>Privacy</guilabel> page of the configuration
+dialog.</para></listitem>
 </varlistentry>
 </variablelist>
 
@@ -350,6 +452,11 @@ opening a second one.</para>
 <varlistentry>
 <term><option>--new-chat</option> <replaceable>title</replaceable></term>
 <listitem><para>Create a new chat with this title.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><option>--ephemeral-chat</option> <replaceable>title</replaceable></term>
+<listitem><para>Create a new ephemeral discussion with this title. It is not stored
+in the database.</para></listitem>
 </varlistentry>
 <varlistentry>
 <term><option>--switch-to-chat</option> <replaceable>name</replaceable></term>
