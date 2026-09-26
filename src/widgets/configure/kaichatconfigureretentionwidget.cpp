@@ -20,6 +20,8 @@ KAIChatConfigureRetentionWidget::KAIChatConfigureRetentionWidget(QWidget *parent
     mainLayout->setObjectName(u"mainLayout"_s);
     mExcludeFavoriteChats->setObjectName(u"mExcludeFavoriteChats"_s);
     mHistoryRetentionDays->setObjectName(u"mHistoryRetentionDays"_s);
+    mHistoryRetentionDays->setSpecialValueText(i18n("Never"));
+    mHistoryRetentionDays->setSuffix(i18n("Days"));
     mainLayout->addWidget(mExcludeFavoriteChats);
     mainLayout->addRow(i18n("Retention Days"), mHistoryRetentionDays);
 }
