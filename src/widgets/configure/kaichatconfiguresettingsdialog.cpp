@@ -59,7 +59,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureGeneralWidgetPage->setIcon(QIcon(u":/kaichat/kaichat.svg"_s));
     addPage(mConfigureGeneralWidgetPage);
 
-    const QString fontPageName = i18nc("@title General page name", "Font");
+    const QString fontPageName = i18nc("@title Font page name", "Font");
     mConfigureFontWidgetPage = new KPageWidgetItem(mConfigureFontWidget, fontPageName);
     mConfigureFontWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-font"_s));
     addPage(mConfigureFontWidgetPage);
@@ -70,7 +70,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     addPage(mConfigureInstancesWidgetPage);
 
 #if HAVE_MPC_SERVER
-    const QString mcpServersPageName = i18nc("@title Preferences page name", "MCP Servers");
+    const QString mcpServersPageName = i18nc("@title MCP page name", "MCP Servers");
     mConfigureMcpServersWidgetPage = new KPageWidgetItem(mConfigureMcpServersWidget, mcpServersPageName);
     mConfigureMcpServersWidgetPage->setIcon(QIcon::fromTheme(u"preferences-system-network-server"_s));
     addPage(mConfigureMcpServersWidgetPage);
@@ -81,19 +81,19 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureSpellCheckWidgetPage->setIcon(QIcon::fromTheme(u"tools-check-spelling"_s));
     addPage(mConfigureSpellCheckWidgetPage);
 #if HAVE_TEXT_TO_SPEECH
-    const QString textToSpeechPageName = i18nc("@title Preferences page name", "Accessibility");
+    const QString textToSpeechPageName = i18nc("@title Text To Speech page name", "Accessibility");
     mConfigureTextToSpeechWidgetPage = new KPageWidgetItem(mConfigureAccessibilityWidget, textToSpeechPageName);
     mConfigureTextToSpeechWidgetPage->setIcon(QIcon::fromTheme(u"preferences-desktop-accessibility"_s));
     addPage(mConfigureTextToSpeechWidgetPage);
 #endif
 
-    const QString pluginsPageName = i18nc("@title Instances page name", "Plugins");
+    const QString pluginsPageName = i18nc("@title Plugins page name", "Plugins");
     mConfigurePluginsWidgetPage = new KPageWidgetItem(mConfigurePluginsWidget, pluginsPageName);
     mConfigurePluginsWidgetPage->setIcon(QIcon::fromTheme(u"preferences-plugin"_s));
     addPage(mConfigurePluginsWidgetPage);
 
 #if HAVE_KUSERFEEDBACK
-    const QString userFeedBackPageName = i18nc("@title Preferences page name", "User Feedback");
+    const QString userFeedBackPageName = i18nc("@title Preferences other page name", "User Feedback");
     mConfigureUserFeedBackWidgetPage = new KPageWidgetItem(mConfigureUserFeedBackWidget, userFeedBackPageName);
     mConfigureUserFeedBackWidgetPage->setIcon(QIcon::fromTheme(u"preferences-other"_s));
     addPage(mConfigureUserFeedBackWidgetPage);
