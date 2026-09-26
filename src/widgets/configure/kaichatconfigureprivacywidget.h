@@ -6,11 +6,14 @@
 #pragma once
 
 #include <QWidget>
-
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 class KAIChatConfigurePrivacyWidget : public QWidget
 {
     Q_OBJECT
 public:
-    explicit KAIChatConfigurePrivacyWidget(QWidget *parent = nullptr);
+    explicit KAIChatConfigurePrivacyWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent = nullptr);
     ~KAIChatConfigurePrivacyWidget() override;
 };

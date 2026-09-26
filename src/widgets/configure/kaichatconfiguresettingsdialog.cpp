@@ -40,7 +40,7 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigureFontWidget(new KAIChatConfigureFontWidget(this))
     , mConfigureSpellCheckingWidget(new KAIChatConfigureSpellCheckingWidget(this))
     , mConfigureRetentionWidget(new KAIChatConfigureRetentionWidget(this))
-    , mConfigurePrivacyWidget(new KAIChatConfigurePrivacyWidget(this))
+    , mConfigurePrivacyWidget(new KAIChatConfigurePrivacyWidget(manager, this))
 #if HAVE_TEXT_TO_SPEECH
     , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
 #endif
