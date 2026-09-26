@@ -120,6 +120,7 @@
       <caption>KAIChat main window.</caption>
       <caption xml:lang="ar">النافذة الرئيسة لكتشات</caption>
       <caption xml:lang="ca">Finestra principal del KAIChat.</caption>
+      <caption xml:lang="ca-valencia">Finestra principal de KAIChat.</caption>
       <caption xml:lang="cs">Hlavní okno KAIChatu.</caption>
       <caption xml:lang="es">Ventana principal de KAIChat</caption>
       <caption xml:lang="ka">KAIChat-ის მთავარი ფანჯარა.</caption>
@@ -139,6 +140,7 @@
           <li>Add project support</li>
           <li xml:lang="ar">إتاحة إضافة مشروع</li>
           <li xml:lang="ca">Afegeix la implementació de projectes</li>
+          <li xml:lang="ca-valencia">Afig la implementació de projectes</li>
           <li xml:lang="cs">Přidána podpora projektů</li>
           <li xml:lang="es">Se ha implementado el uso de proyectos.</li>
           <li xml:lang="ka">დაემატა პროექტის მხარდაჭერა</li>
@@ -150,6 +152,7 @@
           <li>Add tags support</li>
           <li xml:lang="ar">إتاحة إضافة وسوم</li>
           <li xml:lang="ca">Afegeix la implementació d'etiquetes</li>
+          <li xml:lang="ca-valencia">Afig la implementació d'etiquetes</li>
           <li xml:lang="cs">Přidána podpora značek</li>
           <li xml:lang="es">Añadir compatibilidad con etiquetas.</li>
           <li xml:lang="ka">დაემატა ჭდეების მხარდაჭერა</li>
