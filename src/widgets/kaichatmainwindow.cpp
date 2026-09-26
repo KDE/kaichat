@@ -146,6 +146,21 @@ void KAIChatMainWindow::setupActions()
     connect(mShowArchivedAction, &KToggleAction::triggered, this, &KAIChatMainWindow::slotShowArchive);
     ac->addAction(u"show_archive"_s, mShowArchivedAction);
 
+    mNewChatAction = KStandardActions::openNew(
+        this,
+        [this]() {
+            mManager->createNewChat();
+        },
+        ac);
+    mNewChatAction->setText(i18nc("@action", "New Chat"));
+
+    mNewEphemeralChatAction = new QAction(QIcon::fromTheme(u"view-private"_s), i18nc("@action", "New Ephemeral Chat"), this);
+    ac->addAction(u"new_ephemeral_chat"_s, mNewEphemeralChatAction);
+    ac->setDefaultShortcut(mNewEphemeralChatAction, QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_N));
+    connect(mNewEphemeralChatAction, &QAction::triggered, this, [this]() {
+        mManager->createNewChat({}, TextAutoGenerateText::TextAutoGenerateChat::Persistence::Ephemeral);
+    });
+
     mExportMenu = new KAIChatExportMenu(this);
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
@@ -375,6 +390,8 @@ void KAIChatMainWindow::slotExportInfoRequested()
 void KAIChatMainWindow::disableActions()
 {
     mShowQuickAskAction->setEnabled(false);
+    mNewChatAction->setEnabled(false);
+    mNewEphemeralChatAction->setEnabled(false);
     mExportMenu->setEnabled(false);
 }
 
@@ -383,6 +400,8 @@ void KAIChatMainWindow::updateActions()
     const bool status = !mManager->textAutoGenerateTextInstancesManager()->isEmpty();
     qCDebug(KAICHAT_WIDGET_LOG) << " void KAIChatMainWindow::updateActions()";
     mShowQuickAskAction->setEnabled(status);
+    mNewChatAction->setEnabled(status);
+    mNewEphemeralChatAction->setEnabled(status);
     mExportMenu->setEnabled(status && !mManager->currentChatId().isEmpty());
 }
 

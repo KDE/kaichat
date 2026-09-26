@@ -76,6 +76,8 @@ private:
     KAIChatExportMenu *mExportMenu = nullptr;
     KAIChatImportMenu *mImportMenu = nullptr;
     QAction *mShowQuickAskAction = nullptr;
+    QAction *mNewChatAction = nullptr;
+    QAction *mNewEphemeralChatAction = nullptr;
     KAIChatChangeFontSizeMenu *mChangeFontSizeAction = nullptr;
     QLabel *mToolProgressInfo = nullptr;
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
