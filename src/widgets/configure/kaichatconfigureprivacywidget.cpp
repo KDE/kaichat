@@ -38,6 +38,7 @@ KAIChatConfigurePrivacyWidget::KAIChatConfigurePrivacyWidget(TextAutoGenerateTex
     copyToolButton->setObjectName(u"copyToolButton"_s);
     copyToolButton->setAutoRaise(true);
     copyToolButton->setIcon(QIcon::fromTheme(u"edit-copy"_s));
+    copyToolButton->setToolTip(i18nc("@info:tooltip", "Copy Path"));
     hbox->addWidget(copyToolButton);
 
     mainLayout->addLayout(hbox);
