@@ -10,30 +10,38 @@
 #include <QLabel>
 #include <QLineEdit>
 #include <QToolButton>
+#include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 
 using namespace Qt::Literals::StringLiterals;
 KAIChatConfigurePrivacyWidget::KAIChatConfigurePrivacyWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : QWidget{parent}
 {
-    auto mainLayout = new QHBoxLayout(this);
+    auto mainLayout = new QVBoxLayout(this);
     mainLayout->setObjectName(u"mainLayout"_s);
+
+    auto hbox = new QHBoxLayout;
+    hbox->setObjectName(u"mainLayout"_s);
+    hbox->setContentsMargins({});
 
     auto label = new QLabel(i18n("Database Repository:"), this);
     label->setObjectName(u"label"_s);
-    mainLayout->addWidget(label, 0, Qt::AlignTop);
+    hbox->addWidget(label);
 
     const QString path = manager->localDatabasePath();
     auto lineEditPath = new QLineEdit(path, this);
     lineEditPath->setObjectName(u"labelPath"_s);
     lineEditPath->setReadOnly(true);
-    mainLayout->addWidget(lineEditPath, 1, Qt::AlignTop);
+    hbox->addWidget(lineEditPath);
 
     auto copyToolButton = new QToolButton(this);
     copyToolButton->setObjectName(u"copyToolButton"_s);
     copyToolButton->setAutoRaise(true);
     copyToolButton->setIcon(QIcon::fromTheme(u"edit-copy"_s));
-    mainLayout->addWidget(copyToolButton, 1, Qt::AlignTop);
+    hbox->addWidget(copyToolButton);
+
+    mainLayout->addLayout(hbox);
+    mainLayout->addStretch(1);
 
     connect(copyToolButton, &QToolButton::clicked, this, [path]() {
         QClipboard *cb = QApplication::clipboard();
