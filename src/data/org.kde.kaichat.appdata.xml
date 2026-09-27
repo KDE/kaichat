@@ -123,6 +123,7 @@
       <caption xml:lang="ca-valencia">Finestra principal de KAIChat.</caption>
       <caption xml:lang="cs">Hlavní okno KAIChatu.</caption>
       <caption xml:lang="es">Ventana principal de KAIChat</caption>
+      <caption xml:lang="it">Finestra principale di KAIChat.</caption>
       <caption xml:lang="ka">KAIChat-ის მთავარი ფანჯარა.</caption>
       <caption xml:lang="nl">KAIChat hoofdvenster.</caption>
       <caption xml:lang="pt-BR">Janela principal do KAIChat.</caption>
@@ -143,6 +144,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de projectes</li>
           <li xml:lang="cs">Přidána podpora projektů</li>
           <li xml:lang="es">Se ha implementado el uso de proyectos.</li>
+          <li xml:lang="it">Aggiunge il supporto dei progetti</li>
           <li xml:lang="ka">დაემატა პროექტის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor project toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a projeto</li>
@@ -155,6 +157,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'etiquetes</li>
           <li xml:lang="cs">Přidána podpora značek</li>
           <li xml:lang="es">Añadir compatibilidad con etiquetas.</li>
+          <li xml:lang="it">Aggiunge il supporto per le etichette</li>
           <li xml:lang="ka">დაემატა ჭდეების მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor tags toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a etiquetas</li>
@@ -168,6 +171,7 @@
           <li xml:lang="cs">Přidán MIME typ KAIChat</li>
           <li xml:lang="es">Se ha añadido el tipo MIME para KAIChat.</li>
           <li xml:lang="he">נוסף סוג תוכן KAIChat</li>
+          <li xml:lang="it">Aggiunge il tipo MIME di KAIChat</li>
           <li xml:lang="ka">დაემატა KAIChat-ის mime ტიპი</li>
           <li xml:lang="nl">Mimetype van KAIChat toevoegen</li>
           <li xml:lang="pt-BR">Adicionado tipo MIME KAIChat</li>
@@ -183,6 +187,7 @@
           <li xml:lang="cs">Umožnit spuštění rychlé konverzace pomocí globální klávesové zkratky</li>
           <li xml:lang="es">Permitir empezar a chatear rápidamente con un atajo de teclado global</li>
           <li xml:lang="he">אפשרות להפעיל שיחה מהירה עם קיצור מקשים מקיף</li>
+          <li xml:lang="it">Consenti di avviare una chat rapida con una scorciatoia globale</li>
           <li xml:lang="ka">გლობალური მალსახმობით ჩატის სწრაფად დაწყება</li>
           <li xml:lang="nl">Een snelle chat starten met een wereldwijde sneltoets mogelijk maken</li>
           <li xml:lang="pt-BR">Permitir iniciar um chat rápido com um atalho global</li>
