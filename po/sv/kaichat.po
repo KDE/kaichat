@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:48+0000\n"
+"POT-Creation-Date: 2026-09-27 00:49+0000\n"
 "PO-Revision-Date: 2026-09-21 17:42+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
@@ -333,6 +333,17 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Aktivera ikon i systembrickan"
 
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
@@ -340,7 +351,17 @@ msgstr "Aktivera ikon i systembrickan"
 msgid "Exclude Favorite Chats"
 msgstr "Exportera chatter"
 
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#, kde-format
+msgid "Never"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#, kde-format
+msgid "Days"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
 msgstr ""
@@ -358,8 +379,10 @@ msgid "General"
 msgstr "Allmänt"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
-msgctxt "@title General page name"
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
+msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Teckensnitt"
 
@@ -370,8 +393,10 @@ msgid "Instances"
 msgstr "Instanser"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
+msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP-servrar"
 
@@ -382,20 +407,26 @@ msgid "Spell Checking"
 msgstr "Stavningskontroll"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
+msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Handikappstöd"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
-msgctxt "@title Instances page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
+msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Insticksprogram"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
+msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Användaråterkoppling"
 
@@ -542,19 +573,34 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Visa arkiv"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:155
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
+msgctxt "@action"
+msgid "New Chat"
+msgstr "Ny chattitel"
+
+#: widgets/kaichatmainwindow.cpp:157
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "Skapa ny chatt"
+
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Sök i databas…"
 
-#: widgets/kaichatmainwindow.cpp:197
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Öppna snabbfråga…"
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -563,30 +609,30 @@ msgstr ""
 "<qt>Det här döljer menyraden fullständigt. Du kan visa den igen genom att "
 "skriva %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:329
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Dölj menyrad"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:365
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importera chatter"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportera chatter"
 
-#: widgets/kaichatmainwindow.cpp:485
+#: widgets/kaichatmainwindow.cpp:504
 #, kde-format
 msgid "Model Download Done"
 msgstr "Modellnerladdning klar"
 
-#: widgets/kaichatmainwindow.cpp:486
+#: widgets/kaichatmainwindow.cpp:505
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 har laddats ner."
@@ -597,37 +643,37 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:15
+#: widgets/kaichatui.rc:18
 #, kde-format
 msgid "&Settings"
 msgstr "In&ställningar"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:19
+#: widgets/kaichatui.rc:22
 #, kde-format
 msgid "&Edit"
 msgstr "&Redigera"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:26
 #, kde-format
 msgid "View"
 msgstr "Visa"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:29
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Tools"
 msgstr "Verktyg"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:35
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "&Help"
 msgstr "&Hjälp"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:42
+#: widgets/kaichatui.rc:45
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Huvudverktygsrad"

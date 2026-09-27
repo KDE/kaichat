@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:48+0000\n"
+"POT-Creation-Date: 2026-09-27 00:49+0000\n"
 "PO-Revision-Date: 2026-09-22 01:07+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -333,6 +333,17 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "開啟系統匣圖示"
 
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
@@ -340,7 +351,17 @@ msgstr "開啟系統匣圖示"
 msgid "Exclude Favorite Chats"
 msgstr "匯出聊天"
 
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#, kde-format
+msgid "Never"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#, kde-format
+msgid "Days"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
 msgstr ""
@@ -358,8 +379,10 @@ msgid "General"
 msgstr "一般"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
-msgctxt "@title General page name"
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
+msgctxt "@title Font page name"
 msgid "Font"
 msgstr "字型"
 
@@ -370,8 +393,10 @@ msgid "Instances"
 msgstr "實體"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
+msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP 伺服器"
 
@@ -382,20 +407,26 @@ msgid "Spell Checking"
 msgstr "拼字檢查"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
+msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "無障礙輔助"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
-msgctxt "@title Instances page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
+msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "外掛程式"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
+msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "使用者回饋"
 
@@ -541,49 +572,64 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "顯示封存"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:155
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
+msgctxt "@action"
+msgid "New Chat"
+msgstr "新聊天標題"
+
+#: widgets/kaichatmainwindow.cpp:157
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "建立新的聊天"
+
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "在資料庫中搜尋…"
 
-#: widgets/kaichatmainwindow.cpp:197
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "開啟快速詢問…"
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單列。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:329
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:365
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "匯入聊天紀錄"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "匯出聊天"
 
-#: widgets/kaichatmainwindow.cpp:485
+#: widgets/kaichatmainwindow.cpp:504
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下載完成"
 
-#: widgets/kaichatmainwindow.cpp:486
+#: widgets/kaichatmainwindow.cpp:505
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "模型 %1 已下載完成。"
@@ -594,37 +640,37 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:15
+#: widgets/kaichatui.rc:18
 #, kde-format
 msgid "&Settings"
 msgstr "設定(&S)"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:19
+#: widgets/kaichatui.rc:22
 #, kde-format
 msgid "&Edit"
 msgstr "編輯(&E)"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:26
 #, kde-format
 msgid "View"
 msgstr "檢視"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:29
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Tools"
 msgstr "工具"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:35
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "&Help"
 msgstr "說明(&H)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:42
+#: widgets/kaichatui.rc:45
 #, kde-format
 msgid "Main Toolbar"
 msgstr "主工具列"
