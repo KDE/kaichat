@@ -138,6 +138,15 @@
       <description>
         <ul>
           <li>Add ephemeral discussion</li>
+          <li xml:lang="ca">Afegeix un debat efímer</li>
+          <li xml:lang="cs">Přidána krátkodobá diskuze</li>
+          <li xml:lang="es">Añadir discusiones efímeras.</li>
+          <li xml:lang="ka">დაემატა ეფემერული დისკუსიები</li>
+          <li xml:lang="nl">Tijdelijke discussie toevoegen</li>
+          <li xml:lang="pt-BR">Adicionado discussão efêmera</li>
+          <li xml:lang="sl">Doda minljivo debato</li>
+          <li xml:lang="tr">Geçici tartışma desteği</li>
+          <li xml:lang="uk">Додано ефемерні обговорення</li>
           <li>Add project support</li>
           <li xml:lang="ar">إتاحة إضافة مشروع</li>
           <li xml:lang="ca">Afegeix la implementació de projectes</li>
