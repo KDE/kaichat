@@ -94,9 +94,8 @@ int main(int argc, char *argv[])
 
 #if HAVE_KUSERFEEDBACK
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack))) {
-        auto userFeedback = new KAIChatUserFeedbackProvider;
-        QTextStream(stdout) << userFeedback->describeDataSources() << '\n';
-        delete userFeedback;
+        KAIChatUserFeedbackProvider userFeedback;
+        QTextStream(stdout) << userFeedback.describeDataSources() << '\n';
         return 0;
     }
 #endif
