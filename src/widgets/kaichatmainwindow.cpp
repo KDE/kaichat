@@ -93,6 +93,11 @@ KAIChatMainWindow::KAIChatMainWindow(const QList<KAboutRelease> &releases, TextA
             slotStatusBarInfoChanged({});
         }
     });
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 2, 41)
+    connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::information, this, [this](const QString &info) {
+        statusBar()->showMessage(info, 3000);
+    });
+#endif
     disableActions();
 #if HAVE_KUSERFEEDBACK
     auto userFeedBackNotificationPopup = new KUserFeedback::NotificationPopup(this);
@@ -107,7 +112,7 @@ void KAIChatMainWindow::setupStatusBar()
     mToolProgressInfo = new QLabel(this);
     mToolProgressInfo->setTextFormat(Qt::RichText);
     mToolProgressInfo->setObjectName(u"mToolProgressInfo"_s);
-    statusBar()->addPermanentWidget(mToolProgressInfo, 1);
+    statusBar()->addPermanentWidget(mToolProgressInfo);
 }
 
 void KAIChatMainWindow::slotStatusBarInfoChanged(const QString &str)
