@@ -49,7 +49,7 @@ void KAIChatExportChatAsPdfJob::exportChat()
     QFont f;
     f.setPointSize(24);
     doc.setDefaultFont(f);
-    QString txt = u"<h1><b>%1</b></h1>"_s.arg(mInfo.chatTitle) + u"<br/>"_s;
+    QString txt = u"<h1><b>%1</b></h1>"_s.arg(mInfo.chatTitle.toHtmlEscaped()) + u"<br/>"_s;
     const QString senderStr = u"<h2><b>%1</b></h2>"_s;
     for (const auto &message : std::as_const(mInfo.listMessages)) {
         switch (message.sender()) {
