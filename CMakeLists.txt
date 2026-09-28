@@ -7,7 +7,7 @@ project(kaichat VERSION ${KAICHAT_VERSION})
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
 
 # TODO: update it in each release version
-set(KAICHAT_RELEASE_VERSION "26.09.30") # yy.MM.dd
+set(KAICHAT_RELEASE_VERSION "26.10.30") # yy.MM.dd
 
 # Use true if stable version => we will check specific version
 set(KAICHAT_STABLE_VERSION true)
