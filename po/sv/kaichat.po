@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-21 17:42+0200\n"
+"PO-Revision-Date: 2026-09-27 14:31+0200\n"
 "Last-Translator: Stefan Asserhäll <stefan.asserhall@gmail.com>\n"
 "Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
 "Language: sv\n"
@@ -87,17 +87,15 @@ msgid "New Chat Title"
 msgstr "Ny chattitel"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Skapa ny chatt"
+msgstr "Skapa ny tillfällig chatt"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Ny tillfällig chatt"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -336,35 +334,33 @@ msgstr "Aktivera ikon i systembrickan"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Databasarkiv:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopiera sökväg"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "Exportera chatter"
+msgstr "Undanta favoritchatter"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Aldrig"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dagar"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "Lagringsdagar"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -379,9 +375,7 @@ msgid "General"
 msgstr "Allmänt"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Teckensnitt"
@@ -393,9 +387,7 @@ msgid "Instances"
 msgstr "Instanser"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP-servrar"
@@ -407,25 +399,19 @@ msgid "Spell Checking"
 msgstr "Stavningskontroll"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Handikappstöd"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Insticksprogram"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Användaråterkoppling"
@@ -434,13 +420,13 @@ msgstr "Användaråterkoppling"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Lagring"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Integritet"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -574,19 +560,16 @@ msgid "Show Archive"
 msgstr "Visa arkiv"
 
 #: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Ny chattitel"
+msgstr "Ny chatt"
 
 #: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Skapa ny chatt"
+msgstr "Ny tillfällig chatt"
 
 #: widgets/kaichatmainwindow.cpp:174
 #, kde-format

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:48+0000\n"
-"PO-Revision-Date: 2026-09-21 06:42-0300\n"
+"POT-Creation-Date: 2026-09-27 00:49+0000\n"
+"PO-Revision-Date: 2026-09-26 05:51-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -88,17 +88,15 @@ msgid "New Chat Title"
 msgstr "Título novo do chat"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Criar novo bate-papo"
+msgstr "Criar novo bate-papo efêmero"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Novo bate-papo efêmero"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -335,17 +333,36 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Habilitar ícone na área de notificação"
 
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "Exportar bate-papo"
+msgstr "Excluir bate-papos favoritos"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#, kde-format
+msgid "Never"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
-msgid "Retention Days"
+msgid "Days"
 msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, kde-format
+msgid "Retention Days"
+msgstr "Dias de retenção"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -360,8 +377,10 @@ msgid "General"
 msgstr "Geral"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
-msgctxt "@title General page name"
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
+msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Fonte"
 
@@ -372,8 +391,10 @@ msgid "Instances"
 msgstr "Instâncias"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
+msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Servidores MCP"
 
@@ -384,20 +405,26 @@ msgid "Spell Checking"
 msgstr "Verificação ortográfica"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
+msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Acessibilidade"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
-msgctxt "@title Instances page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
+msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Plugins"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
+msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Feedback do usuário"
 
@@ -405,13 +432,13 @@ msgstr "Feedback do usuário"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Retenção"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Privacidade"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -544,19 +571,33 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostrar arquivo"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:155
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
+msgctxt "@action"
+msgid "New Chat"
+msgstr "Título novo do chat"
+
+#: widgets/kaichatmainwindow.cpp:157
+#, fuzzy, kde-format
+#| msgid "New Ephemeral Chat"
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "Novo bate-papo efêmero"
+
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Pesquisar no banco de dados…"
 
-#: widgets/kaichatmainwindow.cpp:197
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Abrir pergunta rápida…"
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -565,30 +606,30 @@ msgstr ""
 "<qt>Isso ocultará a barra de menu completamente. Você pode exibi-la "
 "novamente digitando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:329
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:365
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importar bate-papos"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportar bate-papo"
 
-#: widgets/kaichatmainwindow.cpp:485
+#: widgets/kaichatmainwindow.cpp:504
 #, kde-format
 msgid "Model Download Done"
 msgstr "Download do modelo concluído"
 
-#: widgets/kaichatmainwindow.cpp:486
+#: widgets/kaichatmainwindow.cpp:505
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "O modelo %1 foi baixado."
@@ -599,37 +640,37 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:15
+#: widgets/kaichatui.rc:18
 #, kde-format
 msgid "&Settings"
 msgstr "&Configurações"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:19
+#: widgets/kaichatui.rc:22
 #, kde-format
 msgid "&Edit"
 msgstr "&Editar"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:26
 #, kde-format
 msgid "View"
 msgstr "Ver"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:29
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Tools"
 msgstr "Ferramentas"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:35
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "&Help"
 msgstr "Aj&uda"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:42
+#: widgets/kaichatui.rc:45
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Barra de ferramentas principal"

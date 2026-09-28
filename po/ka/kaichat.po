@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:48+0000\n"
-"PO-Revision-Date: 2026-09-21 04:15+0200\n"
+"POT-Creation-Date: 2026-09-27 00:49+0000\n"
+"PO-Revision-Date: 2026-09-26 08:11+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -88,17 +88,15 @@ msgid "New Chat Title"
 msgstr "ახალი ჩატის სათაური"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "ახალი ჩატის შექმნა"
+msgstr "ახალი ეფემერული ჩატის შექმნა"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "ახალი ეფემერული ჩატი"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -336,17 +334,36 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "სისტემის კუთხეში ხატულის ჩართვა"
 
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr ""
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "ჩატების გატანა"
+msgstr "რჩეული ჩატების ამოღება"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#, kde-format
+msgid "Never"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
-msgid "Retention Days"
+msgid "Days"
 msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, kde-format
+msgid "Retention Days"
+msgstr "შენარჩუნების დღეები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -361,8 +378,10 @@ msgid "General"
 msgstr "ზოგადი"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
-msgctxt "@title General page name"
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
+msgctxt "@title Font page name"
 msgid "Font"
 msgstr "ფონტი"
 
@@ -373,8 +392,10 @@ msgid "Instances"
 msgstr "გაშვებული ასლები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
+msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP სერვერები"
 
@@ -385,20 +406,26 @@ msgid "Spell Checking"
 msgstr "მართლწერის შემოწმება"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
+msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "წვდომადობა"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
-msgctxt "@title Instances page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
+msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "დამატებები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
-msgctxt "@title Preferences page name"
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
+msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "მომხარებლის უკუკავშირი"
 
@@ -406,13 +433,13 @@ msgstr "მომხარებლის უკუკავშირი"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "შენარჩუნება"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "კონფიდენციალობა"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -545,19 +572,33 @@ msgctxt "@action"
 msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
-#: widgets/kaichatmainwindow.cpp:159
+#: widgets/kaichatmainwindow.cpp:155
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
+msgctxt "@action"
+msgid "New Chat"
+msgstr "ახალი ჩატის სათაური"
+
+#: widgets/kaichatmainwindow.cpp:157
+#, fuzzy, kde-format
+#| msgid "New Ephemeral Chat"
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "ახალი ეფემერული ჩატი"
+
+#: widgets/kaichatmainwindow.cpp:174
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "ძებნა მონაცემთა ბაზაში…"
 
-#: widgets/kaichatmainwindow.cpp:197
+#: widgets/kaichatmainwindow.cpp:212
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "სწრაფი კითხვის გახსნა…"
 
-#: widgets/kaichatmainwindow.cpp:311
+#: widgets/kaichatmainwindow.cpp:326
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -566,30 +607,30 @@ msgstr ""
 "<qt>ეს მენიუს ზოლ მთლიანად დამალავს. მენიუს თავიდან საჩვენებლად დააწექით: %1."
 "</qt>"
 
-#: widgets/kaichatmainwindow.cpp:314
+#: widgets/kaichatmainwindow.cpp:329
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "მენიუს ზოლის დამალვა"
 
-#: widgets/kaichatmainwindow.cpp:350
+#: widgets/kaichatmainwindow.cpp:365
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "ჩატების შემოტანა"
 
-#: widgets/kaichatmainwindow.cpp:363
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ჩატების გატანა"
 
-#: widgets/kaichatmainwindow.cpp:485
+#: widgets/kaichatmainwindow.cpp:504
 #, kde-format
 msgid "Model Download Done"
 msgstr "მოდელის გადმოწერა დასრულდა"
 
-#: widgets/kaichatmainwindow.cpp:486
+#: widgets/kaichatmainwindow.cpp:505
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "მოდელი %1 გადმოწერილია."
@@ -600,37 +641,37 @@ msgid "KAIChat"
 msgstr "KAIChat"
 
 #. i18n: ectx: Menu (settings)
-#: widgets/kaichatui.rc:15
+#: widgets/kaichatui.rc:18
 #, kde-format
 msgid "&Settings"
 msgstr "მორგე&ბა"
 
 #. i18n: ectx: Menu (edit)
-#: widgets/kaichatui.rc:19
+#: widgets/kaichatui.rc:22
 #, kde-format
 msgid "&Edit"
 msgstr "ჩასწორ&ება"
 
 #. i18n: ectx: Menu (view)
-#: widgets/kaichatui.rc:23
+#: widgets/kaichatui.rc:26
 #, kde-format
 msgid "View"
 msgstr "ნახვა"
 
 #. i18n: ectx: Menu (Tools)
-#: widgets/kaichatui.rc:29
+#: widgets/kaichatui.rc:32
 #, kde-format
 msgid "Tools"
 msgstr "ხელსაწყოები"
 
 #. i18n: ectx: Menu (help)
-#: widgets/kaichatui.rc:35
+#: widgets/kaichatui.rc:38
 #, kde-format
 msgid "&Help"
 msgstr "&დახმარება"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/kaichatui.rc:42
+#: widgets/kaichatui.rc:45
 #, kde-format
 msgid "Main Toolbar"
 msgstr "ხელსაწყოთა მთავარი ზოლი"
