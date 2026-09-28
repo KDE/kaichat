@@ -133,6 +133,8 @@ void KAIChatMainWindow::createSystemTray()
         auto trayMenu = mNotification->contextMenu();
 
         trayMenu->addAction(actionCollection()->action(KStandardActions::name(KStandardActions::Preferences)));
+        trayMenu->addSeparator();
+        trayMenu->addAction(actionCollection()->action(u"show_quick_ask"_s));
     }
 #endif
 }
