@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
 "PO-Revision-Date: 2026-09-22 01:07+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -43,17 +43,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "維護者"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "以下實體可供使用："
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "聊天列表："
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "外掛程式："
@@ -561,25 +561,25 @@ msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "找到 %1 個字串。"
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "新功能"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "顯示封存"
 
-#: widgets/kaichatmainwindow.cpp:155
+#: widgets/kaichatmainwindow.cpp:162
 #, fuzzy, kde-format
 #| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
 msgstr "新聊天標題"
 
-#: widgets/kaichatmainwindow.cpp:157
+#: widgets/kaichatmainwindow.cpp:164
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Create new chat"
@@ -587,49 +587,49 @@ msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "建立新的聊天"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "在資料庫中搜尋…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "開啟快速詢問…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr "<qt>這會完全隱藏選單列。您可以按下 %1 重新顯示選單列。</qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "匯入聊天紀錄"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "匯出聊天"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "模型下載完成"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "模型 %1 已下載完成。"

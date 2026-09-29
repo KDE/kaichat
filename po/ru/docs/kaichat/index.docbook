@@ -1,0 +1,952 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>KAIChat</application
+>">
+  <!ENTITY kappname "&i18n-kapplication;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Russian "INCLUDE">
+]>
+
+<book id="kaichat" lang="&language;">
+
+<bookinfo id="kaichatinfo">
+
+<title
+>Руководство пользователя &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> <email
+>montel@kde.org</email
+> </author>
+<othercredit role="translator"
+><firstname
+>Александр</firstname
+><surname
+>Яворский</surname
+><affiliation
+><address
+><email
+>kekcuha@gmail.com</email
+></address
+></affiliation
+><contrib
+>Перевод на русский</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2025</year>
+<year
+>2026</year>
+<holder
+>Laurent Montel</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>26 сентября 2026 г.</date>
+<releaseinfo
+></releaseinfo>
+
+<abstract>
+<para
+>&i18n-kapplication; — клиент чата для языковых моделей ИИ. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>ИИ</keyword>
+<keyword
+>чат</keyword>
+<keyword
+>Ollama</keyword>
+<keyword
+>LLM</keyword>
+<keyword
+>конфиденциальность</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Введение</title>
+
+<para
+>&i18n-kapplication; — приложение для обмена сообщениями, позволяющее общаться с языковыми моделями ИИ, работающими локально с Ollama или предоставляемыми онлайн-службой ИИ.</para>
+
+<para
+>Беседы хранятся в локальной базе данных на компьютере, поэтому при следующем запуске приложения они останутся на месте. Их можно просматривать, искать по ним, упорядочивать по проектам и меткам, архивировать ненужные и экспортировать в файл. Если беседу не нужно сохранять вовсе, можно использовать временную беседу.</para>
+
+<para
+>&i18n-kapplication; не предоставляет собственную модель: он взаимодействует с поставщиком моделей, который настраивается. Ничего никуда не отправляется, пока такой поставщик не настроен и не задан вопрос.</para>
+
+</chapter>
+
+<chapter id="getting-started">
+<title
+>Начало работы</title>
+
+<para
+>Прежде чем что-либо спросить, &i18n-kapplication; требуется хотя бы один <emphasis
+>экземпляр</emphasis
+>. Экземпляр — это настроенное подключение к поставщику моделей: локальный сервер, запущенный на собственном компьютере, или сетевой сервис.</para>
+
+<para
+>При первом запуске приложения, когда нет ни одного экземпляра, предлагается создать экземпляр. Также можно открыть <menuchoice
+><guimenu
+>Настройка</guimenu
+><guimenuitem
+>Настроить &i18n-kapplication;…</guimenuitem
+></menuchoice
+> и перейти на страницу <guilabel
+>Экземпляры</guilabel
+>.</para>
+
+<sect1 id="local-model">
+<title
+>Использование локальной модели</title>
+
+<para
+>При запуске модели на собственном компьютере вопросы не покидают устройство. &i18n-kapplication; позволяет использовать локальные серверы, такие как <application
+>Ollama</application
+>, <application
+>llama.cpp</application
+> или <application
+>LM Studio</application
+>.</para>
+
+<para
+>Сначала установите и запустите сервер, затем добавьте экземпляр соответствующего типа. Адрес локального сервера <application
+>Ollama</application
+> по умолчанию уже заполнен. Если <application
+>Ollama</application
+> установлен, но не запущен, &i18n-kapplication; предлагает запустить его; это можно сделать и из командной строки: <userinput
+><command
+>kaichat</command
+> <option
+>--start-ollama</option
+></userinput
+>.</para>
+
+<para
+>После подключения экземпляра по-прежнему требуется модель. Модели можно загрузить из параметров экземпляра, а &i18n-kapplication; уведомляет о завершении загрузки.</para>
+
+</sect1>
+
+<sect1 id="online-service">
+<title
+>Использование интернет-службы</title>
+
+<para
+>&i18n-kapplication; также позволяет общаться с облачными службами, среди которых Ollama Cloud, OpenAI, Anthropic, Mistral AI, Groq, Grok, Qwen, OpenRouter, DeepInfra, Novita AI, Cerebras и другие поставщики с интерфейсом, совместимым с OpenAI. Точный список зависит от модулей, установленных в системе; чтобы увидеть его, выполните <userinput
+><command
+>kaichat</command
+> <option
+>--plugin-info</option
+></userinput
+>.</para>
+
+<para
+>Создайте экземпляр подходящего типа и вставьте ключ API, выданный службой. Учтите, что при использовании онлайн-службы ваши вопросы и любые прикреплённые файлы отправляются этому поставщику и подпадают под его собственную политику конфиденциальности.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="using-kapp">
+<title
+>Использование &i18n-kapplication;</title>
+
+<sect1 id="main-window">
+<title
+>Главное окно</title>
+
+<para
+>Окно разделено на три части:</para>
+
+<itemizedlist>
+<listitem
+><para
+>список ваших чатов слева. Он сворачивается кнопкой на разделителе;</para
+></listitem>
+<listitem
+><para
+>сама беседа справа, где показываются ваши вопросы и ответы модели;</para
+></listitem>
+<listitem
+><para
+>поле ввода в нижней части, куда вводится вопрос.</para
+></listitem>
+</itemizedlist>
+
+<para
+>Над ними панель заголовка позволяет начать новый чат или временную беседу, пометить текущий чат как избранный и искать в текущей беседе. Строка состояния внизу показывает, что модель делает сейчас, например, какой инструмент она вызывает.</para>
+
+</sect1>
+
+<sect1 id="chatting">
+<title
+>Задание вопросов</title>
+
+<para
+>Введите вопрос в поле ввода и подтвердите его. Ответ показывается в окне беседы по мере формирования, а по завершении длинного ответа выводится уведомление.</para>
+
+<para
+>К вопросу можно прикрепить файлы и включить инструменты, вызов которых разрешён модели при ответе на него. Каждый чат хранит собственную историю; она отправляется вместе с новым вопросом, чтобы модель знала контекст.</para>
+
+</sect1>
+
+<sect1 id="managing-chats">
+<title
+>Управление чатами</title>
+
+<para
+>Чаты создаются из панели заголовка или с помощью команды <userinput
+><command
+>kaichat</command
+> <option
+>--new-chat</option
+> <replaceable
+>title</replaceable
+></userinput
+>.</para>
+
+<para
+>Чтобы выполнить действие с чатом, щёлкните по нему правой кнопкой мыши в списке:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Изменить…</guimenuitem
+></term>
+<listitem
+><para
+>Измените название чата.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Создать копию…</guimenuitem
+></term>
+<listitem
+><para
+>Создайте копию чата, например, чтобы попробовать другое направление, не потеряв исходную беседу.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Добавить в избранное</guimenuitem
+></term>
+<listitem
+><para
+>Покажите чат в разделе <guilabel
+>Избранное</guilabel
+> в верхней части списка. То же можно сделать кнопкой <guibutton
+>Избранное</guibutton
+> на панели заголовка.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Проект</guisubmenu
+></term>
+<listitem
+><para
+>Чтобы переместить чат в проект или из него, выберите <guimenuitem
+>Без проекта</guimenuitem
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Метки</guisubmenu
+></term>
+<listitem
+><para
+>Добавляйте метки к чату или удаляйте их.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Архивировать</guimenuitem
+></term>
+<listitem
+><para
+>Скройте чат из списка, не удаляя его.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Удалить…</guimenuitem
+></term>
+<listitem
+><para
+>Удалите чат и его сообщения безвозвратно.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Остальные чаты группируются по давности: сегодня, последние семь дней, последние тридцать дней и более старые.</para>
+
+<para
+>Беседу также можно ответвить от одного из её сообщений с помощью кнопки <guibutton
+>Ответвить</guibutton
+>, показываемой рядом с ним. Так создаётся новый чат, содержащий беседу вплоть до этого сообщения, а исходный чат остаётся без изменений.</para>
+
+<para
+>Чат, который больше не нужен, можно архивировать вместо удаления. Архивированные чаты скрываются из списка; чтобы показать их снова, выберите <menuchoice
+><guimenu
+>Вид</guimenu
+><guimenuitem
+>Показывать архив</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Чтобы найти ранее заданный вопрос или прочитанное сообщение, выберите <menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>F</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Правка</guimenu
+><guimenuitem
+>Поиск в базе данных…</guimenuitem
+></menuchoice
+>. Поиск ведётся по всей сохранённой истории, а не только по текущей беседе. Число совпадений показывается в строке состояния.</para>
+
+</sect1>
+
+<sect1 id="projects-tags">
+<title
+>Проекты и метки</title>
+
+<para
+>Проекты и метки — это два способа упорядочивания чатов. Чат относится не более чем к одному проекту, что позволяет объединять беседы об одной и той же работе. У чата может быть любое количество меток.</para>
+
+<para
+>И то, и другое создаётся, переименовывается и удаляется с помощью пунктов <guimenuitem
+>Управление проектами…</guimenuitem
+> и <guimenuitem
+>Управление метками…</guimenuitem
+> в подменю <guisubmenu
+>Проект</guisubmenu
+> и <guisubmenu
+>Метки</guisubmenu
+> контекстного меню списка чатов. Удаление проекта не удаляет его чаты: они сохраняются вне любого проекта.</para>
+
+<para
+>Выбор меток над списком чатов показывает только те чаты, у которых есть одна из выбранных меток. Снимите выделение всех меток, чтобы снова увидеть все чаты.</para>
+
+</sect1>
+
+<sect1 id="ephemeral-chats">
+<title
+>Временные обсуждения</title>
+
+<para
+>Временная беседа — это чат, который никогда не записывается в базу данных. Используйте её для вопроса, который не нужно сохранять: после закрытия &i18n-kapplication; она исчезает. Начать её можно кнопкой <guibutton
+>Временная беседа</guibutton
+> на панели заголовка или с помощью команды <userinput
+><command
+>kaichat</command
+> <option
+>--ephemeral-chat</option
+> <replaceable
+>title</replaceable
+></userinput
+>. Временные беседы показываются в отдельном разделе в верхней части списка чатов.</para>
+
+<para
+>Если передумать, кнопка <guibutton
+>Сохранить беседу в базе данных</guibutton
+> на панели заголовка превращает её в обычный чат.</para>
+
+<para
+>Учтите, что это касается только того, что хранится на компьютере: при использовании онлайн-службы вопросы всё равно отправляются этому поставщику.</para>
+
+</sect1>
+
+<sect1 id="quick-ask">
+<title
+>Быстрый запрос</title>
+
+<para
+>Быстрый запрос — небольшой диалог для одного вопроса, не требующий открытия главного окна. Открыть его можно через <menuchoice
+><guimenu
+>Сервис</guimenu
+><guimenuitem
+>Открыть быстрый запрос…</guimenuitem
+></menuchoice
+>, с помощью глобальной комбинации клавиш <keycombo action="simul"
+>&Meta;<keycap
+>Space</keycap
+></keycombo
+> или команды <userinput
+><command
+>kaichat</command
+> <option
+>--quick-ask</option
+></userinput
+>. Заданные таким образом вопросы не добавляются в чаты, если не сохранить беседу кнопкой <guibutton
+>Сохранить беседу в базе данных</guibutton
+>.</para>
+
+</sect1>
+
+<sect1 id="import-export">
+<title
+>Импорт и экспорт чатов</title>
+
+<para
+>Текущий чат можно сохранить в файл с помощью <menuchoice
+><guimenu
+>Файл</guimenu
+><guimenuitem
+>Экспорт…</guimenuitem
+></menuchoice
+> в одном из четырёх форматов:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Экспорт в JSON…</guimenuitem
+></term>
+<listitem
+><para
+>Файл <filename class="extension"
+>.kaichat</filename
+>. Это единственный формат, который &i18n-kapplication; способен прочитать обратно.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Экспортировать как Markdown…</guimenuitem
+></term>
+<listitem
+><para
+>Текстовый файл, в котором сохраняется форматирование ответов.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Экспортировать как текст…</guimenuitem
+></term>
+<listitem
+><para
+>Простой текст.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Экспорт в PDF…</guimenuitem
+></term>
+<listitem
+><para
+>Документ для печати.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Ранее экспортированный файл <filename class="extension"
+>.kaichat</filename
+> считывается обратно с помощью <menuchoice
+><guimenu
+>Файл</guimenu
+><guimenuitem
+>Импорт…</guimenuitem
+></menuchoice
+>. Такой файл также можно открыть из файлового менеджера или передать в командной строке.</para>
+
+</sect1>
+
+<sect1 id="appearance">
+<title
+>Настройка экрана</title>
+
+<para
+>Размер текста всего приложения можно увеличить или уменьшить с помощью <menuchoice
+><guimenu
+>Вид</guimenu
+><guisubmenu
+>Размер шрифта</guisubmenu
+></menuchoice
+> либо комбинаций клавиш <keycombo action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+> и <keycombo action="simul"
+>&Ctrl;<keycap
+>-</keycap
+></keycombo
+>. Вместо этого в диалоговом окне настройки можно выбрать фиксированный шрифт.</para>
+
+<para
+><menuchoice
+><guimenu
+>Настройка</guimenu
+><guisubmenu
+>Цветовые схемы</guisubmenu
+></menuchoice
+> переключает цвета окна, не изменяя параметры рабочего стола, а <keycap
+>F11</keycap
+> переключает в полноэкранный режим.</para>
+
+<para
+>Строку меню можно скрыть с помощью <menuchoice
+><guimenu
+>Настройка</guimenu
+><guimenuitem
+>Показать меню</guimenuitem
+></menuchoice
+>; действия по-прежнему доступны через кнопку меню на панели инструментов.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="configuring">
+<title
+>Настройка &i18n-kapplication;</title>
+
+<para
+>Диалог настройки открывается через <menuchoice
+><guimenu
+>Настройка</guimenu
+><guimenuitem
+>Настроить &i18n-kapplication;…</guimenuitem
+></menuchoice
+>. В зависимости от того, как собрано приложение, в нём есть следующие страницы.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Общие</guilabel
+></term>
+<listitem
+><para
+>Показывать ли значок в системном лотке и отправлять ли модели системную подсказку в начале каждой беседы.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Шрифт</guilabel
+></term>
+<listitem
+><para
+>Использовать шрифт по своему выбору вместо системного.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Экземпляры</guilabel
+></term>
+<listitem
+><para
+>Добавление, удаление и настройка подключений к поставщикам моделей, а также управление доступными на них моделями.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Серверы MCP</guilabel
+></term>
+<listitem
+><para
+>Серверы Model Context Protocol, предоставляющие модели доступ к внешним данным и действиям. Эта поддержка пока экспериментальная.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Проверка орфографии</guilabel
+></term>
+<listitem
+><para
+>Проверка орфографии вводимого текста.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Специальные возможности</guilabel
+></term>
+<listitem
+><para
+>Параметры синтеза речи, если приложение собрано с поддержкой синтеза речи.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Модули</guilabel
+></term>
+<listitem
+><para
+>Включение и отключение установленных модулей и настройка инструментов, доступных модели.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Обратная связь</guilabel
+></term>
+<listitem
+><para
+>Объём сведений, которые при необходимости отправляются разработчикам. Ничего никуда не отправляется, пока это не будет запрошено здесь.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Хранение</guilabel
+></term>
+<listitem
+><para
+>Как долго хранятся чаты. <guilabel
+>Дней хранения</guilabel
+> — это количество дней, по истечении которых старые чаты удаляются; при значении по умолчанию 0 они хранятся бессрочно. <guilabel
+>Исключить избранные чаты</guilabel
+> (включён по умолчанию) сохраняет избранные чаты независимо от их давности.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Конфиденциальность</guilabel
+></term>
+<listitem
+><para
+>Показывает, где на диске хранятся чаты. Путь можно скопировать в буфер обмена кнопкой рядом с ним, например, чтобы создать резервную копию или удалить базу данных.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Уведомления настраиваются через <menuchoice
+><guimenu
+>Настройка</guimenu
+><guimenuitem
+>Настроить уведомления…</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Экземпляры и серверы MCP также можно настроить вне приложения — в модуле <guilabel
+>ИИ</guilabel
+> приложения «&systemsettings;».</para>
+
+<sect1 id="files">
+<title
+>Используемые файлы</title>
+
+<variablelist>
+<varlistentry>
+<term
+><filename
+>~/.config/kaichatrc</filename
+></term>
+<listitem
+><para
+>Параметры приложения.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><filename class="directory"
+>~/.local/share/kaichat/ai-database/</filename
+></term>
+<listitem
+><para
+>Базы данных, в которых хранятся чаты и их сообщения. Точное расположение показывается на странице <guilabel
+>Конфиденциальность</guilabel
+> диалогового окна настройки.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>В параметрах экземпляров хранятся ключи API используемых онлайн-служб. Обращайтесь с этими файлами как с паролем.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="command-line">
+<title
+>Параметры командной строки</title>
+
+<para
+>&i18n-kapplication; работает как единственный экземпляр: при повторном запуске, когда приложение уже запущено, параметры передаются уже открытому окну вместо открытия второго.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><option
+>--list-instances</option
+></term>
+<listitem
+><para
+>Вывести настроенные экземпляры и выйти.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--list-chats</option
+></term>
+<listitem
+><para
+>Вывести заголовки сохранённых чатов и выйти.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--plugin-info</option
+></term>
+<listitem
+><para
+>Вывести доступные текстовые модули и модули инструментов и завершить работу.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--instance</option
+> <replaceable
+>имя</replaceable
+></term>
+<listitem
+><para
+>Запустить с определённым экземпляром.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--new-chat</option
+> <replaceable
+>title</replaceable
+></term>
+<listitem
+><para
+>Создать новый чат с этим названием.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ephemeral-chat</option
+> <replaceable
+>title</replaceable
+></term>
+<listitem
+><para
+>Создать новое временное обсуждение с этим заголовком. Оно не сохраняется в базе данных.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat</option
+> <replaceable
+>name</replaceable
+></term>
+<listitem
+><para
+>Переключиться на существующий чат по названию.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat-from-id</option
+> <replaceable
+>идентификатор</replaceable
+></term>
+<listitem
+><para
+>Переключиться на существующий чат по идентификатору.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ask-message</option
+> <replaceable
+>сообщение</replaceable
+></term>
+<listitem
+><para
+>Задать этот вопрос сразу же.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--attach</option
+> <replaceable
+>адрес</replaceable
+></term>
+<listitem
+><para
+>Прикрепить файл к вопросу. Допускается повторение.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--tool</option
+> <replaceable
+>имя</replaceable
+></term>
+<listitem
+><para
+>Разрешить модели использовать этот инструмент. Допускается повторение.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--quick-ask</option
+></term>
+<listitem
+><para
+>Открыть диалоговое окно «Быстрый запрос».</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--import</option
+> <replaceable
+>файл</replaceable
+></term>
+<listitem
+><para
+>Импортировать чат из файла JSON.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--start-ollama</option
+></term>
+<listitem
+><para
+>Запустить локальную программу <application
+>Ollama</application
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--debug</option
+></term>
+<listitem
+><para
+>Включить режим отладки, при котором добавляется меню <guimenu
+>Отладка</guimenu
+>, показывающее содержимое базы данных.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--feedback</option
+></term>
+<listitem
+><para
+>Перечислить сведения, которые можно отправить в качестве обратной связи.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><replaceable
+>файл…</replaceable
+></term>
+<listitem
+><para
+>Файлы чатов для импорта.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>В системах с &DBus; запущенный &i18n-kapplication; также предоставляет интерфейс <interfacename
+>org.kde.kaichat.Application</interfacename
+>, который поддерживает те же операции, что и параметры выше: вывод списка чатов, создание чата, переключение на чат, показ архивных чатов и задание вопроса.</para>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Авторские права и лицензия</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Авторские права на программу 2025-2026 &Laurent.Montel; &Laurent.Montel.mail; </para>
+<para
+>Авторские права на документацию &copy; &Laurent.Montel; &Laurent.Montel.mail; </para>
+
+<para
+>Перевод на русский — Александр Яворский<email
+>kekcuha@gmail.com</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-26 19:51+0300\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"PO-Revision-Date: 2026-09-28 19:23+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -43,17 +43,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Bakımcı"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Aşağıdaki örnekler kullanılabilir:"
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "Sohbet listeleri:"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "Eklentiler:"
@@ -334,13 +334,13 @@ msgstr "Sistem tepsisi simgesini etkinleştir"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Veri tabanı deposu:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Yolu kopyala"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -350,12 +350,12 @@ msgstr "Sık Kullanılan Sohbetleri Dışla"
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Asla"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Gün"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -375,9 +375,7 @@ msgid "General"
 msgstr "Genel"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Yazıtipi"
@@ -389,9 +387,7 @@ msgid "Instances"
 msgstr "Örnekler"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP Sunucuları"
@@ -403,25 +399,19 @@ msgid "Spell Checking"
 msgstr "Yazım Denetimi"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Erişilebilirlik"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Eklentiler"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Kullanıcı Geri Bildirimi"
@@ -558,44 +548,42 @@ msgid_plural "%1 strings found."
 msgstr[0] "%1 dizi bulundu."
 msgstr[1] "%1 dizi bulundu."
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "Neler Yeni"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Arşivi Göster"
 
-#: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Yeni Sohbet Başlığı"
+msgstr "Yeni Sohbet"
 
-#: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgid "New Ephemeral Chat"
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Yeni Geçici Sohbet"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Veri Tabanında Ara…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Tez Sorguyu Aç…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -604,30 +592,30 @@ msgstr ""
 "<qt>Bu, menü çubuğunu tümüyle gizleyecektir. %1 yazarak onu yeniden "
 "gösterebilirsiniz.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menü Çubuğunu Gizle"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Sohbetler İçe Aktar"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."

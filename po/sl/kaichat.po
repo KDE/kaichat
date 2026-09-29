@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-26 08:54+0200\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"PO-Revision-Date: 2026-09-28 07:37+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -44,17 +44,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Vzdrževalec"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Na voljo so naslednji pojavki:"
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "Seznam klepetov:"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "Vtičniki:"
@@ -335,13 +335,13 @@ msgstr "Omogoči ikono sistemskega pladnja"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Repozitorij podatkovne zbirke:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopiraj pot"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -351,12 +351,12 @@ msgstr "Izključi priljubljene klepete"
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Nikoli"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dni"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -376,9 +376,7 @@ msgid "General"
 msgstr "Splošno"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Pisava"
@@ -390,9 +388,7 @@ msgid "Instances"
 msgstr "Pojavki"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Strežniki MCP"
@@ -404,25 +400,19 @@ msgid "Spell Checking"
 msgstr "Črkovalnik"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Dostopnost"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Vtičniki"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Povratne informacije uporabnikov"
@@ -561,44 +551,42 @@ msgstr[1] "Najden %1 niz."
 msgstr[2] "Najdena %1 niza."
 msgstr[3] "Najdeni %1 nizi."
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "Kaj je novega"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Prikaži arhiv"
 
-#: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Nov naslov klepeta"
+msgstr "Novi klepet"
 
-#: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgid "New Ephemeral Chat"
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Novi mniljivi klepet"
+msgstr "Novi minljivi klepet"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Išči v podatkovni zbirki…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Odpri hitro vprašanje…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -607,30 +595,30 @@ msgstr ""
 "<qt>To bo popolnoma skrilo menijsko vrstico. Ponovno jo lahko prikažete "
 "tako, da vtipkate %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skrij menijsko vrstico"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Uvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 je bil prenesen."

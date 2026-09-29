@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-26 12:59+0200\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"PO-Revision-Date: 2026-09-28 09:23+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -45,17 +45,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Mantenidor"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Hi ha disponibles les instàncies següents:"
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "Llista de xats:"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "Connectors:"
@@ -336,13 +336,13 @@ msgstr "Activa la icona a la safata del sistema"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Repositori de base de dades:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Copia el camí"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -352,12 +352,12 @@ msgstr "Exclou els xats preferits"
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Mai"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dies"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -377,9 +377,7 @@ msgid "General"
 msgstr "General"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Lletra"
@@ -391,9 +389,7 @@ msgid "Instances"
 msgstr "Instàncies"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Servidors MCP"
@@ -405,25 +401,19 @@ msgid "Spell Checking"
 msgstr "Verificació ortogràfica"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Accessibilitat"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Connectors"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Comentaris de l'usuari"
@@ -560,44 +550,42 @@ msgid_plural "%1 strings found."
 msgstr[0] "S'ha trobat %1 cadena."
 msgstr[1] "S'han trobat %1 cadenes."
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "Què hi ha de nou"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Títol del xat nou"
+msgstr "Xat nou"
 
-#: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgid "New Ephemeral Chat"
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Xat efímer nou"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Cerca a la base de dades…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Obre una pregunta ràpida…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -606,30 +594,30 @@ msgstr ""
 "<qt>Això ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importa xats"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporta xats"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "S'ha baixat el model %1."

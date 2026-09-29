@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-26 13:37+0300\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"PO-Revision-Date: 2026-09-28 17:01+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -44,17 +44,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Доступні такі екземпляри:"
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "Список спілкувань:"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "Додатки:"
@@ -91,12 +91,12 @@ msgstr "Заголовок нового спілкування"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Створити ефемерне обговорення"
+msgstr "Створити тимчасове обговорення"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr "Нове ефемерне обговорення"
+msgstr "Нове тимчасове обговорення"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -335,13 +335,13 @@ msgstr "Увімкнути піктограму системного лотка"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Сховище бази даних:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Копіювати шлях"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -351,12 +351,12 @@ msgstr "Виключити улюблені спілкування"
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Ніколи"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Дні"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -376,9 +376,7 @@ msgid "General"
 msgstr "Загальне"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Шрифт"
@@ -390,9 +388,7 @@ msgid "Instances"
 msgstr "Екземляри"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Сервери MCP"
@@ -404,25 +400,19 @@ msgid "Spell Checking"
 msgstr "Перевірка правопису"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Доступність"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Додатки"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Відгуки користувача"
@@ -561,44 +551,42 @@ msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Заголовок нового спілкування"
+msgstr "Нове спілкування"
 
-#: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgid "New Ephemeral Chat"
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Нове ефемерне обговорення"
+msgstr "Нове тимчасове спілкування"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -607,30 +595,30 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Імпорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Було отримано модель %1."

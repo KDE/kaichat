@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-27 00:49+0000\n"
-"PO-Revision-Date: 2026-09-26 11:29+0200\n"
+"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"PO-Revision-Date: 2026-09-27 11:32+0200\n"
 "Last-Translator: Libor Filipek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -44,17 +44,17 @@ msgstr "Laurent Montel"
 msgid "Maintainer"
 msgstr "Správce"
 
-#: apps/main.cpp:107
+#: apps/main.cpp:106
 #, kde-format
 msgid "The following instances are available:"
 msgstr "K dispozici jsou následující instance:"
 
-#: apps/main.cpp:120
+#: apps/main.cpp:119
 #, kde-format
 msgid "List of Chats:"
 msgstr "Seznam konverzací:"
 
-#: apps/main.cpp:133
+#: apps/main.cpp:132
 #, kde-format
 msgid "Plugins:"
 msgstr "Moduly:"
@@ -335,13 +335,13 @@ msgstr "Povolit ikonu v systémové části panelu"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Repozitář databáze:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopírovat cestu"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -351,12 +351,12 @@ msgstr "Vyloučit oblíbené konverzace"
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dnů"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -376,9 +376,7 @@ msgid "General"
 msgstr "Obecné"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Písmo"
@@ -390,9 +388,7 @@ msgid "Instances"
 msgstr "Instance"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP server"
@@ -404,25 +400,19 @@ msgid "Spell Checking"
 msgstr "Kontrola pravopisu"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Zpřístupnění"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Moduly"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Zpětná vazba uživatele"
@@ -560,44 +550,42 @@ msgstr[0] "Nalezen %1 řetězec."
 msgstr[1] "Nalezeny %1 řetězce."
 msgstr[2] "Nalezeno %1 řetězců."
 
-#: widgets/kaichatmainwindow.cpp:141
+#: widgets/kaichatmainwindow.cpp:148
 #, kde-format
 msgid "What's new"
 msgstr "Co je nového"
 
-#: widgets/kaichatmainwindow.cpp:145
+#: widgets/kaichatmainwindow.cpp:152
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Zobrazit archiv"
 
-#: widgets/kaichatmainwindow.cpp:155
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Nový název konverzace"
+msgstr "Nová konverzace"
 
-#: widgets/kaichatmainwindow.cpp:157
-#, fuzzy, kde-format
-#| msgid "New Ephemeral Chat"
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Nová krátkodobá konverzace"
 
-#: widgets/kaichatmainwindow.cpp:174
+#: widgets/kaichatmainwindow.cpp:181
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Vyhledat v databázi…"
 
-#: widgets/kaichatmainwindow.cpp:212
+#: widgets/kaichatmainwindow.cpp:219
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Otevřít rychlý dotaz…"
 
-#: widgets/kaichatmainwindow.cpp:326
+#: widgets/kaichatmainwindow.cpp:333
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -606,30 +594,30 @@ msgstr ""
 "<qt>Toto úplně skryje panel nabídky. Můžete ji opětovně zobrazit pomocí %1.</"
 "qt>"
 
-#: widgets/kaichatmainwindow.cpp:329
+#: widgets/kaichatmainwindow.cpp:336
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Skrýt nabídku"
 
-#: widgets/kaichatmainwindow.cpp:365
+#: widgets/kaichatmainwindow.cpp:372
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importovat konverzace"
 
-#: widgets/kaichatmainwindow.cpp:378
+#: widgets/kaichatmainwindow.cpp:385
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportovat konverzace"
 
-#: widgets/kaichatmainwindow.cpp:504
+#: widgets/kaichatmainwindow.cpp:511
 #, kde-format
 msgid "Model Download Done"
 msgstr "Stahování modelu bylo dokončeno"
 
-#: widgets/kaichatmainwindow.cpp:505
+#: widgets/kaichatmainwindow.cpp:512
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 byl stažen."
