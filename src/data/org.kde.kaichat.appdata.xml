@@ -128,6 +128,7 @@
       <caption xml:lang="nl">KAIChat hoofdvenster.</caption>
       <caption xml:lang="pt-BR">Janela principal do KAIChat.</caption>
       <caption xml:lang="sl">KAIChat glavno okno.</caption>
+      <caption xml:lang="sv">Huvudfönstret i KAIChat.</caption>
       <caption xml:lang="tr">KAIChat ana penceresi</caption>
       <caption xml:lang="uk">Головне вікно KAIChat.</caption>
     </screenshot>
@@ -145,6 +146,7 @@
           <li xml:lang="nl">Tijdelijke discussie toevoegen</li>
           <li xml:lang="pt-BR">Adicionado discussão efêmera</li>
           <li xml:lang="sl">Doda minljivo debato</li>
+          <li xml:lang="sv">Tillägg av tillfällig diskussion</li>
           <li xml:lang="tr">Geçici tartışma desteği</li>
           <li xml:lang="uk">Додано ефемерні обговорення</li>
           <li>Add project support</li>
@@ -158,6 +160,7 @@
           <li xml:lang="nl">Ondersteuning voor project toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a projeto</li>
           <li xml:lang="sl">Doda podporo projekta</li>
+          <li xml:lang="sv">Tillägg av projektstöd</li>
           <li xml:lang="tr">Proje desteği ekle</li>
           <li xml:lang="uk">Додано підтримку проєктів</li>
           <li>Add tags support</li>
@@ -171,6 +174,7 @@
           <li xml:lang="nl">Ondersteuning voor tags toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a etiquetas</li>
           <li xml:lang="sl">Doda podporo značkam</li>
+          <li xml:lang="sv">Tillägg av etikettstöd</li>
           <li xml:lang="tr">Künyeler desteği ekle</li>
           <li xml:lang="uk">Додано підтримку міток</li>
           <li>Add KAIChat mimetype</li>
