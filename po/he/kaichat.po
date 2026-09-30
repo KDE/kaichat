@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-09-21 23:12+0300\n"
+"PO-Revision-Date: 2026-09-27 09:34+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -88,17 +88,15 @@ msgid "New Chat Title"
 msgstr "כותרת לשיחה חדשה"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "יצירת שיחה חדשה"
+msgstr "יצירת שיחה מתכלה חדשה"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "שיחה מתכלה חדשה"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -337,35 +335,33 @@ msgstr "הפעלת סמל בשורת המערכת"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "מאגר מסד נתונים:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "העתקת נתיב"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "ייצוא שיחות"
+msgstr "החרגת שיחות מועדפות"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "אף פעם לא"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "ימים"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "ימים לשימור"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -380,9 +376,7 @@ msgid "General"
 msgstr "כללי"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "גופן"
@@ -394,9 +388,7 @@ msgid "Instances"
 msgstr "מופעים"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "שרתי MCP"
@@ -408,25 +400,19 @@ msgid "Spell Checking"
 msgstr "בדיקת איות"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "נגישות"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "תוספים"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "משוב משתמש"
@@ -435,13 +421,13 @@ msgstr "משוב משתמש"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "שימור"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "פרטיות"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -577,19 +563,16 @@ msgid "Show Archive"
 msgstr "הצגת ארכיון"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "כותרת לשיחה חדשה"
+msgstr "שיחה חדשה"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "יצירת שיחה חדשה"
+msgstr "שיחה מתכלה חדשה"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
