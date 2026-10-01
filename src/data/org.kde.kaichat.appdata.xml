@@ -123,6 +123,7 @@
       <caption xml:lang="ca-valencia">Finestra principal de KAIChat.</caption>
       <caption xml:lang="cs">Hlavní okno KAIChatu.</caption>
       <caption xml:lang="es">Ventana principal de KAIChat</caption>
+      <caption xml:lang="he">חלון KAIChat הראשי.</caption>
       <caption xml:lang="it">Finestra principale di KAIChat.</caption>
       <caption xml:lang="ka">KAIChat-ის მთავარი ფანჯარა.</caption>
       <caption xml:lang="nl">KAIChat hoofdvenster.</caption>
@@ -142,6 +143,8 @@
           <li xml:lang="ca">Afegeix un debat efímer</li>
           <li xml:lang="cs">Přidána krátkodobá diskuze</li>
           <li xml:lang="es">Añadir discusiones efímeras.</li>
+          <li xml:lang="he">נוספו דיונים מתכלים</li>
+          <li xml:lang="it">Aggiunge la discussione effimera</li>
           <li xml:lang="ka">დაემატა ეფემერული დისკუსიები</li>
           <li xml:lang="nl">Tijdelijke discussie toevoegen</li>
           <li xml:lang="pt-BR">Adicionado discussão efêmera</li>
@@ -155,6 +158,7 @@
           <li xml:lang="ca-valencia">Afig la implementació de projectes</li>
           <li xml:lang="cs">Přidána podpora projektů</li>
           <li xml:lang="es">Se ha implementado el uso de proyectos.</li>
+          <li xml:lang="he">נוספה תמיכה במיזמים</li>
           <li xml:lang="it">Aggiunge il supporto dei progetti</li>
           <li xml:lang="ka">დაემატა პროექტის მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor project toevoegen</li>
@@ -169,6 +173,7 @@
           <li xml:lang="ca-valencia">Afig la implementació d'etiquetes</li>
           <li xml:lang="cs">Přidána podpora značek</li>
           <li xml:lang="es">Añadir compatibilidad con etiquetas.</li>
+          <li xml:lang="he">נוספה תמיכה בתגיות</li>
           <li xml:lang="it">Aggiunge il supporto per le etichette</li>
           <li xml:lang="ka">დაემატა ჭდეების მხარდაჭერა</li>
           <li xml:lang="nl">Ondersteuning voor tags toevoegen</li>
