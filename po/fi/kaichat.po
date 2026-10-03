@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-07-03 02:45+0000\n"
-"PO-Revision-Date: 2026-04-14 20:33+0300\n"
+"PO-Revision-Date: 2026-08-31 17:16+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -186,12 +186,12 @@ msgstr "Tuo"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr ""
+msgstr "Käynnistä Ollama-ohjelma"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:61 core/kaichatexportchatastextjob.cpp:37
@@ -220,7 +220,7 @@ msgstr "Työkalu"
 #: core/kaichatexportchataspdfjob.cpp:28
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -228,16 +228,14 @@ msgid "Text"
 msgstr "Teksti"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Ilmentymät"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP-palvelin"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -344,7 +342,7 @@ msgstr "Ilmentymät"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP-palvelimet"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
@@ -374,59 +372,50 @@ msgstr "Käyttäjäpalaute"
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Etsi…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Vaihda keskusteluun"
+msgstr "Valitse keskustelu"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Jäljitä tietokannan viat"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Keskustelun nimi"
+msgstr "Valitse keskustelun nimi"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Keskustelu"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "Viesti"
+msgstr "Viestit"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Etsi tietokannasta…"
+msgstr "Tietokannan viestit"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "Viesti"
+msgstr "Viestien JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Talleta odottava tyyppitieto tietokantaan."
+msgstr "Odottava tyyppitieto"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -480,12 +469,10 @@ msgid "Export as Text…"
 msgstr "Vie tekstiksi…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "Vie JSONiksi…"
+msgstr "Vie PDF:ksi…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -562,8 +549,7 @@ msgid "Model Download Done"
 msgstr "Mallin lataus valmis"
 
 #: widgets/kaichatmainwindow.cpp:468
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Malli %1 ladattiin."
 
