@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-05-26 21:47+0200\n"
+"PO-Revision-Date: 2026-10-03 23:31+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -87,17 +87,15 @@ msgid "New Chat Title"
 msgstr "새 대화 제목"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "새 대화 만들기"
+msgstr "새 휘발성 대화 만들기"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "새 휘발성 대화"
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -205,7 +203,7 @@ msgstr "Ollama 프로그램 시작"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "가져올 대화 파일"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -336,35 +334,33 @@ msgstr "시스템 트레이 아이콘 사용"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "데이터베이스 저장소:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "경로 복사"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "대화 내보내기"
+msgstr "책갈피에 등록된 대화 제외"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "하지 않음"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "일"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "저장 기한"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -379,9 +375,7 @@ msgid "General"
 msgstr "일반"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "글꼴"
@@ -393,9 +387,7 @@ msgid "Instances"
 msgstr "인스턴스"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP 서버"
@@ -407,25 +399,19 @@ msgid "Spell Checking"
 msgstr "맞춤법 검사"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "접근성"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "플러그인"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "사용자 피드백"
@@ -434,13 +420,13 @@ msgstr "사용자 피드백"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "저장"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "개인 정보"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -449,11 +435,10 @@ msgid "Search…"
 msgstr "검색…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "대화 이름"
+msgstr "대화 선택"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:25
 #, kde-format
@@ -462,11 +447,10 @@ msgid "Debug Database"
 msgstr "디버그 데이터베이스"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "대화 이름"
+msgstr "대화 이름 선택"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
@@ -479,11 +463,9 @@ msgid "Messages"
 msgstr "메시지"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "데이터베이스에서 검색…"
+msgstr "데이터베이스의 메시지"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
@@ -577,19 +559,16 @@ msgid "Show Archive"
 msgstr "과거 기록 표시"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "새 대화 제목"
+msgstr "새 대화"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "새 대화 만들기"
+msgstr "새 휘발성 대화"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
