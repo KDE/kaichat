@@ -227,6 +227,7 @@
           <li xml:lang="cs">Přidán OrcaRouter</li>
           <li xml:lang="es">Se ha añadido OrcaRouter.</li>
           <li xml:lang="eu">OrcaRouter gehitu</li>
+          <li xml:lang="fi">Lisätty OrcaRouter.</li>
           <li xml:lang="he">נוסף OrcaRouter</li>
           <li xml:lang="it">Aggiungi OrcaRouter</li>
           <li xml:lang="ka">დაემატა OrcaRouter</li>
@@ -251,6 +252,7 @@
           <li xml:lang="cs">Přidána podpora diskusí ve větvích</li>
           <li xml:lang="es">Añadir compatibilidad con bifurcación de discusiones.</li>
           <li xml:lang="eu">Eztabaiden sardeak sortzeko euskarria gehitu</li>
+          <li xml:lang="fi">Lisätty haarautuvan keskustelun tuki.</li>
           <li xml:lang="he">נוספה תמיכה בפיצול דיונים</li>
           <li xml:lang="it">Aggiunge il supporto per il fork delle discussioni.</li>
           <li xml:lang="ka">დაემატა დისკუსიის ფორკის მხარდაჭერა</li>
@@ -269,6 +271,7 @@
           <li xml:lang="cs">Přidána instance llamacpp</li>
           <li xml:lang="es">Añadir instancia de llamacpp.</li>
           <li xml:lang="eu">llama.cpp instantzia gehitu</li>
+          <li xml:lang="fi">Lisätty llamacpp-ilmentymä.</li>
           <li xml:lang="he">נוסף עותק של llamacpp</li>
           <li xml:lang="it">Aggiunge istanza llamacpp</li>
           <li xml:lang="ka">დაემატა llamacpp-ის გაშვებული ასლების მხარდაჭერა</li>
@@ -287,6 +290,7 @@
           <li xml:lang="cs">Přidána podpora pro ChatGPT, Novita AI, DeepInfra a Qwen.</li>
           <li xml:lang="es">Añadir compatibilidad con ChatGPT, Novita AI, DeepInfra y Qwen.</li>
           <li xml:lang="eu">ChatGPT, Novita AI, DeepInfra eta Qwen erabiltzeko euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty ChatGPT-, Novita AI-, DeepInfra- ja Qwen-tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־ChatGPT,‏ Novita AI,‏ DeepInfra ו־Qwen.</li>
           <li xml:lang="it">Aggiunge il supporto per ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="ka">დაემატა ChatGPT-ის, Novita AI-ის, DeepInfra-ის და Qwen-ის მხარდაჭერა.</li>
@@ -305,6 +309,7 @@
           <li xml:lang="cs">Přidána možnost CLI pro spuštění lokální instance Ollamy.</li>
           <li xml:lang="es">Añadir opción de la línea de órdenes para lanzar Ollama localmente.</li>
           <li xml:lang="eu">Tokiko Ollama abiarazteko CLI aukera gehitu.</li>
+          <li xml:lang="fi">Lisätty komentorivivalitsin paikallisen Ollaman käynnistämiseksi.</li>
           <li xml:lang="he">נוספה אפשרות דרך השורת הפקודות להפעיל Ollama מקומית.</li>
           <li xml:lang="it">Aggiunge l'opzione da riga di comando per avviare Ollama locale.</li>
           <li xml:lang="ka">დაემატა CLI-ის პარამეტრი ლოკალური Ollama-ის გასაშვებად.</li>
@@ -323,6 +328,7 @@
           <li xml:lang="cs">Přidána podpora DBus.</li>
           <li xml:lang="es">Añadir compatibilidad con DBus.</li>
           <li xml:lang="eu">DBus euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty DBus-tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־DBus.</li>
           <li xml:lang="it">Aggiunge il supporto DBus.</li>
           <li xml:lang="ka">დაემატა DBus-ის მხარდაჭერა.</li>
@@ -341,6 +347,7 @@
           <li xml:lang="cs">Přidána podpora interních modulů.</li>
           <li xml:lang="es">Añadir implementación de complementos internos.</li>
           <li xml:lang="eu">Barne-pluginetarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty sisäinen liitännäistuki.</li>
           <li xml:lang="he">נוספה תמיכה בתוספים פנימיים.</li>
           <li xml:lang="it">Aggiunge il supporto per le estensioni interne.</li>
           <li xml:lang="ka">დაემატა შიდა დამატების მხარდაჭერა.</li>
@@ -359,6 +366,7 @@
           <li xml:lang="cs">Přidána podpora serveru MCP.</li>
           <li xml:lang="es">Añadir compatibilidad con servidor MCP.</li>
           <li xml:lang="eu">MCP zerbitzarietarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty MCP-palvelintuki.</li>
           <li xml:lang="he">נוספה תמיכה בשרתי MCP.</li>
           <li xml:lang="it">Aggiunge il supporto Server MCP.</li>
           <li xml:lang="ka">დაემატა MCP სერვერის მხარდაჭერა.</li>
@@ -377,6 +385,7 @@
           <li xml:lang="cs">Zobrazení metadat interních nástrojů.</li>
           <li xml:lang="es">Mostrar metadatos internos de las herramientas.</li>
           <li xml:lang="eu">Barneko tresnen metadatuak erakutsi.</li>
+          <li xml:lang="fi">Näytetään sisäisten työkalujen metatiedot.</li>
           <li xml:lang="he">מוצגים נתוני על של כלים פנימיים.</li>
           <li xml:lang="it">Mostra i metadati degli strumenti interni.</li>
           <li xml:lang="ka">შიდა ხელსაწყოების მეტამონაცემთა ჩვენება.</li>
@@ -395,6 +404,7 @@
           <li xml:lang="cs">Přidána podpora KCM.</li>
           <li xml:lang="es">Añadir compatibilidad con KCM.</li>
           <li xml:lang="eu">KCM euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty KCM-tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־KCM.</li>
           <li xml:lang="it">Aggiunge il supporto KCM.</li>
           <li xml:lang="ka">დაემატა KCM-ის მხარდაჭერა.</li>
@@ -413,6 +423,7 @@
           <li xml:lang="cs">Přidána podpora instance Sarvam.</li>
           <li xml:lang="es">Añadir compatibilidad con la instancia de Sarvam.</li>
           <li xml:lang="eu">Sarvam AI instantziarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty Sarvam-ilmentymätuki.</li>
           <li xml:lang="he">נוספה תמיכה בעותקי Sarvam.</li>
           <li xml:lang="it">Aggiunge il supporto dell'istanza Sarvam.</li>
           <li xml:lang="ka">დაემატა Sarvam-ის გაშვებული ასლების მხარდაჭერა.</li>
@@ -431,6 +442,7 @@
           <li xml:lang="cs">Přidáno dialogové okno pro ladění databáze.</li>
           <li xml:lang="es">Añadir diálogo de depuración de la base de datos.</li>
           <li xml:lang="eu">Datu-basea arazteko elkarrizketa-koadroa gehitu.</li>
+          <li xml:lang="fi">Lisätty tietokannan virheenpaikannusikkuna.</li>
           <li xml:lang="he">נוספה חלונית ניפוי שגיאות במסד נתונים</li>
           <li xml:lang="it">Aggiunge la finestra di debug del database.</li>
           <li xml:lang="ka">დაემატა მონაცემთა ბაზის გამართვის დიალოგური ფანჯარა.</li>
@@ -449,6 +461,7 @@
           <li xml:lang="cs">Zobrazení informace o odpovědi, jako je doba trvání, počet tokenů atd.</li>
           <li xml:lang="es">Mostrar información de respuesta sobre duración, número de tókenes, etc.</li>
           <li xml:lang="eu">Erantzunaren iraupena, token kopurua eta bestelako informazioa erakutsi.</li>
+          <li xml:lang="fi">Näytetään vastauksen tiedot kestosta, merkkien määrästä jne.</li>
           <li xml:lang="he">נוספה הצגת פרטי תגובה על משך, מספר אסימונים ועוד.</li>
           <li xml:lang="it">Visualizza le informazioni di risposta relative alla durata, al numero di token, ecc.</li>
           <li xml:lang="ka">პასუხის ინფორმაციის ჩვენება ხანგრძლივობის, ტოკენების რაოდენობის და ა.შ. ჩვენება.</li>
@@ -467,6 +480,7 @@
           <li xml:lang="cs">Povolen export do formátu PDF.</li>
           <li xml:lang="es">Permitir exportar como PDF.</li>
           <li xml:lang="eu">PDF gisa esportatzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan vienti PDF:ksi.</li>
           <li xml:lang="he">נוספה אפשרות לייצא כ־Pdf.</li>
           <li xml:lang="it">Consente l'esportazione in formato PDF.</li>
           <li xml:lang="ka">PDF-ში გატანის დაშვება.</li>
@@ -485,6 +499,7 @@
           <li xml:lang="cs">Přidána podpora pro LMStudio.</li>
           <li xml:lang="es">Añadir compatibilidad con LMStudio.</li>
           <li xml:lang="eu">LM Studio erabiltzeko euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty LMStudio-tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־LMStudio.</li>
           <li xml:lang="it">Aggiunge il supporto per LMStudio</li>
           <li xml:lang="ka">დაემატა LMStudio-ის მხარდაჭერა.</li>
@@ -509,6 +524,7 @@
           <li xml:lang="cs">Přidána podpora instance Grok.</li>
           <li xml:lang="es">Se ha añadido la implementación de Grok.</li>
           <li xml:lang="eu">Grok instantziarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty Grok-ilmentymän tuki.</li>
           <li xml:lang="he">נוספה תמיכה בעותק של Grok.</li>
           <li xml:lang="it">Aggiunge il supporto per l'istanza Grok.</li>
           <li xml:lang="ka">დაემატა Grok-ის გაშვებული ასლების მხარდაჭერა.</li>
@@ -527,6 +543,7 @@
           <li xml:lang="cs">Přidána podpora zpětné vazby od uživatelů.</li>
           <li xml:lang="es">Añadir compatibilidad con comentarios del usuario.</li>
           <li xml:lang="eu">Erabiltzailearen iritzirako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty käyttäjäpalautetuki.</li>
           <li xml:lang="he">נוספה תמיכה במשוב משתמש.</li>
           <li xml:lang="it">Aggiunge il supporto per le segnalazioni degli utenti.</li>
           <li xml:lang="ka">დაემატა მომხმარებლის უკუკავშირის მხარდაჭერა.</li>
@@ -545,6 +562,7 @@
           <li xml:lang="cs">Povoleno zobrazovat informace o modelu.</li>
           <li xml:lang="es">Permitir que se muestre información del modelo.</li>
           <li xml:lang="eu">Ereduaren informazioa erakusteko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan mallitiedon näyttäminen.</li>
           <li xml:lang="he">נוספה אפשרות להצגת פרטי המודל.</li>
           <li xml:lang="it">Consente di mostrare le informazioni sul modello.</li>
           <li xml:lang="ka">მოდელის ინფორმაციის ჩვენების დაშვება.</li>
@@ -563,6 +581,7 @@
           <li xml:lang="cs">Přidána podpora importu konverzace.</li>
           <li xml:lang="es">Se ha añadido la posibilidad de importar conversaciones.</li>
           <li xml:lang="eu">Berriketak inportatzeko euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty keskustelun tuonnin tuki.</li>
           <li xml:lang="he">נוספה תמיכה בייבוא שיחות.</li>
           <li xml:lang="it">Aggiungere il supporto per l'importazione delle chat.</li>
           <li xml:lang="ka">დაემატა ჩატის შემოტანის მხარდაჭერა.</li>
@@ -581,6 +600,7 @@
           <li xml:lang="cs">Přidána podpora pro Ollama Online.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Online.</li>
           <li xml:lang="eu">Ollama Online-ren euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty verkko-Ollaman tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־Ollama מקוונת.</li>
           <li xml:lang="it">Aggiunge il supporto per Ollama in linea.</li>
           <li xml:lang="ka">დაემატა Ollama Online-ის მხარდაჭერა.</li>
@@ -599,6 +619,7 @@
           <li xml:lang="cs">Přidána podpora pro Ollama Cloud.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con Ollama Cloud.</li>
           <li xml:lang="eu">Ollama Cloud-en euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty Ollaman pilvituki.</li>
           <li xml:lang="he">נוספה תמיכה בענן Ollama.</li>
           <li xml:lang="it">Aggiunge il supporto per Ollama Cloud.</li>
           <li xml:lang="ka">დაემატა Ollama Cloud-ის მხარდაჭერა.</li>
@@ -617,6 +638,7 @@
           <li xml:lang="cs">Povoleno duplikování konverzace.</li>
           <li xml:lang="es">Permitir duplicar la conversación.</li>
           <li xml:lang="eu">Berriketa bikoizteko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan keskustelun monistaminen.</li>
           <li xml:lang="he">נוספה אפשרות לשכפול שיחה.</li>
           <li xml:lang="it">Consente di duplicare la chat.</li>
           <li xml:lang="ka">ჩატის დუბლირების დაშვება.</li>
@@ -635,6 +657,7 @@
           <li xml:lang="cs">Přidána podpora nastavení Keep Alive pro Ollamu.</li>
           <li xml:lang="es">Se ha añadido compatibilidad con los ajustes de mantener activo Ollama.</li>
           <li xml:lang="eu">Ollama zamatuta mantentzeko ezarpenerako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty Ollama Pidä käynnissä -asetuksen tuki.</li>
           <li xml:lang="he">נוספה תמיכה בהגדרת זמן אי־פעילות ב־Ollama מקוונת.</li>
           <li xml:lang="it">Aggiunge il supporto per l'impostazione Keep Alive di Ollama.</li>
           <li xml:lang="ka">დაემატა Ollama Keep Alive-ის მხარდაჭერა.</li>
@@ -653,6 +676,7 @@
           <li xml:lang="cs">Zobrazení protokolu Ollama.</li>
           <li xml:lang="es">Mostrar el registro de Ollama.</li>
           <li xml:lang="eu">Ollamaren egunkaria erakutsi.</li>
+          <li xml:lang="fi">Näytetään Ollaman loki.</li>
           <li xml:lang="he">הצגת היומן של Ollama.</li>
           <li xml:lang="it">Mostra il registro di Ollama.</li>
           <li xml:lang="ka">Ollama-ის ჟურნალის ჩვენება.</li>
@@ -671,6 +695,7 @@
           <li xml:lang="cs">Povoleno zpřístupnit Ollamu v místní síti.</li>
           <li xml:lang="es">Permitir la exposición de Ollama a la red local.</li>
           <li xml:lang="eu">Ollama sare lokalean eskuragarri jartzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan paljastaa Ollama paikallisverkkoon.</li>
           <li xml:lang="he">נוספה אפשרות לחשוף את Ollama לרשת המקומית.</li>
           <li xml:lang="it">Consente di esporre Ollama alla rete locale.</li>
           <li xml:lang="ka">Ollama-ის ლოკალურ ქსელში გამოჩენის დაშვება.</li>
@@ -689,6 +714,7 @@
           <li xml:lang="cs">Přidána podpora uvažování.</li>
           <li xml:lang="es">Se ha añadido la compatibilidad con el pensamiento.</li>
           <li xml:lang="eu">Arrazoiketarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty ajattelun tuki.</li>
           <li xml:lang="he">נוספה תמיכה בחשיבה.</li>
           <li xml:lang="it">Aggiunge supporto al pensiero.</li>
           <li xml:lang="ka">დაემატა ფიქრის მხარდაჭერა.</li>
@@ -713,6 +739,7 @@
           <li xml:lang="cs">Povoleno kopírovat blok kódu do schránky.</li>
           <li xml:lang="es">Permitir copiar código de bloque al portapapeles.</li>
           <li xml:lang="eu">Kode-blokea arbelera kopiatzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan koodilohkon kopioiminen leikepöydälle.</li>
           <li xml:lang="he">נוספה אפשרות להעתקת קטעי קוד ללוח הגזירים.</li>
           <li xml:lang="it">Consenti di copiare il codice del blocco negli appunti.</li>
           <li xml:lang="ka">ბლოკის კოდის ბუფერში კოპირების დაშვება.</li>
@@ -731,6 +758,7 @@
           <li xml:lang="cs">Zobrazení počtu nalezených řetězců na stavové liště.</li>
           <li xml:lang="es">Mostrar el número de cadenas encontradas en la barra de estado.</li>
           <li xml:lang="eu">Aurkitutako kate kopurua egoera-barran erakutsi.</li>
+          <li xml:lang="fi">Näytetään tilarivillä löydettyjen merkkijonojen määrä.</li>
           <li xml:lang="he">הצגת כמות המחרוזות שנמצאו בשורת המצב.</li>
           <li xml:lang="it">Mostra il numero di stringhe trovate nella barra di stato.</li>
           <li xml:lang="ka">ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში.</li>
@@ -749,6 +777,7 @@
           <li xml:lang="cs">Implementace rychlého hledání.</li>
           <li xml:lang="es">Implementación de la búsqueda rápida.</li>
           <li xml:lang="eu">Bilaketa azkarra inplementatu.</li>
+          <li xml:lang="fi">Toteutettu pikahaku.</li>
           <li xml:lang="he">מימוש חיפוש מהיר.</li>
           <li xml:lang="it">Implementa la ricerca rapida.</li>
           <li xml:lang="ka">განხორციელდა სწრაფი ძებნა.</li>
@@ -767,6 +796,7 @@
           <li xml:lang="cs">Do dialogového okna rychlého dotazu přidán panel pro rychlé vyhledávání.</li>
           <li xml:lang="es">Añadir la barra de búsqueda rápida en el diálogo de pregunta rápida.</li>
           <li xml:lang="eu">Galdera azkarraren elkarrizketa-koadroan bilaketa azkarreko barra gehitu.</li>
+          <li xml:lang="fi">Lisätty pikakysymysikkunaan pikahakurivi.</li>
           <li xml:lang="he">נוסף סרגל חיפוש מהיר בסרגל השאלה המהירה.</li>
           <li xml:lang="it">Aggiunge una barra di ricerca rapida nella finestra di richiesta rapida.</li>
           <li xml:lang="ka">დაემატა სწრაფი ძებნის პანელი სწრაფი კითხვის დიალოგში.</li>
@@ -785,6 +815,7 @@
           <li xml:lang="cs">Přidána hodnota pro obnovení nastavení konfigurace.</li>
           <li xml:lang="es">Añadir valor para restaurar la configuración.</li>
           <li xml:lang="eu">Konfigurazio-ezarpenen balioak lehengoratzeko aukera gehitu.</li>
+          <li xml:lang="fi">Lisätty asetusarvojen palauttaminen.</li>
           <li xml:lang="he">נוסף ערך הגדרות לשחזור תצורה.</li>
           <li xml:lang="it">Aggiunge il valore di configurazione delle impostazioni di ripristino.</li>
           <li xml:lang="ka">დაემატა პარამეტრების კონფიგურაციის მნიშვნელობის აღდგენა.</li>
@@ -803,6 +834,7 @@
           <li xml:lang="cs">Umožněno nastavit funkci převodu textu na řeč.</li>
           <li xml:lang="es">Permitir la configuración de texto a voz.</li>
           <li xml:lang="eu">Testutik hizketarako funtzionalitatea konfiguratzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan puhesynteesin asettaminen.</li>
           <li xml:lang="he">נוספה אפשרות להגדיר הקראה.</li>
           <li xml:lang="it">Consenti di configurare la conversione da testo a voce.</li>
           <li xml:lang="ka">ტექსტის წარმოთქმის მორგების დაშვება.</li>
@@ -821,6 +853,7 @@
           <li xml:lang="cs">Přidán název ikony modulu nástroje.</li>
           <li xml:lang="es">Añadir nombre de icono de complemento.</li>
           <li xml:lang="eu">Tresna-pluginaren ikono-izena gehitu.</li>
+          <li xml:lang="fi">Lisätty työkaluliitännäiskuvakkeen nimi.</li>
           <li xml:lang="he">נוסף שם סמל תוסף כלי.</li>
           <li xml:lang="it">Aggiungi il nome dell'icona dell'estensione.</li>
           <li xml:lang="ka">დაემატა ხელსაწყოს დამატების ხატულას სახელი.</li>
@@ -839,6 +872,7 @@
           <li xml:lang="cs">Přidána podpora příloh.</li>
           <li xml:lang="es">Se ha añadido la implementación de adjuntar.</li>
           <li xml:lang="eu">Eranskinetarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty liitteiden tuki.</li>
           <li xml:lang="he">נוספה תמיכה בצירוף קבצים.</li>
           <li xml:lang="it">Aggiunge il supporto degli allegati.</li>
           <li xml:lang="ka">დაემატა ფაილების მიმაგრების მხარდაჭერა.</li>
@@ -857,6 +891,7 @@
           <li xml:lang="cs">Přidána nová ikona.</li>
           <li xml:lang="es">Añadir nuevo icono.</li>
           <li xml:lang="eu">Ikono berria gehitu.</li>
+          <li xml:lang="fi">Lisätty uusi kuvake.</li>
           <li xml:lang="he">נוסף סמל חדש.</li>
           <li xml:lang="it">Aggiunge una nuova icona.</li>
           <li xml:lang="ka">დაემატა ახალი ხატულა.</li>
@@ -875,6 +910,7 @@
           <li xml:lang="cs">Přidán příkazový řádek pro ladění.</li>
           <li xml:lang="es">Añadir línea de órdenes de depuración.</li>
           <li xml:lang="eu">Arazketa komando-lerroa gehitu.</li>
+          <li xml:lang="fi">Lisätty virheenpaikannuskomentorivi.</li>
           <li xml:lang="he">נוסף ניפוי שגיאות דרך שורת פקודה.</li>
           <li xml:lang="it">Aggiunge la riga di comando per il debug.</li>
           <li xml:lang="ka">დაემატა გამართვის ბრძანების სტრიქონი.</li>
@@ -893,6 +929,7 @@
           <li xml:lang="cs">Přidány moduly pro Wikipedii a nástroje pro předpověď počasí (poskytované kaichat-addons).</li>
           <li xml:lang="es">Añadir wikipedia, complementos de herramientas meteorológicas (proporcionados por kaichat-addons).</li>
           <li xml:lang="eu">Wikipedia eta eguraldiaren tresna-pluginak gehitu (kaichat-addons-ek hornitzen ditu).</li>
+          <li xml:lang="fi">Lisätty Wikipedia- ja säätyökaluliitännäiset (jotka tarjoaa kaichat-addons).</li>
           <li xml:lang="he">נוספו תוספים לוויקיפדיה, כלי מזג אוויר (מסופקים על ידי kaichat-addons)</li>
           <li xml:lang="it">Aggiunge le estensioni per gli strumenti wikipedia, meteo (forniti da kaichat-addons).</li>
           <li xml:lang="ka">დაემატა ვიკიპედიის და ამინდის დამატებები (მოგაწოდებთ kaichat-addons).</li>
@@ -911,6 +948,7 @@
           <li xml:lang="cs">Ukládání informace o čekajících zadáních do databáze.</li>
           <li xml:lang="es">Guardar información escrita pendiente en la base de datos.</li>
           <li xml:lang="eu">Zain dagoen tekleatutako informazioa datu-basean gorde.</li>
+          <li xml:lang="fi">Talletetaan odottava tyyppitieto tietokantaan.</li>
           <li xml:lang="he">אחסון נתונים ממתינים שהוקלדו למסד הנתונים.</li>
           <li xml:lang="it">Memorizza le informazioni digitate in sospeso nella banca dati.</li>
           <li xml:lang="ka">დარჩენილი აკრეფილი ინფორმაციის შენახვა მონაცემთა ბაზაში.</li>
@@ -929,6 +967,7 @@
           <li xml:lang="cs">Povoleno přidávat přílohy z příkazového řádku.</li>
           <li xml:lang="es">Permitir adjuntar archivos en la línea de la orden.</li>
           <li xml:lang="eu">Eranskin-fitxategiak komando-lerrotik gehitzeko aukera eman.</li>
+          <li xml:lang="fi">Mahdollistetaan liitetiedostojen lisääminen komentoriviltä.</li>
           <li xml:lang="he">נוספה אפשרות להוסיף צרופות משורת הפקודות.</li>
           <li xml:lang="it">Consente di aggiungere allegati dalla riga di comando.</li>
           <li xml:lang="ka">ბრძანების სტრიქონიდან მიმაგრებული ფაილების დამატების დაშვება.</li>
@@ -947,6 +986,7 @@
           <li xml:lang="cs">Do nastavení modelů Ollama přidána ikona.</li>
           <li xml:lang="es">Añadir icono en la configuración de modelos de Ollama.</li>
           <li xml:lang="eu">Ollama ereduak konfiguratzeko ikonoa gehitu.</li>
+          <li xml:lang="fi">Lisätty kuvake Ollama-mallien asettamiseksi.</li>
           <li xml:lang="he">נוסף סמל בהגדרת מודלים של ollama.</li>
           <li xml:lang="it">Aggiunge l'icona nella configurazione dei modelli ollama.</li>
           <li xml:lang="ka">დაემატა ხატულა ollama-ის მოდელების მოსარგებად.</li>
@@ -965,6 +1005,7 @@
           <li xml:lang="cs">Povoleno používat specifické proměnné prostředí Ollama.</li>
           <li xml:lang="es">Permitir el uso de variables de entorno específicas de Ollama.</li>
           <li xml:lang="eu">Ollamaren berariazko ingurune-aldagaiak erabiltzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan käyttää tiettyjä Ollama-ympäristömuuttujia.</li>
           <li xml:lang="he">נוספה אפשרות להשתמש במשתני סביבה מסוימים של Ollama.</li>
           <li xml:lang="it">Consentire l'uso di variabili d'ambiente specifiche di Ollama.</li>
           <li xml:lang="ka">Ollama-ის მითითებული გარემოს ცვლადების გამოყენების დაშვება.</li>
@@ -983,6 +1024,7 @@
           <li xml:lang="cs">Opraveno volání modulů pro multifunkční nástroje.</li>
           <li xml:lang="es">Corregir llamada de múltiples complementos.</li>
           <li xml:lang="eu">Tresna-plugin anitzen deia konpondu.</li>
+          <li xml:lang="fi">Korjattu monityökaluliitännäisen kutsu.</li>
           <li xml:lang="he">תוקנה קריאת תוספים למגוון כלים.</li>
           <li xml:lang="it">Corregge l'invocazione delle estensioni multi-strumento.</li>
           <li xml:lang="ka">გასწორდა ერთზე მეტი ხელსაწყოს დამატების გამოძახება.</li>
@@ -1007,6 +1049,7 @@
           <li xml:lang="cs">Přidáno dialogové okno pro rychlý dotaz.</li>
           <li xml:lang="es">Añadir diálogo de pregunta rápida.</li>
           <li xml:lang="eu">Galdera azkarraren elkarrizketa-koadroa gehitu.</li>
+          <li xml:lang="fi">Lisätty pikakyselyikkuna.</li>
           <li xml:lang="he">נוספה חלונית שאלה מהירה.</li>
           <li xml:lang="it">Aggiunge finestra Domanda rapida.</li>
           <li xml:lang="ka">სწრაფი კითხვის დიალოგის დამატება.</li>
@@ -1025,6 +1068,7 @@
           <li xml:lang="cs">Umožněno stahování aplikace Ollama na Windows/MacOS.</li>
           <li xml:lang="es">Permitir la descarga de Ollama en Windows/macOS.</li>
           <li xml:lang="eu">Windowsen eta macOSen Ollama zama-jaisteko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan Ollaman lataaminen Windowsissa/macOSissa.</li>
           <li xml:lang="he">נוספה אפשרות להוריד Ollama על Windows/macOS.</li>
           <li xml:lang="it">Consente di scaricare Ollama su Windows/MacOs.</li>
           <li xml:lang="ka">Ollama-ის გადმოწერის დაშვება Windows/macOS-ზე.</li>
@@ -1043,6 +1087,7 @@
           <li xml:lang="cs">Použití promptů během konverzace.</li>
           <li xml:lang="es">Usar instrucciones durante la conversación.</li>
           <li xml:lang="eu">Berriketan eskaera erabili.</li>
+          <li xml:lang="fi">Käytetään keskusteltaessa kehotetta.</li>
           <li xml:lang="he">נעשה שימוש בבקשה במהלך השיחה.</li>
           <li xml:lang="it">Utilizzo del prompt durante la chat.</li>
           <li xml:lang="ka">მოთხოვნის ზოლის გამოყენება ჩატისას.</li>
@@ -1061,6 +1106,7 @@
           <li xml:lang="cs">Přidán modul pro sdílení textu a webových odkazů.</li>
           <li xml:lang="es">Añadir el complemento de texto compartido y atajo web.</li>
           <li xml:lang="eu">Testua partekatzeko eta web-lasterbideetarako pluginak gehitu.</li>
+          <li xml:lang="fi">Lisätty tekstijako- ja verkkopikakuvakeliitännäinen.</li>
           <li xml:lang="he">נוסף תוסף טקסט משותף וקיצורי דפדפן.</li>
           <li xml:lang="it">Aggiunge testo condiviso e l'estensione di collegamento web.</li>
           <li xml:lang="ka">დაემატა გაზიარებული ტექსტის და ვებ-მალსახმობის დამატება.</li>
@@ -1079,6 +1125,7 @@
           <li xml:lang="cs">Povoleno nastavení modulů.</li>
           <li xml:lang="es">Permitir la configuración de complementos.</li>
           <li xml:lang="eu">Pluginak konfiguratzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan liitännäisten asettaminen.</li>
           <li xml:lang="he">נוספה האפשרות להגדיר תוספים.</li>
           <li xml:lang="it">Consente di configurare le estensioni.</li>
           <li xml:lang="ka">დამატებების მორგების დაშვება.</li>
@@ -1097,6 +1144,7 @@
           <li xml:lang="cs">Přidán nový aktualizační widget.</li>
           <li xml:lang="es">Añadir nuevo elemento de actualización.</li>
           <li xml:lang="eu">Eguneratze-trepeta berria gehitu.</li>
+          <li xml:lang="fi">Lisätty uusi päivityssovelma.</li>
           <li xml:lang="he">נוסף וידג׳ט עדכון חדש.</li>
           <li xml:lang="it">Aggiunge un nuovo oggetto di aggiornamento.</li>
           <li xml:lang="ka">ახალი განახლების ვიჯეტის დამატება.</li>
@@ -1115,6 +1163,7 @@
           <li xml:lang="cs">Do seznamu konverzace přidán indikátor průběhu.</li>
           <li xml:lang="es">Añadir indicador de avance en la lista de conversaciones.</li>
           <li xml:lang="eu">Berriketa-zerrendan aurrerapen-adierazlea gehitu.</li>
+          <li xml:lang="fi">Lisätty etenemisosoitin keskusteluluetteloon.</li>
           <li xml:lang="he">נוסף מחוון התקדמות לרשימת השיחות.</li>
           <li xml:lang="it">Aggiunge un indicatore di avanzamento nell'elenco delle chat.</li>
           <li xml:lang="ka">მიმდინარეობის მაჩვენების დამატება ჩატების სიასი.</li>
@@ -1133,6 +1182,7 @@
           <li xml:lang="cs">Povoleno měnit velikost písma.</li>
           <li xml:lang="es">Permitir el cambio del tamaño del texto.</li>
           <li xml:lang="eu">Letra-tipoaren neurria aldatzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan muuttaa fonttikokoa.</li>
           <li xml:lang="he">נוספה אפשרות לשנות גודל כתב.</li>
           <li xml:lang="it">Consente di configurare la dimensione del carattere.</li>
           <li xml:lang="ka">ფონტის ზომის შეცვლის დაშვება.</li>
@@ -1151,6 +1201,7 @@
           <li xml:lang="cs">Přidán příkaz pro vytvoření nové místnosti a zobrazení seznamu instancí.</li>
           <li xml:lang="es">Añadir línea de órdenes para añadir nueva sala de charla, mostrando la lista de instancias.</li>
           <li xml:lang="eu">Berriketa-gela berria gehitzeko eta instantzia-zerrenda erakusteko komando-lerroa gehitu.</li>
+          <li xml:lang="fi">Lisätty ilmentymäluettelon näyttävä komentorivi uuden keskusteluhuoneen lisäämiseksi.</li>
           <li xml:lang="he">נוספה פקודה לשורת הפקודות להוספת חדר שיחה חדש, שמציגה רשימת מופעים.</li>
           <li xml:lang="it">Aggiunge la riga di comando per aggiungere una nuova stanza di chat, visualizzando l'elenco delle istanze.</li>
           <li xml:lang="ka">დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და გაშვებული ასლების სიის გამოსატანად.</li>
@@ -1169,6 +1220,7 @@
           <li xml:lang="cs">Přidána podpora kontroly pravopisu.</li>
           <li xml:lang="es">Añadir Corrección ortográfica.</li>
           <li xml:lang="eu">Ortografia-egiaztapenerako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty oikeinkirjoituksen tarkistustuki.</li>
           <li xml:lang="he">נוספה תמיכה בבדיקת איות.</li>
           <li xml:lang="it">Aggiunge il supporto per il controllo ortografico.</li>
           <li xml:lang="ka">დაემატა მართლწერის შემოწმების მხარდაჭერა.</li>
@@ -1187,6 +1239,7 @@
           <li xml:lang="cs">Přidáno vyskakovací okno s oznámením po dokončení stahování modelu.</li>
           <li xml:lang="es">Añadir ventana emergente de notificación cuando termine la descarga del modelo.</li>
           <li xml:lang="eu">Ereduaren zama-jaitsiera amaitzean jakinarazpen-leiho gainerakorra gehitu.</li>
+          <li xml:lang="fi">Lisätty ilmoitusponnahdus mallin latauksen valmistuttua.</li>
           <li xml:lang="he">הוספת חלונית הודעה כשהורדת מודל מסתיימת.</li>
           <li xml:lang="it">Aggiunge una finestra a comparsa di notifica al termine dello scaricamento del modello.</li>
           <li xml:lang="ka">გაფრთხილების მხტუნარას დამატება მოდელის გადმოწერის დასრულებსიას.</li>
@@ -1205,6 +1258,7 @@
           <li xml:lang="cs">Umožněno ukládat a obnovovat text a polohu posuvníku.</li>
           <li xml:lang="es">Permitir guardar y restaurar texto y posición en la barra de desplazamiento.</li>
           <li xml:lang="eu">Testua eta kiribiltze-barraren kokapena gordetzeko eta lehengoratzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan tallentaa ja palauttaa teksti ja vierityspalkin sijainti.</li>
           <li xml:lang="he">מעכשיו יש אפשרות לשמור ולשחזר את הטקסט ומקום פס הגלילה.</li>
           <li xml:lang="it">Consente di salvare e ripristinare il testo e la posizione della barra di scorrimento.</li>
           <li xml:lang="ka">ტექსტისა და ჩოჩიას მდებარეობის შენახვისა და აღდგენის დაშვება.</li>
@@ -1223,6 +1277,7 @@
           <li xml:lang="cs">Umožněno uložení a obnovení aktuální konverzace.</li>
           <li xml:lang="es">Permitir guardar y restaurar la conversación actual.</li>
           <li xml:lang="eu">Uneko berriketa gorde eta lehengoratzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan tallentaa ja palauttaa nykyinen keskustelu.</li>
           <li xml:lang="he">נוספה אפשרות לשמור ולשחזר את השיחה הנוכחית.</li>
           <li xml:lang="it">Consente di salvare e ripristinare la chat attuale.</li>
           <li xml:lang="ka">მიმდინარე ჩატის შენახვისა და აღდგენის დაშვება.</li>
@@ -1241,6 +1296,7 @@
           <li xml:lang="cs">Přidána možnost zobrazení seznamu konverzací podle názvu.</li>
           <li xml:lang="es">Añadir opción para mostrar la lista de títulos de conversaciones.</li>
           <li xml:lang="eu">Berriketen izenburuen zerrenda erakusteko aukera gehitu.</li>
+          <li xml:lang="fi">Lisätty valinta keskusteluotsikoiden näyttämiseksi.</li>
           <li xml:lang="he">נוספה אפשרות להצגת רשימת כותרות של שיחות.</li>
           <li xml:lang="it">Aggiunge l'opzione per mostrare delle chat dei titoli.</li>
           <li xml:lang="ka">დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად.</li>
@@ -1259,6 +1315,7 @@
           <li xml:lang="cs">Přidána podpora nástrojů.</li>
           <li xml:lang="es">Añadir uso de herramientas.</li>
           <li xml:lang="eu">Tresnetarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty työkalutuki.</li>
           <li xml:lang="he">נוספה תמיכה בכלים.</li>
           <li xml:lang="it">Aggiunge il supporto per gli </li>
           <li xml:lang="ka">დაემატა ხელსაწყოების მხარდაჭერა.</li>
@@ -1277,6 +1334,7 @@
           <li xml:lang="cs">Umožněno přepnutí z identifikátoru konverzace.</li>
           <li xml:lang="es">Permitir cambiar a identificador de conversación.</li>
           <li xml:lang="eu">Berriketaren identifikatzailearen bidez berriketara aldatzeko aukera eman.</li>
+          <li xml:lang="fi">Sallitaan vaihtaa keskustelutunniste.</li>
           <li xml:lang="he">נוספה אפשרות לעבור ממזהה שיחה.</li>
           <li xml:lang="it">Consente di passare dall'identificatore di chat.</li>
           <li xml:lang="ka">ჩატის იდენტიფიკატორიდან გადართვის დაშვება.</li>
@@ -1295,6 +1353,7 @@
           <li xml:lang="cs">Přidán nástroj pro zobrazení aktuálního data a času.</li>
           <li xml:lang="es">Añadir herramienta de fecha y hora actual.</li>
           <li xml:lang="eu">Uneko data-ordu tresna gehitu.</li>
+          <li xml:lang="fi">Lisätty päiväystyökalu.</li>
           <li xml:lang="he">נוסף כלי תאריך ושעה נוכחיים.</li>
           <li xml:lang="it">Aggiungi lo strumento Data e ora attuali.</li>
           <li xml:lang="ka">დაემატა მიმდინარე თარიღისა და დროის ხელსაწყო.</li>
@@ -1313,6 +1372,7 @@
           <li xml:lang="cs">Přidány informace o stavových hlášeních.</li>
           <li xml:lang="es">Añadir mensaje informativo de avance.</li>
           <li xml:lang="eu">Tresnaren aurrerapen-mezuari buruzko informazioa gehitu.</li>
+          <li xml:lang="fi">Lisätty etenemistyökalu viestitieto.</li>
           <li xml:lang="he">נוספה הודעה מפורטת לכלי תהליך.</li>
           <li xml:lang="it">Aggiungi informazioni sul messaggio dello strumento di avanzamento.</li>
           <li xml:lang="ka">დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია.</li>
@@ -1331,6 +1391,7 @@
           <li xml:lang="cs">Opravena ikona ve Windows.</li>
           <li xml:lang="es">Corregir icono de Windows.</li>
           <li xml:lang="eu">Windowseko ikonoa konpondu.</li>
+          <li xml:lang="fi">Korjattu kuvake Windowsissa.</li>
           <li xml:lang="he">תוקן הסמל ב־Windows.</li>
           <li xml:lang="it">Corregge l'icona sulle finestre.</li>
           <li xml:lang="ka">* გასწორდა ხატულა Windows-ზე.</li>
@@ -1356,6 +1417,7 @@
           <li xml:lang="cs">Přidána podpora pro novinky.</li>
           <li xml:lang="es">Se ha añadido la implementación de novedades.</li>
           <li xml:lang="eu">Berritasunak erakusteko euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty mitä uutta -tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב„מה חדש”.</li>
           <li xml:lang="it">Aggiungi il supporto per le novità.</li>
           <li xml:lang="ka">დაემატა მენიუ 'რა არის ახალი'.</li>
@@ -1374,6 +1436,7 @@
           <li xml:lang="cs">Přidána podpora instancí.</li>
           <li xml:lang="es">Se ha añadido la implementación de instancias.</li>
           <li xml:lang="eu">Instantzietarako euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty ilmentymätuki.</li>
           <li xml:lang="he">נוספה תמיכה בעותקים.</li>
           <li xml:lang="it">Aggiunge il supporto delle istanze.</li>
           <li xml:lang="ka">დაემატა გაშვებული ასლების მხარდაჭერა.</li>
@@ -1392,6 +1455,7 @@
           <li xml:lang="cs">Přidána podpora Markdown.</li>
           <li xml:lang="es">Añadir compatibilidad con Markdown.</li>
           <li xml:lang="eu">Markdown euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty Markdown-tuki.</li>
           <li xml:lang="he">נוספה תמיכה ב־Markdown.</li>
           <li xml:lang="it">Aggiunge il supporto Markdown.</li>
           <li xml:lang="ka">დაემატა Markdown-ის მხარდაჭერა.</li>
@@ -1410,6 +1474,7 @@
           <li xml:lang="cs">Přidána podpora zvýrazňování.</li>
           <li xml:lang="es">Se ha añadido la implementación de resaltado.</li>
           <li xml:lang="eu">Nabarmentzeko euskarria gehitu.</li>
+          <li xml:lang="fi">Lisätty korostustuki.</li>
           <li xml:lang="he">נוספה תמיכה בהדגשה.</li>
           <li xml:lang="it">Aggiunge il supporto per l'evidenziazione.</li>
           <li xml:lang="ka">დაემატა ტექსტის გამოკვეთის მხარდაჭერა.</li>
