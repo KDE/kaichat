@@ -11,9 +11,8 @@
         "Description[fi]": "Tällä työkaluliitännäisellä saa nykyisen päiväyksen ja ajan.",
         "Description[fr]": "Ce module externe d'outils vous permet d'obtenir la date et l'heure.",
         "Description[he]": "התוסף הזה מאפשר לך לקבל את התאריך והשעה הנוכחיים.",
-        "Description[ia]": "Iste plugin de instrumento permitte obtener tempore de data currente.",
         "Description[it]": "Questa estensione ti consente di ottenere la data e l'ora attuali.",
-        "Description[ka]": "ეს დამატება მიმდინარე დროისა და თარიღის მიღების საშუალებას გაძლევთ.",
+        "Description[ka]": "ეს ხელსაწყოს დამატება მიმდინარე თარიღისა და დროის მიღების საშუალებას გაძლევთ.",
         "Description[ko]": "이 도구 플러그인은 현재 날짜와 시간을 가져옵니다.",
         "Description[nl]": "Deze hulpmiddel plug-in biedt u het verkrijgen van de datum tijd.",
         "Description[pl]": "To narzędzie umożliwia pobranie bieżącej daty i czasu.",
@@ -25,7 +24,6 @@
         "Description[tr]": "Bu eklenti, şu anki tarihi ve zamanı almanıza olanak tanır.",
         "Description[uk]": "За допомогою цього інструменту можна отримати дані щодо поточної дати і часу.",
         "Description[zh_CN]": "此插件允许您获取当前日期时间。",
-        "Description[zh_TW]": "這個外掛程式讓您取得目前日期與時間。",
         "EnabledByDefault": true,
         "Name": "Current Date Time",
         "Name[ar]": "التاريخ والوقت الحالي",
@@ -38,7 +36,6 @@
         "Name[fi]": "Nykyinen päiväys ja aika",
         "Name[fr]": "Heure et date courante",
         "Name[he]": "תאריך ושעה נוכחיים",
-        "Name[ia]": "Tempore de Data Currente",
         "Name[it]": "Data e ora attuali",
         "Name[ka]": "მიმდინარე დრო და თარიღი",
         "Name[ko]": "현재 날짜와 시간",
@@ -50,10 +47,8 @@
         "Name[sl]": "Trenutni datum in čas",
         "Name[sv]": "Aktuellt datum och tid",
         "Name[tr]": "Geçerli Tarih/Zaman",
-        "Name[ug]": "نۆۋەتتىكى چېسلا ۋە ۋاقىت",
         "Name[uk]": "Поточна дата і час",
         "Name[zh_CN]": "当前日期和时间",
-        "Name[zh_TW]": "目前日期與時間",
         "Version": "1.0"
     }
 }
