@@ -143,6 +143,10 @@ if(TARGET KF6::UserFeedbackWidgets)
     target_link_libraries(libkaichatwidgets KF6::UserFeedbackWidgets)
 endif()
 
+if(HAVE_SPEECH_TO_TEXT)
+    target_link_libraries(libkaichatwidgets KF6::TextSpeechToText)
+endif()
+
 set_target_properties(
     libkaichatwidgets
     PROPERTIES
