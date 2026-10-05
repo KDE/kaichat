@@ -10,7 +10,7 @@ set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
 set(KAICHAT_RELEASE_VERSION "27.04.30") # yy.MM.dd
 
 # Use true if stable version => we will check specific version
-set(KAICHAT_STABLE_VERSION true)
+set(KAICHAT_STABLE_VERSION false)
 
 # Do NOT add quote
 set(KAICHAT_DEV_VERSION "alpha")
