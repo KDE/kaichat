@@ -14,4 +14,8 @@ class KAIChatConfigureAccessibilityTabWidget : public QTabWidget
 public:
     explicit KAIChatConfigureAccessibilityTabWidget(QWidget *parent = nullptr);
     ~KAIChatConfigureAccessibilityTabWidget() override;
+
+    void save();
+    void load();
+    void restoreToDefaults();
 };
