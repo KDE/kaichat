@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-09-30 19:14+0400\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"PO-Revision-Date: 2026-06-21 20:32+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -88,15 +88,17 @@ msgid "New Chat Title"
 msgstr "عنوان الدردشة ا لجديدة"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "أنشئ محادثة Ephemeral جديدة"
+msgstr "أَنشئ دردشة جديدة"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr "محادثة Ephemeral جديدة"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -204,7 +206,7 @@ msgstr "ابدأ برنامج أولاما"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr "ملف الدردشة لاستيراده"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -335,33 +337,35 @@ msgstr "فَعِّل أيقونة صينية النظام"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr "مستودع قاعدة البيانات:"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr "انسخ المسار"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgid "Exclude Favorite Chats"
-msgstr "استثنِ الدردشات المفضلة"
+msgstr "صَدِّر الدردشات"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr "البتة"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr "أيام"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr "أيام الاحتفاظ"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -376,7 +380,9 @@ msgid "General"
 msgstr "عام"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "الخط"
@@ -388,7 +394,9 @@ msgid "Instances"
 msgstr "النُسخ"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "خوادم MCP"
@@ -400,19 +408,25 @@ msgid "Spell Checking"
 msgstr "التدقيق الإملائي"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "الإتاحة"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "المُلْحَقات"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "ملاحظات المستخدمين"
@@ -421,13 +435,13 @@ msgstr "ملاحظات المستخدمين"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr "الاحتفاظ"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr "الخصوصية"
+msgstr ""
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -565,16 +579,17 @@ msgid "Show Archive"
 msgstr "أَرِشِف"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
-msgstr "محادثة جديدة"
+msgstr "عنوان الدردشة ا لجديدة"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "محادثة Ephemeral جديدة"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -689,45 +704,35 @@ msgstr "أرجع عدد الحسابات."
 #~ msgid "AI Chat"
 #~ msgstr "دردشة للذكاء الاصطناعي"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "إتاحة نسخة غروك."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "إضافة خيار CLI لبدء تشغيل Ollama المحلي."
+#~ msgid "Add User Feedback support."
+#~ msgstr "إضافة تعليقات المستخدمين."
 
-#~ msgid "Add DBus support."
-#~ msgstr "إتاحة DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "اسمح بعرض معلومات النموذج."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "إضافة دعم المُلحقات الداخلية."
+#~ msgid "Add import chat support."
+#~ msgstr "إتاحة استيراد الدردشة."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "إضافة دعم خادم MCP."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "إضافة دعم أولاما عبر الإنترنت."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "أظهر بيانات تعريف الأدوات الداخلية."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "إضافة دعم سحابة أولاما."
 
-#~ msgid "Add KCM support."
-#~ msgstr "إتاحة KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "اسمح بتكرار الدردشة."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "أُضيف دعم Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "إضافة إعداد استبقاء أولاما."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "إضافة قاعدة بيانات التنقيح."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "اسمح بتعريض أولاما للشبكة المحلية."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "عرض معلومات الرد حول المدة، عدد الرموز، إلخ."
-
-#, fuzzy
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
-#~ msgstr "اِسمح بتغيير حجم الخط."
-
-#, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "أَضِف دعم الأدوات."
+#~ msgid "Add thinking support."
+#~ msgstr "أضف دعم التفكير."
 
 #~ msgid "Add what's new support."
 #~ msgstr "أَضِف دعم ما الجديد."
@@ -735,8 +740,8 @@ msgstr "أرجع عدد الحسابات."
 #~ msgid "Add instance support."
 #~ msgstr "أَضِف دعم النُسخ."
 
-#~ msgid "Add Markdown support."
-#~ msgstr "أَضِف دعم مارك داون."
+#~ msgid "Add Mardown support."
+#~ msgstr "أَضِف دعم Markdown."
 
 #~ msgid "Add Highlighting support."
 #~ msgstr "أَضِف دعم التمييز."
@@ -836,9 +841,6 @@ msgstr "أرجع عدد الحسابات."
 #~ msgstr ""
 #~ "إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "اسمح بإضافة ملفات مرفقة من سطر الأوامر."
 
@@ -851,38 +853,8 @@ msgstr "أرجع عدد الحسابات."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "إصلاح استدعاء محلقات متعددة الأدوات."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "إتاحة نسخة غروك."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "إضافة تعليقات المستخدمين."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "اسمح بعرض معلومات النموذج."
-
-#~ msgid "Add import chat support."
-#~ msgstr "إتاحة استيراد الدردشة."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "إضافة دعم أولاما عبر الإنترنت."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "إضافة دعم سحابة أولاما."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "اسمح بتكرار الدردشة."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "إضافة إعداد استبقاء أولاما."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "أظهر سجل أولاما."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "اسمح بتعريض أولاما للشبكة المحلية."
-
-#~ msgid "Add thinking support."
-#~ msgstr "أضف دعم التفكير."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "اِفتح السؤال السريع..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -941,6 +913,3 @@ msgstr "أرجع عدد الحسابات."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "بعض إصلاحات العِلَل:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "اِفتح السؤال السريع..."

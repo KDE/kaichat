@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-09-28 09:23+0200\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"PO-Revision-Date: 2026-07-03 11:36+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -89,15 +89,17 @@ msgid "New Chat Title"
 msgstr "Títol del xat nou"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Crea un xat efímer nou"
+msgstr "Crea un xat nou"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr "Xat efímer nou"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -205,7 +207,7 @@ msgstr "Inicia el programa d'Ollama"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr "Fitxer de xat a importar"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -336,33 +338,35 @@ msgstr "Activa la icona en la safata del sistema"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr "Repositori de base de dades:"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr "Copia el camí"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgid "Exclude Favorite Chats"
-msgstr "Exclou els xats preferits"
+msgstr "Exporta xats"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr "Mai"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr "Dies"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr "Dies de retenció"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -377,7 +381,9 @@ msgid "General"
 msgstr "General"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Lletra"
@@ -389,7 +395,9 @@ msgid "Instances"
 msgstr "Instàncies"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Servidors MCP"
@@ -401,19 +409,25 @@ msgid "Spell Checking"
 msgstr "Verificació ortogràfica"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Accessibilitat"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Connectors"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Comentaris de l'usuari"
@@ -422,13 +436,13 @@ msgstr "Comentaris de l'usuari"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr "Retenció"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr "Privadesa"
+msgstr ""
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -562,16 +576,17 @@ msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Xat nou"
+msgstr "Títol del xat nou"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Xat efímer nou"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -672,3 +687,16 @@ msgstr "Informació del compte"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Retorna el nombre de comptes."
+
+#~ msgid "Json File"
+#~ msgstr "Fitxer JSON"
+
+#~ msgid "Allow to export text in autogenerate editor plugins."
+#~ msgstr ""
+#~ "Permet exportar text en connectors d'editor de generació automàtica."
+
+#~ msgid "Add new whatsnew widget."
+#~ msgstr "Afig un giny nou «Què hi ha de nou»."
+
+#~ msgid "New plugin: show collection size."
+#~ msgstr "Connector nou: mostra la mida de la col·lecció."

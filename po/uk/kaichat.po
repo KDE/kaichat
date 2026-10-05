@@ -1,13 +1,13 @@
-# Copyright (C) 2026 This file is copyright:
+# Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025, 2026 Yuri Chornoivan <yurchor@ukr.net>
+# Yuri Chornoivan <yurchor@ukr.net>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-09-28 17:01+0300\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"PO-Revision-Date: 2026-07-03 08:36+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 25.12.1\n"
+"X-Generator: Lokalize 23.04.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -88,15 +88,17 @@ msgid "New Chat Title"
 msgstr "Заголовок нового спілкування"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Створити тимчасове обговорення"
+msgstr "Створити обговорення"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr "Нове тимчасове обговорення"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -204,7 +206,7 @@ msgstr "Запустити програму Ollama"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr "Файл спілкування для імпортування"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -335,33 +337,35 @@ msgstr "Увімкнути піктограму системного лотка"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr "Сховище бази даних:"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr "Копіювати шлях"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgid "Exclude Favorite Chats"
-msgstr "Виключити улюблені спілкування"
+msgstr "Експорт даних спілкування"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr "Ніколи"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr "Дні"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr "Дні зберігання"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -376,7 +380,9 @@ msgid "General"
 msgstr "Загальне"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Шрифт"
@@ -388,7 +394,9 @@ msgid "Instances"
 msgstr "Екземляри"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Сервери MCP"
@@ -400,19 +408,25 @@ msgid "Spell Checking"
 msgstr "Перевірка правопису"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Доступність"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Додатки"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Відгуки користувача"
@@ -421,13 +435,13 @@ msgstr "Відгуки користувача"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr "Зберігання"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr "Конфіденційність"
+msgstr ""
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -563,16 +577,17 @@ msgid "Show Archive"
 msgstr "Показати архів"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Нове спілкування"
+msgstr "Заголовок нового спілкування"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Нове тимчасове спілкування"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -691,43 +706,35 @@ msgstr "Повернути номер облікового запису."
 #~ msgid "AI Chat"
 #~ msgstr "Спілкування з ШІ"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Додано підтримку екземплярів Grok."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Додано параметр командного інтерфейсу для запуску локальної Ollama."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Додано підтримку відгуків користувачів."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Додано підтримку DBus."
+#~ msgid "Allow to show model info."
+#~ msgstr "Дозволити показувати відомості щодо моделі."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Додано підтримку вбудованих додатків."
+#~ msgid "Add import chat support."
+#~ msgstr "Додано підтримку імпортування даних спілкування."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Додано підтримку сервера MCP"
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Додано підтримку Ollama Online."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Показ метаданих зовнішніх інструментів."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Додано підтримку Ollama Cloud."
 
-#~ msgid "Add KCM support."
-#~ msgstr "Додано підтримку KCM."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Уможливлено дублювання спілкування."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Додано підтримку Sarvam."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Додано підтримку параметри підтримки зв'язку з Ollama."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Додано діалогове вікно діагностики бази даних."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Дозволити використання Ollama з локальної мережі."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr ""
-#~ "Реалізовано показ даних щодо тривалості, кількості жетонів та інших "
-#~ "параметрів відповіді"
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Уможливлено експортування даних до PDF."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "Додано підтримку LMStudio."
+#~ msgid "Add thinking support."
+#~ msgstr "Додано підтримку обмірковування."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Додано підтримку показу новин щодо програми."
@@ -735,7 +742,7 @@ msgstr "Повернути номер облікового запису."
 #~ msgid "Add instance support."
 #~ msgstr "Додано підтримку екземплярів програми."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Додано підтримку Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -839,9 +846,6 @@ msgstr "Повернути номер облікового запису."
 #~ msgstr ""
 #~ "Додано додатки Вікіпедії та прогнозу погоди (є частиною kaichat-addons)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Реалізовано збереження даних щодо черги введення у базі даних."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Дозволено додавання файлів долучень з командного рядка."
 
@@ -854,38 +858,8 @@ msgstr "Повернути номер облікового запису."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Виправлено виклик додатків із декількома інструментами"
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Додано підтримку екземплярів Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Додано підтримку відгуків користувачів."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Дозволити показувати відомості щодо моделі."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Додано підтримку імпортування даних спілкування."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Додано підтримку Ollama Online."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Додано підтримку Ollama Cloud."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Уможливлено дублювання спілкування."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Додано підтримку параметри підтримки зв'язку з Ollama."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Показати журнал Ollama."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Дозволити використання Ollama з локальної мережі."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Додано підтримку обмірковування."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Відкрити швидке питання..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -949,12 +923,6 @@ msgstr "Повернути номер облікового запису."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Виправлення деяких вад:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Відкрити швидке питання..."
-
-#~ msgid "The name of the city"
-#~ msgstr "Назва міста"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

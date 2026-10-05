@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-09-28 11:13+0200\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"PO-Revision-Date: 2026-09-20 17:46+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -87,15 +87,17 @@ msgid "New Chat Title"
 msgstr "Nieuwe titel van chat"
 
 #: core/kaichatcommandlineparser.cpp:29
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Nieuwe tijdelijke chat aanmaken"
+msgstr "Nieuwe chat aanmaken"
 
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr "Nieuwe tijdelijke chat"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:31
 #, kde-format
@@ -204,7 +206,7 @@ msgstr "Ollama-programma starten"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr "Te importeren chat-bestand"
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -336,33 +338,35 @@ msgstr "Systeemvakpictogram inschakelen"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr "Database-opslagruimte:"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr "Pad kopiëren"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
 msgid "Exclude Favorite Chats"
-msgstr "Favoriete chats uitsluiten"
+msgstr "Chats exporteren"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr "Nooit"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr "Dagen"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr "Bewaardagen"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -377,7 +381,9 @@ msgid "General"
 msgstr "Algemeen"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title General page name"
+#| msgid "Font"
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Lettertype"
@@ -389,7 +395,9 @@ msgid "Instances"
 msgstr "Exemplaren"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "MCP Servers"
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP-servers"
@@ -401,19 +409,25 @@ msgid "Spell Checking"
 msgstr "Spellingcontrole"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "Accessibility"
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Toegankelijkheid"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Instances page name"
+#| msgid "Plugins"
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Plug-ins"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title Preferences page name"
+#| msgid "User Feedback"
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Terugkoppeling van gebruiker"
@@ -422,13 +436,13 @@ msgstr "Terugkoppeling van gebruiker"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr "Bewaren"
+msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr "Privacy"
+msgstr ""
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -562,16 +576,17 @@ msgid "Show Archive"
 msgstr "Archief tonen"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Nieuwe chat"
+msgstr "Nieuwe titel van chat"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Nieuwe tijdelijke chat"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -689,41 +704,35 @@ msgstr "Het nummer van het account teruggeven."
 #~ msgid "AI Chat"
 #~ msgstr "AI-chat"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "Ondersteuning voor ChatGPT, Novita AI, DeepInfra, Qwen toevoegen."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Ondersteuning voor Grok-exemplaar toevoegen."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "CLI-optie toevoegen voor het starten van lokaal Ollama."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Ondersteuning terugkoppeling van gebruiker toevoegen."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Ondersteuning voor DBus toevoegen."
+#~ msgid "Allow to show model info."
+#~ msgstr "Sta tonen van modelinformatie toe."
 
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Ondersteuning voor interne plug-in toevoegen."
+#~ msgid "Add import chat support."
+#~ msgstr "Ondersteuning voor chat importeren toevoegen."
 
-#~ msgid "Add MCP Server support."
-#~ msgstr "Ondersteuning voor MCP-server toevoegen."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ondersteuning voor Ollama online toevoegen."
 
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Toon metagegevens van interne hulpmiddelen."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ondersteuning voor Ollama Cloud toevoegen."
 
-#~ msgid "Add KCM support."
-#~ msgstr "KCM-ondersteuning toevoegen."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Sta dupliceren van chat toe."
 
-#~ msgid "Add Sarvam support."
-#~ msgstr "Ondersteuning voor Sarvam toevoegen."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Ondersteuning voor instelling Ollama levend houden toevoegen."
 
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Voeg een dialoogvenster voor databasefoutopsporing toe."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Sta toe dat Ollama blootgesteld wordt in het lokale netwerk."
 
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr "Toon antwoordinformatie over de duur, het aantal tokens, enz."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Sta exporteren als PDF toe."
-
-#~ msgid "Add LMStudio support."
-#~ msgstr "Ondersteuning voor LMStudio toevoegen."
+#~ msgid "Add thinking support."
+#~ msgstr "Ondersteuning voor denken toevoegen."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Ondersteuning voor Wat is nieuw toevoegen."
@@ -731,7 +740,7 @@ msgstr "Het nummer van het account teruggeven."
 #~ msgid "Add instance support."
 #~ msgstr "Ondersteuning voor exemplaar toevoegen."
 
-#~ msgid "Add Markdown support."
+#~ msgid "Add Mardown support."
 #~ msgstr "Ondersteuning voor Markdown toevoegen."
 
 #~ msgid "Add Highlighting support."
@@ -741,13 +750,13 @@ msgstr "Het nummer van het account teruggeven."
 #~ msgstr "Toestaan chat te verwijderen repareren. Bug %1"
 
 #~ msgid "Add Quick Ask Dialog."
-#~ msgstr "Dialoog van Snel vragen toevoegen."
+#~ msgstr "Dialoog Snel vragen openen."
 
 #~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Toestaan Ollama te downloaden op Windows/MacOs."
+#~ msgstr "Toestaan Ollama op Windows/MacOs te downloaden."
 
 #~ msgid "Use prompt during chating."
-#~ msgstr "Gebruik prompt tijdens chating."
+#~ msgstr "Prompt tijdens chatten gebruiken."
 
 #~ msgid "Add shared text and webshorcut plugin."
 #~ msgstr "Plug-in voor gedeelde tekst en websneltoets toevoegen."
@@ -759,10 +768,10 @@ msgstr "Het nummer van het account teruggeven."
 #~ msgstr "Nieuw widget voor bijwerken toevoegen."
 
 #~ msgid "Add progress indicator in chats list."
-#~ msgstr "Voortgangsindicatie in chatlijst toevoegen."
+#~ msgstr "Voortgangsindicator in chatlijst toevoegen."
 
 #~ msgid "Allow to change font size."
-#~ msgstr "Sta wijzigen van tekengrootte toe."
+#~ msgstr "Toestaan lettergrootte te wijzigingen"
 
 #~ msgid ""
 #~ "Add command line for adding new chat room, displaying list of instances."
@@ -833,11 +842,8 @@ msgstr "Het nummer van het account teruggeven."
 
 #~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
 #~ msgstr ""
-#~ "Voeg wikipedia toe, hulpmiddelprug-ins voor weer (geleverd door kaichat-"
+#~ "Voeg wikipedia toe, hulpmiddelplug-ins voor weer (geleverd door kaichat-"
 #~ "addons)."
-
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Sla wachtende getypte informatie op in de database."
 
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr ""
@@ -852,38 +858,8 @@ msgstr "Het nummer van het account teruggeven."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Aanroepen van plug-ins van multi-hulpmiddelen repareren"
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Ondersteuning voor Grok-exemplaar toevoegen."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Ondersteuning terugkoppeling van gebruiker toevoegen."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Sta tonen van modelinformatie toe."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Ondersteuning voor chat importeren toevoegen."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ondersteuning voor Ollama online toevoegen."
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ondersteuning voor Ollama Cloud toevoegen."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Sta dupliceren van chat toe."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ondersteuning voor instelling Ollama levend houden toevoegen."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Ollama-log tonen."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Sta toe dat Ollama blootgesteld wordt in het lokale netwerk."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Ondersteuning voor denken toevoegen."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Snel vragen openen..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -947,12 +923,6 @@ msgstr "Het nummer van het account teruggeven."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Enig repareren van bugs:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Snel vragen openen..."
-
-#~ msgid "The name of the city"
-#~ msgstr "De naam van de stad"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

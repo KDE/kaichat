@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
-"PO-Revision-Date: 2026-08-31 02:12+0200\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"PO-Revision-Date: 2026-09-09 22:39+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
 "Language: eu\n"
@@ -180,7 +180,7 @@ msgstr "Erabiliko den tresna definitu. Aukera hau errepika daiteke"
 #: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgid "Tool Name"
-msgstr "Tresnaren izena"
+msgstr "Tresna-izena"
 
 #: core/kaichatcommandlineparser.cpp:47
 #, kde-format
@@ -592,12 +592,10 @@ msgid "New Chat"
 msgstr "Berriketa berriaren izenburua"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Berriketa berria sortu"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -704,249 +702,213 @@ msgstr "Kontu kopurua itzultzen du."
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr ""
-#~ "Testu-sorkuntza automatikoko editore-pluginetan testua esportatzeko "
-#~ "aukera eman."
+#~ "Automatikoki sortzeko editore-pluginetako testua esportatzea baimendu."
 
 #~ msgid "Add new whatsnew widget."
-#~ msgstr "«Zer berri» trepeta berria gehitu."
+#~ msgstr "Zerberri trepeta berria gehitu."
 
 #~ msgid "New plugin: show collection size."
-#~ msgstr "Plugin berria: bildumaren neurria erakutsi."
+#~ msgstr "Plugin berria: erakutsi bildumaren neurria."
 
 #~ msgid "AI Chat"
 #~ msgstr "AA berriketa"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
-#~ msgstr "ChatGPT, Novita AI, DeepInfra eta Qwen-erako euskarria gehitu."
-
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr "Tokiko Ollama abiarazteko CLI aukera gehitu."
-
-#~ msgid "Add DBus support."
-#~ msgstr "DBus euskarria gehitu."
-
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Barne-pluginetarako euskarria gehitu."
-
-#~ msgid "Add MCP Server support."
-#~ msgstr "MCP zerbitzarietarako euskarria gehitu."
-
-#~| msgid "Add DBus support."
-#~ msgid "Add KCM support."
-#~ msgstr "KCM euskarria gehitu."
-
-#~| msgid "Add MCP Server support."
-#~ msgid "Add Sarvam support."
-#~ msgstr "Sarvam-erako euskarria gehitu."
-
-#~| msgid "Allow to change font size."
-#~ msgid "Allow to export as PDF."
-#~ msgstr "PDF gisa esportatzeko aukera eman."
-
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "LM Studio-rako euskarria gehitu."
-
-#~ msgid "Add what's new support."
-#~ msgstr "«Zer berri» funtziorako euskarria gehitu."
-
-#~ msgid "Add instance support."
-#~ msgstr "Instantzietarako euskarria gehitu."
-
-#~| msgid "Add Mardown support."
-#~ msgid "Add Markdown support."
-#~ msgstr "Markdown-erako euskarria gehitu."
-
-#~ msgid "Add Highlighting support."
-#~ msgstr "Nabarmentzeko euskarria gehitu."
-
-#~ msgid "Fix allow delete chat. Bug %1"
-#~ msgstr "Berriketa ezabatzeko aukera konpondu. %1 akatsa"
-
-#~ msgid "Add Quick Ask Dialog."
-#~ msgstr "Galdera azkarraren elkarrizketa-koadroa gehitu."
-
-#~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Windowsen eta macOSen Ollama zama-jaisteko aukera eman."
-
-#~ msgid "Use prompt during chating."
-#~ msgstr "Berriketan eskaera erabili."
-
-#~ msgid "Add shared text and webshorcut plugin."
-#~ msgstr "Testua partekatzeko eta web-lasterbiderako pluginak gehitu."
-
-#~ msgid "Allow to configure plugins."
-#~ msgstr "Pluginak konfiguratzeko aukera eman."
-
-#~ msgid "Add new update widget."
-#~ msgstr "Eguneratze-trepeta berria gehitu."
-
-#~ msgid "Add progress indicator in chats list."
-#~ msgstr "Berriketa-zerrendan aurrerapen-adierazlea gehitu."
-
-#~ msgid "Allow to change font size."
-#~ msgstr "Letra-tipoaren neurria aldatzeko aukera eman."
-
-#~ msgid ""
-#~ "Add command line for adding new chat room, displaying list of instances."
-#~ msgstr ""
-#~ "Berriketa-gela berria gehitzeko eta instantzien zerrenda bistaratzeko "
-#~ "komando-lerroko aukerak gehitu."
-
-#~ msgid "Add spell checking support."
-#~ msgstr "Ortografia-egiaztapenerako euskarria gehitu."
-
-#~ msgid "Add Notification popup when model download done."
-#~ msgstr ""
-#~ "Ereduaren zama-jaitsiera amaitzean jakinarazpen-leiho gainerakorra gehitu."
-
-#~ msgid "Allow to save and restore text and scrollbar position."
-#~ msgstr ""
-#~ "Testua eta kiribiltze-barraren kokapena gordetzeko eta lehengoratzeko "
-#~ "aukera eman."
-
-#~ msgid "Allow to save and restore current chat."
-#~ msgstr "Uneko berriketa gorde eta lehengoratzeko aukera eman."
-
-#~ msgid "Add option for showing list of title chats."
-#~ msgstr "Berriketen izenburuen zerrenda erakusteko aukera gehitu."
-
-#~ msgid "Add tools support."
-#~ msgstr "Tresnetarako euskarria gehitu."
-
-#~ msgid "Allow to switch from chat identifier."
-#~ msgstr ""
-#~ "Berriketaren identifikatzailearen bidez berriketara aldatzeko aukera eman."
-
-#~ msgid "Add Current Date Time tool."
-#~ msgstr "Uneko data-ordu tresna gehitu."
-
-#~ msgid "Add progress tool message info."
-#~ msgstr "Tresnaren aurrerapen-mezuari buruzko informazioa gehitu."
-
-#~ msgid "Fix icon on windows."
-#~ msgstr "Windowseko ikonoa konpondu."
-
-#~ msgid "Allow to copy block code to clipboard."
-#~ msgstr "Kode-blokea arbelera kopiatzeko aukera eman."
-
-#~ msgid "Show number of string found in statusbar."
-#~ msgstr "Aurkitutako kate kopurua egoera-barran erakutsi."
-
-#~ msgid "Implement quick search."
-#~ msgstr "Bilaketa azkarra inplementatu."
-
-#~ msgid "Add quick search bar in quick ask dialog."
-#~ msgstr ""
-#~ "Galdera azkarraren elkarrizketa-koadroan bilaketa azkarreko barra gehitu."
-
-#~ msgid "Add restore configure settings value."
-#~ msgstr "Konfigurazio-ezarpenen balioak lehengoratzeko aukera gehitu."
-
-#~ msgid "Allow to configure text to speech."
-#~ msgstr "Testutik hizketarako funtzionalitatea konfiguratzeko aukera eman."
-
-#~ msgid "Add tool plugin icon name."
-#~ msgstr "Tresna-pluginaren ikono-izena gehitu."
-
-#~ msgid "Add attachment support."
-#~ msgstr "Eranskinetarako euskarria gehitu."
-
-#~ msgid "Add new icon."
-#~ msgstr "Ikono berria gehitu."
-
-#~ msgid "Add debug command line."
-#~ msgstr "Arazketa komando-lerroa gehitu."
-
-#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-#~ msgstr ""
-#~ "Wikipedia eta eguraldiaren tresna-pluginak gehitu (kaichat-addons-ek "
-#~ "hornitzen ditu)."
-
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr "Zain dagoen tekleatutako informazioa datu-basean gorde."
-
-#~ msgid "Allow to add attachment files from command line."
-#~ msgstr "Eranskin-fitxategiak komando-lerrotik gehitzeko aukera eman."
-
-#~ msgid "Add icon in configure ollama models."
-#~ msgstr "Ollama ereduak konfiguratzeko ikonoa gehitu."
-
-#~ msgid "Allow to use specific Ollama environment variables."
-#~ msgstr "Ollamaren berariazko ingurune-aldagaiak erabiltzeko aukera eman."
-
-#~ msgid "Fix multi tools plugins call."
-#~ msgstr "Tresna-plugin anitzen deia konpondu."
-
 #~ msgid "Add Grok instance support."
-#~ msgstr "Grok instantziarako euskarria gehitu."
+#~ msgstr "Gork instantziaren euskarria gehitzea."
 
 #~ msgid "Add User Feedback support."
-#~ msgstr "Erabiltzailearen iritzirako euskarria gehitu."
+#~ msgstr "Erabiltzailearen atzera-elikadura euskarria gehitzea."
 
 #~ msgid "Allow to show model info."
-#~ msgstr "Ereduaren informazioa erakusteko aukera eman."
+#~ msgstr "Ereduaren informazioa erakusteko aukera ematea."
 
 #~ msgid "Add import chat support."
 #~ msgstr "Berriketa inportatzeko euskarria gehitu."
 
 #~ msgid "Add Ollama Online support."
-#~ msgstr "Ollama Online-ren euskarria gehitu."
+#~ msgstr "Ollama lerroko euskarria gehitu."
 
 #~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ollama Cloud-en euskarria gehitu."
+#~ msgstr "Ollama hodeiko euskarria gehitu."
 
 #~ msgid "Allow to duplicate chat."
 #~ msgstr "Berriketa bikoizteko aukera eman."
 
 #~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ollama zamatuta mantentzeko ezarpenerako euskarria gehitu."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Ollamaren egunkaria erakutsi."
+#~ msgstr "Ollama-ren ‘Keep Alive’ ezarpenaren euskarria gehitu."
 
 #~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Ollama sare lokalean eskuragarri jartzeko aukera eman."
+#~ msgstr "Ollama sare lokalean eskuragarri jartzea baimendu."
 
 #~ msgid "Add thinking support."
-#~ msgstr "Arrazoiketarako euskarria gehitu."
+#~ msgstr "Pentsamendu-moduaren euskarria gehitu."
+
+#~ msgid "Add what's new support."
+#~ msgstr "Zer berri-ren euskarria gehitu."
+
+#~ msgid "Add instance support."
+#~ msgstr "Instantzien euskarria gehitu."
+
+#~ msgid "Add Mardown support."
+#~ msgstr "Markdown-en euskarria gehitu."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "Nabarmentzeko euskarria gehitu."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "Baimendu berriketa ezabatzea konpondu. %1 akatsa"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "Galdera azkarra elkarrizketa-koadroa gehitu."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "Ollama Windows/MacOs-en zama-jaistea baimendu."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "Berriketan gonbita erabiltzea."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "Partekatutako testua eta web-lasterbide plugina gehitu."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "Pluginak konfiguratzea baimendu."
+
+#~ msgid "Add new update widget."
+#~ msgstr "Eguneratze-trepeta berria gehitu."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "Berriketen zerrendan aurrerapen adierazlea gehitzea."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "Letra-tipoa aldatzea baimendu."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr ""
+#~ "Instantzien zerrenda azaltzen duen berriketa gela berria gehitzeko "
+#~ "komando-lerroa gehitzea."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "Ortografia-egiaztatzeko euskarria gehitu da."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr ""
+#~ "Gehitu jakinarazpenaren mezu gainerakorra eredua zama-jaitsiera burutu "
+#~ "denean."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr ""
+#~ "Testuaren eta kiribiltze-barraren kokapena gorde eta lehengoratzeko "
+#~ "aukera ematen du."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "Uneko berriketa gorde eta lehengoratzeko aukera ematen du."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "Izenburudun berriketak erakusteko aukera gehitu."
+
+#~ msgid "Add tools support."
+#~ msgstr "Tresnen euskarria gehitu."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "Berriketa identifikatzailetik aldatzea baimendu."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "Gehitu Uneko Data Ordu tresna."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "Gehitu aurrerapen tresnaren mezu-informazioa."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "Windows-en ikonoa konpontzea."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "Kode-blokea arbelera kopiatzeko aukera ematea."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "Aurkitutako kate kopurua egoera-barran erakustea."
+
+#~ msgid "Implement quick search."
+#~ msgstr "Bilaketa azkarra inplementatzea."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr ""
+#~ "Bilaketa azkarra barra galdera azkarra elkarrizketa koadroan gehitzea."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "Konfiguratzeko ezarpenen balioa lehengoratzea gehitzea."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "Testutik hizketara konfiguratzea baimentzea."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "Trena-pluginaren ikonoaren izena gehitzea."
+
+#~ msgid "Add attachment support."
+#~ msgstr "Eranskin-euskarria gehitzea."
+
+#~ msgid "Add new icon."
+#~ msgstr "Ikono berria gehitzea."
+
+#~ msgid "Add debug command line."
+#~ msgstr "Arazteko komando-lerroa gehitzea."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "Wikipedia, eguraldi tresna pluginak gehitzea (kaichat-addons bidez "
+#~ "hornitua)."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "Eranskin fitxategiak komando-lerrotik gehitzea baimentzea."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "Ollama ereduen konfigurazioan ikonoa gehitzea."
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "Ollamaren ingurune aldagai espezifikoak erabiltzea baimendu."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "Tresna anitzen pluginek deia konpontzea."
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ireki Galdera azkarra..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
-#~ msgstr "Bertsio-egiaztapena ezgaitu"
+#~ msgstr "Ezgaitu bertsio-egiaztapena"
 
 #~ msgctxt "@action"
 #~ msgid "Check new Version"
-#~ msgstr "Bertsio berririk dagoen egiaztatu"
+#~ msgstr "Egiaztatu bertsio berririk dagoen"
 
 #~ msgid "Your version is older than 6 months, we encourage you to upgrade."
 #~ msgstr ""
-#~ "Zure bertsioak 6 hilabete baino gehiago ditu; bertsio-berritzea "
+#~ "Zure bertsioa 6 hilabete baino zaharragoa da, bertsio-berritzea "
 #~ "gomendatzen dizugu."
 
 #~ msgid ""
 #~ "Your version is older than 1 year, we strongly encourage you to upgrade."
 #~ msgstr ""
-#~ "Zure bertsioak urtebete baino gehiago du; bertsio-berritzea biziki "
+#~ "Zure bertsioa urte 1 baino zaharragoa da, bertsio-berritzea biziki "
 #~ "gomendatzen dizugu."
 
 #~ msgctxt "@title:window"
 #~ msgid "Check New Version"
-#~ msgstr "Bertsio berririk dagoen egiaztatu"
+#~ msgstr "Egiaztatu bertsio berririk dagoen"
 
 #~ msgid ""
 #~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 #~ msgstr ""
-#~ "Bertsio berri bat aurkitu da. Hura zama-jaisteko, egin klik <a href="
-#~ "\"%1\">hemen</a>."
+#~ "Bertsio berri bat aurkitu da. Egin klik <a href=\"%1\">hemen</a> hura "
+#~ "zama-jaisteko."
 
 #~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 #~ msgstr ""
-#~ "Ez da bertsio berririk aurkitu. Eraikitako bertsioa <a href=\"%1\">hemen</"
-#~ "a> aurki daiteke."
+#~ "Ez da bertsio berririk aurkitu. Eraikina <a href=\"%1\">hemen</a> aurki "
+#~ "daiteke."
 
 #~ msgid "Check New Version"
-#~ msgstr "Bertsio berririk dagoen egiaztatu"
+#~ msgstr "Egiaztatu bertsio berririk dagoen"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"
@@ -954,13 +916,13 @@ msgstr "Kontu kopurua itzultzen du."
 
 #~ msgctxt "@title:window"
 #~ msgid "What's new in %1"
-#~ msgstr "%1(e)ko berritasunak"
+#~ msgstr "Zer berri %1(e)(a)n"
 
 #~ msgid "(Show News)"
 #~ msgstr "(Berriak erakutsi)"
 
 #~ msgid "What's new in %2. %1"
-#~ msgstr "%2(e)ko berritasunak. %1"
+#~ msgstr "Zer berri %2(a)n. %1"
 
 #~ msgid "All Versions"
 #~ msgstr "Bertsio guztiak"
@@ -969,23 +931,21 @@ msgstr "Kontu kopurua itzultzen du."
 #~ msgstr "%1 bertsioa"
 
 #~ msgid "Important changes since last version:"
-#~ msgstr "Azken bertsiotik izandako aldaketa garrantzitsuak:"
+#~ msgstr "Azken bertsiotik dauden aldaketa garrantzitsuak:"
 
 #~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "KAIChat-en bertsio honetako eginbide berrietako batzuk:"
+#~ msgstr ""
+#~ "KAIchat-en argitalpen berri honetako ezaugarri berrien artean daude:"
 
 #~ msgid "Some bug fixing:"
-#~ msgstr "Akats-konponketa batzuk:"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Galdera azkarra ireki…"
+#~ msgstr "Akatsak konponketa batzuk:"
 
 #~ msgid "KAiChat"
-#~ msgstr "KAIChat"
+#~ msgstr "KAiChat"
 
 #~ msgid "Rocket Chat Client"
-#~ msgstr "Rocket.Chat bezeroa"
+#~ msgstr "Rocket Chat bezeroa"
 
 #~ msgctxt "@title:window"
 #~ msgid "Export Autocorrection File"
-#~ msgstr "Zuzenketa automatikorako fitxategia esportatu"
+#~ msgstr "Esportatu zuzenketa automatikorako fitxategia"

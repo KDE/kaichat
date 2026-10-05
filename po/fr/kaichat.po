@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-29 00:48+0000\n"
+"POT-Creation-Date: 2026-10-05 03:17+0000\n"
 "PO-Revision-Date: 2026-07-09 13:56+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -580,12 +580,10 @@ msgid "New Chat"
 msgstr "Nouveau titre du salon de discussions"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Créer un nouveau salon"
+msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -704,47 +702,37 @@ msgstr "Retourner le nombre de comptes."
 #~ msgid "AI Chat"
 #~ msgstr "Discussion avec une IA"
 
-#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Ajouter la prise en charge d'instances pour Grok."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Ajouter la prise en charge des retours utilisateurs."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Permettre l'affichage des informations de modèle."
+
+#~ msgid "Add import chat support."
+#~ msgstr "Ajouter la prise en charge de l'importation de salons."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ajoute la prise en charge de  Ollama en mode connecté"
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ajoute la prise en charge de  Ollama en mode « Cloud »."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Autoriser la duplication du salon de discussions."
+
+#~ msgid "Add Ollama Keep Alive setting support."
 #~ msgstr ""
-#~ "Ajout de la prise en charge de ChatGPT, Novita AI, DeepInfra et Qwen."
+#~ "Ajouter la prise en charge de la configuration d'entretien du mode "
+#~ "connecté."
 
-#~ msgid "Add CLI option for starting local Ollama."
-#~ msgstr ""
-#~ "Ajouter une option CLI pour le démarrage d'une session locale de Ollama."
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Autoriser Ollama à s'exposer dans un réseau local."
 
-#~ msgid "Add DBus support."
-#~ msgstr "Ajout de la prise en charge de DBus."
-
-#~ msgid "Add Internal Plugin support."
-#~ msgstr "Ajout de la prise en charge de modules additionnels internes."
-
-#~ msgid "Add MCP Server support."
-#~ msgstr "Ajout de la prise en charge de serveurs « MCP »."
-
-#~ msgid "Show internal tools metadata."
-#~ msgstr "Afficher les métadonnées des outils internes."
-
-#~ msgid "Add KCM support."
-#~ msgstr "Ajout de la prise en charge de KCM."
-
-#~ msgid "Add Sarvam support."
-#~ msgstr "Ajouter la prise en charge de Sarvam."
-
-#~ msgid "Add Database Debug Dialogbox."
-#~ msgstr "Ajouter une boîte de dialogue de débogage de la base de données."
-
-#~ msgid "Display reply info about duration, number of tokens etc."
-#~ msgstr ""
-#~ "Afficher les informations de réponse concernant la durée, le nombre de "
-#~ "jetons, etc."
-
-#~ msgid "Allow to export as PDF."
-#~ msgstr "Autoriser l'exportation au format « PDF »."
-
-#, fuzzy
-#~| msgid "Add tools support."
-#~ msgid "Add LMStudio support."
-#~ msgstr "Ajouter la prise en charge des outils."
+#~ msgid "Add thinking support."
+#~ msgstr "Ajouter la prise en charge intelligente."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Ajoute la prise en charge de « Quoi de neuf »"
@@ -752,8 +740,8 @@ msgstr "Retourner le nombre de comptes."
 #~ msgid "Add instance support."
 #~ msgstr "Ajouter la prise en charge d'instances."
 
-#~ msgid "Add Markdown support."
-#~ msgstr "Ajout de la prise en charge du format « Markdown »."
+#~ msgid "Add Mardown support."
+#~ msgstr "Ajouter la prise en charge du format « Markdown »."
 
 #~ msgid "Add Highlighting support."
 #~ msgstr "Ajouter la prise en charge de la surbrillance"
@@ -865,10 +853,6 @@ msgstr "Retourner le nombre de comptes."
 #~ "Ajouter les modules externes pour Wikipedia, les outils pour la météo "
 #~ "(Fournit par le paquet « kaichat-addons »)."
 
-#~ msgid "Store Pending Typed Info in Database."
-#~ msgstr ""
-#~ "Enregistrer les informations marquées en attente dans la base de données."
-
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr ""
 #~ "Autoriser l'ajout de fichiers joints à partir de la ligne de commandes."
@@ -884,40 +868,8 @@ msgstr "Retourner le nombre de comptes."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Correction de l'appel à des modules externes multi-outils."
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Ajouter la prise en charge d'instances pour Grok."
-
-#~ msgid "Add User Feedback support."
-#~ msgstr "Ajouter la prise en charge des retours utilisateurs."
-
-#~ msgid "Allow to show model info."
-#~ msgstr "Permettre l'affichage des informations de modèle."
-
-#~ msgid "Add import chat support."
-#~ msgstr "Ajouter la prise en charge de l'importation de salons."
-
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ajoute la prise en charge de  Ollama en mode connecté"
-
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ajoute la prise en charge de  Ollama en mode « Cloud »."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Autoriser la duplication du salon de discussions."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr ""
-#~ "Ajouter la prise en charge de la configuration d'entretien du mode "
-#~ "connecté."
-
-#~ msgid "Show Ollama log."
-#~ msgstr "Afficher le journal de Ollama"
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Autoriser Ollama à s'exposer dans un réseau local."
-
-#~ msgid "Add thinking support."
-#~ msgstr "Ajouter la prise en charge intelligente."
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -986,9 +938,6 @@ msgstr "Retourner le nombre de comptes."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Quelques corrections de bogues :"
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Ouvrir la boîte de dialogue de requête rapide..."
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"
