@@ -17,6 +17,7 @@ class KAIChatConfigureUserFeedbackWidget;
 class KAIChatConfigureMcpServersWidget;
 class KAIChatConfigureRetentionWidget;
 class KAIChatConfigurePrivacyWidget;
+class KAIChatConfigureAccessibilityTabWidget;
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -42,10 +43,8 @@ private:
     KAIChatConfigureSpellCheckingWidget *const mConfigureSpellCheckingWidget;
     KAIChatConfigureRetentionWidget *const mConfigureRetentionWidget;
     KAIChatConfigurePrivacyWidget *const mConfigurePrivacyWidget;
-#if HAVE_TEXT_TO_SPEECH
-    KAIChatConfigureAccessibilityWidget *const mConfigureAccessibilityWidget;
+    KAIChatConfigureAccessibilityTabWidget *const mConfigureAccessibilityWidget;
     KPageWidgetItem *mConfigureTextToSpeechWidgetPage = nullptr;
-#endif
 #if HAVE_KUSERFEEDBACK
     KPageWidgetItem *mConfigureUserFeedBackWidgetPage = nullptr;
     KAIChatConfigureUserFeedbackWidget *const mConfigureUserFeedBackWidget = nullptr;

@@ -6,6 +6,7 @@
 
 #include "kaichatconfigureaccessibilitytabwidget.h"
 #include "configure/kaichatconfigureaccessibilitywidget.h"
+#include <KLocalizedString>
 
 KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(QWidget *parent)
     : QTabWidget(parent)
@@ -14,6 +15,7 @@ KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(Q
 #endif
 {
     setTabBarAutoHide(true);
+    addTab(mConfigureAccessibilityWidget, i18n("Text to Speech"));
 }
 
 KAIChatConfigureAccessibilityTabWidget::~KAIChatConfigureAccessibilityTabWidget() = default;
