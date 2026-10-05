@@ -5,9 +5,13 @@
 */
 
 #include "kaichatconfigureaccessibilitytabwidget.h"
+#include "configure/kaichatconfigureaccessibilitywidget.h"
 
 KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(QWidget *parent)
     : QTabWidget(parent)
+#if HAVE_TEXT_TO_SPEECH
+    , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
+#endif
 {
     setTabBarAutoHide(true);
 }
@@ -16,14 +20,23 @@ KAIChatConfigureAccessibilityTabWidget::~KAIChatConfigureAccessibilityTabWidget(
 
 void KAIChatConfigureAccessibilityTabWidget::save()
 {
+#if HAVE_TEXT_TO_SPEECH
+    mConfigureAccessibilityWidget->save();
+#endif
 }
 
 void KAIChatConfigureAccessibilityTabWidget::load()
 {
+#if HAVE_TEXT_TO_SPEECH
+    mConfigureAccessibilityWidget->load();
+#endif
 }
 
 void KAIChatConfigureAccessibilityTabWidget::restoreToDefaults()
 {
+#if HAVE_TEXT_TO_SPEECH
+    mConfigureAccessibilityWidget->restoreToDefaults();
+#endif
 }
 
 #include "moc_kaichatconfigureaccessibilitytabwidget.cpp"

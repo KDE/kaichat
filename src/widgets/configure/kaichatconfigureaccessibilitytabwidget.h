@@ -5,9 +5,9 @@
 */
 
 #pragma once
-
+#include "config-kaichat.h"
 #include <QTabWidget>
-
+class KAIChatConfigureAccessibilityWidget;
 class KAIChatConfigureAccessibilityTabWidget : public QTabWidget
 {
     Q_OBJECT
@@ -18,4 +18,9 @@ public:
     void save();
     void load();
     void restoreToDefaults();
+
+private:
+#if HAVE_TEXT_TO_SPEECH
+    KAIChatConfigureAccessibilityWidget *const mConfigureAccessibilityWidget;
+#endif
 };
