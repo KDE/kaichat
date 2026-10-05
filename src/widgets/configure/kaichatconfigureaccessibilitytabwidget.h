@@ -6,13 +6,11 @@
 
 #pragma once
 #include "config-kaichat.h"
+#include "libkaichatwidgets_private_export.h"
 #include <QTabWidget>
 class KAIChatConfigureAccessibilityWidget;
-namespace TextSpeechToText
-{
-class SpeechToTextConfigureWidget;
-}
-class KAIChatConfigureAccessibilityTabWidget : public QTabWidget
+class KAIChatConfigureSpeechToTextWidget;
+class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureAccessibilityTabWidget : public QTabWidget
 {
     Q_OBJECT
 public:
@@ -28,6 +26,6 @@ private:
     KAIChatConfigureAccessibilityWidget *const mConfigureAccessibilityWidget;
 #endif
 #if HAVE_SPEECH_TO_TEXT
-    TextSpeechToText::SpeechToTextConfigureWidget *const mConfigureSpeechToTextWidget;
+    KAIChatConfigureSpeechToTextWidget *const mConfigureSpeechToTextWidget;
 #endif
 };

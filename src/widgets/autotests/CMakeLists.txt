@@ -10,3 +10,7 @@ macro(add_kaichat_widgets_unittest _source)
 endmacro()
 
 add_kaichat_widgets_unittest(kaichatdatabaseselectchatlineedittest.cpp)
+add_kaichat_widgets_unittest(kaichatconfigureaccessibilitytabwidgettest.cpp)
+if(HAVE_SPEECH_TO_TEXT)
+    add_kaichat_widgets_unittest(kaichatconfigurespeechtotextwidgettest.cpp)
+endif()

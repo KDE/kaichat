@@ -144,6 +144,12 @@ if(TARGET KF6::UserFeedbackWidgets)
 endif()
 
 if(HAVE_SPEECH_TO_TEXT)
+    target_sources(
+        libkaichatwidgets
+        PRIVATE
+            configure/kaichatconfigurespeechtotextwidget.h
+            configure/kaichatconfigurespeechtotextwidget.cpp
+    )
     target_link_libraries(libkaichatwidgets KF6::TextSpeechToText)
 endif()
 

@@ -8,7 +8,7 @@
 #include "configure/kaichatconfigureaccessibilitywidget.h"
 #include <KLocalizedString>
 #if HAVE_SPEECH_TO_TEXT
-#include <TextSpeechToText/SpeechToTextConfigureWidget>
+#include "configure/kaichatconfigurespeechtotextwidget.h"
 #endif
 KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(QWidget *parent)
     : QTabWidget(parent)
@@ -16,7 +16,7 @@ KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(Q
     , mConfigureAccessibilityWidget(new KAIChatConfigureAccessibilityWidget(this))
 #endif
 #if HAVE_SPEECH_TO_TEXT
-    , mConfigureSpeechToTextWidget(new TextSpeechToText::SpeechToTextConfigureWidget(this))
+    , mConfigureSpeechToTextWidget(new KAIChatConfigureSpeechToTextWidget(this))
 #endif
 {
     setTabBarAutoHide(true);
@@ -36,7 +36,7 @@ void KAIChatConfigureAccessibilityTabWidget::save()
     mConfigureAccessibilityWidget->save();
 #endif
 #if HAVE_SPEECH_TO_TEXT
-    mConfigureSpeechToTextWidget->saveSettings();
+    mConfigureSpeechToTextWidget->save();
 #endif
 }
 
@@ -46,7 +46,7 @@ void KAIChatConfigureAccessibilityTabWidget::load()
     mConfigureAccessibilityWidget->load();
 #endif
 #if HAVE_SPEECH_TO_TEXT
-    mConfigureSpeechToTextWidget->loadSettings();
+    mConfigureSpeechToTextWidget->load();
 #endif
 }
 
@@ -56,7 +56,7 @@ void KAIChatConfigureAccessibilityTabWidget::restoreToDefaults()
     mConfigureAccessibilityWidget->restoreToDefaults();
 #endif
 #if HAVE_SPEECH_TO_TEXT
-    // TODO mConfigureSpeechToTextWidget->restoreToDefaults();
+    mConfigureSpeechToTextWidget->restoreToDefaults();
 #endif
 }
 
