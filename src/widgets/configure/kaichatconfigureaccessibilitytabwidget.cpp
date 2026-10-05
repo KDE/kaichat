@@ -13,3 +13,5 @@ KAIChatConfigureAccessibilityTabWidget::KAIChatConfigureAccessibilityTabWidget(Q
 }
 
 KAIChatConfigureAccessibilityTabWidget::~KAIChatConfigureAccessibilityTabWidget() = default;
+
+#include "moc_kaichatconfigureaccessibilitytabwidget.cpp"
