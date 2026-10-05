@@ -439,10 +439,6 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         mManager->setDebug(true);
         mMenuDebug->setVisible(true);
     }
-    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Instance))) {
-        qCDebug(KAICHAT_WIDGET_LOG) << " INSTANCE ***************";
-        // TODO
-    }
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat))) {
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::NewChat));
         mManager->createNewChat(newChatName);

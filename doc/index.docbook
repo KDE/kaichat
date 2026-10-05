@@ -446,10 +446,6 @@ opening a second one.</para>
 <listitem><para>Print the available text and tool plugins and exit.</para></listitem>
 </varlistentry>
 <varlistentry>
-<term><option>--instance</option> <replaceable>name</replaceable></term>
-<listitem><para>Start with a specific instance.</para></listitem>
-</varlistentry>
-<varlistentry>
 <term><option>--new-chat</option> <replaceable>title</replaceable></term>
 <listitem><para>Create a new chat with this title.</para></listitem>
 </varlistentry>

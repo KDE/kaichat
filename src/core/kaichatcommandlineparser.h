@@ -13,7 +13,6 @@ class LIBKAICHATCORE_EXPORT KAIChatCommandLineParser
 public:
     enum class OptionParser : uint8_t {
         ListInstances = 0,
-        Instance,
         NewChat,
         QuickAsk,
         SwitchToChat,
