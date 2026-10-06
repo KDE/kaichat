@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
 "PO-Revision-Date: 2026-08-31 17:16+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -67,26 +67,15 @@ msgstr "Palauttaa ilmentymäluettelon"
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr "Aloita määräilmentymästä"
-
-#: core/kaichatcommandlineparser.cpp:25
-#, kde-format
-msgid "Instance Name"
-msgstr "Ilmentymän nimi"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "Luo uusi keskustelu"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr "Keskustelun uusi otsikko"
 
-#: core/kaichatcommandlineparser.cpp:29
+#: core/kaichatcommandlineparser.cpp:26
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Create new chat"
@@ -94,114 +83,114 @@ msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
 msgstr "Luo uusi keskustelu"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "Avaa pikakysymys"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Vaihda keskusteluun"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr "Keskustelun nimi"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "Vaihda keskusteluun tunnisteen mukaan"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr "Keskustelun tunniste"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Kysy viestiä"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr "Viesti"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "Palaa keskusteluluetteloon"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Aktivoi virheenpaikannustila"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "Lisää liite. Tätä voi toistaa"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
 msgstr "Liitteen verkko-osoite"
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "Määritä käytettävä työkalu. Tätä voi toistaa"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
 msgstr "Työkalun nimi"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "Palauta liitännäisen tiedot"
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Luettelee käyttäjäpalautteelle käytettävissä olevat valinnat"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "Tuo keskustelu"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr "Tuo"
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Käynnistä Ollama-ohjelma"
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
@@ -394,11 +383,10 @@ msgstr "Ilmentymät"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
 #, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#| msgid "Add Mardown support."
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
-msgstr "MCP-palvelimet"
+msgstr "Lisää Markdown-tuki."
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:79
 #, kde-format
@@ -581,10 +569,12 @@ msgid "New Chat"
 msgstr "Keskustelun uusi otsikko"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Create new chat"
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Luo uusi keskustelu"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -625,12 +615,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Vie keskusteluja"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr "Mallin lataus valmis"
 
-#: widgets/kaichatmainwindow.cpp:512
+#: widgets/kaichatmainwindow.cpp:508
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Malli %1 ladattiin."
@@ -686,8 +676,12 @@ msgstr "Tilitiedot"
 msgid "Return the number of account."
 msgstr "Palauta tilien lukumäärä."
 
-#~ msgid "Json File"
-#~ msgstr "JSON-tiedosto"
+#~ msgctxt "@info:shell"
+#~ msgid "Start with specific instance"
+#~ msgstr "Aloita määräilmentymästä"
+
+#~ msgid "Instance Name"
+#~ msgstr "Ilmentymän nimi"
 
 #~ msgid "Allow to export text in autogenerate editor plugins."
 #~ msgstr "Salli viedä tekstiä muokkaimen automaattituottoliitännäisiin."
@@ -702,44 +696,44 @@ msgstr "Palauta tilien lukumäärä."
 #~ msgstr "Tekoälykeskustelu"
 
 #, fuzzy
+#~| msgid "Add option for showing list of title chats."
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "Lisää valinta keskusteluotsikoiden näyttämiseksi."
+
+#, fuzzy
+#~| msgid "Add tools support."
+#~ msgid "Add DBus support."
+#~ msgstr "Lisää työkalutuki."
+
+#, fuzzy
 #~| msgid "Add instance support."
-#~ msgid "Add Grok instance support."
+#~ msgid "Add Internal Plugin support."
 #~ msgstr "Lisää ilmentymätuki."
 
 #, fuzzy
-#~| msgid "Add spell checking support."
-#~ msgid "Add User Feedback support."
-#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
+#~| msgid "Add Mardown support."
+#~ msgid "Add MCP Server support."
+#~ msgstr "Lisää Markdown-tuki."
 
 #, fuzzy
-#~| msgid "Add attachment support."
-#~ msgid "Add import chat support."
-#~ msgstr "Lisää liitetuki."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Lisää mitä uutta -tuki."
+#~| msgid "Add tools support."
+#~ msgid "Add KCM support."
+#~ msgstr "Lisää työkalutuki."
 
 #, fuzzy
 #~| msgid "Add Mardown support."
-#~ msgid "Add Ollama Cloud support."
+#~ msgid "Add Sarvam support."
 #~ msgstr "Lisää Markdown-tuki."
 
 #, fuzzy
 #~| msgid "Allow to change font size."
-#~ msgid "Allow to duplicate chat."
+#~ msgid "Allow to export as PDF."
 #~ msgstr "Salli fonttikoon muuttaminen."
 
 #, fuzzy
-#~| msgid "Add spell checking support."
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
-
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "Lisää korostustuki."
+#~| msgid "Add tools support."
+#~ msgid "Add LMStudio support."
+#~ msgstr "Lisää työkalutuki."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Lisää mitä uutta -tuki."
@@ -747,7 +741,9 @@ msgstr "Palauta tilien lukumäärä."
 #~ msgid "Add instance support."
 #~ msgstr "Lisää ilmentymätuki."
 
-#~ msgid "Add Mardown support."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Markdown support."
 #~ msgstr "Lisää Markdown-tuki."
 
 #~ msgid "Add Highlighting support."
@@ -851,6 +847,9 @@ msgstr "Palauta tilien lukumäärä."
 #~ msgstr ""
 #~ "Lisää Wikipedia- ja säätyökaluliitännäiset (jotka tarjoaa kaichat-addons)."
 
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "Talleta odottava tyyppitieto tietokantaan."
+
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Salli liitetiedostojen lisääminen komentoriviltä."
 
@@ -863,8 +862,43 @@ msgstr "Palauta tilien lukumäärä."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Korjaa monityökaluliitännäisen kutsu."
 
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Avaa pikakysymys…"
+#~ msgid "Add Grok instance support."
+#~ msgstr "Lisää Grok-ilmentymätuki."
+
+#, fuzzy
+#~| msgid "Add spell checking support."
+#~ msgid "Add User Feedback support."
+#~ msgstr "Lisää oikeinkirjoituksen tarkistuksen tuki."
+
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add import chat support."
+#~ msgstr "Lisää ilmentymätuki."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Lisää mitä uutta -tuki."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Lisää mitä uutta -tuki."
+
+#, fuzzy
+#~| msgid "Allow to change font size."
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Salli fonttikoon muuttaminen."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Lisää mitä uutta -tuki."
+
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "Lisää korostustuki."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -925,6 +959,9 @@ msgstr "Palauta tilien lukumäärä."
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Joitakin vikoja on korjattu:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Avaa pikakysymys…"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

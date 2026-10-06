@@ -1,0 +1,936 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>KAIChat</application
+>">
+  <!ENTITY kappname "&i18n-kapplication;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Catalan  "INCLUDE">
+]>
+
+<book id="kaichat" lang="&language;">
+
+<bookinfo id="kaichatinfo">
+
+<title
+>El manual del &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> <email
+>montel@kde.org</email
+> </author>
+&traductor.JosepMa.Ferrer; 
+</authorgroup>
+
+<copyright>
+<year
+>2025</year>
+<year
+>2026</year>
+<holder
+>Laurent Montel</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>26 de setembre de 2026</date>
+<releaseinfo
+></releaseinfo>
+
+<abstract>
+<para
+>El &i18n-kapplication; és un client de xat per als models de llenguatge d'IA. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>IA</keyword>
+<keyword
+>xat</keyword>
+<keyword
+>Ollama</keyword>
+<keyword
+>LLM</keyword>
+<keyword
+>privadesa</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introducció</title>
+
+<para
+>El &i18n-kapplication; és una aplicació de xat que us permet parlar amb models d'IA d'idioma, ja sigui executant-se localment amb Ollama o proporcionat per un servei en línia d'IA.</para>
+
+<para
+>Les converses s'emmagatzemen en una base de dades local al vostre ordinador, de manera que encara hi són la propera vegada que inicieu l'aplicació. Podeu navegar per elles, cercar-hi, organitzar-les en projectes i amb etiquetes, arxivar les que ja no necessiteu i exportar-les a un fitxer. Quan no voleu que es mantingui res d'una conversa, podeu utilitzar un debat efímer en el seu lloc.</para>
+
+<para
+>El &i18n-kapplication; no proporciona un model propi: parla amb un proveïdor de models que configureu. No s'envia res enlloc fins que no hàgiu configurat aquest proveïdor i hàgiu fet una pregunta.</para>
+
+</chapter>
+
+<chapter id="getting-started">
+<title
+>Com començar</title>
+
+<para
+>Abans de poder preguntar res, el &i18n-kapplication; necessita almenys una <emphasis
+>instància</emphasis
+>. Una instància és una connexió configurada amb un proveïdor de models: un servidor local que s'executa en la vostra pròpia màquina o en un servei en línia.</para>
+
+<para
+>La primera vegada que inicieu l'aplicació sense cap instància, ofereix de crear-ne una. També podeu obrir <menuchoice
+><guimenu
+>Configuració</guimenu
+><guimenuitem
+>Configura el &i18n-kapplication;…</guimenuitem
+></menuchoice
+> i anar a la pàgina <guilabel
+>Instàncies</guilabel
+>.</para>
+
+<sect1 id="local-model">
+<title
+>Ús d'un model local</title>
+
+<para
+>Executar el model en el vostre ordinador manté les vostres preguntes en la vostra màquina. El &i18n-kapplication; pot utilitzar servidors locals com <application
+>Ollama</application
+>, <application
+>llama.cpp</application
+> o <application
+>LM Studio</application
+>.</para>
+
+<para
+>Primer instal·leu i inicieu el servidor, i afegiu una instància del tipus coincident. L'adreça predeterminada d'un servidor local <application
+>Ollama</application
+> ja està plena. Si l'<application
+>Ollama</application
+> està instal·lat però no s'està executant, el &i18n-kapplication; us ofereix iniciar-lo; també podeu fer-ho des de la línia d'ordres amb <userinput
+><command
+>kaichat</command
+> <option
+>--start-ollama</option
+></userinput
+>.</para>
+
+<para
+>Un cop connectada la instància, encara necessiteu un model. Els models poden baixar-se des de la configuració de la instància, i el &i18n-kapplication; us notificarà quan finalitzi una baixada.</para>
+
+</sect1>
+
+<sect1 id="online-service">
+<title
+>Ús d'un servei en línia</title>
+
+<para
+>El &i18n-kapplication; també pot parlar amb serveis allotjats, entre ells Ollama Cloud, OpenAI, Anthropic, Mistral AI, Groq, Grok, Qwen, OpenRouter, DeepInfra, Novita AI, Cerebras i altres proveïdors amb una interfície compatible amb OpenAI. La llista exacta depèn dels connectors instal·lats al vostre sistema; executeu <userinput
+><command
+>kaichat</command
+> <option
+>--plugin-info</option
+></userinput
+> per veure-la.</para>
+
+<para
+>Creeu una instància del tipus coincident i enganxeu la clau API que us ha donat el servei. Tingueu en compte que amb un servei en línia les vostres preguntes, i qualsevol fitxer que adjunteu, s'envien a aquest proveïdor i estan subjectes a la seva pròpia política de privadesa.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="using-kapp">
+<title
+>Ús del &i18n-kapplication;</title>
+
+<sect1 id="main-window">
+<title
+>La finestra principal</title>
+
+<para
+>La finestra està dividida en tres parts:</para>
+
+<itemizedlist>
+<listitem
+><para
+>la llista dels vostres xats, a l'esquerra. Es pot reduir amb el botó del divisor;</para
+></listitem>
+<listitem
+><para
+>la conversa en si, a la dreta, on es mostren les preguntes i les respostes del model;</para
+></listitem>
+<listitem
+><para
+>el camp d'entrada a la part inferior, on escriviu la pregunta.</para
+></listitem>
+</itemizedlist>
+
+<para
+>A sobre, una barra de capçalera us permet iniciar un xat nou o un debat efímer, marcar el xat actual com a preferit i cercar a la conversa actual. La barra d'estat a la part inferior mostra el que està fent el model actualment, per exemple, quina eina està cridant.</para>
+
+</sect1>
+
+<sect1 id="chatting">
+<title
+>Fer preguntes</title>
+
+<para
+>Escriviu la pregunta al camp d'entrada i valideu-la. La resposta apareix a la vista de conversa a mesura que s'està generant, i es mostra una notificació quan s'acaba una resposta llarga.</para>
+
+<para
+>Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon. Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
+
+</sect1>
+
+<sect1 id="managing-chats">
+<title
+>Gestió dels xats</title>
+
+<para
+>Els xats es creen des de la barra de capçalera, o amb <userinput
+><command
+>kaichat</command
+> <option
+>--new-chat</option
+> <replaceable
+>títol</replaceable
+></userinput
+>.</para>
+
+<para
+>Feu clic amb el botó dret a un xat de la llista de xats per a actuar-hi:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Modifica…</guimenuitem
+></term>
+<listitem
+><para
+>Canvia el títol del xat.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Duplica…</guimenuitem
+></term>
+<listitem
+><para
+>Crea una còpia del xat, per exemple, per provar una altra direcció sense perdre la conversa original.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Estableix com a preferit</guimenuitem
+></term>
+<listitem
+><para
+>Mostra el xat a la secció <guilabel
+>Preferits</guilabel
+> a la part superior de la llista. El mateix es pot fer amb el botó <guibutton
+>Preferit</guibutton
+> de la barra de capçalera.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Projecte</guisubmenu
+></term>
+<listitem
+><para
+>Mou el xat a un projecte, o el treu d'ell amb <guimenuitem
+>Sense projecte</guimenuitem
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Etiquetes</guisubmenu
+></term>
+<listitem
+><para
+>Afegeix etiquetes al xat o les suprimeix.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Arxiva</guimenuitem
+></term>
+<listitem
+><para
+>Oculta el xat de la llista sense suprimir-lo.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Elimina…</guimenuitem
+></term>
+<listitem
+><para
+>Suprimeix el xat i els seus missatges per sempre.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Els altres xats s'agrupen per antiguitat: avui, els últims set dies, els últims trenta dies i més antics.</para>
+
+<para
+>També es pot bifurcar una conversa des d'un dels seus missatges amb el botó <guibutton
+>Bifurca</guibutton
+> que es mostra al seu costat. Això inicia un xat nou que conté la conversa fins a aquest missatge, i deixa intacte el xat original.</para>
+
+<para
+>Un xat que ja no necessiteu es pot arxivar en lloc de suprimir-lo. Els xats arxivats estan amagats de la llista; mostreu-los de nou amb <menuchoice
+><guimenu
+>Visualitza</guimenu
+><guimenuitem
+>Mostra l'arxiu</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Per a cercar alguna cosa que heu demanat o llegit fa temps, utilitzeu <menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>F</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Edita</guimenu
+><guimenuitem
+>Cerca a la base de dades…</guimenuitem
+></menuchoice
+>. Aquesta cerca a tot l'historial emmagatzemat, no només al xat que esteu mirant. El nombre de coincidències es mostra a la barra d'estat.</para>
+
+</sect1>
+
+<sect1 id="projects-tags">
+<title
+>Projectes i etiquetes</title>
+
+<para
+>Projectes i etiquetes són dues maneres d'organitzar els vostres xats. Un xat pertany com a màxim a un projecte, que és útil per mantenir juntes les converses sobre la mateixa tasca. Un xat pot tenir qualsevol nombre d'etiquetes.</para>
+
+<para
+>Tots dos es creen, es canvien el nom i s'eliminen amb <guimenuitem
+>Gestió de projectes…</guimenuitem
+> i <guimenuitem
+>Gestió d'etiquetes…</guimenuitem
+>, als submenús <guisubmenu
+>Projecte</guisubmenu
+> i <guisubmenu
+>Etiquetes</guisubmenu
+> del menú contextual de la llista de xats. L'eliminació d'un projecte no elimina els seus xats: es mantenen, fora de qualsevol projecte.</para>
+
+<para
+>El selector d'etiquetes que hi ha a sobre de la llista de xats només mostra els xats que tenen una de les etiquetes seleccionades. No seleccioneu cap etiqueta per tornar-los a veure tots.</para>
+
+</sect1>
+
+<sect1 id="ephemeral-chats">
+<title
+>Debats efímers</title>
+
+<para
+>Un debat efímer és un xat que mai s'escriu a la base de dades. Utilitzeu-lo per fer una pregunta que no vulgueu mantenir: un cop tanqueu el &i18n-kapplication; ja no hi serà. Inicieu-ne un amb el botó <guibutton
+>Debat efímer</guibutton
+> de la barra de capçalera o amb <userinput
+><command
+>kaichat</command
+> <option
+>--ephemeral-chat</option
+> <replaceable
+>títol</replaceable
+></userinput
+>. Els debats efímers es mostren a la seva pròpia secció a la part superior de la llista de xats.</para>
+
+<para
+>Si canvieu d'opinió, el botó <guibutton
+>Desa el debat a la base de dades</guibutton
+> de la barra de capçalera el converteix en un xat normal.</para>
+
+<para
+>Tingueu en compte que això només afecta el que s'emmagatzema al vostre ordinador: amb un servei en línia, les vostres preguntes encara s'envien a aquest proveïdor.</para>
+
+</sect1>
+
+<sect1 id="quick-ask">
+<title
+>Pregunta ràpida</title>
+
+<para
+>Pregunta ràpida és un diàleg petit d'una sola pregunta, sense obrir la finestra principal. Obriu-lo amb <menuchoice
+><guimenu
+>Eines</guimenu
+><guimenuitem
+>Obre una pregunta ràpida…</guimenuitem
+></menuchoice
+>, amb la drecera global <keycombo action="simul"
+>&Meta;<keycap
+>Espai</keycap
+></keycombo
+> o amb <userinput
+><command
+>kaichat</command
+> <option
+>--quick-ask</option
+></userinput
+>. Les preguntes formulades d'aquesta manera no s'afegeixen als xats, tret que mantingueu el debat amb el botó <guibutton
+>Desa el debat a la base de dades</guibutton
+>.</para>
+
+</sect1>
+
+<sect1 id="import-export">
+<title
+>Importar i exportar xats</title>
+
+<para
+>El xat actual es pot desar en un fitxer amb <menuchoice
+><guimenu
+>Fitxer</guimenu
+><guimenuitem
+>Exporta…</guimenuitem
+></menuchoice
+>, en un dels quatre formats:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Exporta com a JSON…</guimenuitem
+></term>
+<listitem
+><para
+>Un fitxer <filename class="extension"
+>.kaichat</filename
+>. Aquest és l'únic format que el &i18n-kapplication; després pot llegir.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exporta com a Markdown…</guimenuitem
+></term>
+<listitem
+><para
+>Un fitxer de text que manté el format de les respostes.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exporta com a text…</guimenuitem
+></term>
+<listitem
+><para
+>Text net.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exporta com a PDF…</guimenuitem
+></term>
+<listitem
+><para
+>Un document imprimible.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Un fitxer <filename class="extension"
+>.kaichat</filename
+> exportat prèviament es llegeix amb <menuchoice
+><guimenu
+>Fitxer</guimenu
+><guimenuitem
+>Importa…</guimenuitem
+></menuchoice
+>. També podeu obrir aquest fitxer des del vostre gestor de fitxers, o passar-lo a la línia d'ordres.</para>
+
+</sect1>
+
+<sect1 id="appearance">
+<title
+>Ajustar la pantalla</title>
+
+<para
+>El text de tota l'aplicació es pot fer més gran o més petit amb <menuchoice
+><guimenu
+>Vista</guimenu
+><guisubmenu
+>Mida de la lletra</guisubmenu
+></menuchoice
+>, o amb <keycombo action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+> i <keycombo action="simul"
+>&Ctrl;<keycap
+>-</keycap
+></keycombo
+>. Es pot triar una lletra fixa en el diàleg de configuració.</para>
+
+<para
+><menuchoice
+><guimenu
+>Configuració</guimenu
+><guisubmenu
+>Esquema de color</guisubmenu
+></menuchoice
+> canvia els colors de la finestra sense canviar la configuració de l'escriptori, i <keycap
+>F11</keycap
+> canvia a pantalla completa.</para>
+
+<para
+>La barra de menús es pot ocultar amb <menuchoice
+><guimenu
+>Configuració</guimenu
+><guimenuitem
+>Mostra la barra de menús</guimenuitem
+></menuchoice
+>; les accions estan disponibles mitjançant el botó d'hamburguesa de la barra d'eines.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="configuring">
+<title
+>Configuració del &i18n-kapplication;</title>
+
+<para
+>El diàleg de configuració s'obre amb <menuchoice
+><guimenu
+>Configuració</guimenu
+><guimenuitem
+>Configura el &i18n-kapplication;…</guimenuitem
+></menuchoice
+>. Depenent de com es va construir l'aplicació, té les pàgines següents.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>General</guilabel
+></term>
+<listitem
+><para
+>Si es mostra la icona de la safata del sistema, i l'indicador del sistema s'envia al model al començament de cada conversa.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Lletra</guilabel
+></term>
+<listitem
+><para
+>Utilitzeu una lletra de la vostra elecció en lloc de la del sistema.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Instàncies</guilabel
+></term>
+<listitem
+><para
+>Afegiu, suprimiu i configureu les connexions als vostres proveïdors de models, i gestioneu els models disponibles en ells.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Servidors MCP</guilabel
+></term>
+<listitem
+><para
+>Els servidors de Model Context Protocol, que donen al model accés a dades i accions externes. Aquesta implementació encara és experimental.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Verificació ortogràfica</guilabel
+></term>
+<listitem
+><para
+>Verificació ortogràfica del que escriviu.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Accessibilitat</guilabel
+></term>
+<listitem
+><para
+>Configuració de text a veu, quan l'aplicació es va construir amb la implementació del text a veu.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Connectors</guilabel
+></term>
+<listitem
+><para
+>Activa o desactiva els connectors instal·lats i configura les eines que pot utilitzar el model.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Comentaris de l'usuari</guilabel
+></term>
+<listitem
+><para
+>Quanta informació, si n'hi ha, voleu enviar als desenvolupadors. No s'envia res tret que ho demaneu aquí.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Retenció</guilabel
+></term>
+<listitem
+><para
+>Quant de temps es mantenen els vostres xats. <guilabel
+>Dies de retenció</guilabel
+> és el nombre de dies després dels quals s'eliminen els xats antics; amb el valor predeterminat de 0, es mantenen per sempre. <guilabel
+>Exclou els xats preferits</guilabel
+>, activat de manera predeterminada, manté els vostres xats preferits independentment de la seva antiguitat.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Privadesa</guilabel
+></term>
+<listitem
+><para
+>Mostra on s'emmagatzemen els vostres xats al disc. El camí es pot copiar al porta-retalls amb el botó que hi ha al costat, per exemple per fer una còpia de seguretat o suprimir la base de dades.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Les notificacions es configuren amb <menuchoice
+><guimenu
+>Configuració</guimenu
+><guimenuitem
+>Configura les notificacions…</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Les instàncies i els servidors MCP també es poden configurar fora de l'aplicació, des del mòdul d'<guilabel
+>IA</guilabel
+> de l'&systemsettings;.</para>
+
+<sect1 id="files">
+<title
+>Fitxers utilitzats</title>
+
+<variablelist>
+<varlistentry>
+<term
+><filename
+>~/.config/kaichatrc</filename
+></term>
+<listitem
+><para
+>La configuració de l'aplicació.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><filename class="directory"
+>~/.local/share/kaichat/ai-database/</filename
+></term>
+<listitem
+><para
+>Les bases de dades que contenen els vostres xats i els seus missatges. La ubicació exacta es mostra a la pàgina <guilabel
+>Privadesa</guilabel
+> del diàleg de configuració.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>La configuració de les vostres instàncies conté les claus API dels serveis en línia que utilitzeu. Tracteu aquests fitxers com tractaríeu una contrasenya.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="command-line">
+<title
+>Opcions de la línia d'ordres</title>
+
+<para
+>El &i18n-kapplication; s'executa com una única instància: en iniciar-lo de nou mentre ja s'està executant, passa les opcions a la finestra que ja està oberta en lloc d'obrir-ne una segona.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><option
+>--list-instances</option
+></term>
+<listitem
+><para
+>Imprimeix les instàncies configurades i surt.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--list-chats</option
+></term>
+<listitem
+><para
+>Imprimeix els títols dels xats emmagatzemats i surt.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--plugin-info</option
+></term>
+<listitem
+><para
+>Imprimeix els connectors de text i d'eines disponibles i surt.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--instance</option
+> <replaceable
+>nom</replaceable
+></term>
+<listitem
+><para
+>Comença amb una instància específica.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--new-chat</option
+> <replaceable
+>títol</replaceable
+></term>
+<listitem
+><para
+>Crea un xat nou amb aquest títol.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ephemeral-chat</option
+> <replaceable
+>títol</replaceable
+></term>
+<listitem
+><para
+>Crea un debat efímer nou amb aquest títol. No s'emmagatzema a la base de dades.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat</option
+> <replaceable
+>nom</replaceable
+></term>
+<listitem
+><para
+>Canvia a un xat existent, per títol.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat-from-id</option
+> <replaceable
+>id</replaceable
+></term>
+<listitem
+><para
+>Canvia a un xat existent, per identificador.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ask-message</option
+> <replaceable
+>missatge</replaceable
+></term>
+<listitem
+><para
+>Pregunta aquesta qüestió immediatament.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--attach</option
+> <replaceable
+>url</replaceable
+></term>
+<listitem
+><para
+>Adjunta un fitxer a la pregunta. Es pot repetir.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--tool</option
+> <replaceable
+>nom</replaceable
+></term>
+<listitem
+><para
+>Permet que el model utilitzi aquesta eina. Es pot repetir.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--quick-ask</option
+></term>
+<listitem
+><para
+>Obre el diàleg de pregunta ràpida.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--import</option
+> <replaceable
+>fitxer</replaceable
+></term>
+<listitem
+><para
+>Importa un xat des d'un fitxer JSON.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--start-ollama</option
+></term>
+<listitem
+><para
+>Inicia el programa <application
+>Ollama</application
+> local.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--debug</option
+></term>
+<listitem
+><para
+>Activa el mode de depuració, el qual afegeix un menú de <guimenu
+>Depuració</guimenu
+> que mostra el contingut de la base de dades.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--feedback</option
+></term>
+<listitem
+><para
+>Llista la informació que es pot enviar com a comentaris de l'usuari.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><replaceable
+>fitxer…</replaceable
+></term>
+<listitem
+><para
+>Fitxers de xat a importar.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>En sistemes amb &DBus;, un &i18n-kapplication; en execució també exposa la interfície <interfacename
+>org.kde.kaichat.Application</interfacename
+>, que ofereix les mateixes operacions que les opcions anteriors: llistar xats, crear-ne un, canviar a un, mostrar xats arxivats i fer una pregunta.</para>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Crèdits i llicència</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Copyright del programa 2025-2026 &Laurent.Montel; &Laurent.Montel.mail; </para>
+<para
+>Documentation Copyright &copy; &Laurent.Montel; &Laurent.Montel.mail; </para>
+
+<para
+>Traductor de la documentació: &credits.JosepMa.Ferrer;</para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->

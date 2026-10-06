@@ -6,10 +6,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
 "PO-Revision-Date: 2026-09-28 19:23+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
-"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,8 +28,7 @@ msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
 #: apps/main.cpp:75
-#, fuzzy, kde-format
-#| msgid "Copyright © 2025-2026 Laurent Montel"
+#, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "© 2025–2026 Laurent Montel"
 
@@ -68,149 +67,135 @@ msgstr "Örneklerin listesini döndür"
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr "Belirli bir örnekle başlat"
-
-#: core/kaichatcommandlineparser.cpp:25
-#, kde-format
-msgid "Instance Name"
-msgstr "Örnek Adı"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "Yeni sohbet oluştur"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr "Yeni Sohbet Başlığı"
 
-#: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Yeni sohbet oluştur"
+msgstr "Yeni geçici sohbet oluştur"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Yeni Geçici Sohbet"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "Tez sorguyu aç"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Sohbete geç"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr "Sohbet Adı"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "Tanımlayıcı ile sohbete geç"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr "Sohbet Tanımlayıcısı"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Soru sor"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr "İleti"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "Sohbetlerin listesini döndür"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Hata ayıklama kipini etkinleştir"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "İlişik ekle. Bu, yinelenebilir."
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
 msgstr "Ek URL’si"
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "Kullanılan aracı tanımla. Bu, yinelenebilir."
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
 msgstr "Araç Adı"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "Eklenti bilgisini döndür"
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Kullanıcı geri bildirimi için kullanılabilir seçenekleri listele"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "Sohbet İçe Aktar"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr "İçe Aktar"
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr ""
+msgstr "Ollama programını göster"
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "İçe aktarılacak sohbet dosyası"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
-#, fuzzy, kde-format
-#| msgid "Mardown"
+#, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -241,7 +226,7 @@ msgstr "Araç"
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:23
 #, kde-format
@@ -249,16 +234,14 @@ msgid "Text"
 msgstr "Metin"
 
 #: kcm/kcmautogeneratetext.cpp:27
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
+#, kde-format
 msgid "Instances"
 msgstr "Örnekler"
 
 #: kcm/kcmautogeneratetext.cpp:32
 #, kde-format
 msgid "MCP Server"
-msgstr ""
+msgstr "MCP Sunucusu"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -340,35 +323,33 @@ msgstr "Sistem tepsisi simgesini etkinleştir"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Veri tabanı deposu:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Yolu kopyala"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "Sohbetleri Dışa Aktar"
+msgstr "Sık Kullanılan Sohbetleri Dışla"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Asla"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Gün"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "Tutma Süresi"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -383,9 +364,7 @@ msgid "General"
 msgstr "Genel"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Yazıtipi"
@@ -397,9 +376,7 @@ msgid "Instances"
 msgstr "Örnekler"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP Sunucuları"
@@ -411,25 +388,19 @@ msgid "Spell Checking"
 msgstr "Yazım Denetimi"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Erişilebilirlik"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Eklentiler"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Kullanıcı Geri Bildirimi"
@@ -438,71 +409,62 @@ msgstr "Kullanıcı Geri Bildirimi"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Tutma"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Gizlilik"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "Ara…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Switch to Chat"
+#, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "Sohbete geç"
+msgstr "Sohbet Seç"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "Veri Tabanında Hata Ayıkla"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr "Sohbet Adı"
+msgstr "Sohbet adı seç…"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
-#, fuzzy, kde-format
-#| msgid "KAIChat"
+#, kde-format
 msgid "Chat"
-msgstr "KAIChat"
+msgstr "Sohbet"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages"
-msgstr "İleti"
+msgstr "İletiler"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Search in Database…"
+#, kde-format
 msgid "Messages in Database"
-msgstr "Veri Tabanında Ara…"
+msgstr "Veri Tabanındaki İletiler"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
-#, fuzzy, kde-format
-#| msgid "Message"
+#, kde-format
 msgid "Messages JSON"
-msgstr "İleti"
+msgstr "İleti JSON’u"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
-#, fuzzy, kde-format
-#| msgid "Store Pending Typed Info in Database."
+#, kde-format
 msgid "Pending Typed Info"
-msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
+msgstr "Bekleyen Girilmiş Bilgi"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -551,12 +513,10 @@ msgid "Export as Text…"
 msgstr "Metin Olarak Dışa Aktar…"
 
 #: widgets/kaichatexportmenu.cpp:43
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Export as JSON…"
+#, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr "JSON Olarak Dışa Aktar…"
+msgstr "PDF Olarak Dışa Aktar…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
@@ -589,17 +549,16 @@ msgid "Show Archive"
 msgstr "Arşivi Göster"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Yeni Sohbet Başlığı"
+msgstr "Yeni Sohbet"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Yeni Geçici Sohbet"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -640,14 +599,13 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:512
-#, fuzzy, kde-format
-#| msgid "Model %1 was download."
+#: widgets/kaichatmainwindow.cpp:508
+#, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."
 
@@ -702,6 +660,13 @@ msgstr "Hesap Bilgisi"
 msgid "Return the number of account."
 msgstr "Hesap sayısını döndürün."
 
+#~ msgctxt "@info:shell"
+#~ msgid "Start with specific instance"
+#~ msgstr "Belirli bir örnekle başlat"
+
+#~ msgid "Instance Name"
+#~ msgstr "Örnek Adı"
+
 #~ msgid "Json File"
 #~ msgstr "JSON dosyası"
 
@@ -718,34 +683,41 @@ msgstr "Hesap sayısını döndürün."
 #~ msgid "AI Chat"
 #~ msgstr "Yapay Zekâ Sohbeti"
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Grok örneği desteği ekle"
+#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgstr "ChatGPT, Novita AI, DeepInfra, Qwen desteği ekle"
 
-#~ msgid "Add User Feedback support."
-#~ msgstr "Kullanıcı geri bildirimi desteği ekle"
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "Yerel Ollama’yı başlatmak için komut satırı seçeneği ekle."
 
-#~ msgid "Allow to show model info."
-#~ msgstr "Model bilgisini göstermeye olanak tanı"
+#~ msgid "Add DBus support."
+#~ msgstr "D-Bus desteği ekle"
 
-#~ msgid "Add import chat support."
-#~ msgstr "Sohbet içe aktarma desteği ekle"
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "İçsel eklenti desteği ekle"
 
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ollama Çevrim İçi desteği ekle"
+#~ msgid "Add MCP Server support."
+#~ msgstr "MCP sunucusu desteği ekle"
 
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ollama Bulut desteği ekle"
+#~ msgid "Show internal tools metadata."
+#~ msgstr "İçsel araçların üst verisini göster"
 
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Sohbeti çoğaltmaya olanak tanı"
+#~ msgid "Add KCM support."
+#~ msgstr "KCM desteği ekle"
 
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ollama Keep Alive ayarı desteği ekle"
+#~ msgid "Add Sarvam support."
+#~ msgstr "Sarvam desteği ekle"
 
-#, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "Vurgu desteği ekle"
+#~ msgid "Add Database Debug Dialogbox."
+#~ msgstr "Veri tabanı hata ayıklama iletişim kutusu ekle"
+
+#~ msgid "Display reply info about duration, number of tokens etc."
+#~ msgstr "Süre, jeton sayısı vb. hakkında bilgi görüntüle"
+
+#~ msgid "Allow to export as PDF."
+#~ msgstr "PDF olarak dışa aktarmaya olanak tanı"
+
+#~ msgid "Add LMStudio support."
+#~ msgstr "LMStudio desteği"
 
 #~ msgid "Add what's new support."
 #~ msgstr "Neler Yeni desteği ekle"
@@ -753,7 +725,7 @@ msgstr "Hesap sayısını döndürün."
 #~ msgid "Add instance support."
 #~ msgstr "Örnek desteği ekle"
 
-#~ msgid "Add Mardown support."
+#~ msgid "Add Markdown support."
 #~ msgstr "Markdown desteği ekle"
 
 #~ msgid "Add Highlighting support."
@@ -857,6 +829,9 @@ msgstr "Hesap sayısını döndürün."
 #~ "Vikipedi ve hava durumu araçları eklentileri ekle (kaichat-addons "
 #~ "tarafından sağlanır)"
 
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "Bekleyen girilmiş bilgiyi veri tabanında depola"
+
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Komut satırından ilişik eklemeye olanak tanı"
 
@@ -868,6 +843,39 @@ msgstr "Hesap sayısını döndürün."
 
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Çoklu araçlar eklentileri çağrısını düzelt"
+
+#~ msgid "Add Grok instance support."
+#~ msgstr "Grok örneği desteği ekle"
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Kullanıcı geri bildirimi desteği ekle"
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Model bilgisini göstermeye olanak tanı"
+
+#~ msgid "Add import chat support."
+#~ msgstr "Sohbet içe aktarma desteği ekle"
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Ollama Çevrim İçi desteği ekle"
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Ollama Bulut desteği ekle"
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Sohbeti çoğaltmaya olanak tanı"
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Ollama Keep Alive ayarı desteği ekle"
+
+#~ msgid "Show Ollama log."
+#~ msgstr "Ollama günlüğünü göster"
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Ollama’yı yerel ağa tanıtmaya olanak tanı"
+
+#~ msgid "Add thinking support."
+#~ msgstr "Düşünme desteği ekle"
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"

@@ -1,13 +1,13 @@
 # Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the kaichat package.
 #
-# SPDX-FileCopyrightText: 2025-2026 Matjaž Jeran <matjaz.jeran@amis.net>
+# SPDX-FileCopyrightText: 2025 Matjaž Jeran <matjaz.jeran@amis.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
-"PO-Revision-Date: 2026-07-03 07:22+0200\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
+"PO-Revision-Date: 2026-09-28 07:37+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Generator: Lokalize 26.04.2\n"
+"X-Generator: Poedit 3.9\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -68,145 +68,132 @@ msgstr "Vrni sezname pojavkov"
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr "Začni z določenim pojavkom"
-
-#: core/kaichatcommandlineparser.cpp:25
-#, kde-format
-msgid "Instance Name"
-msgstr "Ime pojavka"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "Ustvari nov klepet"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr "Nov naslov klepeta"
 
-#: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Ustvari nov klepet"
+msgstr "Ustvari nov minljiv klepet"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Novi mniljivi klepet"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "Odpri hitro vprašanje"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Preklopi na klepet"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr "Ime klepeta"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "Preklopi na klepet iz določilnika"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr "Določilnik klepeta"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr "Sporočilo vprašanja"
+msgstr "Vprašaj sporočilo"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr "Sporočilo"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "Vrni sezname klepetov"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Aktiviraj način za odpravljanje napak"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "Dodaj prilogo. To se da ponoviti"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
 msgstr "Url priloge"
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "Uporabljeno orodje za določanje. To se da ponoviti"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
 msgstr "Ime orodja"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "Vrni informacije o vtičnikih"
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Navaja razpoložljive možnosti za povratne informacije uporabnikov"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "Uvozi klepet"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr "Uvozi"
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Zaženi program Ollama"
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "Datoteka klepeta za uvoz"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -265,17 +252,17 @@ msgstr "Deli besedilo…"
 #: plugins/text/sharetext/purposemenuwidget.cpp:69
 #, kde-format
 msgid "There was a problem sharing the document: %1"
-msgstr "Obstajala je težava pri delitvi dokumenta: %1"
+msgstr "Pri deljenju dokumenta je prišlo do težave: %1"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:73
 #, kde-format
 msgid "File was shared."
-msgstr "Datoteka je bila v skupni rabi."
+msgstr "Datoteka je bila dana v skupno rabo."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:75
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr "<qt>Novi zahtevek lahko najdete na:<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>Novo zahtevo najdete na:<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
@@ -289,7 +276,7 @@ msgstr "Dobi trenutni datum in čas"
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
 msgid "Use this tool to get current date time"
-msgstr "Uporabi to orodje za pridobitev trenutnega datuma in časa"
+msgstr "Uporabite to orodje za pridobitev trenutnega datuma in časa"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
 #, kde-format
@@ -326,7 +313,7 @@ msgstr "Omogoči pretvorbo besedila v govor"
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr "Uporabi pisave po meri"
+msgstr "Uporabi pisavo po meri"
 
 #: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
 #, kde-format
@@ -337,35 +324,33 @@ msgstr "Omogoči ikono sistemskega pladnja"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Repozitorij podatkovne zbirke:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopiraj pot"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "Izvozi klepete"
+msgstr "Izključi priljubljene klepete"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Nikoli"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dni"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "Dnevi zadržanja"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -380,9 +365,7 @@ msgid "General"
 msgstr "Splošno"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Pisava"
@@ -394,9 +377,7 @@ msgid "Instances"
 msgstr "Pojavki"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Strežniki MCP"
@@ -405,28 +386,22 @@ msgstr "Strežniki MCP"
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
-msgstr "Preverjanje črkovanja"
+msgstr "Črkovalnik"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Dostopnost"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Vtičniki"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Povratne informacije uporabnikov"
@@ -435,13 +410,13 @@ msgstr "Povratne informacije uporabnikov"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Zadržanje"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Zasebnost"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -577,17 +552,16 @@ msgid "Show Archive"
 msgstr "Prikaži arhiv"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Nov naslov klepeta"
+msgstr "Novi klepet"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Novi minljivi klepet"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -628,12 +602,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Izvozi klepete"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr "Prenos modela končan"
 
-#: widgets/kaichatmainwindow.cpp:512
+#: widgets/kaichatmainwindow.cpp:508
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 je bil prenesen."
@@ -647,7 +621,7 @@ msgstr "KAIChat"
 #: widgets/kaichatui.rc:18
 #, kde-format
 msgid "&Settings"
-msgstr "Nastavitve"
+msgstr "Na&stavitve"
 
 #. i18n: ectx: Menu (edit)
 #: widgets/kaichatui.rc:22
@@ -689,6 +663,13 @@ msgstr "Podatki o računu"
 msgid "Return the number of account."
 msgstr "Vrni številko računa."
 
+#~ msgctxt "@info:shell"
+#~ msgid "Start with specific instance"
+#~ msgstr "Začni s konkretnim pojavkom"
+
+#~ msgid "Instance Name"
+#~ msgstr "Ime pojavka"
+
 #~ msgid "Json File"
 #~ msgstr "datoteka Json"
 
@@ -705,35 +686,41 @@ msgstr "Vrni številko računa."
 #~ msgid "AI Chat"
 #~ msgstr "AI Chat"
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "Dodaj podporo pojavku Grok."
+#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgstr "Dodaj podporo za ChatGPT, Novita AI, DeepInfra in Qwen."
 
-#~ msgid "Add User Feedback support."
-#~ msgstr "Dodaj podporo za povratne informacije uporabnikov."
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "Dodaj možnost CLI za zagon lokalne Ollame."
 
-#~ msgid "Allow to show model info."
-#~ msgstr "Dovoli prikaz informacij o modelu."
+#~ msgid "Add DBus support."
+#~ msgstr "Dodaj podporo za DBus."
 
-#~ msgid "Add import chat support."
-#~ msgstr "Dodaj podporo uvoza klepeta."
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "Dodaj podporo notranjega vtičnika."
 
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Dodaj podporo za Ollama Online."
+#~ msgid "Add MCP Server support."
+#~ msgstr "Dodaj podporo za strežnik MCP."
 
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Dodaj podporo za Ollama Cloud."
+#~ msgid "Show internal tools metadata."
+#~ msgstr "Prikaži metapodatke notranjih orodij."
 
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "Dovoli podvajanje klepeta."
+#~ msgid "Add KCM support."
+#~ msgstr "Dodaj podporo za KCM."
 
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Dodajte podporo za nastavitev Ollama Keep Alive."
+#~ msgid "Add Sarvam support."
+#~ msgstr "Dodaj podporo za Sarvam."
 
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Dovoli izpostaviti Ollama lokalnemu omrežju."
+#~ msgid "Add Database Debug Dialogbox."
+#~ msgstr "Dodaj pogovorno okno za zbirko podatkov za odpravljanje napak."
 
-#~ msgid "Add thinking support."
-#~ msgstr "Dodaj podporo za razmišljanje."
+#~ msgid "Display reply info about duration, number of tokens etc."
+#~ msgstr "Prikaži informacije o odgovoru o trajanju, številu žetonov itd."
+
+#~ msgid "Allow to export as PDF."
+#~ msgstr "Dovoli izvoz kot PDF."
+
+#~ msgid "Add LMStudio support."
+#~ msgstr "Dodaj podporo za LMStudio."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Dodaj podporo kaj je novega."
@@ -741,7 +728,7 @@ msgstr "Vrni številko računa."
 #~ msgid "Add instance support."
 #~ msgstr "Dodaj podporo pojavka."
 
-#~ msgid "Add Mardown support."
+#~ msgid "Add Markdown support."
 #~ msgstr "Dodaj podporo za Markdown."
 
 #~ msgid "Add Highlighting support."
@@ -751,25 +738,25 @@ msgstr "Vrni številko računa."
 #~ msgstr "Popravek omogoča brisanje klepeta. Napaka %1"
 
 #~ msgid "Add Quick Ask Dialog."
-#~ msgstr "Dodajte pogovorno okno hitrega vprašanja."
+#~ msgstr "Dodaj pogovorno okno za hitro vprašanje."
 
 #~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Dovolite prenos Ollama v Windows/MacOS."
+#~ msgstr "Dovoli prenos Ollame na Windows/MacOs."
 
 #~ msgid "Use prompt during chating."
-#~ msgstr "Uporabi poziv med klepetanjem."
+#~ msgstr "Uporabi poziv med klepetom."
 
 #~ msgid "Add shared text and webshorcut plugin."
-#~ msgstr "Dodajte skupni besedilni in spletni vtičnik."
+#~ msgstr "Dodaj vtičnik za deljeno besedilo in spletno bližnjico."
 
 #~ msgid "Allow to configure plugins."
 #~ msgstr "Dovoli konfiguriranje vtičnikov."
 
 #~ msgid "Add new update widget."
-#~ msgstr "Dodaj novi gradnik posodobitev."
+#~ msgstr "Dodaj nov gradnik za posodobitve."
 
 #~ msgid "Add progress indicator in chats list."
-#~ msgstr "Dodaj indikator napredka v seznam klepetov."
+#~ msgstr "Dodaj kazalnik napredka na seznam klepetov."
 
 #~ msgid "Allow to change font size."
 #~ msgstr "Dovoli spremembo velikosti pisave."
@@ -781,22 +768,22 @@ msgstr "Vrni številko računa."
 #~ "pojavkov."
 
 #~ msgid "Add spell checking support."
-#~ msgstr "Dodaj podporo za preverjanje črkovanja."
+#~ msgstr "Dodaj podporo za črkovalnik."
 
 #~ msgid "Add Notification popup when model download done."
-#~ msgstr "Dodaj pojavno okno, ko je prenos modela končan. "
+#~ msgstr "Dodaj pojavno okno z obvestili, ko je prenos modela končan."
 
 #~ msgid "Allow to save and restore text and scrollbar position."
-#~ msgstr "Dovoli shranjevanje in obnovo besedilo in položaj drsenja."
+#~ msgstr "Dovoli shranjevanje in obnovo besedila in položaja drsnika."
 
 #~ msgid "Allow to save and restore current chat."
 #~ msgstr "Dovoli shranjevanje in obnovo trenutnega klepeta."
 
 #~ msgid "Add option for showing list of title chats."
-#~ msgstr "Dovoli možnost prikazovanje seznama naslovov klepetov."
+#~ msgstr "Dodaj možnost za prikaz seznama naslovov klepetov."
 
 #~ msgid "Add tools support."
-#~ msgstr "Dodaj podporo orodij."
+#~ msgstr "Dodaj podporo za orodja."
 
 #~ msgid "Allow to switch from chat identifier."
 #~ msgstr "Dovoli preklop iz določilnika klepeta."
@@ -805,10 +792,10 @@ msgstr "Vrni številko računa."
 #~ msgstr "Dodaj orodje za trenutni datum in čas."
 
 #~ msgid "Add progress tool message info."
-#~ msgstr "Dodaj orodje sporočanja informacij o napredku."
+#~ msgstr "Dodaj informacije o sporočilu orodja za napredek."
 
 #~ msgid "Fix icon on windows."
-#~ msgstr "Popravi ikono v sistemu Windows."
+#~ msgstr "Fiksiraj ikono na oknih."
 
 #~ msgid "Allow to copy block code to clipboard."
 #~ msgstr "Dovoli kopiranje bloka kode v odložišče."
@@ -844,6 +831,9 @@ msgstr "Vrni številko računa."
 #~ msgstr ""
 #~ "Dodaj vtičnike Wikipedia, orodja za vreme (zagotavlja kaichat-addons)."
 
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "Shrani čakajoče vnesene informacije v zbirko podatkov."
+
 #~ msgid "Allow to add attachment files from command line."
 #~ msgstr "Dovoli dodajanje prilog iz ukazne vrstice."
 
@@ -856,8 +846,38 @@ msgstr "Vrni številko računa."
 #~ msgid "Fix multi tools plugins call."
 #~ msgstr "Popravi klic vtičnikov za več orodij."
 
-#~ msgid "Open Quick Ask..."
-#~ msgstr "Odpri hitro vprašanje..."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Dodaj podporo pojavku Grok."
+
+#~ msgid "Add User Feedback support."
+#~ msgstr "Dodaj podporo za povratne informacije uporabnikov."
+
+#~ msgid "Allow to show model info."
+#~ msgstr "Dovoli prikaz informacij o modelu."
+
+#~ msgid "Add import chat support."
+#~ msgstr "Dodaj podporo uvoza klepeta."
+
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Dodaj podporo za Ollama Online."
+
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Dodaj podporo za Ollama Cloud."
+
+#~ msgid "Allow to duplicate chat."
+#~ msgstr "Dovoli podvajanje klepeta."
+
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Dodajte podporo za nastavitev Ollama Keep Alive."
+
+#~ msgid "Show Ollama log."
+#~ msgstr "Prikaži dnevnik Ollama."
+
+#~ msgid "Allow to expose Ollama to local network."
+#~ msgstr "Dovoli izpostaviti Ollama lokalnemu omrežju."
+
+#~ msgid "Add thinking support."
+#~ msgstr "Dodaj podporo za razmišljanje."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -865,16 +885,18 @@ msgstr "Vrni številko računa."
 
 #~ msgctxt "@action"
 #~ msgid "Check new Version"
-#~ msgstr "Preveri novo različico"
+#~ msgstr "Preveri za novo različico"
 
 #~ msgid "Your version is older than 6 months, we encourage you to upgrade."
 #~ msgstr ""
-#~ "Vaša različica je starejša od 6 mesecev, spodbujamo vas k nadgradnji."
+#~ "Vaša različica je starejša od 6 mesecev, zato vam priporočamo, da jo "
+#~ "nadgradite."
 
 #~ msgid ""
 #~ "Your version is older than 1 year, we strongly encourage you to upgrade."
 #~ msgstr ""
-#~ "Vaša različica je starejša od 1 leta, močno vas spodbujamo k nadgradnji."
+#~ "Vaša različica je starejša od 1 leta, zato vam toplo priporočamo "
+#~ "nadgradnjo."
 
 #~ msgctxt "@title:window"
 #~ msgid "Check New Version"
@@ -883,15 +905,15 @@ msgstr "Vrni številko računa."
 #~ msgid ""
 #~ "A new version found. Click <a href=\"%1\">here</a> for downloading it."
 #~ msgstr ""
-#~ "Najdena nova različica. Kliknite <a href = \"%1\"> tukaj </a> za prenos."
+#~ "Najdena je bila nova različica. Kliknite <a href=\"%1\">tukaj</a> za "
+#~ "prenos."
 
 #~ msgid "No new version found. Build can be found <a href=\"%1\">here</a>."
 #~ msgstr ""
-#~ "Nove različice ni mogoče najti. Izgradnjo pa je mogoče najti <a href = "
-#~ "\"%1\"> tukaj </a>."
+#~ "Ni najdene nove različice. Gradnjo najdete <a href=\"%1\">tukaj</a>."
 
 #~ msgid "Check New Version"
-#~ msgstr "Preveri novo različico"
+#~ msgstr "Preveri za novo različico"
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"
@@ -917,10 +939,16 @@ msgstr "Vrni številko računa."
 #~ msgstr "Pomembne spremembe od zadnje različice:"
 
 #~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "Nekaj novih zmožnosti v tej izdaji KAIchata vsebujejo:"
+#~ msgstr "Nekaj novih zmožnosti v tej izdaji KAIchata vsebuje:"
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "Nekaj popravkov napak:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "Odpri hitro vprašanje..."
+
+#~ msgid "The name of the city"
+#~ msgstr "Ime mesta"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

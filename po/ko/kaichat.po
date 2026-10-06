@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
 "PO-Revision-Date: 2026-10-03 23:31+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -67,145 +67,132 @@ msgstr "인스턴스 목록 반환"
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr "지정한 인스턴스로 시작"
-
-#: core/kaichatcommandlineparser.cpp:25
-#, kde-format
-msgid "Instance Name"
-msgstr "인스턴스 이름"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "새 대화 만들기"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr "새 대화 제목"
 
-#: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "새 대화 만들기"
+msgstr "새 휘발성 대화 만들기"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "새 휘발성 대화"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "빠른 질문 열기"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "대화로 전환"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr "대화 이름"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "식별자로 지정한 대화로 전환"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr "대화 식별자"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "질문 메시지"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr "메시지"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "대화 목록 반환"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "디버그 모드 활성화"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "첨부 파일 추가. 반복할 수 있음"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
 msgstr "첨부 URL"
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "사용할 도구 정의. 반복할 수 있음"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
 msgstr "도구 이름"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "플러그인 정보 반환"
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "사용자 피드백 옵션 표시"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "대화 가져오기"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr "가져오기"
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Ollama 프로그램 시작"
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "가져올 대화 파일"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -336,35 +323,33 @@ msgstr "시스템 트레이 아이콘 사용"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "데이터베이스 저장소:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "경로 복사"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "대화 내보내기"
+msgstr "책갈피에 등록된 대화 제외"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "하지 않음"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "일"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "저장 기한"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -379,9 +364,7 @@ msgid "General"
 msgstr "일반"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "글꼴"
@@ -393,9 +376,7 @@ msgid "Instances"
 msgstr "인스턴스"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP 서버"
@@ -407,25 +388,19 @@ msgid "Spell Checking"
 msgstr "맞춤법 검사"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "접근성"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "플러그인"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "사용자 피드백"
@@ -434,13 +409,13 @@ msgstr "사용자 피드백"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "저장"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "개인 정보"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -573,17 +548,16 @@ msgid "Show Archive"
 msgstr "과거 기록 표시"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "새 대화 제목"
+msgstr "새 대화"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "새 휘발성 대화"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -623,12 +597,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "대화 내보내기"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr "모델 다운로드 완료됨"
 
-#: widgets/kaichatmainwindow.cpp:512
+#: widgets/kaichatmainwindow.cpp:508
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 모델을 다운로드했습니다."
@@ -684,6 +658,13 @@ msgstr "계정 정보"
 msgid "Return the number of account."
 msgstr "계정 개수를 반환합니다."
 
+#~ msgctxt "@info:shell"
+#~ msgid "Start with specific instance"
+#~ msgstr "지정한 인스턴스로 시작"
+
+#~ msgid "Instance Name"
+#~ msgstr "인스턴스 이름"
+
 #~ msgid "Json File"
 #~ msgstr "JSON 파일"
 
@@ -696,38 +677,40 @@ msgstr "계정 개수를 반환합니다."
 #~ msgid "New plugin: show collection size."
 #~ msgstr "새 플러그인: 모음집 크기 표시."
 
+#, fuzzy
+#~| msgid "KAIChat"
 #~ msgid "AI Chat"
-#~ msgstr "AI 채팅"
+#~ msgstr "KAIChat"
 
-#~ msgid "Add Grok instance support."
-#~ msgstr "그록 인스턴스 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add DBus support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
-#~ msgid "Add User Feedback support."
-#~ msgstr "사용자 피드백 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "인스턴스 지원을 추가했습니다."
 
-#~ msgid "Allow to show model info."
-#~ msgstr "모델 정보를 볼 수 있습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add MCP Server support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
-#~ msgid "Add import chat support."
-#~ msgstr "대화 가져오기 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add KCM support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Ollama 온라인 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Sarvam support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
-#~ msgid "Add Ollama Cloud support."
-#~ msgstr "Ollama 클라우드 지원을 추가했습니다."
-
-#~ msgid "Allow to duplicate chat."
-#~ msgstr "대화를 복제하는 것을 허용합니다."
-
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Ollama Keep Alive 설정 지원을 추가했습니다."
-
-#~ msgid "Allow to expose Ollama to local network."
-#~ msgstr "Ollama를 로컬 네트워크에서 탐색할 수 있도록 허용합니다."
-
-#~ msgid "Add thinking support."
-#~ msgstr "생각 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add LMStudio support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
 #~ msgid "Add what's new support."
 #~ msgstr "새로운 기능 지원을 추가했습니다."
@@ -735,119 +718,63 @@ msgstr "계정 개수를 반환합니다."
 #~ msgid "Add instance support."
 #~ msgstr "인스턴스 지원을 추가했습니다."
 
-#~ msgid "Add Mardown support."
-#~ msgstr "Mardown 지원을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Markdown support."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
 #~ msgid "Add Highlighting support."
 #~ msgstr "구문 강조 지원을 추가했습니다."
 
-#~ msgid "Fix allow delete chat. Bug %1"
-#~ msgstr "대화 삭제 허용 문제를 수정했습니다. 버그 %1"
-
-#~ msgid "Add Quick Ask Dialog."
-#~ msgstr "빠른 질문 대화 상자를 추가했습니다."
-
-#~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Windows/macOS에서 Ollama를 다운로드할 수 있습니다."
-
-#~ msgid "Use prompt during chating."
-#~ msgstr "대화 중에 프롬프트를 사용할 수 있습니다."
-
-#~ msgid "Add shared text and webshorcut plugin."
-#~ msgstr "공유된 텍스트와 웹 바로 가기 플러그인을 추가했습니다."
-
-#~ msgid "Allow to configure plugins."
-#~ msgstr "플러그인을 설정할 수 있습니다."
-
-#~ msgid "Add new update widget."
-#~ msgstr "새 업데이트 위젯을 추가했습니다."
-
-#~ msgid "Add progress indicator in chats list."
-#~ msgstr "대화 목록에 진행 표시기를 추가했습니다."
-
-#~ msgid "Allow to change font size."
-#~ msgstr "글꼴 크기를 변경할 수 있습니다."
-
-#~ msgid ""
-#~ "Add command line for adding new chat room, displaying list of instances."
-#~ msgstr ""
-#~ "새 대화방을 추가하고 인스턴스 목록을 표시하는 명령행 옵션을 추가했습니다."
-
+#, fuzzy
+#~| msgid "Add Highlighting support."
 #~ msgid "Add spell checking support."
-#~ msgstr "맞춤법 검사 지원을 추가했습니다."
+#~ msgstr "구문 강조 지원을 추가했습니다."
 
-#~ msgid "Add Notification popup when model download done."
-#~ msgstr "모델 다운로드가 완료되었을 때 알림 팝업을 추가했습니다."
-
-#~ msgid "Allow to save and restore text and scrollbar position."
-#~ msgstr "텍스트와 스크롤바 위치 저장과 복원을 지원합니다."
-
-#~ msgid "Allow to save and restore current chat."
-#~ msgstr "현재 대화를 저장하고 복원할 수 있습니다."
-
-#~ msgid "Add option for showing list of title chats."
-#~ msgstr "전체 대화의 제목 목록을 가져오는 옵션을 추가했습니다."
-
+#, fuzzy
+#~| msgid "Add Mardown support."
 #~ msgid "Add tools support."
-#~ msgstr "도구 지원을 추가했습니다."
+#~ msgstr "Markdown 지원을 추가했습니다."
 
-#~ msgid "Allow to switch from chat identifier."
-#~ msgstr "대화 식별자를 사용하여 전환을 추가했습니다."
-
-#~ msgid "Add Current Date Time tool."
-#~ msgstr "현재 날짜와 시간 도구를 추가했습니다."
-
-#~ msgid "Add progress tool message info."
-#~ msgstr "진행 도구 메시지 정보를 추가했습니다."
-
-#~ msgid "Fix icon on windows."
-#~ msgstr "Windows에서의 아이콘을 수정했습니다."
-
-#~ msgid "Allow to copy block code to clipboard."
-#~ msgstr "블록 코드를 클립보드에 복사할 수 있습니다."
-
-#~ msgid "Show number of string found in statusbar."
-#~ msgstr "상태 표시줄에 찾은 문자열 개수를 표시합니다."
-
-#~ msgid "Implement quick search."
-#~ msgstr "빠른 검색을 구현했습니다."
-
-#~ msgid "Add quick search bar in quick ask dialog."
-#~ msgstr "빠른 질문 대화 상자에 빠른 검색 표시줄을 추가했습니다."
-
-#~ msgid "Add restore configure settings value."
-#~ msgstr "설정 값 복원을 추가했습니다."
-
-#~ msgid "Allow to configure text to speech."
-#~ msgstr "텍스트 읽어주기 옵션을 설정할 수 있습니다."
-
-#~ msgid "Add tool plugin icon name."
-#~ msgstr "도구 플러그인 아이콘 이름을 추가했습니다."
-
+#, fuzzy
+#~| msgid "Add instance support."
 #~ msgid "Add attachment support."
-#~ msgstr "첨부 지원을 추가했습니다."
+#~ msgstr "인스턴스 지원을 추가했습니다."
 
-#~ msgid "Add new icon."
-#~ msgstr "새 아이콘을 추가했습니다."
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add Grok instance support."
+#~ msgstr "인스턴스 지원을 추가했습니다."
 
-#~ msgid "Add debug command line."
-#~ msgstr "디버그 명령행을 추가했습니다."
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add User Feedback support."
+#~ msgstr "구문 강조 지원을 추가했습니다."
 
-#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-#~ msgstr ""
-#~ "위키백과, 날씨 도구 플러그인(kaichat-addons에서 제공)을 추가했습니다."
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add import chat support."
+#~ msgstr "인스턴스 지원을 추가했습니다."
 
-#~ msgid "Allow to add attachment files from command line."
-#~ msgstr "명령행에서 첨부 파일을 추가할 수 있습니다."
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "새로운 기능 지원을 추가했습니다."
 
-#~ msgid "Add icon in configure ollama models."
-#~ msgstr "Ollama 모델 설정 아이콘을 추가했습니다."
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "새로운 기능 지원을 추가했습니다."
 
-#~ msgid "Allow to use specific Ollama environment variables."
-#~ msgstr "특정한 Ollama 환경 변수를 지정할 수 있습니다."
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "새로운 기능 지원을 추가했습니다."
 
-#~ msgid "Fix multi tools plugins call."
-#~ msgstr "다중 도구 플러그인 호출을 수정했습니다."
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "구문 강조 지원을 추가했습니다."
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"

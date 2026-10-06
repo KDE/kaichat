@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
-"PO-Revision-Date: 2026-07-06 12:39+0200\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
+"PO-Revision-Date: 2026-09-28 05:07+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -68,150 +68,137 @@ msgstr "აბრუნებს გაშვებული ასლები�
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr "დაწყება მითითებული გაშვებული ასლით"
-
-#: core/kaichatcommandlineparser.cpp:25
-#, kde-format
-msgid "Instance Name"
-msgstr "გაშვებული ასლის სახელი"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "ახალი ჩატის შექმნა"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr "ახალი ჩატის სათაური"
 
-#: core/kaichatcommandlineparser.cpp:29
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "ახალი ჩატის შექმნა"
+msgstr "ახალი ეფემერული ჩატის შექმნა"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "ახალი ეფემერული ჩატი"
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "სწრაფი კითხვის გახსნა"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "ჩატზე გადართვა"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr "ჩატის სახელი"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
-msgstr "ჩატზე გადართვა იდენტიფიკატორიდან"
+msgstr "გადართვა ჩატზე იდენტიფიკატორიდან"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr "ჩატის იდენტიფიკატორი"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
-msgstr "კითხვის შეტყობინება"
+msgstr "შეტყობინების კითხვა"
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr "შეტყობინება"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "აბრუნებს ჩატების სიას"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "გამართვის რეჟიმის გააქტიურება"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "მიმაგრებული ფაილის დამატება. ეს შეგიძლიათ, გაიმეოროთ"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:40
 #, kde-format
 msgid "Attachment Url"
 msgstr "მიმაგრებული ფაილის Url"
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "გამოყენებული ხელსაწყოს აღწერა. ეს შეგიძლიათ, გაიმეოროთ"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, kde-format
 msgid "Tool Name"
 msgstr "ხელსაწყოს სახელი"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "დამატებების ინფორმაციის დაბრუნება"
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "მომხმარებლის უკუკავშირის ხელმისაწვდომი ვარიანტები"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "ჩატის შემოტანა"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr "შემოტანა"
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "Ollama-ის პროგრამის გაშვება"
+msgstr "Ollama-ის გაშვება"
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "შემოსატანი ჩატის ფაილი"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
 msgid "Markdown"
-msgstr "Markdown"
+msgstr "Mardown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
 #: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
@@ -281,7 +268,7 @@ msgstr ""
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
-msgstr "მიმდინარე თარიღი დრო"
+msgstr "მიმდინარე დრო და თარიღი"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
@@ -339,35 +326,33 @@ msgstr "სისტემის კუთხეში ხატულის ჩ
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "მონაცემთა ბაზის რეპოზიტორია:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "ბილიკის კოპირება"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "ჩატების გატანა"
+msgstr "რჩეული ჩატების ამოღება"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "არასდროს"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "დღე"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "შენარჩუნების დღეები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -382,9 +367,7 @@ msgid "General"
 msgstr "ზოგადი"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "ფონტი"
@@ -396,9 +379,7 @@ msgid "Instances"
 msgstr "გაშვებული ასლები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP სერვერები"
@@ -410,25 +391,19 @@ msgid "Spell Checking"
 msgstr "მართლწერის შემოწმება"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "წვდომადობა"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "დამატებები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "მომხარებლის უკუკავშირი"
@@ -437,13 +412,13 @@ msgstr "მომხარებლის უკუკავშირი"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "შენარჩუნება"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "კონფიდენციალობა"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -455,7 +430,7 @@ msgstr "ძებნა…"
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr "ჩატის არჩევა"
+msgstr "აირჩიეთ ჩატი"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:25
 #, kde-format
@@ -577,17 +552,16 @@ msgid "Show Archive"
 msgstr "არქივის ჩვენება"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "ახალი ჩატის სათაური"
+msgstr "ახალი ჩატი"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "ახალი ეფემერული ჩატი"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
@@ -628,12 +602,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "ჩატების გატანა"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr "მოდელის გადმოწერა დასრულდა"
 
-#: widgets/kaichatmainwindow.cpp:512
+#: widgets/kaichatmainwindow.cpp:508
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "მოდელი %1 გადმოწერილია."
@@ -689,6 +663,13 @@ msgstr "ანგარიშის ინფორმაცია"
 msgid "Return the number of account."
 msgstr "ანგარიშების რაოდენობის დაბრუნება."
 
+#~ msgctxt "@info:shell"
+#~ msgid "Start with specific instance"
+#~ msgstr "დაწყება მითითებული გაშვებული ასლით"
+
+#~ msgid "Instance Name"
+#~ msgstr "გაშვებული ასლის სახელი"
+
 #~ msgid "Json File"
 #~ msgstr "Json ფაილი"
 
@@ -703,6 +684,170 @@ msgstr "ანგარიშების რაოდენობის და�
 
 #~ msgid "AI Chat"
 #~ msgstr "ხი-სთან ჩატი"
+
+#~ msgid "Add ChatGPT, Novita AI, DeepInfra, Qwen support."
+#~ msgstr ""
+#~ "დაემატა ChatGPT-ის, Novita AI-ის, DeepInfra-ის და Qwen-ის მხარდაჭერა."
+
+#~ msgid "Add CLI option for starting local Ollama."
+#~ msgstr "დაემატა CLI-ის პარამეტრი ლოკალური Ollama-ის გასაშვებად."
+
+#~ msgid "Add DBus support."
+#~ msgstr "დაემატა DBus-ის მხარდაჭერა."
+
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "დაემატა შიდა დამატებების მხარდაჭერა."
+
+#~ msgid "Add MCP Server support."
+#~ msgstr "დაემატა MCP სერვერის მხარდაჭერა."
+
+#~ msgid "Show internal tools metadata."
+#~ msgstr "შიდა ხელსაწყოების მეტამონაცემების ჩვენება."
+
+#~ msgid "Add KCM support."
+#~ msgstr "დაემატა KCM-ის მხარდაჭერა."
+
+#~ msgid "Add Sarvam support."
+#~ msgstr "დაემატა Sarvam-ის მხარდაჭერა."
+
+#~ msgid "Add Database Debug Dialogbox."
+#~ msgstr "დაემატა მონაცემთა ბაზის გამართვის დიალოგური ფანჯარა."
+
+#~ msgid "Display reply info about duration, number of tokens etc."
+#~ msgstr ""
+#~ "პასუხის ინფორმაციის ჩვენება ხანგრძლივობის, ტოკენების რაოდენობის და ა.შ. "
+#~ "შესახებ."
+
+#~ msgid "Allow to export as PDF."
+#~ msgstr "PDF-ში გატანის დაშვება."
+
+#~ msgid "Add LMStudio support."
+#~ msgstr "დაემატა LMStudio-ის მხადაჭერა."
+
+#~ msgid "Add what's new support."
+#~ msgstr "დაემატა მენიუ 'რა არის ახალი'."
+
+#~ msgid "Add instance support."
+#~ msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
+
+#~ msgid "Add Markdown support."
+#~ msgstr "დაემატა მარკდაუნის მხარდაჭერა."
+
+#~ msgid "Add Highlighting support."
+#~ msgstr "დაემატა გამოკვეთის მხარდაჭერა."
+
+#~ msgid "Fix allow delete chat. Bug %1"
+#~ msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
+
+#~ msgid "Add Quick Ask Dialog."
+#~ msgstr "სწრაფი კითხვის დიალოგის დამატება."
+
+#~ msgid "Allow to download Ollama on Windows/MacOs."
+#~ msgstr "Ollama-ის გადმოწერის დაშვება Windows/macOS-ზე."
+
+#~ msgid "Use prompt during chating."
+#~ msgstr "შეყვანის ზოლის გამოყენება ჩატისას."
+
+#~ msgid "Add shared text and webshorcut plugin."
+#~ msgstr "დაემატა გაზიარებული ტექსტის და ვებ-მალსახმობის დამატება."
+
+#~ msgid "Allow to configure plugins."
+#~ msgstr "დამატებების მორგების დაშვება."
+
+#~ msgid "Add new update widget."
+#~ msgstr "ახალი განახლების ვიჯეტის დამატება."
+
+#~ msgid "Add progress indicator in chats list."
+#~ msgstr "მიმდინარეობის მაჩვენებლის დამატება ჩატების სიაში."
+
+#~ msgid "Allow to change font size."
+#~ msgstr "ფონტის ზომის შეცვლის დაშვება."
+
+#~ msgid ""
+#~ "Add command line for adding new chat room, displaying list of instances."
+#~ msgstr ""
+#~ "დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და "
+#~ "გაშვებული ასლების სიის გამოსატანად."
+
+#~ msgid "Add spell checking support."
+#~ msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
+
+#~ msgid "Add Notification popup when model download done."
+#~ msgstr "გაფრთხილების მხტუნარას დამატება, როცა მოდელის გადმოწერა დასრულდება."
+
+#~ msgid "Allow to save and restore text and scrollbar position."
+#~ msgstr "ტექსტის და ჩოჩიის მდებარეობის შენახვის და აღდგენის ჩართვა."
+
+#~ msgid "Allow to save and restore current chat."
+#~ msgstr "მიმდინარე ჩატის შენახვის და აღდგენის დაშვება."
+
+#~ msgid "Add option for showing list of title chats."
+#~ msgstr "დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად."
+
+#~ msgid "Add tools support."
+#~ msgstr "დაემატა ხელსაწყოების მხადაჭერა."
+
+#~ msgid "Allow to switch from chat identifier."
+#~ msgstr "ჩატის იდენტიფიკატორიდან გადართვის დაშვება."
+
+#~ msgid "Add Current Date Time tool."
+#~ msgstr "დაემატა მიმდინარე დროისა და თარიღის ხელსაწყო."
+
+#~ msgid "Add progress tool message info."
+#~ msgstr "დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია."
+
+#~ msgid "Fix icon on windows."
+#~ msgstr "გასწორდა ხატულა ფანჯრებზე."
+
+#~ msgid "Allow to copy block code to clipboard."
+#~ msgstr "ბლოკის კოდის ბუფერში დაკოპირების დაშვება."
+
+#~ msgid "Show number of string found in statusbar."
+#~ msgstr "ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში."
+
+#~ msgid "Implement quick search."
+#~ msgstr "სწრაფი ძებნის იმპლემენტაცია."
+
+#~ msgid "Add quick search bar in quick ask dialog."
+#~ msgstr "დაემატა სწრაფი ძებნის პანელი სწრაფი კითხვის დიალოგში."
+
+#~ msgid "Add restore configure settings value."
+#~ msgstr "პარამეტრების კონფიგურაციის მნიშვნელობის აღდგენის დამატება."
+
+#~ msgid "Allow to configure text to speech."
+#~ msgstr "ტექსტის წარმოთქმის მორგების დაშვება."
+
+#~ msgid "Add tool plugin icon name."
+#~ msgstr "დაემატა ხელსაწყოს დამატების ხატულას სახელი."
+
+#~ msgid "Add attachment support."
+#~ msgstr "დაემატა მიმაგრებული ფაილების მხარდაჭერა."
+
+#~ msgid "Add new icon."
+#~ msgstr "დაემატა ახალი ხატულა."
+
+#~ msgid "Add debug command line."
+#~ msgstr "დაემატა გამართვის ბრძანების სტრიქონი."
+
+#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
+#~ msgstr ""
+#~ "დაემატა ვიკიპედიის და ამინდის ხელსაწყოს დამატებები (შეიცავს პაკეტი "
+#~ "kaichat-addons)."
+
+#~ msgid "Store Pending Typed Info in Database."
+#~ msgstr "რიგში მყოფი აკრეფილი ინფორმაციის მონაცემთა ბაზაში შენახვა."
+
+#~ msgid "Allow to add attachment files from command line."
+#~ msgstr "მიმაგრებული ფაილების ბრძანების სტრიქონიდან დამატების დაშვება."
+
+#~ msgid "Add icon in configure ollama models."
+#~ msgstr "დაემატა ხატულა ollama-ის მოდელების მორგების ფანჯარაში."
+
+#~ msgid "Allow to use specific Ollama environment variables."
+#~ msgstr "სპეციფიკური Ollama-ის გარემოს ცვლადების გამოყენების დაშვება."
+
+#~ msgid "Fix multi tools plugins call."
+#~ msgstr "გასწორდა mutitools დამატების გამოძახება."
 
 #~ msgid "Add Grok instance support."
 #~ msgstr "დაემატა Grok-ის გაშვებული ასლების მხარდაჭერა."
@@ -726,137 +871,16 @@ msgstr "ანგარიშების რაოდენობის და�
 #~ msgstr "ჩატის დუბლირების დაშვება."
 
 #~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "დაემატა Ollama Keep Alive-ის მხარდაჭერა."
+#~ msgstr "დაემატა Ollama-ის ცოცხლად დატოვების პარამეტრის მხარდაჭერა."
+
+#~ msgid "Show Ollama log."
+#~ msgstr "Ollama-ის ჟურნალის ჩვენება."
 
 #~ msgid "Allow to expose Ollama to local network."
 #~ msgstr "Ollama-ის ლოკალურ ქსელში გამოჩენის დაშვება."
 
 #~ msgid "Add thinking support."
 #~ msgstr "დაემატა ფიქრის მხარდაჭერა."
-
-#~ msgid "Add what's new support."
-#~ msgstr "დაემატა მენიუ 'რა არის ახალი'."
-
-#~ msgid "Add instance support."
-#~ msgstr "დაემატა გაშვებული ასლების მხარდაჭერა."
-
-#~ msgid "Add Mardown support."
-#~ msgstr "დაემატა მარკდაუნის მხარდაჭერა."
-
-#~ msgid "Add Highlighting support."
-#~ msgstr "დაემატა გამოკვეთის მხარდაჭერა."
-
-#~ msgid "Fix allow delete chat. Bug %1"
-#~ msgstr "გასწორდა ჩატის წაშლის უფლების მიცემა. შეცდომა %1"
-
-#~ msgid "Add Quick Ask Dialog."
-#~ msgstr "სწრაფი კითხვის დიალოგის დამატება."
-
-#~ msgid "Allow to download Ollama on Windows/MacOs."
-#~ msgstr "Ollama-ის გადმოწერის დაშვება Windows/macOS-ზე."
-
-#~ msgid "Use prompt during chating."
-#~ msgstr "მოთხოვნის ზოლის გამოყენება ჩატისას."
-
-#~ msgid "Add shared text and webshorcut plugin."
-#~ msgstr "დაემატა გაზიარებული ტექსტის და ვებ-მალსახმობის დამატება."
-
-#~ msgid "Allow to configure plugins."
-#~ msgstr "დამატებების მორგების დაშვება."
-
-#~ msgid "Add new update widget."
-#~ msgstr "ახალი განახლების ვიჯეტის დამატება."
-
-#~ msgid "Add progress indicator in chats list."
-#~ msgstr "მიმდინარეობის მაჩვენების დამატება ჩატების სიასი."
-
-#~ msgid "Allow to change font size."
-#~ msgstr "ფონტის ზომის შეცვლის დაშვება."
-
-#~ msgid ""
-#~ "Add command line for adding new chat room, displaying list of instances."
-#~ msgstr ""
-#~ "დაემატა ბრძანებების სტრიქონი ახალი ჩატის ოთახების დასამატებლად და "
-#~ "გაშვებული ასლების სიის გამოსატანად."
-
-#~ msgid "Add spell checking support."
-#~ msgstr "დაემატა მართლწერის შემოწმების მხარდაჭერა."
-
-#~ msgid "Add Notification popup when model download done."
-#~ msgstr "გაფრთხილების მხტუნარას დამატება მოდელის გადმოწერის დასრულებსიას."
-
-#~ msgid "Allow to save and restore text and scrollbar position."
-#~ msgstr "ტექსტისა და ჩოჩიას მდებარეობის შენახვისა და აღდგენის დაშვება."
-
-#~ msgid "Allow to save and restore current chat."
-#~ msgstr "მიმდინარე ჩატის შენახვისა და აღდგენის დაშვება."
-
-#~ msgid "Add option for showing list of title chats."
-#~ msgstr "დაემატა არჩევანი ჩატების სათაურების სიის საჩვენებლად."
-
-#~ msgid "Add tools support."
-#~ msgstr "დაემატა ხელსაწყოების მხარდაჭერა."
-
-#~ msgid "Allow to switch from chat identifier."
-#~ msgstr "ჩატის იდენტიფიკატორიდან გადართვის დაშვება."
-
-#~ msgid "Add Current Date Time tool."
-#~ msgstr "მიმდინარე თარიღისა და დროის ხელსაწყოს დამატება."
-
-#~ msgid "Add progress tool message info."
-#~ msgstr "დაემატა მიმდინარეობის ხელსაწყოს შეტყობინების ინფორმაცია."
-
-#~ msgid "Fix icon on windows."
-#~ msgstr "გასწორდა ხატულა Windows-ზე."
-
-#~ msgid "Allow to copy block code to clipboard."
-#~ msgstr "ბლოკის კოდის ბუფერში კოპირების დაშვება."
-
-#~ msgid "Show number of string found in statusbar."
-#~ msgstr "ნაპოვნი სტრიქონების რაოდენობის ჩვენება სტატუსის ზოლში."
-
-#~ msgid "Implement quick search."
-#~ msgstr "განხორციელდა სწრაფი ძებნა."
-
-#~ msgid "Add quick search bar in quick ask dialog."
-#~ msgstr "დაემატა სწრაფი ძებნის პანელი სწრაფი კითხვის დიალოგში."
-
-#~ msgid "Add restore configure settings value."
-#~ msgstr "დაემატა პარამეტრების კონფიგურაციის მნიშვნელობის აღდგენა."
-
-#~ msgid "Allow to configure text to speech."
-#~ msgstr "ტექსტის წარმოთქმის მორგების დაშვება."
-
-#~ msgid "Add tool plugin icon name."
-#~ msgstr "დაემატა ხელსაწყოს დამატების ხატულას სახელი."
-
-#~ msgid "Add attachment support."
-#~ msgstr "დაემატა ფაილების მიმაგრების მხარდაჭერა."
-
-#~ msgid "Add new icon."
-#~ msgstr "დაემატა ახალი ხატულა."
-
-#~ msgid "Add debug command line."
-#~ msgstr "დაემატა გამართვის ბრძანების სტრიქონი."
-
-#~ msgid "Add wikipedia, weather tools plugins (provided by kaichat-addons)."
-#~ msgstr ""
-#~ "დაემატა ვიკიპედიის და ამინდის დამატებები (მოგაწოდებთ kaichat-addons)."
-
-#~ msgid "Allow to add attachment files from command line."
-#~ msgstr "ბრძანების სტრიქონიდან მიმაგრებული ფაილების დამატების დაშვება."
-
-#~ msgid "Add icon in configure ollama models."
-#~ msgstr "დაემატა ხატულა ollama-ის მოდელების მოსარგებად."
-
-#~ msgid "Allow to use specific Ollama environment variables."
-#~ msgstr "Ollama-ის მითითებული გარემოს ცვლადების გამოყენების დაშვება."
-
-#~ msgid "Fix multi tools plugins call."
-#~ msgstr "გასწორდა მულტიხელსაწყოს მოდულების გამოძახება."
-
-#~ msgid "Open Quick Ask..."
-#~ msgstr "სწრაფი კითხვის გახსნა..."
 
 #~ msgctxt "@action"
 #~ msgid "Disable version check"
@@ -915,10 +939,16 @@ msgstr "ანგარიშების რაოდენობის და�
 #~ msgstr "მნიშვნელოვანი ცვლილებები ბოლო ვერსიის შემდეგ:"
 
 #~ msgid "Some of the new features in this release of KAIchat include:"
-#~ msgstr "Kaichat-ის ახალ ფუნქციებში შედის:"
+#~ msgstr "KAIchat-ის ახალ ფუნქციებში შედის:"
 
 #~ msgid "Some bug fixing:"
 #~ msgstr "გამოსწორდა ზოგიერთი შეცდომა:"
+
+#~ msgid "Open Quick Ask..."
+#~ msgstr "სწრაფი კითხვის გახსნა..."
+
+#~ msgid "The name of the city"
+#~ msgstr "ქალაქის სახელი"
 
 #~ msgid "KAiChat"
 #~ msgstr "KAiChat"

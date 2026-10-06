@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-05 03:17+0000\n"
+"POT-Creation-Date: 2026-10-06 03:13+0000\n"
 "PO-Revision-Date: 2025-08-06 22:23+0200\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -68,125 +68,113 @@ msgstr ""
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgctxt "@info:shell"
-msgid "Start with specific instance"
-msgstr ""
-
-#: core/kaichatcommandlineparser.cpp:25
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Instances"
-msgid "Instance Name"
-msgstr "Példányok"
-
-#: core/kaichatcommandlineparser.cpp:27
-#, kde-format
-msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:29
+#: core/kaichatcommandlineparser.cpp:26
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:31
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:32
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:38
+#: core/kaichatcommandlineparser.cpp:35
 #, kde-format
 msgid "Message"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:37
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:39
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:43
-#, kde-format
+#: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Add instance support."
 msgid "Attachment Url"
-msgstr ""
+msgstr "Példányok támogatása."
 
-#: core/kaichatcommandlineparser.cpp:45
+#: core/kaichatcommandlineparser.cpp:42
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:43
 #, fuzzy, kde-format
 #| msgid "Tool"
 msgid "Tool Name"
 msgstr "Eszköz"
 
-#: core/kaichatcommandlineparser.cpp:47
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:49
+#: core/kaichatcommandlineparser.cpp:46
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Export Chats"
@@ -194,18 +182,18 @@ msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "Csevegések exportálása"
 
-#: core/kaichatcommandlineparser.cpp:51
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Import"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:53
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr ""
 
-#: core/kaichatcommandlineparser.cpp:57
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
@@ -258,9 +246,10 @@ msgid "Instances"
 msgstr "Példányok"
 
 #: kcm/kcmautogeneratetext.cpp:32
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
 msgid "MCP Server"
-msgstr ""
+msgstr "Markdown támogatás."
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:19
 #, kde-format
@@ -397,10 +386,11 @@ msgid "Instances"
 msgstr "Példányok"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Add Mardown support."
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "Markdown támogatás."
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:79
 #, kde-format
@@ -633,12 +623,12 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Csevegések exportálása"
 
-#: widgets/kaichatmainwindow.cpp:511
+#: widgets/kaichatmainwindow.cpp:507
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:512
+#: widgets/kaichatmainwindow.cpp:508
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr ""
@@ -696,39 +686,45 @@ msgid "Return the number of account."
 msgstr ""
 
 #, fuzzy
+#~| msgctxt "@title Instances page name"
+#~| msgid "Instances"
+#~ msgid "Instance Name"
+#~ msgstr "Példányok"
+
+#, fuzzy
 #~| msgid "Add what's new support."
 #~ msgid "Add new whatsnew widget."
 #~ msgstr "Újdonságok megjelenítése."
 
 #, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add Grok instance support."
-#~ msgstr "Példányok támogatása."
-
-#, fuzzy
-#~| msgid "Add instance support."
-#~ msgid "Add import chat support."
-#~ msgstr "Példányok támogatása."
-
-#, fuzzy
-#~| msgid "Add what's new support."
-#~ msgid "Add Ollama Online support."
-#~ msgstr "Újdonságok megjelenítése."
-
-#, fuzzy
 #~| msgid "Add Mardown support."
-#~ msgid "Add Ollama Cloud support."
+#~ msgid "Add DBus support."
 #~ msgstr "Markdown támogatás."
 
 #, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add Ollama Keep Alive setting support."
-#~ msgstr "Kiemelés támogatás."
+#~| msgid "Add instance support."
+#~ msgid "Add Internal Plugin support."
+#~ msgstr "Példányok támogatása."
 
 #, fuzzy
-#~| msgid "Add Highlighting support."
-#~ msgid "Add thinking support."
-#~ msgstr "Kiemelés támogatás."
+#~| msgid "Add Mardown support."
+#~ msgid "Add MCP Server support."
+#~ msgstr "Markdown támogatás."
+
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add KCM support."
+#~ msgstr "Markdown támogatás."
+
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Sarvam support."
+#~ msgstr "Markdown támogatás."
+
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add LMStudio support."
+#~ msgstr "Markdown támogatás."
 
 #~ msgid "Add what's new support."
 #~ msgstr "Újdonságok megjelenítése."
@@ -736,7 +732,9 @@ msgstr ""
 #~ msgid "Add instance support."
 #~ msgstr "Példányok támogatása."
 
-#~ msgid "Add Mardown support."
+#, fuzzy
+#~| msgid "Add Mardown support."
+#~ msgid "Add Markdown support."
 #~ msgstr "Markdown támogatás."
 
 #~ msgid "Add Highlighting support."
@@ -759,6 +757,36 @@ msgstr ""
 #~| msgid "Add instance support."
 #~ msgid "Add attachment support."
 #~ msgstr "Példányok támogatása."
+
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add Grok instance support."
+#~ msgstr "Példányok támogatása."
+
+#, fuzzy
+#~| msgid "Add instance support."
+#~ msgid "Add import chat support."
+#~ msgstr "Példányok támogatása."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Online support."
+#~ msgstr "Újdonságok megjelenítése."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Cloud support."
+#~ msgstr "Újdonságok megjelenítése."
+
+#, fuzzy
+#~| msgid "Add what's new support."
+#~ msgid "Add Ollama Keep Alive setting support."
+#~ msgstr "Újdonságok megjelenítése."
+
+#, fuzzy
+#~| msgid "Add Highlighting support."
+#~ msgid "Add thinking support."
+#~ msgstr "Kiemelés támogatás."
 
 #~ msgctxt "@label:textbox"
 #~ msgid "Version:"
