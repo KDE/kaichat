@@ -5,7 +5,7 @@
 */
 
 #include "kaichatconfigurespeechtotextwidget.h"
-#include "kaichatglobalconfig.h"
+#include "textautogeneratetext/textautogeneratetextglobalconfig.h"
 
 #include <TextSpeechToText/SpeechToTextConfigureWidget>
 
@@ -36,24 +36,24 @@ KAIChatConfigureSpeechToTextWidget::~KAIChatConfigureSpeechToTextWidget() = defa
 
 void KAIChatConfigureSpeechToTextWidget::save()
 {
-    KAIChatGlobalConfig::self()->setEnableSpeechToText(mEnableSpeechToText->isChecked());
-    KAIChatGlobalConfig::self()->save();
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->setEnableSpeechToText(mEnableSpeechToText->isChecked());
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->save();
     mSpeechToTextWidget->saveSettings();
 }
 
 void KAIChatConfigureSpeechToTextWidget::load()
 {
     mSpeechToTextWidget->loadSettings();
-    mEnableSpeechToText->setChecked(KAIChatGlobalConfig::self()->enableSpeechToText());
+    mEnableSpeechToText->setChecked(TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->enableSpeechToText());
     mSpeechToTextWidget->setEnabled(mEnableSpeechToText->isChecked());
 }
 
 void KAIChatConfigureSpeechToTextWidget::restoreToDefaults()
 {
-    const bool bUseDefaults = KAIChatGlobalConfig::self()->useDefaults(true);
-    const bool enableSpeechToText = KAIChatGlobalConfig::self()->enableSpeechToText();
+    const bool bUseDefaults = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useDefaults(true);
+    const bool enableSpeechToText = TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->enableSpeechToText();
     mEnableSpeechToText->setChecked(enableSpeechToText);
-    KAIChatGlobalConfig::self()->useDefaults(bUseDefaults);
+    TextAutoGenerateText::TextAutogenerateTextGlobalConfig::self()->useDefaults(bUseDefaults);
 }
 
 #include "moc_kaichatconfigurespeechtotextwidget.cpp"
