@@ -224,7 +224,7 @@ void KAIChatMainWindow::setupActions()
 #endif
 #if defined(Q_OS_WIN) || defined(Q_OS_MACOS)
     const QString defaultUrlPath = QStringLiteral("https://origin.cdn.kde.org/ci-builds/utilities/kaichat/");
-    const QString stableBranch = u"0.8"_s;
+    const QString stableBranch = u"0.9"_s;
     bool stableVersion = false;
 #if KAICHAT_STABLE_VERSION
     stableVersion = true;
