@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 00:54+0000\n"
-"PO-Revision-Date: 2026-09-28 12:38+0100\n"
+"PO-Revision-Date: 2026-10-06 12:21+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -306,16 +306,14 @@ msgid "Current date time is %1"
 msgstr "La fecha y hora actual es %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "Activar texto a voz"
+msgstr "Texto a voz"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Voz a texto"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -433,12 +431,10 @@ msgid "Privacy"
 msgstr "Privacidad"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr "Activar texto a voz"
+msgstr "Activar voz a texto"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -682,10 +678,3 @@ msgstr "Información de la cuenta"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Devolver el número de la cuenta."
-
-#~ msgctxt "@info:shell"
-#~ msgid "Start with specific instance"
-#~ msgstr "Iniciar con una instancia específica"
-
-#~ msgid "Instance Name"
-#~ msgstr "Nombre de la instancia"
