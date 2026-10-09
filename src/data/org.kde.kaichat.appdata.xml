@@ -142,6 +142,15 @@
       <description>
         <ul>
           <li>Add Speech to Text support</li>
+          <li xml:lang="ca">Afegeix la implementació de veu a text</li>
+          <li xml:lang="cs">Přidána podpora převodu řeči na text</li>
+          <li xml:lang="es">Se ha implementado el uso de voz a texto.</li>
+          <li xml:lang="ka">დაემატა საუბრის ტექსტში გადაყვანის მხარდაჭერა</li>
+          <li xml:lang="nl">Ondersteuning voor Spraak naar tekst toevoegen</li>
+          <li xml:lang="pt-BR">Adicionado suporte a fala para texto</li>
+          <li xml:lang="sl">Doda podporo govora v besedilo</li>
+          <li xml:lang="tr">Dikte desteği ekle</li>
+          <li xml:lang="uk">Додано підтримку перетворення звуку на текст</li>
         </ul>
       </description>
     </release>
