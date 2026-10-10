@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 00:54+0000\n"
-"PO-Revision-Date: 2026-09-28 14:23+0200\n"
+"PO-Revision-Date: 2026-10-06 14:21+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -304,16 +304,14 @@ msgid "Current date time is %1"
 msgstr "La data e l'ora attuali sono %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "Abilita la sintesi vocale"
+msgstr "Sintesi vocale"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Riconoscimento vocale"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -431,12 +429,10 @@ msgid "Privacy"
 msgstr "Riservatezza"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr "Abilita la sintesi vocale"
+msgstr "Abilita riconoscimento vocale"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format

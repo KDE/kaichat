@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 00:54+0000\n"
-"PO-Revision-Date: 2026-05-22 12:08+0200\n"
+"PO-Revision-Date: 2026-10-09 15:57+0200\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
@@ -303,16 +303,14 @@ msgid "Current date time is %1"
 msgstr ""
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "Habilita Texto-a-Discurso (TextToSpeech)"
+msgstr "Texto-a-Pronunciation (TextToSpeech)"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Pronuncia Texto"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -341,7 +339,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Copia Percurso"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
 #, kde-format
@@ -351,12 +349,12 @@ msgstr ""
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Jammais"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dies"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
@@ -376,9 +374,7 @@ msgid "General"
 msgstr "General"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Font"
@@ -402,25 +398,19 @@ msgid "Spell Checking"
 msgstr "Controlo Orthographic"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Accessibilitate"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Plugins"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Responsa del usator"
@@ -435,15 +425,13 @@ msgstr ""
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Confidentialitate"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr "Habilita Texto-a-Discurso (TextToSpeech)"
+msgstr "Habilita Texto-a-Pronunciation (TextToSpeech)"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -577,11 +565,10 @@ msgid "Show Archive"
 msgstr ""
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "AI Chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Chat (Conversation in directo) de AI (IA)"
+msgstr "Nove Conversation de gruppo (Chat)"
 
 #: widgets/kaichatmainwindow.cpp:164
 #, kde-format
