@@ -143,6 +143,7 @@
         <ul>
           <li>Add Speech to Text support</li>
           <li xml:lang="ca">Afegeix la implementació de veu a text</li>
+          <li xml:lang="ca-valencia">Afig la implementació de veu a text</li>
           <li xml:lang="cs">Přidána podpora převodu řeči na text</li>
           <li xml:lang="es">Se ha implementado el uso de voz a texto.</li>
           <li xml:lang="ka">დაემატა საუბრის ტექსტში გადაყვანის მხარდაჭერა</li>
