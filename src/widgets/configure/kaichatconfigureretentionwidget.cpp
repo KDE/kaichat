@@ -6,6 +6,7 @@
 
 #include "kaichatconfigureretentionwidget.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
+#include <KLocalization>
 #include <KLocalizedString>
 #include <QCheckBox>
 #include <QFormLayout>
@@ -21,7 +22,7 @@ KAIChatConfigureRetentionWidget::KAIChatConfigureRetentionWidget(QWidget *parent
     mExcludeFavoriteChats->setObjectName(u"mExcludeFavoriteChats"_s);
     mHistoryRetentionDays->setObjectName(u"mHistoryRetentionDays"_s);
     mHistoryRetentionDays->setSpecialValueText(i18n("Never"));
-    mHistoryRetentionDays->setSuffix(i18n("Days"));
+    KLocalization::setupSpinBoxFormatString(mHistoryRetentionDays, ki18ncp("Expire messages after %1", "%v day", "%v days"));
     mainLayout->addWidget(mExcludeFavoriteChats);
     mainLayout->addRow(i18n("Retention Days"), mHistoryRetentionDays);
 }
