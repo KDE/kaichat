@@ -7,10 +7,18 @@
 #pragma once
 
 #include <QWidget>
+#include <textautogeneratetext_version.h>
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 2, 42)
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateTextConfigureMcpServersWidget;
+}
+#else
 namespace TextAutoGenerateTextMcpProtocolWidgets
 {
 class McpServerWidget;
 }
+#endif
 namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
@@ -27,6 +35,10 @@ public:
     void restoreToDefaults();
 
 private:
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 2, 42)
+    TextAutoGenerateText::TextAutoGenerateTextConfigureMcpServersWidget *const mConfigureMcpServersWidget;
+#else
     TextAutoGenerateTextMcpProtocolWidgets::McpServerWidget *const mMcpServerWidget;
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
+#endif
 };
