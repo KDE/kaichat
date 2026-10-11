@@ -1,0 +1,679 @@
+# Translation of kaichat into Russian.
+# This file is distributed under the same license as the kaichat package.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-06 00:54+0000\n"
+"PO-Revision-Date: 2026-10-10 12:26+0200\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Александр Яворский"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kekcuha@gmail.com"
+
+#: apps/main.cpp:75
+#, kde-format
+msgid "Copyright © 2025-2026 Laurent Montel"
+msgstr "© Laurent Montel, 2025–2026"
+
+#: apps/main.cpp:79
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:79
+#, kde-format
+msgid "Maintainer"
+msgstr "Сопровождающий"
+
+#: apps/main.cpp:106
+#, kde-format
+msgid "The following instances are available:"
+msgstr "Доступные экземпляры:"
+
+#: apps/main.cpp:119
+#, kde-format
+msgid "List of Chats:"
+msgstr "Список чатов:"
+
+#: apps/main.cpp:132
+#, kde-format
+msgid "Plugins:"
+msgstr "Модули:"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr "Вывести список экземпляров"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr "Создать новый чат"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgid "New Chat Title"
+msgstr "Название нового чата"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new ephemeral chat"
+msgstr "Создать новый временный чат"
+
+#: core/kaichatcommandlineparser.cpp:27
+#, kde-format
+msgid "New Ephemeral Chat"
+msgstr "Новый временный чат"
+
+#: core/kaichatcommandlineparser.cpp:28
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr "Открыть «Быстрый запрос»"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr "Переключиться на чат"
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgid "Chat Name"
+msgstr "Название чата"
+
+#: core/kaichatcommandlineparser.cpp:32
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr "Переключиться на чат по идентификатору"
+
+#: core/kaichatcommandlineparser.cpp:33
+#, kde-format
+msgid "Chat Identifier"
+msgstr "Идентификатор чата"
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr "Задать вопрос"
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgid "Message"
+msgstr "Сообщение"
+
+#: core/kaichatcommandlineparser.cpp:36
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "Вывести список чатов"
+
+#: core/kaichatcommandlineparser.cpp:37
+#, kde-format
+msgctxt "@info:shell"
+msgid "Activate Debug Mode"
+msgstr "Включить режим отладки"
+
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid "Add an attachment. This can be repeated"
+msgstr "Добавить вложение. Допускается повторение"
+
+#: core/kaichatcommandlineparser.cpp:40
+#, kde-format
+msgid "Attachment Url"
+msgstr "URL вложения"
+
+#: core/kaichatcommandlineparser.cpp:42
+#, kde-format
+msgctxt "@info:shell"
+msgid "Define tool used. This can be repeated"
+msgstr "Задать используемый инструмент. Допускается повторение"
+
+#: core/kaichatcommandlineparser.cpp:43
+#, kde-format
+msgid "Tool Name"
+msgstr "Имя инструмента"
+
+#: core/kaichatcommandlineparser.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return plugins info"
+msgstr "Вывести сведения о модулях"
+
+#: core/kaichatcommandlineparser.cpp:46
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr "Показать доступные варианты обратной связи"
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import Chat"
+msgstr "Импортировать чат"
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgid "Import"
+msgstr "Импортировать"
+
+#: core/kaichatcommandlineparser.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start Ollama program"
+msgstr "Запустить программу Ollama"
+
+#: core/kaichatcommandlineparser.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "Chat file to import"
+msgstr "Файл чата для импорта"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:22
+#, kde-format
+msgid "Markdown"
+msgstr "Markdown"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
+#, kde-format
+msgid "User"
+msgstr "Пользователь"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
+#, kde-format
+msgid "Assistant"
+msgstr "Ассистент"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
+#, kde-format
+msgid "System"
+msgstr "Система"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
+#, kde-format
+msgid "Tool"
+msgstr "Инструмент"
+
+#: core/kaichatexportchataspdfjob.cpp:27
+#, kde-format
+msgid "Pdf"
+msgstr "PDF"
+
+#: core/kaichatexportchatastextjob.cpp:23
+#, kde-format
+msgid "Text"
+msgstr "Текст"
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, kde-format
+msgid "Instances"
+msgstr "Экземпляры"
+
+#: kcm/kcmautogeneratetext.cpp:32
+#, kde-format
+msgid "MCP Server"
+msgstr "Сервер MCP"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr "Поделиться текстом…"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr "Не удалось поделиться документом: %1"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
+#, kde-format
+msgid "File was shared."
+msgstr "Файл опубликован."
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>Новый запрос доступен по адресу:<br /><a href='%1'>%1</a> </qt>"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
+msgid "The Current Date Time"
+msgstr "Текущие дата и время"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr "Получить текущие дату и время"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tool to get current date time"
+msgstr "Этот инструмент позволяет получить текущие дату и время"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr "Настройка инструмента даты и времени"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, kde-format
+msgid "Get Current Date Time."
+msgstr "Получение текущих даты и времени."
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
+#, kde-format
+msgid "Current time is %1"
+msgstr "Текущее время — %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#, kde-format
+msgid "Current date is %1"
+msgstr "Текущая дата — %1"
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#, kde-format
+msgid "Current date time is %1"
+msgstr "Текущие дата и время: %1"
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
+#, kde-format
+msgid "Text to Speech"
+msgstr "Синтез речи"
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
+#, kde-format
+msgid "Speech to Text"
+msgstr "Распознавание речи"
+
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr "Включить синтез речи"
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr "&Использовать пользовательские шрифты"
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr "Показывать значок в системном лотке"
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr "Расположение базы данных:"
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr "Копировать путь"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:16
+#, kde-format
+msgid "Exclude Favorite Chats"
+msgstr "Исключить избранные чаты"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#, kde-format
+msgid "Never"
+msgstr "Никогда"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#, kde-format
+msgid "Days"
+msgstr "Дни"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, kde-format
+msgid "Retention Days"
+msgstr "Дней хранения"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr "Настройка KAIChat"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:55
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Общие"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
+#, kde-format
+msgctxt "@title Font page name"
+msgid "Font"
+msgstr "Шрифт"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr "Экземпляры"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#, kde-format
+msgctxt "@title MCP page name"
+msgid "MCP Servers"
+msgstr "Серверы MCP"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Проверка орфографии"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
+#, kde-format
+msgctxt "@title Text To Speech page name"
+msgid "Accessibility"
+msgstr "Специальные возможности"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Plugins page name"
+msgid "Plugins"
+msgstr "Модули"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences other page name"
+msgid "User Feedback"
+msgstr "Обратная связь"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:98
+#, kde-format
+msgctxt "@title Retention page name"
+msgid "Retention"
+msgstr "Хранение"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
+#, kde-format
+msgctxt "@title Privacy page name"
+msgid "Privacy"
+msgstr "Конфиденциальность"
+
+#: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Speech To Text"
+msgstr "Включить распознавание речи"
+
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Поиск…"
+
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Select Chat"
+msgstr "Выбрать чат"
+
+#: widgets/databasedialog/kaichatdatabasedialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Debug Database"
+msgstr "Отладка базы данных"
+
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select Chat Name"
+msgstr "Выберите название чата"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
+#, kde-format
+msgid "Chat"
+msgstr "Чат"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
+#, kde-format
+msgid "Messages"
+msgstr "Сообщения"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, kde-format
+msgid "Messages in Database"
+msgstr "Сообщения в базе данных"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
+#, kde-format
+msgid "Messages JSON"
+msgstr "Сообщения JSON"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
+#, kde-format
+msgid "Pending Typed Info"
+msgstr "Набранный неотправленный текст"
+
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr "Увеличить шрифт"
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr "Уменьшить шрифт"
+
+#: widgets/kaichatexportmenu.cpp:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export…"
+msgstr "Экспорт…"
+
+#: widgets/kaichatexportmenu.cpp:19
+#, kde-format
+msgctxt "@action"
+msgid "Export as JSON…"
+msgstr "Экспорт в JSON…"
+
+#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "kaichat"
+msgstr "kaichat"
+
+#: widgets/kaichatexportmenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Export as Markdown…"
+msgstr "Экспорт в Markdown…"
+
+#: widgets/kaichatexportmenu.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Export as Text…"
+msgstr "Экспорт в текст…"
+
+#: widgets/kaichatexportmenu.cpp:43
+#, kde-format
+msgctxt "@action"
+msgid "Export as Pdf…"
+msgstr "Экспорт в PDF…"
+
+#: widgets/kaichatimportmenu.cpp:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import…"
+msgstr "Импорт…"
+
+#: widgets/kaichatimportmenu.cpp:16
+#, kde-format
+msgctxt "@action"
+msgid "Import as JSON…"
+msgstr "Импорт из JSON…"
+
+#: widgets/kaichatmainwindow.cpp:91
+#, kde-format
+msgid "%1 string found."
+msgid_plural "%1 strings found."
+msgstr[0] "Найдена %1 строка."
+msgstr[1] "Найдено %1 строки."
+msgstr[2] "Найдено %1 строк."
+msgstr[3] "Найдена %1 строка."
+
+#: widgets/kaichatmainwindow.cpp:148
+#, kde-format
+msgid "What's new"
+msgstr "Что нового"
+
+#: widgets/kaichatmainwindow.cpp:152
+#, kde-format
+msgctxt "@action"
+msgid "Show Archive"
+msgstr "Показать архив"
+
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
+msgctxt "@action"
+msgid "New Chat"
+msgstr "Создать чат"
+
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr "Создать временный чат"
+
+#: widgets/kaichatmainwindow.cpp:181
+#, kde-format
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr "Поиск в базе данных…"
+
+#: widgets/kaichatmainwindow.cpp:219
+#, kde-format
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr "Открыть «Быстрый запрос»…"
+
+#: widgets/kaichatmainwindow.cpp:333
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+"<qt>Это действие полностью скроет строку меню. Чтобы снова её показать, "
+"нажмите %1.</qt>"
+
+#: widgets/kaichatmainwindow.cpp:336
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr "Скрытие строки меню"
+
+#: widgets/kaichatmainwindow.cpp:372
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Chats"
+msgstr "Импорт чатов"
+
+#: widgets/kaichatmainwindow.cpp:385
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Chats"
+msgstr "Экспорт чатов"
+
+#: widgets/kaichatmainwindow.cpp:507
+#, kde-format
+msgid "Model Download Done"
+msgstr "Загрузка модели завершена"
+
+#: widgets/kaichatmainwindow.cpp:508
+#, kde-format
+msgid "Model %1 was downloaded."
+msgstr "Модель %1 загружена."
+
+#: widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
+
+#. i18n: ectx: Menu (settings)
+#: widgets/kaichatui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "&Настройка"
+
+#. i18n: ectx: Menu (edit)
+#: widgets/kaichatui.rc:22
+#, kde-format
+msgid "&Edit"
+msgstr "&Правка"
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:26
+#, kde-format
+msgid "View"
+msgstr "Вид"
+
+#. i18n: ectx: Menu (Tools)
+#: widgets/kaichatui.rc:32
+#, kde-format
+msgid "Tools"
+msgstr "Сервис"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:38
+#, kde-format
+msgid "&Help"
+msgstr "&Справка"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgets/kaichatui.rc:45
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Основная панель инструментов"
+
+#: widgets/userfeedback/accountinfosource.cpp:24
+#, kde-format
+msgid "Account information"
+msgstr "Сведения об учётной записи"
+
+#: widgets/userfeedback/accountinfosource.cpp:29
+#, kde-format
+msgid "Return the number of account."
+msgstr "Возвращает количество учётных записей."

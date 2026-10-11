@@ -323,7 +323,7 @@
 ><guimenu
 >Вид</guimenu
 ><guimenuitem
->Показывать архив</guimenuitem
+>Показать архив</guimenuitem
 ></menuchoice
 >.</para>
 
@@ -403,7 +403,7 @@
 ><guimenu
 >Сервис</guimenu
 ><guimenuitem
->Открыть быстрый запрос…</guimenuitem
+>Открыть «Быстрый запрос»…</guimenuitem
 ></menuchoice
 >, с помощью глобальной комбинации клавиш <keycombo action="simul"
 >&Meta;<keycap
@@ -450,7 +450,7 @@
 <varlistentry>
 <term
 ><guimenuitem
->Экспортировать как Markdown…</guimenuitem
+>Экспорт в Markdown…</guimenuitem
 ></term>
 <listitem
 ><para
@@ -460,7 +460,7 @@
 <varlistentry>
 <term
 ><guimenuitem
->Экспортировать как текст…</guimenuitem
+>Экспорт в текст…</guimenuitem
 ></term>
 <listitem
 ><para
@@ -744,18 +744,6 @@
 <listitem
 ><para
 >Вывести доступные текстовые модули и модули инструментов и завершить работу.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><option
->--instance</option
-> <replaceable
->имя</replaceable
-></term>
-<listitem
-><para
->Запустить с определённым экземпляром.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
