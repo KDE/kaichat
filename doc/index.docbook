@@ -34,7 +34,7 @@
 
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2026-09-26</date>
+<date>2026-10-12</date>
 <releaseinfo></releaseinfo>
 
 <abstract>
@@ -49,6 +49,7 @@
 <keyword>chat</keyword>
 <keyword>Ollama</keyword>
 <keyword>LLM</keyword>
+<keyword>MCP</keyword>
 <keyword>privacy</keyword>
 </keywordset>
 </bookinfo>
@@ -154,7 +155,8 @@ the conversation view as it is being generated, and a notification is shown when
 long answer is finished.</para>
 
 <para>You can attach files to a question, and enable the tools the model is allowed
-to call while answering it. Each chat keeps its own history, which is sent along
+to call while answering it, including the ones provided by your MCP servers (see
+<xref linkend="mcp-servers"/>). Each chat keeps its own history, which is sent along
 with your new question so that the model knows the context.</para>
 
 </sect1>
@@ -358,7 +360,7 @@ and manage the models available on them.</para></listitem>
 <varlistentry>
 <term><guilabel>MCP Servers</guilabel></term>
 <listitem><para>Model Context Protocol servers, which give the model access to
-external data and actions. This support is still experimental.</para></listitem>
+external data and actions. See <xref linkend="mcp-servers"/>.</para></listitem>
 </varlistentry>
 <varlistentry>
 <term><guilabel>Spell Checking</guilabel></term>
@@ -401,6 +403,125 @@ Notifications…</guimenuitem></menuchoice>.</para>
 
 <para>Instances and MCP servers can also be configured outside of the application,
 from the <guilabel>AI</guilabel> module of &systemsettings;.</para>
+
+<sect1 id="mcp-servers">
+<title>MCP servers</title>
+
+<para>The Model Context Protocol (MCP) is an open standard which lets a model use
+tools provided by external programs, called MCP servers: reading your files, querying
+a database, searching a documentation, and so on. &i18n-kapplication; acts as an MCP
+client: it connects to the servers you configure and offers their tools to the
+model.</para>
+
+<sect2 id="mcp-adding-server">
+<title>Adding a server</title>
+
+<para>Servers are managed on the <guilabel>MCP Servers</guilabel> page of the
+configuration dialog. Use the <guibutton>Add Server…</guibutton> button, or the
+context menu of the list, to add one; double-click a server or use
+<guimenuitem>Edit…</guimenuitem> to modify it, and <guimenuitem>Remove
+Server</guimenuitem> to delete it. The checkbox in front of each server enables or
+disables it without losing its configuration.</para>
+
+<para>Each server has a <guilabel>Name</guilabel>, an optional
+<guilabel>Icon</guilabel> and a <guilabel>Type</guilabel>, which tells how
+&i18n-kapplication; talks to it:</para>
+
+<variablelist>
+<varlistentry>
+<term><guilabel>Standard IO</guilabel></term>
+<listitem><para>The server is a program started by &i18n-kapplication; on your
+computer. Enter the <guilabel>Command</guilabel> to run and its
+<guilabel>Arguments</guilabel>, as given in the documentation of the
+server.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Streamable HTTP</guilabel></term>
+<listitem><para>The server is reached over the network at the given
+<guilabel>URL</guilabel>. Additional <guilabel>Headers</guilabel>, for instance an
+<literal>Authorization</literal> header holding an access token, can be added in
+<quote>Name: Value</quote> form.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>SSE</guilabel></term>
+<listitem><para>The older HTTP transport based on Server-Sent Events, still used by
+some servers. Enter its <guilabel>URL</guilabel>.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para><guilabel>Allowed folders</guilabel> lists the folders the server may work in.
+The list is passed to the server, which is expected to restrict itself to these
+folders; a server which accesses files usually needs at least one.</para>
+
+<para>Changes are applied when you close the configuration dialog with
+<guibutton>OK</guibutton> or <guibutton>Apply</guibutton>. MCP servers can also be
+configured from the <guilabel>AI</guilabel> module of &systemsettings;; the list is
+shared with the other applications using it.</para>
+
+</sect2>
+
+<sect2 id="mcp-using-tools">
+<title>Using MCP tools in a chat</title>
+
+<para>Every enabled server is shown as a button among the tools available under the
+input field. Check the button to let the model use the tools of this server for your
+next questions. The arrow next to it opens a menu listing these tools, from which you
+can select only some of them; &i18n-kapplication; connects to the server the first
+time this menu is opened, in order to know its tools.</para>
+
+<para>While the model is calling a tool, its name is shown in the status bar, and the
+result is sent back to the model to complete its answer.</para>
+
+</sect2>
+
+<sect2 id="mcp-confirmation">
+<title>Confirmations and requests</title>
+
+<para>A tool can do more than read data, so &i18n-kapplication; asks before running
+one. The <guilabel>Run Tool</guilabel> dialog shows the server, the tool and the
+arguments the model wants to pass to it:</para>
+
+<variablelist>
+<varlistentry>
+<term><guibutton>Allow</guibutton></term>
+<listitem><para>Run the tool this time.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>Always Allow This Server</guibutton></term>
+<listitem><para>Run the tool, and no longer ask for any tool of this
+server.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guibutton>Deny</guibutton></term>
+<listitem><para>Do not run the tool.</para></listitem>
+</varlistentry>
+</variablelist>
+
+<para>The servers whose tools run without confirmation are checked in the
+<guilabel>Run tools without confirmation</guilabel> list of the <guilabel>MCP
+Servers</guilabel> page, where you can uncheck them again.</para>
+
+<para>A server can also ask something of you or of the model while it works:</para>
+
+<itemizedlist>
+<listitem><para>it can ask you to fill in some information, in a <guilabel>Request
+from</guilabel> dialog showing the fields it needs. <guibutton>Accept</guibutton>
+sends your answer, <guibutton>Decline</guibutton> refuses to give
+it;</para></listitem>
+<listitem><para>it can ask the model to generate some text for it. The
+<guilabel>Sampling Request from MCP Server</guilabel> dialog shows what would be sent
+to the model; nothing is sent unless you choose <guibutton>Send to
+LLM</guibutton>.</para></listitem>
+</itemizedlist>
+
+<para>Only add servers you trust. A <guilabel>Standard IO</guilabel> server is a
+program running with your own rights, and what a tool returns is read by the model
+and, with an online service, sent to its provider along with your
+conversation.</para>
+
+</sect2>
+
+</sect1>
 
 <sect1 id="files">
 <title>Files used</title>
