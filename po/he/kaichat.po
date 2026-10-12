@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 00:54+0000\n"
+"POT-Creation-Date: 2026-10-12 00:56+0000\n"
 "PO-Revision-Date: 2026-09-27 09:34+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
@@ -344,22 +344,27 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "העתקת נתיב"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:16
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
 #, kde-format
 msgid "Exclude Favorite Chats"
 msgstr "החרגת שיחות מועדפות"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
 msgstr "אף פעם לא"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
-msgid "Days"
-msgstr "ימים"
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
 msgid "Retention Days"
 msgstr "ימים לשימור"
@@ -682,6 +687,9 @@ msgstr "פרטי החשבון"
 #, kde-format
 msgid "Return the number of account."
 msgstr "החזרת מספר חשבון."
+
+#~ msgid "Days"
+#~ msgstr "ימים"
 
 #~ msgctxt "@info:shell"
 #~ msgid "Start with specific instance"

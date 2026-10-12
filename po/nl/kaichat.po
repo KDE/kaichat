@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 00:54+0000\n"
+"POT-Creation-Date: 2026-10-12 00:56+0000\n"
 "PO-Revision-Date: 2026-10-06 10:59+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -343,22 +343,25 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "Pad kopiëren"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:16
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
 #, kde-format
 msgid "Exclude Favorite Chats"
 msgstr "Favoriete chats uitsluiten"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
 msgstr "Nooit"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
-msgid "Days"
-msgstr "Dagen"
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
+msgstr[1] ""
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
 msgid "Retention Days"
 msgstr "Bewaardagen"
@@ -677,6 +680,9 @@ msgstr "Account-informatie"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Het nummer van het account teruggeven."
+
+#~ msgid "Days"
+#~ msgstr "Dagen"
 
 #~ msgctxt "@info:shell"
 #~ msgid "Start with specific instance"

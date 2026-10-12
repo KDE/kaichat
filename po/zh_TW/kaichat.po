@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 00:54+0000\n"
+"POT-Creation-Date: 2026-10-12 00:56+0000\n"
 "PO-Revision-Date: 2026-10-01 03:48+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -343,22 +343,24 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "複製路徑"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:16
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
 #, kde-format
 msgid "Exclude Favorite Chats"
 msgstr "排除最愛聊天"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
 msgstr "永不"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
-msgid "Days"
-msgstr "天"
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
 msgid "Retention Days"
 msgstr "保留天數"
@@ -676,6 +678,9 @@ msgstr "帳戶資訊"
 #, kde-format
 msgid "Return the number of account."
 msgstr "回傳帳戶數量。"
+
+#~ msgid "Days"
+#~ msgstr "天"
 
 #~ msgctxt "@info:shell"
 #~ msgid "Start with specific instance"

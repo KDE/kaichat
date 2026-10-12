@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-06 00:54+0000\n"
+"POT-Creation-Date: 2026-10-12 00:56+0000\n"
 "PO-Revision-Date: 2026-10-06 05:01+0200\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -344,22 +344,25 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "ბილიკის კოპირება"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:16
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
 #, kde-format
 msgid "Exclude Favorite Chats"
 msgstr "რჩეული ჩატების ამოღება"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:23
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
 msgstr "არასდროს"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
-msgid "Days"
-msgstr "დღე"
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
+msgstr[1] ""
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
 msgid "Retention Days"
 msgstr "შენარჩუნების დღეები"
@@ -678,6 +681,9 @@ msgstr "ანგარიშის ინფორმაცია"
 #, kde-format
 msgid "Return the number of account."
 msgstr "ანგარიშების რაოდენობის დაბრუნება."
+
+#~ msgid "Days"
+#~ msgstr "დღე"
 
 #~ msgctxt "@info:shell"
 #~ msgid "Start with specific instance"
