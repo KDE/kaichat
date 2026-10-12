@@ -14,7 +14,7 @@
 using namespace Qt::Literals::StringLiterals;
 KAIChatConfigureRetentionWidget::KAIChatConfigureRetentionWidget(QWidget *parent)
     : QWidget{parent}
-    , mExcludeFavoriteChats(new QCheckBox(i18n("Exclude Favorite Chats"), this))
+    , mExcludeFavoriteChats(new QCheckBox(this))
     , mHistoryRetentionDays(new QSpinBox(this))
 {
     auto mainLayout = new QFormLayout(this);
@@ -23,8 +23,8 @@ KAIChatConfigureRetentionWidget::KAIChatConfigureRetentionWidget(QWidget *parent
     mHistoryRetentionDays->setObjectName(u"mHistoryRetentionDays"_s);
     mHistoryRetentionDays->setSpecialValueText(i18n("Never"));
     KLocalization::setupSpinBoxFormatString(mHistoryRetentionDays, ki18ncp("Expire messages after %1", "%v day", "%v days"));
-    mainLayout->addWidget(mExcludeFavoriteChats);
-    mainLayout->addRow(i18n("Retention Days"), mHistoryRetentionDays);
+    mainLayout->addRow(i18n("Exclude Favorite Chats:"), mExcludeFavoriteChats);
+    mainLayout->addRow(i18n("Retention Days:"), mHistoryRetentionDays);
 }
 
 KAIChatConfigureRetentionWidget::~KAIChatConfigureRetentionWidget() = default;
