@@ -75,10 +75,10 @@
 >Introducció</title>
 
 <para
->El &i18n-kapplication; és una aplicació de xat que us permet parlar amb models d'IA d'idioma, ja sigui executant-se localment amb Ollama o proporcionat per un servei en línia d'IA.</para>
+>El &i18n-kapplication; és una aplicació de xat que us permet parlar amb models d'IA d'idioma, sigui executant-se localment amb Ollama o proporcionat per un servei en línia d'IA.</para>
 
 <para
->Les converses s'emmagatzemen en una base de dades local al vostre ordinador, de manera que encara hi són la propera vegada que inicieu l'aplicació. Podeu navegar per elles, cercar-hi, organitzar-les en projectes i amb etiquetes, arxivar les que ja no necessiteu i exportar-les a un fitxer. Quan no voleu que es mantingui res d'una conversa, podeu utilitzar un debat efímer en el seu lloc.</para>
+>Les converses s'emmagatzemen en una base de dades local al vostre ordinador, de manera que encara hi són la pròxima vegada que inicieu l'aplicació. Podeu navegar per elles, cercar-hi, organitzar-les en projectes i amb etiquetes, arxivar les que ja no necessiteu i exportar-les a un fitxer. Quan no voleu que es mantingui res d'una conversa, podeu utilitzar un debat efímer en el seu lloc.</para>
 
 <para
 >El &i18n-kapplication; no proporciona un model propi: parla amb un proveïdor de models que configureu. No s'envia res enlloc fins que no hàgiu configurat aquest proveïdor i hàgiu fet una pregunta.</para>
@@ -730,18 +730,6 @@
 <listitem
 ><para
 >Imprimeix els connectors de text i d'eines disponibles i surt.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><option
->--instance</option
-> <replaceable
->nom</replaceable
-></term>
-<listitem
-><para
->Comença amb una instància específica.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
