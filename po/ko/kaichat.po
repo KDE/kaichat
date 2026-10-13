@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-12 00:56+0000\n"
+"POT-Creation-Date: 2026-10-13 00:49+0000\n"
 "PO-Revision-Date: 2026-10-03 23:31+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -343,11 +343,6 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "경로 복사"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
-#, kde-format
-msgid "Exclude Favorite Chats"
-msgstr "책갈피에 등록된 대화 제외"
-
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
@@ -360,9 +355,16 @@ msgid "%v day"
 msgid_plural "%v days"
 msgstr[0] ""
 
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, fuzzy, kde-format
+#| msgid "Exclude Favorite Chats"
+msgid "Exclude Favorite Chats:"
+msgstr "책갈피에 등록된 대화 제외"
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, kde-format
-msgid "Retention Days"
+#, fuzzy, kde-format
+#| msgid "Retention Days"
+msgid "Retention Days:"
 msgstr "저장 기한"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52

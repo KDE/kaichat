@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-12 00:56+0000\n"
+"POT-Creation-Date: 2026-10-13 00:49+0000\n"
 "PO-Revision-Date: 2026-05-09 12:31+0200\n"
 "Last-Translator: Frank Steinmetzger <dev-kde@felsenfleischer.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
@@ -352,13 +352,6 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr ""
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
-msgid "Exclude Favorite Chats"
-msgstr "Unterhaltungen exportieren"
-
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
@@ -372,9 +365,16 @@ msgid_plural "%v days"
 msgstr[0] ""
 msgstr[1] ""
 
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
+msgid "Exclude Favorite Chats:"
+msgstr "Unterhaltungen exportieren"
+
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
-msgid "Retention Days"
+msgid "Retention Days:"
 msgstr ""
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52

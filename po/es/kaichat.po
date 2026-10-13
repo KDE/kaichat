@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-12 00:56+0000\n"
-"PO-Revision-Date: 2026-10-06 12:21+0100\n"
+"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"PO-Revision-Date: 2026-10-12 11:33+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -344,11 +344,6 @@ msgctxt "@info:tooltip"
 msgid "Copy Path"
 msgstr "Copiar ruta"
 
-#: widgets/configure/kaichatconfigureretentionwidget.cpp:17
-#, kde-format
-msgid "Exclude Favorite Chats"
-msgstr "Excluir conversaciones favoritas"
-
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
@@ -359,12 +354,19 @@ msgstr "Nunca"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v día"
+msgstr[1] "%v días"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, fuzzy, kde-format
+#| msgid "Exclude Favorite Chats"
+msgid "Exclude Favorite Chats:"
+msgstr "Excluir conversaciones favoritas"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, kde-format
-msgid "Retention Days"
+#, fuzzy, kde-format
+#| msgid "Retention Days"
+msgid "Retention Days:"
 msgstr "Días de retención"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
@@ -681,6 +683,3 @@ msgstr "Información de la cuenta"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Devolver el número de la cuenta."
-
-#~ msgid "Days"
-#~ msgstr "Días"
