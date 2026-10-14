@@ -45,7 +45,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2026-09-26</date>
+>2026-10-12</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -65,6 +65,8 @@
 >Ollama</keyword>
 <keyword
 >LLM</keyword>
+<keyword
+>MCP</keyword>
 <keyword
 >privacy</keyword>
 </keywordset>
@@ -195,7 +197,7 @@
 >Typ uw vraag in het invoerveld en bevestig deze. Het antwoord verschijnt in de gespreksweergave terwijl het wordt gegenereerd, en er wordt een melding getoond zodra een lang antwoord klaar is.</para>
 
 <para
->U kunt bestanden aan een vraag toevoegen en de hulpmiddelen inschakelen die het model mag gebruiken bij het beantwoorden ervan. Elke chat behoudt zijn eigen geschiedenis, die samen met uw nieuwe vraag wordt meegestuurd zodat het model de context kent.</para>
+>U kunt bestanden aan een vraag toevoegen en de hulpmiddelen inschakelen die het model mag aanroepen bij het beantwoorden ervan, waaronder de hulpmiddelen die door uw MCP-servers worden aangeboden (zie <xref linkend="mcp-servers"/>). Elke chat behoudt zijn eigen geschiedenis, die samen met uw nieuwe vraag wordt meegestuurd zodat het model op de hoogte is van de context.</para>
 
 </sect1>
 
@@ -574,7 +576,7 @@
 ></term>
 <listitem
 ><para
->Model Context Protocol-servers, die het model toegang geven tot externe gegevens en acties. Deze ondersteuning is nog experimenteel.</para
+>Model Context Protocol-servers, die het model toegang geven tot externe gegevens en acties. Zie <xref linkend="mcp-servers"/>.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -658,6 +660,194 @@
 >AI</guilabel
 > van &systemsettings;.</para>
 
+<sect1 id="mcp-servers">
+<title
+>MCP-servers</title>
+
+<para
+>Het Model Context Protocol (MCP) is een open standaard waarmee een model gebruik kan maken van hulpmiddelen die door externe programma's – zogenaamde MCP-servers – worden aangeboden: het lezen van bestanden, het bevragen van een database, het doorzoeken van documentatie, enzovoort. &i18n-kapplication; fungeert als MCP-client: het maakt verbinding met de servers die u configureert en stelt de bijbehorende tools beschikbaar aan het model.</para>
+
+<sect2 id="mcp-adding-server">
+<title
+>Een server toevoegen</title>
+
+<para
+>Servers worden beheerd op de pagina <guilabel
+>MCP-servers</guilabel
+> van het configuratievenster. Gebruik de knop <guibutton
+>Server toevoegen…</guibutton
+> of het contextmenu van de lijst om een ​​server toe te voegen; dubbelklik op een server of gebruik <guimenuitem
+>Bewerken…</guimenuitem
+> om deze te wijzigen en <guimenuitem
+>Server verwijderen</guimenuitem
+> om deze te verwijderen. Met het selectievakje voor elke server kunt u deze in- of uitschakelen zonder de configuratie te verliezen.</para>
+
+<para
+>Elke server heeft een <guilabel
+>Naam</guilabel
+>, een optioneel <guilabel
+>Pictogram</guilabel
+> en een <guilabel
+>Type</guilabel
+>, dat vertelt hoe &i18n-kapplication; ermee praat:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Standaard-IO</guilabel
+></term>
+<listitem
+><para
+>De server is een programma dat door &i18n-kapplication; op uw computer wordt gestart. Voer het uit te voeren <guilabel
+>Commando</guilabel
+> en de bijbehorende <guilabel
+>Argumenten</guilabel
+> in, zoals vermeld in de documentatie van de server.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Te streamen HTTP</guilabel
+></term>
+<listitem
+><para
+>De server is via het netwerk bereikbaar op de opgegeven <guilabel
+>URL</guilabel
+>. Aanvullende <guilabel
+>Koppen</guilabel
+> – bijvoorbeeld een kop <literal
+>Authorization</literal
+> met een toegangstoken – kunnen worden toegevoegd in de vorm <quote
+>Naam: Waarde</quote
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>SSE</guilabel
+></term>
+<listitem
+><para
+>Het oudere HTTP-transport op basis van Server-Sent Events, dat nog steeds door sommige servers wordt gebruikt. Voer de bijbehorende <guilabel
+>URL</guilabel
+> in.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+><guilabel
+>Toegestane mappen</guilabel
+> bevat de lijst met mappen waarin de server mag werken. De lijst wordt aan de server doorgegeven, die geacht wordt zich tot deze mappen te beperken; een server die toegang tot bestanden nodig heeft, heeft er doorgaans minstens één nodig.</para>
+
+<para
+>Wijzigingen worden doorgevoerd wanneer u het configuratiedialoogvenster sluit met <guibutton
+>OK</guibutton
+> of <guibutton
+>Toepassen</guibutton
+>. MCP-servers kunnen ook worden geconfigureerd via de module <guilabel
+>AI</guilabel
+> van &systemsettings;; de lijst wordt gedeeld met andere toepassingen die er gebruik van maken.</para>
+
+</sect2>
+
+<sect2 id="mcp-using-tools">
+<title
+>MCP-hulpmiddelen in een chat gebruiken</title>
+
+<para
+>Elke ingeschakelde server wordt weergegeven als een knop tussen de beschikbare hulpmiddelen onder het invoerveld. Schakel de knop in om het model de hulpmiddelen van deze server te laten gebruiken voor uw volgende vragen. Het pijltje ernaast opent een menu met deze hulpmiddelen, waaruit u er slechts enkele kunt selecteren; &i18n-kapplication; maakt verbinding met de server zodra dit menu voor het eerst wordt geopend, om de beschikbare hulpmiddelen te kunnen identificeren.</para>
+
+<para
+>Terwijl het model een hulpmiddel aanroept, wordt de naam ervan in de statusbalk weergegeven en wordt het resultaat teruggestuurd naar het model om het antwoord te voltooien.</para>
+
+</sect2>
+
+<sect2 id="mcp-confirmation">
+<title
+>Bevestigingen en verzoeken</title>
+
+<para
+>Een hulpmiddel kan meer doen dan alleen gegevens lezen; daarom vraagt ​​&i18n-kapplication; om bevestiging voordat er een wordt uitgevoerd. Het dialoogvenster <guilabel
+>hulpmiddel uitvoeren</guilabel
+> toont de server, het hulpmiddel en de argumenten die het model eraan wil doorgeven:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guibutton
+>Toestaan</guibutton
+></term>
+<listitem
+><para
+>Het hulpmiddel deze keer uitvoeren.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guibutton
+>Deze server altijd toestaan</guibutton
+></term>
+<listitem
+><para
+>Voer het hulpmiddel uit en vraag niet langer om een hulpmiddel van deze server.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guibutton
+>Weigeren</guibutton
+></term>
+<listitem
+><para
+>Voer het hulpmiddel niet uit.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>De servers waarvan de hulpmiddelen zonder bevestiging worden uitgevoerd, zijn aangevinkt in de lijst <guilabel
+>Hulpmiddelen zonder bevestiging uitvoeren</guilabel
+> op de pagina <guilabel
+>MCP-servers</guilabel
+>; daar kunt u het vinkje ook weer verwijderen.</para>
+
+<para
+>Een server kan ook iets van u of van het model vragen terwijl deze aan het werk is:</para>
+
+<itemizedlist>
+<listitem
+><para
+>het kan u vragen enkele gegevens in te vullen in een dialoogvenster <guilabel
+>Verzoek van</guilabel
+> dat de vereiste velden toont. <guibutton
+>Accepteren</guibutton
+> verstuurt uw antwoord, <guibutton
+>Weigeren</guibutton
+> wijst het verzoek af;</para
+></listitem>
+<listitem
+><para
+>het kan het model vragen om tekst te genereren. Het dialoogvenster <guilabel
+>Sampling-verzoek aan MCP-server</guilabel
+> toont wat er naar het model zou worden verzonden; er wordt niets verzonden tenzij u kiest voor <guibutton
+>Verzenden naar LLM</guibutton
+>.</para
+></listitem>
+</itemizedlist>
+
+<para
+>Voeg alleen servers toe die u vertrouwt. Een <guilabel
+>Standard IO</guilabel
+>-server is een programma dat met uw eigen rechten wordt uitgevoerd; de uitvoer van het hulpmiddel wordt door het model gelezen en – bij een onlinedienst – samen met uw chat naar de aanbieder ervan gestuurd.</para>
+
+</sect2>
+
+</sect1>
+
 <sect1 id="files">
 <title
 >Gebruikte bestanden</title>
@@ -730,18 +920,6 @@
 <listitem
 ><para
 >Druk de beschikbare tekst- en hulpmiddel-plug-ins af en sluit af.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><option
->--instance</option
-> <replaceable
->naam</replaceable
-></term>
-<listitem
-><para
->Start met een specifiek exemplaar.</para
 ></listitem>
 </varlistentry>
 <varlistentry>

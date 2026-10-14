@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-13 00:49+0000\n"
-"PO-Revision-Date: 2026-10-12 07:55+0200\n"
+"PO-Revision-Date: 2026-10-13 23:10+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -357,16 +357,14 @@ msgstr[2] "%v дней"
 msgstr[3] "%v день"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, fuzzy, kde-format
-#| msgid "Exclude Favorite Chats"
+#, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr "Исключить избранные чаты"
+msgstr "Исключить избранные чаты:"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, fuzzy, kde-format
-#| msgid "Retention Days"
+#, kde-format
 msgid "Retention Days:"
-msgstr "Дней хранения"
+msgstr "Дней хранения:"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format

@@ -45,7 +45,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->26 de setembre de 2026</date>
+>12 d'octubre de 2026</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -65,6 +65,8 @@
 >Ollama</keyword>
 <keyword
 >LLM</keyword>
+<keyword
+>MCP</keyword>
 <keyword
 >privadesa</keyword>
 </keywordset>
@@ -195,7 +197,7 @@
 >Escriviu la pregunta al camp d'entrada i valideu-la. La resposta apareix a la vista de conversa a mesura que s'està generant, i es mostra una notificació quan s'acaba una resposta llarga.</para>
 
 <para
->Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon. Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
+>Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon, incloses les proporcionades pels servidors MCP (vegeu <xref linkend="mcp-servers"/>). Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
 
 </sect1>
 
@@ -574,7 +576,7 @@
 ></term>
 <listitem
 ><para
->Els servidors de Model Context Protocol, que donen al model accés a dades i accions externes. Aquesta implementació encara és experimental.</para
+>Els servidors de Model Context Protocol, que donen al model accés a dades i accions externes. Vegeu <xref linkend="mcp-servers"/>.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -657,6 +659,192 @@
 >Les instàncies i els servidors MCP també es poden configurar fora de l'aplicació, des del mòdul d'<guilabel
 >IA</guilabel
 > de l'&systemsettings;.</para>
+
+<sect1 id="mcp-servers">
+<title
+>Servidors MCP</title>
+
+<para
+>El «Model Context Protocol» (MCP) és un estàndard obert que permet a un model utilitzar eines proporcionades per programes externs, anomenats servidors MCP: llegir els vostres fitxers, consultar una base de dades, cercar una documentació, etc. El &i18n-kapplication; actua com un client MCP: es connecta als servidors que configureu i ofereix les seves eines al model.</para>
+
+<sect2 id="mcp-adding-server">
+<title
+>Afegir un servidor</title>
+
+<para
+>Els servidors es gestionen a la pàgina <guilabel
+>Servidors MCP</guilabel
+> del diàleg de configuració. Utilitzeu el botó <guibutton
+>Afegeix un servidor…</guibutton
+>, o el menú contextual de la llista per afegir-ne un; feu doble clic a un servidor o utilitzeu <guimenuitem
+>Edita…</guimenuitem
+> per modificar-lo, i <guimenuitem
+>Elimina el servidor</guimenuitem
+> per suprimir-lo. La casella de selecció davant de cada servidor l'habilita o inhabilita sense perdre la seva configuració.</para>
+
+<para
+>Cada servidor té un <guilabel
+>Nom</guilabel
+>, una <guilabel
+>Icona</guilabel
+> opcional i un <guilabel
+>Tipus</guilabel
+>, que indica com el &i18n-kapplication; interactua amb ell:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>E/S estàndard</guilabel
+></term>
+<listitem
+><para
+>El servidor és un programa iniciat pel &i18n-kapplication; a l'ordinador. Introduïu l'<guilabel
+>Ordre</guilabel
+> a executar i els seus <guilabel
+>Arguments</guilabel
+>, tal com s'indica a la documentació del servidor.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>HTTP Streamable</guilabel
+></term>
+<listitem
+><para
+>S'arriba al servidor a través de la xarxa a l'<guilabel
+>URL</guilabel
+> indicat. Es poden afegir <guilabel
+>Capçaleres</guilabel
+> addicionals, per exemple, una capçalera <literal
+>Authorization</literal
+> amb un testimoni d'accés, en la forma «Nom: Valor».</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>SSE</guilabel
+></term>
+<listitem
+><para
+>El transport HTTP més antic basat en esdeveniments enviats del servidor, encara utilitzat per alguns servidors. Introduïu el seu <guilabel
+>URL</guilabel
+>.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+><guilabel
+>Carpetes permeses</guilabel
+> llista les carpetes en les quals hi pot treballar el servidor. La llista es passa al servidor, que s'espera que es restringeixi a aquestes carpetes; un servidor que accedeix als fitxers normalment en necessita almenys una.</para>
+
+<para
+>Els canvis s'apliquen quan tanqueu el diàleg de configuració amb <guibutton
+>D'acord</guibutton
+> o <guibutton
+>Aplica</guibutton
+>. Els servidors MCP també es poden configurar des del mòdul <guilabel
+>IA</guilabel
+> del &systemsettings;; la llista es comparteix amb les altres aplicacions que l'utilitzen.</para>
+
+</sect2>
+
+<sect2 id="mcp-using-tools">
+<title
+>Ús de les eines MCP en un xat</title>
+
+<para
+>Cada servidor habilitat es mostra com un botó entre les eines disponibles sota el camp d'entrada. Marqueu el botó per a permetre que el model utilitzi les eines d'aquest servidor per a les vostres preguntes següents. La fletxa que hi ha al costat obre un menú que llista aquestes eines, des del qual només en podeu seleccionar algunes; el &i18n-kapplication; connecta al servidor la primera vegada que s'obre aquest menú, per tal de conèixer les seves eines.</para>
+
+<para
+>Mentre el model invoca una eina, el seu nom es mostra a la barra d'estat, i el resultat s'envia de tornada al model per completar la seva resposta.</para>
+
+</sect2>
+
+<sect2 id="mcp-confirmation">
+<title
+>Confirmacions i sol·licituds</title>
+
+<para
+>Una eina pot fer més que llegir dades, de manera que el &i18n-kapplication; demana abans d'executar-ne una. El diàleg <guilabel
+>Executa una eina</guilabel
+> mostra el servidor, l'eina i els arguments que el model vol passar-hi:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guibutton
+>Permet</guibutton
+></term>
+<listitem
+><para
+>Executa l'eina aquesta vegada.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guibutton
+>Permet sempre aquest servidor</guibutton
+></term>
+<listitem
+><para
+>Executeu l'eina i no torna a demanar cap eina d'aquest servidor.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guibutton
+>Denega</guibutton
+></term>
+<listitem
+><para
+>No executa l'eina.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Els servidors les eines dels quals s'executen sense confirmació es comproven a la llista <guilabel
+>Executa eines sense confirmació</guilabel
+> de la pàgina <guilabel
+>Servidors MCP</guilabel
+>, on podeu desmarcar-les de nou.</para>
+
+<para
+>Un servidor també pot preguntar alguna cosa de vós o del model mentre treballa:</para>
+
+<itemizedlist>
+<listitem
+><para
+>us pot demanar que ompliu alguna informació, en un diàleg <guilabel
+>Sol·licita de</guilabel
+> que mostra els camps que necessita. <guibutton
+>Accepta</guibutton
+> envia la vostra resposta, <guibutton
+>Declina</guibutton
+> rebutja donar-la;</para
+></listitem>
+<listitem
+><para
+>pot demanar al model que generi algun text per a ell. El diàleg <guilabel
+>Petició de mostreig des del servidor MCP</guilabel
+> mostra el que s'enviaria al model; no s'enviarà res tret que trieu <guibutton
+>Envia al LLM</guibutton
+>.</para
+></listitem>
+</itemizedlist>
+
+<para
+>Afegiu només els servidors en els quals confieu. Un servidor <guilabel
+>E/S estàndard</guilabel
+> és un programa que s'executa amb els vostres propis drets, i el que retorna una eina ho llegeix el model i, amb un servei en línia, s'envia al seu proveïdor juntament amb la vostra conversa.</para>
+
+</sect2>
+
+</sect1>
 
 <sect1 id="files">
 <title
