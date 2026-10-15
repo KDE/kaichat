@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-13 00:49+0000\n"
-"PO-Revision-Date: 2026-10-06 14:21+0200\n"
+"PO-Revision-Date: 2026-10-13 16:03+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -352,20 +352,18 @@ msgstr "Mai"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v giorno"
+msgstr[1] "%v giorni"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, fuzzy, kde-format
-#| msgid "Exclude Favorite Chats"
+#, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr "Escludi le chat preferite"
+msgstr "Escludi le chat preferite:"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, fuzzy, kde-format
-#| msgid "Retention Days"
+#, kde-format
 msgid "Retention Days:"
-msgstr "Giorni di conservazione"
+msgstr "Giorni di conservazione:"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
