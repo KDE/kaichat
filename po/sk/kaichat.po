@@ -76,17 +76,15 @@ msgid "New Chat Title"
 msgstr "Názov nového chatu"
 
 #: core/kaichatcommandlineparser.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Vytvoriť nový chat"
+msgstr "Vytvoriť nový dočasný chat"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Nový dočasný chat"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -194,7 +192,7 @@ msgstr "Spustiť program Ollama"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "Súbor chatu na import"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -325,35 +323,33 @@ msgstr "Povoliť ikonu v systémovej lište"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Úložisko databázy:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopírovať cestu"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:16
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgid "Exclude Favorite Chats"
-msgstr "Exportovať chaty"
+msgstr "Vylúčiť obľúbené chaty"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:23
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Days"
-msgstr ""
+msgstr "Dni"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Retention Days"
-msgstr ""
+msgstr "Dni uchovania"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -368,9 +364,7 @@ msgid "General"
 msgstr "Všeobecné"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Písmo"
@@ -382,9 +376,7 @@ msgid "Instances"
 msgstr "Inštancie"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:73
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "MCP Servers"
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "MCP servery"
@@ -396,25 +388,19 @@ msgid "Spell Checking"
 msgstr "Kontrola pravopisu"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Prístupnosť"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:90
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Moduly"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:96
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Spätná väzba používateľa"
@@ -423,13 +409,13 @@ msgstr "Spätná väzba používateľa"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Uchovávanie"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:107
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Súkromie"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -564,19 +550,16 @@ msgid "Show Archive"
 msgstr "Zobraziť archív"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Názov nového chatu"
+msgstr "Nový chat"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Vytvoriť nový chat"
+msgstr "Nový dočasný chat"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
