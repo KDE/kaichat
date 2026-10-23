@@ -145,6 +145,7 @@
     <release version="1.0.0" type="snapshot">
       <description>
         <ul>
+          <li>Allow to define MCP server from registry.modelcontextprotocol.io</li>
           <li>Allow to define list of model when instance doesn't provide them.</li>
           <li>Add MCP server support</li>
           <li xml:lang="ca">Afegeix la implementació de servidors MCP</li>
