@@ -69,7 +69,7 @@ your build, and `kaichat --list-instances` to list the instances you configured.
 - System Settings module (`kcm_autogeneratetext`) to configure instances and MCP
   servers outside the application
 - Optional system tray icon, and notifications when a model download finishes
-- Single-instance behaviour, via D-Bus or KDSingleApplication
+- Single-instance behavior, via D-Bus or KDSingleApplication
 - D-Bus interface `org.kde.kaichat.Application` (see below)
 - Spell checking (Sonnet), optional text-to-speech, color-scheme switching,
   full screen (`F11`), hideable menu bar with a hamburger menu
