@@ -133,6 +133,7 @@
       <caption xml:lang="nl">KAIChat hoofdvenster.</caption>
       <caption xml:lang="pt-BR">Janela principal do KAIChat.</caption>
       <caption xml:lang="ru">Главное окно KAIChat.</caption>
+      <caption xml:lang="sk">Hlavné okno KAIChat.</caption>
       <caption xml:lang="sl">KAIChat glavno okno.</caption>
       <caption xml:lang="sv">Huvudfönstret i KAIChat.</caption>
       <caption xml:lang="tr">KAIChat ana penceresi</caption>
@@ -158,6 +159,7 @@
           <li xml:lang="nl">Tijdelijke discussie toevoegen</li>
           <li xml:lang="pt-BR">Adicionado discussão efêmera</li>
           <li xml:lang="ru">Добавлены временные обсуждения</li>
+          <li xml:lang="sk">Pridaná dočasná diskusia</li>
           <li xml:lang="sl">Doda minljivo debato</li>
           <li xml:lang="sv">Tillägg av tillfällig diskussion</li>
           <li xml:lang="tr">Geçici tartışma desteği</li>
@@ -176,6 +178,7 @@
           <li xml:lang="nl">Ondersteuning voor project toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a projeto</li>
           <li xml:lang="ru">Добавлена поддержка проектов</li>
+          <li xml:lang="sk">Pridaná podpora projektov</li>
           <li xml:lang="sl">Doda podporo projekta</li>
           <li xml:lang="sv">Tillägg av projektstöd</li>
           <li xml:lang="tr">Proje desteği ekle</li>
@@ -194,6 +197,7 @@
           <li xml:lang="nl">Ondersteuning voor tags toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a etiquetas</li>
           <li xml:lang="ru">Добавлена поддержка меток</li>
+          <li xml:lang="sk">Pridaná podpora značiek</li>
           <li xml:lang="sl">Doda podporo značkam</li>
           <li xml:lang="sv">Tillägg av etikettstöd</li>
           <li xml:lang="tr">Künyeler desteği ekle</li>
@@ -212,6 +216,7 @@
           <li xml:lang="nl">Mimetype van KAIChat toevoegen</li>
           <li xml:lang="pt-BR">Adicionado tipo MIME KAIChat</li>
           <li xml:lang="ru">Добавлен тип MIME для KAIChat</li>
+          <li xml:lang="sk">Pridaný typ MIME KAIChat</li>
           <li xml:lang="sl">Dodaj vrsto mime KAIChat</li>
           <li xml:lang="sv">Lägg till Mime-typ för KAIChat</li>
           <li xml:lang="tr">KAIChat MIME türünü ekle</li>
@@ -230,6 +235,7 @@
           <li xml:lang="nl">Een snelle chat starten met een wereldwijde sneltoets mogelijk maken</li>
           <li xml:lang="pt-BR">Permitir iniciar um chat rápido com um atalho global</li>
           <li xml:lang="ru">Добавлен запуск быстрого чата глобальной комбинацией клавиш</li>
+          <li xml:lang="sk">Možnosť spustiť rýchly chat globálnou skratkou</li>
           <li xml:lang="sl">Dovoli začetek hitrega klepeta z globalno bližnjico</li>
           <li xml:lang="sv">Tillåt start av snabbchatt med en global genväg</li>
           <li xml:lang="tr">Global bir kısayol ile tez sohbete başla</li>
