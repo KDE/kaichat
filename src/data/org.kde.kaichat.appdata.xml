@@ -155,6 +155,16 @@
         <ul>
           <li>Allow to define MCP server from registry.modelcontextprotocol.io</li>
           <li>Allow to define list of model when instance doesn't provide them.</li>
+          <li xml:lang="ca">Permet definir una llista de models si la instància no els proporciona.</li>
+          <li xml:lang="cs">Povoleno definovat seznam modelů, pokud je instance neposkytuje.</li>
+          <li xml:lang="es">Permitir definición de lista de modelos cuando la instancia no los proporciona.</li>
+          <li xml:lang="ka">დაშვება, განისაზღვროს მოდელების სია, როცა მას გაშვებული ასლი არ გაწვდით.</li>
+          <li xml:lang="nl">Maakt het mogelijk om een ​​lijst met modellen te definiëren wanneer een exemplaar deze niet zelf aanlevert.</li>
+          <li xml:lang="pt-BR">Permite definir uma lista de modelos quando a instância não os fornece.</li>
+          <li xml:lang="ru">Добавлена возможность задать список моделей, если сервер их не предоставляет.</li>
+          <li xml:lang="sl">Omogoči določiti seznam modelov, kadar jih pojavek ne zagotavlja.</li>
+          <li xml:lang="tr">Örnek bir model listesi sağlamıyorsa model listesini tanımlamaya izin ver</li>
+          <li xml:lang="uk">Дозволити визначати список моделей, якщо екземпляр не надає його.</li>
           <li>Add MCP server support</li>
           <li xml:lang="ca">Afegeix la implementació de servidors MCP</li>
           <li xml:lang="ca-valencia">Afig la implementació de servidors MCP</li>
