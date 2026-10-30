@@ -22,7 +22,7 @@ QString CurrentDateTimeToolPluginUtils::convertDateTimeEnumToString(DateTimeEnum
     Q_UNREACHABLE();
 }
 
-CurrentDateTimeToolPluginUtils::DateTimeEnum CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(const QString &str)
+CurrentDateTimeToolPluginUtils::DateTimeEnum CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(QStringView str)
 {
     if (str == "time"_L1) {
         return CurrentDateTimeToolPluginUtils::DateTimeEnum::Time;

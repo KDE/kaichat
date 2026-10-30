@@ -71,7 +71,7 @@ void KAIChatExportChatAsPdfJob::exportChat()
         }
 
         txt += message.htmlGenerated();
-        txt += u"<br/>"_s;
+        txt += u"<br/>";
     }
     doc.setHtml(txt);
 

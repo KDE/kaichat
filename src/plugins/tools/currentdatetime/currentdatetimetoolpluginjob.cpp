@@ -28,9 +28,10 @@ void CurrentDateTimeToolPluginJob::start()
     }
     Q_EMIT toolInProgress(i18n("Get Current Date Time."));
     QString result;
+    const QString propertyName = CurrentDateTimeToolPluginUtils::currentDateTimePropertyName();
     for (const auto &resultTool : std::as_const(mToolArguments)) {
-        if (resultTool.keyTool == CurrentDateTimeToolPluginUtils::currentDateTimePropertyName()) {
-            const QString value = resultTool.value;
+        if (resultTool.keyTool == propertyName) {
+            const QString &value = resultTool.value;
             const CurrentDateTimeToolPluginUtils::DateTimeEnum typeDateTime = CurrentDateTimeToolPluginUtils::convertStringToDateTimeEnum(value);
             switch (typeDateTime) {
             case CurrentDateTimeToolPluginUtils::DateTimeEnum::Time:
