@@ -32,7 +32,7 @@ msgstr "txemaq@gmail.com"
 #: apps/main.cpp:75
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
-msgstr "Copyright © 2025-2026 Laurent Montel"
+msgstr "Drets d'autoria © 2025-2026 Laurent Montel"
 
 #: apps/main.cpp:79
 #, kde-format
@@ -661,10 +661,3 @@ msgstr "Informació del compte"
 #, kde-format
 msgid "Return the number of account."
 msgstr "Retorna el nombre de comptes."
-
-#~ msgctxt "@info:shell"
-#~ msgid "Start with specific instance"
-#~ msgstr "Comença amb una instància específica"
-
-#~ msgid "Instance Name"
-#~ msgstr "Nom de la instància"
