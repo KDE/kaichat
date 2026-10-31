@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"POT-Creation-Date: 2026-10-31 00:54+0000\n"
 "PO-Revision-Date: 2026-10-13 07:25+0200\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
@@ -288,17 +288,17 @@ msgstr "Konfiguriraj orodje za datum in čas"
 msgid "Get Current Date Time."
 msgstr "Dobi trenutni datum in čas."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
 #, kde-format
 msgid "Current time is %1"
 msgstr "Trenutni čas je %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
 #, kde-format
 msgid "Current date is %1"
 msgstr "Trenutni datum je %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Trenutni datum in čas je %1"

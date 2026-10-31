@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"POT-Creation-Date: 2026-10-31 00:54+0000\n"
 "PO-Revision-Date: 2026-09-23 06:56+0900\n"
 "Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur <kde-i18n-doc@kde.org>\n"
@@ -290,17 +290,17 @@ msgstr ""
 msgid "Get Current Date Time."
 msgstr ""
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
 #, kde-format
 msgid "Current time is %1"
 msgstr "نۆۋەتتىكى ۋاقىت %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
 #, kde-format
 msgid "Current date is %1"
 msgstr ""
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
 #, kde-format
 msgid "Current date time is %1"
 msgstr ""

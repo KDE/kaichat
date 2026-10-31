@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-13 00:49+0000\n"
+"POT-Creation-Date: 2026-10-31 00:54+0000\n"
 "PO-Revision-Date: 2026-10-13 08:37+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -289,17 +289,17 @@ msgstr "Configuració de l'eina de data i hora"
 msgid "Get Current Date Time."
 msgstr "Obtén la data i l'hora actuals."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
 #, kde-format
 msgid "Current time is %1"
 msgstr "L'hora actual és %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
 #, kde-format
 msgid "Current date is %1"
 msgstr "La data actual és %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
 #, kde-format
 msgid "Current date time is %1"
 msgstr "La data i hora actual és %1"
