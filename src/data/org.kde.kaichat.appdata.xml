@@ -154,6 +154,7 @@
       <description>
         <ul>
           <li>Allow to define MCP server from registry.modelcontextprotocol.io</li>
+          <li xml:lang="ar">السماح بتعريف خادوم MCP من registry.modelcontextprotocol.io</li>
           <li xml:lang="ca">Permet definir un servidor MCP des de «registry.modelcontextprotocol.io»</li>
           <li xml:lang="ca-valencia">Permet definir un servidor MCP des de «registry.modelcontextprotocol.io»</li>
           <li xml:lang="cs">Umožněno definovat server MCP pomocí registru registry.modelcontextprotocol.io</li>
@@ -168,6 +169,7 @@
           <li xml:lang="tr">registry.modelcontextprotocol.io ile MCP sunucusu tanımlama desteği</li>
           <li xml:lang="uk">Уможливлено визначення сервера MCP з registry.modelcontextprotocol.io</li>
           <li>Allow to define list of model when instance doesn't provide them.</li>
+          <li xml:lang="ar">السماح بتعريف قائمة النماذج عندما لا يوفرها النُسخ.</li>
           <li xml:lang="ca">Permet definir una llista de models si la instància no els proporciona.</li>
           <li xml:lang="ca-valencia">Permet definir una llista de models si la instància no els proporciona.</li>
           <li xml:lang="cs">Povoleno definovat seznam modelů, pokud je instance neposkytuje.</li>
@@ -182,6 +184,7 @@
           <li xml:lang="tr">Örnek bir model listesi sağlamıyorsa model listesini tanımlamaya izin ver</li>
           <li xml:lang="uk">Дозволити визначати список моделей, якщо екземпляр не надає його.</li>
           <li>Add MCP server support</li>
+          <li xml:lang="ar">إضافة دعم خادوم MCP</li>
           <li xml:lang="ca">Afegeix la implementació de servidors MCP</li>
           <li xml:lang="ca-valencia">Afig la implementació de servidors MCP</li>
           <li xml:lang="cs">Přidána podpora serveru MCP.</li>
@@ -197,6 +200,7 @@
           <li xml:lang="tr">MCP sunucusu desteği ekle</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
           <li>Add Speech to Text support</li>
+          <li xml:lang="ar">إضافة دعم تحويل الكلام إلى نص</li>
           <li xml:lang="ca">Afegeix la implementació de veu a text</li>
           <li xml:lang="ca-valencia">Afig la implementació de veu a text</li>
           <li xml:lang="cs">Přidána podpora převodu řeči na text</li>
