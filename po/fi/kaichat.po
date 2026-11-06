@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-31 00:54+0000\n"
-"PO-Revision-Date: 2026-08-31 17:16+0300\n"
+"PO-Revision-Date: 2026-10-09 10:58+0300\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -76,17 +76,15 @@ msgid "New Chat Title"
 msgstr "Keskustelun uusi otsikko"
 
 #: core/kaichatcommandlineparser.cpp:26
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
-msgstr "Luo uusi keskustelu"
+msgstr "Luo uusi lyhytaikainen keskustelu"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "Uusi lyhytaikainen keskustelu"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
@@ -194,7 +192,7 @@ msgstr "Käynnistä Ollama-ohjelma"
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
-msgstr ""
+msgstr "Tuotava keskustelutiedosto"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:22
 #, kde-format
@@ -337,18 +335,18 @@ msgstr "Käytä ilmoitusaluekuvaketta"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:27
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "Tietokantavarasto:"
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:41
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "Kopioi sijainti"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "Ei koskaan"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
@@ -383,9 +381,7 @@ msgid "General"
 msgstr "Perusasetukset"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@title General page name"
-#| msgid "Font"
+#, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Fontti"
@@ -397,11 +393,10 @@ msgid "Instances"
 msgstr "Ilmentymät"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
-#, fuzzy, kde-format
-#| msgid "Add Mardown support."
+#, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
-msgstr "Lisää Markdown-tuki."
+msgstr "MCP-palvelimet"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
 #, kde-format
@@ -410,25 +405,19 @@ msgid "Spell Checking"
 msgstr "Oikeinkirjoituksen tarkistus"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "Accessibility"
+#, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Esteettömyys"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
-#, fuzzy, kde-format
-#| msgctxt "@title Instances page name"
-#| msgid "Plugins"
+#, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Liitännäiset"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
-#, fuzzy, kde-format
-#| msgctxt "@title Preferences page name"
-#| msgid "User Feedback"
+#, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Käyttäjäpalaute"
@@ -437,13 +426,13 @@ msgstr "Käyttäjäpalaute"
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "Säilytys"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "Yksityisyys"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
 #, fuzzy, kde-format
@@ -585,19 +574,16 @@ msgid "Show Archive"
 msgstr "Näytä arkisto"
 
 #: widgets/kaichatmainwindow.cpp:162
-#, fuzzy, kde-format
-#| msgid "New Chat Title"
+#, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr "Keskustelun uusi otsikko"
+msgstr "Uusi keskustelu"
 
 #: widgets/kaichatmainwindow.cpp:164
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Create new chat"
+#, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr "Luo uusi keskustelu"
+msgstr "Uusi lyhytaikainen keskustelu"
 
 #: widgets/kaichatmainwindow.cpp:181
 #, kde-format
