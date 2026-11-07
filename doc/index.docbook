@@ -38,7 +38,7 @@
 
 <legalnotice>&FDLNotice;</legalnotice>
 
-<date>2026-10-12</date>
+<date>2026-11-07</date>
 <releaseinfo></releaseinfo>
 
 <abstract>
@@ -124,6 +124,12 @@ see it.</para>
 the service. Be aware that with an online service your questions, and any file you
 attach, are sent to that provider and are subject to its own privacy policy.</para>
 
+<para>Some servers, in particular OpenAI-compatible servers reached through a
+<guilabel>Custom URL</guilabel>, do not tell which models they offer. In that case,
+enter the names of the models you want to use in the <guilabel>Models</guilabel>
+field of the instance, separated by commas. This list is only used when the server
+does not provide its own.</para>
+
 </sect1>
 
 </chapter>
@@ -162,6 +168,11 @@ long answer is finished.</para>
 to call while answering it, including the ones provided by your MCP servers (see
 <xref linkend="mcp-servers"/>). Each chat keeps its own history, which is sent along
 with your new question so that the model knows the context.</para>
+
+<para>Instead of typing, you can dictate your question when speech to text is enabled
+(see <xref linkend="speech-to-text"/>): a microphone button is then shown next to the
+input field, and the recognized text is inserted in it, so that you can review it
+before sending.</para>
 
 </sect1>
 
@@ -274,7 +285,8 @@ online service, your questions are still sent to that provider.</para>
 window. Open it with
 <menuchoice><guimenu>Tools</guimenu><guimenuitem>Open Quick
 Ask…</guimenuitem></menuchoice>, with the
-<keycombo action="simul">&Meta;<keycap>Space</keycap></keycombo> global shortcut, or
+<keycombo action="simul">&Meta;<keycap>Space</keycap></keycombo> global shortcut, from
+the context menu of the system tray icon, or
 with <userinput><command>kaichat</command> <option>--quick-ask</option></userinput>.
 Questions asked this way are not added to your chats, unless you keep the discussion
 with the <guibutton>Save Discussion in Database</guibutton> button.</para>
@@ -372,8 +384,9 @@ external data and actions. See <xref linkend="mcp-servers"/>.</para></listitem>
 </varlistentry>
 <varlistentry>
 <term><guilabel>Accessibility</guilabel></term>
-<listitem><para>Text-to-speech settings, when the application was built with
-text-to-speech support.</para></listitem>
+<listitem><para>Text-to-speech and speech-to-text settings, when the
+application was built with the corresponding support. See
+<xref linkend="speech-to-text"/>.</para></listitem>
 </varlistentry>
 <varlistentry>
 <term><guilabel>Plugins</guilabel></term>
@@ -422,7 +435,9 @@ model.</para>
 
 <para>Servers are managed on the <guilabel>MCP Servers</guilabel> page of the
 configuration dialog. Use the <guibutton>Add Server…</guibutton> button, or the
-context menu of the list, to add one; double-click a server or use
+context menu of the list, to add one: choose <guimenuitem>Server</guimenuitem> to
+enter its settings yourself, or <guimenuitem>From MCP Registry…</guimenuitem> to
+pick it from the public registry (see <xref linkend="mcp-registry"/>). Double-click a server or use
 <guimenuitem>Edit…</guimenuitem> to modify it, and <guimenuitem>Remove
 Server</guimenuitem> to delete it. The checkbox in front of each server enables or
 disables it without losing its configuration.</para>
@@ -461,6 +476,32 @@ folders; a server which accesses files usually needs at least one.</para>
 <guibutton>OK</guibutton> or <guibutton>Apply</guibutton>. MCP servers can also be
 configured from the <guilabel>AI</guilabel> module of &systemsettings;; the list is
 shared with the other applications using it.</para>
+
+</sect2>
+
+<sect2 id="mcp-registry">
+<title>Adding a server from the MCP registry</title>
+
+<para>The <ulink url="https://registry.modelcontextprotocol.io">MCP registry</ulink>
+is a public catalog of MCP servers. <guimenuitem>From MCP Registry…</guimenuitem>
+opens the <guilabel>Add Server from MCP Registry</guilabel> dialog, which lists
+them. Type in the search field to find a server, and use <guibutton>Load
+More</guibutton> to fetch the next results.</para>
+
+<para>Selecting a server shows its description, version, repository and website, the
+remote addresses it can be reached at and the packages it can be installed from,
+with the environment variables they use. Variables marked as required must be
+set for the server to work.</para>
+
+<para>When you validate the dialog, the server is added to the list with its
+settings already filled in: a remote server is reached over HTTP, a package is
+started as a <guilabel>Standard IO</guilabel> server. The environment variables are
+added without a value; edit the server to fill them in, for instance with an API
+key. A server which offers neither a remote address nor a supported package cannot
+be added.</para>
+
+<para>A server found in the registry is not checked by &i18n-kapplication;: read its
+documentation before enabling it.</para>
 
 </sect2>
 
@@ -524,6 +565,40 @@ and, with an online service, sent to its provider along with your
 conversation.</para>
 
 </sect2>
+
+</sect1>
+
+<sect1 id="speech-to-text">
+<title>Speech to text</title>
+
+<para>Speech to text lets you dictate your questions instead of typing them. It is
+configured in the <guilabel>Speech to Text</guilabel> tab of the
+<guilabel>Accessibility</guilabel> page, which is only present when
+&i18n-kapplication; was built with speech-to-text support.</para>
+
+<para>Check <guilabel>Enable Speech To Text</guilabel> to show the microphone button
+next to the input field, then choose:</para>
+
+<variablelist>
+<varlistentry>
+<term><guilabel>Engine</guilabel></term>
+<listitem><para>The program which recognizes your voice. Depending on the plugins
+installed, <application>Vosk</application> and <application>Whisper</application>
+work on your computer, while <application>Google</application> sends the recording to
+an online service. The engine may need some settings of its own, such as the language
+models to download for <application>Vosk</application>, or the installation of the
+<application>Whisper</application> package, which &i18n-kapplication; can offer to
+do for you.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Input</guilabel></term>
+<listitem><para>The microphone to record from.</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><guilabel>Test</guilabel></term>
+<listitem><para>Try the settings before using them in a chat.</para></listitem>
+</varlistentry>
+</variablelist>
 
 </sect1>
 
