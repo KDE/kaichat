@@ -1,0 +1,681 @@
+# Translation of kaichat to Norwegian Bokmål
+#
+# Daniel Dybing <daniel.dybing@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kaichat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"PO-Revision-Date: 2026-11-06 21:42+0100\n"
+"Last-Translator: Daniel Dybing <daniel.dybing@gmail.com>\n"
+"Language-Team: Norwegian Bokmål <l10n-no@nuug.no>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 26.08.2\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Daniel Dybing"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "daniel.dybing@gmail.com"
+
+#: apps/main.cpp:75
+#, kde-format
+msgid "Copyright © 2025-2026 Laurent Montel"
+msgstr "Copyright © 2025-2026 Laurent Montel"
+
+#: apps/main.cpp:79
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:79
+#, kde-format
+msgid "Maintainer"
+msgstr "Vedlikeholder"
+
+#: apps/main.cpp:106
+#, kde-format
+msgid "The following instances are available:"
+msgstr ""
+
+#: apps/main.cpp:119
+#, kde-format
+msgid "List of Chats:"
+msgstr "Samtaleliste:"
+
+#: apps/main.cpp:132
+#, kde-format
+msgid "Plugins:"
+msgstr "Tillegg:"
+
+#: core/kaichatcommandlineparser.cpp:22
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of instances"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new chat"
+msgstr "Ny samtale"
+
+#: core/kaichatcommandlineparser.cpp:24
+#, kde-format
+msgid "New Chat Title"
+msgstr "Nytt samtalenavn"
+
+#: core/kaichatcommandlineparser.cpp:26
+#, kde-format
+msgctxt "@info:shell"
+msgid "Create new ephemeral chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:27
+#, kde-format
+msgid "New Ephemeral Chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:28
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open Quick Ask"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:30
+#, kde-format
+msgid "Chat Name"
+msgstr "Samtalenavn"
+
+#: core/kaichatcommandlineparser.cpp:32
+#, kde-format
+msgctxt "@info:shell"
+msgid "Switch to Chat from identifier"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:33
+#, kde-format
+msgid "Chat Identifier"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgctxt "@info:shell"
+msgid "Ask Message"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:35
+#, kde-format
+msgid "Message"
+msgstr "Melding"
+
+#: core/kaichatcommandlineparser.cpp:36
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:37
+#, kde-format
+msgctxt "@info:shell"
+msgid "Activate Debug Mode"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid "Add an attachment. This can be repeated"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, kde-format
+msgid "Attachment Url"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:42
+#, kde-format
+msgctxt "@info:shell"
+msgid "Define tool used. This can be repeated"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:43
+#, kde-format
+msgid "Tool Name"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return plugins info"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:46
+#, kde-format
+msgctxt "@info:shell"
+msgid "Lists the available options for user feedback"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgctxt "@info:shell"
+msgid "Import Chat"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:48
+#, kde-format
+msgid "Import"
+msgstr "Importer"
+
+#: core/kaichatcommandlineparser.cpp:50
+#, kde-format
+msgctxt "@info:shell"
+msgid "Start Ollama program"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:54
+#, kde-format
+msgctxt "@info:shell"
+msgid "Chat file to import"
+msgstr ""
+
+#: core/kaichatexportchatasmarkdownjob.cpp:22
+#, kde-format
+msgid "Markdown"
+msgstr "Markdown"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
+#, kde-format
+msgid "User"
+msgstr "Bruker"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
+#, kde-format
+msgid "Assistant"
+msgstr ""
+
+#: core/kaichatexportchatasmarkdownjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
+#, kde-format
+msgid "System"
+msgstr ""
+
+#: core/kaichatexportchatasmarkdownjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
+#, kde-format
+msgid "Tool"
+msgstr "Verktøy"
+
+#: core/kaichatexportchataspdfjob.cpp:27
+#, kde-format
+msgid "Pdf"
+msgstr "PDF"
+
+#: core/kaichatexportchatastextjob.cpp:23
+#, kde-format
+msgid "Text"
+msgstr "Tekst"
+
+#: kcm/kcmautogeneratetext.cpp:27
+#, kde-format
+msgid "Instances"
+msgstr ""
+
+#: kcm/kcmautogeneratetext.cpp:32
+#, kde-format
+msgid "MCP Server"
+msgstr "MCP-server"
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#, kde-format
+msgid "Share Text…"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:69
+#, kde-format
+msgid "There was a problem sharing the document: %1"
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:73
+#, kde-format
+msgid "File was shared."
+msgstr ""
+
+#: plugins/text/sharetext/purposemenuwidget.cpp:75
+#, kde-format
+msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
+msgid "The Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
+#, kde-format
+msgid "Get Current Date Time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
+#, kde-format
+msgid "Use this tool to get current date time"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#, kde-format
+msgid "Configure Date Time Tool"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#, kde-format
+msgid "Get Current Date Time."
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
+#, kde-format
+msgid "Current time is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
+#, kde-format
+msgid "Current date is %1"
+msgstr ""
+
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
+#, kde-format
+msgid "Current date time is %1"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
+#, kde-format
+msgid "Text to Speech"
+msgstr "Tekst-til-tale"
+
+#: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
+#, kde-format
+msgid "Speech to Text"
+msgstr "Tale-til-tekst"
+
+#: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Text To Speech"
+msgstr ""
+
+#: widgets/configure/kaichatconfigurefontwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom fonts"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable system tray icon"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#, kde-format
+msgid "Database Repository:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy Path"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:24
+#, kde-format
+msgid "Never"
+msgstr "Aldri"
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:25
+#, kde-format
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:26
+#, kde-format
+msgid "Exclude Favorite Chats:"
+msgstr ""
+
+#: widgets/configure/kaichatconfigureretentionwidget.cpp:27
+#, kde-format
+msgid "Retention Days:"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure KAIChat"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:55
+#, kde-format
+msgctxt "@title General page name"
+msgid "General"
+msgstr "Generelt"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
+#, kde-format
+msgctxt "@title Font page name"
+msgid "Font"
+msgstr "Skrifttype"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
+#, kde-format
+msgctxt "@title Instances page name"
+msgid "Instances"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#, kde-format
+msgctxt "@title MCP page name"
+msgid "MCP Servers"
+msgstr "MCP-servere"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
+#, kde-format
+msgctxt "@title Preferences page name"
+msgid "Spell Checking"
+msgstr "Stavekontroll"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
+#, kde-format
+msgctxt "@title Text To Speech page name"
+msgid "Accessibility"
+msgstr "Tilgjengelighet"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#, kde-format
+msgctxt "@title Plugins page name"
+msgid "Plugins"
+msgstr "Tillegg"
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#, kde-format
+msgctxt "@title Preferences other page name"
+msgid "User Feedback"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:98
+#, kde-format
+msgctxt "@title Retention page name"
+msgid "Retention"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
+#, kde-format
+msgctxt "@title Privacy page name"
+msgid "Privacy"
+msgstr "Personvern"
+
+#: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable Speech To Text"
+msgstr "Slå på tale-til-tekst"
+
+#: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "Søk …"
+
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
+#, kde-format
+msgctxt "@action"
+msgid "Select Chat"
+msgstr "Velg samtale"
+
+#: widgets/databasedialog/kaichatdatabasedialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Debug Database"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select Chat Name"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:36
+#, kde-format
+msgid "Chat"
+msgstr "Samtale"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:39
+#, kde-format
+msgid "Messages"
+msgstr "Meldinger"
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:42
+#, kde-format
+msgid "Messages in Database"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:45
+#, kde-format
+msgid "Messages JSON"
+msgstr ""
+
+#: widgets/databasedialog/kaichatdatabasewidget.cpp:48
+#, kde-format
+msgid "Pending Typed Info"
+msgstr ""
+
+#: widgets/kaichatchangefontsizemenu.cpp:19
+#, kde-format
+msgid "Font Size"
+msgstr "Skriftstørrelse"
+
+#: widgets/kaichatchangefontsizemenu.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Increase Font"
+msgstr "Øk skriftstørrelse"
+
+#: widgets/kaichatchangefontsizemenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Font"
+msgstr "Reduser skriftstørrelse"
+
+#: widgets/kaichatexportmenu.cpp:18
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export…"
+msgstr "Eksporter …"
+
+#: widgets/kaichatexportmenu.cpp:19
+#, kde-format
+msgctxt "@action"
+msgid "Export as JSON…"
+msgstr "Eksporter som JSON …"
+
+#: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
+#, kde-format
+msgid "kaichat"
+msgstr ""
+
+#: widgets/kaichatexportmenu.cpp:27
+#, kde-format
+msgctxt "@action"
+msgid "Export as Markdown…"
+msgstr "Eksporter som Markdown …"
+
+#: widgets/kaichatexportmenu.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Export as Text…"
+msgstr "Eksporter som tekst …"
+
+#: widgets/kaichatexportmenu.cpp:43
+#, kde-format
+msgctxt "@action"
+msgid "Export as Pdf…"
+msgstr "Eksporter som PDF …"
+
+#: widgets/kaichatimportmenu.cpp:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import…"
+msgstr "Importer …"
+
+#: widgets/kaichatimportmenu.cpp:16
+#, kde-format
+msgctxt "@action"
+msgid "Import as JSON…"
+msgstr "Importer som JSON …"
+
+#: widgets/kaichatmainwindow.cpp:91
+#, kde-format
+msgid "%1 string found."
+msgid_plural "%1 strings found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/kaichatmainwindow.cpp:148
+#, kde-format
+msgid "What's new"
+msgstr "Hva er nytt"
+
+#: widgets/kaichatmainwindow.cpp:152
+#, kde-format
+msgctxt "@action"
+msgid "Show Archive"
+msgstr "Vis arkiv"
+
+#: widgets/kaichatmainwindow.cpp:162
+#, kde-format
+msgctxt "@action"
+msgid "New Chat"
+msgstr "Ny samtale"
+
+#: widgets/kaichatmainwindow.cpp:164
+#, kde-format
+msgctxt "@action"
+msgid "New Ephemeral Chat"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:181
+#, kde-format
+msgctxt "@action"
+msgid "Search in Database…"
+msgstr "Søk i database …"
+
+#: widgets/kaichatmainwindow.cpp:219
+#, kde-format
+msgctxt "@action"
+msgid "Open Quick Ask…"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:333
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:336
+#, kde-format
+msgctxt "@title:window"
+msgid "Hide menu bar"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:372
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Chats"
+msgstr "Importer samtaler"
+
+#: widgets/kaichatmainwindow.cpp:385
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Chats"
+msgstr "Eksporter samtaler"
+
+#: widgets/kaichatmainwindow.cpp:507
+#, kde-format
+msgid "Model Download Done"
+msgstr ""
+
+#: widgets/kaichatmainwindow.cpp:508
+#, kde-format
+msgid "Model %1 was downloaded."
+msgstr ""
+
+#: widgets/kaichatnotificatifieritem.cpp:21
+#, kde-format
+msgid "KAIChat"
+msgstr "KAIChat"
+
+#. i18n: ectx: Menu (settings)
+#: widgets/kaichatui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "&Innstillinger"
+
+#. i18n: ectx: Menu (edit)
+#: widgets/kaichatui.rc:22
+#, kde-format
+msgid "&Edit"
+msgstr "&Rediger"
+
+#. i18n: ectx: Menu (view)
+#: widgets/kaichatui.rc:26
+#, kde-format
+msgid "View"
+msgstr "Vis"
+
+#. i18n: ectx: Menu (Tools)
+#: widgets/kaichatui.rc:32
+#, kde-format
+msgid "Tools"
+msgstr "Verktøy"
+
+#. i18n: ectx: Menu (help)
+#: widgets/kaichatui.rc:38
+#, kde-format
+msgid "&Help"
+msgstr "&Hjelp"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: widgets/kaichatui.rc:45
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
+
+#: widgets/userfeedback/accountinfosource.cpp:24
+#, kde-format
+msgid "Account information"
+msgstr ""
+
+#: widgets/userfeedback/accountinfosource.cpp:29
+#, kde-format
+msgid "Return the number of account."
+msgstr ""
