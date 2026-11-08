@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 03:13+0000\n"
-"PO-Revision-Date: 2026-09-28 06:13-0300\n"
+"PO-Revision-Date: 2026-11-08 07:09-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -74,7 +74,7 @@ msgstr "Criar novo bate-papo"
 #: core/kaichatcommandlineparser.cpp:24
 #, kde-format
 msgid "New Chat Title"
-msgstr "Título novo do chat"
+msgstr "Título novo do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:26
 #, kde-format
@@ -102,7 +102,7 @@ msgstr "Mudar para o bate-papo"
 #: core/kaichatcommandlineparser.cpp:30
 #, kde-format
 msgid "Chat Name"
-msgstr "Nome do chat"
+msgstr "Nome do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:32
 #, kde-format
@@ -113,7 +113,7 @@ msgstr "Mudar para o bate-papo do identificador"
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgid "Chat Identifier"
-msgstr "Identificador do chat"
+msgstr "Identificador do bate-papo"
 
 #: core/kaichatcommandlineparser.cpp:35
 #, kde-format
