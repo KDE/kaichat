@@ -1,4 +1,8 @@
 <?xml version="1.0" ?>
+<!--
+  SPDX-FileCopyrightText: 2026 Laurent Montel <montel@kde.org>
+  SPDX-License-Identifier: CC-BY-SA-4.0
+-->
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
 "dtd/kdedbx45.dtd" [
   <!-- Define an entity for your application if it is not part of KDE
@@ -45,7 +49,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->12 d'octubre de 2026</date>
+>7 de novembre de 2026</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -154,6 +158,13 @@
 <para
 >Creeu una instància del tipus coincident i enganxeu la clau API que us ha donat el servei. Tingueu en compte que amb un servei en línia les vostres preguntes, i qualsevol fitxer que adjunteu, s'envien a aquest proveïdor i estan subjectes a la seva pròpia política de privadesa.</para>
 
+<para
+>Alguns servidors, en particular els servidors compatibles amb OpenAI que s'assoleixen a través d'un <guilabel
+>URL personalitzat</guilabel
+>, no diuen quins models ofereixen. En aquest cas, introduïu els noms dels models que voleu utilitzar en el camp <guilabel
+>Models</guilabel
+> de la instància, separats per comes. Aquesta llista només s'utilitza quan el servidor no en proporciona una de pròpia.</para>
+
 </sect1>
 
 </chapter>
@@ -198,6 +209,9 @@
 
 <para
 >Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon, incloses les proporcionades pels servidors MCP (vegeu <xref linkend="mcp-servers"/>). Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
+
+<para
+>En lloc d'escriure, podeu dictar la vostra pregunta quan s'hagi activat la veu a text (vegeu <xref linkend="speech-to-text"/>): es mostra un botó de micròfon al costat del camp d'entrada i s'hi insereix el text reconegut, de manera que pugueu revisar-lo abans d'enviar-lo.</para>
 
 </sect1>
 
@@ -397,7 +411,7 @@
 >&Meta;<keycap
 >Espai</keycap
 ></keycombo
-> o amb <userinput
+>, des del menú contextual de la icona de la safata del sistema o amb <userinput
 ><command
 >kaichat</command
 > <option
@@ -596,7 +610,7 @@
 ></term>
 <listitem
 ><para
->Configuració de text a veu, quan l'aplicació es va construir amb la implementació del text a veu.</para
+>Configuració de text a veu i veu a text, quan l'aplicació s'ha construït amb la implementació corresponent. Vegeu <xref linkend="speech-to-text"/>.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -676,7 +690,11 @@
 >Servidors MCP</guilabel
 > del diàleg de configuració. Utilitzeu el botó <guibutton
 >Afegeix un servidor…</guibutton
->, o el menú contextual de la llista per afegir-ne un; feu doble clic a un servidor o utilitzeu <guimenuitem
+>, o el menú contextual de la llista per afegir-ne un: trieu un <guimenuitem
+>Servidor</guimenuitem
+> per introduir la seva configuració, o <guimenuitem
+>Des del registre del MCP…</guimenuitem
+> per a triar-lo des del registre públic (vegeu <xref linkend="mcp-registry"/>). Feu doble clic a un servidor o utilitzeu <guimenuitem
 >Edita…</guimenuitem
 > per modificar-lo, i <guimenuitem
 >Elimina el servidor</guimenuitem
@@ -749,6 +767,34 @@
 >. Els servidors MCP també es poden configurar des del mòdul <guilabel
 >IA</guilabel
 > del &systemsettings;; la llista es comparteix amb les altres aplicacions que l'utilitzen.</para>
+
+</sect2>
+
+<sect2 id="mcp-registry">
+<title
+>Afegir un servidor a partir del registre MCP</title>
+
+<para
+>El <ulink url="https://registry.modelcontextprotocol.io"
+>Registre MCP</ulink
+> és un catàleg públic de servidors MCP. <guimenuitem
+>Des del registre del MCP…</guimenuitem
+> obriu el diàleg <guilabel
+>Afegeix un servidor a partir del registre MCP</guilabel
+>, que els llista. Escriviu al camp de cerca per trobar un servidor i utilitzeu <guibutton
+>Carrega'n més</guibutton
+> per obtenir els resultats següents.</para>
+
+<para
+>Seleccionant un servidor es mostra la seva descripció, versió, repositori i lloc web, les adreces remotes a les quals es pot arribar i els paquets des dels quals es pot instal·lar, amb les variables d'entorn que utilitzen. Les variables marcades com a necessàries s'han d'establir perquè el servidor funcioni.</para>
+
+<para
+>Quan valideu el diàleg, el servidor s'afegeix a la llista amb la seva configuració ja emplenada: s'arriba a un servidor remot a través d'HTTP, s'inicia un paquet com a servidor <guilabel
+>E/S estàndard</guilabel
+>. Les variables d'entorn s'afegeixen sense cap valor; editeu el servidor per omplir-les, per exemple amb una clau API. No es pot afegir un servidor que no ofereixi una adreça remota ni un paquet suportat.</para>
+
+<para
+>S'ha trobat un servidor en el registre no s'ha comprovat al &i18n-kapplication;: llegiu la seva documentació abans d'habilitar-lo.</para>
 
 </sect2>
 
@@ -843,6 +889,67 @@
 > és un programa que s'executa amb els vostres propis drets, i el que retorna una eina ho llegeix el model i, amb un servei en línia, s'envia al seu proveïdor juntament amb la vostra conversa.</para>
 
 </sect2>
+
+</sect1>
+
+<sect1 id="speech-to-text">
+<title
+>Veu a text</title>
+
+<para
+>La veu a text us permet dictar les vostres preguntes en lloc d'escriure-les. Es configura a la pestanya <guilabel
+> Veu a text</guilabel
+> de la pàgina <guilabel
+>Accessibility</guilabel
+>, que només està present si el &i18n-kapplication; s'ha construït amb suport de veu a text.</para>
+
+<para
+>Marqueu <guilabel
+>Activa la veu a text</guilabel
+> per mostrar el botó de micròfon al costat del camp d'entrada, llavors trieu:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Motor</guilabel
+></term>
+<listitem
+><para
+>El programa que reconeix la veu. Depenent dels connectors instal·lats, <application
+>Vosk</application
+> i <application
+>Whisper</application
+> funcionaran al vostre ordinador, mentre que <application
+>Google</application
+> envia l'enregistrament a un servei en línia. El motor mateix pot necessitar alguns paràmetres, com els models de llengua a descarregar per <application
+>Vosk</application
+> o la instal·lació del paquet <application
+>Whisper</application
+>, que el &i18n-kapplication; us pot oferir de fer-ho.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Entrada</guilabel
+></term>
+<listitem
+><para
+>El micròfon amb el qual enregistrar.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Prova</guilabel
+></term>
+<listitem
+><para
+>Proveu la configuració abans d'utilitzar-la en un xat.</para
+></listitem>
+</varlistentry>
+</variablelist>
 
 </sect1>
 
