@@ -1,0 +1,940 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>KAIChat</application
+>">
+  <!ENTITY kappname "&i18n-kapplication;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Brazilian-Portuguese "INCLUDE">
+]>
+
+<book id="kaichat" lang="&language;">
+
+<bookinfo id="kaichatinfo">
+
+<title
+>Manual do &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> <email
+>montel@kde.org</email
+> </author>
+<othercredit role="translator"
+><firstname
+>Marcus</firstname
+><surname
+>Gama</surname
+><affiliation
+><address
+><email
+>marcus.gama@kde.org</email
+></address
+></affiliation
+><contrib
+>Tradução</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2025</year>
+<year
+>2026</year>
+<holder
+>Laurent Montel</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>26/09/2026</date>
+<releaseinfo
+></releaseinfo>
+
+<abstract>
+<para
+>O &i18n-kapplication; é um cliente de bate-papo para modelos de linguagem de IA. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>IA</keyword>
+<keyword
+>bate-papo</keyword>
+<keyword
+>Ollama</keyword>
+<keyword
+>LLM</keyword>
+<keyword
+>privacidade</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>Introdução</title>
+
+<para
+>O &i18n-kapplication; é um aplicativo de bate-papo que permite conversar com modelos de linguagem de IA, seja executando-os localmente com o Ollama ou utilizando um serviço de IA online.</para>
+
+<para
+>As conversas são armazenadas em um banco de dados local no seu computador, de modo que permanecem disponíveis na próxima vez que você iniciar o aplicativo. Você pode navegá-las, pesquisá-las, organizá-las em projetos e com etiquetas, arquivar aquelas de que não precisa mais e exportá-las para um arquivo. Quando não quiser que uma conversa seja mantida, você pode optar por uma discussão efêmera.</para>
+
+<para
+>O aplicativo &i18n-kapplication; não fornece um modelo próprio: ele se comunica com um provedor de modelos que você configura. Nada é enviado até que você tenha configurado esse provedor e feito uma pergunta.</para>
+
+</chapter>
+
+<chapter id="getting-started">
+<title
+>Primeiros passos</title>
+
+<para
+>Antes de você poder perguntar qualquer coisa, o &i18n-kapplication; precisa de pelo menos uma <emphasis
+>instância</emphasis
+>. Uma instância é uma conexão configurada com um provedor de modelo: um servidor local executado em sua própria máquina ou um serviço online.</para>
+
+<para
+>Na primeira vez que você inicia o aplicativo sem nenhuma instância, ele oferece a opção de criar uma. Você também pode abrir <menuchoice
+><guimenu
+>Configurações</guimenu
+><guimenuitem
+>Configurar o &i18n-kapplication;…</guimenuitem
+></menuchoice
+> e ir para a página <guilabel
+>Instâncias</guilabel
+>.</para>
+
+<sect1 id="local-model">
+<title
+>Usando um modelo local</title>
+
+<para
+>Executar o modelo no seu próprio computador mantém suas perguntas na sua máquina. O &i18n-kapplication; pode utilizar servidores locais, como <application
+>Ollama</application
+>, <application
+>llama.cpp</application
+> ou <application
+>LM Studio</application
+>.</para>
+
+<para
+>Instale e inicie o servidor primeiro e, em seguida, adicione uma instância do tipo correspondente. O endereço padrão de um servidor local do <application
+>Ollama</application
+> já vem preenchido. Se o <application
+>Ollama</application
+> estiver instalado, mas não estiver em execução, o &i18n-kapplication; se oferecerá para iniciá-lo para você; você também pode fazer isso pela linha de comando com <userinput
+><command
+>kaichat</command
+> <option
+>--start-ollama</option
+></userinput
+>.</para>
+
+<para
+>Assim que a instância estiver conectada, você ainda precisará de um modelo. Os modelos podem ser baixados na configuração da instância, e o &i18n-kapplication; notifica você quando o download é concluído.</para>
+
+</sect1>
+
+<sect1 id="online-service">
+<title
+>Usando um serviço online</title>
+
+<para
+>O &i18n-kapplication; também pode interagir com serviços hospedados, incluindo Ollama Cloud, OpenAI, Anthropic, Mistral AI, Groq, Grok, Qwen, OpenRouter, DeepInfra, Novita AI, Cerebras e outros provedores com uma interface compatível com a OpenAI. A lista exata depende dos plugins instalados no seu sistema; execute <userinput
+><command
+>kaichat</command
+> <option
+>--plugin-info</option
+></userinput
+> para visualizá-la.</para>
+
+<para
+>Crie uma instância do tipo correspondente e cole a chave de API fornecida pelo serviço. Lembre-se de que, ao utilizar um serviço online, suas perguntas e quaisquer arquivos anexados são enviados ao provedor e estão sujeitos à política de privacidade dele.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="using-kapp">
+<title
+>Usando o &i18n-kapplication;</title>
+
+<sect1 id="main-window">
+<title
+>A janela principal</title>
+
+<para
+>A janela está dividida em três partes:</para>
+
+<itemizedlist>
+<listitem
+><para
+>a lista de suas conversas, à esquerda. Ela pode ser recolhida com o botão na barra divisória;</para
+></listitem>
+<listitem
+><para
+>a conversa em si, à direita, onde são exibidas as suas perguntas e as respostas do modelo;</para
+></listitem>
+<listitem
+><para
+>o campo de entrada na parte inferior, onde você digita sua pergunta.</para
+></listitem>
+</itemizedlist>
+
+<para
+>Acima dessas partes, uma barra de cabeçalho permite iniciar um novo bate-papo ou uma discussão efêmera, marcar o bate-papo atual como favorito e pesquisar na conversa em andamento. A barra de status na parte inferior mostra o que o modelo está fazendo no momento — por exemplo, qual ferramenta ele está chamando.</para>
+
+</sect1>
+
+<sect1 id="chatting">
+<title
+>Fazendo perguntas</title>
+
+<para
+>Digite sua pergunta no campo de entrada e valide-a. A resposta aparece na visualização da conversa à medida que é gerada, e uma notificação é exibida quando uma resposta longa é concluída.</para>
+
+<para
+>Você pode anexar arquivos a uma pergunta e habilitar as ferramentas que o modelo tem permissão para utilizar ao respondê-la. Cada bate-papo mantém seu próprio histórico, que é enviado juntamente com a sua nova pergunta para que o modelo conheça o contexto.</para>
+
+</sect1>
+
+<sect1 id="managing-chats">
+<title
+>Gerenciando bate-papos</title>
+
+<para
+>Bate-papos são criados a partir da barra de cabeçalho ou com <userinput
+><command
+>kaichat</command
+> <option
+>--new-chat</option
+> <replaceable
+>título</replaceable
+></userinput
+>.</para>
+
+<para
+>Clique com o botão direito em um bate-papo na lista para realizar uma ação nele:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Modificar…</guimenuitem
+></term>
+<listitem
+><para
+>Altera o título do bate-papo.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Duplicar…</guimenuitem
+></term>
+<listitem
+><para
+>Crie uma cópia do bate-papo, por exemplo, para experimentar outra abordagem sem perder a conversa original.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Definir como favorito</guimenuitem
+></term>
+<listitem
+><para
+>Exibe o bate-papo na seção <guilabel
+>Favoritos</guilabel
+>, no topo da lista. O mesmo pode ser feito com o botão <guibutton
+>Favorito</guibutton
+> na barra de cabeçalho.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Projeto</guisubmenu
+></term>
+<listitem
+><para
+>Move o bate-papo para um projeto ou remova-o de um projeto com <guimenuitem
+>Sem projeto</guimenuitem
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>Etiquetas</guisubmenu
+></term>
+<listitem
+><para
+>Adiciona etiquetas ao bate-papo ou remova-as.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Arquivar</guimenuitem
+></term>
+<listitem
+><para
+>Oculte o bate-papo da lista sem excluí-lo.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Remover…</guimenuitem
+></term>
+<listitem
+><para
+>Exclui o bate-papo e suas mensagens permanentemente.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>As outras conversas são agrupadas por período: hoje, últimos sete dias, últimos trinta dias e mais antigas.</para>
+
+<para
+>Também é possível criar uma ramificação a partir de uma das mensagens da conversa usando o botão <guibutton
+>Ramificar</guibutton
+> exibido ao lado dela. Isso inicia um novo bate-papo contendo a conversa até aquele ponto e deixa o bate-papo original inalterado.</para>
+
+<para
+>Uma conversa de que você não precisa mais pode ser arquivada em vez de excluída. Conversas arquivadas ficam ocultas da lista; exiba-as novamente com <menuchoice
+><guimenu
+>Exibir</guimenu
+><guimenuitem
+>Mostrar arquivo</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Para procurar algo que você perguntou ou leu algum tempo atrás, use <menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>F</keycap
+></keycombo
+></shortcut
+> <guimenu
+>Editar</guimenu
+><guimenuitem
+>Pesquisar no banco de dados…</guimenuitem
+></menuchoice
+>. Isso pesquisa em todo o histórico armazenado, não apenas na conversa que você está visualizando. O número de ocorrências é exibido na barra de status.</para>
+
+</sect1>
+
+<sect1 id="projects-tags">
+<title
+>Projetos e etiquetas</title>
+
+<para
+>Projetos e etiquetas são duas formas de organizar suas conversas. Uma conversa pertence a, no máximo, um projeto, o que é útil para manter reunidas as conversas sobre um mesmo trabalho. Uma conversa pode ter qualquer quantidade de etiquetas.</para>
+
+<para
+>Ambos são criados, renomeados e removidos por meio de <guimenuitem
+>Gerenciar projetos…</guimenuitem
+> e <guimenuitem
+>Gerenciar etiquetas…</guimenuitem
+>, nos submenus <guisubmenu
+>Projeto</guisubmenu
+> e <guisubmenu
+>Etiquetas</guisubmenu
+> do menu de contexto da lista de conversas. A remoção de um projeto não remove as conversas associadas a ele: elas são mantidas, fora de qualquer projeto.</para>
+
+<para
+>O seletor de etiquetas acima da lista de conversas exibe apenas as conversas que possuem uma das etiquetas selecionadas. Não selecione nenhuma etiqueta para ver todas elas novamente.</para>
+
+</sect1>
+
+<sect1 id="ephemeral-chats">
+<title
+>Discussões efêmeras</title>
+
+<para
+>Uma discussão efêmera é um bate-papo que nunca é gravado no banco de dados. Utilize-a para uma pergunta que você não deseja manter: assim que fechar o &i18n-kapplication;, ela desaparece. Inicie uma usando o botão <guibutton
+>Discussão efêmera</guibutton
+> na barra de cabeçalho ou através do comando <userinput
+><command
+>kaichat</command
+> <option
+>--ephemeral-chat</option
+> <replaceable
+>título</replaceable
+></userinput
+>. As discussões efêmeras são exibidas em uma seção própria, no topo da lista de bate-papos.</para>
+
+<para
+>Se você mudar de ideia, o botão <guibutton
+>Salvar discussão no banco de dados</guibutton
+> na barra de cabeçalho transforma a conversa em um bate-papo comum.</para>
+
+<para
+>Lembre-se de que isso diz respeito apenas ao que está armazenado no seu computador: com um serviço online, suas perguntas continuam sendo enviadas a esse provedor.</para>
+
+</sect1>
+
+<sect1 id="quick-ask">
+<title
+>Pergunta rápida</title>
+
+<para
+>O "Pergunta rápida" é uma pequena caixa de diálogo para uma única pergunta, sem abrir a janela principal. Abra-o através de <menuchoice
+><guimenu
+>Ferramentas</guimenu
+><guimenuitem
+>Abrir pergunta rápida…</guimenuitem
+></menuchoice
+>, usando o atalho global <keycombo action="simul"
+>&Meta;<keycap
+>Espaço</keycap
+></keycombo
+> ou com <userinput
+><command
+>kaichat</command
+> <option
+>--quick-ask</option
+></userinput
+>. As perguntas feitas dessa forma não são adicionadas aos seus bate-papos, a menos que você preserve a discussão usando o botão <guibutton
+>Salvar discussão no banco de dados</guibutton
+>.</para>
+
+</sect1>
+
+<sect1 id="import-export">
+<title
+>Importar e exportar conversas</title>
+
+<para
+>O bate-papo atual pode ser salvo em um arquivo através de <menuchoice
+><guimenu
+>Arquivo</guimenu
+><guimenuitem
+>Exportar…</guimenuitem
+></menuchoice
+>, em um de quatro formatos:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>Exportar como JSON…</guimenuitem
+></term>
+<listitem
+><para
+>Um arquivo <filename class="extension"
+>.kaichat</filename
+>. Este é o único formato que o &i18n-kapplication; pode ler de volta.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exportar como Markdown…</guimenuitem
+></term>
+<listitem
+><para
+>Um arquivo de texto que preserva a formatação das respostas.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exportar como texto…</guimenuitem
+></term>
+<listitem
+><para
+>Texto simples.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>Exportar como PDF…</guimenuitem
+></term>
+<listitem
+><para
+>Um documento imprimível.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Um arquivo <filename class="extension"
+>.kaichat</filename
+> exportado anteriormente é carregado novamente usando <menuchoice
+><guimenu
+>Arquivo</guimenu
+><guimenuitem
+>Importar…</guimenuitem
+></menuchoice
+>. Você também pode abrir esse arquivo a partir do seu gerenciador de arquivos ou passá-lo pela linha de comando.</para>
+
+</sect1>
+
+<sect1 id="appearance">
+<title
+>Ajustando a exibição</title>
+
+<para
+>O texto de todo o aplicativo pode ser aumentado ou reduzido através de <menuchoice
+><guimenu
+>Exibir</guimenu
+><guisubmenu
+>Tamanho da fonte</guisubmenu
+></menuchoice
+>, ou com <keycombo action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+> e <keycombo action="simul"
+>&Ctrl;<keycap
+>-</keycap
+></keycombo
+>. Alternativamente, é possível selecionar uma fonte fixa na janela de configuração.</para>
+
+<para
+><menuchoice
+><guimenu
+>Configurações</guimenu
+><guisubmenu
+>Esquema de cores</guisubmenu
+></menuchoice
+> alterna as cores da janela sem alterar as configurações da sua área de trabalho, e a tecla <keycap
+>F11</keycap
+> alterna para o modo de tela cheia.</para>
+
+<para
+>A barra de menus pode ser ocultada através de <menuchoice
+><guimenu
+>Configurações</guimenu
+><guimenuitem
+>Mostrar barra de menus</guimenuitem
+></menuchoice
+>; as ações permanecem disponíveis por meio do botão de menu (ícone de hambúrguer) na barra de ferramentas.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="configuring">
+<title
+>Configurando o &i18n-kapplication;</title>
+
+<para
+>A janela de configuração é aberta através de <menuchoice
+><guimenu
+>Configurações</guimenu
+><guimenuitem
+>Configurar o &i18n-kapplication;…</guimenuitem
+></menuchoice
+>. Dependendo de como o aplicativo foi compilado, ele possui as seguintes páginas.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>Geral</guilabel
+></term>
+<listitem
+><para
+>Se o ícone da bandeja do sistema é exibido, e o prompt do sistema enviado ao modelo no início de cada conversa.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Fonte</guilabel
+></term>
+<listitem
+><para
+>Usar uma fonte de sua escolha em vez da fonte do sistema.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Instâncias</guilabel
+></term>
+<listitem
+><para
+>Adiciona, remove e configura as conexões com seus provedores de modelos e gerencia os modelos disponíveis neles.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Servidores MCP</guilabel
+></term>
+<listitem
+><para
+>Servidores do Protocolo de Contexto de Modelo (MCP, sigla em inglês), que concedem ao modelo acesso a dados e ações externos. Esse suporte ainda é experimental.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Verificação ortográfica</guilabel
+></term>
+<listitem
+><para
+>Verificação ortográfica do que você digita.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Acessibilidade</guilabel
+></term>
+<listitem
+><para
+>Configurações de conversão de texto em fala, quando o aplicativo foi compilado com suporte para esse recurso.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Plugins</guilabel
+></term>
+<listitem
+><para
+>Ativa ou desativa os plugins instalados e configura as ferramentas que o modelo pode utilizar.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Feedback do usuário</guilabel
+></term>
+<listitem
+><para
+>Quanto de informação, se houver alguma, você deseja enviar aos desenvolvedores. Nada é enviado, a menos que você solicite isso aqui.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>Retenção</guilabel
+></term>
+<listitem
+><para
+>Por quanto tempo suas conversas são mantidas. <guilabel
+>Dias de retenção</guilabel
+> é o número de dias após o qual conversas antigas são removidas; com o valor padrão 0, elas são mantidas indefinidamente. A opção <guilabel
+>Excluir conversas favoritas</guilabel
+>, habilitada por padrão, mantém suas conversas favoritas independentemente de há quanto tempo ocorreram.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>Privacidade</guilabel
+></term>
+<listitem
+><para
+>Mostra onde suas conversas estão armazenadas no disco. O caminho pode ser copiado para a área de transferência usando o botão ao lado, por exemplo, para fazer backup ou excluir o banco de dados.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>As notificações são configuradas em <menuchoice
+><guimenu
+>Configurações</guimenu
+><guimenuitem
+>Configurar notificações…</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>Instâncias e servidores MCP também podem ser configurados fora do aplicativo, a partir do módulo <guilabel
+>IA</guilabel
+> do &systemsettings;.</para>
+
+<sect1 id="files">
+<title
+>Arquivos usados</title>
+
+<variablelist>
+<varlistentry>
+<term
+><filename
+>~/.config/kaichatrc</filename
+></term>
+<listitem
+><para
+>As configurações do aplicativo.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><filename class="directory"
+>~/.local/share/kaichat/ai-database/</filename
+></term>
+<listitem
+><para
+>Os bancos de dados que armazenam suas conversas e as respectivas mensagens. O local exato é exibido na página <guilabel
+>Privacidade</guilabel
+> da janela de configuração.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>A configuração das suas instâncias contém as chaves de API dos serviços online que você utiliza. Trate esses arquivos como trataria uma senha.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="command-line">
+<title
+>Opções da linha de comando</title>
+
+<para
+>O &i18n-kapplication; é executado como uma instância única: iniciá-lo novamente enquanto já está em execução passa as opções para a janela já aberta, em vez de abrir uma segunda.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><option
+>--list-instances</option
+></term>
+<listitem
+><para
+>Imprime as instâncias configuradas e sai.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--list-chats</option
+></term>
+<listitem
+><para
+>Imprime os títulos das conversas armazenadas e sai.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--plugin-info</option
+></term>
+<listitem
+><para
+>Imprime os plugins de texto e de ferramentas disponíveis e sai.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--new-chat</option
+> <replaceable
+>título</replaceable
+></term>
+<listitem
+><para
+>Cria um novo bate-papo com este título.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ephemeral-chat</option
+> <replaceable
+>título</replaceable
+></term>
+<listitem
+><para
+>Cria uma nova discussão efêmera com este título. Ela não é armazenada no banco de dados.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat</option
+> <replaceable
+>nome</replaceable
+></term>
+<listitem
+><para
+>Muda para um bate-papo existente, pelo título.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat-from-id</option
+> <replaceable
+>id</replaceable
+></term>
+<listitem
+><para
+>Muda para um bate-papo existente, pelo identificador.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ask-message</option
+> <replaceable
+>mensagem</replaceable
+></term>
+<listitem
+><para
+>Faz essa pergunta imediatamente.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--attach</option
+> <replaceable
+>url</replaceable
+></term>
+<listitem
+><para
+>Anexa um arquivo à pergunta. Pode ser repetido.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--tool</option
+> <replaceable
+>nome</replaceable
+></term>
+<listitem
+><para
+>Permite que o modelo use esta ferramenta. Pode ser repetido.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--quick-ask</option
+></term>
+<listitem
+><para
+>Abre o diálogo de pergunta rápida.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--import</option
+> <replaceable
+>arquivo</replaceable
+></term>
+<listitem
+><para
+>Importa um bate-papo de um arquivo JSON.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--start-ollama</option
+></term>
+<listitem
+><para
+>Inicia o programa local <application
+>Ollama</application
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--debug</option
+></term>
+<listitem
+><para
+>Ativa o modo de depuração, que adiciona um menu <guimenu
+>Depuração</guimenu
+> exibindo o conteúdo do banco de dados.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--feedback</option
+></term>
+<listitem
+><para
+>Lista as informações que podem ser enviadas como feedback do usuário.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><replaceable
+>arquivo…</replaceable
+></term>
+<listitem
+><para
+>Arquivos de bate-papo para importar.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>Em sistemas com &DBus;, uma instância em execução do &i18n-kapplication; também expõe a interface <interfacename
+>org.kde.kaichat.Application</interfacename
+>, que oferece as mesmas operações das opções acima: listar conversas, criar uma conversa, alternar para uma conversa, exibir conversas arquivadas e fazer uma pergunta.</para>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>Créditos e licença</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>Direitos autorais do programa 2025-2026 &Laurent.Montel; &Laurent.Montel.mail; </para>
+<para
+>Direitos autorais da documentação &copy; &Laurent.Montel; &Laurent.Montel.mail; </para>
+
+<para
+>Tradução de Marcus Gama <email
+>marcus.gama@kde.org</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->
