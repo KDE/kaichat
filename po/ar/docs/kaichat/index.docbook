@@ -1,0 +1,940 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       CVS -->
+  <!ENTITY i18n-kapplication "<application
+>كتشات</application
+>">
+  <!ENTITY kappname "&i18n-kapplication;">
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Arabic "INCLUDE">
+]>
+
+<book id="kaichat" lang="&language;">
+
+<bookinfo id="kaichatinfo">
+
+<title
+>دليل &i18n-kapplication;</title>
+
+<authorgroup>
+<author
+><personname
+> <firstname
+>Laurent</firstname
+> <surname
+>Montel</surname
+> </personname
+> <email
+>montel@kde.org</email
+> </author>
+<othercredit role="translator"
+><firstname
+>زايد</firstname
+><surname
+>السعيدي</surname
+><affiliation
+><address
+><email
+>zayed.alsaidi@gmail.com</email
+></address
+></affiliation
+><contrib
+>التّرجمة العربيّة</contrib
+></othercredit
+> 
+</authorgroup>
+
+<copyright>
+<year
+>2025</year>
+<year
+>2026</year>
+<holder
+>لوران مونتال</holder>
+</copyright>
+
+<legalnotice
+>&FDLNotice;</legalnotice>
+
+<date
+>2026-09-26</date>
+<releaseinfo
+></releaseinfo>
+
+<abstract>
+<para
+>‏&i18n-kapplication; عميل محادثة لنماذج اللغة الاصطناعية. </para>
+</abstract>
+
+<keywordset>
+<keyword
+>كيدي</keyword>
+<keyword
+>الذكاء الاصطناعي</keyword>
+<keyword
+>دردشة</keyword>
+<keyword
+>أولاما</keyword>
+<keyword
+>LLM</keyword>
+<keyword
+>الخصوصيّة</keyword>
+</keywordset>
+</bookinfo>
+
+<chapter id="introduction">
+<title
+>مقدمة</title>
+
+<para
+>‏&i18n-kapplication; تطبيق محادثة يتيح لك التحدث مع نماذج اللغة الاصطناعية، سواء كانت تعمل محليًا مع Ollama أو مقدمة من خدمة ذكاء اصطناعي عبر الإنترنت.</para>
+
+<para
+>تُخزَّن المحادثات في قاعدة بيانات محلية على حاسوبك، فتبقى موجودة في المرة التالية التي تبدأ فيها التطبيق. يمكنك تصفحها والبحث فيها وتنظيمها في مشاريع وبالوسوم وأرشفة ما لم تعد تحتاجه وتصديرها إلى ملف. وعندما لا تريد الاحتفاظ بالمحادثة إطلاقًا، يمكنك استخدام نقاش عابر بدلًا منها.</para>
+
+<para
+>‏&i18n-kapplication; لا يوفر نموذجًا خاصًا به: بل يتحدث إلى مزود نموذج تضبطه أنت. ولا يُرسَل أي شيء إلى أي مكان حتى تُعدّ مزودًا كهذا وتطرح سؤالًا.</para>
+
+</chapter>
+
+<chapter id="getting-started">
+<title
+>البدء</title>
+
+<para
+>قبل أن تطرح أي شيء، يحتاج &i18n-kapplication; إلى <emphasis
+>نسخة</emphasis
+> واحدة على الأقل. والنسخة اتصال مضبوط بمزود نموذج: خادم محلي يعمل على جهازك، أو خدمة عبر الإنترنت.</para>
+
+<para
+>في المرة الأولى التي تبدأ فيها التطبيق دون أي نسخة، يعرض عليك إنشاء واحدة. ويمكنك أيضًا فتح <menuchoice
+><guimenu
+>إعدادات</guimenu
+><guimenuitem
+>اضبط &i18n-kapplication;…</guimenuitem
+></menuchoice
+> والانتقال إلى صفحة <guilabel
+>النسخ</guilabel
+>.</para>
+
+<sect1 id="local-model">
+<title
+>استخدام نموذج محلي</title>
+
+<para
+>تشغيل النموذج على حاسوبك يبقي أسئلتك على جهازك. ويستطيع &i18n-kapplication; استخدام خوادم محلية مثل <application
+>Ollama</application
+> أو <application
+>llama.cpp</application
+> أو <application
+>LM Studio</application
+>.</para>
+
+<para
+>ثبّت الخادم وابدأه أولًا، ثم أضف نسخة من النوع المطابق. وعنوان خادم <application
+>Ollama</application
+> المحلي المبدئي معبأ مسبقًا. وإذا كان <application
+>Ollama</application
+> مثبتًا لكنه لا يعمل، يعرض عليك &i18n-kapplication; بدءه نيابة عنك؛ ويمكنك فعل ذلك أيضًا من سطر الأوامر باستخدام <userinput
+><command
+>kaichat</command
+> <option
+>--start-ollama</option
+></userinput
+>.</para>
+
+<para
+>بعد وصل النسخة، ما زلت بحاجة إلى نموذج. ويمكن تنزيل النماذج من داخل إعداد النسخة، ويشعرك &i18n-kapplication; عند انتهاء التنزيل.</para>
+
+</sect1>
+
+<sect1 id="online-service">
+<title
+>استخدام خدمة عبر الإنترنت</title>
+
+<para
+>يستطيع &i18n-kapplication; أيضًا التحدث إلى خدمات مستضافة، منها Ollama Cloud وOpenAI وAnthropic وMistral AI وGroq وGrok وQwen وOpenRouter وDeepInfra وNovita AI وCerebras وغيرها من المزودين ذوي الواجهة المتوافقة مع OpenAI. وتعتمد القائمة الدقيقة على الملحقات المثبتة على نظامك؛ شغّل <userinput
+><command
+>kaichat</command
+> <option
+>--plugin-info</option
+></userinput
+> لعرضها.</para>
+
+<para
+>أنشئ نسخة من النوع المطابق والصق مفتاح API الذي منحتك إياه الخدمة. واعلم أن أسئلتك مع خدمة عبر الإنترنت، وأي ملف ترفقه، تُرسَل إلى ذلك المزود وتخضع لسياسة الخصوصية الخاصة به.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="using-kapp">
+<title
+>استخدام &i18n-kapplication;</title>
+
+<sect1 id="main-window">
+<title
+>النافذة الرئيسة</title>
+
+<para
+>تنقسم النافذة إلى ثلاثة أجزاء:</para>
+
+<itemizedlist>
+<listitem
+><para
+>قائمة محادثاتك، على اليسار. ويمكن طيّها بالزر الموجود على الفاصل؛</para
+></listitem>
+<listitem
+><para
+>المحادثة نفسها، على اليمين، حيث تُعرض أسئلتك وأجوبة النموذج؛</para
+></listitem>
+<listitem
+><para
+>حقل الإدخال في الأسفل، حيث تكتب سؤالك.</para
+></listitem>
+</itemizedlist>
+
+<para
+>وفوقها، يتيح لك شريط العنوان بدء محادثة جديدة أو نقاش عابر، ووسم المحادثة الحالية كمفضلة، والبحث في المحادثة الحالية. ويعرض شريط الحالة في الأسفل ما يفعله النموذج حاليًا، مثل الأداة التي يستدعيها.</para>
+
+</sect1>
+
+<sect1 id="chatting">
+<title
+>طرح الأسئلة</title>
+
+<para
+>اكتب سؤالك في حقل الإدخال وأكّده. ويظهر الجواب في عرض المحادثة أثناء توليده، ويُعرض إشعار عند انتهاء جواب طويل.</para>
+
+<para
+>يمكنك إرفاق ملفات بسؤال، وتمكين الأدوات المسموح للنموذج باستدعائها أثناء الإجابة عنه. وتحتفظ كل محادثة بسجلها الخاص، الذي يُرسَل مع سؤالك الجديد ليعرف النموذج السياق.</para>
+
+</sect1>
+
+<sect1 id="managing-chats">
+<title
+>إدارة المحادثات</title>
+
+<para
+>تُنشأ المحادثات من شريط العنوان، أو باستخدام <userinput
+><command
+>kaichat</command
+> <option
+>--new-chat</option
+> <replaceable
+>title</replaceable
+></userinput
+>.</para>
+
+<para
+>انقر بزر الفأرة الأيمن على محادثة في القائمة للعمل عليها:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>عدّل…</guimenuitem
+></term>
+<listitem
+><para
+>غيّر عنوان المحادثة.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>كرّر…</guimenuitem
+></term>
+<listitem
+><para
+>أنشئ نسخة من المحادثة، مثلًا لتجربة اتجاه آخر دون فقدان المحادثة الأصلية.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>فضّله</guimenuitem
+></term>
+<listitem
+><para
+>أظهر المحادثة في قسم <guilabel
+>المفضلة</guilabel
+> في أعلى القائمة. ويمكن فعل الشيء نفسه بزر <guibutton
+>المفضلة</guibutton
+> في شريط العنوان.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>المشروع</guisubmenu
+></term>
+<listitem
+><para
+>انقل المحادثة إلى مشروع، أو أخرجها منه بـ<guimenuitem
+>لا مشروع</guimenuitem
+>.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guisubmenu
+>الوسوم</guisubmenu
+></term>
+<listitem
+><para
+>أضف وسومًا إلى المحادثة أو أزلها.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>أرشيف</guimenuitem
+></term>
+<listitem
+><para
+>أخفِ المحادثة من القائمة دون حذفها.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>أزل…</guimenuitem
+></term>
+<listitem
+><para
+>احذف المحادثة ورسائلها نهائيًا.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>وتُجمَّع المحادثات الأخرى حسب العمر: اليوم، وآخر سبعة أيام، وآخر ثلاثين يومًا، والأقدم.</para>
+
+<para
+>ويمكن أيضًا تفريع محادثة من إحدى رسائلها بزر <guibutton
+>فرّع</guibutton
+> المعروض بجانبها. ويبدأ هذا محادثة جديدة تحتوي المحادثة حتى تلك الرسالة، ويترك المحادثة الأصلية دون مساس.</para>
+
+<para
+>يمكن أرشفة محادثة لم تعد تحتاجها بدلًا من حذفها. وتُخفى المحادثات المؤرشفة من القائمة؛ أظهرها مجددًا بـ<menuchoice
+><guimenu
+>عرض</guimenu
+><guimenuitem
+>أظهر الأرشيف</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>للبح عن شيء سألته أو قرأته منذ مدة، استخدم <menuchoice
+><shortcut
+><keycombo action="simul"
+>&Ctrl;<keycap
+>F</keycap
+></keycombo
+></shortcut
+> <guimenu
+>تحرير</guimenu
+><guimenuitem
+>ابحث في قاعدة البيانات…</guimenuitem
+></menuchoice
+>. ويبحث هذا في كامل السجل المخزن، لا في المحادثة التي تنظر إليها فقط. ويُعرض عدد المطابقات في شريط الحالة.</para>
+
+</sect1>
+
+<sect1 id="projects-tags">
+<title
+>المشاريع والوسوم</title>
+
+<para
+>المشاريع والوسوم طريقتان لتنظيم محادثاتك. وتنتمي المحادثة إلى مشروع واحد على الأكثر، وهو مفيد لجمع المحادثات المتعلقة بالعمل نفسه. ويمكن أن تحمل المحادثة أي عدد من الوسوم.</para>
+
+<para
+>يُنشأ كلاهما ويُعاد تسميته ويُزال بـ<guimenuitem
+>أدر المشاريع…</guimenuitem
+> و<guimenuitem
+>أدر الوسوم…</guimenuitem
+>، في القائمتين الفرعيتين <guisubmenu
+>مشروع</guisubmenu
+> و<guisubmenu
+>وسوم</guisubmenu
+> من قائمة السياق لقائمة المحادثات. وإزالة مشروع لا تزيل محادثاته: بل تبقى، خارج أي مشروع.</para>
+
+<para
+>لا يعرض منتقي الوسوم فوق قائمة المحادثات إلا المحادثات التي تحمل أحد الوسوم المحددة. ولا تحدد أي وسم لرؤيتها كلها مجددًا.</para>
+
+</sect1>
+
+<sect1 id="ephemeral-chats">
+<title
+>مناقشات عابرة</title>
+
+<para
+>المناقشة العابرة محادثة لا تُكتب أبدًا في قاعدة البيانات. استخدمها لسؤال لا تريد الاحتفاظ به: بمجرد إغلاق &i18n-kapplication;، تزول. ابدأ واحدة بزر <guibutton
+>مناقشة عابرة</guibutton
+> في شريط العنوان، أو بـ <userinput
+><command
+>kaichat</command
+> <option
+>--ephemeral-chat</option
+> <replaceable
+>title</replaceable
+></userinput
+>. تظهر المناقشات العابرة في قسمها الخاص أعلى قائمة المحادثات.</para>
+
+<para
+>إذا غيّرت رأيك، يحوّلها زر <guibutton
+>حفظ المناقشة في قاعدة البيانات</guibutton
+> في شريط العنوان إلى محادثة عادية.</para>
+
+<para
+>ضع في اعتبارك أن هذا يتعلق فقط بما يُخزَّن على حاسوبك: مع خدمة عبر الإنترنت، ما زالت أسئلتك تُرسَل إلى ذلك المزوّد.</para>
+
+</sect1>
+
+<sect1 id="quick-ask">
+<title
+>سؤال سريع</title>
+
+<para
+>السؤال السريع حوار صغير لسؤال واحد، دون فتح النافذة الرئيسة. افتحه بـ <menuchoice
+><guimenu
+>أدوات</guimenu
+><guimenuitem
+>فتح السؤال السريع…</guimenuitem
+></menuchoice
+>، أو باختصار <keycombo action="simul"
+>&Meta;<keycap
+>مسافة</keycap
+></keycombo
+> العام، أو بـ <userinput
+><command
+>kaichat</command
+> <option
+>--quick-ask</option
+></userinput
+>. لا تُضاف الأسئلة المطروحة بهذه الطريقة إلى محادثاتك، إلا إذا احتفظت بالمناقشة بزر <guibutton
+>حفظ المناقشة في قاعدة البيانات</guibutton
+>.</para>
+
+</sect1>
+
+<sect1 id="import-export">
+<title
+>استيراد المحادثات وتصديرها</title>
+
+<para
+>يمكن حفظ المحادثة الحالية إلى ملف بـ <menuchoice
+><guimenu
+>ملف</guimenu
+><guimenuitem
+>تصدير…</guimenuitem
+></menuchoice
+>، بأحد أربعة تنسيقات:</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guimenuitem
+>صَدِّر بصيغة JSON...</guimenuitem
+></term>
+<listitem
+><para
+>ملف <filename class="extension"
+>.kaichat</filename
+>. هذا التنسيق الوحيد الذي يستطيع &i18n-kapplication; قراءته مرة أخرى.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>صَدِّر بصيغة Markdown...</guimenuitem
+></term>
+<listitem
+><para
+>ملف نصي يحافظ على تنسيق الأجوبة.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>صَدِّر بصيغة نص...</guimenuitem
+></term>
+<listitem
+><para
+>نصّ صِرف.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guimenuitem
+>صدّر بنسق PDF…</guimenuitem
+></term>
+<listitem
+><para
+>مستند قابل للطباعة.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>يُقرأ ملف <filename class="extension"
+>.kaichat</filename
+> المُصدَّر سابقًا بـ <menuchoice
+><guimenu
+>ملف</guimenu
+><guimenuitem
+>استيراد…</guimenuitem
+></menuchoice
+>. يمكنك أيضًا فتح مثل هذا الملف من مدير الملفات، أو تمريره على سطر الأوامر.</para>
+
+</sect1>
+
+<sect1 id="appearance">
+<title
+>ضبط العرض</title>
+
+<para
+>يمكن تكبير نص التطبيق بأكمله أو تصغيره بـ <menuchoice
+><guimenu
+>عرض</guimenu
+><guisubmenu
+>حجم الخط</guisubmenu
+></menuchoice
+>، أو بـ <keycombo action="simul"
+>&Ctrl;<keycap
+>+</keycap
+></keycombo
+> و<keycombo action="simul"
+>&Ctrl;<keycap
+>-</keycap
+></keycombo
+>. ويمكن بدلًا من ذلك اختيار خط ثابت في حوار الضبط.</para>
+
+<para
+>يبدّل <menuchoice
+><guimenu
+>إعدادات</guimenu
+><guisubmenu
+>مخطط الألوان</guisubmenu
+></menuchoice
+> ألوان النافذة دون تغيير إعدادات سطح المكتب، ويبدّل <keycap
+>F11</keycap
+> إلى ملء الشاشة.</para>
+
+<para
+>يمكن إخفاء شريط القوائم بـ <menuchoice
+><guimenu
+>إعدادات</guimenu
+><guimenuitem
+>إظهار شريط القوائم</guimenuitem
+></menuchoice
+>؛ وتبقى الإجراءات متاحة عبر زر القائمة في شريط الأدوات.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="configuring">
+<title
+>ضبط &i18n-kapplication;</title>
+
+<para
+>يُفتح حوار الضبط بـ <menuchoice
+><guimenu
+>إعدادات</guimenu
+><guimenuitem
+>اضبط &i18n-kapplication;…</guimenuitem
+></menuchoice
+>. وتبعًا لطريقة بناء التطبيق، يحتوي على الصفحات التالية.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><guilabel
+>عامّ</guilabel
+></term>
+<listitem
+><para
+>ما إذا كان رمز علبة النظام يظهر، والموجّه النظامي المُرسَل إلى النموذج في بداية كل محادثة.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>الخط</guilabel
+></term>
+<listitem
+><para
+>استخدم خطًا من اختيارك بدلًا من خط النظام.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>النُسخ</guilabel
+></term>
+<listitem
+><para
+>أضف اتصالات مزوّدي النماذج وأزلها واضبطها، وأدر النماذج المتاحة عليها.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>خوادم MCP</guilabel
+></term>
+<listitem
+><para
+>خوادم بروتوكول سياق النموذج، التي تمنح النموذج وصولًا إلى بيانات وإجراءات خارجية. ما زال هذا الدعم تجريبيًا.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>التدقيق الإملائي</guilabel
+></term>
+<listitem
+><para
+>التدقيق الإملائي لما تكتبه.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>الإتاحة</guilabel
+></term>
+<listitem
+><para
+>إعدادات تحويل النص إلى كلام، عندما بُني التطبيق بدعم تحويل النص إلى كلام.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>الملحقات</guilabel
+></term>
+<listitem
+><para
+>مكّن الملحقات المثبَّتة أو عطّلها واضبط الأدوات التي قد يستخدمها النموذج.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>ملاحظات المستخدمين</guilabel
+></term>
+<listitem
+><para
+>مقدار المعلومات، إن وُجدت، التي تريد إرسالها إلى المطوّرين. لا يُرسَل شيء إلا إذا طلبت ذلك هنا.</para
+></listitem>
+</varlistentry>
+
+<varlistentry>
+<term
+><guilabel
+>الاحتفاظ</guilabel
+></term>
+<listitem
+><para
+>مدة الاحتفاظ بمحادثاتك. <guilabel
+>أيام الاحتفاظ</guilabel
+> هو عدد الأيام التي تُزال بعدها المحادثات القديمة؛ وبالقيمة المبدئية 0، تُحتفظ بها إلى الأبد. <guilabel
+>استثنِ المحادثات المفضلة</guilabel
+>، الممكَّن مبدئيًا، يحتفظ بمحادثاتك المفضلة مهما كان عمرها.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><guilabel
+>الخصوصية</guilabel
+></term>
+<listitem
+><para
+>يعرض مكان تخزين محادثاتك على القرص. يمكن نسخ المسار إلى الحافظة بالزر المجاور له، مثلًا لنسخ قاعدة البيانات احتياطيًا أو حذفها.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>تُضبط الإشعارات بـ <menuchoice
+><guimenu
+>إعدادات</guimenu
+><guimenuitem
+>اضبط الإشعارات…</guimenuitem
+></menuchoice
+>.</para>
+
+<para
+>يمكن أيضًا ضبط النُسخ وخوادم MCP خارج التطبيق، من وحدة <guilabel
+>الذكاء الاصطناعي</guilabel
+> في &systemsettings;.</para>
+
+<sect1 id="files">
+<title
+>الملفات المستخدمة</title>
+
+<variablelist>
+<varlistentry>
+<term
+><filename
+>~/.config/kaichatrc</filename
+></term>
+<listitem
+><para
+>إعدادات التطبيق.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><filename class="directory"
+>~/.local/share/kaichat/ai-database/</filename
+></term>
+<listitem
+><para
+>قواعد البيانات التي تحتفظ بمحادثاتك ورسائلها. يظهر الموقع الدقيق في صفحة <guilabel
+>الخصوصية</guilabel
+> في حوار الضبط.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>يحتوي ضبط نُسخك على مفاتيح API للخدمات عبر الإنترنت التي تستخدمها. عامل هذه الملفات كما تعامل كلمة السر.</para>
+
+</sect1>
+
+</chapter>
+
+<chapter id="command-line">
+<title
+>خيارات سطر الأوامر</title>
+
+<para
+>يعمل &i18n-kapplication; كنسخة واحدة: تشغيله مجددًا بينما هو يعمل يمرّر الخيارات إلى النافذة المفتوحة أصلًا بدلًا من فتح نافذة ثانية.</para>
+
+<variablelist>
+<varlistentry>
+<term
+><option
+>--list-instances</option
+></term>
+<listitem
+><para
+>اطبع النُسخ المضبوطة واخرج.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--list-chats</option
+></term>
+<listitem
+><para
+>اطبع عناوين المحادثات المخزَّنة واخرج.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--plugin-info</option
+></term>
+<listitem
+><para
+>اطبع ملحقات النصوص والأدوات المتاحة واخرج.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--new-chat</option
+> <replaceable
+>title</replaceable
+></term>
+<listitem
+><para
+>أنشئ محادثة جديدة بهذا العنوان.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ephemeral-chat</option
+> <replaceable
+>العنوان</replaceable
+></term>
+<listitem
+><para
+>أنشئ نقاشا عابرا بهذا العنوان. لا يُخزَّن في قاعدة البيانات.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat</option
+> <replaceable
+>الاسم</replaceable
+></term>
+<listitem
+><para
+>انتقل إلى محادثة موجودة، بالعنوان.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--switch-to-chat-from-id</option
+> <replaceable
+>المعرّف</replaceable
+></term>
+<listitem
+><para
+>انتقل إلى محادثة موجودة، بالمعرّف.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--ask-message</option
+> <replaceable
+>الرسالة</replaceable
+></term>
+<listitem
+><para
+>اطرح هذا السؤال فورا.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--attach</option
+> <replaceable
+>المسار</replaceable
+></term>
+<listitem
+><para
+>أرفق ملفا بالسؤال. يمكن تكراره.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--tool</option
+> <replaceable
+>الاسم</replaceable
+></term>
+<listitem
+><para
+>اسمح للنموذج باستخدام هذه الأداة. يمكن تكراره.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--quick-ask</option
+></term>
+<listitem
+><para
+>افتح حوار السؤال السريع.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--import</option
+> <replaceable
+>الملف</replaceable
+></term>
+<listitem
+><para
+>استورد محادثة من ملف JSON.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--start-ollama</option
+></term>
+<listitem
+><para
+>شغّل برنامج <application
+>Ollama</application
+> المحلي.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--debug</option
+></term>
+<listitem
+><para
+>فعّل نمط التنقيح، الذي يضيف قائمة <guimenu
+>تنقيح</guimenu
+> تعرض محتوى قاعدة البيانات.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><option
+>--feedback</option
+></term>
+<listitem
+><para
+>اسرد المعلومات التي يمكن إرسالها كتغذية راجعة من المستخدم.</para
+></listitem>
+</varlistentry>
+<varlistentry>
+<term
+><replaceable
+>ملف…</replaceable
+></term>
+<listitem
+><para
+>ملفات المحادثات للاستيراد.</para
+></listitem>
+</varlistentry>
+</variablelist>
+
+<para
+>في الأنظمة التي تستخدم &DBus;، يعرض &i18n-kapplication; قيد التشغيل أيضا الواجهة <interfacename
+>org.kde.kaichat.Application</interfacename
+>، التي توفر نفس العمليات كالخيارات أعلاه: سرد المحادثات، وإنشاء واحدة، والانتقال إلى واحدة، وعرض المحادثات المؤرشفة، وطرح سؤال.</para>
+
+</chapter>
+
+<chapter id="credits">
+
+<title
+>الحقوق والترخيص</title>
+
+<para
+>&i18n-kapplication;</para>
+<para
+>حقوق البرنامج 2025-2026 &Laurent.Montel; &Laurent.Montel.mail; </para>
+<para
+>حقوق ملكية التوثيق © لمؤلفه &Laurent.Montel; &Laurent.Montel.mail; </para>
+
+<para
+>الترجمة: زايد السعيدي <email
+>zayed.alsaidi@gmail.com</email
+></para
+> &underFDL; &underGPL; </chapter>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->
