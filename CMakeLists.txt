@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2025-2026 Laurent Montel <montel@kde.org>
 # SPDX-License-Identifier: BSD-3-Clause
 cmake_minimum_required(VERSION 3.29.0)
-set(KAICHAT_VERSION "0.9.80")
+set(KAICHAT_VERSION "0.9.90")
 project(kaichat VERSION ${KAICHAT_VERSION})
 
 set(KAICHAT_LIB_VERSION "${KAICHAT_VERSION}")
@@ -249,7 +249,7 @@ add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.13.0
-    KF 6.31.0
+    KF 6.32.0
 )
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
