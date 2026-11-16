@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-31 00:54+0000\n"
-"PO-Revision-Date: 2026-10-13 19:01+0300\n"
+"PO-Revision-Date: 2026-11-15 20:06+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.0\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -322,7 +322,7 @@ msgstr "Konuşmayı etkinleştir"
 #, kde-format
 msgctxt "@option:check"
 msgid "&Use custom fonts"
-msgstr "Ö&zel yazıtipleri kullan"
+msgstr "Ö&zel yazı tipleri kullan"
 
 #: widgets/configure/kaichatconfiguregeneralwidget.cpp:19
 #, kde-format
@@ -380,7 +380,7 @@ msgstr "Genel"
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
-msgstr "Yazıtipi"
+msgstr "Yazı Tipi"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
 #, kde-format
@@ -488,19 +488,19 @@ msgstr "Bekleyen Girilmiş Bilgi"
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
 msgid "Font Size"
-msgstr "Yazıtipi Puntosu"
+msgstr "Yazı Tipi Puntosu"
 
 #: widgets/kaichatchangefontsizemenu.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Increase Font"
-msgstr "Yazıtipi Puntosunu Artır"
+msgstr "Yazı Tipi Puntosunu Artır"
 
 #: widgets/kaichatchangefontsizemenu.cpp:27
 #, kde-format
 msgctxt "@action"
 msgid "Decrease Font"
-msgstr "Yazıtipi Puntosunu Azalt"
+msgstr "Yazı Tipi Puntosunu Azalt"
 
 #: widgets/kaichatexportmenu.cpp:18
 #, kde-format
