@@ -21,7 +21,7 @@ KAIChatConfigurePrivacyWidget::KAIChatConfigurePrivacyWidget(TextAutoGenerateTex
     mainLayout->setObjectName(u"mainLayout"_s);
 
     auto hbox = new QHBoxLayout;
-    hbox->setObjectName(u"mainLayout"_s);
+    hbox->setObjectName(u"hbox"_s);
     hbox->setContentsMargins({});
 
     auto label = new QLabel(i18n("Database Repository:"), this);

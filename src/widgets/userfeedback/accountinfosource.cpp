@@ -26,7 +26,7 @@ QString AccountInfoSource::name() const
 
 QString AccountInfoSource::description() const
 {
-    return i18n("Return the number of account.");
+    return i18n("Returns the number of AI instances.");
 }
 
 QVariant AccountInfoSource::data()
