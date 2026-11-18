@@ -53,9 +53,7 @@ private:
     KPageWidgetItem *mConfigureInstancesWidgetPage = nullptr;
     KPageWidgetItem *mConfigureSpellCheckWidgetPage = nullptr;
     KPageWidgetItem *mConfigurePluginsWidgetPage = nullptr;
-#if HAVE_MPC_SERVER
     KAIChatConfigureMcpServersWidget *const mConfigureMcpServersWidget;
     KPageWidgetItem *mConfigureMcpServersWidgetPage = nullptr;
-#endif
     KPageWidgetItem *mConfigureRetentionWidgetPage = nullptr;
 };
