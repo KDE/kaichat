@@ -10,6 +10,7 @@
 #include "kaichat_widget_debug.h"
 #include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
+#include <textautogeneratetext_version.h>
 
 #include "configure/kaichatconfiguresettingsdialog.h"
 #include "databasedialog/kaichatdatabasedialog.h"
