@@ -265,7 +265,7 @@ void KAIChatMainWindow::slotExportDone(const QString &fileName)
 
 void KAIChatMainWindow::slotQuickAsk()
 {
-    KAIChatUtils::createQuickAsk(mManager, this);
+    KAIChatUtils::createQuickAsk({}, mManager, this);
 }
 
 void KAIChatMainWindow::slotWhatsNew()
@@ -451,22 +451,6 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         const QString newChatName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::EphemeralChat));
         mManager->createNewChat(newChatName, TextAutoGenerateText::TextAutoGenerateChat::Persistence::Ephemeral);
     }
-    QString message;
-    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage))) {
-        message = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::AskMessage));
-    }
-    QStringList lstAttachments;
-    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach))) {
-        lstAttachments = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::Attach));
-    }
-    QList<QByteArray> tools;
-    if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName))) {
-        const QStringList toolNames = parser->values(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ToolName));
-        for (const auto &t : toolNames) {
-            tools.append(t.toLatin1());
-        }
-    }
-
     if (parser->isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat))) {
         const QString importFileName = parser->value(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ImportChat));
         importChatFile(importFileName);
@@ -477,9 +461,7 @@ void KAIChatMainWindow::parseCommandLine(QCommandLineParser *parser)
         importChatFile(file);
     }
 
-    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info{.message = std::move(message),
-                                                                             .attachments = std::move(lstAttachments),
-                                                                             .tools = std::move(tools)};
+    const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo info = KAIChatCommandLineParser::askMessageInfo(parser);
     if (info.isValid()) {
         mManager->ask(info);
     }
