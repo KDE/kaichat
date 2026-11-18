@@ -177,6 +177,7 @@ void KAIChatMainWindow::setupActions()
     ac->addAction(u"import_menu"_s, mImportMenu);
     connect(mImportMenu, &KAIChatImportMenu::importRequested, this, &KAIChatMainWindow::slotImportInfoRequested);
     connect(mImportMenu, &KAIChatImportMenu::importDone, this, &KAIChatMainWindow::slotImportDone);
+    connect(mImportMenu, &KAIChatImportMenu::importFailed, this, &KAIChatMainWindow::slotImportFailed);
 
     auto searchInDataBaseAction = new QAction(i18nc("@action", "Search in Database…"), this);
     ac->addAction(u"search_in_database"_s, searchInDataBaseAction);
@@ -502,6 +503,11 @@ void KAIChatMainWindow::slotConfigureNotifications()
 void KAIChatMainWindow::slotImportDone(const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs)
 {
     mManager->importChat(title, msgs);
+}
+
+void KAIChatMainWindow::slotImportFailed(const QString &str)
+{
+    KMessageBox::error(this, str, i18nc("@title:window", "Import Failed"));
 }
 
 #include "moc_kaichatmainwindow.cpp"
