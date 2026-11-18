@@ -15,7 +15,7 @@ public:
 
     void setImportChatInfo(const TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo &newInfo);
 
-    QString fileFilter() const;
+    [[nodiscard]] QString fileFilter() const;
 
 Q_SIGNALS:
     void importRequested();
