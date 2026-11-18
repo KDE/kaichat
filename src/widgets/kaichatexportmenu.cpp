@@ -81,6 +81,11 @@ void KAIChatExportMenu::convertChat(const TextAutoGenerateText::TextAutoGenerate
         Q_EMIT exportDone(fileName);
     });
 
+    connect(job, &TextAutoGenerateText::TextAutoGenerateExportChatBaseJob::exportFailed, this, [this](const QString &errorString) {
+        qCDebug(KAICHAT_WIDGET_LOG) << "Export job failed";
+        Q_EMIT exportFailed(errorString);
+    });
+
     job->setInfo(newInfo);
     job->start();
 }

@@ -77,6 +77,12 @@ void KAIChatExportChatAsPdfJob::exportChat()
 
     // Render document to PDF, page by page
     QPainter painter(&writer);
+    if (!painter.isActive()) {
+        Q_EMIT exportFailed(i18n("Failed to open file for writing: %1", mInfo.filename));
+        qCWarning(KAICHAT_CORE_LOG) << "Impossible to open file " << mInfo.filename;
+        deleteLater();
+        return;
+    }
     const QRectF pageRect(QPointF(0, 0), pageSize);
     double pageTop = 0;
     bool firstPage = true;

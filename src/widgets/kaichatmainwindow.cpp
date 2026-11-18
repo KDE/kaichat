@@ -10,7 +10,6 @@
 #include "kaichat_widget_debug.h"
 #include "kaichatimportmenu.h"
 #include "textautogeneratetext/textautogeneratetextglobalconfig.h"
-#include <textautogeneratetext_version.h>
 
 #include "configure/kaichatconfiguresettingsdialog.h"
 #include "databasedialog/kaichatdatabasedialog.h"
@@ -94,11 +93,9 @@ KAIChatMainWindow::KAIChatMainWindow(const QList<KAboutRelease> &releases, TextA
             slotStatusBarInfoChanged({});
         }
     });
-#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 2, 41)
     connect(mManager, &TextAutoGenerateText::TextAutoGenerateManager::information, this, [this](const QString &info) {
         statusBar()->showMessage(info, 3000);
     });
-#endif
     disableActions();
 #if HAVE_KUSERFEEDBACK
     auto userFeedBackNotificationPopup = new KUserFeedback::NotificationPopup(this);
@@ -173,6 +170,7 @@ void KAIChatMainWindow::setupActions()
     ac->addAction(u"export_menu"_s, mExportMenu);
     connect(mExportMenu, &KAIChatExportMenu::exportInfoRequested, this, &KAIChatMainWindow::slotExportInfoRequested);
     connect(mExportMenu, &KAIChatExportMenu::exportDone, this, &KAIChatMainWindow::slotExportDone);
+    connect(mExportMenu, &KAIChatExportMenu::exportFailed, this, &KAIChatMainWindow::slotExportFailed);
 
     mImportMenu = new KAIChatImportMenu(this);
     ac->addAction(u"import_menu"_s, mImportMenu);
@@ -251,6 +249,11 @@ void KAIChatMainWindow::slotShowDatabaseMessages()
     QPointer<KAIChatDatabaseDialog> dlg = new KAIChatDatabaseDialog(mManager, this);
     dlg->exec();
     delete dlg;
+}
+
+void KAIChatMainWindow::slotExportFailed(const QString &errorStr)
+{
+    KMessageBox::error(this, errorStr, i18nc("@title:window", "Export Failed"));
 }
 
 void KAIChatMainWindow::slotExportDone(const QString &fileName)

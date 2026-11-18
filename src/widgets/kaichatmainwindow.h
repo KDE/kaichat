@@ -66,6 +66,7 @@ private:
     LIBKAICHATWIDGETS_NO_EXPORT void slotShowDatabaseMessages();
     LIBKAICHATWIDGETS_NO_EXPORT void slotExportDone(const QString &fileName);
     LIBKAICHATWIDGETS_NO_EXPORT void importChatFile(const QString &filename);
+    LIBKAICHATWIDGETS_NO_EXPORT void slotExportFailed(const QString &errorStr);
     KToggleAction *mShowMenuBarAction = nullptr;
     KHamburgerMenu *mHamburgerMenu = nullptr;
     KToggleFullScreenAction *mShowFullScreenAction = nullptr;

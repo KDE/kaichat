@@ -20,6 +20,7 @@ public:
 Q_SIGNALS:
     void exportInfoRequested();
     void exportDone(const QString &filename);
+    void exportFailed(const QString &errorStr);
 
 private:
     enum class ConvertToType : uint8_t {

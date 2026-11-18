@@ -58,6 +58,7 @@ void KAIChatExportChatAsTextJob::exportChat()
         out.flush();
         Q_EMIT exportDone(mInfo.filename);
     } else {
+        Q_EMIT exportFailed(i18n("Failed to open file for writing: %1", mInfo.filename));
         qCWarning(KAICHAT_CORE_LOG) << "Impossible to open file " << mInfo.filename;
     }
     deleteLater();
