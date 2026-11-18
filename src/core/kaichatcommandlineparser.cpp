@@ -94,3 +94,24 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
     }
     return {};
 }
+
+TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo KAIChatCommandLineParser::askMessageInfo(const QCommandLineParser *parser)
+{
+    QString message;
+    if (parser->isSet(optionParserFromEnum(OptionParser::AskMessage))) {
+        message = parser->value(optionParserFromEnum(OptionParser::AskMessage));
+    }
+    QStringList lstAttachments;
+    if (parser->isSet(optionParserFromEnum(OptionParser::Attach))) {
+        lstAttachments = parser->values(optionParserFromEnum(OptionParser::Attach));
+    }
+    QList<QByteArray> tools;
+    if (parser->isSet(optionParserFromEnum(OptionParser::ToolName))) {
+        const QStringList toolNames = parser->values(optionParserFromEnum(OptionParser::ToolName));
+        tools.reserve(toolNames.size());
+        for (const auto &t : toolNames) {
+            tools.append(t.toLatin1());
+        }
+    }
+    return {.message = std::move(message), .attachments = std::move(lstAttachments), .tools = std::move(tools)};
+}

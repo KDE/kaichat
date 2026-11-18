@@ -7,6 +7,8 @@
 #include "config-kaichat.h"
 #include "libkaichatcore_export.h"
 #include <QString>
+#include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <cstdint>
 class QCommandLineParser;
 class LIBKAICHATCORE_EXPORT KAIChatCommandLineParser
 {
@@ -35,6 +37,7 @@ public:
     ~KAIChatCommandLineParser();
 
     [[nodiscard]] static QString optionParserFromEnum(OptionParser e);
+    [[nodiscard]] static TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo askMessageInfo(const QCommandLineParser *parser);
 
 private:
     LIBKAICHATCORE_NO_EXPORT void initializeCommandLine(QCommandLineParser *parser);

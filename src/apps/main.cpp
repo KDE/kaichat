@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
     }
 
     if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
-        KAIChatUtils::createQuickAsk();
+        KAIChatUtils::createQuickAsk(KAIChatCommandLineParser::askMessageInfo(&parser));
         return 0;
     }
 
