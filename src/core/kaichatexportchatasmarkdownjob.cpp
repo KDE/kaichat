@@ -24,8 +24,7 @@ QString KAIChatExportChatAsMarkdownJob::fileFilter()
 
 void KAIChatExportChatAsMarkdownJob::exportChat()
 {
-    QString txt;
-    txt = u"# %1"_s.arg(mInfo.chatTitle);
+    QString txt = u"# %1"_s.arg(mInfo.chatTitle);
     for (const auto &message : std::as_const(mInfo.listMessages)) {
         txt += u'\n';
         txt += u'\n';
