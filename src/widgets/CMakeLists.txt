@@ -57,6 +57,8 @@ target_sources(
         configure/kaichatconfigureretentionwidget.cpp
         configure/kaichatconfigureprivacywidget.h
         configure/kaichatconfigureprivacywidget.cpp
+        configure/kaichatconfiguremcpserverswidget.h
+        configure/kaichatconfiguremcpserverswidget.cpp
         kaichatexportmenu.h
         kaichatexportmenu.cpp
         kaichatutils.h
@@ -89,15 +91,6 @@ target_sources(
         databasedialog/kaichatdatabaseselectchatlineedit.cpp
 )
 
-if(USE_MCP_SERVER_SUPPORT)
-    target_sources(
-        libkaichatwidgets
-        PRIVATE
-            configure/kaichatconfiguremcpserverswidget.h
-            configure/kaichatconfiguremcpserverswidget.cpp
-    )
-endif()
-
 kconfig_add_kcfg_files(libkaichatwidgets settings/kaichatglobalconfig.kcfgc)
 install(FILES settings/kaichatglobalconfig.kcfg DESTINATION ${KDE_INSTALL_KCFGDIR})
 
@@ -128,15 +121,12 @@ target_link_libraries(
     KF6::TextEditTextToSpeech
     KF6::SyntaxHighlighting
     KF6::TextCustomEditor
+    KF6::TextAutoGenerateTextMcpProtocolWidgets
     libkaichatcore
 )
 
 if(TARGET KF6::GlobalAccel)
     target_link_libraries(libkaichatwidgets KF6::GlobalAccel)
-endif()
-
-if(USE_MCP_SERVER_SUPPORT)
-    target_link_libraries(libkaichatwidgets KF6::TextAutoGenerateTextMcpProtocolWidgets)
 endif()
 
 if(TARGET KF6::UserFeedbackWidgets)
