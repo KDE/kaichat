@@ -50,6 +50,7 @@
 #include <QCommandLineParser>
 #include <QDir>
 #include <QFileDialog>
+#include <QFileInfo>
 #include <QFontDatabase>
 #include <QMenu>
 #include <QMenuBar>
@@ -377,10 +378,8 @@ void KAIChatMainWindow::slotImportInfoRequested()
     if (fileName.isEmpty()) {
         return;
     }
-    TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{
-        .filename = std::move(fileName),
-        .chatTitle = {} // TODO ?
-    };
+    QString base = QFileInfo(fileName).completeBaseName();
+    TextAutoGenerateText::TextAutoGenerateImportChatBaseJob::ImportChatInfo info{.filename = std::move(fileName), .chatTitle = std::move(base)};
     mImportMenu->setImportChatInfo(std::move(info));
 }
 
