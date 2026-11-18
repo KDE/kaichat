@@ -50,4 +50,9 @@ void KAIChatAdaptor::ask(const QString &message)
     mManager->ask(info);
 }
 
+void KAIChatAdaptor::archiveDiscussion(const QByteArray &chatId)
+{
+    mManager->archiveDiscussion(chatId, true);
+}
+
 #include "moc_kaichatadaptor.cpp"
