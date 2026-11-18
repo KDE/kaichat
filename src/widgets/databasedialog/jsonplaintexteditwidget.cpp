@@ -7,12 +7,13 @@
 #include "jsonplaintexteditwidget.h"
 #include "kaichat_widget_debug.h"
 #include <KSyntaxHighlighting/Definition>
+#include <KSyntaxHighlighting/Repository>
 #include <KSyntaxHighlighting/SyntaxHighlighter>
 #include <KSyntaxHighlighting/Theme>
 #include <QVBoxLayout>
 #include <TextCustomEditor/PlainTextEditorWidget>
 using namespace Qt::Literals::StringLiterals;
-
+Q_GLOBAL_STATIC(KSyntaxHighlighting::Repository, s_syntaxRepository)
 JsonPlainTextEditor::JsonPlainTextEditor(QWidget *parent)
     : TextCustomEditor::PlainTextEditor(parent)
 {
@@ -34,14 +35,14 @@ JsonPlainTextEditWidget::JsonPlainTextEditWidget(QWidget *parent)
     mPlainTextEdit->setReadOnly(true);
     mainLayout->addWidget(mPlainTextEdit);
 
-    const KSyntaxHighlighting::Definition def = mRepo.definitionForName(u"Json"_s);
+    const KSyntaxHighlighting::Definition def = s_syntaxRepository->definitionForName(u"Json"_s);
     if (!def.isValid()) {
         qCWarning(KAICHAT_WIDGET_LOG) << "Invalid definition name";
     }
 
     auto hl = new KSyntaxHighlighting::SyntaxHighlighter(mPlainTextEdit->editor()->document());
-    hl->setTheme((palette().color(QPalette::Base).lightness() < 128) ? mRepo.defaultTheme(KSyntaxHighlighting::Repository::DarkTheme)
-                                                                     : mRepo.defaultTheme(KSyntaxHighlighting::Repository::LightTheme));
+    hl->setTheme((palette().color(QPalette::Base).lightness() < 128) ? s_syntaxRepository->defaultTheme(KSyntaxHighlighting::Repository::DarkTheme)
+                                                                     : s_syntaxRepository->defaultTheme(KSyntaxHighlighting::Repository::LightTheme));
     hl->setDefinition(def);
 }
 
