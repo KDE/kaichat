@@ -13,7 +13,6 @@
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatPendingTypedInfoDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
-using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseChatPendingTypedInfoWidget::KAIChatDatabaseChatPendingTypedInfoWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)

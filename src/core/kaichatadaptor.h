@@ -6,7 +6,10 @@
 #pragma once
 #include "libkaichatcore_export.h"
 #include <QDBusAbstractAdaptor>
-#include <TextAutoGenerateText/TextAutoGenerateManager>
+namespace TextAutoGenerateText
+{
+class TextAutoGenerateManager;
+}
 
 class LIBKAICHATCORE_EXPORT KAIChatAdaptor : public QDBusAbstractAdaptor
 {

@@ -5,6 +5,7 @@
  */
 
 #include "kaichatadaptor.h"
+#include <TextAutoGenerateText/TextAutoGenerateManager>
 
 KAIChatAdaptor::KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent)
     : QDBusAbstractAdaptor(parent)

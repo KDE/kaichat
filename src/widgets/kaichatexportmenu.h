@@ -7,6 +7,7 @@
 #pragma once
 #include <KActionMenu>
 #include <TextAutoGenerateText/TextAutoGenerateExportChatBaseJob>
+#include <cstdint>
 class KAIChatExportMenu : public KActionMenu
 {
     Q_OBJECT

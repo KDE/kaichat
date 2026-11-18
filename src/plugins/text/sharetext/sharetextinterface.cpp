@@ -5,7 +5,6 @@
 */
 
 #include "sharetextinterface.h"
-using namespace Qt::Literals::StringLiterals;
 
 #include "purposemenuwidget.h"
 

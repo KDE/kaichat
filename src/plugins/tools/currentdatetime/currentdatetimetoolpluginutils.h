@@ -5,6 +5,7 @@
 */
 #pragma once
 #include <QString>
+#include <cstdint>
 namespace CurrentDateTimeToolPluginUtils
 {
 enum DateTimeEnum : int8_t {

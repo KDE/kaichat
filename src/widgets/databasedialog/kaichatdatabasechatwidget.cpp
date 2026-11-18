@@ -16,7 +16,6 @@
 #include <TextAutoGenerateText/TextAutoGenerateLocalChatsDatabase>
 #include <TextAutoGenerateText/TextAutoGenerateLocalDatabaseManager>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
-using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseChatWidget::KAIChatDatabaseChatWidget(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : ExploreDatabaseBaseStorageWidget{parent}
     , mManager(manager)

@@ -10,7 +10,6 @@
 #include <TextAutoGenerateText/TextAutoGenerateChatsModel>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 
-using namespace Qt::Literals::StringLiterals;
 KAIChatDatabaseSelectChatLineEdit::KAIChatDatabaseSelectChatLineEdit(TextAutoGenerateText::TextAutoGenerateManager *manager, QWidget *parent)
     : TextAddonsWidgets::CompletionLineEdit(parent)
     , mCompletionListModel(new KAIChatCompletionListModel(this))

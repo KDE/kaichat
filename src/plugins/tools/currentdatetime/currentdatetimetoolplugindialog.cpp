@@ -5,6 +5,7 @@
 */
 #include "currentdatetimetoolplugindialog.h"
 #include "currentdatetimetoolpluginwidget.h"
+#include <KLocalizedString>
 #include <QDialogButtonBox>
 #include <QVBoxLayout>
 #include <TextAutoGenerateText/TextAutoGenerateTextToolPlugin>

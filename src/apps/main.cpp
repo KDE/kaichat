@@ -13,9 +13,11 @@
 #include <KConfigGroup>
 #include <KCrash>
 #include <KLocalizedString>
+#include <KSharedConfig>
 #include <QApplication>
 #include <QCommandLineParser>
 #include <QPointer>
+#include <QTextStream>
 #include <QTimer>
 #include <TextAutoGenerateText/TextAutoGenerateManager>
 #include <TextAutoGenerateText/TextAutoGeneratePluginTextManager>

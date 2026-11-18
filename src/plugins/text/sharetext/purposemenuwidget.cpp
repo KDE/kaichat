@@ -9,6 +9,7 @@
 #include <Purpose/AlternativesModel>
 #include <Purpose/Menu>
 #include <QJsonArray>
+#include <QJsonObject>
 #include <QTemporaryFile>
 #include <QUrl>
 using namespace Qt::Literals::StringLiterals;

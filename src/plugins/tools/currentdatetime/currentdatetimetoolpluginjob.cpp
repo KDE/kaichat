@@ -11,7 +11,6 @@
 #include <QDateTime>
 #include <QLocale>
 
-using namespace Qt::Literals::StringLiterals;
 CurrentDateTimeToolPluginJob::CurrentDateTimeToolPluginJob(QObject *parent)
     : TextAutoGenerateText::TextAutoGenerateTextToolPluginJob{parent}
 {

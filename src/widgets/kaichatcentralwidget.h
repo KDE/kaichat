@@ -5,7 +5,6 @@
  */
 
 #pragma once
-#include "config-kaichat.h"
 #include "libkaichatwidgets_private_export.h"
 #include <KAboutData>
 #include <QWidget>

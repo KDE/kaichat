@@ -12,7 +12,6 @@ class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
 class KAIChatConfigureFontWidget;
 class KAIChatConfigureSpellCheckingWidget;
-class KAIChatConfigureAccessibilityWidget;
 class KAIChatConfigureUserFeedbackWidget;
 class KAIChatConfigureMcpServersWidget;
 class KAIChatConfigureRetentionWidget;

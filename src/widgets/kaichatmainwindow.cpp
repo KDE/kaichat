@@ -35,13 +35,11 @@
 #include <KActionCollection>
 #include <KColorSchemeManager>
 #include <KColorSchemeMenu>
-#include <KConfigGroup>
 #include <KHamburgerMenu>
 #include <KLocalizedString>
 #include <KMessageBox>
 #include <KNotification>
 #include <KNotifyConfigWidget>
-#include <KSharedConfig>
 #include <KStandardAction>
 #include <KStandardActions>
 #include <KToggleAction>
@@ -50,16 +48,18 @@
 #include <KWindowSystem>
 #include <QApplication>
 #include <QCommandLineParser>
+#include <QDir>
 #include <QFileDialog>
 #include <QFontDatabase>
+#include <QMenu>
 #include <QMenuBar>
 #include <QPointer>
 #include <QStatusBar>
+#include <QToolButton>
 
 #if HAVE_KUSERFEEDBACK
 #include "userfeedback/userfeedbackmanager.h"
 #include <KUserFeedback/NotificationPopup>
-#include <KUserFeedback/Provider>
 #endif
 
 using namespace Qt::Literals::StringLiterals;

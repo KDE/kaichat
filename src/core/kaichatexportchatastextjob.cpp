@@ -9,6 +9,7 @@
 #include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QFile>
+#include <QTextStream>
 
 using namespace Qt::Literals::StringLiterals;
 KAIChatExportChatAsTextJob::KAIChatExportChatAsTextJob(QObject *parent)

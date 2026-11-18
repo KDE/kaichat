@@ -11,7 +11,6 @@
 
 K_PLUGIN_CLASS_WITH_JSON(ShareTextPlugin, "kaichat_sharetextplugin.json")
 
-using namespace Qt::Literals::StringLiterals;
 ShareTextPlugin::ShareTextPlugin(QObject *parent, const QVariantList &)
     : TextAutoGenerateText::TextAutoGeneratePluginText(parent)
 {

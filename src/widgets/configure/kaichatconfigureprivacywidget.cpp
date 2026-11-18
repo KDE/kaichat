@@ -4,6 +4,7 @@
    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 #include "kaichatconfigureprivacywidget.h"
+#include <KLocalizedString>
 #include <QApplication>
 #include <QClipboard>
 #include <QHBoxLayout>

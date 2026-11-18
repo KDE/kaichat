@@ -7,6 +7,7 @@
 #include "config-kaichat.h"
 #include "libkaichatcore_export.h"
 #include <QString>
+#include <cstdint>
 class QCommandLineParser;
 class LIBKAICHATCORE_EXPORT KAIChatCommandLineParser
 {

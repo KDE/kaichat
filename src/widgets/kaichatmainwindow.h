@@ -5,10 +5,9 @@
  */
 
 #pragma once
-#include "config-kaichat.h"
 #include "libkaichatwidgets_export.h"
-#include <KAboutData>
 #include <KXmlGuiWindow>
+class KAboutRelease;
 class KAIChatCentralWidget;
 class KToggleAction;
 class KHamburgerMenu;
