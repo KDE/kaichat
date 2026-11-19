@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"POT-Creation-Date: 2026-11-19 01:11+0000\n"
 "PO-Revision-Date: 2026-10-13 08:37+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -29,33 +29,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "txemaq@gmail.com"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:77
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "Copyright © 2025-2026 Laurent Montel"
 
-#: apps/main.cpp:79
+#: apps/main.cpp:81
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:79
+#: apps/main.cpp:81
 #, kde-format
 msgid "Maintainer"
 msgstr "Mantenidor"
 
-#: apps/main.cpp:106
+#: apps/main.cpp:108
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Hi ha disponibles les instàncies següents:"
 
-#: apps/main.cpp:119
+#: apps/main.cpp:121
 #, kde-format
 msgid "List of Chats:"
 msgstr "Llista de xats:"
 
-#: apps/main.cpp:132
+#: apps/main.cpp:134
 #, kde-format
 msgid "Plugins:"
 msgstr "Connectors:"
@@ -196,41 +196,47 @@ msgctxt "@info:shell"
 msgid "Chat file to import"
 msgstr "Fitxer de xat a importar"
 
-#: core/kaichatexportchatasmarkdownjob.cpp:22
+#: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
-#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "User"
 msgstr "Usuari"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
-#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Assistant"
 msgstr "Assistent"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:43
-#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:44
 #, kde-format
 msgid "System"
 msgstr "Sistema"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:46
-#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:47
 #, kde-format
 msgid "Tool"
 msgstr "Eina"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:60
+#: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
+#, kde-format
+msgid "Failed to open file for writing: %1"
+msgstr ""
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
 msgid "Pdf"
 msgstr "PDF"
 
-#: core/kaichatexportchatastextjob.cpp:23
+#: core/kaichatexportchatastextjob.cpp:24
 #, kde-format
 msgid "Text"
 msgstr "Text"
@@ -245,22 +251,22 @@ msgstr "Instàncies"
 msgid "MCP Server"
 msgstr "Servidor MCP"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#: plugins/text/sharetext/purposemenuwidget.cpp:20
 #, kde-format
 msgid "Share Text…"
 msgstr "Comparteix el text…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:69
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "S'ha produït un problema en compartir el document: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:73
+#: plugins/text/sharetext/purposemenuwidget.cpp:74
 #, kde-format
 msgid "File was shared."
 msgstr "S'ha compartit el fitxer."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:75
+#: plugins/text/sharetext/purposemenuwidget.cpp:76
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Trobareu la sol·licitud nova a:<br /><a href='%1'>%1</a></qt>"
@@ -279,27 +285,27 @@ msgstr "Obtén la data i l'hora actuals"
 msgid "Use this tool to get current date time"
 msgstr "Utilitzeu aquesta eina per a obtenir la data i l'hora actuals"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:17
 #, kde-format
 msgid "Configure Date Time Tool"
 msgstr "Configuració de l'eina de data i hora"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Current Date Time."
 msgstr "Obtén la data i l'hora actuals."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "L'hora actual és %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "La data actual és %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "La data i hora actual és %1"
@@ -332,12 +338,12 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Activa la icona a la safata del sistema"
 
-#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:28
 #, kde-format
 msgid "Database Repository:"
 msgstr "Repositori de base de dades:"
 
-#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
@@ -366,67 +372,67 @@ msgstr "Exclou els xats preferits:"
 msgid "Retention Days:"
 msgstr "Dies de retenció:"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:48
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configura el KAIChat"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:55
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:51
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "General"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:56
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Lletra"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:61
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instàncies"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:66
 #, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Servidors MCP"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "Verificació ortogràfica"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Accessibilitat"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Connectors"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
 #, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Comentaris de l'usuari"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:98
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
 msgstr "Retenció"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:97
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
@@ -444,7 +450,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Cerca…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -456,7 +462,7 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "Depura la base de dades"
 
-#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:19
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
@@ -551,49 +557,57 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importa com a JSON…"
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "S'ha trobat %1 cadena."
 msgstr[1] "S'han trobat %1 cadenes."
 
-#: widgets/kaichatmainwindow.cpp:148
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
 msgid "What's new"
 msgstr "Què hi ha de nou"
 
-#: widgets/kaichatmainwindow.cpp:152
+#: widgets/kaichatmainwindow.cpp:151
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra l'arxiu"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgctxt "@action"
 msgid "New Chat"
 msgstr "Xat nou"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:163
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Xat efímer nou"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Cerca a la base de dades…"
 
-#: widgets/kaichatmainwindow.cpp:219
+#: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Obre una pregunta ràpida…"
 
-#: widgets/kaichatmainwindow.cpp:333
+#: widgets/kaichatmainwindow.cpp:258
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
+msgctxt "@title:window"
+msgid "Export Failed"
+msgstr "Exporta xats"
+
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -602,33 +616,41 @@ msgstr ""
 "<qt>Això ocultarà completament la barra de menús. La podeu tornar a mostrar "
 "prement %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:342
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Ocultació de la barra de menús"
 
-#: widgets/kaichatmainwindow.cpp:372
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importa xats"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:389
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporta xats"
 
-#: widgets/kaichatmainwindow.cpp:507
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model Download Done"
 msgstr "S'ha efectuat la baixada del model"
 
-#: widgets/kaichatmainwindow.cpp:508
+#: widgets/kaichatmainwindow.cpp:494
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "S'ha baixat el model %1."
+
+#: widgets/kaichatmainwindow.cpp:510
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Import Chat"
+msgctxt "@title:window"
+msgid "Import Failed"
+msgstr "Importa xat"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -677,8 +699,9 @@ msgid "Account information"
 msgstr "Informació del compte"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, kde-format
-msgid "Return the number of account."
+#, fuzzy, kde-format
+#| msgid "Return the number of account."
+msgid "Returns the number of AI instances."
 msgstr "Retorna el nombre de comptes."
 
 #~ msgid "Days"

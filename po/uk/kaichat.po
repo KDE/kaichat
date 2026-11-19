@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"POT-Creation-Date: 2026-11-19 01:11+0000\n"
 "PO-Revision-Date: 2026-10-13 13:32+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
@@ -28,33 +28,33 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "yurchor@ukr.net"
 
-#: apps/main.cpp:75
+#: apps/main.cpp:77
 #, kde-format
 msgid "Copyright © 2025-2026 Laurent Montel"
 msgstr "© Laurent Montel <montel@kde.org>, 2025–2026"
 
-#: apps/main.cpp:79
+#: apps/main.cpp:81
 #, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "Laurent Montel"
 
-#: apps/main.cpp:79
+#: apps/main.cpp:81
 #, kde-format
 msgid "Maintainer"
 msgstr "Супровідник"
 
-#: apps/main.cpp:106
+#: apps/main.cpp:108
 #, kde-format
 msgid "The following instances are available:"
 msgstr "Доступні такі екземпляри:"
 
-#: apps/main.cpp:119
+#: apps/main.cpp:121
 #, kde-format
 msgid "List of Chats:"
 msgstr "Список спілкувань:"
 
-#: apps/main.cpp:132
+#: apps/main.cpp:134
 #, kde-format
 msgid "Plugins:"
 msgstr "Додатки:"
@@ -195,41 +195,47 @@ msgctxt "@info:shell"
 msgid "Chat file to import"
 msgstr "Файл спілкування для імпортування"
 
-#: core/kaichatexportchatasmarkdownjob.cpp:22
+#: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format
 msgid "Markdown"
 msgstr "Markdown"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:37
-#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:37
+#: core/kaichatexportchataspdfjob.cpp:60 core/kaichatexportchatastextjob.cpp:38
 #, kde-format
 msgid "User"
 msgstr "Користувач"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:40
-#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:40
+#: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Assistant"
 msgstr "Помічник"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:43
-#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:43
+#: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:44
 #, kde-format
 msgid "System"
 msgstr "Система"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:46
-#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:46
+#: core/kaichatexportchataspdfjob.cpp:69 core/kaichatexportchatastextjob.cpp:47
 #, kde-format
 msgid "Tool"
 msgstr "Інструмент"
+
+#: core/kaichatexportchatasmarkdownjob.cpp:60
+#: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
+#, kde-format
+msgid "Failed to open file for writing: %1"
+msgstr ""
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
 msgid "Pdf"
 msgstr "PDF"
 
-#: core/kaichatexportchatastextjob.cpp:23
+#: core/kaichatexportchatastextjob.cpp:24
 #, kde-format
 msgid "Text"
 msgstr "Текст"
@@ -244,22 +250,22 @@ msgstr "Екземпляри"
 msgid "MCP Server"
 msgstr "Сервер MCP"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:19
+#: plugins/text/sharetext/purposemenuwidget.cpp:20
 #, kde-format
 msgid "Share Text…"
 msgstr "Оприлюднити текст…"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:69
+#: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "Під час спроби оприлюднити документ виникли проблеми: %1"
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:73
+#: plugins/text/sharetext/purposemenuwidget.cpp:74
 #, kde-format
 msgid "File was shared."
 msgstr "Файл оприлюднено."
 
-#: plugins/text/sharetext/purposemenuwidget.cpp:75
+#: plugins/text/sharetext/purposemenuwidget.cpp:76
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
 msgstr "<qt>Новий запит можна знайти тут:<br /><a href='%1'>%1</a> </qt>"
@@ -278,27 +284,27 @@ msgstr "Отримати поточну дату і час"
 msgid "Use this tool to get current date time"
 msgstr "Скористайтеся цим інструментом для отримання поточної дати і часу"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:16
+#: plugins/tools/currentdatetime/currentdatetimetoolplugindialog.cpp:17
 #, kde-format
 msgid "Configure Date Time Tool"
 msgstr "Інструмент налаштовування дати і часу"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:29
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Current Date Time."
 msgstr "Отримати поточну дату і час."
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:38
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
 msgid "Current time is %1"
 msgstr "Поточний час — %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:41
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
 msgstr "Поточна дата: %1"
 
-#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:44
+#: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
 msgid "Current date time is %1"
 msgstr "Поточна дата і час: %1"
@@ -331,12 +337,12 @@ msgctxt "@option:check"
 msgid "Enable system tray icon"
 msgstr "Увімкнути піктограму системного лотка"
 
-#: widgets/configure/kaichatconfigureprivacywidget.cpp:27
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:28
 #, kde-format
 msgid "Database Repository:"
 msgstr "Сховище бази даних:"
 
-#: widgets/configure/kaichatconfigureprivacywidget.cpp:41
+#: widgets/configure/kaichatconfigureprivacywidget.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
@@ -367,67 +373,67 @@ msgstr "Виключити улюблені спілкування:"
 msgid "Retention Days:"
 msgstr "Дні зберігання:"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:48
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Налаштовування KAIChat"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:55
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:51
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Загальне"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:60
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:56
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Шрифт"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:65
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:61
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Екземляри"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:66
 #, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Сервери MCP"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:77
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "Перевірка правопису"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:81
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
 #, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Доступність"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
 #, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Додатки"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
 #, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Відгуки користувача"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:98
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
 msgstr "Зберігання"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:103
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:97
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
@@ -445,7 +451,7 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "Шукати…"
 
-#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:48
+#: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
@@ -457,7 +463,7 @@ msgctxt "@title:window"
 msgid "Debug Database"
 msgstr "Діагностика бази даних"
 
-#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:20
+#: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:19
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
@@ -552,7 +558,7 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Експортувати як JSON…"
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
@@ -561,42 +567,50 @@ msgstr[1] "Знайдено %1 рядки."
 msgstr[2] "Знайдено %1 рядків."
 msgstr[3] "Знайдено один рядок."
 
-#: widgets/kaichatmainwindow.cpp:148
+#: widgets/kaichatmainwindow.cpp:147
 #, kde-format
 msgid "What's new"
 msgstr "Що нового?"
 
-#: widgets/kaichatmainwindow.cpp:152
+#: widgets/kaichatmainwindow.cpp:151
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Показати архів"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:161
 #, kde-format
 msgctxt "@action"
 msgid "New Chat"
 msgstr "Нове спілкування"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:163
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Нове тимчасове спілкування"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Шукати у базі даних…"
 
-#: widgets/kaichatmainwindow.cpp:219
+#: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
-#: widgets/kaichatmainwindow.cpp:333
+#: widgets/kaichatmainwindow.cpp:258
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Export Chats"
+msgctxt "@title:window"
+msgid "Export Failed"
+msgstr "Експорт даних спілкування"
+
+#: widgets/kaichatmainwindow.cpp:339
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -605,33 +619,41 @@ msgstr ""
 "<qt>За допомогою цього пункту можна повністю сховати смужку меню. Наказати "
 "програмі знову показувати цю смужку можна клавіатурним скороченням %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:342
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Приховати смужку меню"
 
-#: widgets/kaichatmainwindow.cpp:372
+#: widgets/kaichatmainwindow.cpp:378
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Імпорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:389
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:507
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:508
+#: widgets/kaichatmainwindow.cpp:494
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Було отримано модель %1."
+
+#: widgets/kaichatmainwindow.cpp:510
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Import Chat"
+msgctxt "@title:window"
+msgid "Import Failed"
+msgstr "Імпортувати дані спілкування"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -680,8 +702,9 @@ msgid "Account information"
 msgstr "Дані щодо облікового запису"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, kde-format
-msgid "Return the number of account."
+#, fuzzy, kde-format
+#| msgid "Return the number of account."
+msgid "Returns the number of AI instances."
 msgstr "Повернути номер облікового запису."
 
 #~ msgid "Days"
