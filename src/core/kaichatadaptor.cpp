@@ -6,6 +6,7 @@
 
 #include "kaichatadaptor.h"
 #include <TextAutoGenerateText/TextAutoGenerateManager>
+#include <textautogeneratetext/textautogenerateimportchatasjsonjob.h>
 
 KAIChatAdaptor::KAIChatAdaptor(TextAutoGenerateText::TextAutoGenerateManager *manager, QObject *parent)
     : QDBusAbstractAdaptor(parent)
@@ -55,4 +56,22 @@ void KAIChatAdaptor::archiveDiscussion(const QByteArray &chatId)
     mManager->archiveDiscussion(chatId, true);
 }
 
+void KAIChatAdaptor::importChatFile(const QString &filename)
+{
+    if (!filename.isEmpty()) {
+        auto job = new TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob(this);
+        const TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::ImportChatInfo info{
+            .filename = filename,
+            .chatTitle = {},
+        };
+        job->setInfo(info);
+        connect(job,
+                &TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::importDone,
+                this,
+                [this](const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs) {
+                    mManager->importChat(title, msgs);
+                });
+        job->start();
+    }
+}
 #include "moc_kaichatadaptor.cpp"

@@ -28,6 +28,7 @@ public Q_SLOTS:
     void switchToChatId(const QByteArray &chatId);
     void ask(const QString &message);
     void archiveDiscussion(const QByteArray &chatId);
+    void importChatFile(const QString &filename);
 
 private:
     TextAutoGenerateText::TextAutoGenerateManager *const mManager;
