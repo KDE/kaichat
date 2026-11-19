@@ -480,7 +480,6 @@ void KAIChatMainWindow::importChatFile(const QString &filename)
                 &TextAutoGenerateText::TextAutoGenerateImportChatAsJsonJob::importDone,
                 this,
                 [this](const QString &title, const QList<TextAutoGenerateText::TextAutoGenerateMessage> &msgs) {
-                    // FIXME
                     mManager->importChat(title, msgs);
                 });
         job->start();
