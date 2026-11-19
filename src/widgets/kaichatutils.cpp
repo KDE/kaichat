@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: LGPL-2.0-or-later
  */
 #include "kaichatutils.h"
+#include "textautogeneratetext_version.h"
 #include <TextAutoGenerateText/TextAutoGenerateQuickAskDialog>
 
 void KAIChatUtils::createQuickAsk(const TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo &info,
@@ -16,7 +17,15 @@ void KAIChatUtils::createQuickAsk(const TextAutoGenerateText::TextAutoGenerateMa
         quickManager->setParent(quickAskdialog);
     }
     if (info.isValid()) {
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 43)
+        if (info.message.isEmpty() && !info.attachments.isEmpty()) {
+            quickAskdialog->prepare(info);
+        } else {
+            quickAskdialog->ask(info);
+        }
+#else
         quickAskdialog->ask(info);
+#endif
     }
     quickAskdialog->exec();
     delete quickAskdialog;
