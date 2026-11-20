@@ -7,6 +7,7 @@
 #pragma once
 #include "config-kaichat.h"
 #include "libkaichatwidgets_private_export.h"
+#include "textautogeneratetext_version.h"
 #include <KPageDialog>
 class KAIChatConfigureGeneralWidget;
 class KAIChatConfigureInstancesWidget;
@@ -21,6 +22,9 @@ namespace TextAutoGenerateText
 {
 class TextAutoGenerateManager;
 class TextAutoGenerateTextConfigurePluginsWidget;
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+class TextAutoGenerateTextConfigurePromptsAgentsWidget;
+#endif
 }
 class LIBKAICHATWIDGETS_TESTS_EXPORT KAIChatConfigureSettingsDialog : public KPageDialog
 {
@@ -56,4 +60,8 @@ private:
     KAIChatConfigureMcpServersWidget *const mConfigureMcpServersWidget;
     KPageWidgetItem *mConfigureMcpServersWidgetPage = nullptr;
     KPageWidgetItem *mConfigureRetentionWidgetPage = nullptr;
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    TextAutoGenerateText::TextAutoGenerateTextConfigurePromptsAgentsWidget *const mConfigurePromptsAgentsWidget;
+    KPageWidgetItem *mConfigurePromptsAgentsWidgetPage = nullptr;
+#endif
 };

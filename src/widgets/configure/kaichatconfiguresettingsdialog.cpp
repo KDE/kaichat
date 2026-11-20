@@ -21,6 +21,9 @@
 #include <QWindow>
 #include <TextAddonsWidgets/LoadDialogSizeUtils>
 #include <TextAutoGenerateText/TextAutoGenerateTextConfigurePluginsWidget>
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+#include <TextAutoGenerateText/TextAutoGenerateTextConfigurePromptsAgentsWidget>
+#endif
 #if HAVE_KUSERFEEDBACK
 #include "kaichatconfigureuserfeedbackwidget.h"
 #endif
@@ -44,6 +47,9 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     , mConfigureUserFeedBackWidget(new KAIChatConfigureUserFeedbackWidget(this))
 #endif
     , mConfigureMcpServersWidget(new KAIChatConfigureMcpServersWidget(manager, this))
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    , mConfigurePromptsAgentsWidget(new TextAutoGenerateText::TextAutoGenerateTextConfigurePromptsAgentsWidget(manager, this))
+#endif
 {
     setWindowTitle(i18nc("@title:window", "Configure KAIChat"));
     setFaceType(KPageDialog::List);
@@ -67,6 +73,13 @@ KAIChatConfigureSettingsDialog::KAIChatConfigureSettingsDialog(TextAutoGenerateT
     mConfigureMcpServersWidgetPage = new KPageWidgetItem(mConfigureMcpServersWidget, mcpServersPageName);
     mConfigureMcpServersWidgetPage->setIcon(QIcon::fromTheme(u"preferences-system-network-server"_s));
     addPage(mConfigureMcpServersWidgetPage);
+
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    const QString promptsAgentsPageName = i18nc("@title Prompts and agents page name", "Prompts & Agents");
+    mConfigurePromptsAgentsWidgetPage = new KPageWidgetItem(mConfigurePromptsAgentsWidget, promptsAgentsPageName);
+    mConfigurePromptsAgentsWidgetPage->setIcon(QIcon::fromTheme(u"view-list-text"_s));
+    addPage(mConfigurePromptsAgentsWidgetPage);
+#endif
 
     const QString spellCheckPageName = i18nc("@title Preferences page name", "Spell Checking");
     mConfigureSpellCheckWidgetPage = new KPageWidgetItem(mConfigureSpellCheckingWidget, spellCheckPageName);
@@ -136,6 +149,9 @@ void KAIChatConfigureSettingsDialog::slotAccepted()
     mConfigureUserFeedBackWidget->save();
 #endif
     mConfigureMcpServersWidget->save();
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    mConfigurePromptsAgentsWidget->save();
+#endif
     mConfigureRetentionWidget->save();
 }
 
@@ -150,6 +166,9 @@ void KAIChatConfigureSettingsDialog::load()
     mConfigureUserFeedBackWidget->load();
 #endif
     mConfigureMcpServersWidget->load();
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    mConfigurePromptsAgentsWidget->load();
+#endif
     mConfigureRetentionWidget->load();
 }
 
@@ -175,6 +194,10 @@ void KAIChatConfigureSettingsDialog::slotRestoreDefaults()
         // Necessary ? mConfigurePluginsWidget->restoreToDefaults();
     } else if (currentPage() == mConfigureMcpServersWidgetPage) {
         mConfigureMcpServersWidget->restoreToDefaults();
+#if TEXTAUTOGENERATETEXT_VERSION >= QT_VERSION_CHECK(2, 3, 44)
+    } else if (currentPage() == mConfigurePromptsAgentsWidgetPage) {
+        // nothing
+#endif
     } else {
         qCWarning(KAICHAT_WIDGET_LOG) << " slotRestoreDefault not implemented for current page";
     }
