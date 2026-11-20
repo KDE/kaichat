@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
-"PO-Revision-Date: 2026-11-15 20:06+0300\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"PO-Revision-Date: 2026-11-19 18:40+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -227,7 +227,7 @@ msgstr "Araç"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "Dosya, yazma için açılamadı: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -598,12 +598,10 @@ msgid "Open Quick Ask…"
 msgstr "Tez Sorguyu Aç…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Sohbetleri Dışa Aktar"
+msgstr "Dışa Aktarılamadı"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -632,23 +630,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Sohbetleri Dışa Aktar"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "Model İndirildi"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 modeli indirildi."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Sohbet İçe Aktar"
+msgstr "İçe Aktarılamadı"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -697,10 +693,9 @@ msgid "Account information"
 msgstr "Hesap Bilgisi"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Hesap sayısını döndürün."
+msgstr "Yapay zekâ örneklerinin sayısını döndürür."
 
 #~ msgid "Days"
 #~ msgstr "Gün"

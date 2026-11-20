@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
 "PO-Revision-Date: 2026-11-06 21:42+0100\n"
 "Last-Translator: Daniel Dybing <daniel.dybing@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@nuug.no>\n"
@@ -633,17 +633,17 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Eksporter samtaler"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr ""
 
-#: widgets/kaichatmainwindow.cpp:510
+#: widgets/kaichatmainwindow.cpp:509
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Import Chats"

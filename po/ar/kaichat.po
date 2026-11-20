@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
-"PO-Revision-Date: 2026-10-31 19:46+0400\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"PO-Revision-Date: 2026-11-19 16:56+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -228,7 +228,7 @@ msgstr "أداة"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "فشل فتح الملفّ للكتابة: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -607,12 +607,10 @@ msgid "Open Quick Ask…"
 msgstr "اِفتح السؤال السريع…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "صَدِّر الدردشات"
+msgstr "فشل التصدير"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -639,23 +637,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "صَدِّر الدردشات"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "نَزِّل النموذج"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "نموذج %1 مُنزّل."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "استورد دردشة"
+msgstr "فشل الاستيراد"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -704,10 +700,9 @@ msgid "Account information"
 msgstr "معلومات الحساب"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "أرجع عدد الحسابات."
+msgstr "يُرجع عدد نسخ الذكاء الاصطناعي."
 
 #~ msgid "Days"
 #~ msgstr "أيام"

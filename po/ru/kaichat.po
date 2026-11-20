@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
-"PO-Revision-Date: 2026-10-13 23:10+0200\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"PO-Revision-Date: 2026-11-19 10:24+0200\n"
 "Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -227,7 +227,7 @@ msgstr "Инструмент"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "Не удалось открыть файл для записи: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -602,12 +602,10 @@ msgid "Open Quick Ask…"
 msgstr "Открыть «Быстрый запрос»…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Экспорт чатов"
+msgstr "Ошибка экспорта"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -636,23 +634,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Экспорт чатов"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "Загрузка модели завершена"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Модель %1 загружена."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Импортировать чат"
+msgstr "Ошибка импорта"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -701,10 +697,9 @@ msgid "Account information"
 msgstr "Сведения об учётной записи"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Возвращает количество учётных записей."
+msgstr "Возвращает количество экземпляров ИИ."
 
 #~ msgid "Days"
 #~ msgstr "Дни"

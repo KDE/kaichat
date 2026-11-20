@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
-"PO-Revision-Date: 2026-10-13 16:03+0200\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"PO-Revision-Date: 2026-11-19 14:16+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -227,7 +227,7 @@ msgstr "Strumento"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "Impossibile aprire il file per la scrittura: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -599,12 +599,10 @@ msgid "Open Quick Ask…"
 msgstr "Apri Domanda rapida…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Esporta chat"
+msgstr "Esportazione non riuscita"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -633,23 +631,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esporta chat"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "Scaricamento del modello completato"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Il modello %1 è stato scaricato."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Importa chat"
+msgstr "Importazione non riuscita"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -698,10 +694,9 @@ msgid "Account information"
 msgstr "Informazioni sull'account"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Restituisce il numero di account."
+msgstr "Restituisce il numero di istanze di IA."
 
 #~ msgid "Days"
 #~ msgstr "Giorni"

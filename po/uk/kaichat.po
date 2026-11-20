@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
-"PO-Revision-Date: 2026-10-13 13:32+0300\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"PO-Revision-Date: 2026-11-19 13:01+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -228,7 +228,7 @@ msgstr "Інструмент"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "Не вдалося відкрити файл для записування: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -603,12 +603,10 @@ msgid "Open Quick Ask…"
 msgstr "Відкрити швидке питання…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Експорт даних спілкування"
+msgstr "Не вдалося експортувати"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -637,23 +635,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Експорт даних спілкування"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "Отримання моделі завершено"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Було отримано модель %1."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Імпортувати дані спілкування"
+msgstr "Не вдалося імпортувати"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -702,10 +698,9 @@ msgid "Account information"
 msgstr "Дані щодо облікового запису"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Повернути номер облікового запису."
+msgstr "Повертає кількість екземплярів ШІ."
 
 #~ msgid "Days"
 #~ msgstr "Дні"

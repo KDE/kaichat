@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-19 01:11+0000\n"
+"POT-Creation-Date: 2026-11-20 01:17+0000\n"
 "PO-Revision-Date: 2026-04-03 00:47+0000\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -227,7 +227,7 @@ msgstr "Nástroj"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "Zlyhalo otvorenie súboru na zápis: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -600,12 +600,10 @@ msgid "Open Quick Ask…"
 msgstr "Otvoriť rýchly dotaz…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Exportovať chaty"
+msgstr "Export zlyhal"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -634,23 +632,21 @@ msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exportovať chaty"
 
-#: widgets/kaichatmainwindow.cpp:493
+#: widgets/kaichatmainwindow.cpp:492
 #, kde-format
 msgid "Model Download Done"
 msgstr "Stiahnutie modelu dokončené"
 
-#: widgets/kaichatmainwindow.cpp:494
+#: widgets/kaichatmainwindow.cpp:493
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Model %1 bol stiahnutý."
 
-#: widgets/kaichatmainwindow.cpp:510
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#: widgets/kaichatmainwindow.cpp:509
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Importovať chat"
+msgstr "Import zlyhal"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -699,10 +695,9 @@ msgid "Account information"
 msgstr "Informácie o konte"
 
 #: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Vrátiť počet kont."
+msgstr "Vráti počet inštancií AI."
 
 #~ msgctxt "@info:shell"
 #~ msgid "Start with specific instance"
