@@ -9,6 +9,7 @@
 #include <KLocalizedString>
 #include <KSharedConfig>
 #include <QVariant>
+#include <QVariantMap>
 #include <TextAutoGenerateText/TextAutoGenerateTextUtils>
 
 using namespace Qt::Literals::StringLiterals;
