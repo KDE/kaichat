@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-20 01:17+0000\n"
-"PO-Revision-Date: 2026-10-13 23:37+0100\n"
+"POT-Creation-Date: 2026-11-21 01:15+0000\n"
+"PO-Revision-Date: 2026-11-19 13:26+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -229,7 +229,7 @@ msgstr "Herramienta"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "No se ha podido abrir el archivo para escritura: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -373,67 +373,73 @@ msgstr "Excluir conversaciones favoritas:"
 msgid "Retention Days:"
 msgstr "Días de retención:"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:48
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configurar KAIChat"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:51
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:57
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "General"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:56
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr "Tipo de letra"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:61
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:67
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instancias"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:66
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:72
 #, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr "Servidores MCP"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:78
+#, kde-format
+msgctxt "@title Prompts and agents page name"
+msgid "Prompts & Agents"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr "Comprobación de ortografía"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:88
 #, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr "Accesibilidad"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:93
 #, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr "Complementos"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:99
 #, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr "Comentarios del usuario"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:105
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
 msgstr "Retención"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:97
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:110
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
@@ -601,12 +607,10 @@ msgid "Open Quick Ask…"
 msgstr "Abrir pregunta rápida…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "Exportar conversaciones"
+msgstr "La exportación ha fallado"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -646,12 +650,10 @@ msgid "Model %1 was downloaded."
 msgstr "Se ha descargado el modelo %1."
 
 #: widgets/kaichatmainwindow.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "Importar conversación"
+msgstr "La importación ha fallado"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -694,13 +696,12 @@ msgstr "A&yuda"
 msgid "Main Toolbar"
 msgstr "Barra de herramientas principal"
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr "Información de la cuenta"
 
-#: widgets/userfeedback/accountinfosource.cpp:29
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#: widgets/userfeedback/accountinfosource.cpp:30
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "Devolver el número de la cuenta."
+msgstr "Devuelve el número de instancias de IA."

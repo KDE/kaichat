@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-20 01:17+0000\n"
+"POT-Creation-Date: 2026-11-21 01:15+0000\n"
 "PO-Revision-Date: 2025-06-19 10:20+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -377,67 +377,73 @@ msgstr "Exportar como JSON…"
 msgid "Retention Days:"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:48
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure KAIChat"
 msgstr "Configurar KAIChat"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:51
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:57
 #, kde-format
 msgctxt "@title General page name"
 msgid "General"
 msgstr "Xeral"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:56
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:62
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:61
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:67
 #, kde-format
 msgctxt "@title Instances page name"
 msgid "Instances"
 msgstr "Instancias"
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:66
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:72
 #, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:71
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:78
+#, kde-format
+msgctxt "@title Prompts and agents page name"
+msgid "Prompts & Agents"
+msgstr ""
+
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Spell Checking"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:75
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:88
 #, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:80
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:93
 #, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:86
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:99
 #, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:92
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:105
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
 msgstr ""
 
-#: widgets/configure/kaichatconfiguresettingsdialog.cpp:97
+#: widgets/configure/kaichatconfiguresettingsdialog.cpp:110
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
@@ -710,12 +716,12 @@ msgstr "&Axuda"
 msgid "Main Toolbar"
 msgstr "Barra de ferramentas principal"
 
-#: widgets/userfeedback/accountinfosource.cpp:24
+#: widgets/userfeedback/accountinfosource.cpp:25
 #, kde-format
 msgid "Account information"
 msgstr ""
 
-#: widgets/userfeedback/accountinfosource.cpp:29
+#: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Returns the number of AI instances."
 msgstr ""
