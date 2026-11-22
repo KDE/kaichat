@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-21 01:15+0000\n"
-"PO-Revision-Date: 2026-11-19 23:10+0100\n"
+"PO-Revision-Date: 2026-11-21 12:04+0100\n"
 "Last-Translator: Libor Filípek <libor.filipek@gmail.com>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
@@ -406,7 +406,7 @@ msgstr "MCP server"
 #, kde-format
 msgctxt "@title Prompts and agents page name"
 msgid "Prompts & Agents"
-msgstr ""
+msgstr "Prompty a agenti"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format

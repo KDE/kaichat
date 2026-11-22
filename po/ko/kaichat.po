@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-21 01:15+0000\n"
-"PO-Revision-Date: 2026-10-03 23:31+0200\n"
+"PO-Revision-Date: 2026-11-21 23:48+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -227,7 +227,7 @@ msgstr "도구"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "쓰기 위해 파일을 열 수 없음: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -309,16 +309,14 @@ msgid "Current date time is %1"
 msgstr "현재 날짜와 시간은 %1입니다"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "텍스트 읽어주기 활성화"
+msgstr "텍스트 읽어주기"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "음성 텍스트 변환"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -359,19 +357,17 @@ msgstr "하지 않음"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
+msgstr[0] "%v일"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, fuzzy, kde-format
-#| msgid "Exclude Favorite Chats"
+#, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr "책갈피에 등록된 대화 제외"
+msgstr "책갈피에 등록된 대화 제외:"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, fuzzy, kde-format
-#| msgid "Retention Days"
+#, kde-format
 msgid "Retention Days:"
-msgstr "저장 기한"
+msgstr "저장 기한:"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -407,7 +403,7 @@ msgstr "MCP 서버"
 #, kde-format
 msgctxt "@title Prompts and agents page name"
 msgid "Prompts & Agents"
-msgstr ""
+msgstr "프롬프트와 에이전트"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format
@@ -446,9 +442,7 @@ msgid "Privacy"
 msgstr "개인 정보"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
 msgstr "텍스트 읽어주기 활성화"
@@ -608,12 +602,10 @@ msgid "Open Quick Ask…"
 msgstr "빠른 질문 열기…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "대화 내보내기"
+msgstr "내보내기 실패"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -652,12 +644,10 @@ msgid "Model %1 was downloaded."
 msgstr "%1 모델을 다운로드했습니다."
 
 #: widgets/kaichatmainwindow.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "대화 가져오기"
+msgstr "가져오기 실패"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -706,10 +696,9 @@ msgid "Account information"
 msgstr "계정 정보"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "계정 개수를 반환합니다."
+msgstr "AI 인스턴스의 개수를 반환합니다."
 
 #~ msgid "Days"
 #~ msgstr "일"
