@@ -248,7 +248,9 @@ endif()
 add_definitions(-DTRANSLATION_DOMAIN="kaichat")
 add_definitions(-DQT_NO_CONTEXTLESS_CONNECT)
 add_definitions(-DQT_NO_JAVA_STYLE_ITERATORS)
-add_definitions(-DQT_LEAN_HEADERS=2)
+if(ECM_VERSION VERSION_GREATER_EQUAL "6.33.0")
+    add_definitions(-DQT_LEAN_HEADERS=2)
+endif()
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 ecm_set_disabled_deprecation_versions(QT 6.13.0
     KF 6.32.0
