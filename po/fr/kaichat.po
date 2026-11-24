@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"POT-Creation-Date: 2026-11-24 03:46+0000\n"
 "PO-Revision-Date: 2026-07-09 13:56+0200\n"
 "Last-Translator: Xavier Besnard <xavier.besnard@kde.org>\n"
 "Language-Team: fr\n"
@@ -566,32 +566,32 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importer au format « JSON »..."
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "La chaine %1 a été trouvée."
 msgstr[1] "Les chaines %1 ont été trouvées."
 
-#: widgets/kaichatmainwindow.cpp:148
+#: widgets/kaichatmainwindow.cpp:149
 #, kde-format
 msgid "What's new"
 msgstr "Quoi de neuf"
 
-#: widgets/kaichatmainwindow.cpp:152
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Afficher l'archive"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:163
 #, fuzzy, kde-format
 #| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
 msgstr "Nouveau titre du salon de discussions"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:165
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Create new chat"
@@ -599,19 +599,19 @@ msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Créer un nouveau salon"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Rechercher dans la base de données…"
 
-#: widgets/kaichatmainwindow.cpp:219
+#: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Ouvrir la boite de dialogue de requête rapide..."
 
-#: widgets/kaichatmainwindow.cpp:333
+#: widgets/kaichatmainwindow.cpp:334
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -620,30 +620,30 @@ msgstr ""
 "<qt>Ceci masquera en totalité du barre de menus. Vous pouvez l'afficher à "
 "nouveau en appuyant sur %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:337
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Masquer la barre de menus"
 
-#: widgets/kaichatmainwindow.cpp:372
+#: widgets/kaichatmainwindow.cpp:373
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importer des salons"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:386
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Exporter les salons"
 
-#: widgets/kaichatmainwindow.cpp:507
+#: widgets/kaichatmainwindow.cpp:490
 #, kde-format
 msgid "Model Download Done"
 msgstr "Téléchargement du modèle terminé"
 
-#: widgets/kaichatmainwindow.cpp:508
+#: widgets/kaichatmainwindow.cpp:491
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Le modèle %1 a été téléchargé."

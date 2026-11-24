@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:54+0000\n"
+"POT-Creation-Date: 2026-11-24 03:46+0000\n"
 "PO-Revision-Date: 2026-08-31 02:12+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -578,32 +578,32 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "JSON gisa inportatu…"
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "Kate %1 aurkitu da."
 msgstr[1] "%1 kate aurkitu dira."
 
-#: widgets/kaichatmainwindow.cpp:148
+#: widgets/kaichatmainwindow.cpp:149
 #, kde-format
 msgid "What's new"
 msgstr "Zer berri"
 
-#: widgets/kaichatmainwindow.cpp:152
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Artxiboa erakutsi"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:163
 #, fuzzy, kde-format
 #| msgid "New Chat Title"
 msgctxt "@action"
 msgid "New Chat"
 msgstr "Berriketa berriaren izenburua"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:165
 #, fuzzy, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Create new chat"
@@ -611,19 +611,19 @@ msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Berriketa berria sortu"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Datu-basean bilatu…"
 
-#: widgets/kaichatmainwindow.cpp:219
+#: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Galdera azkarra ireki…"
 
-#: widgets/kaichatmainwindow.cpp:333
+#: widgets/kaichatmainwindow.cpp:334
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -632,30 +632,30 @@ msgstr ""
 "<qt>Honek menu-barra erabat ezkutatuko du. %1 tekleatuta, berriz erakuts "
 "dezakezu.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:337
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Menu-barra ezkutatu"
 
-#: widgets/kaichatmainwindow.cpp:372
+#: widgets/kaichatmainwindow.cpp:373
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Berriketak inportatu"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:386
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Berriketak esportatu"
 
-#: widgets/kaichatmainwindow.cpp:507
+#: widgets/kaichatmainwindow.cpp:490
 #, kde-format
 msgid "Model Download Done"
 msgstr "Ereduaren zama-jaitsiera amaitu da"
 
-#: widgets/kaichatmainwindow.cpp:508
+#: widgets/kaichatmainwindow.cpp:491
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "%1 eredua zama-jaitsi da."

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-31 00:54+0000\n"
-"PO-Revision-Date: 2026-10-13 16:03+0200\n"
+"POT-Creation-Date: 2026-11-24 03:46+0000\n"
+"PO-Revision-Date: 2026-09-28 14:23+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 26.08.2\n"
+"X-Generator: Lokalize 26.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -304,14 +304,16 @@ msgid "Current date time is %1"
 msgstr "La data e l'ora attuali sono %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Enable Text To Speech"
 msgid "Text to Speech"
-msgstr "Sintesi vocale"
+msgstr "Abilita la sintesi vocale"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr "Riconoscimento vocale"
+msgstr ""
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -352,18 +354,20 @@ msgstr "Mai"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] "%v giorno"
-msgstr[1] "%v giorni"
+msgstr[0] ""
+msgstr[1] ""
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Exclude Favorite Chats"
 msgid "Exclude Favorite Chats:"
-msgstr "Escludi le chat preferite:"
+msgstr "Escludi le chat preferite"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Retention Days"
 msgid "Retention Days:"
-msgstr "Giorni di conservazione:"
+msgstr "Giorni di conservazione"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
@@ -432,10 +436,12 @@ msgid "Privacy"
 msgstr "Riservatezza"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Enable Text To Speech"
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr "Abilita riconoscimento vocale"
+msgstr "Abilita la sintesi vocale"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -550,49 +556,49 @@ msgctxt "@action"
 msgid "Import as JSON…"
 msgstr "Importa come JSON…"
 
-#: widgets/kaichatmainwindow.cpp:91
+#: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
 msgstr[0] "%1 stringa trovata."
 msgstr[1] "%1 stringhe trovate."
 
-#: widgets/kaichatmainwindow.cpp:148
+#: widgets/kaichatmainwindow.cpp:149
 #, kde-format
 msgid "What's new"
 msgstr "Cosa c'è di nuovo"
 
-#: widgets/kaichatmainwindow.cpp:152
+#: widgets/kaichatmainwindow.cpp:153
 #, kde-format
 msgctxt "@action"
 msgid "Show Archive"
 msgstr "Mostra archivio"
 
-#: widgets/kaichatmainwindow.cpp:162
+#: widgets/kaichatmainwindow.cpp:163
 #, kde-format
 msgctxt "@action"
 msgid "New Chat"
 msgstr "Nuova chat"
 
-#: widgets/kaichatmainwindow.cpp:164
+#: widgets/kaichatmainwindow.cpp:165
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
 msgstr "Nuova chat effimera"
 
-#: widgets/kaichatmainwindow.cpp:181
+#: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
 msgstr "Cerca nella banca dati…"
 
-#: widgets/kaichatmainwindow.cpp:219
+#: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
 msgstr "Apri Domanda rapida…"
 
-#: widgets/kaichatmainwindow.cpp:333
+#: widgets/kaichatmainwindow.cpp:334
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
@@ -601,30 +607,30 @@ msgstr ""
 "<qt>Questo nasconderà completamente la barra dei menu. Potrai mostrarla "
 "nuovamente digitando %1.</qt>"
 
-#: widgets/kaichatmainwindow.cpp:336
+#: widgets/kaichatmainwindow.cpp:337
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide menu bar"
 msgstr "Nascondi la barra dei menu"
 
-#: widgets/kaichatmainwindow.cpp:372
+#: widgets/kaichatmainwindow.cpp:373
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
 msgstr "Importa chat"
 
-#: widgets/kaichatmainwindow.cpp:385
+#: widgets/kaichatmainwindow.cpp:386
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
 msgstr "Esporta chat"
 
-#: widgets/kaichatmainwindow.cpp:507
+#: widgets/kaichatmainwindow.cpp:490
 #, kde-format
 msgid "Model Download Done"
 msgstr "Scaricamento del modello completato"
 
-#: widgets/kaichatmainwindow.cpp:508
+#: widgets/kaichatmainwindow.cpp:491
 #, kde-format
 msgid "Model %1 was downloaded."
 msgstr "Il modello %1 è stato scaricato."

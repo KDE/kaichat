@@ -1,8 +1,4 @@
 <?xml version="1.0" ?>
-<!--
-  SPDX-FileCopyrightText: 2026 Laurent Montel <montel@kde.org>
-  SPDX-License-Identifier: CC-BY-SA-4.0
--->
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
 "dtd/kdedbx45.dtd" [
   <!-- Define an entity for your application if it is not part of KDE
@@ -63,7 +59,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->07/11/2026</date>
+>26/09/2026</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -83,8 +79,6 @@
 >Ollama</keyword>
 <keyword
 >LLM</keyword>
-<keyword
->MCP</keyword>
 <keyword
 >privacidade</keyword>
 </keywordset>
@@ -172,13 +166,6 @@
 <para
 >Crie uma instância do tipo correspondente e cole a chave de API fornecida pelo serviço. Lembre-se de que, ao utilizar um serviço online, suas perguntas e quaisquer arquivos anexados são enviados ao provedor e estão sujeitos à política de privacidade dele.</para>
 
-<para
->Alguns servidores, em particular aqueles compatíveis com a OpenAI e acessados ​​por meio de uma <guilabel
->URL personalizada</guilabel
->, não informam quais modelos oferecem. Nesse caso, insira os nomes dos modelos que você deseja utilizar no campo <guilabel
->Modelos</guilabel
-> da instância, separados por vírgulas. Essa lista só é utilizada quando o servidor não fornece a sua própria.</para>
-
 </sect1>
 
 </chapter>
@@ -222,10 +209,7 @@
 >Digite sua pergunta no campo de entrada e valide-a. A resposta aparece na visualização da conversa à medida que é gerada, e uma notificação é exibida quando uma resposta longa é concluída.</para>
 
 <para
->Você pode anexar arquivos a uma pergunta e habilitar as ferramentas que o modelo tem permissão para utilizar ao respondê-la, incluindo aquelas fornecidas pelos seus servidores MCP (consulte <xref linkend="mcp-servers"/>). Cada bate-papo mantém seu próprio histórico, que é enviado juntamente com a sua nova pergunta para que o modelo conheça o contexto.</para>
-
-<para
->Em vez de digitar, você pode ditar sua pergunta quando o recurso de conversão de fala em texto estiver ativado (consulte <xref linkend="speech-to-text"/>): um botão de microfone aparecerá ao lado do campo de entrada, e o texto reconhecido será inserido nele, permitindo que você o revise antes de enviar.</para>
+>Você pode anexar arquivos a uma pergunta e habilitar as ferramentas que o modelo tem permissão para utilizar ao respondê-la. Cada bate-papo mantém seu próprio histórico, que é enviado juntamente com a sua nova pergunta para que o modelo conheça o contexto.</para>
 
 </sect1>
 
@@ -425,7 +409,7 @@
 >&Meta;<keycap
 >Espaço</keycap
 ></keycombo
->, do menu de contexto da bandeja do sistema, ou com <userinput
+> ou com <userinput
 ><command
 >kaichat</command
 > <option
@@ -604,7 +588,7 @@
 ></term>
 <listitem
 ><para
->Servidores do Protocolo de Contexto de Modelo (MCP, sigla em inglês), que concedem ao modelo acesso a dados e ações externos. Veja <xref linkend="mcp-servers"/>.</para
+>Servidores do Protocolo de Contexto de Modelo (MCP, sigla em inglês), que concedem ao modelo acesso a dados e ações externos. Esse suporte ainda é experimental.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -624,7 +608,7 @@
 ></term>
 <listitem
 ><para
->Configurações de conversão de texto em fala e de fala em texto, caso o aplicativo tenha sido desenvolvido com o suporte correspondente. Consulte <xref linkend="speech-to-text"/>.</para
+>Configurações de conversão de texto em fala, quando o aplicativo foi compilado com suporte para esse recurso.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -687,287 +671,6 @@
 >Instâncias e servidores MCP também podem ser configurados fora do aplicativo, a partir do módulo <guilabel
 >IA</guilabel
 > do &systemsettings;.</para>
-
-<sect1 id="mcp-servers">
-<title
->Servidores MCP</title>
-
-<para
->O Protocolo de Contexto de Modelo (MCP, sigla em inglês) é um padrão aberto que permite a um modelo utilizar ferramentas fornecidas por programas externos, chamados de servidores MCP: ler seus arquivos, consultar um banco de dados, pesquisar documentação, entre outras coisas. O &i18n-kapplication; atua como um cliente MCP: ele se conecta aos servidores que você configura e disponibiliza as ferramentas deles para o modelo.</para>
-
-<sect2 id="mcp-adding-server">
-<title
->Adicionando um servidor</title>
-
-<para
->Os servidores são gerenciados na página <guilabel
->Servidores MCP</guilabel
-> da janela de configuração. Utilize o botão <guibutton
->Adicionar servidor…</guibutton
-> ou o menu de contexto da lista para adicionar um servidor: selecione <guimenuitem
->Servidor</guimenuitem
-> para inserir as configurações manualmente, ou <guimenuitem
->Do registro MCP…</guimenuitem
-> para escolhê-lo a partir do registro público (consulte <xref linkend="mcp-registry"/>). Clique duas vezes em um servidor ou utilize a opção <guimenuitem
->Editar…</guimenuitem
-> para modificá-lo, e <guimenuitem
->Remover servidor</guimenuitem
-> para excluí-lo. A caixa de seleção ao lado de cada servidor permite ativá-lo ou desativá-lo sem perder sua configuração.</para>
-
-<para
->Cada servidor tem um <guilabel 
->Nome</guilabel 
->, um <guilabel 
->Ícone</guilabel 
-> opcional e um <guilabel 
->Tipo</guilabel 
->, que informa como o &i18n-kapplication; fala com isso:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->E/S Padrão</guilabel
-></term>
-<listitem
-><para
->O servidor é um programa iniciado pelo &i18n-kapplication; no seu computador. Insira o <guilabel
->Comando</guilabel
-> a ser executado e os seus <guilabel
->Argumentos</guilabel
->, conforme indicado na documentação do servidor.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->HTTP transmissível</guilabel
-></term>
-<listitem
-><para
->O servidor é acessado pela rede na <guilabel
->URL</guilabel
-> especificada. <guilabel
->Cabeçalhos</guilabel
-> adicionais — por exemplo, um cabeçalho <literal
->Authorization</literal
-> contendo um token de acesso — podem ser incluídos no formato <quote
->Nome: Valor</quote
->.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->SSE</guilabel
-></term>
-<listitem
-><para
->O transporte HTTP mais antigo baseado em Server-Sent Events, ainda utilizado por alguns servidores. Insira a sua <guilabel
->URL</guilabel
->.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
-><guilabel
->Pastas permitidas</guilabel
-> lista as pastas nas quais o servidor pode operar. A lista é passada para o servidor, que deve restringir-se a essas pastas; um servidor que acessa arquivos geralmente precisa de pelo menos uma.</para>
-
-<para
->As alterações são aplicadas quando você fecha a janela de configuração com <guibutton
->OK</guibutton
-> ou <guibutton
->Aplicar</guibutton
->. Os servidores MCP também podem ser configurados a partir do módulo <guilabel
->IA</guilabel
-> do &systemsettings;; a lista é compartilhada com os outros aplicativos que o utilizam.</para>
-
-</sect2>
-
-<sect2 id="mcp-registry">
-<title
->Adição de um servidor a partir do registro MCP</title>
-
-<para
->O <ulink url="https://registry.modelcontextprotocol.io"
->registro MCP</ulink
-> é um catálogo público de servidores MCP. A opção <guimenuitem
->Do registro MCP…</guimenuitem
-> abre a janela <guilabel
->Adicionar servidor do registro MCP</guilabel
->, que os lista. Digite no campo de pesquisa para encontrar um servidor e use o botão <guibutton
->Carregar mais</guibutton
-> para obter os próximos resultados.</para>
-
-<para
->Ao selecionar um servidor, são exibidos sua descrição, versão, repositório e site, os endereços remotos pelos quais ele pode ser acessado, bem como os pacotes que podem ser instalados a partir dele, incluindo as variáveis ​​de ambiente que eles utilizam. As variáveis ​​marcadas como obrigatórias precisam ser definidas para que o servidor funcione.</para>
-
-<para
->Ao confirmar a caixa de diálogo, o servidor é adicionado à lista com suas configurações já preenchidas: um servidor remoto acessado via HTTP ou um pacote iniciado como um servidor <guilabel
->E/S padrão</guilabel
->. As variáveis ​​de ambiente são adicionadas sem um valor definido; edite o servidor para preenchê-las, por exemplo, com uma chave de API. Não é possível adicionar um servidor que não ofereça um endereço remoto nem um pacote compatível.</para>
-
-<para
->Um servidor encontrado no registro não é verificado pelo &i18n-kapplication;: leia a documentação antes de habilitá-lo.</para>
-
-</sect2>
-
-<sect2 id="mcp-using-tools">
-<title
->Utilizando ferramentas MCP em um bate-papo</title>
-
-<para
->Cada servidor habilitado é exibido como um botão entre as ferramentas disponíveis abaixo do campo de entrada. Marque o botão para permitir que o modelo utilize as ferramentas desse servidor nas suas próximas perguntas. A seta ao lado dele abre um menu que lista essas ferramentas, permitindo selecionar apenas algumas delas; o &i18n-kapplication; conecta-se ao servidor na primeira vez que esse menu é aberto, para identificar as ferramentas disponíveis.</para>
-
-<para
->Enquanto o modelo chama uma ferramenta, o nome dela é exibido na barra de status, e o resultado é enviado de volta ao modelo para concluir a resposta.</para>
-
-</sect2>
-
-<sect2 id="mcp-confirmation">
-<title
->Confirmações e solicitações</title>
-
-<para
->Uma ferramenta pode fazer mais do que apenas ler dados; por isso, o &i18n-kapplication; solicita confirmação antes de executá-la. A caixa de diálogo <guilabel
->Executar ferramenta</guilabel
-> exibe o servidor, a ferramenta e os argumentos que o modelo deseja passar para ela:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guibutton
->Permitir</guibutton
-></term>
-<listitem
-><para
->Executa a ferramenta desta vez.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->Sempre permitir este servidor</guibutton
-></term>
-<listitem
-><para
->Executa a ferramenta e não solicita mais nenhuma ferramenta deste servidor.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->Negar</guibutton
-></term>
-<listitem
-><para
->Não executa a ferramenta.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
->Os servidores cujas ferramentas são executadas sem confirmação estão marcados na lista <guilabel
->Executar ferramentas sem confirmação</guilabel
-> da página <guilabel
->Servidores MCP</guilabel
->, onde você pode desmarcá-los novamente.</para>
-
-<para
->Um servidor também pode solicitar algo a você ou ao modelo enquanto ele trabalha:</para>
-
-<itemizedlist>
-<listitem
-><para
->ele pode solicitar que você preencha algumas informações em uma caixa de diálogo <guilabel
->Solicitação de</guilabel
-> que exibe os campos necessários. O botão <guibutton
->Aceitar</guibutton
-> envia sua resposta, enquanto o botão <guibutton
->Recusar</guibutton
-> nega o fornecimento delas;</para
-></listitem>
-<listitem
-><para
->ele pode solicitar ao modelo que gere algum texto. A caixa de diálogo <guilabel
->Solicitação de amostragem do servidor MCP</guilabel
-> exibe o que seria enviado ao modelo; nada é enviado a menos que você escolha <guibutton
->Enviar para o LLM</guibutton
->.</para
-></listitem>
-</itemizedlist>
-
-<para
->Adicione apenas servidores em que você confia. Um servidor de <guilabel
->E/S Padrão</guilabel
-> é um programa executado com as suas próprias permissões; o que a ferramenta retorna é lido pelo modelo e — no caso de um serviço online — enviado ao provedor do serviço juntamente com a sua conversa.</para>
-
-</sect2>
-
-</sect1>
-
-<sect1 id="speech-to-text">
-<title
->Fala para texto</title>
-
-<para
->O recurso de conversão de fala em texto permite que você dite suas perguntas em vez de digitá-las. Ele é configurado na aba <guilabel
->Fala para texto</guilabel
-> da página <guilabel
->Acessibilidade</guilabel
->, que só aparece quando o &i18n-kapplication; foi compilado com suporte para conversão de fala em texto.</para>
-
-<para
->Marque <guilabel
->Habilitar fala para texto</guilabel
-> para exibir o botão de microfone ao lado do campo de entrada e, em seguida, escolha:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->Mecanismo</guilabel
-></term>
-<listitem
-><para
->O programa que reconhece a sua voz. Dependendo dos complementos instalados, o <application
->Vosk</application
-> e o <application
->Whisper</application
-> funcionam no seu computador, enquanto o <application
->Google</application
-> envia a gravação para um serviço online. O mecanismo pode exigir algumas configurações específicas — como o download de modelos de idioma para o <application
->Vosk</application
-> ou a instalação do pacote <application
->Whisper</application
-> —, as quais o &i18n-kapplication; pode realizar para você.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->Entrada</guilabel
-></term>
-<listitem
-><para
->O microfone a ser usado para a gravação.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->Testar</guilabel
-></term>
-<listitem
-><para
->Testa as configurações antes de usá-las em um bate-papo.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-</sect1>
 
 <sect1 id="files">
 <title

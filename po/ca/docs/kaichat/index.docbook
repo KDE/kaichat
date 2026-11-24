@@ -1,8 +1,4 @@
 <?xml version="1.0" ?>
-<!--
-  SPDX-FileCopyrightText: 2026 Laurent Montel <montel@kde.org>
-  SPDX-License-Identifier: CC-BY-SA-4.0
--->
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
 "dtd/kdedbx45.dtd" [
   <!-- Define an entity for your application if it is not part of KDE
@@ -49,7 +45,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->7 de novembre de 2026</date>
+>26 de setembre de 2026</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -69,8 +65,6 @@
 >Ollama</keyword>
 <keyword
 >LLM</keyword>
-<keyword
->MCP</keyword>
 <keyword
 >privadesa</keyword>
 </keywordset>
@@ -158,13 +152,6 @@
 <para
 >Creeu una instància del tipus coincident i enganxeu la clau API que us ha donat el servei. Tingueu en compte que amb un servei en línia les vostres preguntes, i qualsevol fitxer que adjunteu, s'envien a aquest proveïdor i estan subjectes a la seva pròpia política de privadesa.</para>
 
-<para
->Alguns servidors, en particular els servidors compatibles amb OpenAI que s'assoleixen a través d'un <guilabel
->URL personalitzat</guilabel
->, no diuen quins models ofereixen. En aquest cas, introduïu els noms dels models que voleu utilitzar en el camp <guilabel
->Models</guilabel
-> de la instància, separats per comes. Aquesta llista només s'utilitza quan el servidor no en proporciona una de pròpia.</para>
-
 </sect1>
 
 </chapter>
@@ -208,10 +195,7 @@
 >Escriviu la pregunta al camp d'entrada i valideu-la. La resposta apareix a la vista de conversa a mesura que s'està generant, i es mostra una notificació quan s'acaba una resposta llarga.</para>
 
 <para
->Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon, incloses les proporcionades pels servidors MCP (vegeu <xref linkend="mcp-servers"/>). Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
-
-<para
->En lloc d'escriure, podeu dictar la vostra pregunta quan s'hagi activat la veu a text (vegeu <xref linkend="speech-to-text"/>): es mostra un botó de micròfon al costat del camp d'entrada i s'hi insereix el text reconegut, de manera que pugueu revisar-lo abans d'enviar-lo.</para>
+>Podeu adjuntar fitxers a una pregunta i activar les eines que el model pot cridar mentre respon. Cada xat manté la seva pròpia història, que s'envia juntament amb la vostra pregunta nova perquè el model conegui el context.</para>
 
 </sect1>
 
@@ -411,7 +395,7 @@
 >&Meta;<keycap
 >Espai</keycap
 ></keycombo
->, des del menú contextual de la icona de la safata del sistema o amb <userinput
+> o amb <userinput
 ><command
 >kaichat</command
 > <option
@@ -590,7 +574,7 @@
 ></term>
 <listitem
 ><para
->Els servidors de Model Context Protocol, que donen al model accés a dades i accions externes. Vegeu <xref linkend="mcp-servers"/>.</para
+>Els servidors de Model Context Protocol, que donen al model accés a dades i accions externes. Aquesta implementació encara és experimental.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -610,7 +594,7 @@
 ></term>
 <listitem
 ><para
->Configuració de text a veu i veu a text, quan l'aplicació s'ha construït amb la implementació corresponent. Vegeu <xref linkend="speech-to-text"/>.</para
+>Configuració de text a veu, quan l'aplicació es va construir amb la implementació del text a veu.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -673,285 +657,6 @@
 >Les instàncies i els servidors MCP també es poden configurar fora de l'aplicació, des del mòdul d'<guilabel
 >IA</guilabel
 > de l'&systemsettings;.</para>
-
-<sect1 id="mcp-servers">
-<title
->Servidors MCP</title>
-
-<para
->El «Model Context Protocol» (MCP) és un estàndard obert que permet a un model utilitzar eines proporcionades per programes externs, anomenats servidors MCP: llegir els vostres fitxers, consultar una base de dades, cercar una documentació, etc. El &i18n-kapplication; actua com un client MCP: es connecta als servidors que configureu i ofereix les seves eines al model.</para>
-
-<sect2 id="mcp-adding-server">
-<title
->Afegir un servidor</title>
-
-<para
->Els servidors es gestionen a la pàgina <guilabel
->Servidors MCP</guilabel
-> del diàleg de configuració. Utilitzeu el botó <guibutton
->Afegeix un servidor…</guibutton
->, o el menú contextual de la llista per afegir-ne un: trieu un <guimenuitem
->Servidor</guimenuitem
-> per introduir la seva configuració, o <guimenuitem
->Des del registre del MCP…</guimenuitem
-> per a triar-lo des del registre públic (vegeu <xref linkend="mcp-registry"/>). Feu doble clic a un servidor o utilitzeu <guimenuitem
->Edita…</guimenuitem
-> per modificar-lo, i <guimenuitem
->Elimina el servidor</guimenuitem
-> per suprimir-lo. La casella de selecció davant de cada servidor l'habilita o inhabilita sense perdre la seva configuració.</para>
-
-<para
->Cada servidor té un <guilabel
->Nom</guilabel
->, una <guilabel
->Icona</guilabel
-> opcional i un <guilabel
->Tipus</guilabel
->, que indica com el &i18n-kapplication; interactua amb ell:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->E/S estàndard</guilabel
-></term>
-<listitem
-><para
->El servidor és un programa iniciat pel &i18n-kapplication; a l'ordinador. Introduïu l'<guilabel
->Ordre</guilabel
-> a executar i els seus <guilabel
->Arguments</guilabel
->, tal com s'indica a la documentació del servidor.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->HTTP Streamable</guilabel
-></term>
-<listitem
-><para
->S'arriba al servidor a través de la xarxa a l'<guilabel
->URL</guilabel
-> indicat. Es poden afegir <guilabel
->Capçaleres</guilabel
-> addicionals, per exemple, una capçalera <literal
->Authorization</literal
-> amb un testimoni d'accés, en la forma «Nom: Valor».</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->SSE</guilabel
-></term>
-<listitem
-><para
->El transport HTTP més antic basat en esdeveniments enviats del servidor, encara utilitzat per alguns servidors. Introduïu el seu <guilabel
->URL</guilabel
->.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
-><guilabel
->Carpetes permeses</guilabel
-> llista les carpetes en les quals hi pot treballar el servidor. La llista es passa al servidor, que s'espera que es restringeixi a aquestes carpetes; un servidor que accedeix als fitxers normalment en necessita almenys una.</para>
-
-<para
->Els canvis s'apliquen quan tanqueu el diàleg de configuració amb <guibutton
->D'acord</guibutton
-> o <guibutton
->Aplica</guibutton
->. Els servidors MCP també es poden configurar des del mòdul <guilabel
->IA</guilabel
-> del &systemsettings;; la llista es comparteix amb les altres aplicacions que l'utilitzen.</para>
-
-</sect2>
-
-<sect2 id="mcp-registry">
-<title
->Afegir un servidor a partir del registre MCP</title>
-
-<para
->El <ulink url="https://registry.modelcontextprotocol.io"
->Registre MCP</ulink
-> és un catàleg públic de servidors MCP. <guimenuitem
->Des del registre del MCP…</guimenuitem
-> obriu el diàleg <guilabel
->Afegeix un servidor a partir del registre MCP</guilabel
->, que els llista. Escriviu al camp de cerca per trobar un servidor i utilitzeu <guibutton
->Carrega'n més</guibutton
-> per obtenir els resultats següents.</para>
-
-<para
->Seleccionant un servidor es mostra la seva descripció, versió, repositori i lloc web, les adreces remotes a les quals es pot arribar i els paquets des dels quals es pot instal·lar, amb les variables d'entorn que utilitzen. Les variables marcades com a necessàries s'han d'establir perquè el servidor funcioni.</para>
-
-<para
->Quan valideu el diàleg, el servidor s'afegeix a la llista amb la seva configuració ja emplenada: s'arriba a un servidor remot a través d'HTTP, s'inicia un paquet com a servidor <guilabel
->E/S estàndard</guilabel
->. Les variables d'entorn s'afegeixen sense cap valor; editeu el servidor per omplir-les, per exemple amb una clau API. No es pot afegir un servidor que no ofereixi una adreça remota ni un paquet suportat.</para>
-
-<para
->S'ha trobat un servidor en el registre no s'ha comprovat al &i18n-kapplication;: llegiu la seva documentació abans d'habilitar-lo.</para>
-
-</sect2>
-
-<sect2 id="mcp-using-tools">
-<title
->Ús de les eines MCP en un xat</title>
-
-<para
->Cada servidor habilitat es mostra com un botó entre les eines disponibles sota el camp d'entrada. Marqueu el botó per a permetre que el model utilitzi les eines d'aquest servidor per a les vostres preguntes següents. La fletxa que hi ha al costat obre un menú que llista aquestes eines, des del qual només en podeu seleccionar algunes; el &i18n-kapplication; connecta al servidor la primera vegada que s'obre aquest menú, per tal de conèixer les seves eines.</para>
-
-<para
->Mentre el model invoca una eina, el seu nom es mostra a la barra d'estat, i el resultat s'envia de tornada al model per completar la seva resposta.</para>
-
-</sect2>
-
-<sect2 id="mcp-confirmation">
-<title
->Confirmacions i sol·licituds</title>
-
-<para
->Una eina pot fer més que llegir dades, de manera que el &i18n-kapplication; demana abans d'executar-ne una. El diàleg <guilabel
->Executa una eina</guilabel
-> mostra el servidor, l'eina i els arguments que el model vol passar-hi:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guibutton
->Permet</guibutton
-></term>
-<listitem
-><para
->Executa l'eina aquesta vegada.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->Permet sempre aquest servidor</guibutton
-></term>
-<listitem
-><para
->Executeu l'eina i no torna a demanar cap eina d'aquest servidor.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->Denega</guibutton
-></term>
-<listitem
-><para
->No executa l'eina.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
->Els servidors les eines dels quals s'executen sense confirmació es comproven a la llista <guilabel
->Executa eines sense confirmació</guilabel
-> de la pàgina <guilabel
->Servidors MCP</guilabel
->, on podeu desmarcar-les de nou.</para>
-
-<para
->Un servidor també pot preguntar alguna cosa de vós o del model mentre treballa:</para>
-
-<itemizedlist>
-<listitem
-><para
->us pot demanar que ompliu alguna informació, en un diàleg <guilabel
->Sol·licita de</guilabel
-> que mostra els camps que necessita. <guibutton
->Accepta</guibutton
-> envia la vostra resposta, <guibutton
->Declina</guibutton
-> rebutja donar-la;</para
-></listitem>
-<listitem
-><para
->pot demanar al model que generi algun text per a ell. El diàleg <guilabel
->Petició de mostreig des del servidor MCP</guilabel
-> mostra el que s'enviaria al model; no s'enviarà res tret que trieu <guibutton
->Envia al LLM</guibutton
->.</para
-></listitem>
-</itemizedlist>
-
-<para
->Afegiu només els servidors en els quals confieu. Un servidor <guilabel
->E/S estàndard</guilabel
-> és un programa que s'executa amb els vostres propis drets, i el que retorna una eina ho llegeix el model i, amb un servei en línia, s'envia al seu proveïdor juntament amb la vostra conversa.</para>
-
-</sect2>
-
-</sect1>
-
-<sect1 id="speech-to-text">
-<title
->Veu a text</title>
-
-<para
->La veu a text us permet dictar les vostres preguntes en lloc d'escriure-les. Es configura a la pestanya <guilabel
-> Veu a text</guilabel
-> de la pàgina <guilabel
->Accessibility</guilabel
->, que només està present si el &i18n-kapplication; s'ha construït amb suport de veu a text.</para>
-
-<para
->Marqueu <guilabel
->Activa la veu a text</guilabel
-> per mostrar el botó de micròfon al costat del camp d'entrada, llavors trieu:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->Motor</guilabel
-></term>
-<listitem
-><para
->El programa que reconeix la veu. Depenent dels connectors instal·lats, <application
->Vosk</application
-> i <application
->Whisper</application
-> funcionaran al vostre ordinador, mentre que <application
->Google</application
-> envia l'enregistrament a un servei en línia. El motor mateix pot necessitar alguns paràmetres, com els models de llengua a descarregar per <application
->Vosk</application
-> o la instal·lació del paquet <application
->Whisper</application
->, que el &i18n-kapplication; us pot oferir de fer-ho.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->Entrada</guilabel
-></term>
-<listitem
-><para
->El micròfon amb el qual enregistrar.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->Prova</guilabel
-></term>
-<listitem
-><para
->Proveu la configuració abans d'utilitzar-la en un xat.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-</sect1>
 
 <sect1 id="files">
 <title

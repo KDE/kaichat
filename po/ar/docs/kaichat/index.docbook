@@ -1,8 +1,4 @@
 <?xml version="1.0" ?>
-<!--
-  SPDX-FileCopyrightText: 2026 Laurent Montel <montel@kde.org>
-  SPDX-License-Identifier: CC-BY-SA-4.0
--->
 <!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
 "dtd/kdedbx45.dtd" [
   <!-- Define an entity for your application if it is not part of KDE
@@ -63,7 +59,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->2026-11-07</date>
+>2026-09-26</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -83,8 +79,6 @@
 >أولاما</keyword>
 <keyword
 >LLM</keyword>
-<keyword
->MCP</keyword>
 <keyword
 >الخصوصيّة</keyword>
 </keywordset>
@@ -172,13 +166,6 @@
 <para
 >أنشئ نسخة من النوع المطابق والصق مفتاح API الذي منحتك إياه الخدمة. واعلم أن أسئلتك مع خدمة عبر الإنترنت، وأي ملف ترفقه، تُرسَل إلى ذلك المزود وتخضع لسياسة الخصوصية الخاصة به.</para>
 
-<para
->بعض الخوادم، خصوصًا الخوادم المتوافقة مع OpenAI التي تُبلَغ عبر <guilabel
->عنوان URL مخصص</guilabel
->، لا تُفصح عن النماذج التي تقدمها. في هذه الحالة، أدخل أسماء النماذج التي تريد استخدامها في حقل <guilabel
->النماذج</guilabel
-> الخاص بالنسخة، مفصولة بفواصل. تُستخدَم هذه القائمة فقط عندما لا يوفر الخادم قائمته الخاصة.</para>
-
 </sect1>
 
 </chapter>
@@ -222,10 +209,7 @@
 >اكتب سؤالك في حقل الإدخال وأكّده. ويظهر الجواب في عرض المحادثة أثناء توليده، ويُعرض إشعار عند انتهاء جواب طويل.</para>
 
 <para
->يمكنك إرفاق ملفات بسؤال، وتمكين الأدوات المسموح للنموذج باستدعائها أثناء الإجابة عنه، بما فيها تلك التي توفرها خوادم MCP لديك (انظر <xref linkend="mcp-servers"/>). تحتفظ كل محادثة بتاريخها الخاص، الذي يُرسل مع سؤالك الجديد كي يعرف النموذج السياق.</para>
-
-<para
->بدلًا من الكتابة، يمكنك إملاء سؤالك عند تفعيل تحويل الكلام إلى نص (انظر <xref linkend="speech-to-text"/>): يظهر زر ميكروفون بجوار حقل الإدخال، ويُدرَج النص المتعرَّف عليه فيه، حتى تراجعه قبل الإرسال.</para>
+>يمكنك إرفاق ملفات بسؤال، وتمكين الأدوات المسموح للنموذج باستدعائها أثناء الإجابة عنه. وتحتفظ كل محادثة بسجلها الخاص، الذي يُرسَل مع سؤالك الجديد ليعرف النموذج السياق.</para>
 
 </sect1>
 
@@ -415,17 +399,17 @@
 >سؤال سريع</title>
 
 <para
->السؤال السريع مربع حوار صغير لسؤال واحد، دون فتح النافذة الرئيسة. افتحه عبر <menuchoice
+>السؤال السريع حوار صغير لسؤال واحد، دون فتح النافذة الرئيسة. افتحه بـ <menuchoice
 ><guimenu
 >أدوات</guimenu
 ><guimenuitem
 >فتح السؤال السريع…</guimenuitem
 ></menuchoice
->، أو عبر الاختصار العام <keycombo action="simul"
+>، أو باختصار <keycombo action="simul"
 >&Meta;<keycap
 >مسافة</keycap
 ></keycombo
->، أو من قائمة السياق لأيقونة صينية النظام، أو بالأمر <userinput
+> العام، أو بـ <userinput
 ><command
 >kaichat</command
 > <option
@@ -604,7 +588,7 @@
 ></term>
 <listitem
 ><para
->خوادم بروتوكول سياق النموذج، التي تمنح النموذج وصولًا إلى بيانات وإجراءات خارجية. انظر <xref linkend="mcp-servers"/>.</para
+>خوادم بروتوكول سياق النموذج، التي تمنح النموذج وصولًا إلى بيانات وإجراءات خارجية. ما زال هذا الدعم تجريبيًا.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -624,7 +608,7 @@
 ></term>
 <listitem
 ><para
->إعدادات تحويل النص إلى كلام وتحويل الكلام إلى نص، عندما يُبنى التطبيق مع الدعم المقابل. انظر <xref linkend="speech-to-text"/>.</para
+>إعدادات تحويل النص إلى كلام، عندما بُني التطبيق بدعم تحويل النص إلى كلام.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -687,287 +671,6 @@
 >يمكن أيضًا ضبط النُسخ وخوادم MCP خارج التطبيق، من وحدة <guilabel
 >الذكاء الاصطناعي</guilabel
 > في &systemsettings;.</para>
-
-<sect1 id="mcp-servers">
-<title
->خوادم MCP</title>
-
-<para
->بروتوكول سياق النموذج (MCP) معيار مفتوح يتيح للنموذج استخدام أدوات توفرها برامج خارجية تُسمى خوادم MCP: قراءة ملفاتك، والاستعلام من قاعدة بيانات، والبحث في توثيق، وما إلى ذلك. يعمل &i18n-kapplication; كعميل MCP: يتصل بالخوادم التي تضبطها ويعرض أدواتها على النموذج.</para>
-
-<sect2 id="mcp-adding-server">
-<title
->إضافة خادم</title>
-
-<para
->تُدار الخوادم في صفحة <guilabel
->خوادم MCP</guilabel
-> في مربع حوار الضبط. استخدم زر <guibutton
->أضف خادمًا…</guibutton
->، أو قائمة سياق القائمة، لإضافة خادم: اختر <guimenuitem
->خادم</guimenuitem
-> لإدخال إعداداته بنفسك، أو <guimenuitem
->من سجل MCP…</guimenuitem
-> لاختياره من السجل العام (انظر <xref linkend="mcp-registry"/>). انقر نقرًا مزدوجًا على خادم أو استخدم <guimenuitem
->حرّر…</guimenuitem
-> لتعديله، و<guimenuitem
->أزل الخادم</guimenuitem
-> لحذفه. مربع الاختيار أمام كل خادم يفعّله أو يعطّله دون فقدان ضبطه.</para>
-
-<para
->لكل خادم <guilabel
->اسم</guilabel
->، و<guilabel
->أيقونة</guilabel
-> اختيارية، و<guilabel
->نوع</guilabel
-> يحدد كيفية تواصل &i18n-kapplication; معه:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->الإدخال الأخراج القياسي</guilabel
-></term>
-<listitem
-><para
->الخادم برنامج يطلقه &i18n-kapplication; على حاسوبك. أدخل <guilabel
->الأمر</guilabel
-> الذي تريد تشغيله و<guilabel
->وسائطه</guilabel
->، كما ورد في توثيق الخادم.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->دفق HTTP قابل للبث</guilabel
-></term>
-<listitem
-><para
->يُوصل إلى الخادم عبر الشبكة على <guilabel
->URL</guilabel
-> المعطى. يمكن إضافة <guilabel
->ترويسات</guilabel
-> إضافية، مثل ترويسة <literal
->Authorization</literal
-> تحمل رمز وصول، بصيغة <quote
->الاسم: القيمة</quote
->.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->SSE</guilabel
-></term>
-<listitem
-><para
->نقل HTTP الأقدم القائم على أحداث مرسلة من الخادم، ولا تزال بعض الخوادم تستخدمه. أدخل <guilabel
->URL</guilabel
-> الخاص به.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
->تسرد <guilabel
->المجلدات المسموحة</guilabel
-> المجلدات التي يجوز للخادم العمل فيها. تُمرر القائمة إلى الخادم، ويُتوقع منه أن يقصر نفسه على هذه المجلدات؛ ويحتاج الخادم الذي يصل إلى الملفات عادةً إلى مجلد واحد على الأقل.</para>
-
-<para
->تُطبق التغييرات عند إغلاق حوار الضبط بـ<guibutton
->موافق</guibutton
-> أو <guibutton
->طبق</guibutton
->. يمكن أيضًا ضبط خوادم MCP من وحدة <guilabel
->الذكاء الاصطناعي</guilabel
-> في &systemsettings;; وتُشارك القائمة مع التطبيقات الأخرى التي تستخدمها.</para>
-
-</sect2>
-
-<sect2 id="mcp-registry">
-<title
->إضافة خادم من سجل MCP</title>
-
-<para
-><ulink url="https://registry.modelcontextprotocol.io"
->سجل MCP</ulink
-> فهرس عام لخوادم MCP. يفتح <guimenuitem
->من سجل MCP…</guimenuitem
-> مربع حوار <guilabel
->أضف خادمًا من سجل MCP</guilabel
->، الذي يسردها. اكتب في حقل البحث للعثور على خادم، واستخدم <guibutton
->حمّل المزيد</guibutton
-> لجلب النتائج التالية.</para>
-
-<para
->يعرض اختيار خادم وصفه وإصداره ومستودعه وموقعه، والعناوين البعيدة التي يمكن الوصول إليه عبرها والحزم التي يمكن تثبيته منها، مع متغيرات البيئة التي تستخدمها. يجب ضبط المتغيرات المعلَّمة كمطلوبة لكي يعمل الخادم.</para>
-
-<para
->عند تأكيد مربع الحوار، يُضاف الخادم إلى القائمة بإعداداته مملوءة مسبقًا: يُبلَغ الخادم البعيد عبر HTTP، وتُشغَّل الحزمة كخادم <guilabel
->إدخال/إخراج قياسي</guilabel
->. تُضاف متغيرات البيئة دون قيمة؛ حرّر الخادم لملئها، مثلًا بمفتاح API. لا يمكن إضافة خادم لا يوفر عنوانًا بعيدًا ولا حزمة مدعومة.</para>
-
-<para
->لا يفحص &i18n-kapplication; خادمًا موجودًا في السجل: اقرأ توثيقه قبل تفعيله.</para>
-
-</sect2>
-
-<sect2 id="mcp-using-tools">
-<title
->استخدام أدوات MCP في محادثة</title>
-
-<para
->يظهر كل خادم ممكّن كزر بين الأدوات المتاحة أسفل حقل الإدخال. حدد الزر لتتيح للنموذج استخدام أدوات هذا الخادم في أسئلتك التالية. يفتح السهم المجاور له قائمة تسرد هذه الأدوات، ويمكنك منها اختيار بعضها فقط؛ يتصل &i18n-kapplication; بالخادم أول مرة تُفتح فيها هذه القائمة كي يعرف أدواته.</para>
-
-<para
->بينما يستدعي النموذج أداة، يظهر اسمها في شريط الحالة، وتُعاد النتيجة إلى النموذج لإكمال إجابته.</para>
-
-</sect2>
-
-<sect2 id="mcp-confirmation">
-<title
->التأكيدات والطلبات</title>
-
-<para
->قد تفعل الأداة أكثر من قراءة البيانات، لذا يسأل &i18n-kapplication; قبل تشغيل إحداها. يعرض حوار <guilabel
->تشغيل الأداة</guilabel
-> الخادم والأداة والوسائط التي يريد النموذج تمريرها إليها:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guibutton
->Allow</guibutton
-></term>
-<listitem
-><para
->شغّل الأداة هذه المرة.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->اسمح دائمًا لهذا الخادم</guibutton
-></term>
-<listitem
-><para
->شغّل الأداة، ولا تسأل مجددًا عن أي أداة من هذا الخادم.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guibutton
->Deny</guibutton
-></term>
-<listitem
-><para
->لا تشغّل الأداة.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-<para
->الخوادم التي تعمل أدواتها دون تأكيد محدّدة في قائمة <guilabel
->شغّل الأدوات دون تأكيد</guilabel
-> في صفحة <guilabel
->خوادم MCP</guilabel
->، حيث يمكنك إلغاء تحديدها مجددًا.</para>
-
-<para
->يمكن للخادم أيضًا أن يطلب شيئًا منك أو من النموذج أثناء عمله:</para>
-
-<itemizedlist>
-<listitem
-><para
->يمكنه أن يطلب منك ملء بعض المعلومات، في حوار <guilabel
->طلب من</guilabel
-> يعرض الحقول التي يحتاجها. يرسل <guibutton
->اقبل</guibutton
-> إجابتك، ويرفض <guibutton
->ارفض</guibutton
-> تقديمها؛</para
-></listitem>
-<listitem
-><para
->يمكنه أن يطلب من النموذج توليد بعض النص له. يعرض حوار <guilabel
->طلب أخذ عينات من خادم MCP</guilabel
-> ما سيُرسل إلى النموذج؛ لا يُرسل شيء ما لم تختر <guibutton
->أرسل إلى LLM</guibutton
->.</para
-></listitem>
-</itemizedlist>
-
-<para
->أضف فقط الخوادم التي تثق بها. خادم <guilabel
->الإدخال/الإخراج القياسي</guilabel
-> برنامج يعمل بحقوقك الخاصة، وما تعيده الأداة يقرأه النموذج، ويُرسل مع خدمة عبر الإنترنت إلى مزوّدها مع محادثتك.</para>
-
-</sect2>
-
-</sect1>
-
-<sect1 id="speech-to-text">
-<title
->تحويل الكلام إلى نص</title>
-
-<para
->يتيح لك تحويل الكلام إلى نص إملاء أسئلتك بدلًا من كتابتها. يُضبَط في تبويب <guilabel
->تحويل الكلام إلى نص</guilabel
-> في صفحة <guilabel
->إمكانية الوصول</guilabel
->، التي تظهر فقط عندما يُبنى &i18n-kapplication; مع دعم تحويل الكلام إلى نص.</para>
-
-<para
->حدّد <guilabel
->فعّل تحويل الكلام إلى نص</guilabel
-> لإظهار زر الميكروفون بجوار حقل الإدخال، ثم اختر:</para>
-
-<variablelist>
-<varlistentry>
-<term
-><guilabel
->المحرك</guilabel
-></term>
-<listitem
-><para
->البرنامج الذي يتعرف على صوتك. حسب الملحقات المثبتة، يعمل <application
->Vosk</application
-> و<application
->Whisper</application
-> على حاسوبك، بينما يرسل <application
->Google</application
-> التسجيل إلى خدمة عبر الإنترنت. قد يحتاج المحرك إلى بعض إعداداته الخاصة، مثل نماذج اللغة التي تُنزَّل لـ<application
->Vosk</application
->، أو تثبيت حزمة <application
->Whisper</application
->، التي يمكن لـ&i18n-kapplication; أن يعرض القيام بها نيابة عنك.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->الإدخال</guilabel
-></term>
-<listitem
-><para
->الميكروفون الذي تُسجَّل منه.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><guilabel
->اختبار</guilabel
-></term>
-<listitem
-><para
->جرّب الإعدادات قبل استخدامها في محادثة.</para
-></listitem>
-</varlistentry>
-</variablelist>
-
-</sect1>
 
 <sect1 id="files">
 <title
