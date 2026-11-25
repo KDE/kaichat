@@ -16,4 +16,7 @@ public:
 
 private Q_SLOTS:
     void shouldVerifyOptionParserFromEnumValues();
+    void shouldReturnPromptMessage();
+    void shouldUsePromptInAskMessageInfo_data();
+    void shouldUsePromptInAskMessageInfo();
 };

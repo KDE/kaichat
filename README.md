@@ -68,6 +68,9 @@ your build, and `kaichat --list-instances` to list the instances you configured.
 
 - System Settings module (`kcm_autogeneratetext`) to configure instances and MCP
   servers outside the application
+- Dolphin context menu (**KAIChat** submenu) on text files and images: **Ask KAIChat…**
+  opens Quick Ask with the file attached, **Summarize Document** and **Explain Code**
+  send a predefined question
 - Optional system tray icon, and notifications when a model download finishes
 - Single-instance behavior, via D-Bus or KDSingleApplication
 - D-Bus interface `org.kde.kaichat.Application` (see below)
@@ -88,6 +91,7 @@ your build, and `kaichat --list-instances` to list the instances you configured.
 | `--switch-to-chat-from-id <id>` | Switch to an existing chat by identifier |
 | `--ask-message <message>` | Ask a question straight away |
 | `--attach <url>` | Attach a file to the question (repeatable) |
+| `--prompt <name>` | Ask a predefined question (`summarize`, `explain-code`) |
 | `--tool <name>` | Enable a tool for the question (repeatable) |
 | `--quick-ask` | Open the Quick Ask dialog and exit |
 | `--import <file>` | Import a chat from a JSON file |

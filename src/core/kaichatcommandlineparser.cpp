@@ -5,6 +5,7 @@
  */
 
 #include "kaichatcommandlineparser.h"
+#include "kaichat_core_debug.h"
 #include <KLocalizedString>
 #include <QCommandLineParser>
 
@@ -33,6 +34,9 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          i18n("Chat Identifier")));
     parser->addOption(
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::AskMessage), i18nc("@info:shell", "Ask Message"), i18n("Message")));
+    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Prompt),
+                                         i18nc("@info:shell", "Ask a predefined question (summarize, explain-code). Ignored when a message is given"),
+                                         i18n("Prompt Name")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListChats), i18nc("@info:shell", "Return lists of chats")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Debug), i18nc("@info:shell", "Activate Debug Mode")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Attach),
@@ -91,6 +95,18 @@ QString KAIChatCommandLineParser::optionParserFromEnum(OptionParser e)
         return u"self-test"_s;
     case OptionParser::EphemeralChat:
         return u"ephemeral-chat"_s;
+    case OptionParser::Prompt:
+        return u"prompt"_s;
+    }
+    return {};
+}
+
+QString KAIChatCommandLineParser::promptMessage(const QString &promptName)
+{
+    if (promptName == "summarize"_L1) {
+        return i18nc("@info Question sent to the AI model", "Summarize this document.");
+    } else if (promptName == "explain-code"_L1) {
+        return i18nc("@info Question sent to the AI model", "Explain what this code does.");
     }
     return {};
 }
@@ -100,6 +116,13 @@ TextAutoGenerateText::TextAutoGenerateManager::AskMessageInfo KAIChatCommandLine
     QString message;
     if (parser->isSet(optionParserFromEnum(OptionParser::AskMessage))) {
         message = parser->value(optionParserFromEnum(OptionParser::AskMessage));
+    }
+    if (message.isEmpty() && parser->isSet(optionParserFromEnum(OptionParser::Prompt))) {
+        const QString promptName = parser->value(optionParserFromEnum(OptionParser::Prompt));
+        message = promptMessage(promptName);
+        if (message.isEmpty()) {
+            qCWarning(KAICHAT_CORE_LOG) << "Unknown prompt name:" << promptName;
+        }
     }
     QStringList lstAttachments;
     if (parser->isSet(optionParserFromEnum(OptionParser::Attach))) {

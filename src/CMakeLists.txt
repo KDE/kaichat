@@ -31,5 +31,12 @@ endif()
 install(PROGRAMS data/org.kde.kaichat.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES data/org.kde.kaichat.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 install(FILES data/kaichat.notifyrc DESTINATION ${KDE_INSTALL_KNOTIFYRCDIR})
+install(
+    PROGRAMS
+        data/servicemenus/kaichat-ask.desktop
+        data/servicemenus/kaichat-summarize.desktop
+        data/servicemenus/kaichat-explaincode.desktop
+    DESTINATION ${KDE_INSTALL_DATADIR}/kio/servicemenus
+)
 install(FILES data/application-vnd-kde-kaichat.xml DESTINATION ${KDE_INSTALL_MIMEDIR})
 update_xdg_mimetypes(${KDE_INSTALL_MIMEDIR})

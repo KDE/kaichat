@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+MimeType=text/plain;image/png;image/jpeg;image/webp;image/gif;
+Actions=askKAIChat;
+X-KDE-Submenu=KAIChat
+X-KDE-MaxNumberOfUrls=1
+Icon=kaichat
+
+[Desktop Action askKAIChat]
+Name=Ask KAIChat…
+Icon=kaichat
+Exec=kaichat --quick-ask --attach %f
