@@ -34,9 +34,13 @@ void KAIChatCommandLineParser::initializeCommandLine(QCommandLineParser *parser)
                                          i18n("Chat Identifier")));
     parser->addOption(
         QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::AskMessage), i18nc("@info:shell", "Ask Message"), i18n("Message")));
-    parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Prompt),
-                                         i18nc("@info:shell", "Ask a predefined question (summarize, explain-code). Ignored when a message is given"),
-                                         i18n("Prompt Name")));
+
+    QCommandLineOption promptOption(QStringList() << optionParserFromEnum(OptionParser::Prompt),
+                                    i18nc("@info:shell", "Ask a predefined question (summarize, explain-code). Ignored when a message is given"),
+                                    i18n("Prompt Name"));
+    promptOption.setFlags(QCommandLineOption::HiddenFromHelp);
+
+    parser->addOption(promptOption);
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::ListChats), i18nc("@info:shell", "Return lists of chats")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Debug), i18nc("@info:shell", "Activate Debug Mode")));
     parser->addOption(QCommandLineOption(QStringList() << optionParserFromEnum(OptionParser::Attach),
