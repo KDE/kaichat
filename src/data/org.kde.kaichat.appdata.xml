@@ -156,9 +156,33 @@
       <description>
         <ul>
           <li>Allow to define MCP server from registry.modelcontextprotocol.io</li>
+          <li xml:lang="ca">Permet definir un servidor MCP des de «registry.modelcontextprotocol.io»</li>
+          <li xml:lang="es">Permitir definición de servidor MCP desde registry.modelcontextprotocol.io</li>
+          <li xml:lang="nl">Maakt het mogelijk om een ​​MCP-server te definiëren vanuit registry.modelcontextprotocol.io</li>
+          <li xml:lang="pt-BR">Permite definir um servidor MCP a partir de registry.modelcontextprotocol.io</li>
+          <li xml:lang="ru">Добавлена возможность задать сервер MCP из реестра registry.modelcontextprotocol.io</li>
+          <li xml:lang="uk">Уможливлено визначення сервера MCP з registry.modelcontextprotocol.io</li>
           <li>Allow to define list of model when instance doesn't provide them.</li>
+          <li xml:lang="ca">Permet definir una llista de models si la instància no els proporciona.</li>
+          <li xml:lang="es">Permitir definición de lista de modelos cuando la instancia no los proporciona.</li>
+          <li xml:lang="nl">Maakt het mogelijk om een ​​lijst met modellen te definiëren wanneer een instantie deze niet zelf aanlevert.</li>
+          <li xml:lang="pt-BR">Permite definir uma lista de modelos quando a instância não os fornece.</li>
+          <li xml:lang="ru">Добавлена возможность задать список моделей, если сервер их не предоставляет.</li>
+          <li xml:lang="uk">Дозволити визначати список моделей, якщо екземпляр не надає його.</li>
           <li>Add MCP server support</li>
+          <li xml:lang="ca">Afegeix la implementació de servidors MCP</li>
+          <li xml:lang="es">Añadir compatibilidad con servidor MCP</li>
+          <li xml:lang="nl">Ondersteuning voor MCP-server toevoegen</li>
+          <li xml:lang="pt-BR">Adiciona suporte ao servidor MCP</li>
+          <li xml:lang="ru">Добавлена поддержка серверов MCP</li>
+          <li xml:lang="uk">Додано підтримку сервера MCP</li>
           <li>Add Speech to Text support</li>
+          <li xml:lang="ca">Afegeix la implementació de veu a text</li>
+          <li xml:lang="es">Se ha implementado el uso de voz a texto.</li>
+          <li xml:lang="nl">Ondersteuning voor spraak naar tekst toevoegen</li>
+          <li xml:lang="pt-BR">Adicionado suporte a fala para texto</li>
+          <li xml:lang="ru">Добавлена поддержка распознавания речи</li>
+          <li xml:lang="uk">Додано підтримку перетворення звуку на текст</li>
         </ul>
       </description>
     </release>
