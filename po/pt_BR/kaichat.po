@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-24 03:46+0000\n"
-"PO-Revision-Date: 2026-11-08 07:09-0300\n"
+"PO-Revision-Date: 2026-11-24 05:30-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@kde.org>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 26.08.3\n"
+"X-Generator: Lokalize 26.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -305,16 +305,14 @@ msgid "Current date time is %1"
 msgstr "Data e hora atual é %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "Habilitar texto para fala"
+msgstr "Texto para fala"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Fala para texto"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -355,20 +353,18 @@ msgstr "Nunca"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v dia"
+msgstr[1] "%v dias"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, fuzzy, kde-format
-#| msgid "Exclude Favorite Chats"
+#, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr "Excluir bate-papos favoritos"
+msgstr "Excluir bate-papos favoritos:"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, fuzzy, kde-format
-#| msgid "Retention Days"
+#, kde-format
 msgid "Retention Days:"
-msgstr "Dias de retenção"
+msgstr "Dias de retenção:"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
@@ -437,12 +433,10 @@ msgid "Privacy"
 msgstr "Privacidade"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr "Habilitar texto para fala"
+msgstr "Habilitar fala para texto"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format

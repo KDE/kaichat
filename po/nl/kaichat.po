@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-24 03:46+0000\n"
-"PO-Revision-Date: 2026-09-28 11:13+0200\n"
-"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"PO-Revision-Date: 2026-11-24 23:17+0100\n"
+"Last-Translator: freek <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 26.08.1\n"
+"X-Generator: Lokalize 26.04.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -305,16 +305,14 @@ msgid "Current date time is %1"
 msgstr "Huidige datum tijd is %1"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgid "Text to Speech"
-msgstr "Tekst-naar-spraak inschakelen"
+msgstr "Tekst naar spraak"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Spraak naar tekst"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -355,20 +353,18 @@ msgstr "Nooit"
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v dag"
+msgstr[1] "%v dagen"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
-#, fuzzy, kde-format
-#| msgid "Exclude Favorite Chats"
+#, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr "Favoriete chats uitsluiten"
+msgstr "Favoriete chats uitsluiten:"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
-#, fuzzy, kde-format
-#| msgid "Retention Days"
+#, kde-format
 msgid "Retention Days:"
-msgstr "Bewaardagen"
+msgstr "Bewaardagen:"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:52
 #, kde-format
@@ -437,9 +433,7 @@ msgid "Privacy"
 msgstr "Privacy"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Enable Text To Speech"
+#, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
 msgstr "Tekst-naar-spraak inschakelen"

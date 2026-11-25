@@ -59,7 +59,7 @@
 >&FDLNotice;</legalnotice>
 
 <date
->26 вересня 2026 року</date>
+>2026-09-26</date>
 <releaseinfo
 ></releaseinfo>
 
@@ -209,7 +209,7 @@
 >Введіть питання у поле для введення та підтвердьте його. Відповідь з'являється в режимі перегляду розмови з її поступовим створенням, а після завершення формування розгорнутої відповіді буде показано сповіщення.</para>
 
 <para
->Ви можете додавати файли до питання та вмикати інструменти, які модель може використовувати під час надання відповіді. Кожне спілкування зберігає власний журнал, що надсилається разом із новим питанням, аби модель розуміла контекст.</para>
+>You can attach files to a question, and enable the tools the model is allowed to call while answering it. Each chat keeps its own history, which is sent along with your new question so that the model knows the context.</para>
 
 </sect1>
 
@@ -399,25 +399,25 @@
 >Швидке питання</title>
 
 <para
->«Швидке питання» — це невелике діалогове вікно для одного питання, яке не потребує відкриття головного вікна програми. Його можна відкрити через за допомогою пункту меню <menuchoice
+>Quick Ask is a small dialog for a single question, without opening the main window. Open it with <menuchoice
 ><guimenu
->Інструменти</guimenu
+>Tools</guimenu
 ><guimenuitem
->Відкрити швидке питання…</guimenuitem
+>Open Quick Ask…</guimenuitem
 ></menuchoice
->, за допомогою глобальної комбінації клавіш <keycombo action="simul"
+>, with the <keycombo action="simul"
 >&Meta;<keycap
->Пробіл</keycap
+>Space</keycap
 ></keycombo
-> або командою <userinput
+> global shortcut, or with <userinput
 ><command
 >kaichat</command
 > <option
 >--quick-ask</option
 ></userinput
->. Запитання, поставлені в такий спосіб, не додаються до ваших спілкувань, якщо ви не збережете обговорення за допомогою кнопки <guibutton
->Зберегти обговорення у базі даних</guibutton
->.</para>
+>. Questions asked this way are not added to your chats, unless you keep the discussion with the <guibutton
+>Save Discussion in Database</guibutton
+> button.</para>
 
 </sect1>
 
@@ -588,7 +588,7 @@
 ></term>
 <listitem
 ><para
->Сервери Model Context Protocol, що надають моделі доступ до зовнішніх даних і дій. Підтримка цієї можливості наразі є експериментальною.</para
+>Model Context Protocol servers, which give the model access to external data and actions. This support is still experimental.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -608,7 +608,7 @@
 ></term>
 <listitem
 ><para
->Параметри озвучення тексту (якщо програму зібрано з підтримкою цієї можливості).</para
+>Text-to-speech settings, when the application was built with text-to-speech support.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
@@ -744,18 +744,6 @@
 <listitem
 ><para
 >Вивести список доступних текстових та інструментальних додатків і завершити роботу програми.</para
-></listitem>
-</varlistentry>
-<varlistentry>
-<term
-><option
->--instance</option
-> <replaceable
->назва</replaceable
-></term>
-<listitem
-><para
->Розпочати роботу з вказаним екземпляром.</para
 ></listitem>
 </varlistentry>
 <varlistentry>
