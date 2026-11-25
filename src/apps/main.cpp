@@ -95,14 +95,14 @@ int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
 #if HAVE_KUSERFEEDBACK
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::FeedBack))) {
         KAIChatUserFeedbackProvider userFeedback;
         QTextStream(stdout) << userFeedback.describeDataSources() << '\n';
         return 0;
     }
 #endif
 
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListInstances))) {
         const KSharedConfig::Ptr config = KSharedConfig::openConfig(TextAutoGenerateText::TextAutoGenerateTextUtils::instanceConfigFileName());
         const QStringList lst = TextAutoGenerateText::TextAutoGenerateTextUtils::instancesList(config);
         std::cout << qPrintable(i18n("The following instances are available:")) << '\n';
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::ListChats))) {
         const TextAutoGenerateText::TextAutoGenerateManager manager;
         const QStringList lst = manager.chatsList();
         std::cout << qPrintable(i18n("List of Chats:")) << '\n';
@@ -125,12 +125,12 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::QuickAsk))) {
         KAIChatUtils::createQuickAsk(KAIChatCommandLineParser::askMessageInfo(&parser));
         return 0;
     }
 
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::PluginInfo))) {
         std::cout << qPrintable(i18n("Plugins:")) << '\n';
         std::cout << qPrintable(TextAutoGenerateText::TextAutoGeneratePluginTextManager::self()->generatePluginsInformation()) << '\n';
         std::cout << qPrintable(TextAutoGenerateText::TextAutoGenerateTextToolPluginManager::self()->generatePluginsInformation()) << '\n';
@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
 #endif
 
     mw->show();
-    if (parser.isSet(commandLineParser.optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
+    if (parser.isSet(KAIChatCommandLineParser::optionParserFromEnum(KAIChatCommandLineParser::OptionParser::SelfTest))) {
         QTimer::singleShot(std::chrono::milliseconds(250), &app, [mw, &app]() {
             delete mw;
             app.quit();
