@@ -114,8 +114,7 @@ set_package_properties(
             OPTIONAL
 )
 
-set(KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION "2.3.0")
-set(KTEXTADDONS_WITH_SPEECH_TO_TEXT_VERSION "2.3.0")
+set(KTEXTADDONS_MIN_VERSION "2.3.0")
 find_package(
     Qt6
     ${QT_REQUIRED_VERSION}
@@ -171,7 +170,7 @@ set_package_properties(
             "Allow to send Telemetry Information (optional)."
 )
 
-find_package(KF6TextAutoGenerateText ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+find_package(KF6TextAutoGenerateText ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     KF6TextAutoGenerateText
     PROPERTIES
@@ -183,7 +182,7 @@ set_package_properties(
             "Use AI plugin"
 )
 
-find_package(KF6TextAutoGenerateTextMcpProtocolWidgets ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+find_package(KF6TextAutoGenerateTextMcpProtocolWidgets ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     KF6TextAutoGenerateTextMcpProtocolWidgets
     PROPERTIES
@@ -195,7 +194,7 @@ set_package_properties(
             "Use AI plugin"
 )
 
-find_package(KF6TextAddonsWidgets ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+find_package(KF6TextAddonsWidgets ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     KF6TextAddonsWidgets
     PROPERTIES
@@ -205,7 +204,7 @@ set_package_properties(
             REQUIRED
 )
 
-find_package(KF6TextEditTextToSpeech ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+find_package(KF6TextEditTextToSpeech ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     TextEditTextToSpeech
     PROPERTIES
@@ -215,7 +214,7 @@ set_package_properties(
             OPTIONAL
 )
 
-find_package(KF6TextCustomEditor ${KTEXTADDONS_WITH_TEXTAUTOGENERATETEXT_VERSION} CONFIG)
+find_package(KF6TextCustomEditor ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     TextCustomEditor
     PROPERTIES
@@ -225,7 +224,7 @@ set_package_properties(
             REQUIRED
 )
 
-find_package(KF6TextSpeechToText ${KTEXTADDONS_WITH_SPEECH_TO_TEXT_VERSION} CONFIG)
+find_package(KF6TextSpeechToText ${KTEXTADDONS_MIN_VERSION} CONFIG)
 set_package_properties(
     KF6TextSpeechToText
     PROPERTIES
