@@ -20,6 +20,7 @@
         "Description[sv]": "Anpassa LLM-gränssnitt",
         "Description[tr]": "Büyük dil modeli arka uçlarını yapılandırın",
         "Description[uk]": "Налаштувати модулі ВММ",
+        "Description[zh_CN]": "配置 LLM 后端程序",
         "Description[zh_TW]": "設定 LLM 後端",
         "Icon": "kaichat",
         "Name": "LLM Backends",
@@ -42,6 +43,7 @@
         "Name[sv]": "LLM-gränssnitt",
         "Name[tr]": "Büyük Dil Modeli Arka Uçları",
         "Name[uk]": "Модулі ВММ",
+        "Name[zh_CN]": "LLM 后端程序",
         "Name[zh_TW]": "LLM 後端",
         "ServiceTypes": [
             "KCModule"
