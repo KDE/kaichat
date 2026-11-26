@@ -22,6 +22,7 @@
     <comment xml:lang="sl">KAIChat dokument</comment>
     <comment xml:lang="tr">KAIChat belgesi</comment>
     <comment xml:lang="uk">документ KAIChat</comment>
+    <comment xml:lang="zh_CN">KAIChat 文档</comment>
     <comment xml:lang="zh_TW">KAIChat 文件</comment>
     <sub-class-of type="application/json"/>
     <glob pattern="*.kaichat"/>
