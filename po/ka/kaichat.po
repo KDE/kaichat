@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-21 01:15+0000\n"
-"PO-Revision-Date: 2026-10-13 04:39+0200\n"
+"POT-Creation-Date: 2026-11-26 01:08+0000\n"
+"PO-Revision-Date: 2026-11-25 15:15+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -59,141 +59,167 @@ msgstr "ჩატების სია:"
 msgid "Plugins:"
 msgstr "დამატებები:"
 
-#: core/kaichatcommandlineparser.cpp:22
+#: core/kaichatcommandlineparser.cpp:23
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
 msgstr "აბრუნებს გაშვებული ასლების სიას"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "ახალი ჩატის შექმნა"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgid "New Chat Title"
 msgstr "ახალი ჩატის სათაური"
 
-#: core/kaichatcommandlineparser.cpp:26
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
 msgstr "ახალი ეფემერული ჩატის შექმნა"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgid "New Ephemeral Chat"
 msgstr "ახალი ეფემერული ჩატი"
 
-#: core/kaichatcommandlineparser.cpp:28
+#: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "სწრაფი კითხვის გახსნა"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "ჩატზე გადართვა"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgid "Chat Name"
 msgstr "ჩატის სახელი"
 
-#: core/kaichatcommandlineparser.cpp:32
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "გადართვა ჩატზე იდენტიფიკატორიდან"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgid "Chat Identifier"
 msgstr "ჩატის იდენტიფიკატორი"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "შეტყობინების კითხვა"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgid "Message"
 msgstr "შეტყობინება"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Ask a predefined question (summarize, explain-code). Ignored when a message "
+"is given"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgid "Prompt Name"
+msgstr "ჩატის სახელი"
+
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "აბრუნებს ჩატების სიას"
 
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:45
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "გამართვის რეჟიმის გააქტიურება"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:47
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "მიმაგრებული ფაილის დამატება. ეს შეგიძლიათ, გაიმეოროთ"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Attachment Url"
 msgstr "მიმაგრებული ფაილის Url"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "გამოყენებული ხელსაწყოს აღწერა. ეს შეგიძლიათ, გაიმეოროთ"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:51
 #, kde-format
 msgid "Tool Name"
 msgstr "ხელსაწყოს სახელი"
 
-#: core/kaichatcommandlineparser.cpp:44
+#: core/kaichatcommandlineparser.cpp:52
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "დამატებების ინფორმაციის დაბრუნება"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "მომხმარებლის უკუკავშირის ხელმისაწვდომი ვარიანტები"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "ჩატის შემოტანა"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgid "Import"
 msgstr "შემოტანა"
 
-#: core/kaichatcommandlineparser.cpp:50
+#: core/kaichatcommandlineparser.cpp:58
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Ollama-ის გაშვება"
 
-#: core/kaichatcommandlineparser.cpp:54
+#: core/kaichatcommandlineparser.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
 msgstr "შემოსატანი ჩატის ფაილი"
+
+#: core/kaichatcommandlineparser.cpp:111
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Summarize this document."
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:113
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Explain what this code does."
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format
@@ -228,7 +254,7 @@ msgstr "ხელსაწყო"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "ფაილის ჩასაწერად გახსნის შეცდომა: %1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
@@ -407,7 +433,7 @@ msgstr "MCP სერვერები"
 #, kde-format
 msgctxt "@title Prompts and agents page name"
 msgid "Prompts & Agents"
-msgstr ""
+msgstr "მოთხოვნები და აგენტები"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format
@@ -607,12 +633,10 @@ msgid "Open Quick Ask…"
 msgstr "სწრაფი კითხვის გახსნა…"
 
 #: widgets/kaichatmainwindow.cpp:258
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Export Chats"
+#, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr "ჩატების გატანა"
+msgstr "გატანის შეცდომა"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -652,12 +676,10 @@ msgid "Model %1 was downloaded."
 msgstr "მოდელი %1 გადმოწერილია."
 
 #: widgets/kaichatmainwindow.cpp:509
-#, fuzzy, kde-format
-#| msgctxt "@info:shell"
-#| msgid "Import Chat"
+#, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr "ჩატის შემოტანა"
+msgstr "შემოტანის შეცდომა"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -706,10 +728,9 @@ msgid "Account information"
 msgstr "ანგარიშის ინფორმაცია"
 
 #: widgets/userfeedback/accountinfosource.cpp:30
-#, fuzzy, kde-format
-#| msgid "Return the number of account."
+#, kde-format
 msgid "Returns the number of AI instances."
-msgstr "ანგარიშების რაოდენობის დაბრუნება."
+msgstr "აბრუნებს ხი-ის გაშვებული ასლების რაოდენობას."
 
 #~ msgid "Days"
 #~ msgstr "დღე"

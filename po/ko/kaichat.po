@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-21 01:15+0000\n"
+"POT-Creation-Date: 2026-11-26 01:08+0000\n"
 "PO-Revision-Date: 2026-11-21 23:48+0100\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -58,141 +58,167 @@ msgstr "대화 목록:"
 msgid "Plugins:"
 msgstr "플러그인:"
 
-#: core/kaichatcommandlineparser.cpp:22
+#: core/kaichatcommandlineparser.cpp:23
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
 msgstr "인스턴스 목록 반환"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "새 대화 만들기"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgid "New Chat Title"
 msgstr "새 대화 제목"
 
-#: core/kaichatcommandlineparser.cpp:26
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
 msgstr "새 휘발성 대화 만들기"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgid "New Ephemeral Chat"
 msgstr "새 휘발성 대화"
 
-#: core/kaichatcommandlineparser.cpp:28
+#: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "빠른 질문 열기"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "대화로 전환"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgid "Chat Name"
 msgstr "대화 이름"
 
-#: core/kaichatcommandlineparser.cpp:32
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "식별자로 지정한 대화로 전환"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgid "Chat Identifier"
 msgstr "대화 식별자"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "질문 메시지"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgid "Message"
 msgstr "메시지"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Ask a predefined question (summarize, explain-code). Ignored when a message "
+"is given"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgid "Prompt Name"
+msgstr "대화 이름"
+
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "대화 목록 반환"
 
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:45
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "디버그 모드 활성화"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:47
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "첨부 파일 추가. 반복할 수 있음"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Attachment Url"
 msgstr "첨부 URL"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "사용할 도구 정의. 반복할 수 있음"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:51
 #, kde-format
 msgid "Tool Name"
 msgstr "도구 이름"
 
-#: core/kaichatcommandlineparser.cpp:44
+#: core/kaichatcommandlineparser.cpp:52
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "플러그인 정보 반환"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "사용자 피드백 옵션 표시"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "대화 가져오기"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgid "Import"
 msgstr "가져오기"
 
-#: core/kaichatcommandlineparser.cpp:50
+#: core/kaichatcommandlineparser.cpp:58
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Ollama 프로그램 시작"
 
-#: core/kaichatcommandlineparser.cpp:54
+#: core/kaichatcommandlineparser.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
 msgstr "가져올 대화 파일"
+
+#: core/kaichatcommandlineparser.cpp:111
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Summarize this document."
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:113
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Explain what this code does."
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format

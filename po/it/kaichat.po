@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-21 01:15+0000\n"
+"POT-Creation-Date: 2026-11-26 01:08+0000\n"
 "PO-Revision-Date: 2026-11-21 08:29+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128vr@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -58,141 +58,167 @@ msgstr "Elenco delle chat:"
 msgid "Plugins:"
 msgstr "Estensioni:"
 
-#: core/kaichatcommandlineparser.cpp:22
+#: core/kaichatcommandlineparser.cpp:23
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
 msgstr "Restituisci elenchi di istanze"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
 msgstr "Crea una nuova chat"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgid "New Chat Title"
 msgstr "Nuovo titolo chat"
 
-#: core/kaichatcommandlineparser.cpp:26
+#: core/kaichatcommandlineparser.cpp:27
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new ephemeral chat"
 msgstr "Crea una nuova chat effimera"
 
-#: core/kaichatcommandlineparser.cpp:27
+#: core/kaichatcommandlineparser.cpp:28
 #, kde-format
 msgid "New Ephemeral Chat"
 msgstr "Nuova chat effimera"
 
-#: core/kaichatcommandlineparser.cpp:28
+#: core/kaichatcommandlineparser.cpp:29
 #, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
 msgstr "Apri Domanda rapida"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
 msgstr "Passa a Chat"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgid "Chat Name"
 msgstr "Nome chat"
 
-#: core/kaichatcommandlineparser.cpp:32
+#: core/kaichatcommandlineparser.cpp:33
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat from identifier"
 msgstr "Passa a Chat da identificatore"
 
-#: core/kaichatcommandlineparser.cpp:33
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
 msgid "Chat Identifier"
 msgstr "Identificatore chat"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
 msgid "Ask Message"
 msgstr "Messaggio di richiesta"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgid "Message"
 msgstr "Messaggio"
 
-#: core/kaichatcommandlineparser.cpp:36
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Ask a predefined question (summarize, explain-code). Ignored when a message "
+"is given"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgid "Prompt Name"
+msgstr "Nome chat"
+
+#: core/kaichatcommandlineparser.cpp:44
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of chats"
 msgstr "Restituisci elenchi di chat"
 
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:45
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "Attiva la modalità di debug"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:47
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "Aggiungi un allegato. Questo può essere ripetuto"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Attachment Url"
 msgstr "URL allegato"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "Definisci lo strumento utilizzato. Questo può essere ripetuto"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:51
 #, kde-format
 msgid "Tool Name"
 msgstr "Nome dello strumento"
 
-#: core/kaichatcommandlineparser.cpp:44
+#: core/kaichatcommandlineparser.cpp:52
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "Restituisci informazioni delle estensioni"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
 msgstr "Elenca le opzioni disponibili per le segnalazioni degli utenti"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
 msgstr "Importa chat"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgid "Import"
 msgstr "Importa"
 
-#: core/kaichatcommandlineparser.cpp:50
+#: core/kaichatcommandlineparser.cpp:58
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
 msgstr "Avvia il programma Ollama."
 
-#: core/kaichatcommandlineparser.cpp:54
+#: core/kaichatcommandlineparser.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
 msgstr "File di chat da importare"
+
+#: core/kaichatcommandlineparser.cpp:111
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Summarize this document."
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:113
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Explain what this code does."
+msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-11-21 01:15+0000\n"
+"POT-Creation-Date: 2026-11-26 01:08+0000\n"
 "PO-Revision-Date: 2025-06-20 20:23\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -20,12 +20,14 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "KDE 中国, Eric Zhao, ShiroAzusa"
+msgstr "KDE 中国, Eric Zhao, ShiroAzusa, Tyson Tan"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-china@kde.org, zhaojiale20060708@outlook.com, azusa@shiroazusa.net"
+msgstr ""
+"kde-china@kde.org, zhaojiale20060708@outlook.com, azusa@shiroazusa.net, "
+"tds00@qq.com"
 
 #: apps/main.cpp:77
 #, kde-format
@@ -41,7 +43,7 @@ msgstr "Laurent Montel"
 #: apps/main.cpp:81
 #, kde-format
 msgid "Maintainer"
-msgstr "维护人员"
+msgstr "维护者"
 
 #: apps/main.cpp:108
 #, kde-format
@@ -56,142 +58,168 @@ msgstr "聊天列表："
 #: apps/main.cpp:134
 #, kde-format
 msgid "Plugins:"
-msgstr "插件:"
+msgstr "插件："
 
-#: core/kaichatcommandlineparser.cpp:22
+#: core/kaichatcommandlineparser.cpp:23
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return lists of instances"
 msgstr "返回实例列表"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create new chat"
-msgstr "创建新聊天"
+msgstr "创建新对话"
 
-#: core/kaichatcommandlineparser.cpp:24
+#: core/kaichatcommandlineparser.cpp:25
 #, kde-format
 msgid "New Chat Title"
-msgstr "新聊天标题"
-
-#: core/kaichatcommandlineparser.cpp:26
-#, kde-format
-msgctxt "@info:shell"
-msgid "Create new ephemeral chat"
-msgstr ""
+msgstr "新对话标题"
 
 #: core/kaichatcommandlineparser.cpp:27
 #, kde-format
-msgid "New Ephemeral Chat"
-msgstr ""
+msgctxt "@info:shell"
+msgid "Create new ephemeral chat"
+msgstr "创建新的临时对话"
 
 #: core/kaichatcommandlineparser.cpp:28
 #, kde-format
+msgid "New Ephemeral Chat"
+msgstr "新建临时对话"
+
+#: core/kaichatcommandlineparser.cpp:29
+#, kde-format
 msgctxt "@info:shell"
 msgid "Open Quick Ask"
-msgstr "打开 Quick Ask"
+msgstr "打开快速提问"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgctxt "@info:shell"
 msgid "Switch to Chat"
-msgstr "切换到聊天模式"
+msgstr "切换对话"
 
-#: core/kaichatcommandlineparser.cpp:30
+#: core/kaichatcommandlineparser.cpp:31
 #, kde-format
 msgid "Chat Name"
-msgstr "聊天名称"
-
-#: core/kaichatcommandlineparser.cpp:32
-#, kde-format
-msgctxt "@info:shell"
-msgid "Switch to Chat from identifier"
-msgstr "从标识符切换到聊天"
+msgstr "对话名称"
 
 #: core/kaichatcommandlineparser.cpp:33
 #, kde-format
-msgid "Chat Identifier"
-msgstr "聊天标识符"
-
-#: core/kaichatcommandlineparser.cpp:35
-#, kde-format
 msgctxt "@info:shell"
-msgid "Ask Message"
-msgstr "发送消息"
+msgid "Switch to Chat from identifier"
+msgstr "通过标识符切换对话"
 
-#: core/kaichatcommandlineparser.cpp:35
+#: core/kaichatcommandlineparser.cpp:34
 #, kde-format
-msgid "Message"
-msgstr "消息"
+msgid "Chat Identifier"
+msgstr "对话标识符"
 
 #: core/kaichatcommandlineparser.cpp:36
 #, kde-format
 msgctxt "@info:shell"
-msgid "Return lists of chats"
-msgstr "返回聊天列表"
+msgid "Ask Message"
+msgstr "提问消息"
 
-#: core/kaichatcommandlineparser.cpp:37
+#: core/kaichatcommandlineparser.cpp:36
+#, kde-format
+msgid "Message"
+msgstr "消息"
+
+#: core/kaichatcommandlineparser.cpp:39
+#, kde-format
+msgctxt "@info:shell"
+msgid ""
+"Ask a predefined question (summarize, explain-code). Ignored when a message "
+"is given"
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:40
+#, fuzzy, kde-format
+#| msgid "Chat Name"
+msgid "Prompt Name"
+msgstr "对话名称"
+
+#: core/kaichatcommandlineparser.cpp:44
+#, kde-format
+msgctxt "@info:shell"
+msgid "Return lists of chats"
+msgstr "返回对话列表"
+
+#: core/kaichatcommandlineparser.cpp:45
 #, kde-format
 msgctxt "@info:shell"
 msgid "Activate Debug Mode"
 msgstr "激活调试模式"
 
-#: core/kaichatcommandlineparser.cpp:39
+#: core/kaichatcommandlineparser.cpp:47
 #, kde-format
 msgctxt "@info:shell"
 msgid "Add an attachment. This can be repeated"
 msgstr "添加附件，可重复多次"
 
-#: core/kaichatcommandlineparser.cpp:40
+#: core/kaichatcommandlineparser.cpp:48
 #, kde-format
 msgid "Attachment Url"
-msgstr "附件"
+msgstr "附件 URL"
 
-#: core/kaichatcommandlineparser.cpp:42
+#: core/kaichatcommandlineparser.cpp:50
 #, kde-format
 msgctxt "@info:shell"
 msgid "Define tool used. This can be repeated"
 msgstr "定义使用的工具，可重复多次"
 
-#: core/kaichatcommandlineparser.cpp:43
+#: core/kaichatcommandlineparser.cpp:51
 #, kde-format
 msgid "Tool Name"
 msgstr "工具名称"
 
-#: core/kaichatcommandlineparser.cpp:44
+#: core/kaichatcommandlineparser.cpp:52
 #, kde-format
 msgctxt "@info:shell"
 msgid "Return plugins info"
 msgstr "返回插件信息"
 
-#: core/kaichatcommandlineparser.cpp:46
+#: core/kaichatcommandlineparser.cpp:54
 #, kde-format
 msgctxt "@info:shell"
 msgid "Lists the available options for user feedback"
-msgstr "列出用户反馈中的可用选项"
+msgstr "列出用户反馈的可用选项"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgctxt "@info:shell"
 msgid "Import Chat"
-msgstr "导入聊天"
+msgstr "导入对话"
 
-#: core/kaichatcommandlineparser.cpp:48
+#: core/kaichatcommandlineparser.cpp:56
 #, kde-format
 msgid "Import"
 msgstr "导入"
 
-#: core/kaichatcommandlineparser.cpp:50
+#: core/kaichatcommandlineparser.cpp:58
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Ollama program"
-msgstr "启动 Ollama"
+msgstr "启动 Ollama 程序"
 
-#: core/kaichatcommandlineparser.cpp:54
+#: core/kaichatcommandlineparser.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Chat file to import"
+msgstr "要导入的对话文件"
+
+#: core/kaichatcommandlineparser.cpp:111
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Summarize this document."
+msgstr ""
+
+#: core/kaichatcommandlineparser.cpp:113
+#, kde-format
+msgctxt "@info Question sent to the AI model"
+msgid "Explain what this code does."
 msgstr ""
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
@@ -209,7 +237,7 @@ msgstr "用户"
 #: core/kaichatexportchataspdfjob.cpp:63 core/kaichatexportchatastextjob.cpp:41
 #, kde-format
 msgid "Assistant"
-msgstr "助理"
+msgstr "助手"
 
 #: core/kaichatexportchatasmarkdownjob.cpp:43
 #: core/kaichatexportchataspdfjob.cpp:66 core/kaichatexportchatastextjob.cpp:44
@@ -227,12 +255,12 @@ msgstr "工具"
 #: core/kaichatexportchataspdfjob.cpp:81 core/kaichatexportchatastextjob.cpp:62
 #, kde-format
 msgid "Failed to open file for writing: %1"
-msgstr ""
+msgstr "打开文件进行写入失败：%1"
 
 #: core/kaichatexportchataspdfjob.cpp:27
 #, kde-format
 msgid "Pdf"
-msgstr ""
+msgstr "PDF"
 
 #: core/kaichatexportchatastextjob.cpp:24
 #, kde-format
@@ -252,7 +280,7 @@ msgstr "MCP 服务器"
 #: plugins/text/sharetext/purposemenuwidget.cpp:20
 #, kde-format
 msgid "Share Text…"
-msgstr "分享文本..."
+msgstr "分享文本…"
 
 #: plugins/text/sharetext/purposemenuwidget.cpp:70
 #, kde-format
@@ -267,7 +295,7 @@ msgstr "文件已分享。"
 #: plugins/text/sharetext/purposemenuwidget.cpp:76
 #, kde-format
 msgid "<qt>You can find the new request at:<br /><a href='%1'>%1</a> </qt>"
-msgstr "<qt>您的新请求位于：<br /><a href='%1'>%1</a> </qt>"
+msgstr "<qt>你可以在以下位置找到新的请求：<br /><a href='%1'>%1</a> </qt>"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:22
 msgid "The Current Date Time"
@@ -276,7 +304,7 @@ msgstr "当前日期和时间"
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:36
 #, kde-format
 msgid "Get Current Date Time"
-msgstr "获取当前的日期和时间"
+msgstr "获取当前日期和时间"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolplugin.cpp:41
 #, kde-format
@@ -291,7 +319,7 @@ msgstr "配置日期时间工具"
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:28
 #, kde-format
 msgid "Get Current Date Time."
-msgstr "获取当前的日期和时间。"
+msgstr "获取当前日期和时间。"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:37
 #, kde-format
@@ -301,7 +329,7 @@ msgstr "当前时间是 %1"
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:40
 #, kde-format
 msgid "Current date is %1"
-msgstr "当前时间是 %1"
+msgstr "当前日期是 %1"
 
 #: plugins/tools/currentdatetime/currentdatetimetoolpluginjob.cpp:43
 #, kde-format
@@ -311,12 +339,12 @@ msgstr "当前日期时间是 %1"
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
 #, kde-format
 msgid "Text to Speech"
-msgstr ""
+msgstr "文本转语音"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "语音转文本"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -339,35 +367,35 @@ msgstr "启用系统托盘图标"
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:28
 #, kde-format
 msgid "Database Repository:"
-msgstr ""
+msgstr "数据库存储库："
 
 #: widgets/configure/kaichatconfigureprivacywidget.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy Path"
-msgstr ""
+msgstr "复制路径"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:24
 #, kde-format
 msgid "Never"
-msgstr ""
+msgstr "永不"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:25
 #, kde-format
 msgctxt "Expire messages after %1"
 msgid "%v day"
 msgid_plural "%v days"
-msgstr[0] ""
+msgstr[0] "%v 天"
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:26
 #, kde-format
 msgid "Exclude Favorite Chats:"
-msgstr ""
+msgstr "排除收藏的对话："
 
 #: widgets/configure/kaichatconfigureretentionwidget.cpp:27
 #, kde-format
 msgid "Retention Days:"
-msgstr ""
+msgstr "保留天数："
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:54
 #, kde-format
@@ -385,7 +413,7 @@ msgstr "常规"
 #, kde-format
 msgctxt "@title Font page name"
 msgid "Font"
-msgstr ""
+msgstr "字体"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:67
 #, kde-format
@@ -397,13 +425,13 @@ msgstr "实例"
 #, kde-format
 msgctxt "@title MCP page name"
 msgid "MCP Servers"
-msgstr ""
+msgstr "MCP 服务器"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:78
 #, kde-format
 msgctxt "@title Prompts and agents page name"
 msgid "Prompts & Agents"
-msgstr ""
+msgstr "提示词和智能体"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:84
 #, kde-format
@@ -415,86 +443,86 @@ msgstr "拼写检查"
 #, kde-format
 msgctxt "@title Text To Speech page name"
 msgid "Accessibility"
-msgstr ""
+msgstr "无障碍辅助"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:93
 #, kde-format
 msgctxt "@title Plugins page name"
 msgid "Plugins"
-msgstr ""
+msgstr "插件"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:99
 #, kde-format
 msgctxt "@title Preferences other page name"
 msgid "User Feedback"
-msgstr ""
+msgstr "用户反馈"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:105
 #, kde-format
 msgctxt "@title Retention page name"
 msgid "Retention"
-msgstr ""
+msgstr "数据保留"
 
 #: widgets/configure/kaichatconfiguresettingsdialog.cpp:110
 #, kde-format
 msgctxt "@title Privacy page name"
 msgid "Privacy"
-msgstr ""
+msgstr "隐私"
 
 #: widgets/configure/kaichatconfigurespeechtotextwidget.cpp:21
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr ""
+msgstr "启用语音转文本"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search…"
-msgstr ""
+msgstr "搜索…"
 
 #: widgets/databasedialog/kaichatdatabasechatwidget.cpp:47
 #, kde-format
 msgctxt "@action"
 msgid "Select Chat"
-msgstr ""
+msgstr "选择对话"
 
 #: widgets/databasedialog/kaichatdatabasedialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Debug Database"
-msgstr ""
+msgstr "调试数据库"
 
 #: widgets/databasedialog/kaichatdatabaseselectchatlineedit.cpp:19
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Select Chat Name"
-msgstr ""
+msgstr "选择对话名称"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:36
 #, kde-format
 msgid "Chat"
-msgstr ""
+msgstr "对话"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:39
 #, kde-format
 msgid "Messages"
-msgstr ""
+msgstr "消息"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:42
 #, kde-format
 msgid "Messages in Database"
-msgstr ""
+msgstr "数据库中的消息"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:45
 #, kde-format
 msgid "Messages JSON"
-msgstr ""
+msgstr "消息 JSON"
 
 #: widgets/databasedialog/kaichatdatabasewidget.cpp:48
 #, kde-format
 msgid "Pending Typed Info"
-msgstr ""
+msgstr "待输入信息"
 
 #: widgets/kaichatchangefontsizemenu.cpp:19
 #, kde-format
@@ -517,13 +545,13 @@ msgstr "缩小字体"
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Export…"
-msgstr "导出..."
+msgstr "导出…"
 
 #: widgets/kaichatexportmenu.cpp:19
 #, kde-format
 msgctxt "@action"
 msgid "Export as JSON…"
-msgstr "以 JSON 形式导出..."
+msgstr "导出为 JSON…"
 
 #: widgets/kaichatexportmenu.cpp:22 widgets/kaichatimportmenu.cpp:19
 #, kde-format
@@ -534,37 +562,37 @@ msgstr "kaichat"
 #, kde-format
 msgctxt "@action"
 msgid "Export as Markdown…"
-msgstr "导出为 Markdown..."
+msgstr "导出为 Markdown…"
 
 #: widgets/kaichatexportmenu.cpp:35
 #, kde-format
 msgctxt "@action"
 msgid "Export as Text…"
-msgstr "导出为文本..."
+msgstr "导出为文本…"
 
 #: widgets/kaichatexportmenu.cpp:43
 #, kde-format
 msgctxt "@action"
 msgid "Export as Pdf…"
-msgstr ""
+msgstr "导出为 PDF…"
 
 #: widgets/kaichatimportmenu.cpp:15
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Import…"
-msgstr "导入"
+msgstr "导入…"
 
 #: widgets/kaichatimportmenu.cpp:16
 #, kde-format
 msgctxt "@action"
 msgid "Import as JSON…"
-msgstr "以JSON形式导入..."
+msgstr "导入为 JSON…"
 
 #: widgets/kaichatmainwindow.cpp:92
 #, kde-format
 msgid "%1 string found."
 msgid_plural "%1 strings found."
-msgstr[0] "找到 %1 条字符串."
+msgstr[0] "找到 %1 条字符串。"
 
 #: widgets/kaichatmainwindow.cpp:147
 #, kde-format
@@ -581,31 +609,31 @@ msgstr "显示归档"
 #, kde-format
 msgctxt "@action"
 msgid "New Chat"
-msgstr ""
+msgstr "新建对话"
 
 #: widgets/kaichatmainwindow.cpp:163
 #, kde-format
 msgctxt "@action"
 msgid "New Ephemeral Chat"
-msgstr ""
+msgstr "新建临时对话"
 
 #: widgets/kaichatmainwindow.cpp:182
 #, kde-format
 msgctxt "@action"
 msgid "Search in Database…"
-msgstr "在数据库中搜索..."
+msgstr "搜索数据库…"
 
 #: widgets/kaichatmainwindow.cpp:220
 #, kde-format
 msgctxt "@action"
 msgid "Open Quick Ask…"
-msgstr "打开 Quick Ask..."
+msgstr "打开快速提问…"
 
 #: widgets/kaichatmainwindow.cpp:258
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Failed"
-msgstr ""
+msgstr "导出失败"
 
 #: widgets/kaichatmainwindow.cpp:339
 #, kde-format
@@ -624,13 +652,13 @@ msgstr "隐藏菜单栏"
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Chats"
-msgstr "导入聊天"
+msgstr "导入对话"
 
 #: widgets/kaichatmainwindow.cpp:389
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Chats"
-msgstr "导出聊天"
+msgstr "导出对话"
 
 #: widgets/kaichatmainwindow.cpp:492
 #, kde-format
@@ -646,7 +674,7 @@ msgstr "模型 %1 已下载。"
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Failed"
-msgstr ""
+msgstr "导入失败"
 
 #: widgets/kaichatnotificatifieritem.cpp:21
 #, kde-format
@@ -669,7 +697,7 @@ msgstr "编辑(&E)"
 #: widgets/kaichatui.rc:26
 #, kde-format
 msgid "View"
-msgstr "查看"
+msgstr "视图"
 
 #. i18n: ectx: Menu (Tools)
 #: widgets/kaichatui.rc:32
@@ -697,4 +725,4 @@ msgstr "账户信息"
 #: widgets/userfeedback/accountinfosource.cpp:30
 #, kde-format
 msgid "Returns the number of AI instances."
-msgstr ""
+msgstr "返回 AI 实例的数量。"
