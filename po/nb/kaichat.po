@@ -308,12 +308,12 @@ msgstr ""
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:24
 #, kde-format
 msgid "Text to Speech"
-msgstr ""
+msgstr "Tekst-til-tale"
 
 #: widgets/configure/kaichatconfigureaccessibilitytabwidget.cpp:27
 #, kde-format
 msgid "Speech to Text"
-msgstr ""
+msgstr "Tale-til-tekst"
 
 #: widgets/configure/kaichatconfigureaccessibilitywidget.cpp:23
 #, kde-format
@@ -439,7 +439,7 @@ msgstr "Personvern"
 #, kde-format
 msgctxt "@option:check"
 msgid "Enable Speech To Text"
-msgstr ""
+msgstr "Slå på tale-til-tekst"
 
 #: widgets/databasedialog/exploredatabasebasestoragewidget.cpp:53
 #, kde-format
@@ -681,6 +681,3 @@ msgstr ""
 #, kde-format
 msgid "Return the number of account."
 msgstr ""
-
-#~ msgid "Days"
-#~ msgstr "Dager"
