@@ -36,7 +36,7 @@
   <name xml:lang="sv">KAIChat</name>
   <name xml:lang="tr">KAIChat</name>
   <name xml:lang="uk">KAIChat</name>
-  <name xml:lang="zh-CN">KAIChat</name>
+  <name xml:lang="zh-CN">KAIChat AI 对话工具</name>
   <name xml:lang="zh-TW">KAIChat</name>
   <summary>AI Chat</summary>
   <summary xml:lang="ar">دردشة للذكاء الاصطناعي</summary>
@@ -65,7 +65,7 @@
   <summary xml:lang="tr">Yapay Zekâ Sohbeti</summary>
   <summary xml:lang="ug">سۈنئىي ئەقىل سۆھبەت</summary>
   <summary xml:lang="uk">Спілкування з ШІ</summary>
-  <summary xml:lang="zh-CN">AI 对话</summary>
+  <summary xml:lang="zh-CN">AI 对话工具</summary>
   <summary xml:lang="zh-TW">AI 聊天</summary>
   <description>
     <p>
@@ -96,7 +96,7 @@
     <p xml:lang="sv">KAIChat är en AI-chatt.</p>
     <p xml:lang="tr">KAIChat, bir yapay zekâ ile sohbet istemcisidir.</p>
     <p xml:lang="uk">KAIChat — програма для спілкування зі штучним інтелектом.</p>
-    <p xml:lang="zh-CN">KAIChat 是一个 AI 对话工具。</p>
+    <p xml:lang="zh-CN">KAIChat 是一款 AI 对话工具。</p>
     <p xml:lang="zh-TW">KAIChat 是一個 AI 聊天應用程式。</p>
   </description>
   <url type="homepage">https://apps.kde.org/kaichat</url>
@@ -147,6 +147,7 @@
       <caption xml:lang="sv">Huvudfönstret i KAIChat.</caption>
       <caption xml:lang="tr">KAIChat ana penceresi</caption>
       <caption xml:lang="uk">Головне вікно KAIChat.</caption>
+      <caption xml:lang="zh-CN">KAIChat 主窗口。</caption>
       <caption xml:lang="zh-TW">KAIChat 主視窗。</caption>
     </screenshot>
   </screenshots>
@@ -157,32 +158,40 @@
         <ul>
           <li>Allow to define MCP server from registry.modelcontextprotocol.io</li>
           <li xml:lang="ca">Permet definir un servidor MCP des de «registry.modelcontextprotocol.io»</li>
+          <li xml:lang="ca-valencia">Permet definir un servidor MCP des de «registry.modelcontextprotocol.io»</li>
           <li xml:lang="es">Permitir definición de servidor MCP desde registry.modelcontextprotocol.io</li>
           <li xml:lang="nl">Maakt het mogelijk om een ​​MCP-server te definiëren vanuit registry.modelcontextprotocol.io</li>
           <li xml:lang="pt-BR">Permite definir um servidor MCP a partir de registry.modelcontextprotocol.io</li>
           <li xml:lang="ru">Добавлена возможность задать сервер MCP из реестра registry.modelcontextprotocol.io</li>
           <li xml:lang="uk">Уможливлено визначення сервера MCP з registry.modelcontextprotocol.io</li>
+          <li xml:lang="zh-CN">允许从 registry.modelcontextprotocol.io 定义 MCP 服务器</li>
           <li>Allow to define list of model when instance doesn't provide them.</li>
           <li xml:lang="ca">Permet definir una llista de models si la instància no els proporciona.</li>
+          <li xml:lang="ca-valencia">Permet definir una llista de models si la instància no els proporciona.</li>
           <li xml:lang="es">Permitir definición de lista de modelos cuando la instancia no los proporciona.</li>
           <li xml:lang="nl">Maakt het mogelijk om een ​​lijst met modellen te definiëren wanneer een instantie deze niet zelf aanlevert.</li>
           <li xml:lang="pt-BR">Permite definir uma lista de modelos quando a instância não os fornece.</li>
           <li xml:lang="ru">Добавлена возможность задать список моделей, если сервер их не предоставляет.</li>
           <li xml:lang="uk">Дозволити визначати список моделей, якщо екземпляр не надає його.</li>
+          <li xml:lang="zh-CN">允许在实例未提供模型时定义模型列表。</li>
           <li>Add MCP server support</li>
           <li xml:lang="ca">Afegeix la implementació de servidors MCP</li>
+          <li xml:lang="ca-valencia">Afig la implementació de servidors MCP</li>
           <li xml:lang="es">Añadir compatibilidad con servidor MCP</li>
           <li xml:lang="nl">Ondersteuning voor MCP-server toevoegen</li>
           <li xml:lang="pt-BR">Adiciona suporte ao servidor MCP</li>
           <li xml:lang="ru">Добавлена поддержка серверов MCP</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
+          <li xml:lang="zh-CN">添加 MCP 服务器支持</li>
           <li>Add Speech to Text support</li>
           <li xml:lang="ca">Afegeix la implementació de veu a text</li>
+          <li xml:lang="ca-valencia">Afig la implementació de veu a text</li>
           <li xml:lang="es">Se ha implementado el uso de voz a texto.</li>
           <li xml:lang="nl">Ondersteuning voor spraak naar tekst toevoegen</li>
           <li xml:lang="pt-BR">Adicionado suporte a fala para texto</li>
           <li xml:lang="ru">Добавлена поддержка распознавания речи</li>
           <li xml:lang="uk">Додано підтримку перетворення звуку на текст</li>
+          <li xml:lang="zh-CN">添加语音转文本支持</li>
         </ul>
       </description>
     </release>
@@ -208,6 +217,7 @@
           <li xml:lang="sv">Tillägg av tillfällig diskussion</li>
           <li xml:lang="tr">Geçici tartışma desteği</li>
           <li xml:lang="uk">Додано ефемерні обговорення</li>
+          <li xml:lang="zh-CN">添加临时讨论</li>
           <li xml:lang="zh-TW">新增暫時性討論</li>
           <li>Add project support</li>
           <li xml:lang="ar">إتاحة إضافة مشروع</li>
@@ -228,6 +238,7 @@
           <li xml:lang="sv">Tillägg av projektstöd</li>
           <li xml:lang="tr">Proje desteği ekle</li>
           <li xml:lang="uk">Додано підтримку проєктів</li>
+          <li xml:lang="zh-CN">添加项目支持</li>
           <li xml:lang="zh-TW">新增專案功能</li>
           <li>Add tags support</li>
           <li xml:lang="ar">إتاحة إضافة وسوم</li>
@@ -248,6 +259,7 @@
           <li xml:lang="sv">Tillägg av etikettstöd</li>
           <li xml:lang="tr">Künyeler desteği ekle</li>
           <li xml:lang="uk">Додано підтримку міток</li>
+          <li xml:lang="zh-CN">添加标签支持</li>
           <li xml:lang="zh-TW">新增標籤功能</li>
           <li>Add KAIChat mimetype</li>
           <li xml:lang="ar">إضافة نوع Mime لمستندات كتشات</li>
@@ -268,6 +280,7 @@
           <li xml:lang="sv">Lägg till Mime-typ för KAIChat</li>
           <li xml:lang="tr">KAIChat MIME türünü ekle</li>
           <li xml:lang="uk">Додано тип MIME KAIChat</li>
+          <li xml:lang="zh-CN">添加 KAIChat MIMETYPE</li>
           <li xml:lang="zh-TW">新增 KAIChat 的 MIME 類型</li>
           <li>Allow to start quick chat with a global shortcut</li>
           <li xml:lang="ar">السماح ببدء محادثة سريعة باستخدام اختصار عام</li>
@@ -288,6 +301,7 @@
           <li xml:lang="sv">Tillåt start av snabbchatt med en global genväg</li>
           <li xml:lang="tr">Global bir kısayol ile tez sohbete başla</li>
           <li xml:lang="uk">Уможливлено започаткування спрощеного спілкування за допомогою загального клавіатурного скорочення</li>
+          <li xml:lang="zh-CN">允许通过全局快捷键快速开始对话</li>
           <li xml:lang="zh-TW">允許用全域快捷鍵開始快速聊天</li>
           <li>Add OrcaRouter</li>
           <li xml:lang="ar">إضافة OrcaRouter</li>
@@ -309,6 +323,7 @@
           <li xml:lang="sv">Lägg till OrcaRouter</li>
           <li xml:lang="tr">OrcaRouter’ı Ekle</li>
           <li xml:lang="uk">Додано OrcaRouter</li>
+          <li xml:lang="zh-CN">添加 OrcaRouter</li>
           <li xml:lang="zh-TW">新增 OrcaRouter</li>
         </ul>
       </description>
@@ -336,6 +351,7 @@
           <li xml:lang="sv">Tillägg av stöd för delning av diskussioner</li>
           <li xml:lang="tr">Tartışma çatallama desteği</li>
           <li xml:lang="uk">Додано підтримку відгалужень обговорення</li>
+          <li xml:lang="zh-CN">添加对分叉讨论的支持</li>
           <li xml:lang="zh-TW">新增討論分支功能</li>
           <li>Add llamacpp instance</li>
           <li xml:lang="ar">إضافة نسخ llamacpp.</li>
@@ -357,6 +373,7 @@
           <li xml:lang="sv">Tillägg av llamacpp-instans</li>
           <li xml:lang="tr">llamacpp örneği desteği</li>
           <li xml:lang="uk">Додано екземпляр llamacpp</li>
+          <li xml:lang="zh-CN">添加 llamacpp 实例</li>
           <li xml:lang="zh-TW">新增 llamacpp 實體</li>
           <li>Add ChatGPT, Novita AI, DeepInfra, Qwen support.</li>
           <li xml:lang="ar">إضافة دعم ChatGPT و Novita AI و DeepInfra و Qwen.</li>
@@ -378,6 +395,7 @@
           <li xml:lang="sv">Tillägg av stöd för ChatGPT, Novita AI, DeepInfra, Qwen.</li>
           <li xml:lang="tr">ChatGPT, Novita AI, DeepInfra, Qwen desteği</li>
           <li xml:lang="uk">Додано підтримку ChatGPT, Novita AI, DeepInfra, Qwen.</li>
+          <li xml:lang="zh-CN">新增 ChatGPT、Novita AI、DeepInfra、Qwen 支持。</li>
           <li xml:lang="zh-TW">新增 ChatGPT、Novita AI、DeepInfra、Qwen 支援。</li>
           <li>Add CLI option for starting local Ollama.</li>
           <li xml:lang="ar">إضافة خيار CLI لبدء تشغيل Ollama المحلي.</li>
@@ -399,6 +417,7 @@
           <li xml:lang="sv">Tillägg av kommandoradsväljare för att starta lokal Ollama.</li>
           <li xml:lang="tr">Yerel Ollama başlatma için komut satırı seçeneği</li>
           <li xml:lang="uk">Додано параметр командного інтерфейсу для запуску локальної Ollama.</li>
+          <li xml:lang="zh-CN">添加用于启动本地 Ollama 的 CLI 选项。</li>
           <li xml:lang="zh-TW">新增啟動本地 Ollama 用的命令列選項。</li>
           <li>Add DBus support.</li>
           <li xml:lang="ar">إتاحة DBus.</li>
@@ -420,6 +439,7 @@
           <li xml:lang="sv">Tillägg av stöd för DBus.</li>
           <li xml:lang="tr">D-Bus desteği</li>
           <li xml:lang="uk">Додано підтримку DBus.</li>
+          <li xml:lang="zh-CN">添加 DBus 支持。</li>
           <li xml:lang="zh-TW">新增 DBus 支援。</li>
           <li>Add Internal Plugin support.</li>
           <li xml:lang="ar">إضافة دعم المُلحقات الداخلية.</li>
@@ -441,6 +461,7 @@
           <li xml:lang="sv">Tillägg av stöd för interna insticksprogram.</li>
           <li xml:lang="tr">İçsel eklenti desteği</li>
           <li xml:lang="uk">Додано підтримку вбудованих додатків.</li>
+          <li xml:lang="zh-CN">添加内建插件支持。</li>
           <li xml:lang="zh-TW">新增內部外掛程式支援。</li>
           <li>Add MCP Server support.</li>
           <li xml:lang="ar">إضافة دعم خادم MCP.</li>
@@ -462,6 +483,7 @@
           <li xml:lang="sv">Tillägg av stöd för MCP-server</li>
           <li xml:lang="tr">MCP sunucusu desteği</li>
           <li xml:lang="uk">Додано підтримку сервера MCP</li>
+          <li xml:lang="zh-CN">添加 MCP 服务器支持。</li>
           <li xml:lang="zh-TW">新增 MCP 伺服器支援。</li>
           <li>Show internal tools metadata.</li>
           <li xml:lang="ar">أظهر بيانات تعريف الأدوات الداخلية.</li>
@@ -483,6 +505,7 @@
           <li xml:lang="sv">Visa metadata för interna verktyg.</li>
           <li xml:lang="tr">İçsel araçlar üst verisini göster</li>
           <li xml:lang="uk">Показ метаданих зовнішніх інструментів.</li>
+          <li xml:lang="zh-CN">显示内建工具元数据。</li>
           <li xml:lang="zh-TW">顯示內部工具中繼資料。</li>
           <li>Add KCM support.</li>
           <li xml:lang="ar">إتاحة KCM.</li>
@@ -504,6 +527,7 @@
           <li xml:lang="sv">Tillägg av stöd för KCM.</li>
           <li xml:lang="tr">KCM desteği</li>
           <li xml:lang="uk">Додано підтримку KCM.</li>
+          <li xml:lang="zh-CN">添加 KCM 支持。</li>
           <li xml:lang="zh-TW">新增 KCM 支援。</li>
           <li>Add Sarvam instance support.</li>
           <li xml:lang="ar">أضف دعم نسخ Sarvam.</li>
@@ -525,6 +549,7 @@
           <li xml:lang="sv">Tillägg av stöd för Sarvam-instans</li>
           <li xml:lang="tr">Sarvam örneği desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів Sarvam.</li>
+          <li xml:lang="zh-CN">添加 Sarvam 实例支持。</li>
           <li xml:lang="zh-TW">新增 Sarvam 實體支援。</li>
           <li>Add Database Debug Dialogbox.</li>
           <li xml:lang="ar">إضافة قاعدة بيانات التنقيح.</li>
@@ -546,6 +571,7 @@
           <li xml:lang="sv">Tillägg av dialogruta för databasfelsökning</li>
           <li xml:lang="tr">Veri tabanı hata ayıklama iletişim kutusu</li>
           <li xml:lang="uk">Додано діалогове вікно діагностики бази даних.</li>
+          <li xml:lang="zh-CN">添加数据库调试对话框。</li>
           <li xml:lang="zh-TW">新增資料庫除錯對話框。</li>
           <li>Display reply info about duration, number of tokens etc.</li>
           <li xml:lang="ar">عرض معلومات الرد حول المدة، عدد الرموز، إلخ.</li>
@@ -567,6 +593,7 @@
           <li xml:lang="sv">Visa svarsinformation om längd, antal token, etc.</li>
           <li xml:lang="tr">Süre, jeton sayısı vb. hakkında bilgi görüntüleme</li>
           <li xml:lang="uk">Реалізовано показ даних щодо тривалості, кількості жетонів та інших параметрів відповіді</li>
+          <li xml:lang="zh-CN">显示关于时长、词元数量等的回复信息。</li>
           <li xml:lang="zh-TW">顯示時長、token 數等回覆資訊。</li>
           <li>Allow to export as PDF.</li>
           <li xml:lang="ar">السماح بالتصدير بصيغة PDF.</li>
@@ -588,6 +615,7 @@
           <li xml:lang="sv">Tillåt att exportera som PDF</li>
           <li xml:lang="tr">PDF olarak dışa aktarma desteği</li>
           <li xml:lang="uk">Уможливлено експортування даних до PDF.</li>
+          <li xml:lang="zh-CN">允许导出为 PDF。</li>
           <li xml:lang="zh-TW">允許匯出為 PDF。</li>
           <li>Add LMStudio support.</li>
           <li xml:lang="ar">إتاحة LMStudio.</li>
@@ -609,6 +637,7 @@
           <li xml:lang="sv">Tillägg av stöd för LMStudio</li>
           <li xml:lang="tr">LMStudio desteği</li>
           <li xml:lang="uk">Додано підтримку LMStudio.</li>
+          <li xml:lang="zh-CN">添加 LMStudio 支持。</li>
           <li xml:lang="zh-TW">新增 LMStudio 支援。</li>
         </ul>
       </description>
@@ -636,6 +665,7 @@
           <li xml:lang="sv">Tillägg av stöd för Grok-instans</li>
           <li xml:lang="tr">Grok örneği desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів Grok.</li>
+          <li xml:lang="zh-CN">添加 Grok 实例支持。</li>
           <li xml:lang="zh-TW">新增 Grok 實體支援。</li>
           <li>Add User Feedback support.</li>
           <li xml:lang="ar">إضافة تعليقات المستخدمين.</li>
@@ -657,6 +687,7 @@
           <li xml:lang="sv">Tillägg av stöd för användaråterkoppling.</li>
           <li xml:lang="tr">Kullanıcı Geri Bildirimi desteği</li>
           <li xml:lang="uk">Додано підтримку відгуків користувачів.</li>
+          <li xml:lang="zh-CN">添加用户反馈支持。</li>
           <li xml:lang="zh-TW">新增使用者回饋支援。</li>
           <li>Allow to show model info.</li>
           <li xml:lang="ar">اسمح بعرض معلومات النموذج.</li>
@@ -678,6 +709,7 @@
           <li xml:lang="sv">Tillåt visning av modellinformation</li>
           <li xml:lang="tr">Model bilgilerinin gösterilmesi desteği</li>
           <li xml:lang="uk">Дозволити показувати відомості щодо моделі.</li>
+          <li xml:lang="zh-CN">允许显示模型信息。</li>
           <li xml:lang="zh-TW">允許顯示模型資訊。</li>
           <li>Add import chat support.</li>
           <li xml:lang="ar">إتاحة استيراد الدردشة.</li>
@@ -699,6 +731,7 @@
           <li xml:lang="sv">Tillägg av stöd för chattimport</li>
           <li xml:lang="tr">Sohbet içe aktarma desteği</li>
           <li xml:lang="uk">Додано підтримку імпортування даних спілкування.</li>
+          <li xml:lang="zh-CN">添加导入对话支持。</li>
           <li xml:lang="zh-TW">新增聊天匯入的功能。</li>
           <li>Add Ollama Online support.</li>
           <li xml:lang="ar">إضافة دعم أولاما عبر الإنترنت.</li>
@@ -720,6 +753,7 @@
           <li xml:lang="sv">Tillägg av stöd för Ollama på nätet.</li>
           <li xml:lang="tr">Ollama Online desteği</li>
           <li xml:lang="uk">Додано підтримку Ollama Online.</li>
+          <li xml:lang="zh-CN">添加 Ollama Online 支持。</li>
           <li xml:lang="zh-TW">新增 Ollama Online 支援。</li>
           <li>Add Ollama Cloud support.</li>
           <li xml:lang="ar">إضافة دعم سحابة أولاما.</li>
@@ -741,6 +775,7 @@
           <li xml:lang="sv">Tillägg av stöd för Ollama moln.</li>
           <li xml:lang="tr">Ollama Cloud desteği</li>
           <li xml:lang="uk">Додано підтримку Ollama Cloud.</li>
+          <li xml:lang="zh-CN">添加 Olama Cloud 支持。</li>
           <li xml:lang="zh-TW">新增 Ollama Cloud 支援。</li>
           <li>Allow to duplicate chat.</li>
           <li xml:lang="ar">اسمح بتكرار الدردشة.</li>
@@ -762,6 +797,7 @@
           <li xml:lang="sv">Tillåt att duplicera chatt.</li>
           <li xml:lang="tr">Sohbetleri çoğaltma desteği</li>
           <li xml:lang="uk">Уможливлено дублювання спілкування.</li>
+          <li xml:lang="zh-CN">允许创建对话副本。</li>
           <li xml:lang="zh-TW">允許重製聊天。</li>
           <li>Add Ollama Keep Alive setting support.</li>
           <li xml:lang="ar">إضافة إعداد استبقاء أولاما.</li>
@@ -783,6 +819,7 @@
           <li xml:lang="sv">Tillägg av stöd för Ollama håll igång inställning.</li>
           <li xml:lang="tr">Ollama Canlı Tut ayarı desteği</li>
           <li xml:lang="uk">Додано підтримку параметри підтримки зв'язку з Ollama.</li>
+          <li xml:lang="zh-CN">添加对 Ollama 保活设置的支持。</li>
           <li xml:lang="zh-TW">支援 Ollama 的 Keep Alive 設定。</li>
           <li>Show Ollama log.</li>
           <li xml:lang="ar">أظهر سجل أولاما.</li>
@@ -804,6 +841,7 @@
           <li xml:lang="sv">Visa Ollama-logg.</li>
           <li xml:lang="tr">Ollama günlüğünü gösterme desteği</li>
           <li xml:lang="uk">Показати журнал Ollama.</li>
+          <li xml:lang="zh-CN">显示 Ollama 日志。</li>
           <li xml:lang="zh-TW">顯示 Ollama 紀錄。</li>
           <li>Allow to expose Ollama to local network.</li>
           <li xml:lang="ar">اسمح بتعريض أولاما للشبكة المحلية.</li>
@@ -825,6 +863,7 @@
           <li xml:lang="sv">Tillåt att exponera Ollama på det lokala nätverket.</li>
           <li xml:lang="tr">Ollama’yı yerel ağa gösterme desteği</li>
           <li xml:lang="uk">Дозволити використання Ollama з локальної мережі.</li>
+          <li xml:lang="zh-CN">允许将 Ollama 暴露至本地网络。</li>
           <li xml:lang="zh-TW">允許將 Ollama 暴露於本地網路。</li>
           <li>Add thinking support.</li>
           <li xml:lang="ar">أضف دعم التفكير.</li>
@@ -846,6 +885,7 @@
           <li xml:lang="sv">Lägg till tankestöd.</li>
           <li xml:lang="tr">Düşünme desteği</li>
           <li xml:lang="uk">Додано підтримку обмірковування.</li>
+          <li xml:lang="zh-CN">添加思考支持。</li>
           <li xml:lang="zh-TW">新增思考支援。</li>
         </ul>
       </description>
@@ -873,6 +913,7 @@
           <li xml:lang="sv">Tillåt att kopiera kodblock till klippbordet.</li>
           <li xml:lang="tr">Kod bloklarını panoya kopyalama desteği</li>
           <li xml:lang="uk">Уможливлено копіювання блоків коду до буфера обміну даними.</li>
+          <li xml:lang="zh-CN">允许复制代码块到剪贴板。</li>
           <li xml:lang="zh-TW">允許將程式碼區塊複製到剪貼簿。</li>
           <li>Show number of string found in statusbar.</li>
           <li xml:lang="ar">أظهر عدد السلاسل الموجودة في شريط الحالة.</li>
@@ -894,6 +935,7 @@
           <li xml:lang="sv">Visa antal hittade strängar på statusraden.</li>
           <li xml:lang="tr">Bulunan dizi sayısını durum çubuğunda gösterme desteği</li>
           <li xml:lang="uk">Реалізовано показ кількості знайдених рядків на смужці стану.</li>
+          <li xml:lang="zh-CN">显示找到的字符串数量到状态栏。</li>
           <li xml:lang="zh-TW">在狀態列顯示找到的字串數量。</li>
           <li>Implement quick search.</li>
           <li xml:lang="ar">تنفيذ البحث السريع.</li>
@@ -915,6 +957,7 @@
           <li xml:lang="sv">Implementera snabbsökning.</li>
           <li xml:lang="tr">Tez arama</li>
           <li xml:lang="uk">Реалізовано швидкий пошук.</li>
+          <li xml:lang="zh-CN">实现快速搜索功能。</li>
           <li xml:lang="zh-TW">實作快速搜尋。</li>
           <li>Add quick search bar in quick ask dialog.</li>
           <li xml:lang="ar">أَضِف شريط بحث سريع في حوار السؤال السريع.</li>
@@ -936,6 +979,7 @@
           <li xml:lang="sv">Lägg till snabbsökrad i frågedialogruta.</li>
           <li xml:lang="tr">Tez sor iletişim kutusuna tez arama çubuğu</li>
           <li xml:lang="uk">Додано панель швидкого пошуку у вікні швидкого запиту.</li>
+          <li xml:lang="zh-CN">添加快速搜索栏的快速提问对话框。</li>
           <li xml:lang="zh-TW">在快速詢問對話框新增快速搜尋列。</li>
           <li>Add restore configure settings value.</li>
           <li xml:lang="ar">إضافة قيمة إعادة ضبط الإعدادات.</li>
@@ -957,6 +1001,7 @@
           <li xml:lang="sv">Lägg till återställning av inställningsvärde.</li>
           <li xml:lang="tr">Yapılandırma ayarları değerini geri yükleme desteği</li>
           <li xml:lang="uk">Додано значення для відновлення параметрів налаштувань.</li>
+          <li xml:lang="zh-CN">添加恢复配置设置值。</li>
           <li xml:lang="zh-TW">新增還原設定值。</li>
           <li>Allow to configure text to speech.</li>
           <li xml:lang="ar">اِسمح بضبط نطق النص.</li>
@@ -978,6 +1023,7 @@
           <li xml:lang="sv">Tillåt att anpassa text till tal.</li>
           <li xml:lang="tr">Konuşma ayarlarını yapılandırma desteği</li>
           <li xml:lang="uk">Уможливлено налаштовування озвучення тексту.</li>
+          <li xml:lang="zh-CN">允许配置文本转语音功能。</li>
           <li xml:lang="zh-TW">允許設定文字轉語音。</li>
           <li>Add tool plugin icon name.</li>
           <li xml:lang="ar">أضف اسم أيقونة الملحقة للأداة.</li>
@@ -999,6 +1045,7 @@
           <li xml:lang="sv">Lägg till insticksprogrammets ikonnamn.</li>
           <li xml:lang="tr">Araç eklenti simge adı</li>
           <li xml:lang="uk">Додано назву піктограми додатка інструменту.</li>
+          <li xml:lang="zh-CN">添加工具插件图标名称。</li>
           <li xml:lang="zh-TW">新增工具外掛程式圖示名稱。</li>
           <li>Add attachment support.</li>
           <li xml:lang="ar">إضافة دعم المرفقات.</li>
@@ -1020,6 +1067,7 @@
           <li xml:lang="sv">Lägg till stöd för bilagor.</li>
           <li xml:lang="tr">İlişik desteği</li>
           <li xml:lang="uk">Додано підтримку долучень.</li>
+          <li xml:lang="zh-CN">添加附件支持。</li>
           <li xml:lang="zh-TW">新增附件支援。</li>
           <li>Add new icon.</li>
           <li xml:lang="ar">إضافة أيقونة جديدة.</li>
@@ -1041,6 +1089,7 @@
           <li xml:lang="sv">Lägg till ny ikon.</li>
           <li xml:lang="tr">Yeni simge</li>
           <li xml:lang="uk">Додано нову піктограму.</li>
+          <li xml:lang="zh-CN">添加新图标。</li>
           <li xml:lang="zh-TW">新圖示。</li>
           <li>Add debug command line.</li>
           <li xml:lang="ar">إضافة سطر أوامر تنقيح.</li>
@@ -1062,6 +1111,7 @@
           <li xml:lang="sv">Lägg till kommandorad för felsökning.</li>
           <li xml:lang="tr">Hata ayıklama komut satırı</li>
           <li xml:lang="uk">Додано параметр командного рядка для діагностики.</li>
+          <li xml:lang="zh-CN">添加调试命令行。</li>
           <li xml:lang="zh-TW">新增除錯命令列。</li>
           <li>Add wikipedia, weather tools plugins (provided by kaichat-addons).</li>
           <li xml:lang="ar">إضافة ويكيبيديا ومكونات إضافية لأدوات الطقس (مقدمة من kaichat-addons).</li>
@@ -1083,6 +1133,7 @@
           <li xml:lang="sv">Lägg till Wkipedia, väderinsticksverktyg (tillhandahållna av kaichat-addons).</li>
           <li xml:lang="tr">Vikipedi, hava durumu araçları desteği (kaichat-addons ile)</li>
           <li xml:lang="uk">Додано додатки Вікіпедії та прогнозу погоди (є частиною kaichat-addons).</li>
+          <li xml:lang="zh-CN">添加维基百科、天气工具插件 (通过 kaichat-addons 组件提供)。</li>
           <li xml:lang="zh-TW">新增維基百科、天氣工具外掛程式（由 kaichat-addons 提供）。</li>
           <li>Store Pending Typed Info in Database.</li>
           <li xml:lang="ar">خزّن المعلومات المكتوبة المعلّقة في قاعدة البيانات.</li>
@@ -1104,6 +1155,7 @@
           <li xml:lang="sv">Lagra väntande inskriven information i databasen.</li>
           <li xml:lang="tr">Bekleyen yazılanları veri tabanında tutma desteği</li>
           <li xml:lang="uk">Реалізовано збереження даних щодо черги введення у базі даних.</li>
+          <li xml:lang="zh-CN">将待处理的已输入信息存储到数据库中。</li>
           <li xml:lang="zh-TW">將待處理輸入資訊儲存於資料庫。</li>
           <li>Allow to add attachment files from command line.</li>
           <li xml:lang="ar">اسمح بإضافة ملفات مرفقة من سطر الأوامر.</li>
@@ -1125,6 +1177,7 @@
           <li xml:lang="sv">Tillåt att bilägga filer från kommandoraden.</li>
           <li xml:lang="tr">Komut satırından ilişikler ekleme desteği</li>
           <li xml:lang="uk">Дозволено додавання файлів долучень з командного рядка.</li>
+          <li xml:lang="zh-CN">允许通过命令行添加附件文件。</li>
           <li xml:lang="zh-TW">允許從命令列新增附件檔案。</li>
           <li>Add icon in configure ollama models.</li>
           <li xml:lang="ar">أضف أيقونة لضبط نماذج أولاما</li>
@@ -1146,6 +1199,7 @@
           <li xml:lang="sv">Lägg till ikon i inställda ollama-modeller.</li>
           <li xml:lang="tr">Ollama modellerini yapılandırma simgesi</li>
           <li xml:lang="uk">Додано піктограму для налаштовування моделей ollama.</li>
+          <li xml:lang="zh-CN">添加配置 ollama 模型页面的图标。</li>
           <li xml:lang="zh-TW">在設定 Ollama 模型的地方新增圖示。</li>
           <li>Allow to use specific Ollama environment variables.</li>
           <li xml:lang="ar">السماح باستخدام متغيرات بيئة أولااما محددة.</li>
@@ -1167,6 +1221,7 @@
           <li xml:lang="sv">Tillåt användning av specifika Ollama-miljövariabler.</li>
           <li xml:lang="tr">Belirli Ollama çevre değişkenlerini kullanma desteği</li>
           <li xml:lang="uk">Надає змогу скористатися специфічними змінними середовища Ollama.</li>
+          <li xml:lang="zh-CN">允许使用特定的 Ollama 环境变量。</li>
           <li xml:lang="zh-TW">允許使用指定 Ollama 環境變數。</li>
           <li>Fix multi tools plugins call.</li>
           <li xml:lang="ar">إصلاح استدعاء محلقات متعددة الأدوات.</li>
@@ -1188,6 +1243,7 @@
           <li xml:lang="sv">Rätta flera anrop till insticksverktyg.</li>
           <li xml:lang="tr">Çoklu araçlar eklentileri çağrısı düzeltmesi</li>
           <li xml:lang="uk">Виправлено виклик додатків із декількома інструментами</li>
+          <li xml:lang="zh-CN">修复多工具插件调用。</li>
           <li xml:lang="zh-TW">修正多工具外掛程式呼叫。</li>
         </ul>
       </description>
@@ -1215,6 +1271,7 @@
           <li xml:lang="sv">Lägg till snabbfrågedialogruta.</li>
           <li xml:lang="tr">Tez sorma iletişim kutusu</li>
           <li xml:lang="uk">Додано вікно швидкого питання.</li>
+          <li xml:lang="zh-CN">添加快速提问对话框。</li>
           <li xml:lang="zh-TW">在快速詢問對話框。</li>
           <li>Allow to download Ollama on Windows/MacOs.</li>
           <li xml:lang="ar">اِسمح بتنزيل Ollama على ويندوز/ماك أو إس.</li>
@@ -1236,6 +1293,7 @@
           <li xml:lang="sv">Tillåt nerladdning av Ollama på Windows och MacOs.</li>
           <li xml:lang="tr">Windows/macOS üzerinde Ollama’yı indirme olanağı</li>
           <li xml:lang="uk">Уможливлено отримання Ollama у Windows/MacOs.</li>
+          <li xml:lang="zh-CN">允许在 Windows/MacOs 上下载 Ollama。</li>
           <li xml:lang="zh-TW">在 Windows 及 macOS 允許下載 Ollama。</li>
           <li>Use prompt during chating.</li>
           <li xml:lang="ar">اِستخدم مُوّجِّهًا أثناء الدردشة.</li>
@@ -1257,6 +1315,7 @@
           <li xml:lang="sv">Använd prompt under chatt.</li>
           <li xml:lang="tr">Sohbet sırasında istem kullanma desteği</li>
           <li xml:lang="uk">Реалізовано використання запиту під час спілкування.</li>
+          <li xml:lang="zh-CN">在对话时使用提示词。</li>
           <li xml:lang="zh-TW">使用聊天時的 prompt。</li>
           <li>Add shared text and webshorcut plugin.</li>
           <li xml:lang="ar">أَضِف مُلْحَق النص المُشارَك واِختصار الويب.</li>
@@ -1278,6 +1337,7 @@
           <li xml:lang="sv">Lägg till insticksprogram för delad text och webbgenvägar.</li>
           <li xml:lang="tr">Paylaşılan metin ve web kısayolu eklentisi desteği</li>
           <li xml:lang="uk">Додано додаток оприлюднення тексту та вебскорочень.</li>
+          <li xml:lang="zh-CN">添加共分享文本和网页搜索缩略词插件。</li>
           <li xml:lang="zh-TW">新增已分享文字與網頁捷徑外掛程式。</li>
           <li>Allow to configure plugins.</li>
           <li xml:lang="ar">اِسمح بضبط المُلْحَقات.</li>
@@ -1299,6 +1359,7 @@
           <li xml:lang="sv">Tillåt att anpassa insticksprogram.</li>
           <li xml:lang="tr">Eklentileri yapılandırma desteği</li>
           <li xml:lang="uk">Уможливлено налаштовування додатків.</li>
+          <li xml:lang="zh-CN">允许配置插件。</li>
           <li xml:lang="zh-TW">允許設定外掛程式。</li>
           <li>Add new update widget.</li>
           <li xml:lang="ar">أَضِف وَجيهة تحديث جديدة.</li>
@@ -1320,6 +1381,7 @@
           <li xml:lang="sv">Lägg till ny grafisk uppdateringskomponent.</li>
           <li xml:lang="tr">Yeni güncelleme araç takımı</li>
           <li xml:lang="uk">Додано новий віджет оновлення.</li>
+          <li xml:lang="zh-CN">添加新的“更新”小部件。</li>
           <li xml:lang="zh-TW">新增更新檢查元件。</li>
           <li>Add progress indicator in chats list.</li>
           <li xml:lang="ar">أَضِف مُؤشِّر تقدُّم في قائمة الدردشات.</li>
@@ -1341,6 +1403,7 @@
           <li xml:lang="sv">Lägg till förloppsindikering i chattlistan.</li>
           <li xml:lang="tr">Sohbetler listesinde durum belirteci</li>
           <li xml:lang="uk">У списки спілкувань додано індикатор поступу.</li>
+          <li xml:lang="zh-CN">添加进度指示器到对话列表。</li>
           <li xml:lang="zh-TW">在聊天清單新增進度指示器。</li>
           <li>Allow to change font size.</li>
           <li xml:lang="ar">اِسمح بتغيير حجم الخط.</li>
@@ -1362,6 +1425,7 @@
           <li xml:lang="sv">Tillåt att ändra teckenstorlek.</li>
           <li xml:lang="tr">Yazıtipi puntosunu değiştirme desteği</li>
           <li xml:lang="uk">Уможливлено зміну розміру шрифту.</li>
+          <li xml:lang="zh-CN">允许更改字体大小。</li>
           <li xml:lang="zh-TW">允許改變字型大小。</li>
           <li>Add command line for adding new chat room, displaying list of instances.</li>
           <li xml:lang="ar">أَضِف سطر أوامر لإضافة غرفة دردشة جديدة، وعرض قائمة بالنُسخ.</li>
@@ -1383,6 +1447,7 @@
           <li xml:lang="sv">Lägg till kommandorad för att lägga till nytt chattrum, som visar en lista över instanser.</li>
           <li xml:lang="tr">Yeni sohbet odası ve var olan örneklerin listesini görüntülemek için komut satırı seçeneği</li>
           <li xml:lang="uk">Додано параметр командного рядка для додавання нової кімнати спілкування, показу списку екземплярів.</li>
+          <li xml:lang="zh-CN">添加用于新建对话和显示实例列表的命令行。</li>
           <li xml:lang="zh-TW">新增從命令列新增聊天室、顯示實例清單的功能。</li>
           <li>Add spell checking support.</li>
           <li xml:lang="ar">أَضِف دعم التدقيق الإملائي.</li>
@@ -1404,6 +1469,7 @@
           <li xml:lang="sv">Lägg till stöd för stavningskontroll</li>
           <li xml:lang="tr">Yazım denetimi desteği</li>
           <li xml:lang="uk">Додано підтримку перевірки правопису.</li>
+          <li xml:lang="zh-CN">添加拼写检查支持。</li>
           <li xml:lang="zh-TW">新增拼字檢查支援。</li>
           <li>Add Notification popup when model download done.</li>
           <li xml:lang="ar">أَضِف نافذة مُنبَثِقة للإشعارات عند تنزيل النموذج.</li>
@@ -1425,6 +1491,7 @@
           <li xml:lang="sv">Lägg till underrättelsemeddelande när modellnerladdning klar.</li>
           <li xml:lang="tr">İndirme tamamlandığında bildirim</li>
           <li xml:lang="uk">Додано контекстне сповіщення щодо завершення отримання моделі.</li>
+          <li xml:lang="zh-CN">添加模型下载完成后的弹窗通知。</li>
           <li xml:lang="zh-TW">模型下載完成時顯示通知。</li>
           <li>Allow to save and restore text and scrollbar position.</li>
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة النص ومَوضِع شريط التمرير.</li>
@@ -1446,6 +1513,7 @@
           <li xml:lang="sv">Tillåt att spara och återställa text och rullningslistposition.</li>
           <li xml:lang="tr">Metin ve sarma çubuğu konumunu kaydetme ve geri yükleme desteği</li>
           <li xml:lang="uk">Дозволити збереження і відновлення тексту і позиції на смужці гортання.</li>
+          <li xml:lang="zh-CN">允许保存和恢复文本及滚动条位置。</li>
           <li xml:lang="zh-TW">允許儲存並復原文字與捲動位置。</li>
           <li>Allow to save and restore current chat.</li>
           <li xml:lang="ar">اِسمح بِحِفظ واستِعادَة الدردشة الحالية.</li>
@@ -1467,6 +1535,7 @@
           <li xml:lang="sv">Tillåt att spara och återställa aktuell chatt.</li>
           <li xml:lang="tr">Geçerli sohbeti kaydetme ve yeniden yükleme desteği</li>
           <li xml:lang="uk">Дозволити збереження і відновлення поточного спілкування.</li>
+          <li xml:lang="zh-CN">允许保存和恢复当前对话。</li>
           <li xml:lang="zh-TW">允許儲存並復原目前聊天。</li>
           <li>Add option for showing list of title chats.</li>
           <li xml:lang="ar">أَضِف خيارًا لِعَرض قائمة عناوين الدردشات.</li>
@@ -1488,6 +1557,7 @@
           <li xml:lang="sv">Lägg till alternativ för att visa lista över chattitlar.</li>
           <li xml:lang="tr">Sohbet başlıklarını listeleme desteği</li>
           <li xml:lang="uk">Додано пункт для показу списку спілкувань із заголовками.</li>
+          <li xml:lang="zh-CN">添加显示对话列表标题的选项。</li>
           <li xml:lang="zh-TW">新增顯示聊天室標題清單的選項。</li>
           <li>Add tools support.</li>
           <li xml:lang="ar">أَضِف دعم الأدوات.</li>
@@ -1509,6 +1579,7 @@
           <li xml:lang="sv">Lägg till verktygsstöd.</li>
           <li xml:lang="tr">Araçlar desteği</li>
           <li xml:lang="uk">Додано підтримку інструментів.</li>
+          <li xml:lang="zh-CN">添加工具支持。</li>
           <li xml:lang="zh-TW">新增工具支援。</li>
           <li>Allow to switch from chat identifier.</li>
           <li xml:lang="ar">اِسمح بالانتقال من مُعرِّف الدردشة.</li>
@@ -1530,6 +1601,7 @@
           <li xml:lang="sv">Tillåt att byta från chattidentifierare.</li>
           <li xml:lang="tr">Sohbet tanımlayıcısından geçiş yapma desteği</li>
           <li xml:lang="uk">Уможливлено перемикання з ідентифікатора спілкування.</li>
+          <li xml:lang="zh-CN">允许通过对话标识符切换对话。</li>
           <li xml:lang="zh-TW">允許從聊天識別子切換。</li>
           <li>Add Current Date Time tool.</li>
           <li xml:lang="ar">أَضِف أداة الوقت والتاريخ الحالي.</li>
@@ -1551,6 +1623,7 @@
           <li xml:lang="sv">Lägg till verktyg för aktuellt datum och tid.</li>
           <li xml:lang="tr">Şu anki tarihi/zamanı ekleme aracı</li>
           <li xml:lang="uk">Додано інструмент поточної дати і часу.</li>
+          <li xml:lang="zh-CN">添加当前日期时间工具。</li>
           <li xml:lang="zh-TW">新增「目前日期與時間」工具。</li>
           <li>Add progress tool message info.</li>
           <li xml:lang="ar">أَضِف معلومات رسالة أداة التقدُّم.</li>
@@ -1572,6 +1645,7 @@
           <li xml:lang="sv">Lägg till meddelandeinformation i förloppsverktyg..</li>
           <li xml:lang="tr">İlerleme aracı iletisi bilgisi</li>
           <li xml:lang="uk">Додано інструмент поступу до відомостей щодо повідомлень.</li>
+          <li xml:lang="zh-CN">添加进度工具消息信息。</li>
           <li xml:lang="zh-TW">新增進度工具的訊息資訊。</li>
           <li>"Fix icon on windows.</li>
           <li xml:lang="ar">"إصلاح أيقونة في ويندوز</li>
@@ -1593,6 +1667,7 @@
           <li xml:lang="sv">"Rätta ikon på Windows.</li>
           <li xml:lang="tr">Windows üzerinde simge onarımı</li>
           <li xml:lang="uk">Виправлено піктограму у Windows.</li>
+          <li xml:lang="zh-CN">修复窗口上的图标。</li>
           <li xml:lang="zh-TW">修正 Windows 上的圖示。</li>
         </ul>
       </description>
@@ -1621,6 +1696,7 @@
           <li xml:lang="sv">Lägg till stöd för Vad är nytt.</li>
           <li xml:lang="tr">“Neler Yeni” desteği</li>
           <li xml:lang="uk">Додано підтримку показу новин щодо програми.</li>
+          <li xml:lang="zh-CN">添加“新增功能”支持。</li>
           <li xml:lang="zh-TW">支援「新功能」顯示。</li>
           <li>Add instance support.</li>
           <li xml:lang="ar">أَضِف دعم النُسخ.</li>
@@ -1642,6 +1718,7 @@
           <li xml:lang="sv">Lägg till instansstöd.</li>
           <li xml:lang="tr">Örnek desteği</li>
           <li xml:lang="uk">Додано підтримку екземплярів програми.</li>
+          <li xml:lang="zh-CN">添加实例支持。</li>
           <li xml:lang="zh-TW">支援實體。</li>
           <li>Add Markdown support.</li>
           <li xml:lang="ar">أَضِف دعم مارك داون.</li>
@@ -1663,6 +1740,7 @@
           <li xml:lang="sv">Lägg till stöd för Markdown.</li>
           <li xml:lang="tr">Markdown desteği</li>
           <li xml:lang="uk">Додано підтримку Markdown.</li>
+          <li xml:lang="zh-CN">添加 Markdown 支持。</li>
           <li xml:lang="zh-TW">支援 Markdown。</li>
           <li>Add Highlighting support.</li>
           <li xml:lang="ar">أَضِف دعم التمييز.</li>
@@ -1684,6 +1762,7 @@
           <li xml:lang="sv">Lägg till stöd för syntaxfärgläggning.</li>
           <li xml:lang="tr">Vurgulama desteği</li>
           <li xml:lang="uk">Додано підтримку підсвічування.</li>
+          <li xml:lang="zh-CN">添加高亮支持。</li>
           <li xml:lang="zh-TW">支援突顯。</li>
         </ul>
       </description>
