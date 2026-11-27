@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-26 01:08+0000\n"
-"PO-Revision-Date: 2026-11-22 19:07+0300\n"
+"PO-Revision-Date: 2026-11-26 18:14+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -132,12 +132,13 @@ msgid ""
 "Ask a predefined question (summarize, explain-code). Ignored when a message "
 "is given"
 msgstr ""
+"Önceden tanımlı bir soru sor (özetle, kodu açıkla). Bir ileti verildiğinde "
+"yok sayılır."
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgid "Prompt Name"
-msgstr "Sohbet Adı"
+msgstr "İstem Adı"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -212,13 +213,13 @@ msgstr "İçe aktarılacak sohbet dosyası"
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Summarize this document."
-msgstr ""
+msgstr "Bu belgeyi özetle."
 
 #: core/kaichatcommandlineparser.cpp:113
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Explain what this code does."
-msgstr ""
+msgstr "Bu kodun ne yaptığını açıkla."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format

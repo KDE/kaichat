@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-26 01:08+0000\n"
-"PO-Revision-Date: 2026-11-21 12:51+0200\n"
+"PO-Revision-Date: 2026-11-26 08:45+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -133,12 +133,13 @@ msgid ""
 "Ask a predefined question (summarize, explain-code). Ignored when a message "
 "is given"
 msgstr ""
+"Поставте попередньо визначене питання (резюме, пояснення коду). Буде "
+"проігноровано, якщо вказано повідомлення"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgid "Prompt Name"
-msgstr "Назва спілкування"
+msgstr "Назва запиту"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -213,13 +214,13 @@ msgstr "Файл спілкування для імпортування"
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Summarize this document."
-msgstr ""
+msgstr "Надати резюме цього документа."
 
 #: core/kaichatcommandlineparser.cpp:113
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Explain what this code does."
-msgstr ""
+msgstr "Пояснити, як працює код."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format

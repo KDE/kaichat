@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kaichat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-11-26 01:08+0000\n"
-"PO-Revision-Date: 2026-11-21 09:58+0100\n"
+"PO-Revision-Date: 2026-11-26 10:02+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -134,12 +134,13 @@ msgid ""
 "Ask a predefined question (summarize, explain-code). Ignored when a message "
 "is given"
 msgstr ""
+"Fa una pregunta predefinida (resumeix, explica-codi). S'ignora quan s'indica "
+"un missatge"
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgid "Prompt Name"
-msgstr "Nom del xat"
+msgstr "Nom de la indicació"
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
@@ -214,13 +215,13 @@ msgstr "Fitxer de xat a importar"
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Summarize this document."
-msgstr ""
+msgstr "Resumeix aquest document."
 
 #: core/kaichatcommandlineparser.cpp:113
 #, kde-format
 msgctxt "@info Question sent to the AI model"
 msgid "Explain what this code does."
-msgstr ""
+msgstr "Explica que fa aquest codi."
 
 #: core/kaichatexportchatasmarkdownjob.cpp:23
 #, kde-format

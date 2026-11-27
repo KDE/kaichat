@@ -136,10 +136,9 @@ msgid ""
 msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:40
-#, fuzzy, kde-format
-#| msgid "Chat Name"
+#, kde-format
 msgid "Prompt Name"
-msgstr "对话名称"
+msgstr ""
 
 #: core/kaichatcommandlineparser.cpp:44
 #, kde-format
