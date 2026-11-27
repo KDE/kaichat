@@ -3,10 +3,26 @@ Type=Service
 MimeType=text/x-csrc;text/x-chdr;text/x-c++src;text/x-c++hdr;text/x-python;text/x-python3;text/x-java;text/x-go;text/rust;text/x-cmake;text/x-qml;text/javascript;application/javascript;application/x-shellscript;application/x-perl;application/x-php;text/x-ruby;
 Actions=explainCodeKAIChat;
 X-KDE-Submenu=KAIChat
+X-KDE-Submenu[ca]=KAIChat
+X-KDE-Submenu[es]=KAIChat
+X-KDE-Submenu[he]=KAIChat
+X-KDE-Submenu[ka]=KAIChat
+X-KDE-Submenu[nl]=KAIChat
+X-KDE-Submenu[pt_BR]=KAIChat
+X-KDE-Submenu[tr]=KAIChat
+X-KDE-Submenu[uk]=KAIChat
 X-KDE-MaxNumberOfUrls=1
 Icon=kaichat
 
 [Desktop Action explainCodeKAIChat]
 Name=Explain Code
+Name[ca]=Explica un codi
+Name[es]=Explicar código
+Name[he]=להסביר את הקוד
+Name[ka]=კოდის ახსნა
+Name[nl]=Verklaar code
+Name[pt_BR]=Explicar código
+Name[tr]=Kodu Açıkla
+Name[uk]=Пояснення коду
 Icon=kaichat
 Exec=kaichat --quick-ask --attach %f --prompt explain-code
